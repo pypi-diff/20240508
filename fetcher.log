@@ -232,3 +232,32 @@
 [2024-05-08 00:07:08] INFO root fetch - processPackages [cochleogram]: Remove: archive file [/home/abi/fetcher/tmp/cochleogram-0.9.0.tar.gz]
 [2024-05-08 00:07:08] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
 [2024-05-08 00:07:08] INFO root fetch - main [MainThread]: Store serial: [23104374]
+[2024-05-08 00:09:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104374]
+[2024-05-08 00:09:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ciscoconfparse2
+[2024-05-08 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YoteelijSnorlax
+[2024-05-08 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wandb
+[2024-05-08 00:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaserver-folders-aws-s3
+[2024-05-08 00:09:16] INFO root fetch - processPackages [wandb]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-08 00:09:16] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-08 00:09:16] WARNING root fetch - processPackages [YoteelijSnorlax]: Skipping, unable to determine old version
+[2024-05-08 00:09:16] INFO root fetch - main [MainThread]: End processing [YoteelijSnorlax] error
+[2024-05-08 00:09:16] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-08 00:09:17] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/b8/65/eea41233f1a2097ce378afaa8043bfae4e0eb30d7325a44aeb093fd18c15/wandb-0.9.6.tar.gz
+[2024-05-08 00:09:17] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/b5/ac/522a078f5903c4c85ed6423f53e565305daed8c1b3d38324e9f948caa56f/heaserver_folders_aws_s3-1.1.3.tar.gz
+[2024-05-08 00:09:17] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-05-08 00:09:17] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-05-08 00:09:17] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-05-08 00:09:17] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/bf/d9/c16ef76a05b87a0a20e9d00ada8e4040cc93eae866589c7d5e61a0abed23/heaserver_folders_aws_s3-1.1.4.tar.gz
+[2024-05-08 00:09:17] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2024-05-08 00:09:17] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_folders_aws_s3-1.1.3.tar.gz tmp/heaserver_folders_aws_s3-1.1.4.tar.gz --markdown 20240508/h/heaserver-folders-aws-s3/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-08 00:09:18] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_folders_aws_s3-1.1.3.tar.gz]
+[2024-05-08 00:09:18] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_folders_aws_s3-1.1.4.tar.gz]
+[2024-05-08 00:09:18] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2024-05-08 00:09:19] INFO root fetch - processPackages [wandb]: Downloading https://files.pythonhosted.org/packages/98/14/b78c9c56d13fa52f303561ca749be7e35da9d96acf1471594d2068a52324/wandb-0.9.7.tar.gz
+[2024-05-08 00:09:21] INFO root fetch - processPackages [wandb]: executing diffoscope
+[2024-05-08 00:09:21] INFO root fetch - processPackages [wandb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wandb-0.9.6.tar.gz tmp/wandb-0.9.7.tar.gz --markdown 20240508/w/wandb/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-08 00:09:24] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.6.tar.gz]
+[2024-05-08 00:09:24] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.7.tar.gz]
+[2024-05-08 00:09:24] INFO root fetch - main [MainThread]: End processing [wandb]: success
+[2024-05-08 00:09:24] INFO root fetch - main [MainThread]: Store serial: [23104393]
