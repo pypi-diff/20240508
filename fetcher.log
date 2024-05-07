@@ -2023,3 +2023,24 @@
 [2024-05-08 01:54:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-05-08 01:54:25] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-05-08 01:54:25] INFO root fetch - main [MainThread]: Store serial: [23105102]
+[2024-05-08 01:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105102]
+[2024-05-08 01:56:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhuodata-lib
+[2024-05-08 01:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhostprep
+[2024-05-08 01:56:34] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-08 01:56:34] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/70/2b/7056e247a387ed4f490cbcfa0c46e405354047c07e6b83636e007f8ccac8/dhuodata_lib-0.2.6.tar.gz
+[2024-05-08 01:56:34] INFO root fetch - processPackages [pyhostprep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 01:56:34] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/94/61/1809df995d09b6f4e98751922154066ac1ae8ee9ec899108ee760146f82f/dhuodata_lib-0.2.7.tar.gz
+[2024-05-08 01:56:34] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/04/d8/963d47e7a92caae4e6ccf713750c04249de9656a850f31195b69b2db3574/pyhostprep-1.0.8.tar.gz
+[2024-05-08 01:56:34] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-08 01:56:34] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.2.6.tar.gz tmp/dhuodata_lib-0.2.7.tar.gz --markdown 20240508/d/dhuodata-lib/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-08 01:56:34] INFO root fetch - processPackages [pyhostprep]: Downloading https://files.pythonhosted.org/packages/cd/3c/cf23b46a139c7addacc89c01e7c0d5972b5e935296a61327072b946f592e/pyhostprep-1.0.9.tar.gz
+[2024-05-08 01:56:34] INFO root fetch - processPackages [pyhostprep]: executing diffoscope
+[2024-05-08 01:56:34] INFO root fetch - processPackages [pyhostprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhostprep-1.0.8.tar.gz tmp/pyhostprep-1.0.9.tar.gz --markdown 20240508/p/pyhostprep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 01:56:35] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.2.6.tar.gz]
+[2024-05-08 01:56:35] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.2.7.tar.gz]
+[2024-05-08 01:56:35] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-08 01:56:35] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.8.tar.gz]
+[2024-05-08 01:56:35] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
+[2024-05-08 01:56:35] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
+[2024-05-08 01:56:35] INFO root fetch - main [MainThread]: Store serial: [23105109]
