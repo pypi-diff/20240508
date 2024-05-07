@@ -261,3 +261,15 @@
 [2024-05-08 00:09:24] INFO root fetch - processPackages [wandb]: Remove: archive file [/home/abi/fetcher/tmp/wandb-0.9.7.tar.gz]
 [2024-05-08 00:09:24] INFO root fetch - main [MainThread]: End processing [wandb]: success
 [2024-05-08 00:09:24] INFO root fetch - main [MainThread]: Store serial: [23104393]
+[2024-05-08 00:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104393]
+[2024-05-08 00:11:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 00:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kgr
+[2024-05-08 00:11:32] INFO root fetch - processPackages [kgr]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-08 00:11:32] INFO root fetch - processPackages [kgr]: Downloading https://files.pythonhosted.org/packages/1c/74/350a2bc5e1e96a8748fd3e236020989aa30b5e04b16bb7cea017b0a05487/kgr-0.1.7.tar.gz
+[2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: Downloading https://files.pythonhosted.org/packages/c9/21/cf84abc4545596c48a50844adadd15c9cce4b55ef1f95749c17a027c6880/kgr-0.1.8.tar.gz
+[2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: executing diffoscope
+[2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgr-0.1.7.tar.gz tmp/kgr-0.1.8.tar.gz --markdown 20240508/k/kgr/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: Remove: archive file [/home/abi/fetcher/tmp/kgr-0.1.7.tar.gz]
+[2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: Remove: archive file [/home/abi/fetcher/tmp/kgr-0.1.8.tar.gz]
+[2024-05-08 00:11:33] INFO root fetch - main [MainThread]: End processing [kgr]: success
+[2024-05-08 00:11:33] INFO root fetch - main [MainThread]: Store serial: [23104397]
