@@ -630,3 +630,15 @@
 [2024-05-08 00:35:32] INFO root fetch - processPackages [task-queue]: Remove: archive file [/home/abi/fetcher/tmp/task-queue-2.9.0.tar.gz]
 [2024-05-08 00:35:32] INFO root fetch - main [MainThread]: End processing [task-queue]: success
 [2024-05-08 00:35:32] INFO root fetch - main [MainThread]: Store serial: [23104565]
+[2024-05-08 00:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104565]
+[2024-05-08 00:37:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 00:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datagov-harvesting-logic
+[2024-05-08 00:37:41] INFO root fetch - processPackages [datagov-harvesting-logic]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-08 00:37:41] INFO root fetch - processPackages [datagov-harvesting-logic]: Downloading https://files.pythonhosted.org/packages/8d/e9/0ef1799cac34bbaaa6707a3aee57c4ee9fffa4aa72be014739dcbc151180/datagov_harvesting_logic-0.4.0.tar.gz
+[2024-05-08 00:37:41] INFO root fetch - processPackages [datagov-harvesting-logic]: Downloading https://files.pythonhosted.org/packages/5d/33/6d95cd9a8588272583e21d9e6a776854dee35cf20950c16c1e144ba0dcb5/datagov_harvesting_logic-0.4.1.tar.gz
+[2024-05-08 00:37:41] INFO root fetch - processPackages [datagov-harvesting-logic]: executing diffoscope
+[2024-05-08 00:37:41] INFO root fetch - processPackages [datagov-harvesting-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagov_harvesting_logic-0.4.0.tar.gz tmp/datagov_harvesting_logic-0.4.1.tar.gz --markdown 20240508/d/datagov-harvesting-logic/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-08 00:37:42] INFO root fetch - processPackages [datagov-harvesting-logic]: Remove: archive file [/home/abi/fetcher/tmp/datagov_harvesting_logic-0.4.0.tar.gz]
+[2024-05-08 00:37:42] INFO root fetch - processPackages [datagov-harvesting-logic]: Remove: archive file [/home/abi/fetcher/tmp/datagov_harvesting_logic-0.4.1.tar.gz]
+[2024-05-08 00:37:42] INFO root fetch - main [MainThread]: End processing [datagov-harvesting-logic]: success
+[2024-05-08 00:37:42] INFO root fetch - main [MainThread]: Store serial: [23104569]
