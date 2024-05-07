@@ -1793,3 +1793,42 @@
 [2024-05-08 01:43:28] INFO root fetch - processPackages [shelvery]: Remove: archive file [/home/abi/fetcher/tmp/shelvery-0.9.9.tar.gz]
 [2024-05-08 01:43:28] INFO root fetch - main [MainThread]: End processing [shelvery]: success
 [2024-05-08 01:43:28] INFO root fetch - main [MainThread]: Store serial: [23104957]
+[2024-05-08 01:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104957]
+[2024-05-08 01:45:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 01:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thonny-friendly
+[2024-05-08 01:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-telegram
+[2024-05-08 01:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reactpy-django
+[2024-05-08 01:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmticket
+[2024-05-08 01:45:36] INFO root fetch - processPackages [thonny-friendly]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 01:45:36] INFO root fetch - processPackages [thonny-friendly]: Downloading https://files.pythonhosted.org/packages/8a/42/1e3f11bdc8a3953d8afb65c135c3193d87cf5b618809560a5d76fbbca7db/thonny-friendly-0.0.3.tar.gz
+[2024-05-08 01:45:36] INFO root fetch - processPackages [tmticket]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 01:45:36] INFO root fetch - processPackages [sentry-telegram]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-08 01:45:36] INFO root fetch - processPackages [reactpy-django]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-05-08 01:45:36] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/df/a1/67d53695aae01be1fc7c0cffb4511296bd650a76b6a1a50ebe07e822c19a/tmticket-0.1.8.tar.gz
+[2024-05-08 01:45:36] INFO root fetch - processPackages [sentry-telegram]: Downloading https://files.pythonhosted.org/packages/b7/ee/c1eaa8e76c7eab9d8de4be643be051dddf229b071fc2d2f8a293c05ddc70/sentry_telegram-0.4.0.tar.gz
+[2024-05-08 01:45:36] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/83/2c/b736050fb84c85503f62d98bd43bd257e49b0c207f8ba514bc0014337e1c/reactpy_django-3.8.0.tar.gz
+[2024-05-08 01:45:36] INFO root fetch - processPackages [thonny-friendly]: Downloading https://files.pythonhosted.org/packages/53/ed/504ee8ad003eab8b57774f8407e411d334de6b91bdc0255d15dc49eaab8c/thonny_friendly-0.0.4.tar.gz
+[2024-05-08 01:45:37] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/ce/36/74cf9a961080171bcd5e92d60f426b9744eb406b90e174999710fc198cdd/tmticket-0.1.9.tar.gz
+[2024-05-08 01:45:37] INFO root fetch - processPackages [thonny-friendly]: executing diffoscope
+[2024-05-08 01:45:37] INFO root fetch - processPackages [thonny-friendly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thonny-friendly-0.0.3.tar.gz tmp/thonny_friendly-0.0.4.tar.gz --markdown 20240508/t/thonny-friendly/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 01:45:37] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-08 01:45:37] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.1.8.tar.gz tmp/tmticket-0.1.9.tar.gz --markdown 20240508/t/tmticket/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 01:45:37] INFO root fetch - processPackages [sentry-telegram]: Downloading https://files.pythonhosted.org/packages/db/43/ccc55d16a14b730926e7631be98c31b86057643f479fea6665df9649bf9d/sentry_telegram-0.5.0.tar.gz
+[2024-05-08 01:45:37] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/5d/87/8a7a6f5b738ae61e3e5527362279f58acfa86f932155285abdce40e7751d/reactpy_django-3.8.1.tar.gz
+[2024-05-08 01:45:37] INFO root fetch - processPackages [sentry-telegram]: executing diffoscope
+[2024-05-08 01:45:37] INFO root fetch - processPackages [sentry-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_telegram-0.4.0.tar.gz tmp/sentry_telegram-0.5.0.tar.gz --markdown 20240508/s/sentry-telegram/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 01:45:37] INFO root fetch - processPackages [reactpy-django]: executing diffoscope
+[2024-05-08 01:45:37] INFO root fetch - processPackages [reactpy-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_django-3.8.0.tar.gz tmp/reactpy_django-3.8.1.tar.gz --markdown 20240508/r/reactpy-django/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-05-08 01:45:37] INFO root fetch - processPackages [thonny-friendly]: Remove: archive file [/home/abi/fetcher/tmp/thonny-friendly-0.0.3.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - processPackages [thonny-friendly]: Remove: archive file [/home/abi/fetcher/tmp/thonny_friendly-0.0.4.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - main [MainThread]: End processing [thonny-friendly]: success
+[2024-05-08 01:45:37] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.1.8.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.1.9.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-08 01:45:37] INFO root fetch - processPackages [sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram-0.4.0.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - processPackages [sentry-telegram]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram-0.5.0.tar.gz]
+[2024-05-08 01:45:37] INFO root fetch - main [MainThread]: End processing [sentry-telegram]: success
+[2024-05-08 01:45:38] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.8.0.tar.gz]
+[2024-05-08 01:45:38] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.8.1.tar.gz]
+[2024-05-08 01:45:38] INFO root fetch - main [MainThread]: End processing [reactpy-django]: success
+[2024-05-08 01:45:38] INFO root fetch - main [MainThread]: Store serial: [23104969]
