@@ -736,3 +736,69 @@
 [2024-05-08 00:44:12] INFO root fetch - processPackages [openet-core]: Remove: archive file [/home/abi/fetcher/tmp/openet_core-0.4.2.tar.gz]
 [2024-05-08 00:44:12] INFO root fetch - main [MainThread]: End processing [openet-core]: success
 [2024-05-08 00:44:12] INFO root fetch - main [MainThread]: Store serial: [23104596]
+[2024-05-08 00:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104596]
+[2024-05-08 00:46:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kgr
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexus-scraper
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dblcsgen
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: felmateos
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: special-agents
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stratocumulus
+[2024-05-08 00:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-restful
+[2024-05-08 00:46:21] INFO root fetch - processPackages [felmateos]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [special-agents]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [stratocumulus]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [nexus-scraper]: New version: [0.1.8] Old Version: [0.1.0]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/b0/8f/ac25234eb18a5274e2bd68256f8c8434808ef8cf9d6e004f401fd64e0302/special_agents-1.0.7.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [kgr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [stratocumulus]: Downloading https://files.pythonhosted.org/packages/66/d4/5288875f4b14d0a23ca596e50b82a8b29feaef31d933e6d34a7edf17c767/stratocumulus-0.2.1.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/1d/c1/8876304c3a11c248cd5a7dea3ad9b9e067d1b3bb14d32762f1a514018bec/nexus_scraper-0.1.0.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [fastapi-restful]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-08 00:46:21] INFO root fetch - processPackages [felmateos]: Downloading https://files.pythonhosted.org/packages/7f/fc/38f833d1accad548951de67e2e9841d69f1e05c5dfc4b8752582341db5f4/felmateos-0.1.0-py3-none-any.whl
+[2024-05-08 00:46:21] INFO root fetch - processPackages [kgr]: Downloading https://files.pythonhosted.org/packages/c9/21/cf84abc4545596c48a50844adadd15c9cce4b55ef1f95749c17a027c6880/kgr-0.1.8.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/ca/3e/47a0f8b9ca25854df49e88bba571e36f71e8ec9e542b692e0a882d3c0659/dblcsgen-0.2.4.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [stratocumulus]: Downloading https://files.pythonhosted.org/packages/53/c3/884910831243211c793b7759332b20894122fa3f3b2b1a4e2d12b9ee7415/stratocumulus-0.2.2.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/24/7e/d0dfc49d9cc73d5ad5585a76984bc04cf97b31de0bdf3acfa6d7b0ea484b/nexus_scraper-0.1.8.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [fastapi-restful]: Downloading https://files.pythonhosted.org/packages/33/f0/a6efa38fd4f8eed509f205cf9a6d234c15f1a2f26dc4970f93d461ccc893/fastapi_restful-0.5.0.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/43/17/b09dd09bb838beee87ba93210ba619ecd3b88ab157642546a80882a25d4a/special_agents-1.0.8.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [stratocumulus]: executing diffoscope
+[2024-05-08 00:46:21] INFO root fetch - processPackages [stratocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stratocumulus-0.2.1.tar.gz tmp/stratocumulus-0.2.2.tar.gz --markdown 20240508/s/stratocumulus/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 00:46:21] INFO root fetch - processPackages [nexus-scraper]: executing diffoscope
+[2024-05-08 00:46:21] INFO root fetch - processPackages [nexus-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_scraper-0.1.0.tar.gz tmp/nexus_scraper-0.1.8.tar.gz --markdown 20240508/n/nexus-scraper/0.1.0-0.1.8/README.md --exclude *.pyd
+[2024-05-08 00:46:21] INFO root fetch - processPackages [felmateos]: Downloading https://files.pythonhosted.org/packages/c0/e8/3b9fc07b6f7ddbb55f421201ed26f203528e7e1d7dd67dafd767920b7db0/felmateos-0.1.1-py3-none-any.whl
+[2024-05-08 00:46:21] INFO root fetch - processPackages [kgr]: Downloading https://files.pythonhosted.org/packages/5f/9d/5792a41c12f93adcc8bc8e8503f52175954844983d0e8a126b334049e41b/kgr-0.1.9.tar.gz
+[2024-05-08 00:46:21] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-08 00:46:21] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.7.tar.gz tmp/special_agents-1.0.8.tar.gz --markdown 20240508/s/special-agents/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 00:46:21] INFO root fetch - processPackages [felmateos]: executing diffoscope
+[2024-05-08 00:46:21] INFO root fetch - processPackages [felmateos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felmateos-0.1.0-py3-none-any.whl.zip tmp/felmateos-0.1.1-py3-none-any.whl.zip --markdown 20240508/f/felmateos/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 00:46:21] INFO root fetch - processPackages [kgr]: executing diffoscope
+[2024-05-08 00:46:21] INFO root fetch - processPackages [kgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgr-0.1.8.tar.gz tmp/kgr-0.1.9.tar.gz --markdown 20240508/k/kgr/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:46:21] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/4d/5a/7ac1129e55d217a184bedb2053317291276ee4c7b1b6cd85fed60182bb8a/dblcsgen-0.2.5.tar.gz
+[2024-05-08 00:46:22] INFO root fetch - processPackages [fastapi-restful]: Downloading https://files.pythonhosted.org/packages/53/ad/ea9cc9958dfa9daf8f4358de7021b24f9c5f257be3137a75179713d9b110/fastapi_restful-0.6.0.tar.gz
+[2024-05-08 00:46:22] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-05-08 00:46:22] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.4.tar.gz tmp/dblcsgen-0.2.5.tar.gz --markdown 20240508/d/dblcsgen/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-08 00:46:22] INFO root fetch - processPackages [fastapi-restful]: executing diffoscope
+[2024-05-08 00:46:22] INFO root fetch - processPackages [fastapi-restful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_restful-0.5.0.tar.gz tmp/fastapi_restful-0.6.0.tar.gz --markdown 20240508/f/fastapi-restful/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-08 00:46:22] INFO root fetch - processPackages [stratocumulus]: Remove: archive file [/home/abi/fetcher/tmp/stratocumulus-0.2.1.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [stratocumulus]: Remove: archive file [/home/abi/fetcher/tmp/stratocumulus-0.2.2.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [stratocumulus]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.7.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.8.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.1.0.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.1.8.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [nexus-scraper]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [felmateos]: Remove: archive file [/home/abi/fetcher/tmp/felmateos-0.1.0-py3-none-any.whl.zip]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [felmateos]: Remove: archive file [/home/abi/fetcher/tmp/felmateos-0.1.1-py3-none-any.whl.zip]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [felmateos]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [fastapi-restful]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful-0.5.0.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [fastapi-restful]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_restful-0.6.0.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [fastapi-restful]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [kgr]: Remove: archive file [/home/abi/fetcher/tmp/kgr-0.1.8.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [kgr]: Remove: archive file [/home/abi/fetcher/tmp/kgr-0.1.9.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [kgr]: success
+[2024-05-08 00:46:22] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.4.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.5.tar.gz]
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-05-08 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23104616]
