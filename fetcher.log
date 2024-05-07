@@ -338,3 +338,54 @@
 [2024-05-08 00:15:56] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.4.0.tar.gz]
 [2024-05-08 00:15:56] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
 [2024-05-08 00:15:56] INFO root fetch - main [MainThread]: Store serial: [23104451]
+[2024-05-08 00:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104451]
+[2024-05-08 00:18:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cumulusci
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-profile-local
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textprepper
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yunxiao
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cell-annotation-schema
+[2024-05-08 00:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wormimtools
+[2024-05-08 00:18:04] INFO root fetch - processPackages [yunxiao]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 00:18:04] INFO root fetch - processPackages [profile-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 00:18:04] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/91/30/7dab021fbebcbc8a948535a3259771c4ba186e097cba0298a6fc3e09bfad/yunxiao-0.5.8.tar.gz
+[2024-05-08 00:18:04] INFO root fetch - processPackages [wormimtools]: New version: [1.0.0] Old Version: [0.3.2]
+[2024-05-08 00:18:04] INFO root fetch - processPackages [profile-profile-local]: Downloading https://files.pythonhosted.org/packages/90/bb/24aa5eb58527604743feadc2680f830ef33de354683adc2a4f81243abea9/profile-profile-local-0.0.8.tar.gz
+[2024-05-08 00:18:04] WARNING root fetch - processPackages [textprepper]: Skipping, unable to determine old version
+[2024-05-08 00:18:04] INFO root fetch - main [MainThread]: End processing [textprepper] error
+[2024-05-08 00:18:04] INFO root fetch - processPackages [cell-annotation-schema]: New version: [0.3b0] Old Version: [0.2b0]
+[2024-05-08 00:18:04] INFO root fetch - processPackages [cumulusci]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-08 00:18:05] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/65/ea/8d09efecced01316117ff8cca25d25d952fb19ccfc4d0fa3a890e60f9eb1/yunxiao-0.5.9.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [wormimtools]: Downloading https://files.pythonhosted.org/packages/58/27/7e79f11e73b6e39bbd2b546d2195b7dca39f0eac994928b1ed05f7ebd06d/wormimtools-0.3.2.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [profile-profile-local]: Downloading https://files.pythonhosted.org/packages/62/0c/584703d0fa2d3bbfe3af2a09acd2b0c5250320eaeec37a48e025bc51b7c6/profile-profile-local-0.0.9.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [cell-annotation-schema]: Downloading https://files.pythonhosted.org/packages/f2/d1/573f254aff73a74090a5c11e90ec8414809ace73ea51664e80db9c959ad1/cell-annotation-schema-0.2b0.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-05-08 00:18:05] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.5.8.tar.gz tmp/yunxiao-0.5.9.tar.gz --markdown 20240508/y/yunxiao/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 00:18:05] INFO root fetch - processPackages [profile-profile-local]: executing diffoscope
+[2024-05-08 00:18:05] INFO root fetch - processPackages [profile-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-profile-local-0.0.8.tar.gz tmp/profile-profile-local-0.0.9.tar.gz --markdown 20240508/p/profile-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 00:18:05] INFO root fetch - processPackages [cumulusci]: Downloading https://files.pythonhosted.org/packages/4c/52/f4a20a5cd046a145408c6af157eb585edee63c38bcff1720dd522ffe88b6/cumulusci-3.9.0.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [cell-annotation-schema]: Downloading https://files.pythonhosted.org/packages/fc/53/17ca5559182d70ee0132eb760a1ff1c0ac2c545fac417903e61fe121de16/cell-annotation-schema-0.3b0.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [wormimtools]: Downloading https://files.pythonhosted.org/packages/95/75/4b3441ca7652748f314b143a7b957389f3aa020744b95e9e8bafc4cf242f/wormimtools-1.0.0.tar.gz
+[2024-05-08 00:18:05] INFO root fetch - processPackages [cell-annotation-schema]: executing diffoscope
+[2024-05-08 00:18:05] INFO root fetch - processPackages [cell-annotation-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cell-annotation-schema-0.2b0.tar.gz tmp/cell-annotation-schema-0.3b0.tar.gz --markdown 20240508/c/cell-annotation-schema/0.2b0-0.3b0/README.md --exclude *.pyd
+[2024-05-08 00:18:05] INFO root fetch - processPackages [wormimtools]: executing diffoscope
+[2024-05-08 00:18:05] INFO root fetch - processPackages [wormimtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wormimtools-0.3.2.tar.gz tmp/wormimtools-1.0.0.tar.gz --markdown 20240508/w/wormimtools/0.3.2-1.0.0/README.md --exclude *.pyd
+[2024-05-08 00:18:06] INFO root fetch - processPackages [profile-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-profile-local-0.0.8.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - processPackages [profile-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-profile-local-0.0.9.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [profile-profile-local]: success
+[2024-05-08 00:18:06] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.8.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.9.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-05-08 00:18:06] INFO root fetch - processPackages [wormimtools]: Remove: archive file [/home/abi/fetcher/tmp/wormimtools-0.3.2.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - processPackages [wormimtools]: Remove: archive file [/home/abi/fetcher/tmp/wormimtools-1.0.0.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [wormimtools]: success
+[2024-05-08 00:18:06] INFO root fetch - processPackages [cell-annotation-schema]: Remove: archive file [/home/abi/fetcher/tmp/cell-annotation-schema-0.2b0.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - processPackages [cell-annotation-schema]: Remove: archive file [/home/abi/fetcher/tmp/cell-annotation-schema-0.3b0.tar.gz]
+[2024-05-08 00:18:06] INFO root fetch - main [MainThread]: End processing [cell-annotation-schema]: success
+[2024-05-08 00:18:08] INFO root fetch - processPackages [cumulusci]: Downloading https://files.pythonhosted.org/packages/7f/88/449c98cb79a615f7aa88980d6db78b816c45b6aa08e638752bb1d52c0b97/cumulusci-3.9.1.tar.gz
+[2024-05-08 00:18:09] INFO root fetch - processPackages [cumulusci]: executing diffoscope
+[2024-05-08 00:18:09] INFO root fetch - processPackages [cumulusci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulusci-3.9.0.tar.gz tmp/cumulusci-3.9.1.tar.gz --markdown 20240508/c/cumulusci/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-08 00:18:11] INFO root fetch - processPackages [cumulusci]: Remove: archive file [/home/abi/fetcher/tmp/cumulusci-3.9.0.tar.gz]
+[2024-05-08 00:18:11] INFO root fetch - processPackages [cumulusci]: Remove: archive file [/home/abi/fetcher/tmp/cumulusci-3.9.1.tar.gz]
+[2024-05-08 00:18:11] INFO root fetch - main [MainThread]: End processing [cumulusci]: success
+[2024-05-08 00:18:11] INFO root fetch - main [MainThread]: Store serial: [23104471]
