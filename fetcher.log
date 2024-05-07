@@ -1047,3 +1047,42 @@
 [2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.8.tar.gz]
 [2024-05-08 01:01:35] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown]: success
 [2024-05-08 01:01:35] INFO root fetch - main [MainThread]: Store serial: [23104697]
+[2024-05-08 01:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104697]
+[2024-05-08 01:03:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-08 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evdev
+[2024-05-08 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PokeCodePy-Library
+[2024-05-08 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmeter
+[2024-05-08 01:03:44] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b70] Old Version: [1.0.0b69]
+[2024-05-08 01:03:44] INFO root fetch - processPackages [PokeCodePy-Library]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-08 01:03:44] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-08 01:03:44] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/e4/f9/550dec3e0f1e5ff9d775bce3160f390c11c576bf68f5636ab2da037d0ae1/openmeter-1.0.0b69.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [evdev]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-08 01:03:44] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/08/07/d5dd359c6f22f5772248d82ecc9a6eaeec881d4761e34e689a3b3b2493e6/cvprocessor-0.0.16.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/89/e8/a751d9529faacbd9ea27e5e701f637be24ce61bc683b1d123982fe818cf7/pokecodepy_library-1.1.1.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [evdev]: Downloading https://files.pythonhosted.org/packages/f3/0c/c87b141250a650ee53d4e9957e905b17c144cda6dc4187cbe89a641a1b34/evdev-1.7.0.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [PokeCodePy-Library]: Downloading https://files.pythonhosted.org/packages/49/16/52a6e11f0bc765b45b9ae0fbc952c8fdebaa2f91c86545fb2fc849eeb520/pokecodepy_library-1.1.2.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/75/9b/3725e3ae82911c6af9129c738534880997aa07defe19ed93fcce223c6db7/cvprocessor-0.0.17.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/48/4e/25dfb502dc57391272e389316b7a9b8680d6bb9e4f99cb8dafd040ab5d69/openmeter-1.0.0b70.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [PokeCodePy-Library]: executing diffoscope
+[2024-05-08 01:03:44] INFO root fetch - processPackages [PokeCodePy-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokecodepy_library-1.1.1.tar.gz tmp/pokecodepy_library-1.1.2.tar.gz --markdown 20240508/P/PokeCodePy-Library/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-08 01:03:44] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 01:03:44] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.16.tar.gz tmp/cvprocessor-0.0.17.tar.gz --markdown 20240508/c/cvprocessor/0.0.16-0.0.17/README.md --exclude *.pyd
+[2024-05-08 01:03:44] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-05-08 01:03:44] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b69.tar.gz tmp/openmeter-1.0.0b70.tar.gz --markdown 20240508/o/openmeter/1.0.0b69-1.0.0b70/README.md --exclude *.pyd
+[2024-05-08 01:03:44] INFO root fetch - processPackages [evdev]: Downloading https://files.pythonhosted.org/packages/12/bb/f622a8a5e64d46ca83020a761877c0ead19140903c9aaf1431f3c531fdf6/evdev-1.7.1.tar.gz
+[2024-05-08 01:03:44] INFO root fetch - processPackages [evdev]: executing diffoscope
+[2024-05-08 01:03:44] INFO root fetch - processPackages [evdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evdev-1.7.0.tar.gz tmp/evdev-1.7.1.tar.gz --markdown 20240508/e/evdev/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-08 01:03:45] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.1.1.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - processPackages [PokeCodePy-Library]: Remove: archive file [/home/abi/fetcher/tmp/pokecodepy_library-1.1.2.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - main [MainThread]: End processing [PokeCodePy-Library]: success
+[2024-05-08 01:03:45] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b69.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b70.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-05-08 01:03:45] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.16.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.17.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 01:03:45] INFO root fetch - processPackages [evdev]: Remove: archive file [/home/abi/fetcher/tmp/evdev-1.7.0.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - processPackages [evdev]: Remove: archive file [/home/abi/fetcher/tmp/evdev-1.7.1.tar.gz]
+[2024-05-08 01:03:45] INFO root fetch - main [MainThread]: End processing [evdev]: success
+[2024-05-08 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23104705]
