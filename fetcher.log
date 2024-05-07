@@ -1375,3 +1375,24 @@
 [2024-05-08 01:26:12] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.6.tar.gz]
 [2024-05-08 01:26:12] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
 [2024-05-08 01:26:12] INFO root fetch - main [MainThread]: Store serial: [23104806]
+[2024-05-08 01:28:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104806]
+[2024-05-08 01:28:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 01:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hugg
+[2024-05-08 01:28:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyconcept
+[2024-05-08 01:28:21] INFO root fetch - processPackages [hugg]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 01:28:21] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/66/98/b67c4c5d337077f74e3b116e16d29706a838dd54248a307a093b3593b1a6/hugg-0.2.8.tar.gz
+[2024-05-08 01:28:21] INFO root fetch - processPackages [pyconcept]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 01:28:21] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/37/c2/1b1f3210179bf3beb2309731997d30c875ef76e3070fbb2a0128fe3c31d1/hugg-0.2.9.tar.gz
+[2024-05-08 01:28:21] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/6e/96/d97cda5cc1adb7f4ad6a6137dac105d9ab17ecf39f68495daf2a6221e7a5/pyconcept-0.1.2.tar.gz
+[2024-05-08 01:28:21] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2024-05-08 01:28:21] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.2.8.tar.gz tmp/hugg-0.2.9.tar.gz --markdown 20240508/h/hugg/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 01:28:22] INFO root fetch - processPackages [pyconcept]: Downloading https://files.pythonhosted.org/packages/f7/a0/3911330e99b5cef482e111f1901f813ccae47f066b425265269672700515/pyconcept-0.1.3.tar.gz
+[2024-05-08 01:28:22] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.8.tar.gz]
+[2024-05-08 01:28:22] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.9.tar.gz]
+[2024-05-08 01:28:22] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2024-05-08 01:28:22] INFO root fetch - processPackages [pyconcept]: executing diffoscope
+[2024-05-08 01:28:22] INFO root fetch - processPackages [pyconcept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconcept-0.1.2.tar.gz tmp/pyconcept-0.1.3.tar.gz --markdown 20240508/p/pyconcept/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 01:28:23] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.2.tar.gz]
+[2024-05-08 01:28:23] INFO root fetch - processPackages [pyconcept]: Remove: archive file [/home/abi/fetcher/tmp/pyconcept-0.1.3.tar.gz]
+[2024-05-08 01:28:23] INFO root fetch - main [MainThread]: End processing [pyconcept]: success
+[2024-05-08 01:28:23] INFO root fetch - main [MainThread]: Store serial: [23104813]
