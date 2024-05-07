@@ -208,3 +208,27 @@
 [2024-05-08 00:04:58] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.77.0.tar.gz]
 [2024-05-08 00:04:58] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-05-08 00:04:58] INFO root fetch - main [MainThread]: Store serial: [23104364]
+[2024-05-08 00:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104364]
+[2024-05-08 00:07:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cochleogram
+[2024-05-08 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enpass
+[2024-05-08 00:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: profile-reaction-local
+[2024-05-08 00:07:06] WARNING root fetch - processPackages [enpass]: Skipping, unable to determine old version
+[2024-05-08 00:07:06] INFO root fetch - main [MainThread]: End processing [enpass] error
+[2024-05-08 00:07:06] INFO root fetch - processPackages [profile-reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 00:07:06] INFO root fetch - processPackages [cochleogram]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-08 00:07:07] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/4b/64/e5b59915a04870fdc6b5fbc4f0e32a3305af9b1649baef144d4a2685b6f1/cochleogram-0.8.4.tar.gz
+[2024-05-08 00:07:07] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/e7/03/e873145a0dd032cb116ba8e1bb51338942a46340367d018ee2f194742dae/profile-reaction-local-0.0.8.tar.gz
+[2024-05-08 00:07:07] INFO root fetch - processPackages [cochleogram]: Downloading https://files.pythonhosted.org/packages/a6/46/3f2bf8cd1a019e6f32c37a3b53b13a4c3203dae119bce2de7515e2c9eb17/cochleogram-0.9.0.tar.gz
+[2024-05-08 00:07:07] INFO root fetch - processPackages [profile-reaction-local]: Downloading https://files.pythonhosted.org/packages/83/d2/fefa1caae8b1b1d352d7e8731ec030193d6037c915fd35a613dae61bce3f/profile-reaction-local-0.0.9.tar.gz
+[2024-05-08 00:07:07] INFO root fetch - processPackages [cochleogram]: executing diffoscope
+[2024-05-08 00:07:07] INFO root fetch - processPackages [cochleogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cochleogram-0.8.4.tar.gz tmp/cochleogram-0.9.0.tar.gz --markdown 20240508/c/cochleogram/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-08 00:07:07] INFO root fetch - processPackages [profile-reaction-local]: executing diffoscope
+[2024-05-08 00:07:07] INFO root fetch - processPackages [profile-reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-reaction-local-0.0.8.tar.gz tmp/profile-reaction-local-0.0.9.tar.gz --markdown 20240508/p/profile-reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 00:07:08] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.8.tar.gz]
+[2024-05-08 00:07:08] INFO root fetch - processPackages [profile-reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-reaction-local-0.0.9.tar.gz]
+[2024-05-08 00:07:08] INFO root fetch - main [MainThread]: End processing [profile-reaction-local]: success
+[2024-05-08 00:07:08] INFO root fetch - processPackages [cochleogram]: Remove: archive file [/home/abi/fetcher/tmp/cochleogram-0.8.4.tar.gz]
+[2024-05-08 00:07:08] INFO root fetch - processPackages [cochleogram]: Remove: archive file [/home/abi/fetcher/tmp/cochleogram-0.9.0.tar.gz]
+[2024-05-08 00:07:08] INFO root fetch - main [MainThread]: End processing [cochleogram]: success
+[2024-05-08 00:07:08] INFO root fetch - main [MainThread]: Store serial: [23104374]
