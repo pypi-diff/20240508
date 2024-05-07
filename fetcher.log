@@ -2044,3 +2044,42 @@
 [2024-05-08 01:56:35] INFO root fetch - processPackages [pyhostprep]: Remove: archive file [/home/abi/fetcher/tmp/pyhostprep-1.0.9.tar.gz]
 [2024-05-08 01:56:35] INFO root fetch - main [MainThread]: End processing [pyhostprep]: success
 [2024-05-08 01:56:35] INFO root fetch - main [MainThread]: Store serial: [23105109]
+[2024-05-08 01:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105109]
+[2024-05-08 01:58:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsmith
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmticket
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laser-mind-client-meta
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ls-api-clients
+[2024-05-08 01:58:44] INFO root fetch - processPackages [tmticket]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 01:58:44] INFO root fetch - processPackages [laser-mind-client-meta]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-08 01:58:44] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ls-api-clients]: New version: [0.14.1] Old Version: [0.14.0]
+[2024-05-08 01:58:44] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/8e/0c/e6f5e6f9f0d8fa0cf14db5d31335203a6ed44f9eb64e07d0e9980072929c/tmticket-0.2.0.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/31/fe/667bde9286f746a838888f18e25808b99fa56511f74d691d72afb726bf2c/laser_mind_client_meta-0.4.0.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/fd/cc/12321dccd627b5f881ed0c2635e00457761e9cb7763315c7eccfc9d3e5c0/ls_api_clients-0.14.0.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/95/76/ce6f1faa47cb76a278b61588f3906ebb4262e4da0bc73814e414587db819/tmticket-0.2.1.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [laser-mind-client-meta]: Downloading https://files.pythonhosted.org/packages/57/3c/f12ff9d6e453f61cfcaf631622cac16675386851140ba5c65aa2d909f57a/laser_mind_client_meta-0.5.0.tar.gz
+[2024-05-08 01:58:44] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-08 01:58:44] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.0.tar.gz tmp/tmticket-0.2.1.tar.gz --markdown 20240508/t/tmticket/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 01:58:44] INFO root fetch - processPackages [laser-mind-client-meta]: executing diffoscope
+[2024-05-08 01:58:44] INFO root fetch - processPackages [laser-mind-client-meta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_mind_client_meta-0.4.0.tar.gz tmp/laser_mind_client_meta-0.5.0.tar.gz --markdown 20240508/l/laser-mind-client-meta/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 01:58:44] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-05-08 01:58:45] INFO root fetch - processPackages [ls-api-clients]: Downloading https://files.pythonhosted.org/packages/7a/e6/880379aebd0999833000cc1db442d95488702b523aa272fb969ff7d16cae/ls_api_clients-0.14.1.tar.gz
+[2024-05-08 01:58:45] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-05-08 01:58:45] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240508/l/langsmith/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 01:58:45] INFO root fetch - processPackages [ls-api-clients]: executing diffoscope
+[2024-05-08 01:58:45] INFO root fetch - processPackages [ls-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_api_clients-0.14.0.tar.gz tmp/ls_api_clients-0.14.1.tar.gz --markdown 20240508/l/ls-api-clients/0.14.0-0.14.1/README.md --exclude *.pyd
+[2024-05-08 01:58:45] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.0.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.1.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-08 01:58:45] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.4.0.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - processPackages [laser-mind-client-meta]: Remove: archive file [/home/abi/fetcher/tmp/laser_mind_client_meta-0.5.0.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - main [MainThread]: End processing [laser-mind-client-meta]: success
+[2024-05-08 01:58:45] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.0.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - processPackages [ls-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/ls_api_clients-0.14.1.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - main [MainThread]: End processing [ls-api-clients]: success
+[2024-05-08 01:58:45] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-05-08 01:58:45] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-05-08 01:58:45] INFO root fetch - main [MainThread]: Store serial: [23105121]
