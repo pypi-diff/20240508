@@ -927,3 +927,24 @@
 [2024-05-08 00:50:45] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.8.tar.gz]
 [2024-05-08 00:50:45] INFO root fetch - main [MainThread]: End processing [inspect-ai]: success
 [2024-05-08 00:50:45] INFO root fetch - main [MainThread]: Store serial: [23104660]
+[2024-05-08 00:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104660]
+[2024-05-08 00:52:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-packs-resume-screener
+[2024-05-08 00:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sitewide
+[2024-05-08 00:52:54] INFO root fetch - processPackages [llama-index-packs-resume-screener]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-08 00:52:54] INFO root fetch - processPackages [django-sitewide]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:52:54] INFO root fetch - processPackages [llama-index-packs-resume-screener]: Downloading https://files.pythonhosted.org/packages/80/9d/7ea6bc3b93ba26d0ad45e739ebfeee78a923d5cc5317456e146ec84a24e9/llama_index_packs_resume_screener-0.1.3.tar.gz
+[2024-05-08 00:52:54] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/16/2c/87b4704498c8a80a9be1df8976ba461d2111e4d180bc5a4b2f78c6503508/django-sitewide-0.1.8.tar.gz
+[2024-05-08 00:52:55] INFO root fetch - processPackages [llama-index-packs-resume-screener]: Downloading https://files.pythonhosted.org/packages/fb/9d/695e23901673c82f98fd977e730ae931951f11c5a0db7210f9927e3be122/llama_index_packs_resume_screener-0.1.5.tar.gz
+[2024-05-08 00:52:55] INFO root fetch - processPackages [llama-index-packs-resume-screener]: executing diffoscope
+[2024-05-08 00:52:55] INFO root fetch - processPackages [llama-index-packs-resume-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_packs_resume_screener-0.1.3.tar.gz tmp/llama_index_packs_resume_screener-0.1.5.tar.gz --markdown 20240508/l/llama-index-packs-resume-screener/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-08 00:52:55] INFO root fetch - processPackages [django-sitewide]: Downloading https://files.pythonhosted.org/packages/1a/60/e047098f7037417eb3d0a50d5dd803295aea3add7356a2e98aa27c4699b8/django-sitewide-0.1.9.tar.gz
+[2024-05-08 00:52:55] INFO root fetch - processPackages [django-sitewide]: executing diffoscope
+[2024-05-08 00:52:55] INFO root fetch - processPackages [django-sitewide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sitewide-0.1.8.tar.gz tmp/django-sitewide-0.1.9.tar.gz --markdown 20240508/d/django-sitewide/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:52:55] INFO root fetch - processPackages [llama-index-packs-resume-screener]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_packs_resume_screener-0.1.3.tar.gz]
+[2024-05-08 00:52:55] INFO root fetch - processPackages [llama-index-packs-resume-screener]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_packs_resume_screener-0.1.5.tar.gz]
+[2024-05-08 00:52:55] INFO root fetch - main [MainThread]: End processing [llama-index-packs-resume-screener]: success
+[2024-05-08 00:52:56] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.8.tar.gz]
+[2024-05-08 00:52:56] INFO root fetch - processPackages [django-sitewide]: Remove: archive file [/home/abi/fetcher/tmp/django-sitewide-0.1.9.tar.gz]
+[2024-05-08 00:52:56] INFO root fetch - main [MainThread]: End processing [django-sitewide]: success
+[2024-05-08 00:52:56] INFO root fetch - main [MainThread]: Store serial: [23104665]
