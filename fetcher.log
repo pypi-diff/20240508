@@ -1898,3 +1898,18 @@
 [2024-05-08 01:47:53] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.8.tar.gz]
 [2024-05-08 01:47:53] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
 [2024-05-08 01:47:53] INFO root fetch - main [MainThread]: Store serial: [23104987]
+[2024-05-08 01:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104987]
+[2024-05-08 01:50:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 01:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hugg
+[2024-05-08 01:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiconnections
+[2024-05-08 01:50:02] INFO root fetch - processPackages [hugg]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 01:50:02] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/66/98/b67c4c5d337077f74e3b116e16d29706a838dd54248a307a093b3593b1a6/hugg-0.2.8.tar.gz
+[2024-05-08 01:50:02] WARNING root fetch - processPackages [multiconnections]: Skipping, unable to determine old version
+[2024-05-08 01:50:02] INFO root fetch - main [MainThread]: End processing [multiconnections] error
+[2024-05-08 01:50:03] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/37/c2/1b1f3210179bf3beb2309731997d30c875ef76e3070fbb2a0128fe3c31d1/hugg-0.2.9.tar.gz
+[2024-05-08 01:50:03] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2024-05-08 01:50:03] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.2.8.tar.gz tmp/hugg-0.2.9.tar.gz --markdown 20240508/h/hugg/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 01:50:03] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.8.tar.gz]
+[2024-05-08 01:50:03] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.9.tar.gz]
+[2024-05-08 01:50:03] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2024-05-08 01:50:03] INFO root fetch - main [MainThread]: Store serial: [23104994]
