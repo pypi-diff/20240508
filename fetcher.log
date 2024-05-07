@@ -677,3 +677,32 @@
 [2024-05-08 00:39:52] INFO root fetch - processPackages [invertedai]: Remove: archive file [/home/abi/fetcher/tmp/invertedai-0.0.9rc0.tar.gz]
 [2024-05-08 00:39:52] INFO root fetch - main [MainThread]: End processing [invertedai]: success
 [2024-05-08 00:39:52] INFO root fetch - main [MainThread]: Store serial: [23104577]
+[2024-05-08 00:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104577]
+[2024-05-08 00:42:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coastseg
+[2024-05-08 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lilya
+[2024-05-08 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTDFjorder
+[2024-05-08 00:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: felmateos
+[2024-05-08 00:42:01] WARNING root fetch - processPackages [felmateos]: Skipping, unable to determine old version
+[2024-05-08 00:42:01] INFO root fetch - main [MainThread]: End processing [felmateos] error
+[2024-05-08 00:42:01] INFO root fetch - processPackages [coastseg]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-08 00:42:01] INFO root fetch - processPackages [lilya]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-08 00:42:01] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-08 00:42:01] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/1c/bd/d89578ad69e615147c091c702143ad28440dd38f18019dec0b8f1b18d8cc/coastseg-1.2.4.tar.gz
+[2024-05-08 00:42:01] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/d5/65/f7ca07d7e00b97fbd94118380ce9cb1e1c2d461628e15ca59afb8c68bf3e/ctdfjorder-0.0.39.tar.gz
+[2024-05-08 00:42:01] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/41/ab/165cd9c25e6daf2ce0b57b57756687b405f135c221a744aba528404eb080/lilya-0.6.1.tar.gz
+[2024-05-08 00:42:01] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 24357649>=10485760
+[2024-05-08 00:42:01] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2024-05-08 00:42:01] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/a3/f8/ad491c0702efd85a751efadd25550302f40418148f4718aca9324cdee4b0/ctdfjorder-0.0.40.tar.gz
+[2024-05-08 00:42:01] INFO root fetch - processPackages [lilya]: Downloading https://files.pythonhosted.org/packages/e5/a5/327c988cb75afbdd55ba9dd340e00f0cecaf4f188cc45b5dd6f45f1cc333/lilya-0.7.0.tar.gz
+[2024-05-08 00:42:02] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-08 00:42:02] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.39.tar.gz tmp/ctdfjorder-0.0.40.tar.gz --markdown 20240508/C/CTDFjorder/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-08 00:42:02] INFO root fetch - processPackages [lilya]: executing diffoscope
+[2024-05-08 00:42:02] INFO root fetch - processPackages [lilya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilya-0.6.1.tar.gz tmp/lilya-0.7.0.tar.gz --markdown 20240508/l/lilya/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-08 00:42:02] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.39.tar.gz]
+[2024-05-08 00:42:02] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.40.tar.gz]
+[2024-05-08 00:42:02] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-08 00:42:02] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.6.1.tar.gz]
+[2024-05-08 00:42:02] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.7.0.tar.gz]
+[2024-05-08 00:42:02] INFO root fetch - main [MainThread]: End processing [lilya]: success
+[2024-05-08 00:42:02] INFO root fetch - main [MainThread]: Store serial: [23104588]
