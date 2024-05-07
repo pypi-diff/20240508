@@ -1,0 +1,87 @@
+[2024-05-08 00:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104294]
+[2024-05-08 00:00:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chift
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helios-ml
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ScreenPro2
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-wav
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-wedata
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-common
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pnu-libgh
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-weilingwith
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-aux
+[2024-05-08 00:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-yinsuda
+[2024-05-08 00:00:31] INFO root fetch - processPackages [chift]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [ScreenPro2]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [django-aux]: New version: [0.0.9] Old Version: [0.0.88]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/d6/6f/f1da36cb45e5a3602ca98d5a4c0a76c94eb87c20a7125c20982ab1f6276f/chift-0.1.8.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [dbt-common]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [helios-ml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/64/10/5fd6a74f690b67d73d2f0adcb0017c7892cc5c83d022522ae67bd0d7dbcd/ScreenPro2-0.2.8-py2.py3-none-any.whl
+[2024-05-08 00:00:31] WARNING root fetch - processPackages [pnu-libgh]: Skipping, unable to determine old version
+[2024-05-08 00:00:31] INFO root fetch - main [MainThread]: End processing [pnu-libgh] error
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:00:31] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/7d/8a/61bafdb52eb9fcce0d3c7b4deeef65bdf99aee21d23a408eb4bd3d9b2692/ScreenPro2-0.2.9-py2.py3-none-any.whl
+[2024-05-08 00:00:31] INFO root fetch - processPackages [chift]: Downloading https://files.pythonhosted.org/packages/fc/05/9b76c39d5ab3132a9abb69c6da7f9490b9ff7f7bb7c38327921c92e9674f/chift-0.1.9.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [dbt-common]: Downloading https://files.pythonhosted.org/packages/ce/d7/0cb4b7512b43c66585a7bf09ee878656f04b6ddded988dffd02d1bfc888d/dbt_common-1.0.3.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/21/d5/736cc69ca1b2d82df3f08981134824f328959bf139e5d8e3c903b63cc4e5/helios_ml-0.1.8.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/35/b3/f926e3ed6c290f3bbf08ac990f833a7daaf3868d916b224d01578d8d378d/tencentcloud-sdk-python-wedata-3.0.998.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/2f/7f/44147c9505a75d803b2902a25b7b3c74f58d1aec20704da523bc1886b639/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/81/63/b0d1801a15fad8e2aa2c233009875f8c4240c99f14a58252fee1453d7213/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-05-08 00:00:31] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip --markdown 20240508/S/ScreenPro2/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 00:00:31] INFO root fetch - processPackages [chift]: executing diffoscope
+[2024-05-08 00:00:31] INFO root fetch - processPackages [chift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chift-0.1.8.tar.gz tmp/chift-0.1.9.tar.gz --markdown 20240508/c/chift/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [django-aux]: Downloading https://files.pythonhosted.org/packages/ee/ed/4190b9c74b8c63529c8c81367d167cfa1946df6350b719dd741e80f2008b/django_aux-0.0.88.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [dbt-common]: Downloading https://files.pythonhosted.org/packages/33/d1/9544eb3921fffc464021b425b3f156a5ef9d47ac0aa54ba259d7047bf370/dbt_common-1.0.4.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [helios-ml]: Downloading https://files.pythonhosted.org/packages/82/48/106ba859fad7316ed839768fcdc13192541fe42260a152ad43c6d3578a6d/helios_ml-0.1.9.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Downloading https://files.pythonhosted.org/packages/b8/c8/6fe85d8790fee52752e90173dac65409e5d451475ad0b0f566896631592c/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [django-aux]: Downloading https://files.pythonhosted.org/packages/f7/87/ff834263dbf515fce6cee5cb6627aed60ff1cbdd304291dc245420263330/django-aux-0.0.9.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Downloading https://files.pythonhosted.org/packages/53/86/2730b85def19aa7efe94bf2779bbcef46bbbbf609dfc65193421600e0a6c/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz
+[2024-05-08 00:00:31] INFO root fetch - processPackages [dbt-common]: executing diffoscope
+[2024-05-08 00:00:31] INFO root fetch - processPackages [dbt-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_common-1.0.3.tar.gz tmp/dbt_common-1.0.4.tar.gz --markdown 20240508/d/dbt-common/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [helios-ml]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [helios-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helios_ml-0.1.8.tar.gz tmp/helios_ml-0.1.9.tar.gz --markdown 20240508/h/helios-ml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Downloading https://files.pythonhosted.org/packages/13/f7/dd48b9a4c3f121c9e4be93063ea150b1d23184f2079d7796592825767327/tencentcloud-sdk-python-wedata-3.0.999.tar.gz
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-yinsuda/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [django-aux]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [django-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_aux-0.0.88.tar.gz tmp/django-aux-0.0.9.tar.gz --markdown 20240508/d/django-aux/0.0.88-0.0.9/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-weilingwith/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: executing diffoscope
+[2024-05-08 00:00:32] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-wedata/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:00:32] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip]
+[2024-05-08 00:00:32] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
+[2024-05-08 00:00:32] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-05-08 00:00:32] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.8.tar.gz]
+[2024-05-08 00:00:32] INFO root fetch - processPackages [chift]: Remove: archive file [/home/abi/fetcher/tmp/chift-0.1.9.tar.gz]
+[2024-05-08 00:00:32] INFO root fetch - main [MainThread]: End processing [chift]: success
+[2024-05-08 00:00:32] INFO root fetch - processPackages [django-aux]: Remove: archive file [/home/abi/fetcher/tmp/django_aux-0.0.88.tar.gz]
+[2024-05-08 00:00:32] INFO root fetch - processPackages [django-aux]: Remove: archive file [/home/abi/fetcher/tmp/django-aux-0.0.9.tar.gz]
+[2024-05-08 00:00:32] INFO root fetch - main [MainThread]: End processing [django-aux]: success
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.998.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-yinsuda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yinsuda-3.0.999.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yinsuda]: success
+[2024-05-08 00:00:33] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.8.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - processPackages [helios-ml]: Remove: archive file [/home/abi/fetcher/tmp/helios_ml-0.1.9.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - main [MainThread]: End processing [helios-ml]: success
+[2024-05-08 00:00:33] INFO root fetch - processPackages [dbt-common]: Remove: archive file [/home/abi/fetcher/tmp/dbt_common-1.0.3.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - processPackages [dbt-common]: Remove: archive file [/home/abi/fetcher/tmp/dbt_common-1.0.4.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - main [MainThread]: End processing [dbt-common]: success
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.998.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-weilingwith]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-weilingwith-3.0.999.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-weilingwith]: success
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-05-08 00:00:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-05-08 00:00:34] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.998.tar.gz]
+[2024-05-08 00:00:34] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
+[2024-05-08 00:00:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
+[2024-05-08 00:00:34] INFO root fetch - main [MainThread]: Store serial: [23104326]
