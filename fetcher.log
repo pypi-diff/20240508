@@ -303,3 +303,38 @@
 [2024-05-08 00:13:46] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.2.9-cp39-none-win_amd64.whl.zip]
 [2024-05-08 00:13:46] INFO root fetch - main [MainThread]: End processing [semsimian]: success
 [2024-05-08 00:13:46] INFO root fetch - main [MainThread]: Store serial: [23104414]
+[2024-05-08 00:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104414]
+[2024-05-08 00:15:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 00:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: golem-node
+[2024-05-08 00:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-alchemy-kit
+[2024-05-08 00:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytesdaq
+[2024-05-08 00:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suskabot
+[2024-05-08 00:15:54] INFO root fetch - processPackages [golem-node]: New version: [0.15.1] Old Version: [0.15.0a33]
+[2024-05-08 00:15:54] INFO root fetch - processPackages [suskabot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-08 00:15:54] INFO root fetch - processPackages [pytesdaq]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-08 00:15:54] INFO root fetch - processPackages [pg-alchemy-kit]: New version: [0.9.1b0] Old Version: [0.9.19b0]
+[2024-05-08 00:15:54] INFO root fetch - processPackages [golem-node]: Downloading https://files.pythonhosted.org/packages/c6/3a/c70cb599408a016764153f9d75b3344e01de86adc47012e53a8d46e7ffa4/golem_node-0.15.0a33-py3-none-win_amd64.whl
+[2024-05-08 00:15:54] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/e0/71/e9d35e5a5f33d3e57255441becbc5a291406e878ced7bad64ca76420dd29/pytesdaq-0.3.9.tar.gz
+[2024-05-08 00:15:54] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/3d/8c/00b399a4398b7e33077a2e883fae74e684d432c8a3c9ea8277b2264494e9/pg_alchemy_kit-0.9.19b0.tar.gz
+[2024-05-08 00:15:54] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/76/be/20dad517652bee5af28786d4273f0fbaa4a3b01647882d3581da12b89aa9/suskabot-0.1.4.tar.gz
+[2024-05-08 00:15:55] WARNING root fetch - processPackages [golem-node]: Skipping package: exceeds size limit 22804153>=10485760
+[2024-05-08 00:15:55] INFO root fetch - main [MainThread]: End processing [golem-node] error
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pg-alchemy-kit]: Downloading https://files.pythonhosted.org/packages/15/77/9606182a8ca268d744c73ee5fe74a3c2311f9ee66380afa1f220c118f43f/pg_alchemy_kit-0.9.1b0.tar.gz
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pytesdaq]: Downloading https://files.pythonhosted.org/packages/5b/ad/13caeadd97e9ed9cbfce0f52fc2bef6860b51618bff10c7e4303a61aebd3/pytesdaq-0.4.0.tar.gz
+[2024-05-08 00:15:55] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/b5/e4/16a508f5589ab824ff74af3e4d5c66c5c6ad135fd7deff1822ce99e8164b/suskabot-0.1.5.tar.gz
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pg-alchemy-kit]: executing diffoscope
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pg-alchemy-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_alchemy_kit-0.9.19b0.tar.gz tmp/pg_alchemy_kit-0.9.1b0.tar.gz --markdown 20240508/p/pg-alchemy-kit/0.9.19b0-0.9.1b0/README.md --exclude *.pyd
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pytesdaq]: executing diffoscope
+[2024-05-08 00:15:55] INFO root fetch - processPackages [pytesdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytesdaq-0.3.9.tar.gz tmp/pytesdaq-0.4.0.tar.gz --markdown 20240508/p/pytesdaq/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-08 00:15:55] INFO root fetch - processPackages [suskabot]: executing diffoscope
+[2024-05-08 00:15:55] INFO root fetch - processPackages [suskabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suskabot-0.1.4.tar.gz tmp/suskabot-0.1.5.tar.gz --markdown 20240508/s/suskabot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-08 00:15:56] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.9.19b0.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - processPackages [pg-alchemy-kit]: Remove: archive file [/home/abi/fetcher/tmp/pg_alchemy_kit-0.9.1b0.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - main [MainThread]: End processing [pg-alchemy-kit]: success
+[2024-05-08 00:15:56] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.1.4.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.1.5.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - main [MainThread]: End processing [suskabot]: success
+[2024-05-08 00:15:56] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.3.9.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - processPackages [pytesdaq]: Remove: archive file [/home/abi/fetcher/tmp/pytesdaq-0.4.0.tar.gz]
+[2024-05-08 00:15:56] INFO root fetch - main [MainThread]: End processing [pytesdaq]: success
+[2024-05-08 00:15:56] INFO root fetch - main [MainThread]: Store serial: [23104451]
