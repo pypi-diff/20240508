@@ -389,3 +389,18 @@
 [2024-05-08 00:18:11] INFO root fetch - processPackages [cumulusci]: Remove: archive file [/home/abi/fetcher/tmp/cumulusci-3.9.1.tar.gz]
 [2024-05-08 00:18:11] INFO root fetch - main [MainThread]: End processing [cumulusci]: success
 [2024-05-08 00:18:11] INFO root fetch - main [MainThread]: Store serial: [23104471]
+[2024-05-08 00:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104471]
+[2024-05-08 00:20:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beepy-web
+[2024-05-08 00:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: felmateos
+[2024-05-08 00:20:20] INFO root fetch - processPackages [beepy-web]: New version: [10.0.0] Old Version: [0.9.9]
+[2024-05-08 00:20:20] INFO root fetch - processPackages [beepy-web]: Downloading https://files.pythonhosted.org/packages/8c/3e/2b4aeafca1e0f40864da2b1218629441331ed758319d572d96c2a72c933f/beepy_web-0.9.9.tar.gz
+[2024-05-08 00:20:20] WARNING root fetch - processPackages [felmateos]: Skipping, unable to determine old version
+[2024-05-08 00:20:20] INFO root fetch - main [MainThread]: End processing [felmateos] error
+[2024-05-08 00:20:20] INFO root fetch - processPackages [beepy-web]: Downloading https://files.pythonhosted.org/packages/82/d9/abfd43a56c83877bbf5694ec944b5d4e448a649e283606a2433e13c0c424/beepy_web-10.0.0.tar.gz
+[2024-05-08 00:20:20] INFO root fetch - processPackages [beepy-web]: executing diffoscope
+[2024-05-08 00:20:20] INFO root fetch - processPackages [beepy-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beepy_web-0.9.9.tar.gz tmp/beepy_web-10.0.0.tar.gz --markdown 20240508/b/beepy-web/0.9.9-10.0.0/README.md --exclude *.pyd
+[2024-05-08 00:20:21] INFO root fetch - processPackages [beepy-web]: Remove: archive file [/home/abi/fetcher/tmp/beepy_web-0.9.9.tar.gz]
+[2024-05-08 00:20:21] INFO root fetch - processPackages [beepy-web]: Remove: archive file [/home/abi/fetcher/tmp/beepy_web-10.0.0.tar.gz]
+[2024-05-08 00:20:21] INFO root fetch - main [MainThread]: End processing [beepy-web]: success
+[2024-05-08 00:20:21] INFO root fetch - main [MainThread]: Store serial: [23104480]
