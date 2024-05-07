@@ -1134,3 +1134,60 @@
 [2024-05-08 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240506.tar.gz]
 [2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-08 01:05:55] INFO root fetch - main [MainThread]: Store serial: [23104720]
+[2024-05-08 01:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104720]
+[2024-05-08 01:08:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeboxapi
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bamboost
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspygen
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extremecloudiq-api
+[2024-05-08 01:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CTDFjorder
+[2024-05-08 01:08:04] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [codeboxapi]: New version: [0.1.20] Old Version: [0.1.19]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/a3/f8/ad491c0702efd85a751efadd25550302f40418148f4718aca9324cdee4b0/ctdfjorder-0.0.40.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [bamboost]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [extremecloudiq-api]: New version: [24.3.1.2] Old Version: [24.2.0.52]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [dspygen]: New version: [2024.5.7] Old Version: [2024.4.8]
+[2024-05-08 01:08:04] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/75/9b/3725e3ae82911c6af9129c738534880997aa07defe19ed93fcce223c6db7/cvprocessor-0.0.17.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/88/76/1493c3b3970586ebfa3f88c02881b9ccf08bfe0f86d1aecf82620f68551d/codeboxapi-0.1.19.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [bamboost]: Downloading https://files.pythonhosted.org/packages/2a/f7/1a39b7e693bfbac4b7d3e228665b0dff948a7c61867a245d0f648b9c7d1d/bamboost-0.6.1.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/b8/d2/67abba8675544ab98e98ff7bc3479521e1562052e572ea82c30eccce5120/dspygen-2024.4.8.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [extremecloudiq-api]: Downloading https://files.pythonhosted.org/packages/b1/0f/df327d08ec0ab4ecdb728691428c5ed6c0c3dd4aaefa8ed664f2df49e8c8/extremecloudiq-api-24.2.0.52.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/c0/ff/6ff8fe5e6a27ff19dc8786b5c4352ea985e013c994943695c9f26eb0195b/cvprocessor-0.0.18.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/dd/9f/bcc578ce9a4903303fa24ba48504fc423aad34ceaf31fe2afef8d7eb7fcd/ctdfjorder-0.0.41.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 01:08:04] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.17.tar.gz tmp/cvprocessor-0.0.18.tar.gz --markdown 20240508/c/cvprocessor/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-05-08 01:08:04] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-08 01:08:04] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.40.tar.gz tmp/ctdfjorder-0.0.41.tar.gz --markdown 20240508/C/CTDFjorder/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-05-08 01:08:04] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/30/cf/1ab4fddb1c83ac268d51cbcb4bb8040f47978759790765d09de83a530923/codeboxapi-0.1.20.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [bamboost]: Downloading https://files.pythonhosted.org/packages/e2/f1/c6af0874e93ebdb5e53ecff3820c8ccd7361c819d8613f11dd9838480731/bamboost-0.6.2.tar.gz
+[2024-05-08 01:08:04] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2024-05-08 01:08:04] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.1.19.tar.gz tmp/codeboxapi-0.1.20.tar.gz --markdown 20240508/c/codeboxapi/0.1.19-0.1.20/README.md --exclude *.pyd
+[2024-05-08 01:08:05] INFO root fetch - processPackages [bamboost]: executing diffoscope
+[2024-05-08 01:08:05] INFO root fetch - processPackages [bamboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboost-0.6.1.tar.gz tmp/bamboost-0.6.2.tar.gz --markdown 20240508/b/bamboost/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-08 01:08:05] INFO root fetch - processPackages [dspygen]: Downloading https://files.pythonhosted.org/packages/09/df/210bbab5d8eebec267af16f55b0dc1207f8b835fb592c773846d7eccdebc/dspygen-2024.5.7.tar.gz
+[2024-05-08 01:08:05] INFO root fetch - processPackages [extremecloudiq-api]: Downloading https://files.pythonhosted.org/packages/ba/37/9217ad57109c0cfa6ec2f1f342d42477be09309f357f0c82444fe2863f39/extremecloudiq-api-24.3.1.2.tar.gz
+[2024-05-08 01:08:05] INFO root fetch - processPackages [dspygen]: executing diffoscope
+[2024-05-08 01:08:05] INFO root fetch - processPackages [dspygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspygen-2024.4.8.tar.gz tmp/dspygen-2024.5.7.tar.gz --markdown 20240508/d/dspygen/2024.4.8-2024.5.7/README.md --exclude *.pyd
+[2024-05-08 01:08:05] INFO root fetch - processPackages [extremecloudiq-api]: executing diffoscope
+[2024-05-08 01:08:05] INFO root fetch - processPackages [extremecloudiq-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extremecloudiq-api-24.2.0.52.tar.gz tmp/extremecloudiq-api-24.3.1.2.tar.gz --markdown 20240508/e/extremecloudiq-api/24.2.0.52-24.3.1.2/README.md --exclude *.pyd
+[2024-05-08 01:08:05] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.17.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.18.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 01:08:05] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.40.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.41.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-08 01:08:05] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.1.19.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.1.20.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2024-05-08 01:08:05] INFO root fetch - processPackages [bamboost]: Remove: archive file [/home/abi/fetcher/tmp/bamboost-0.6.1.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - processPackages [bamboost]: Remove: archive file [/home/abi/fetcher/tmp/bamboost-0.6.2.tar.gz]
+[2024-05-08 01:08:05] INFO root fetch - main [MainThread]: End processing [bamboost]: success
+[2024-05-08 01:08:06] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.4.8.tar.gz]
+[2024-05-08 01:08:06] INFO root fetch - processPackages [dspygen]: Remove: archive file [/home/abi/fetcher/tmp/dspygen-2024.5.7.tar.gz]
+[2024-05-08 01:08:06] INFO root fetch - main [MainThread]: End processing [dspygen]: success
+[2024-05-08 01:08:16] INFO root fetch - processPackages [extremecloudiq-api]: Remove: archive file [/home/abi/fetcher/tmp/extremecloudiq-api-24.2.0.52.tar.gz]
+[2024-05-08 01:08:16] INFO root fetch - processPackages [extremecloudiq-api]: Remove: archive file [/home/abi/fetcher/tmp/extremecloudiq-api-24.3.1.2.tar.gz]
+[2024-05-08 01:08:16] INFO root fetch - main [MainThread]: End processing [extremecloudiq-api]: success
+[2024-05-08 01:08:16] INFO root fetch - main [MainThread]: Store serial: [23104734]
