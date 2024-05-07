@@ -151,3 +151,60 @@
 [2024-05-08 00:02:47] INFO root fetch - processPackages [mediacloud-metadata]: Remove: archive file [/home/abi/fetcher/tmp/mediacloud_metadata-1.0.2.tar.gz]
 [2024-05-08 00:02:47] INFO root fetch - main [MainThread]: End processing [mediacloud-metadata]: success
 [2024-05-08 00:02:47] INFO root fetch - main [MainThread]: Store serial: [23104346]
+[2024-05-08 00:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104346]
+[2024-05-08 00:04:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-yunjing
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunxiao
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-yunsou
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ndimage-enaml
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvcx
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REVHubInterface
+[2024-05-08 00:04:55] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.1.dev27] Old Version: [1.3.1.dev25]
+[2024-05-08 00:04:55] INFO root fetch - processPackages [yunxiao]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 00:04:55] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/86/92/5cb0ecf242bf5a3b51c341588e6e273dee1c6949b8d395ecd530431c5554/revhubinterface-1.3.1.dev25.tar.gz
+[2024-05-08 00:04:55] INFO root fetch - processPackages [ndimage-enaml]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 00:04:55] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/91/30/7dab021fbebcbc8a948535a3259771c4ba186e097cba0298a6fc3e09bfad/yunxiao-0.5.8.tar.gz
+[2024-05-08 00:04:55] INFO root fetch - processPackages [dvcx]: New version: [0.77.0] Old Version: [0.76.0]
+[2024-05-08 00:04:55] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:04:55] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-05-08 00:04:56] INFO root fetch - processPackages [ndimage-enaml]: Downloading https://files.pythonhosted.org/packages/52/ed/6d956c2100b5ebcab51f9d00279d83588af7e2cf52da78d3c711f7920712/ndimage-enaml-0.0.7.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/65/ea/8d09efecced01316117ff8cca25d25d952fb19ccfc4d0fa3a890e60f9eb1/yunxiao-0.5.9.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/4e/52/6f55f7228862d95f5331b1554534ce145f008c8405a12de2225a30a6f0b6/dvcx-0.76.0.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/89/a5/016cae1211e3dc3326af596af243f289a366479bd9151e34047323b8d94c/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/41/80/6c47aecff1245b820e2f29a01c3c685fb0812df647a635fcdd55a3bc2f14/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.5.8.tar.gz tmp/yunxiao-0.5.9.tar.gz --markdown 20240508/y/yunxiao/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/78/44/26a2be3c35b9b47b2eaa7c2d3786a58ab21efbfce2952759f0d011e7f8fe/revhubinterface-1.3.1.dev27.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [ndimage-enaml]: Downloading https://files.pythonhosted.org/packages/b0/98/86b5a5dddfacc28ba05657b13e2167cbbab98dbd85c132b71431d8715ebc/ndimage_enaml-0.0.8.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2e/bf/48f3c5442977fc5fc9d665e51e69639d4b3abe9999eb86fdec29859fd400/dvcx-0.77.0.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Downloading https://files.pythonhosted.org/packages/3b/40/7637adbeba05a2842919344c6e7298e99c3ac3711db7277fcb9ec5213152/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/5d/ec/fa0d9f1ac64f6da07ddfb6836ac624c21cd6ffdbc126f04c9ee27d806016/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz
+[2024-05-08 00:04:56] INFO root fetch - processPackages [ndimage-enaml]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [ndimage-enaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndimage-enaml-0.0.7.tar.gz tmp/ndimage_enaml-0.0.8.tar.gz --markdown 20240508/n/ndimage-enaml/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-yunjing/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.1.dev25.tar.gz tmp/revhubinterface-1.3.1.dev27.tar.gz --markdown 20240508/R/REVHubInterface/1.3.1.dev25-1.3.1.dev27/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.76.0.tar.gz tmp/dvcx-0.77.0.tar.gz --markdown 20240508/d/dvcx/0.76.0-0.77.0/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2024-05-08 00:04:56] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz --markdown 20240508/t/tencentcloud-sdk-python-yunsou/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-05-08 00:04:56] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.8.tar.gz]
+[2024-05-08 00:04:56] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.9.tar.gz]
+[2024-05-08 00:04:56] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-05-08 00:04:57] INFO root fetch - processPackages [ndimage-enaml]: Remove: archive file [/home/abi/fetcher/tmp/ndimage-enaml-0.0.7.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - processPackages [ndimage-enaml]: Remove: archive file [/home/abi/fetcher/tmp/ndimage_enaml-0.0.8.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - main [MainThread]: End processing [ndimage-enaml]: success
+[2024-05-08 00:04:57] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.1.dev25.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.1.dev27.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-08 00:04:57] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.998.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.999.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
+[2024-05-08 00:04:57] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
+[2024-05-08 00:04:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2024-05-08 00:04:58] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.76.0.tar.gz]
+[2024-05-08 00:04:58] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.77.0.tar.gz]
+[2024-05-08 00:04:58] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-08 00:04:58] INFO root fetch - main [MainThread]: Store serial: [23104364]
