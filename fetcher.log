@@ -467,3 +467,59 @@
 [2024-05-08 00:24:42] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
 [2024-05-08 00:24:42] INFO root fetch - main [MainThread]: End processing [MambuPy]: success
 [2024-05-08 00:24:42] INFO root fetch - main [MainThread]: Store serial: [23104514]
+[2024-05-08 00:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104514]
+[2024-05-08 00:26:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beepy-web
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-helpers
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfactory
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bakapiv2
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intropy
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evergreen-py
+[2024-05-08 00:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: special-agents
+[2024-05-08 00:26:50] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 00:26:50] INFO root fetch - processPackages [beepy-web]: New version: [10.0.1] Old Version: [10.0.0]
+[2024-05-08 00:26:50] INFO root fetch - processPackages [special-agents]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-08 00:26:50] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-08 00:26:50] INFO root fetch - processPackages [kfactory]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-08 00:26:50] INFO root fetch - processPackages [intropy]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-08 00:26:50] WARNING root fetch - processPackages [bakapiv2]: Skipping, unable to determine old version
+[2024-05-08 00:26:50] INFO root fetch - main [MainThread]: End processing [bakapiv2] error
+[2024-05-08 00:26:50] INFO root fetch - processPackages [beepy-web]: Downloading https://files.pythonhosted.org/packages/82/d9/abfd43a56c83877bbf5694ec944b5d4e448a649e283606a2433e13c0c424/beepy_web-10.0.0.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/a4/43/14df1082b88c12cf12ec02391794801f3b86b32169af464e9b4c308f640d/special_agents-1.0.5.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [evergreen-py]: New version: [3.6.9] Old Version: [3.6.8]
+[2024-05-08 00:26:51] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [kfactory]: Downloading https://files.pythonhosted.org/packages/0f/b6/721b57bf8b2ae07b65396295ba273e13669561ae94fadbe9eb4afd8e9b00/kfactory-0.9.2.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [intropy]: Downloading https://files.pythonhosted.org/packages/cd/89/964a27a5ae11c553f9f46974fbb5e68a075246a1ac78158416f56d8af68f/intropy-0.4.0.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/1d/78/ea802a90ad4c5c4076a234d26576abbb6ebdd1452c9b65d3df78ae882914/evergreen_py-3.6.8.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-08 00:26:51] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240508/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 00:26:51] ERROR root fetch - processPackages [beepy-web]: Unable to fetch info: No such project/version 'beepy-web' 10.0.1
+[2024-05-08 00:26:51] INFO root fetch - main [MainThread]: End processing [beepy-web] error
+[2024-05-08 00:26:51] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/63/d9/02e470d0205400a3e5ac1785e492059decf3a093c93573602629f63fd3c2/special_agents-1.0.6.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-08 00:26:51] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.5.tar.gz tmp/special_agents-1.0.6.tar.gz --markdown 20240508/s/special-agents/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-08 00:26:51] INFO root fetch - processPackages [intropy]: Downloading https://files.pythonhosted.org/packages/93/0b/23fd4b66b9cb98be19259cab578b9ce9fd0a919342fff2b513f6171d83c1/intropy-0.5.0.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [intropy]: executing diffoscope
+[2024-05-08 00:26:51] INFO root fetch - processPackages [intropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intropy-0.4.0.tar.gz tmp/intropy-0.5.0.tar.gz --markdown 20240508/i/intropy/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 00:26:51] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/7e/fe/52627ca6a31a5eb6238cc81aa3388bf6a99bd3c3b8f93e588a954fc72040/evergreen_py-3.6.9.tar.gz
+[2024-05-08 00:26:51] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-08 00:26:51] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-08 00:26:51] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-08 00:26:51] INFO root fetch - processPackages [kfactory]: Downloading https://files.pythonhosted.org/packages/c9/36/7559666b6cdc35c7cc7128cb3f2c99b3f5fcdca3d73c396d4c13a34f7466/kfactory-0.9.3.tar.gz
+[2024-05-08 00:26:52] INFO root fetch - processPackages [evergreen-py]: executing diffoscope
+[2024-05-08 00:26:52] INFO root fetch - processPackages [evergreen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen_py-3.6.8.tar.gz tmp/evergreen_py-3.6.9.tar.gz --markdown 20240508/e/evergreen-py/3.6.8-3.6.9/README.md --exclude *.pyd
+[2024-05-08 00:26:52] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.5.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.6.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-08 00:26:52] INFO root fetch - processPackages [intropy]: Remove: archive file [/home/abi/fetcher/tmp/intropy-0.4.0.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - processPackages [intropy]: Remove: archive file [/home/abi/fetcher/tmp/intropy-0.5.0.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - main [MainThread]: End processing [intropy]: success
+[2024-05-08 00:26:52] INFO root fetch - processPackages [kfactory]: executing diffoscope
+[2024-05-08 00:26:52] INFO root fetch - processPackages [kfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfactory-0.9.2.tar.gz tmp/kfactory-0.9.3.tar.gz --markdown 20240508/k/kfactory/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-08 00:26:52] INFO root fetch - processPackages [evergreen-py]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_py-3.6.8.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - processPackages [evergreen-py]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_py-3.6.9.tar.gz]
+[2024-05-08 00:26:52] INFO root fetch - main [MainThread]: End processing [evergreen-py]: success
+[2024-05-08 00:26:53] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.2.tar.gz]
+[2024-05-08 00:26:53] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.3.tar.gz]
+[2024-05-08 00:26:53] INFO root fetch - main [MainThread]: End processing [kfactory]: success
+[2024-05-08 00:26:53] INFO root fetch - main [MainThread]: Store serial: [23104533]
