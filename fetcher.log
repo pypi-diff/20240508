@@ -1776,3 +1776,20 @@
 [2024-05-08 01:41:18] INFO root fetch - processPackages [soda-core-trino]: Remove: archive file [/home/abi/fetcher/tmp/soda_core_trino-3.3.4.tar.gz]
 [2024-05-08 01:41:18] INFO root fetch - main [MainThread]: End processing [soda-core-trino]: success
 [2024-05-08 01:41:18] INFO root fetch - main [MainThread]: Store serial: [23104951]
+[2024-05-08 01:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104951]
+[2024-05-08 01:43:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 01:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madml
+[2024-05-08 01:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shelvery
+[2024-05-08 01:43:27] INFO root fetch - processPackages [madml]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-08 01:43:27] INFO root fetch - processPackages [shelvery]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 01:43:27] INFO root fetch - processPackages [shelvery]: Downloading https://files.pythonhosted.org/packages/2f/46/7f57a859f9cfcab6baf8765d21cdd8a2d1e82ea51ec659e0e54b851e7f36/shelvery-0.9.8.tar.gz
+[2024-05-08 01:43:27] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/6c/26/4a984dea350449933952d70f07089437d69f03474d847264d1550f3278cd/madml-2.6.4.tar.gz
+[2024-05-08 01:43:27] WARNING root fetch - processPackages [madml]: Skipping package: exceeds size limit 18833194>=10485760
+[2024-05-08 01:43:27] INFO root fetch - main [MainThread]: End processing [madml] error
+[2024-05-08 01:43:27] INFO root fetch - processPackages [shelvery]: Downloading https://files.pythonhosted.org/packages/c9/bd/228e91791d3c4c628d2f8516040eacc37bb670c58070253119cabb0e68cf/shelvery-0.9.9.tar.gz
+[2024-05-08 01:43:27] INFO root fetch - processPackages [shelvery]: executing diffoscope
+[2024-05-08 01:43:27] INFO root fetch - processPackages [shelvery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shelvery-0.9.8.tar.gz tmp/shelvery-0.9.9.tar.gz --markdown 20240508/s/shelvery/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 01:43:28] INFO root fetch - processPackages [shelvery]: Remove: archive file [/home/abi/fetcher/tmp/shelvery-0.9.8.tar.gz]
+[2024-05-08 01:43:28] INFO root fetch - processPackages [shelvery]: Remove: archive file [/home/abi/fetcher/tmp/shelvery-0.9.9.tar.gz]
+[2024-05-08 01:43:28] INFO root fetch - main [MainThread]: End processing [shelvery]: success
+[2024-05-08 01:43:28] INFO root fetch - main [MainThread]: Store serial: [23104957]
