@@ -1465,3 +1465,15 @@
 [2024-05-08 01:34:26] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-05-08 01:34:26] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-05-08 01:34:26] INFO root fetch - main [MainThread]: Store serial: [23104850]
+[2024-05-08 01:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104850]
+[2024-05-08 01:36:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 01:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solcast
+[2024-05-08 01:36:50] INFO root fetch - processPackages [solcast]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-08 01:36:50] INFO root fetch - processPackages [solcast]: Downloading https://files.pythonhosted.org/packages/b7/c3/b06ebe7b442ec3b2b8b8a7f59742eb8e6898fef8976b64cd6bea49d37b42/solcast-1.2.3.tar.gz
+[2024-05-08 01:36:51] INFO root fetch - processPackages [solcast]: Downloading https://files.pythonhosted.org/packages/42/d1/fe40d38e195c6509e20042e2f470ec642575fdd5d438600d7569b3042d0a/solcast-1.2.4.tar.gz
+[2024-05-08 01:36:51] INFO root fetch - processPackages [solcast]: executing diffoscope
+[2024-05-08 01:36:51] INFO root fetch - processPackages [solcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solcast-1.2.3.tar.gz tmp/solcast-1.2.4.tar.gz --markdown 20240508/s/solcast/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-08 01:36:52] INFO root fetch - processPackages [solcast]: Remove: archive file [/home/abi/fetcher/tmp/solcast-1.2.3.tar.gz]
+[2024-05-08 01:36:52] INFO root fetch - processPackages [solcast]: Remove: archive file [/home/abi/fetcher/tmp/solcast-1.2.4.tar.gz]
+[2024-05-08 01:36:52] INFO root fetch - main [MainThread]: End processing [solcast]: success
+[2024-05-08 01:36:52] INFO root fetch - main [MainThread]: Store serial: [23104853]
