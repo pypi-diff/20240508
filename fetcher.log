@@ -1340,3 +1340,38 @@
 [2024-05-08 01:23:21] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
 [2024-05-08 01:23:21] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
 [2024-05-08 01:23:21] INFO root fetch - main [MainThread]: Store serial: [23104783]
+[2024-05-08 01:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104783]
+[2024-05-08 01:25:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 01:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: concrete-python
+[2024-05-08 01:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: draggable-charts
+[2024-05-08 01:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-infraflow-cdk
+[2024-05-08 01:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weaviate-client
+[2024-05-08 01:25:30] INFO root fetch - processPackages [draggable-charts]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-08 01:25:30] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.0.2] Old Version: [0.1.9.9.0.1]
+[2024-05-08 01:25:30] INFO root fetch - processPackages [weaviate-client]: New version: [4.6.0b0] Old Version: [4.5rc0]
+[2024-05-08 01:25:30] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/61/bb/360726ed59e48fae23c261c07b2f5781fb96baa51d70539dee7b8abd811b/draggable-charts-1.2.5.tar.gz
+[2024-05-08 01:25:30] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/58/b6/954c8df3fb24c7fefb49f7416882bd9b5183bdc64fe75dac90990ebfda70/py_infraflow_cdk-0.1.9.9.0.1.tar.gz
+[2024-05-08 01:25:30] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/7b/d5/fd11d5c4a81b94b52ee77af630b211b53b9e7e8a52d16765fabfea007b0e/weaviate-client-4.5rc0.tar.gz
+[2024-05-08 01:25:30] INFO root fetch - processPackages [concrete-python]: New version: [2.6.1] Old Version: [2.6.0rc2]
+[2024-05-08 01:25:30] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/f1/8d/4365687e0fa4b138cc97acbae2daee7123d316cd7fba309bd8df97562256/py_infraflow_cdk-0.1.9.9.0.2.tar.gz
+[2024-05-08 01:25:30] INFO root fetch - processPackages [concrete-python]: Downloading https://files.pythonhosted.org/packages/a4/0e/2cb7b6317fdc5af06eedb43598ae1388c15194d40f094c5fadf2233a5658/concrete_python-2.6.0rc2-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-08 01:25:30] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/86/6b/39eae6f90ff58924dcf76b63a394df1d6a19b05c0cbdcfeef76d91083b84/weaviate_client-4.6.0b0.tar.gz
+[2024-05-08 01:25:30] WARNING root fetch - processPackages [concrete-python]: Skipping package: exceeds size limit 72240961>=10485760
+[2024-05-08 01:25:30] INFO root fetch - main [MainThread]: End processing [concrete-python] error
+[2024-05-08 01:25:30] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-08 01:25:30] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.0.1.tar.gz tmp/py_infraflow_cdk-0.1.9.9.0.2.tar.gz --markdown 20240508/p/py-infraflow-cdk/0.1.9.9.0.1-0.1.9.9.0.2/README.md --exclude *.pyd
+[2024-05-08 01:25:30] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-05-08 01:25:30] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-4.5rc0.tar.gz tmp/weaviate_client-4.6.0b0.tar.gz --markdown 20240508/w/weaviate-client/4.5rc0-4.6.0b0/README.md --exclude *.pyd
+[2024-05-08 01:25:30] INFO root fetch - processPackages [draggable-charts]: Downloading https://files.pythonhosted.org/packages/30/e2/7cc1f01d68f75014b6a827887abb66748fbddcd7030c65b30099f59703dc/draggable-charts-1.2.6.tar.gz
+[2024-05-08 01:25:30] INFO root fetch - processPackages [draggable-charts]: executing diffoscope
+[2024-05-08 01:25:30] INFO root fetch - processPackages [draggable-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draggable-charts-1.2.5.tar.gz tmp/draggable-charts-1.2.6.tar.gz --markdown 20240508/d/draggable-charts/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-08 01:25:31] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.1.tar.gz]
+[2024-05-08 01:25:31] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.2.tar.gz]
+[2024-05-08 01:25:31] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-08 01:25:32] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-4.5rc0.tar.gz]
+[2024-05-08 01:25:32] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.0b0.tar.gz]
+[2024-05-08 01:25:32] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-05-08 01:26:12] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.5.tar.gz]
+[2024-05-08 01:26:12] INFO root fetch - processPackages [draggable-charts]: Remove: archive file [/home/abi/fetcher/tmp/draggable-charts-1.2.6.tar.gz]
+[2024-05-08 01:26:12] INFO root fetch - main [MainThread]: End processing [draggable-charts]: success
+[2024-05-08 01:26:12] INFO root fetch - main [MainThread]: Store serial: [23104806]
