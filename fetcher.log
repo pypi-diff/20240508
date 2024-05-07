@@ -1832,3 +1832,69 @@
 [2024-05-08 01:45:38] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.8.1.tar.gz]
 [2024-05-08 01:45:38] INFO root fetch - main [MainThread]: End processing [reactpy-django]: success
 [2024-05-08 01:45:38] INFO root fetch - main [MainThread]: Store serial: [23104969]
+[2024-05-08 01:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104969]
+[2024-05-08 01:47:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-bank-python
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raindrop-io-py
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio-leaderboard
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reaction-local
+[2024-05-08 01:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hugg
+[2024-05-08 01:47:46] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [hugg]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [raindrop-io-py]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [gradio-leaderboard]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 01:47:46] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/66/98/b67c4c5d337077f74e3b116e16d29706a838dd54248a307a093b3593b1a6/hugg-0.2.8.tar.gz
+[2024-05-08 01:47:46] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-08 01:47:46] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-08 01:47:46] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-08 01:47:47] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/f5/19/31a42b92ebc0df69b4a7deac632fcc204c7c886623369629651099144166/raindrop_io_py-0.2.3.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [gradio-leaderboard]: Downloading https://files.pythonhosted.org/packages/c7/77/a8b00b4976edf0b41d6142845cd52ce869405abb04ef99d5603100cf2644/gradio_leaderboard-0.0.7.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/a6/9d/166c1f9c5c4ac252cc5a9501c4fe45b226c5e8ead84780af6e5d1f64c7a0/reaction-local-0.0.8.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/37/c2/1b1f3210179bf3beb2309731997d30c875ef76e3070fbb2a0128fe3c31d1/hugg-0.2.9.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.2.8.tar.gz tmp/hugg-0.2.9.tar.gz --markdown 20240508/h/hugg/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240508/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240508/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/f8/ef/b327ab1a0d4ceb70e7836d668b1d950709c21560dac08915c25eee4e9b7f/raindrop_io_py-0.2.4.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [gradio-leaderboard]: Downloading https://files.pythonhosted.org/packages/ae/08/2a4c1aaae66f9b738578f91a242c2b2f52d8778131a13fb98b6c26919433/gradio_leaderboard-0.0.8.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/91/b7/5064d1d9f93220746c18f37cc5d646c060856eec1f817013f2d082124868/reaction-local-0.0.9.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-08 01:47:47] INFO root fetch - processPackages [raindrop-io-py]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [raindrop-io-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindrop_io_py-0.2.3.tar.gz tmp/raindrop_io_py-0.2.4.tar.gz --markdown 20240508/r/raindrop-io-py/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240508/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [reaction-local]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaction-local-0.0.8.tar.gz tmp/reaction-local-0.0.9.tar.gz --markdown 20240508/r/reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [gradio-leaderboard]: executing diffoscope
+[2024-05-08 01:47:47] INFO root fetch - processPackages [gradio-leaderboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_leaderboard-0.0.7.tar.gz tmp/gradio_leaderboard-0.0.8.tar.gz --markdown 20240508/g/gradio-leaderboard/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 01:47:47] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.8.tar.gz]
+[2024-05-08 01:47:47] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.9.tar.gz]
+[2024-05-08 01:47:47] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2024-05-08 01:47:48] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-08 01:47:48] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.2.3.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.2.4.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
+[2024-05-08 01:47:48] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-08 01:47:48] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.8.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.9.tar.gz]
+[2024-05-08 01:47:48] INFO root fetch - main [MainThread]: End processing [reaction-local]: success
+[2024-05-08 01:47:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-08 01:47:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-08 01:47:50] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-08 01:47:53] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.7.tar.gz]
+[2024-05-08 01:47:53] INFO root fetch - processPackages [gradio-leaderboard]: Remove: archive file [/home/abi/fetcher/tmp/gradio_leaderboard-0.0.8.tar.gz]
+[2024-05-08 01:47:53] INFO root fetch - main [MainThread]: End processing [gradio-leaderboard]: success
+[2024-05-08 01:47:53] INFO root fetch - main [MainThread]: Store serial: [23104987]
