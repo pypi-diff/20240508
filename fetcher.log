@@ -1086,3 +1086,51 @@
 [2024-05-08 01:03:45] INFO root fetch - processPackages [evdev]: Remove: archive file [/home/abi/fetcher/tmp/evdev-1.7.1.tar.gz]
 [2024-05-08 01:03:45] INFO root fetch - main [MainThread]: End processing [evdev]: success
 [2024-05-08 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23104705]
+[2024-05-08 01:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104705]
+[2024-05-08 01:05:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmeter
+[2024-05-08 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-08 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-05-08 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nominalpy
+[2024-05-08 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imdb_extract
+[2024-05-08 01:05:53] INFO root fetch - processPackages [nominalpy]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-08 01:05:53] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b71] Old Version: [1.0.0b70]
+[2024-05-08 01:05:53] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240506] Old Version: [1.9.0.dev20240503]
+[2024-05-08 01:05:53] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240506] Old Version: [0.7.52b20240505]
+[2024-05-08 01:05:53] INFO root fetch - processPackages [nominalpy]: Downloading https://files.pythonhosted.org/packages/15/31/bd968571a3785232227d160699175f06c84e72e979bec79e36ab91a8c94b/nominalpy-0.8.0.tar.gz
+[2024-05-08 01:05:53] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/48/4e/25dfb502dc57391272e389316b7a9b8680d6bb9e4f99cb8dafd040ab5d69/openmeter-1.0.0b70.tar.gz
+[2024-05-08 01:05:53] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/3c/17/1140361f9c40e072a58d6f03cdeb7c87340aa0bdc91d72eb690d99d03c84/flwr_nightly-1.9.0.dev20240503.tar.gz
+[2024-05-08 01:05:53] INFO root fetch - processPackages [imdb_extract]: New version: [2.3.5] Old Version: [2.3.4]
+[2024-05-08 01:05:53] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/5a/4e/355428ef39237978df0b2b04199bad5a4d90bc04f2763951ab4c13b9ebd3/tmnt-0.7.52b20240505.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [imdb_extract]: Downloading https://files.pythonhosted.org/packages/e0/db/70900d3d6886462a7ccbf5059c1c05262a7afed82a4173cc497a37992882/imdb_extract-2.3.4.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [nominalpy]: Downloading https://files.pythonhosted.org/packages/d1/51/80452fb12965a245c25b19f43f1071aad9936a12d3034087add3279d02f9/nominalpy-0.8.1.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/60/37/867806139bbfc44570ddebfcda2c432d959cbbd15dde1f8f73fe9f8a745f/flwr_nightly-1.9.0.dev20240506.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/cd/96/b3f95e93e8199134bb5afa11e2e6620c35f8309b9a8db54e96b255d14d41/openmeter-1.0.0b71.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [nominalpy]: executing diffoscope
+[2024-05-08 01:05:54] INFO root fetch - processPackages [nominalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nominalpy-0.8.0.tar.gz tmp/nominalpy-0.8.1.tar.gz --markdown 20240508/n/nominalpy/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-08 01:05:54] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-08 01:05:54] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240503.tar.gz tmp/flwr_nightly-1.9.0.dev20240506.tar.gz --markdown 20240508/f/flwr-nightly/1.9.0.dev20240503-1.9.0.dev20240506/README.md --exclude *.pyd
+[2024-05-08 01:05:54] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/9b/38/9ea4a4b36398c6e132e2ef72504a8886671e4467da511361aa124eb87d90/tmnt-0.7.52b20240506.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-05-08 01:05:54] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b70.tar.gz tmp/openmeter-1.0.0b71.tar.gz --markdown 20240508/o/openmeter/1.0.0b70-1.0.0b71/README.md --exclude *.pyd
+[2024-05-08 01:05:54] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-08 01:05:54] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240505.tar.gz tmp/tmnt-0.7.52b20240506.tar.gz --markdown 20240508/t/tmnt/0.7.52b20240505-0.7.52b20240506/README.md --exclude *.pyd
+[2024-05-08 01:05:54] INFO root fetch - processPackages [imdb_extract]: Downloading https://files.pythonhosted.org/packages/44/70/cea60810db3ee18551b04a0c72222d1dbe4f4f0f4eab80c55f92e4f4f48c/imdb_extract-2.3.5.tar.gz
+[2024-05-08 01:05:54] INFO root fetch - processPackages [imdb_extract]: executing diffoscope
+[2024-05-08 01:05:54] INFO root fetch - processPackages [imdb_extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imdb_extract-2.3.4.tar.gz tmp/imdb_extract-2.3.5.tar.gz --markdown 20240508/i/imdb_extract/2.3.4-2.3.5/README.md --exclude *.pyd
+[2024-05-08 01:05:55] INFO root fetch - processPackages [nominalpy]: Remove: archive file [/home/abi/fetcher/tmp/nominalpy-0.8.0.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - processPackages [nominalpy]: Remove: archive file [/home/abi/fetcher/tmp/nominalpy-0.8.1.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [nominalpy]: success
+[2024-05-08 01:05:55] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b70.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b71.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-05-08 01:05:55] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240505.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240506.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-08 01:05:55] INFO root fetch - processPackages [imdb_extract]: Remove: archive file [/home/abi/fetcher/tmp/imdb_extract-2.3.4.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - processPackages [imdb_extract]: Remove: archive file [/home/abi/fetcher/tmp/imdb_extract-2.3.5.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [imdb_extract]: success
+[2024-05-08 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240503.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240506.tar.gz]
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-08 01:05:55] INFO root fetch - main [MainThread]: Store serial: [23104720]
