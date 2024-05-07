@@ -967,3 +967,38 @@
 [2024-05-08 00:55:05] INFO root fetch - main [MainThread]: End processing [jasmine-sis]: success
 [2024-05-08 00:55:05] INFO root fetch - main [MainThread]: End processing [jasmine-sis]: success
 [2024-05-08 00:55:05] INFO root fetch - main [MainThread]: Store serial: [23104669]
+[2024-05-08 00:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104669]
+[2024-05-08 00:57:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 00:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comicbox
+[2024-05-08 00:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sapiopycommons
+[2024-05-08 00:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windows-capture
+[2024-05-08 00:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: experiment-helpers
+[2024-05-08 00:57:14] INFO root fetch - processPackages [sapiopycommons]: New version: [31.3.0.23.12.3] Old Version: [31.2.0.23.12.3]
+[2024-05-08 00:57:14] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 00:57:14] INFO root fetch - processPackages [windows-capture]: New version: [1.1.9] Old Version: [1.0.62]
+[2024-05-08 00:57:14] INFO root fetch - processPackages [sapiopycommons]: Downloading https://files.pythonhosted.org/packages/bb/8e/ffbfcdcdcdef085f3c02a0c0361d5f2b5c73f377a58d5055485920fd480d/sapiopycommons-31.2.0.23.12.3.tar.gz
+[2024-05-08 00:57:14] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-08 00:57:14] INFO root fetch - processPackages [comicbox]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-08 00:57:14] INFO root fetch - processPackages [windows-capture]: Downloading https://files.pythonhosted.org/packages/7c/f0/0264bd920de73094e62c6b40ec906a5800dd3f6991bdd5a2a5258fabc3fc/windows_capture-1.0.62.tar.gz
+[2024-05-08 00:57:14] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-08 00:57:14] INFO root fetch - processPackages [sapiopycommons]: Downloading https://files.pythonhosted.org/packages/65/85/c26462638385d6921c9e6e2dd91d7bb1d0ce38c3a35ccf5becf78fea900d/sapiopycommons-31.3.0.23.12.3.tar.gz
+[2024-05-08 00:57:14] INFO root fetch - processPackages [comicbox]: Downloading https://files.pythonhosted.org/packages/3a/1a/12b7f4499b4dc66857a2cf79d3ecc23a3b900f131d8501d3b502a9bebad6/comicbox-1.1.6.tar.gz
+[2024-05-08 00:57:14] WARNING root fetch - processPackages [comicbox]: Skipping package: exceeds size limit 81266368>=10485760
+[2024-05-08 00:57:14] INFO root fetch - main [MainThread]: End processing [comicbox] error
+[2024-05-08 00:57:14] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-08 00:57:14] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240508/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 00:57:14] INFO root fetch - processPackages [sapiopycommons]: executing diffoscope
+[2024-05-08 00:57:14] INFO root fetch - processPackages [sapiopycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapiopycommons-31.2.0.23.12.3.tar.gz tmp/sapiopycommons-31.3.0.23.12.3.tar.gz --markdown 20240508/s/sapiopycommons/31.2.0.23.12.3-31.3.0.23.12.3/README.md --exclude *.pyd
+[2024-05-08 00:57:14] INFO root fetch - processPackages [windows-capture]: Downloading https://files.pythonhosted.org/packages/ec/ad/814eb25168c160a98e2984d1ee15a5aa21702c6636678ebc19190b6a115c/windows_capture-1.1.9.tar.gz
+[2024-05-08 00:57:15] INFO root fetch - processPackages [windows-capture]: executing diffoscope
+[2024-05-08 00:57:15] INFO root fetch - processPackages [windows-capture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windows_capture-1.0.62.tar.gz tmp/windows_capture-1.1.9.tar.gz --markdown 20240508/w/windows-capture/1.0.62-1.1.9/README.md --exclude *.pyd
+[2024-05-08 00:57:15] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-08 00:57:15] INFO root fetch - processPackages [sapiopycommons]: Remove: archive file [/home/abi/fetcher/tmp/sapiopycommons-31.2.0.23.12.3.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - processPackages [sapiopycommons]: Remove: archive file [/home/abi/fetcher/tmp/sapiopycommons-31.3.0.23.12.3.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - main [MainThread]: End processing [sapiopycommons]: success
+[2024-05-08 00:57:15] INFO root fetch - processPackages [windows-capture]: Remove: archive file [/home/abi/fetcher/tmp/windows_capture-1.0.62.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - processPackages [windows-capture]: Remove: archive file [/home/abi/fetcher/tmp/windows_capture-1.1.9.tar.gz]
+[2024-05-08 00:57:15] INFO root fetch - main [MainThread]: End processing [windows-capture]: success
+[2024-05-08 00:57:15] INFO root fetch - main [MainThread]: Store serial: [23104681]
