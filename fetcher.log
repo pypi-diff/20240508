@@ -273,3 +273,33 @@
 [2024-05-08 00:11:33] INFO root fetch - processPackages [kgr]: Remove: archive file [/home/abi/fetcher/tmp/kgr-0.1.8.tar.gz]
 [2024-05-08 00:11:33] INFO root fetch - main [MainThread]: End processing [kgr]: success
 [2024-05-08 00:11:33] INFO root fetch - main [MainThread]: Store serial: [23104397]
+[2024-05-08 00:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104397]
+[2024-05-08 00:13:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 00:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CTDFjorder
+[2024-05-08 00:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-optimized-inference
+[2024-05-08 00:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semsimian
+[2024-05-08 00:13:42] INFO root fetch - processPackages [CTDFjorder]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-08 00:13:42] INFO root fetch - processPackages [llm-optimized-inference]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-08 00:13:42] INFO root fetch - processPackages [semsimian]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 00:13:42] INFO root fetch - processPackages [llm-optimized-inference]: Downloading https://files.pythonhosted.org/packages/c9/2d/411afc852c19272ddc4a120d9c0a51253b923a4795120c0d81fab3f3e80a/llm_optimized_inference-0.1.5-py3-none-any.whl
+[2024-05-08 00:13:42] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/d5/65/f7ca07d7e00b97fbd94118380ce9cb1e1c2d461628e15ca59afb8c68bf3e/ctdfjorder-0.0.39.tar.gz
+[2024-05-08 00:13:42] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/27/55/78469d7775323ec358ff515ba913097df559005cf61a13e7e474d52812d3/semsimian-0.2.8-cp39-none-win_amd64.whl
+[2024-05-08 00:13:43] INFO root fetch - processPackages [CTDFjorder]: Downloading https://files.pythonhosted.org/packages/a3/f8/ad491c0702efd85a751efadd25550302f40418148f4718aca9324cdee4b0/ctdfjorder-0.0.40.tar.gz
+[2024-05-08 00:13:43] INFO root fetch - processPackages [llm-optimized-inference]: Downloading https://files.pythonhosted.org/packages/19/7d/76609395039f08fa64a98f5374ba106ce186c6dcc13373bd80cc38f00a8b/llm_optimized_inference-0.1.6-py3-none-any.whl
+[2024-05-08 00:13:43] INFO root fetch - processPackages [CTDFjorder]: executing diffoscope
+[2024-05-08 00:13:43] INFO root fetch - processPackages [CTDFjorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctdfjorder-0.0.39.tar.gz tmp/ctdfjorder-0.0.40.tar.gz --markdown 20240508/C/CTDFjorder/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-08 00:13:43] INFO root fetch - processPackages [llm-optimized-inference]: executing diffoscope
+[2024-05-08 00:13:43] INFO root fetch - processPackages [llm-optimized-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_optimized_inference-0.1.5-py3-none-any.whl.zip tmp/llm_optimized_inference-0.1.6-py3-none-any.whl.zip --markdown 20240508/l/llm-optimized-inference/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-08 00:13:43] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.39.tar.gz]
+[2024-05-08 00:13:43] INFO root fetch - processPackages [CTDFjorder]: Remove: archive file [/home/abi/fetcher/tmp/ctdfjorder-0.0.40.tar.gz]
+[2024-05-08 00:13:43] INFO root fetch - main [MainThread]: End processing [CTDFjorder]: success
+[2024-05-08 00:13:43] INFO root fetch - processPackages [llm-optimized-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_optimized_inference-0.1.5-py3-none-any.whl.zip]
+[2024-05-08 00:13:43] INFO root fetch - processPackages [llm-optimized-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_optimized_inference-0.1.6-py3-none-any.whl.zip]
+[2024-05-08 00:13:43] INFO root fetch - main [MainThread]: End processing [llm-optimized-inference]: success
+[2024-05-08 00:13:45] INFO root fetch - processPackages [semsimian]: Downloading https://files.pythonhosted.org/packages/f8/cc/73f39480cee9087d179afb3deb7816e1c4bc417a5318e99731f80bb0485f/semsimian-0.2.9-cp39-none-win_amd64.whl
+[2024-05-08 00:13:45] INFO root fetch - processPackages [semsimian]: executing diffoscope
+[2024-05-08 00:13:45] INFO root fetch - processPackages [semsimian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semsimian-0.2.8-cp39-none-win_amd64.whl.zip tmp/semsimian-0.2.9-cp39-none-win_amd64.whl.zip --markdown 20240508/s/semsimian/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 00:13:46] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.2.8-cp39-none-win_amd64.whl.zip]
+[2024-05-08 00:13:46] INFO root fetch - processPackages [semsimian]: Remove: archive file [/home/abi/fetcher/tmp/semsimian-0.2.9-cp39-none-win_amd64.whl.zip]
+[2024-05-08 00:13:46] INFO root fetch - main [MainThread]: End processing [semsimian]: success
+[2024-05-08 00:13:46] INFO root fetch - main [MainThread]: Store serial: [23104414]
