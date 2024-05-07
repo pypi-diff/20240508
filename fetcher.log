@@ -849,3 +849,81 @@
 [2024-05-08 00:48:33] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.0.dev61.tar.gz]
 [2024-05-08 00:48:33] INFO root fetch - main [MainThread]: End processing [slalom-tapdance]: success
 [2024-05-08 00:48:33] INFO root fetch - main [MainThread]: Store serial: [23104631]
+[2024-05-08 00:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104631]
+[2024-05-08 00:50:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slalom-tapdance
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-agent-openai-legacy
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Impctunder
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: referrers
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbappinator
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index-agent-openai
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inspect-ai
+[2024-05-08 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index-packs-cohere-citation-chat
+[2024-05-08 00:50:41] INFO root fetch - processPackages [slalom-tapdance]: New version: [1.0.0.dev61] Old Version: [1.0.0.dev60]
+[2024-05-08 00:50:41] INFO root fetch - processPackages [inspect-ai]: New version: [0.3.8] Old Version: [0.3.6]
+[2024-05-08 00:50:41] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/ed/d9/2ac3992063d23c1de79d74846cf99978f5437a5e207722e8b5f44cd1d86f/slalom_tapdance-1.0.0.dev60.tar.gz
+[2024-05-08 00:50:41] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 00:50:42] INFO root fetch - processPackages [nbappinator]: New version: [0.1.6] Old Version: [0.1.5b1]
+[2024-05-08 00:50:42] WARNING root fetch - processPackages [Impctunder]: Skipping, unable to determine old version
+[2024-05-08 00:50:42] INFO root fetch - main [MainThread]: End processing [Impctunder] error
+[2024-05-08 00:50:42] INFO root fetch - processPackages [referrers]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai]: Downloading https://files.pythonhosted.org/packages/3d/18/02d10ddc704489319103dbc5a8ff24c2e94b0bbd82427610f712a756f5eb/llama_index_agent_openai-0.2.3.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [inspect-ai]: Downloading https://files.pythonhosted.org/packages/ef/87/54bce18c3ebfbbd238c653cd2fcd37e2a44d4d2d9d87607cb7b65c02ce5d/inspect_ai-0.3.6.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Downloading https://files.pythonhosted.org/packages/f6/b8/86725d78ddad0337fab5f12d916aeefbb6bbc2dcf47990457cc769c40ead/llama_index_agent_openai_legacy-0.1.3.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/4c/82/8a86137ec3fd57d05b9a0118dfaaa0957b8e3a0d2dff3374f621aa01b461/slalom_tapdance-1.0.0.dev61.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/f2/93/3276f6d48c3a6310545c1b2376dc08092b8e2fa9e0cd02937349f9519c43/nbappinator-0.1.5b1.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [referrers]: Downloading https://files.pythonhosted.org/packages/c5/33/669e452ed7dd5ca5b1c3fc510199c2e2318afb73dbaede3ceb373dbc4c46/referrers-0.4.3.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: Downloading https://files.pythonhosted.org/packages/cc/fa/681167671bf585de9d7d90f088061ffadbc0cadd57ccea336f85b555f084/llama_index_packs_cohere_citation_chat-0.1.3.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [slalom-tapdance]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [slalom-tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slalom_tapdance-1.0.0.dev60.tar.gz tmp/slalom_tapdance-1.0.0.dev61.tar.gz --markdown 20240508/s/slalom-tapdance/1.0.0.dev60-1.0.0.dev61/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai]: Downloading https://files.pythonhosted.org/packages/d2/ec/0b0f204d8ac0ca6532c3b09f2b130e46f1aaba923a906c212a1da675a819/llama_index_agent_openai-0.2.4.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [referrers]: Downloading https://files.pythonhosted.org/packages/41/1b/68b0927256d7cb081bb50af3fc1d84d585a54e2e69a8fc478cd2f579ca09/referrers-0.5.0.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [nbappinator]: Downloading https://files.pythonhosted.org/packages/32/0b/59c0aa6b86c48b796621f8eac97f0ae0d4de2de92635d460335c9f89e1b1/nbappinator-0.1.6.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_agent_openai-0.2.3.tar.gz tmp/llama_index_agent_openai-0.2.4.tar.gz --markdown 20240508/l/llama-index-agent-openai/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Downloading https://files.pythonhosted.org/packages/5b/ad/5796c4fd7a654fdd617eb0ed1c69f2609492609918a012407f9645cc6085/llama_index_agent_openai_legacy-0.1.4.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: Downloading https://files.pythonhosted.org/packages/06/d7/022122a00663ed98b66cc052431f1d6904578ae302e071afa056ebd587c4/llama_index_packs_cohere_citation_chat-0.1.4.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [nbappinator]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [nbappinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbappinator-0.1.5b1.tar.gz tmp/nbappinator-0.1.6.tar.gz --markdown 20240508/n/nbappinator/0.1.5b1-0.1.6/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [referrers]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [referrers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referrers-0.4.3.tar.gz tmp/referrers-0.5.0.tar.gz --markdown 20240508/r/referrers/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_agent_openai_legacy-0.1.3.tar.gz tmp/llama_index_agent_openai_legacy-0.1.4.tar.gz --markdown 20240508/l/llama-index-agent-openai-legacy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [inspect-ai]: Downloading https://files.pythonhosted.org/packages/be/3c/ce39871a9fa52145c11df5d64abfbaa7117243b9473396cf2b85eca1d741/inspect_ai-0.3.8.tar.gz
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_packs_cohere_citation_chat-0.1.3.tar.gz tmp/llama_index_packs_cohere_citation_chat-0.1.4.tar.gz --markdown 20240508/l/llama-index-packs-cohere-citation-chat/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-05-08 00:50:42] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240508/l/llama-index/0.9.8.post1-0.9.9/README.md --exclude *.pyd
+[2024-05-08 00:50:43] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.0.dev60.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.0.dev61.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [slalom-tapdance]: success
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-agent-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai-0.2.3.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-agent-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai-0.2.4.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [llama-index-agent-openai]: success
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai_legacy-0.1.3.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai_legacy-0.1.4.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [llama-index-agent-openai-legacy]: success
+[2024-05-08 00:50:43] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.5b1.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [nbappinator]: Remove: archive file [/home/abi/fetcher/tmp/nbappinator-0.1.6.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [nbappinator]: success
+[2024-05-08 00:50:43] INFO root fetch - processPackages [referrers]: Remove: archive file [/home/abi/fetcher/tmp/referrers-0.4.3.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [referrers]: Remove: archive file [/home/abi/fetcher/tmp/referrers-0.5.0.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [referrers]: success
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_packs_cohere_citation_chat-0.1.3.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - processPackages [llama-index-packs-cohere-citation-chat]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_packs_cohere_citation_chat-0.1.4.tar.gz]
+[2024-05-08 00:50:43] INFO root fetch - main [MainThread]: End processing [llama-index-packs-cohere-citation-chat]: success
+[2024-05-08 00:50:44] INFO root fetch - processPackages [inspect-ai]: executing diffoscope
+[2024-05-08 00:50:44] INFO root fetch - processPackages [inspect-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspect_ai-0.3.6.tar.gz tmp/inspect_ai-0.3.8.tar.gz --markdown 20240508/i/inspect-ai/0.3.6-0.3.8/README.md --exclude *.pyd
+[2024-05-08 00:50:45] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-05-08 00:50:45] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-05-08 00:50:45] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-05-08 00:50:45] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.6.tar.gz]
+[2024-05-08 00:50:45] INFO root fetch - processPackages [inspect-ai]: Remove: archive file [/home/abi/fetcher/tmp/inspect_ai-0.3.8.tar.gz]
+[2024-05-08 00:50:45] INFO root fetch - main [MainThread]: End processing [inspect-ai]: success
+[2024-05-08 00:50:45] INFO root fetch - main [MainThread]: Store serial: [23104660]
