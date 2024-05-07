@@ -1477,3 +1477,69 @@
 [2024-05-08 01:36:52] INFO root fetch - processPackages [solcast]: Remove: archive file [/home/abi/fetcher/tmp/solcast-1.2.4.tar.gz]
 [2024-05-08 01:36:52] INFO root fetch - main [MainThread]: End processing [solcast]: success
 [2024-05-08 01:36:52] INFO root fetch - main [MainThread]: Store serial: [23104853]
+[2024-05-08 01:38:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104853]
+[2024-05-08 01:39:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ternviz
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TimeFeatures
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aider-chat
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-workflows
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelbit
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REVHubInterface
+[2024-05-08 01:39:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metamist
+[2024-05-08 01:39:01] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.1.dev33] Old Version: [1.3.1.dev30]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/99/94/8cbb56c13a35e5f4f0a35b6bcb2c30516f928cbe7e5ed514a0220db19a10/revhubinterface-1.3.1.dev30.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [ternviz]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [TimeFeatures]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [metamist]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-08 01:39:01] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [TimeFeatures]: Downloading https://files.pythonhosted.org/packages/18/6a/abc63d378185fb65de52e83fad00a7ad1ad4b103fd4393d69ad4809aa45f/TimeFeatures-1.0.8.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [ternviz]: Downloading https://files.pythonhosted.org/packages/9b/53/afff0984f341ce5a8787e71bc38f650a59cdc736b161d46f46ff488d4c5d/ternviz-0.6.2.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/6e/16/48e143c2de924259a0d5d34233c2645d62d071b576f46935302e9da722f1/revhubinterface-1.3.1.dev33.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [TimeFeatures]: Downloading https://files.pythonhosted.org/packages/a3/cd/d2bb049f303ebe0594132b4d544b9bd8c5136e9f9ad298bf52e3f6f715a5/TimeFeatures-1.0.9.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2024-05-08 01:39:01] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20240508/m/modelbit/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-08 01:39:01] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-08 01:39:01] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.1.dev30.tar.gz tmp/revhubinterface-1.3.1.dev33.tar.gz --markdown 20240508/R/REVHubInterface/1.3.1.dev30-1.3.1.dev33/README.md --exclude *.pyd
+[2024-05-08 01:39:01] INFO root fetch - processPackages [TimeFeatures]: executing diffoscope
+[2024-05-08 01:39:01] INFO root fetch - processPackages [TimeFeatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeFeatures-1.0.8.tar.gz tmp/TimeFeatures-1.0.9.tar.gz --markdown 20240508/T/TimeFeatures/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 01:39:01] INFO root fetch - processPackages [ternviz]: Downloading https://files.pythonhosted.org/packages/ed/b3/c2d5633b105fda7e1f85da862c68bd70c0b60a84596f94089c578e599a73/ternviz-0.6.3.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [ternviz]: executing diffoscope
+[2024-05-08 01:39:01] INFO root fetch - processPackages [ternviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ternviz-0.6.2.tar.gz tmp/ternviz-0.6.3.tar.gz --markdown 20240508/t/ternviz/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-08 01:39:01] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/4b/72/e1bc6d293dedf2878eaaec17f90d95b929e5eb8dfd9a25b19410e5a4b21f/metamist-6.9.1.tar.gz
+[2024-05-08 01:39:01] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2024-05-08 01:39:01] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20240508/a/aider-chat/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-08 01:39:02] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2024-05-08 01:39:02] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20240508/n/np-workflows/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-08 01:39:02] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-05-08 01:39:02] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.9.0.tar.gz tmp/metamist-6.9.1.tar.gz --markdown 20240508/m/metamist/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-05-08 01:39:02] INFO root fetch - processPackages [TimeFeatures]: Remove: archive file [/home/abi/fetcher/tmp/TimeFeatures-1.0.8.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [TimeFeatures]: Remove: archive file [/home/abi/fetcher/tmp/TimeFeatures-1.0.9.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [TimeFeatures]: success
+[2024-05-08 01:39:02] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2024-05-08 01:39:02] INFO root fetch - processPackages [ternviz]: Remove: archive file [/home/abi/fetcher/tmp/ternviz-0.6.2.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [ternviz]: Remove: archive file [/home/abi/fetcher/tmp/ternviz-0.6.3.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [ternviz]: success
+[2024-05-08 01:39:02] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.1.dev30.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.1.dev33.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-08 01:39:02] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2024-05-08 01:39:02] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2024-05-08 01:39:02] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2024-05-08 01:39:03] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-05-08 01:39:03] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.1.tar.gz]
+[2024-05-08 01:39:03] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-05-08 01:39:03] INFO root fetch - main [MainThread]: Store serial: [23104873]
