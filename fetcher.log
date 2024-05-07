@@ -1235,3 +1235,15 @@
 [2024-05-08 01:10:29] INFO root fetch - processPackages [mzdata2mat]: Remove: archive file [/home/abi/fetcher/tmp/mzdata2mat-0.2.0.tar.gz]
 [2024-05-08 01:10:29] INFO root fetch - main [MainThread]: End processing [mzdata2mat]: success
 [2024-05-08 01:10:29] INFO root fetch - main [MainThread]: Store serial: [23104750]
+[2024-05-08 01:12:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104750]
+[2024-05-08 01:12:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 01:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DMU
+[2024-05-08 01:12:38] INFO root fetch - processPackages [DMU]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 01:12:39] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/74/db/284dcdabac66cf482ddec285c7cf6dae6d2380c88d22bfe6c0c6cd17eb2c/DMU-0.2.8.tar.gz
+[2024-05-08 01:12:39] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/12/6f/177e5c34bdf9af5a57a2a74f611b5033516ffa1d23c44e042ac713d85937/dmu-0.2.9.tar.gz
+[2024-05-08 01:12:39] INFO root fetch - processPackages [DMU]: executing diffoscope
+[2024-05-08 01:12:39] INFO root fetch - processPackages [DMU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DMU-0.2.8.tar.gz tmp/dmu-0.2.9.tar.gz --markdown 20240508/D/DMU/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 01:12:40] INFO root fetch - processPackages [DMU]: Remove: archive file [/home/abi/fetcher/tmp/DMU-0.2.8.tar.gz]
+[2024-05-08 01:12:40] INFO root fetch - processPackages [DMU]: Remove: archive file [/home/abi/fetcher/tmp/dmu-0.2.9.tar.gz]
+[2024-05-08 01:12:40] INFO root fetch - main [MainThread]: End processing [DMU]: success
+[2024-05-08 01:12:40] INFO root fetch - main [MainThread]: Store serial: [23104753]
