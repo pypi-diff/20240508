@@ -802,3 +802,50 @@
 [2024-05-08 00:46:22] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.5.tar.gz]
 [2024-05-08 00:46:22] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
 [2024-05-08 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23104616]
+[2024-05-08 00:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104616]
+[2024-05-08 00:48:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonschema-markdown
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-adapters
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mc-providers
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protein-design-tools
+[2024-05-08 00:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slalom-tapdance
+[2024-05-08 00:48:31] WARNING root fetch - processPackages [protein-design-tools]: Skipping, unable to determine old version
+[2024-05-08 00:48:31] INFO root fetch - main [MainThread]: End processing [protein-design-tools] error
+[2024-05-08 00:48:31] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-08 00:48:31] INFO root fetch - processPackages [jsonschema-markdown]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-08 00:48:31] INFO root fetch - processPackages [dbt-adapters]: New version: [1.1.1] Old Version: [1.1.0rc2]
+[2024-05-08 00:48:31] INFO root fetch - processPackages [mc-providers]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-08 00:48:31] INFO root fetch - processPackages [slalom-tapdance]: New version: [1.0.0.dev61] Old Version: [1.0.0.dev60]
+[2024-05-08 00:48:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-08 00:48:31] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/a2/e7/6530e6041902924010c24136df69c72cc6c17d6efbda80d32a174e41a82c/jsonschema_markdown-0.3.6.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/67/14/ffb55e97c96b042119f8a693de17591b193fa26dd2db1a3d22be7006977d/dbt_adapters-1.1.0rc2.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [mc-providers]: Downloading https://files.pythonhosted.org/packages/5a/ef/379505b72e0edd1f95127c66a8e63af3aaf953e58ef8173d842c305ee3d1/mc_providers-2.0.2.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/ed/d9/2ac3992063d23c1de79d74846cf99978f5437a5e207722e8b5f44cd1d86f/slalom_tapdance-1.0.0.dev60.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-08 00:48:32] WARNING root fetch - processPackages [mc-providers]: Skipping package: exceeds size limit 122966384>=10485760
+[2024-05-08 00:48:32] INFO root fetch - main [MainThread]: End processing [mc-providers] error
+[2024-05-08 00:48:32] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-08 00:48:32] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240508/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-08 00:48:32] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/81/85/712f7b773a9eeca8de31e66658be8020438b94426d85bc37091b3366f661/jsonschema_markdown-0.3.7.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [jsonschema-markdown]: executing diffoscope
+[2024-05-08 00:48:32] INFO root fetch - processPackages [jsonschema-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_markdown-0.3.6.tar.gz tmp/jsonschema_markdown-0.3.7.tar.gz --markdown 20240508/j/jsonschema-markdown/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-08 00:48:32] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/10/e2/df7263ed232ac6832283e41884c45e08e5b8f3790e6322342de7c8d9fdb4/dbt_adapters-1.1.1.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [slalom-tapdance]: Downloading https://files.pythonhosted.org/packages/4c/82/8a86137ec3fd57d05b9a0118dfaaa0957b8e3a0d2dff3374f621aa01b461/slalom_tapdance-1.0.0.dev61.tar.gz
+[2024-05-08 00:48:32] INFO root fetch - processPackages [dbt-adapters]: executing diffoscope
+[2024-05-08 00:48:32] INFO root fetch - processPackages [dbt-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_adapters-1.1.0rc2.tar.gz tmp/dbt_adapters-1.1.1.tar.gz --markdown 20240508/d/dbt-adapters/1.1.0rc2-1.1.1/README.md --exclude *.pyd
+[2024-05-08 00:48:32] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.6.tar.gz]
+[2024-05-08 00:48:32] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.7.tar.gz]
+[2024-05-08 00:48:32] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown]: success
+[2024-05-08 00:48:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-08 00:48:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-08 00:48:33] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-08 00:48:33] INFO root fetch - processPackages [slalom-tapdance]: executing diffoscope
+[2024-05-08 00:48:33] INFO root fetch - processPackages [slalom-tapdance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slalom_tapdance-1.0.0.dev60.tar.gz tmp/slalom_tapdance-1.0.0.dev61.tar.gz --markdown 20240508/s/slalom-tapdance/1.0.0.dev60-1.0.0.dev61/README.md --exclude *.pyd
+[2024-05-08 00:48:33] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.1.0rc2.tar.gz]
+[2024-05-08 00:48:33] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.1.1.tar.gz]
+[2024-05-08 00:48:33] INFO root fetch - main [MainThread]: End processing [dbt-adapters]: success
+[2024-05-08 00:48:33] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.0.dev60.tar.gz]
+[2024-05-08 00:48:33] INFO root fetch - processPackages [slalom-tapdance]: Remove: archive file [/home/abi/fetcher/tmp/slalom_tapdance-1.0.0.dev61.tar.gz]
+[2024-05-08 00:48:33] INFO root fetch - main [MainThread]: End processing [slalom-tapdance]: success
+[2024-05-08 00:48:33] INFO root fetch - main [MainThread]: Store serial: [23104631]
