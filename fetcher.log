@@ -1310,3 +1310,33 @@
 [2024-05-08 01:21:10] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.2.tar.gz]
 [2024-05-08 01:21:10] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
 [2024-05-08 01:21:10] INFO root fetch - main [MainThread]: Store serial: [23104774]
+[2024-05-08 01:23:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104774]
+[2024-05-08 01:23:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 01:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-ansible
+[2024-05-08 01:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulp-ansible-client
+[2024-05-08 01:23:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-08 01:23:18] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-08 01:23:19] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/c0/ff/6ff8fe5e6a27ff19dc8786b5c4352ea985e013c994943695c9f26eb0195b/cvprocessor-0.0.18.tar.gz
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/62/2c/e1b7d3b2bf694e5b527aece5c0ff297ce5b7a35e0a1288e77cdf9e9288b6/pulp-ansible-0.9.1.tar.gz
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/f9/b1/73071a21ca569d00218daa10feb86f7c77a90bcf326d67ec0d3bce2f26a2/pulp_ansible-client-0.9.1.tar.gz
+[2024-05-08 01:23:19] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/c3/ab/9e11bebb0608f466ff31147a3da766d6bdb2bb7f1bee5695eefa4fce5400/cvprocessor-0.0.19.tar.gz
+[2024-05-08 01:23:19] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 01:23:19] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.18.tar.gz tmp/cvprocessor-0.0.19.tar.gz --markdown 20240508/c/cvprocessor/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/b8/7c/698a44eb6120b3c5dbf2a80023bfeda1f9bf6400d2a563351bd9093e44f3/pulp-ansible-0.9.2.tar.gz
+[2024-05-08 01:23:19] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/0f/9f/cbcaea9dbbc573d1e5619eeedcc30accc9083b017ae0f26afd6e9a170cca/pulp_ansible-client-0.9.2.tar.gz
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible]: executing diffoscope
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-ansible-0.9.1.tar.gz tmp/pulp-ansible-0.9.2.tar.gz --markdown 20240508/p/pulp-ansible/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 01:23:20] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.18.tar.gz]
+[2024-05-08 01:23:20] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.19.tar.gz]
+[2024-05-08 01:23:20] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible-client]: executing diffoscope
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_ansible-client-0.9.1.tar.gz tmp/pulp_ansible-client-0.9.2.tar.gz --markdown 20240508/p/pulp-ansible-client/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.1.tar.gz]
+[2024-05-08 01:23:20] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.2.tar.gz]
+[2024-05-08 01:23:20] INFO root fetch - main [MainThread]: End processing [pulp-ansible]: success
+[2024-05-08 01:23:21] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.1.tar.gz]
+[2024-05-08 01:23:21] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
+[2024-05-08 01:23:21] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
+[2024-05-08 01:23:21] INFO root fetch - main [MainThread]: Store serial: [23104783]
