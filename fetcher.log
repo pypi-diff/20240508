@@ -85,3 +85,69 @@
 [2024-05-08 00:00:34] INFO root fetch - processPackages [tencentcloud-sdk-python-wedata]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wedata-3.0.999.tar.gz]
 [2024-05-08 00:00:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wedata]: success
 [2024-05-08 00:00:34] INFO root fetch - main [MainThread]: Store serial: [23104326]
+[2024-05-08 00:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104326]
+[2024-05-08 00:02:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunxiao
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altscore
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imap-data-access
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmticket
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mediacloud-metadata
+[2024-05-08 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinyscript
+[2024-05-08 00:02:42] INFO root fetch - processPackages [yunxiao]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.16] Old Version: [0.0.15]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [tmticket]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/91/30/7dab021fbebcbc8a948535a3259771c4ba186e097cba0298a6fc3e09bfad/yunxiao-0.5.8.tar.gz
+[2024-05-08 00:02:42] INFO root fetch - processPackages [mediacloud-metadata]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [imap-data-access]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [tinyscript]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-08 00:02:42] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/69/47/73c4dd3e77ef4b47d263a66c9d046d3462e0ea03c4c436f05cda678d6801/cvprocessor-0.0.15.tar.gz
+[2024-05-08 00:02:42] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/df/a1/67d53695aae01be1fc7c0cffb4511296bd650a76b6a1a50ebe07e822c19a/tmticket-0.1.8.tar.gz
+[2024-05-08 00:02:42] INFO root fetch - processPackages [mediacloud-metadata]: Downloading https://files.pythonhosted.org/packages/82/72/8d79c8de10b189d0715b5c6d2c9283bdaae00a3e57d177b5cd7670c88fd6/mediacloud_metadata-1.0.1.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/65/ea/8d09efecced01316117ff8cca25d25d952fb19ccfc4d0fa3a890e60f9eb1/yunxiao-0.5.9.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/ce/36/74cf9a961080171bcd5e92d60f426b9744eb406b90e174999710fc198cdd/tmticket-0.1.9.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [imap-data-access]: Downloading https://files.pythonhosted.org/packages/8f/a4/3d7a5caea84474301a2b8b59ce60988855c51223d1082ecba023269c6e81/imap_data_access-0.5.1.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/45/d0/3393f08eca58519f8e94086418ba3efe9502ad4acb3cc377fe73b08f64ab/tinyscript-1.9.4.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.5.8.tar.gz tmp/yunxiao-0.5.9.tar.gz --markdown 20240508/y/yunxiao/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.1.8.tar.gz tmp/tmticket-0.1.9.tar.gz --markdown 20240508/t/tmticket/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:02:43] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/08/07/d5dd359c6f22f5772248d82ecc9a6eaeec881d4761e34e689a3b3b2493e6/cvprocessor-0.0.16.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.15.tar.gz tmp/cvprocessor-0.0.16.tar.gz --markdown 20240508/c/cvprocessor/0.0.15-0.0.16/README.md --exclude *.pyd
+[2024-05-08 00:02:43] INFO root fetch - processPackages [imap-data-access]: Downloading https://files.pythonhosted.org/packages/f5/c7/dc7e42dcb1e2dc3f4942a166ccc0267109a694c01b95139eee6b798093b7/imap_data_access-0.6.0.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tinyscript]: Downloading https://files.pythonhosted.org/packages/a4/92/f1a76d3caa9d4c9a8eea462e7b0ebce18a722fc05ccdba197c2ce598db2b/tinyscript-1.9.5.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [imap-data-access]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [imap-data-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_data_access-0.5.1.tar.gz tmp/imap_data_access-0.6.0.tar.gz --markdown 20240508/i/imap-data-access/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-08 00:02:43] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240508/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-08 00:02:43] INFO root fetch - processPackages [mediacloud-metadata]: Downloading https://files.pythonhosted.org/packages/21/99/76e45f50c1685185e9891878eba4097b4d6a95a3ebbc4c5a205c8b2faeb5/mediacloud_metadata-1.0.2.tar.gz
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tinyscript]: executing diffoscope
+[2024-05-08 00:02:43] INFO root fetch - processPackages [tinyscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyscript-1.9.4.tar.gz tmp/tinyscript-1.9.5.tar.gz --markdown 20240508/t/tinyscript/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-08 00:02:44] INFO root fetch - processPackages [mediacloud-metadata]: executing diffoscope
+[2024-05-08 00:02:44] INFO root fetch - processPackages [mediacloud-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediacloud_metadata-1.0.1.tar.gz tmp/mediacloud_metadata-1.0.2.tar.gz --markdown 20240508/m/mediacloud-metadata/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 00:02:44] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.8.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.9.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-05-08 00:02:44] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.15.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.16.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 00:02:44] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.1.8.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.1.9.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-08 00:02:44] INFO root fetch - processPackages [imap-data-access]: Remove: archive file [/home/abi/fetcher/tmp/imap_data_access-0.5.1.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [imap-data-access]: Remove: archive file [/home/abi/fetcher/tmp/imap_data_access-0.6.0.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [imap-data-access]: success
+[2024-05-08 00:02:44] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.4.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [tinyscript]: Remove: archive file [/home/abi/fetcher/tmp/tinyscript-1.9.5.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [tinyscript]: success
+[2024-05-08 00:02:44] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-05-08 00:02:44] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-05-08 00:02:47] INFO root fetch - processPackages [mediacloud-metadata]: Remove: archive file [/home/abi/fetcher/tmp/mediacloud_metadata-1.0.1.tar.gz]
+[2024-05-08 00:02:47] INFO root fetch - processPackages [mediacloud-metadata]: Remove: archive file [/home/abi/fetcher/tmp/mediacloud_metadata-1.0.2.tar.gz]
+[2024-05-08 00:02:47] INFO root fetch - main [MainThread]: End processing [mediacloud-metadata]: success
+[2024-05-08 00:02:47] INFO root fetch - main [MainThread]: Store serial: [23104346]
