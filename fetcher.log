@@ -544,3 +544,33 @@
 [2024-05-08 00:29:03] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.9.tar.gz]
 [2024-05-08 00:29:03] INFO root fetch - main [MainThread]: End processing [itrm]: success
 [2024-05-08 00:29:03] INFO root fetch - main [MainThread]: Store serial: [23104539]
+[2024-05-08 00:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104539]
+[2024-05-08 00:31:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dawgie
+[2024-05-08 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-08 00:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freeze-dried-data
+[2024-05-08 00:31:11] INFO root fetch - processPackages [dawgie]: New version: [1.4.3rc4] Old Version: [1.4.3rc3]
+[2024-05-08 00:31:11] INFO root fetch - processPackages [freeze-dried-data]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-08 00:31:11] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/ef/63/9c3bd319ba3a603544eca07128f5f4e13036baca690c19f4adadc985c74d/dawgie-1.4.3rc3.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/70/64/89d84f650eb38d8af280141ee8d9e7d96c4d2d8b02618de92c3a2acd3380/freeze_dried_data-2.1.2.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: Downloading https://files.pythonhosted.org/packages/8e/90/f1542bc502fa001d07803885f1af87d430355a7ed4075df5ad188d29fce7/dawgie-1.4.3rc4.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: executing diffoscope
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawgie-1.4.3rc3.tar.gz tmp/dawgie-1.4.3rc4.tar.gz --markdown 20240508/d/dawgie/1.4.3rc3-1.4.3rc4/README.md --exclude *.pyd
+[2024-05-08 00:31:12] INFO root fetch - processPackages [freeze-dried-data]: Downloading https://files.pythonhosted.org/packages/9d/05/063119992c6ba3f90fa0ce37815931dfbd46f0b5d3105a11bf4baaa0848f/freeze_dried_data-2.1.3.tar.gz
+[2024-05-08 00:31:12] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-08 00:31:12] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240508/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-08 00:31:12] INFO root fetch - processPackages [freeze-dried-data]: executing diffoscope
+[2024-05-08 00:31:12] INFO root fetch - processPackages [freeze-dried-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeze_dried_data-2.1.2.tar.gz tmp/freeze_dried_data-2.1.3.tar.gz --markdown 20240508/f/freeze-dried-data/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.3rc3.tar.gz]
+[2024-05-08 00:31:12] INFO root fetch - processPackages [dawgie]: Remove: archive file [/home/abi/fetcher/tmp/dawgie-1.4.3rc4.tar.gz]
+[2024-05-08 00:31:12] INFO root fetch - main [MainThread]: End processing [dawgie]: success
+[2024-05-08 00:31:13] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.1.2.tar.gz]
+[2024-05-08 00:31:13] INFO root fetch - processPackages [freeze-dried-data]: Remove: archive file [/home/abi/fetcher/tmp/freeze_dried_data-2.1.3.tar.gz]
+[2024-05-08 00:31:13] INFO root fetch - main [MainThread]: End processing [freeze-dried-data]: success
+[2024-05-08 00:31:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-08 00:31:13] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-08 00:31:13] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-08 00:31:13] INFO root fetch - main [MainThread]: Store serial: [23104548]
