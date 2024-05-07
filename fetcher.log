@@ -523,3 +523,24 @@
 [2024-05-08 00:26:53] INFO root fetch - processPackages [kfactory]: Remove: archive file [/home/abi/fetcher/tmp/kfactory-0.9.3.tar.gz]
 [2024-05-08 00:26:53] INFO root fetch - main [MainThread]: End processing [kfactory]: success
 [2024-05-08 00:26:53] INFO root fetch - main [MainThread]: Store serial: [23104533]
+[2024-05-08 00:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104533]
+[2024-05-08 00:29:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 00:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: special-agents
+[2024-05-08 00:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itrm
+[2024-05-08 00:29:02] INFO root fetch - processPackages [special-agents]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 00:29:02] INFO root fetch - processPackages [itrm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 00:29:02] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/63/d9/02e470d0205400a3e5ac1785e492059decf3a093c93573602629f63fd3c2/special_agents-1.0.6.tar.gz
+[2024-05-08 00:29:02] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/84/3f/b5e7fc6009ce0354b4675373a4bc5c42de75d53bfa65722db25d842c05de/itrm-0.1.8.tar.gz
+[2024-05-08 00:29:02] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/b0/8f/ac25234eb18a5274e2bd68256f8c8434808ef8cf9d6e004f401fd64e0302/special_agents-1.0.7.tar.gz
+[2024-05-08 00:29:02] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-08 00:29:02] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.6.tar.gz tmp/special_agents-1.0.7.tar.gz --markdown 20240508/s/special-agents/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 00:29:02] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/35/d9/2923458248fefadc46291ec0e8d452d1a4bb64cfaee00db5b884895e3ecc/itrm-0.1.9.tar.gz
+[2024-05-08 00:29:02] INFO root fetch - processPackages [itrm]: executing diffoscope
+[2024-05-08 00:29:02] INFO root fetch - processPackages [itrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itrm-0.1.8.tar.gz tmp/itrm-0.1.9.tar.gz --markdown 20240508/i/itrm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 00:29:03] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.6.tar.gz]
+[2024-05-08 00:29:03] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.7.tar.gz]
+[2024-05-08 00:29:03] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-08 00:29:03] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.8.tar.gz]
+[2024-05-08 00:29:03] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.9.tar.gz]
+[2024-05-08 00:29:03] INFO root fetch - main [MainThread]: End processing [itrm]: success
+[2024-05-08 00:29:03] INFO root fetch - main [MainThread]: Store serial: [23104539]
