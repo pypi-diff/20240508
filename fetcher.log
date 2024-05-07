@@ -706,3 +706,33 @@
 [2024-05-08 00:42:02] INFO root fetch - processPackages [lilya]: Remove: archive file [/home/abi/fetcher/tmp/lilya-0.7.0.tar.gz]
 [2024-05-08 00:42:02] INFO root fetch - main [MainThread]: End processing [lilya]: success
 [2024-05-08 00:42:02] INFO root fetch - main [MainThread]: Store serial: [23104588]
+[2024-05-08 00:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104588]
+[2024-05-08 00:44:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 00:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openet-core
+[2024-05-08 00:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: special-agents
+[2024-05-08 00:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hospitalpy
+[2024-05-08 00:44:11] INFO root fetch - processPackages [special-agents]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 00:44:11] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/63/d9/02e470d0205400a3e5ac1785e492059decf3a093c93573602629f63fd3c2/special_agents-1.0.6.tar.gz
+[2024-05-08 00:44:11] INFO root fetch - processPackages [openet-core]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-08 00:44:11] INFO root fetch - processPackages [hospitalpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 00:44:11] INFO root fetch - processPackages [special-agents]: Downloading https://files.pythonhosted.org/packages/b0/8f/ac25234eb18a5274e2bd68256f8c8434808ef8cf9d6e004f401fd64e0302/special_agents-1.0.7.tar.gz
+[2024-05-08 00:44:11] INFO root fetch - processPackages [openet-core]: Downloading https://files.pythonhosted.org/packages/70/17/516726dd12c71d64e6a1c65b4ca3d3d8ebb09c6243ed050672fa7f7dc988/openet-core-0.4.1.tar.gz
+[2024-05-08 00:44:11] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/e7/5a/c2725ebfdb51df621a6b2ef7ac7fffd0ae6cf434505228b2410a157958f1/hospitalpy-0.1.0.tar.gz
+[2024-05-08 00:44:11] INFO root fetch - processPackages [special-agents]: executing diffoscope
+[2024-05-08 00:44:11] INFO root fetch - processPackages [special-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special_agents-1.0.6.tar.gz tmp/special_agents-1.0.7.tar.gz --markdown 20240508/s/special-agents/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 00:44:11] INFO root fetch - processPackages [openet-core]: Downloading https://files.pythonhosted.org/packages/a4/23/07b18a2732bbbdc12bcbf5bd0f38446199dd75a3281d2ceed69e409c9aa3/openet_core-0.4.2.tar.gz
+[2024-05-08 00:44:11] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/1c/24/6c5365942c5d8afa44141a572250129ba1715c465aba8abf3d5c8d7bdcde/hospitalpy-0.1.1.tar.gz
+[2024-05-08 00:44:12] INFO root fetch - processPackages [openet-core]: executing diffoscope
+[2024-05-08 00:44:12] INFO root fetch - processPackages [openet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openet-core-0.4.1.tar.gz tmp/openet_core-0.4.2.tar.gz --markdown 20240508/o/openet-core/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-08 00:44:12] INFO root fetch - processPackages [hospitalpy]: executing diffoscope
+[2024-05-08 00:44:12] INFO root fetch - processPackages [hospitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hospitalpy-0.1.0.tar.gz tmp/hospitalpy-0.1.1.tar.gz --markdown 20240508/h/hospitalpy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 00:44:12] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.6.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - processPackages [special-agents]: Remove: archive file [/home/abi/fetcher/tmp/special_agents-1.0.7.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - main [MainThread]: End processing [special-agents]: success
+[2024-05-08 00:44:12] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.0.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.1.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - main [MainThread]: End processing [hospitalpy]: success
+[2024-05-08 00:44:12] INFO root fetch - processPackages [openet-core]: Remove: archive file [/home/abi/fetcher/tmp/openet-core-0.4.1.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - processPackages [openet-core]: Remove: archive file [/home/abi/fetcher/tmp/openet_core-0.4.2.tar.gz]
+[2024-05-08 00:44:12] INFO root fetch - main [MainThread]: End processing [openet-core]: success
+[2024-05-08 00:44:12] INFO root fetch - main [MainThread]: Store serial: [23104596]
