@@ -613,3 +613,20 @@
 [2024-05-08 00:33:23] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405072231-py3-none-any.whl.zip]
 [2024-05-08 00:33:23] INFO root fetch - main [MainThread]: End processing [aicli]: success
 [2024-05-08 00:33:23] INFO root fetch - main [MainThread]: Store serial: [23104559]
+[2024-05-08 00:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104559]
+[2024-05-08 00:35:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 00:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task-queue
+[2024-05-08 00:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-hubspot
+[2024-05-08 00:35:31] INFO root fetch - processPackages [task-queue]: New version: [2.9.0] Old Version: [2.8.7]
+[2024-05-08 00:35:31] INFO root fetch - processPackages [airbyte-source-hubspot]: New version: [4.1.2.dev202405072234] Old Version: [4.1.2]
+[2024-05-08 00:35:31] INFO root fetch - processPackages [task-queue]: Downloading https://files.pythonhosted.org/packages/08/8c/87043788f71d7593e8c346c3dd4afbb900f69ac6fe6c311afaab8dc9f913/task-queue-2.8.7.tar.gz
+[2024-05-08 00:35:31] INFO root fetch - processPackages [airbyte-source-hubspot]: Downloading https://files.pythonhosted.org/packages/25/bd/801ffb8ceb95cf3987282657c2adc9234c1c3176b939f2f9b203ae5a7a55/airbyte_source_hubspot-4.1.2.tar.gz
+[2024-05-08 00:35:31] ERROR root fetch - processPackages [airbyte-source-hubspot]: Unable to fetch info: No such project/version 'airbyte-source-hubspot' 4.1.2.dev202405072234
+[2024-05-08 00:35:31] INFO root fetch - main [MainThread]: End processing [airbyte-source-hubspot] error
+[2024-05-08 00:35:31] INFO root fetch - processPackages [task-queue]: Downloading https://files.pythonhosted.org/packages/5c/5e/84128aa153e26cb4b8230c5af776b7511874ea839684d96cbe4fa145e3ca/task-queue-2.9.0.tar.gz
+[2024-05-08 00:35:32] INFO root fetch - processPackages [task-queue]: executing diffoscope
+[2024-05-08 00:35:32] INFO root fetch - processPackages [task-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task-queue-2.8.7.tar.gz tmp/task-queue-2.9.0.tar.gz --markdown 20240508/t/task-queue/2.8.7-2.9.0/README.md --exclude *.pyd
+[2024-05-08 00:35:32] INFO root fetch - processPackages [task-queue]: Remove: archive file [/home/abi/fetcher/tmp/task-queue-2.8.7.tar.gz]
+[2024-05-08 00:35:32] INFO root fetch - processPackages [task-queue]: Remove: archive file [/home/abi/fetcher/tmp/task-queue-2.9.0.tar.gz]
+[2024-05-08 00:35:32] INFO root fetch - main [MainThread]: End processing [task-queue]: success
+[2024-05-08 00:35:32] INFO root fetch - main [MainThread]: Store serial: [23104565]
