@@ -1026,3 +1026,24 @@
 [2024-05-08 00:59:25] INFO root fetch - processPackages [db2text]: Remove: archive file [/home/abi/fetcher/tmp/db2text-0.1.8.tar.gz]
 [2024-05-08 00:59:25] INFO root fetch - main [MainThread]: End processing [db2text]: success
 [2024-05-08 00:59:25] INFO root fetch - main [MainThread]: Store serial: [23104691]
+[2024-05-08 01:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23104691]
+[2024-05-08 01:01:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonschema-markdown
+[2024-05-08 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunxiao
+[2024-05-08 01:01:34] INFO root fetch - processPackages [yunxiao]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 01:01:34] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/91/30/7dab021fbebcbc8a948535a3259771c4ba186e097cba0298a6fc3e09bfad/yunxiao-0.5.8.tar.gz
+[2024-05-08 01:01:34] INFO root fetch - processPackages [jsonschema-markdown]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-08 01:01:34] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/65/ea/8d09efecced01316117ff8cca25d25d952fb19ccfc4d0fa3a890e60f9eb1/yunxiao-0.5.9.tar.gz
+[2024-05-08 01:01:34] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/81/85/712f7b773a9eeca8de31e66658be8020438b94426d85bc37091b3366f661/jsonschema_markdown-0.3.7.tar.gz
+[2024-05-08 01:01:34] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-05-08 01:01:34] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.5.8.tar.gz tmp/yunxiao-0.5.9.tar.gz --markdown 20240508/y/yunxiao/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: Downloading https://files.pythonhosted.org/packages/db/e3/4fe38c38f779598b54309d4633d339cbd34137546b58089bb1ed17259610/jsonschema_markdown-0.3.8.tar.gz
+[2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: executing diffoscope
+[2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_markdown-0.3.7.tar.gz tmp/jsonschema_markdown-0.3.8.tar.gz --markdown 20240508/j/jsonschema-markdown/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-08 01:01:35] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.8.tar.gz]
+[2024-05-08 01:01:35] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.9.tar.gz]
+[2024-05-08 01:01:35] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.7.tar.gz]
+[2024-05-08 01:01:35] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.8.tar.gz]
+[2024-05-08 01:01:35] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown]: success
+[2024-05-08 01:01:35] INFO root fetch - main [MainThread]: Store serial: [23104697]
