@@ -1984,3 +1984,42 @@
 [2024-05-08 01:52:15] INFO root fetch - processPackages [genomicsdb]: Remove: archive file [/home/abi/fetcher/tmp/genomicsdb-0.0.9.9.tar.gz]
 [2024-05-08 01:52:15] INFO root fetch - main [MainThread]: End processing [genomicsdb]: success
 [2024-05-08 01:52:15] INFO root fetch - main [MainThread]: Store serial: [23105060]
+[2024-05-08 01:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105060]
+[2024-05-08 01:54:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 01:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-05-08 01:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmticket
+[2024-05-08 01:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camera-ui-python-types
+[2024-05-08 01:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datafog
+[2024-05-08 01:54:24] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 01:54:24] INFO root fetch - processPackages [tmticket]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-08 01:54:24] INFO root fetch - processPackages [datafog]: New version: [3.1.0b1] Old Version: [3.0.1b1]
+[2024-05-08 01:54:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-08 01:54:24] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/ce/36/74cf9a961080171bcd5e92d60f426b9744eb406b90e174999710fc198cdd/tmticket-0.1.9.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/6b/56/71d3f23907c6e6af80864213551da8680cad9764284d204e2f558d77a7b2/datafog-3.0.1b1.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/8e/0c/e6f5e6f9f0d8fa0cf14db5d31335203a6ed44f9eb64e07d0e9980072929c/tmticket-0.2.0.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-08 01:54:24] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.1.9.tar.gz tmp/tmticket-0.2.0.tar.gz --markdown 20240508/t/tmticket/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-08 01:54:24] INFO root fetch - processPackages [datafog]: Downloading https://files.pythonhosted.org/packages/9e/72/c23562d9f3f5b9738aa0f1af07a80c8b266793acaabe172183c963cad592/datafog-3.1.0b1.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-08 01:54:24] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-08 01:54:24] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240508/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 01:54:24] INFO root fetch - processPackages [datafog]: executing diffoscope
+[2024-05-08 01:54:24] INFO root fetch - processPackages [datafog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafog-3.0.1b1.tar.gz tmp/datafog-3.1.0b1.tar.gz --markdown 20240508/d/datafog/3.0.1b1-3.1.0b1/README.md --exclude *.pyd
+[2024-05-08 01:54:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-08 01:54:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240508/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-08 01:54:25] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.0.1b1.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - processPackages [datafog]: Remove: archive file [/home/abi/fetcher/tmp/datafog-3.1.0b1.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - main [MainThread]: End processing [datafog]: success
+[2024-05-08 01:54:25] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.1.9.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.0.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-08 01:54:25] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-08 01:54:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-08 01:54:25] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-08 01:54:25] INFO root fetch - main [MainThread]: Store serial: [23105102]
