@@ -19558,3 +19558,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 13:03:14] INFO root fetch - processPackages [storyblok-assets-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/storyblok-assets-cleanup-0.0.1.dev6.tar.gz]
 [2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [storyblok-assets-cleanup]: success
 [2024-05-08 13:03:14] INFO root fetch - main [MainThread]: Store serial: [23112342]
+[2024-05-08 13:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112342]
+[2024-05-08 13:05:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parallel-corpus
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msimilarities
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client-v2
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qBitrr2
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygenuz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkproxy
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: readfish
+[2024-05-08 13:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lnschema_bionty
+[2024-05-08 13:05:23] INFO root fetch - processPackages [pygenuz]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 13:05:23] WARNING root fetch - processPackages [msimilarities]: Skipping, unable to determine old version
+[2024-05-08 13:05:23] INFO root fetch - main [MainThread]: End processing [msimilarities] error
+[2024-05-08 13:05:23] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/8d/e6/d71c5d9a7929b6fb292ef2d230382a9042652ed891dd6a9b46b037335042/pygenuz-0.2.8.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [parallel-corpus]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [sparkproxy]: New version: [1.0.0] Old Version: [0.4.3]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [readfish]: New version: [2024.1.0] Old Version: [2023.1.1]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/84/7a/7c6a859d986da1919c0e46ccd4ad158ae434034b1ceb7800889556c6dfd4/qbitrr2-4.5.8.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-08 13:05:23] INFO root fetch - processPackages [parallel-corpus]: Downloading https://files.pythonhosted.org/packages/c1/7f/4b1a00196b23f25c697d817e11f9e507213aef04ea0a5e09a2da76f52f8f/parallel_corpus-0.1.1.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/bc/25/6ad5baf534c4d3f363f9c72899b1978ac3a9ec6fc771111f3789d5c37452/sparkproxy-0.4.3.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [readfish]: Downloading https://files.pythonhosted.org/packages/57/eb/429390cba5aa99eb986d28aa45d46939b1b3b37e4b40f3fb9f0f707934ad/readfish-2023.1.1.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/60/b3/5b053f1e8c914c8df8ba56516273e7ae252ab092078e32ba2c6e9d623a85/qbitrr2-4.5.9.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/60/d4/bfaab30a07fc6ce52253a870f09d8af1d320d157cd2e2656a58e82c66ed7/pygenuz-0.2.9.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-08 13:05:23] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-08 13:05:23] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.8.tar.gz tmp/qbitrr2-4.5.9.tar.gz --markdown 20240508/q/qBitrr2/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-08 13:05:23] INFO root fetch - processPackages [pygenuz]: executing diffoscope
+[2024-05-08 13:05:23] INFO root fetch - processPackages [pygenuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenuz-0.2.8.tar.gz tmp/pygenuz-0.2.9.tar.gz --markdown 20240508/p/pygenuz/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 13:05:23] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-08 13:05:23] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 13:05:23] INFO root fetch - processPackages [parallel-corpus]: Downloading https://files.pythonhosted.org/packages/78/7e/da6949b91fe86ec92d424de22b2025c46dc83e436a9d7d79a70fdc429fee/parallel_corpus-0.1.2.tar.gz
+[2024-05-08 13:05:24] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/e0/7b/7906cfc398acc1c2ef75828e9dffad32c8e3d8d9b9d0567dacd8487dbea2/sparkproxy-1.0.0.tar.gz
+[2024-05-08 13:05:24] INFO root fetch - processPackages [parallel-corpus]: executing diffoscope
+[2024-05-08 13:05:24] INFO root fetch - processPackages [parallel-corpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel_corpus-0.1.1.tar.gz tmp/parallel_corpus-0.1.2.tar.gz --markdown 20240508/p/parallel-corpus/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 13:05:24] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-05-08 13:05:24] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.4.3.tar.gz tmp/sparkproxy-1.0.0.tar.gz --markdown 20240508/s/sparkproxy/0.4.3-1.0.0/README.md --exclude *.pyd
+[2024-05-08 13:05:24] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2024-05-08 13:05:24] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2024-05-08 13:05:24] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20240508/l/lnschema_bionty/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 13:05:24] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.8.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.9.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-08 13:05:24] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.8.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.9.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - main [MainThread]: End processing [pygenuz]: success
+[2024-05-08 13:05:24] INFO root fetch - processPackages [readfish]: Downloading https://files.pythonhosted.org/packages/47/6c/03c756d565784d74cbdcb3af77d755712518e10e22846d6ba514e71be156/readfish-2024.1.0.tar.gz
+[2024-05-08 13:05:24] INFO root fetch - processPackages [parallel-corpus]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus-0.1.1.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - processPackages [parallel-corpus]: Remove: archive file [/home/abi/fetcher/tmp/parallel_corpus-0.1.2.tar.gz]
+[2024-05-08 13:05:24] INFO root fetch - main [MainThread]: End processing [parallel-corpus]: success
+[2024-05-08 13:05:25] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.4.3.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-1.0.0.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-05-08 13:05:25] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2024-05-08 13:05:25] INFO root fetch - processPackages [readfish]: executing diffoscope
+[2024-05-08 13:05:25] INFO root fetch - processPackages [readfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readfish-2023.1.1.tar.gz tmp/readfish-2024.1.0.tar.gz --markdown 20240508/r/readfish/2023.1.1-2024.1.0/README.md --exclude *.pyd
+[2024-05-08 13:05:25] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-08 13:05:25] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-08 13:05:26] INFO root fetch - processPackages [readfish]: Remove: archive file [/home/abi/fetcher/tmp/readfish-2023.1.1.tar.gz]
+[2024-05-08 13:05:26] INFO root fetch - processPackages [readfish]: Remove: archive file [/home/abi/fetcher/tmp/readfish-2024.1.0.tar.gz]
+[2024-05-08 13:05:26] INFO root fetch - main [MainThread]: End processing [readfish]: success
+[2024-05-08 13:05:26] INFO root fetch - main [MainThread]: Store serial: [23112366]
