@@ -8474,3 +8474,69 @@
 [2024-05-08 04:32:59] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
 [2024-05-08 04:32:59] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
 [2024-05-08 04:32:59] INFO root fetch - main [MainThread]: Store serial: [23107591]
+[2024-05-08 04:35:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107591]
+[2024-05-08 04:35:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipxu
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trio-binance
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickhousePandasWrapper
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proksee-batch
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: montelo
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miner-ai-beta
+[2024-05-08 04:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sindapi
+[2024-05-08 04:35:08] INFO root fetch - processPackages [montelo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [sindapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [trio-binance]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [proksee-batch]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [clickhousePandasWrapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 04:35:08] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c6/cb/9089014649f437cdcbf4e5abff87900b68654f4b1586b566623c1b3953a3/miner_ai_beta-0.1.7.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/a3/64/9be9eae342d536ab1b036d4a2f1c1e5f96a0572ca5355387627d208ab1d1/sindapi-0.0.8.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [montelo]: Downloading https://files.pythonhosted.org/packages/6b/0e/5d54159271ec71f6531a04935efda011f683d7a8bc2d988a2f2a722f9413/montelo-0.1.0.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/b6/11/ffc4ddf362db78ae86c568b0c368d70314a4be0cf68667ccce43b4374725/proksee_batch-0.6.1.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/5b/c3/7240d7988988306e06887ce072b3d351ef59d4c539b3faf1c54c2967241b/trio_binance-0.3.3.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [clickhousePandasWrapper]: Downloading https://files.pythonhosted.org/packages/8b/46/8a747ef6e92265cfaad9f72ed73e8abf3ef617fb98a188e98a2924a56fd6/clickhousepandaswrapper-1.1.0.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/7d/a7/a389d78c747399fa425e39d89ba9fa6d384de97b624ca2e380160a06716f/sindapi-0.0.9.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 04:35:08] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.7.tar.gz tmp/miner_ai_beta-0.1.8.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-08 04:35:08] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-05-08 04:35:08] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240508/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-05-08 04:35:08] INFO root fetch - processPackages [sindapi]: executing diffoscope
+[2024-05-08 04:35:08] INFO root fetch - processPackages [sindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sindapi-0.0.8.tar.gz tmp/sindapi-0.0.9.tar.gz --markdown 20240508/s/sindapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:35:08] INFO root fetch - processPackages [montelo]: Downloading https://files.pythonhosted.org/packages/fb/16/a2cd3310fea56b7082d8f6016f72b6be62d2ba14d30cda8a1ca07872f0a0/montelo-0.1.1.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [clickhousePandasWrapper]: Downloading https://files.pythonhosted.org/packages/e5/53/f16d59ca683efc8e5463cf993de8d857d143895faeb166295a92ffa209f5/clickhousepandaswrapper-1.1.1.tar.gz
+[2024-05-08 04:35:08] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/4e/04/7d95d1a8fcc8f5bd039255d4b39a2daa96502b5f180cc276632d1f3253b7/trio_binance-0.3.4.tar.gz
+[2024-05-08 04:35:09] INFO root fetch - processPackages [montelo]: executing diffoscope
+[2024-05-08 04:35:09] INFO root fetch - processPackages [montelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montelo-0.1.0.tar.gz tmp/montelo-0.1.1.tar.gz --markdown 20240508/m/montelo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 04:35:09] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-05-08 04:35:09] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_binance-0.3.3.tar.gz tmp/trio_binance-0.3.4.tar.gz --markdown 20240508/t/trio-binance/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 04:35:09] INFO root fetch - processPackages [clickhousePandasWrapper]: executing diffoscope
+[2024-05-08 04:35:09] INFO root fetch - processPackages [clickhousePandasWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhousepandaswrapper-1.1.0.tar.gz tmp/clickhousepandaswrapper-1.1.1.tar.gz --markdown 20240508/c/clickhousePandasWrapper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 04:35:09] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/26/2b/11e3948a7a5da0fd061cbce48049b8cd2f7641eec2f69800037534d7b523/proksee_batch-0.6.2.tar.gz
+[2024-05-08 04:35:09] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-05-08 04:35:09] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.7.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 04:35:09] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.8.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.9.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - main [MainThread]: End processing [sindapi]: success
+[2024-05-08 04:35:09] INFO root fetch - processPackages [clickhousePandasWrapper]: Remove: archive file [/home/abi/fetcher/tmp/clickhousepandaswrapper-1.1.0.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - processPackages [clickhousePandasWrapper]: Remove: archive file [/home/abi/fetcher/tmp/clickhousepandaswrapper-1.1.1.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - main [MainThread]: End processing [clickhousePandasWrapper]: success
+[2024-05-08 04:35:09] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.3.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.4.tar.gz]
+[2024-05-08 04:35:09] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-05-08 04:35:09] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-05-08 04:35:09] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.6.1.tar.gz tmp/proksee_batch-0.6.2.tar.gz --markdown 20240508/p/proksee-batch/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-08 04:35:10] INFO root fetch - processPackages [montelo]: Remove: archive file [/home/abi/fetcher/tmp/montelo-0.1.0.tar.gz]
+[2024-05-08 04:35:10] INFO root fetch - processPackages [montelo]: Remove: archive file [/home/abi/fetcher/tmp/montelo-0.1.1.tar.gz]
+[2024-05-08 04:35:10] INFO root fetch - main [MainThread]: End processing [montelo]: success
+[2024-05-08 04:35:12] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.1.tar.gz]
+[2024-05-08 04:35:12] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.2.tar.gz]
+[2024-05-08 04:35:12] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-05-08 04:35:12] INFO root fetch - main [MainThread]: Store serial: [23107611]
