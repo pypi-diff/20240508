@@ -12084,3 +12084,27 @@
 [2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.6.tar.gz]
 [2024-05-08 08:26:20] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
 [2024-05-08 08:26:20] INFO root fetch - main [MainThread]: Store serial: [23109071]
+[2024-05-08 08:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109071]
+[2024-05-08 08:28:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 08:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-node-parser-relational-dashscope-custom
+[2024-05-08 08:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-05-08 08:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phenomApis
+[2024-05-08 08:28:29] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 08:28:29] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.84]
+[2024-05-08 08:28:29] WARNING root fetch - processPackages [llama-index-node-parser-relational-dashscope-custom]: Skipping, unable to determine old version
+[2024-05-08 08:28:29] INFO root fetch - main [MainThread]: End processing [llama-index-node-parser-relational-dashscope-custom] error
+[2024-05-08 08:28:29] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 08:28:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f6/13/d8cc9772a258a5908f368aace2d44a8530e25bbc6f41d7d95801c5dd3235/bridgecrew-3.2.84.tar.gz
+[2024-05-08 08:28:29] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 08:28:29] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 08:28:29] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 08:28:29] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-08 08:28:29] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-08 08:28:29] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.84.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240508/b/bridgecrew/3.2.84-3.2.9/README.md --exclude *.pyd
+[2024-05-08 08:28:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.84.tar.gz]
+[2024-05-08 08:28:30] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-08 08:28:30] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-08 08:28:31] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 08:28:31] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 08:28:31] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 08:28:31] INFO root fetch - main [MainThread]: Store serial: [23109087]
