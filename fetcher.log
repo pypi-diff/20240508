@@ -21240,3 +21240,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:01:13] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.0.tar.gz]
 [2024-05-08 14:01:13] INFO root fetch - main [MainThread]: End processing [troubadix]: success
 [2024-05-08 14:01:13] INFO root fetch - main [MainThread]: Store serial: [23112993]
+[2024-05-08 14:03:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112993]
+[2024-05-08 14:03:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: COBY
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bashgptZ
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appmesh
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-llm-eval
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xbooster
+[2024-05-08 14:03:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TTRPGaag
+[2024-05-08 14:03:22] WARNING root fetch - processPackages [COBY]: Skipping, unable to determine old version
+[2024-05-08 14:03:22] INFO root fetch - main [MainThread]: End processing [COBY] error
+[2024-05-08 14:03:22] INFO root fetch - processPackages [appmesh]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-08 14:03:22] WARNING root fetch - processPackages [bashgptZ]: Skipping, unable to determine old version
+[2024-05-08 14:03:22] INFO root fetch - main [MainThread]: End processing [bashgptZ] error
+[2024-05-08 14:03:22] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.1b2] Old Version: [2.1.1b1]
+[2024-05-08 14:03:22] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/27/76/e284953ab022c937daeff829453ba8803dfc25fe197ea2f324a8c8069154/appmesh-0.9.5-py3-none-any.whl
+[2024-05-08 14:03:22] INFO root fetch - processPackages [xbooster]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-08 14:03:22] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/8d/e4/a9e8ad5135f042c85c6e0804dae27a1b474c0556903d072a905760b0e51c/raga_llm_eval-2.1.1b1.tar.gz
+[2024-05-08 14:03:22] INFO root fetch - processPackages [TTRPGaag]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-08 14:03:22] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/28/94/8732b186280f9709c49892ad238a279be9948aab3e1d19078484f629ae15/xbooster-0.2.1.tar.gz
+[2024-05-08 14:03:22] INFO root fetch - processPackages [TTRPGaag]: Downloading https://files.pythonhosted.org/packages/36/d6/c88143f0c7af5bded13773f0bf93a3999734e93b2162961a31db829fbd2b/ttrpgaag-4.0.0.tar.gz
+[2024-05-08 14:03:22] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/75/f8/6e620c95f543aae85897acda17b86ec10b5691629e29094b6679472a79ec/appmesh-0.9.6-py3-none-any.whl
+[2024-05-08 14:03:23] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/4f/99/f75726d46d44c5dbaecb952dc431936e9be5873cf13687c224374c29c7c8/raga_llm_eval-2.1.1b2.tar.gz
+[2024-05-08 14:03:23] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-08 14:03:23] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.5-py3-none-any.whl.zip tmp/appmesh-0.9.6-py3-none-any.whl.zip --markdown 20240508/a/appmesh/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-08 14:03:23] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/36/9e/51a4d6227c213f683260af3436c8a731cd97d24a8bdb240da57ce0551cee/xbooster-0.2.3.tar.gz
+[2024-05-08 14:03:23] INFO root fetch - processPackages [TTRPGaag]: Downloading https://files.pythonhosted.org/packages/de/83/d2bc02c85098916dfd732815196d27a18a083b634428d6a3375ef873b0fe/ttrpgaag-4.0.1.tar.gz
+[2024-05-08 14:03:23] INFO root fetch - processPackages [xbooster]: executing diffoscope
+[2024-05-08 14:03:23] INFO root fetch - processPackages [xbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbooster-0.2.1.tar.gz tmp/xbooster-0.2.3.tar.gz --markdown 20240508/x/xbooster/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-08 14:03:23] INFO root fetch - processPackages [TTRPGaag]: executing diffoscope
+[2024-05-08 14:03:23] INFO root fetch - processPackages [TTRPGaag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttrpgaag-4.0.0.tar.gz tmp/ttrpgaag-4.0.1.tar.gz --markdown 20240508/T/TTRPGaag/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-08 14:03:23] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-05-08 14:03:23] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.1b1.tar.gz tmp/raga_llm_eval-2.1.1b2.tar.gz --markdown 20240508/r/raga-llm-eval/2.1.1b1-2.1.1b2/README.md --exclude *.pyd
+[2024-05-08 14:03:23] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.5-py3-none-any.whl.zip]
+[2024-05-08 14:03:23] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.6-py3-none-any.whl.zip]
+[2024-05-08 14:03:23] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-08 14:03:24] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.1.tar.gz]
+[2024-05-08 14:03:24] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.3.tar.gz]
+[2024-05-08 14:03:24] INFO root fetch - main [MainThread]: End processing [xbooster]: success
+[2024-05-08 14:03:24] INFO root fetch - processPackages [TTRPGaag]: Remove: archive file [/home/abi/fetcher/tmp/ttrpgaag-4.0.0.tar.gz]
+[2024-05-08 14:03:24] INFO root fetch - processPackages [TTRPGaag]: Remove: archive file [/home/abi/fetcher/tmp/ttrpgaag-4.0.1.tar.gz]
+[2024-05-08 14:03:24] INFO root fetch - main [MainThread]: End processing [TTRPGaag]: success
+[2024-05-08 14:03:25] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.1b1.tar.gz]
+[2024-05-08 14:03:25] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.1b2.tar.gz]
+[2024-05-08 14:03:25] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-05-08 14:03:25] INFO root fetch - main [MainThread]: Store serial: [23113011]
