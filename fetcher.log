@@ -8855,3 +8855,45 @@
 [2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-08 04:55:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
 [2024-05-08 04:55:05] INFO root fetch - main [MainThread]: Store serial: [23107740]
+[2024-05-08 04:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107740]
+[2024-05-08 04:57:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 04:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coldp
+[2024-05-08 04:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwave-sona-core
+[2024-05-08 04:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-plb
+[2024-05-08 04:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: excel-invoicing-pdf
+[2024-05-08 04:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NorrisUtils
+[2024-05-08 04:57:14] INFO root fetch - processPackages [coldp]: New version: [2024.5.2] Old Version: [2024.0.2]
+[2024-05-08 04:57:14] ERROR root fetch - processPackages [excel-invoicing-pdf]: Unable to get metadata: No such project 'excel-invoicing-pdf'
+[2024-05-08 04:57:14] INFO root fetch - processPackages [pih-plb]: New version: [0.22] Old Version: [0.20]
+[2024-05-08 04:57:14] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-08 04:57:14] INFO root fetch - main [MainThread]: End processing [excel-invoicing-pdf] error
+[2024-05-08 04:57:14] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-08 04:57:14] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/b7/2a/dbe5ff0c50ddb7117d66c76c86ae8623be1af4ddef35e3b940e5287d1119/pih-plb-0.20.tar.gz
+[2024-05-08 04:57:14] INFO root fetch - processPackages [coldp]: Downloading https://files.pythonhosted.org/packages/5b/6d/5f9a945631bfc71b5510c3aedd0d939acdca3b657ad70018b5a2f1dfa896/coldp-2024.0.2.tar.gz
+[2024-05-08 04:57:14] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/26/8a/8cda68a5e472aeb663028f8c06c1d0745679c468a7a4721339bc4a8bff94/NorrisUtils-1.3.3.tar.gz
+[2024-05-08 04:57:14] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-08 04:57:15] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/8a/a9/240c6c051181ab5875283386577476cef4953f3a151f10feedd3b6ad4794/pih-plb-0.22.tar.gz
+[2024-05-08 04:57:15] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-08 04:57:15] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/16/e1/a0a01956d4b3bc877b0b5260bd0926a74a64e39150c0747306717520b54a/NorrisUtils-1.4.0.tar.gz
+[2024-05-08 04:57:15] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-05-08 04:57:15] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.20.tar.gz tmp/pih-plb-0.22.tar.gz --markdown 20240508/p/pih-plb/0.20-0.22/README.md --exclude *.pyd
+[2024-05-08 04:57:15] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-08 04:57:15] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240508/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-08 04:57:15] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 04:57:15] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.3.3.tar.gz tmp/NorrisUtils-1.4.0.tar.gz --markdown 20240508/N/NorrisUtils/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-08 04:57:15] INFO root fetch - processPackages [coldp]: Downloading https://files.pythonhosted.org/packages/73/5c/0b353fbfc0785ab80cf0c9375aad7ede9f71bf0aaae479895b298208a4fa/coldp-2024.5.2.tar.gz
+[2024-05-08 04:57:15] INFO root fetch - processPackages [coldp]: executing diffoscope
+[2024-05-08 04:57:15] INFO root fetch - processPackages [coldp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coldp-2024.0.2.tar.gz tmp/coldp-2024.5.2.tar.gz --markdown 20240508/c/coldp/2024.0.2-2024.5.2/README.md --exclude *.pyd
+[2024-05-08 04:57:15] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.20.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.22.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-05-08 04:57:15] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.3.3.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.0.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 04:57:15] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-08 04:57:15] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-08 04:57:17] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.0.2.tar.gz]
+[2024-05-08 04:57:17] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.5.2.tar.gz]
+[2024-05-08 04:57:17] INFO root fetch - main [MainThread]: End processing [coldp]: success
+[2024-05-08 04:57:17] INFO root fetch - main [MainThread]: Store serial: [23107755]
