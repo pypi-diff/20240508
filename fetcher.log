@@ -21656,3 +21656,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:25:22] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
 [2024-05-08 14:25:22] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
 [2024-05-08 14:25:22] INFO root fetch - main [MainThread]: Store serial: [23113169]
+[2024-05-08 14:27:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113169]
+[2024-05-08 14:27:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skilleter-thingy
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbproject
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: organization-profile-local
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paloalto-panorama-sdk
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skilleter-thingy
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mteb
+[2024-05-08 14:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: marksocket
+[2024-05-08 14:27:30] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.31] Old Version: [0.0.30]
+[2024-05-08 14:27:30] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.31] Old Version: [0.0.30]
+[2024-05-08 14:27:31] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 14:27:31] INFO root fetch - processPackages [mteb]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-08 14:27:31] INFO root fetch - processPackages [nbproject]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 14:27:31] INFO root fetch - processPackages [organization-profile-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/21/47/b58b99c5c4007ca4f7e6396ebf2e3b7f6f15c05ce889df1d2a25f0ea184c/skilleter_thingy-0.0.30.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/21/47/b58b99c5c4007ca4f7e6396ebf2e3b7f6f15c05ce889df1d2a25f0ea184c/skilleter_thingy-0.0.30.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/13/9d/2efb5a6379653d08d3cdd93cb2f417137ef7af3919e468297df2596f58ff/paloalto_panorama_sdk-0.0.6.tar.gz
+[2024-05-08 14:27:31] WARNING root fetch - processPackages [marksocket]: Skipping, unable to determine old version
+[2024-05-08 14:27:31] INFO root fetch - main [MainThread]: End processing [marksocket] error
+[2024-05-08 14:27:31] INFO root fetch - processPackages [nbproject]: Downloading https://files.pythonhosted.org/packages/39/c2/236eeac26c3ee773903c0d202f4b4b0f761628d6342e0288936a2fb3e061/nbproject-0.9.1.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/31/0c/d13c61fe88938a3ee31d9e787d935ecf3cb20bac139792bbbb27db452ba2/organization-profile-local-0.0.3.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/dd/c7/26507a3438f5f7cd008e83f9a9523ec1cee62d36dae138b02bc6abf67c15/mteb-1.8.3.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/b0/ee/155f5a1f4919eb2a32f6e13a0ce007eefe31dfaaa83c2ba1d0352941cdca/paloalto_panorama_sdk-0.0.7.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [nbproject]: Downloading https://files.pythonhosted.org/packages/37/e3/9576bb2d24522ec3c7c8ecb06a78046694ee9193636aa70467c9e3ee321c/nbproject-0.9.2.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/59/d8/df1f246932345db45b50d181413bf11ad2caea1df77abcdf9e76ccda0b7c/skilleter_thingy-0.0.31.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/59/d8/df1f246932345db45b50d181413bf11ad2caea1df77abcdf9e76ccda0b7c/skilleter_thingy-0.0.31.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/9a/0b/c808418f445316c3c7cfec62900fd9ebfdc542111869c879aff403e2d8ea/organization_profile_local-0.0.4.tar.gz
+[2024-05-08 14:27:31] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-05-08 14:27:31] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.6.tar.gz tmp/paloalto_panorama_sdk-0.0.7.tar.gz --markdown 20240508/p/paloalto-panorama-sdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 14:27:31] INFO root fetch - processPackages [nbproject]: executing diffoscope
+[2024-05-08 14:27:31] INFO root fetch - processPackages [nbproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbproject-0.9.1.tar.gz tmp/nbproject-0.9.2.tar.gz --markdown 20240508/n/nbproject/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.30.tar.gz tmp/skilleter_thingy-0.0.31.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.30-0.0.31/README.md --exclude *.pyd
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:27:31] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.30.tar.gz tmp/skilleter_thingy-0.0.31.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.30-0.0.31/README.md --exclude *.pyd
+[2024-05-08 14:27:31] INFO root fetch - processPackages [organization-profile-local]: executing diffoscope
+[2024-05-08 14:27:31] INFO root fetch - processPackages [organization-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organization-profile-local-0.0.3.tar.gz tmp/organization_profile_local-0.0.4.tar.gz --markdown 20240508/o/organization-profile-local/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 14:27:31] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/02/15/cc31b4b7c4d525079d60b2aba586d7ae94eebfa973b754214f8e68eebab3/mteb-1.8.4.tar.gz
+[2024-05-08 14:27:32] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.6.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.7.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-05-08 14:27:32] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization-profile-local-0.0.3.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.4.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - main [MainThread]: End processing [organization-profile-local]: success
+[2024-05-08 14:27:32] INFO root fetch - processPackages [nbproject]: Remove: archive file [/home/abi/fetcher/tmp/nbproject-0.9.1.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - processPackages [nbproject]: Remove: archive file [/home/abi/fetcher/tmp/nbproject-0.9.2.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - main [MainThread]: End processing [nbproject]: success
+[2024-05-08 14:27:32] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.30.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.31.tar.gz]
+[2024-05-08 14:27:32] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:27:32] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:27:59] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-08 14:27:59] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.8.3.tar.gz tmp/mteb-1.8.4.tar.gz --markdown 20240508/m/mteb/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-08 14:28:01] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.3.tar.gz]
+[2024-05-08 14:28:01] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.4.tar.gz]
+[2024-05-08 14:28:01] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-08 14:28:01] INFO root fetch - main [MainThread]: Store serial: [23113192]
