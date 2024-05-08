@@ -2125,3 +2125,56 @@
 [2024-05-08 02:00:56] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.1.tar.gz]
 [2024-05-08 02:00:56] INFO root fetch - main [MainThread]: End processing [ls-packers]: success
 [2024-05-08 02:00:56] INFO root fetch - main [MainThread]: Store serial: [23105138]
+[2024-05-08 02:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105138]
+[2024-05-08 02:03:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyramp
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dhuodata-lib
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eq3btsmart
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbp
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxscript
+[2024-05-08 02:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DFRobotUPS
+[2024-05-08 02:03:05] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240507] Old Version: [0.1.0.dev20240506]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [eq3btsmart]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [DFRobotUPS]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [skyramp]: New version: [0.4.83] Old Version: [0.4.82]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/94/61/1809df995d09b6f4e98751922154066ac1ae8ee9ec899108ee760146f82f/dhuodata_lib-0.2.7.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [sbp]: New version: [6.0.0] Old Version: [5.0.8]
+[2024-05-08 02:03:05] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/a0/9e/6f673fa7272a56c1d1e002ba2df7630dcc5a0281e969842f4688e76d372a/onnxscript-0.1.0.dev20240506.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [eq3btsmart]: Downloading https://files.pythonhosted.org/packages/0a/a0/241304b0b26b753ad878952d8206fd34cb4f740083638375cee32462280d/eq3btsmart-1.1.6.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [skyramp]: Downloading https://files.pythonhosted.org/packages/fe/24/69a16608f130038bc32809627bda528d4298453051fe3df467779ae92f9a/skyramp-0.4.82.tar.gz
+[2024-05-08 02:03:05] WARNING root fetch - processPackages [skyramp]: Skipping package: exceeds size limit 162156729>=10485760
+[2024-05-08 02:03:05] INFO root fetch - main [MainThread]: End processing [skyramp] error
+[2024-05-08 02:03:05] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/ea/ff/f4024e75254a75cf90338ca2d71a14737f00c65d5854accc6a3b9bc813e9/dhuodata_lib-0.2.8.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/7b/23/abd97d0cc63970bb5978defcaff67afcfbc4f80fcc0641fe5be4e9116aa1/onnxscript-0.1.0.dev20240507.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-08 02:03:05] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.2.7.tar.gz tmp/dhuodata_lib-0.2.8.tar.gz --markdown 20240508/d/dhuodata-lib/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-08 02:03:05] INFO root fetch - processPackages [eq3btsmart]: Downloading https://files.pythonhosted.org/packages/a7/15/af046016c61cf34c428201363787827b07e7e763a651a07bc0322978d416/eq3btsmart-1.1.7.tar.gz
+[2024-05-08 02:03:05] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-08 02:03:05] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240506.tar.gz tmp/onnxscript-0.1.0.dev20240507.tar.gz --markdown 20240508/o/onnxscript/0.1.0.dev20240506-0.1.0.dev20240507/README.md --exclude *.pyd
+[2024-05-08 02:03:05] INFO root fetch - processPackages [eq3btsmart]: executing diffoscope
+[2024-05-08 02:03:05] INFO root fetch - processPackages [eq3btsmart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eq3btsmart-1.1.6.tar.gz tmp/eq3btsmart-1.1.7.tar.gz --markdown 20240508/e/eq3btsmart/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-08 02:03:06] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.2.7.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.2.8.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-08 02:03:06] INFO root fetch - processPackages [eq3btsmart]: Remove: archive file [/home/abi/fetcher/tmp/eq3btsmart-1.1.6.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - processPackages [eq3btsmart]: Remove: archive file [/home/abi/fetcher/tmp/eq3btsmart-1.1.7.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - main [MainThread]: End processing [eq3btsmart]: success
+[2024-05-08 02:03:06] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240506.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240507.tar.gz]
+[2024-05-08 02:03:06] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-08 02:03:07] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/db/1c/854790f3ec7d8d5c49291adc9f0ac419b321e1c821c3c6aa2b20e80af683/DFRobotUPS-0.4.5.tar.gz
+[2024-05-08 02:03:07] INFO root fetch - processPackages [sbp]: Downloading https://files.pythonhosted.org/packages/c4/1a/b443b1b45eedef706dbb2a903f4d4b12768e731b6509b43f19725bc781e2/sbp-5.0.8.tar.gz
+[2024-05-08 02:03:07] INFO root fetch - processPackages [sbp]: Downloading https://files.pythonhosted.org/packages/d1/46/7620fa4cfbf0c5b3b9efe3aa128b47f8c2c664bd7bb920a9442a5f354602/sbp-6.0.0.tar.gz
+[2024-05-08 02:03:07] INFO root fetch - processPackages [sbp]: executing diffoscope
+[2024-05-08 02:03:07] INFO root fetch - processPackages [sbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbp-5.0.8.tar.gz tmp/sbp-6.0.0.tar.gz --markdown 20240508/s/sbp/5.0.8-6.0.0/README.md --exclude *.pyd
+[2024-05-08 02:03:08] INFO root fetch - processPackages [sbp]: Remove: archive file [/home/abi/fetcher/tmp/sbp-5.0.8.tar.gz]
+[2024-05-08 02:03:08] INFO root fetch - processPackages [sbp]: Remove: archive file [/home/abi/fetcher/tmp/sbp-6.0.0.tar.gz]
+[2024-05-08 02:03:08] INFO root fetch - main [MainThread]: End processing [sbp]: success
+[2024-05-08 02:03:09] INFO root fetch - processPackages [DFRobotUPS]: Downloading https://files.pythonhosted.org/packages/1f/ad/5bb7072390bf9934cc58e8d76810c0492bd8725e72395a2240fde5c0ff93/DFRobotUPS-0.4.6.tar.gz
+[2024-05-08 02:03:10] INFO root fetch - processPackages [DFRobotUPS]: executing diffoscope
+[2024-05-08 02:03:10] INFO root fetch - processPackages [DFRobotUPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobotUPS-0.4.5.tar.gz tmp/DFRobotUPS-0.4.6.tar.gz --markdown 20240508/D/DFRobotUPS/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-08 02:03:10] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.5.tar.gz]
+[2024-05-08 02:03:10] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.6.tar.gz]
+[2024-05-08 02:03:10] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
+[2024-05-08 02:03:10] INFO root fetch - main [MainThread]: Store serial: [23105156]
