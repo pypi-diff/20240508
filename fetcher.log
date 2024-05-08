@@ -10544,3 +10544,11 @@
 [2024-05-08 06:29:12] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.9.tar.gz]
 [2024-05-08 06:29:12] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
 [2024-05-08 06:29:12] INFO root fetch - main [MainThread]: Store serial: [23108263]
+[2024-05-08 06:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108263]
+[2024-05-08 06:31:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 06:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bolero
+[2024-05-08 06:31:21] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 06:31:21] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-05-08 06:31:21] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-05-08 06:31:21] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-05-08 06:31:21] INFO root fetch - main [MainThread]: Store serial: [23108266]
