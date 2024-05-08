@@ -9041,3 +9041,42 @@
 [2024-05-08 05:08:16] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.5.4.tar.gz]
 [2024-05-08 05:08:16] INFO root fetch - main [MainThread]: End processing [buildz]: success
 [2024-05-08 05:08:16] INFO root fetch - main [MainThread]: Store serial: [23107821]
+[2024-05-08 05:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107821]
+[2024-05-08 05:10:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-05-08 05:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facebook-graphql-scraper
+[2024-05-08 05:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oxenai
+[2024-05-08 05:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2024-05-08 05:10:24] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 05:10:24] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/63/65/b9182a2bb13e6bca8338ae2f8cea4b6be56b5415ac8aa5b99100f128bc69/facebook-graphql-scraper-1.0.8.tar.gz
+[2024-05-08 05:10:24] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 05:10:24] INFO root fetch - processPackages [OZI]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-08 05:10:25] INFO root fetch - processPackages [oxenai]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-08 05:10:25] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/91/87/a083548367267365df79392089dc7627bb7066387b829f6fa7154c3b724a/facebook-graphql-scraper-1.0.9.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/cf/64/ca4babd7a706dc1c38e9075d806c1cc37fe93574189c4967440310727824/OZI-1.4.2.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-05-08 05:10:25] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-1.0.8.tar.gz tmp/facebook-graphql-scraper-1.0.9.tar.gz --markdown 20240508/f/facebook-graphql-scraper/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 05:10:25] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/74/e2/ece2d2fd4941a6f6da268d1a6873bc27654841ff8f23161ed8b9946e23cf/oxenai-0.5.2.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/26/92/e46e547bf3079fcc66ef2b7ce2c85e97c5a652d5d7b3a10da5ef45ea3ee2/OZI-1.4.3.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 05:10:25] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 05:10:25] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/02/13/50862fb1ca323a44308af7dfb7f87669eafb8b39b6d43e1867a967b5cf9b/oxenai-0.5.3.tar.gz
+[2024-05-08 05:10:25] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-08 05:10:25] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.4.2.tar.gz tmp/OZI-1.4.3.tar.gz --markdown 20240508/O/OZI/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-08 05:10:25] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.8.tar.gz]
+[2024-05-08 05:10:25] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.9.tar.gz]
+[2024-05-08 05:10:25] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-05-08 05:10:26] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 05:10:26] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 05:10:26] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 05:10:26] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.4.2.tar.gz]
+[2024-05-08 05:10:26] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.4.3.tar.gz]
+[2024-05-08 05:10:26] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-08 05:10:26] INFO root fetch - processPackages [oxenai]: executing diffoscope
+[2024-05-08 05:10:26] INFO root fetch - processPackages [oxenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxenai-0.5.2.tar.gz tmp/oxenai-0.5.3.tar.gz --markdown 20240508/o/oxenai/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-08 05:10:27] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.2.tar.gz]
+[2024-05-08 05:10:27] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.3.tar.gz]
+[2024-05-08 05:10:27] INFO root fetch - main [MainThread]: End processing [oxenai]: success
+[2024-05-08 05:10:27] INFO root fetch - main [MainThread]: Store serial: [23107852]
