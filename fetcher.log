@@ -12032,3 +12032,55 @@
 [2024-05-08 08:24:10] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.3.tar.gz]
 [2024-05-08 08:24:10] INFO root fetch - main [MainThread]: End processing [pelicun]: success
 [2024-05-08 08:24:10] INFO root fetch - main [MainThread]: Store serial: [23109049]
+[2024-05-08 08:26:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109049]
+[2024-05-08 08:26:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sgtpyutils
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nheri-simcenter
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalpha
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fennel-ai
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-dpo
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NorrisUtils
+[2024-05-08 08:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-05-08 08:26:19] WARNING root fetch - processPackages [django-dpo]: Skipping, unable to determine old version
+[2024-05-08 08:26:19] INFO root fetch - main [MainThread]: End processing [django-dpo] error
+[2024-05-08 08:26:19] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-08 08:26:19] INFO root fetch - processPackages [nheri-simcenter]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 08:26:19] INFO root fetch - processPackages [dalpha]: New version: [0.4.5rc1] Old Version: [0.4.5rc0]
+[2024-05-08 08:26:19] INFO root fetch - processPackages [sgtpyutils]: New version: [1.9.144] Old Version: [1.7.94]
+[2024-05-08 08:26:19] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/9b/47/0b84df0cb1432d8479cad941dffd7fa40baf3d76bb55e06d4266f8352f07/fennel_ai-1.3.4.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-08 08:26:19] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240508.6.26.738405] Old Version: [20240507.9.27.513064]
+[2024-05-08 08:26:19] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40203067>=10485760
+[2024-05-08 08:26:19] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-08 08:26:19] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/c1/31/4081d68d72b1f2addaadd417537c7b493f14e0ba3365c6198bc38298dc43/nheri_simcenter-0.9.8.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/51/ca/a41982e0e29e52d38873d740db8ea6599ffaebe07175f1cd0db14d089731/sgtpyutils-1.7.94.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/c1/3e/57041933c2ef51320d144030ac0d07eafb53028f4863fc99c90754d40f2c/NorrisUtils-1.4.5.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/f9/93/513c379d0063bfaf1370af718c013792efb9e8fe364cf15e7d57ba97c8c8/dalpha-0.4.5rc0.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ef/ab/edbbc385d09a663eb5fc0d7f025618d991c9d42ca1c0d783849a756d44b5/certora-cli-alpha-master-20240507.9.27.513064.tar.gz
+[2024-05-08 08:26:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14536462>=10485760
+[2024-05-08 08:26:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-08 08:26:19] INFO root fetch - processPackages [nheri-simcenter]: Downloading https://files.pythonhosted.org/packages/91/bc/630dd83ffd0b01a538e2d41ecc163b6894ff1759ba3330880d29fa3a1982/nheri_simcenter-0.9.9.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/0b/65/7dfa2edc9366d64a487a0f371dcadda0c8abff1c84e8807aaa25c079bbb1/sgtpyutils-1.9.144.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [nheri-simcenter]: executing diffoscope
+[2024-05-08 08:26:19] INFO root fetch - processPackages [nheri-simcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nheri_simcenter-0.9.8.tar.gz tmp/nheri_simcenter-0.9.9.tar.gz --markdown 20240508/n/nheri-simcenter/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 08:26:19] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/3e/52/460e7089648caba18d7d33d11d2fe89bba1e2a58878fd66ef1f72bdd2df7/dalpha-0.4.5rc1.tar.gz
+[2024-05-08 08:26:19] INFO root fetch - processPackages [sgtpyutils]: executing diffoscope
+[2024-05-08 08:26:19] INFO root fetch - processPackages [sgtpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgtpyutils-1.7.94.tar.gz tmp/sgtpyutils-1.9.144.tar.gz --markdown 20240508/s/sgtpyutils/1.7.94-1.9.144/README.md --exclude *.pyd
+[2024-05-08 08:26:20] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-05-08 08:26:20] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.5rc0.tar.gz tmp/dalpha-0.4.5rc1.tar.gz --markdown 20240508/d/dalpha/0.4.5rc0-0.4.5rc1/README.md --exclude *.pyd
+[2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/7b/65/95cd41ba6613deb19eca3690ed099df78960533556a7d2dc3508f3eb3ec9/NorrisUtils-1.4.6.tar.gz
+[2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.5.tar.gz tmp/NorrisUtils-1.4.6.tar.gz --markdown 20240508/N/NorrisUtils/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-08 08:26:20] INFO root fetch - processPackages [sgtpyutils]: Remove: archive file [/home/abi/fetcher/tmp/sgtpyutils-1.7.94.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - processPackages [sgtpyutils]: Remove: archive file [/home/abi/fetcher/tmp/sgtpyutils-1.9.144.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - main [MainThread]: End processing [sgtpyutils]: success
+[2024-05-08 08:26:20] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.5rc0.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.5rc1.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-05-08 08:26:20] INFO root fetch - processPackages [nheri-simcenter]: Remove: archive file [/home/abi/fetcher/tmp/nheri_simcenter-0.9.8.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - processPackages [nheri-simcenter]: Remove: archive file [/home/abi/fetcher/tmp/nheri_simcenter-0.9.9.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - main [MainThread]: End processing [nheri-simcenter]: success
+[2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.5.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.6.tar.gz]
+[2024-05-08 08:26:20] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 08:26:20] INFO root fetch - main [MainThread]: Store serial: [23109071]
