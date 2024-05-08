@@ -10594,3 +10594,15 @@
 [2024-05-08 06:35:41] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
 [2024-05-08 06:35:41] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
 [2024-05-08 06:35:41] INFO root fetch - main [MainThread]: Store serial: [23108279]
+[2024-05-08 06:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108279]
+[2024-05-08 06:37:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 06:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kellyapi
+[2024-05-08 06:37:50] INFO root fetch - processPackages [kellyapi]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-05-08 06:37:50] INFO root fetch - processPackages [kellyapi]: Downloading https://files.pythonhosted.org/packages/09/c9/99f1712a17a686defca9940e4d7861a300eb59b211a7fed3f24cba89cd6c/kellyapi-0.0.2.3.tar.gz
+[2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: Downloading https://files.pythonhosted.org/packages/5b/29/58c3eca701667a2ff6cf76882a84b559e8789db51090b31082c9f956a8f1/kellyapi-0.0.2.4.tar.gz
+[2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: executing diffoscope
+[2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kellyapi-0.0.2.3.tar.gz tmp/kellyapi-0.0.2.4.tar.gz --markdown 20240508/k/kellyapi/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: Remove: archive file [/home/abi/fetcher/tmp/kellyapi-0.0.2.3.tar.gz]
+[2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: Remove: archive file [/home/abi/fetcher/tmp/kellyapi-0.0.2.4.tar.gz]
+[2024-05-08 06:37:51] INFO root fetch - main [MainThread]: End processing [kellyapi]: success
+[2024-05-08 06:37:51] INFO root fetch - main [MainThread]: Store serial: [23108282]
