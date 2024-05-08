@@ -21103,3 +21103,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_cell_status_extension-0.2.0.tar.gz]
 [2024-05-08 13:54:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-cell-status-extension]: success
 [2024-05-08 13:54:40] INFO root fetch - main [MainThread]: Store serial: [23112924]
+[2024-05-08 13:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112924]
+[2024-05-08 13:56:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyjinx
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-llm-eval
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openobd-protocol
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown-mermaid
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flameEngine
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anotify
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meta-json-downloader
+[2024-05-08 13:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: romsearch
+[2024-05-08 13:56:50] INFO root fetch - processPackages [anotify]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 13:56:50] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 13:56:50] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.1b1] Old Version: [2.1.0b9]
+[2024-05-08 13:56:50] INFO root fetch - processPackages [romsearch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 13:56:50] INFO root fetch - processPackages [openobd-protocol]: New version: [0.0.46] Old Version: [0.0.45]
+[2024-05-08 13:56:50] INFO root fetch - processPackages [hyjinx]: New version: [0.28.9] Old Version: [0.28.8]
+[2024-05-08 13:56:50] WARNING root fetch - processPackages [meta-json-downloader]: Skipping, unable to determine old version
+[2024-05-08 13:56:50] INFO root fetch - main [MainThread]: End processing [meta-json-downloader] error
+[2024-05-08 13:56:50] WARNING root fetch - processPackages [markdown-mermaid]: Skipping, unable to determine old version
+[2024-05-08 13:56:50] INFO root fetch - main [MainThread]: End processing [markdown-mermaid] error
+[2024-05-08 13:56:50] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/bc/d9/3663822d441e4bbd4dc4da14b73feb264480e8413e7530c9df6af78f57d5/flameengine-0.0.3.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/81/38/25beb1197577318effce104b1cab4c474421137489072efa2e240d56dde5/anotify-0.0.4.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/bb/60/191d5f2c3c2f66298ee9331acdb39a570fdd34626532f1db0e59f4574168/openobd_protocol-0.0.45.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/91/d7/f43c88b522705449485448baaa61e2974a89e3213c2febabe170f4d144de/hyjinx-0.28.8.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [romsearch]: Downloading https://files.pythonhosted.org/packages/5c/08/778fa275e9ae1ea25c5639911da2d783a8b8b7a4e79b27dd3b07f4790c9d/romsearch-0.0.1.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/a6/b5/82dbb21fa8969a669f352ca94ca274fd92cff4de24770d0fd73ba15244aa/flameengine-0.0.4.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/ee/92/2c40382208801a23b0e340ba9fe06231a41f2749ec35f2a6c4708d116dcb/anotify-0.0.5.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/8d/e4/a9e8ad5135f042c85c6e0804dae27a1b474c0556903d072a905760b0e51c/raga_llm_eval-2.1.1b1.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.3.tar.gz tmp/flameengine-0.0.4.tar.gz --markdown 20240508/f/flameEngine/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 13:56:50] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.0.4.tar.gz tmp/anotify-0.0.5.tar.gz --markdown 20240508/a/anotify/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 13:56:50] INFO root fetch - processPackages [openobd-protocol]: Downloading https://files.pythonhosted.org/packages/bb/5b/f4b30910a5ab2bd79d0ca59475b19f85f5ee4173f067ca3d227b66684292/openobd_protocol-0.0.46.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [romsearch]: Downloading https://files.pythonhosted.org/packages/25/8d/4b9bbbcb81938001b979278433e14b4aca5d4584d42a6882db68c679670a/romsearch-0.0.2.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [hyjinx]: Downloading https://files.pythonhosted.org/packages/bc/20/3bbc29f72f1b59cfe3f831ef05d6a0cf629676f050ac2fef0d527b7ae046/hyjinx-0.28.9.tar.gz
+[2024-05-08 13:56:50] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b9.tar.gz tmp/raga_llm_eval-2.1.1b1.tar.gz --markdown 20240508/r/raga-llm-eval/2.1.0b9-2.1.1b1/README.md --exclude *.pyd
+[2024-05-08 13:56:50] INFO root fetch - processPackages [openobd-protocol]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [openobd-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openobd_protocol-0.0.45.tar.gz tmp/openobd_protocol-0.0.46.tar.gz --markdown 20240508/o/openobd-protocol/0.0.45-0.0.46/README.md --exclude *.pyd
+[2024-05-08 13:56:50] INFO root fetch - processPackages [romsearch]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [romsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romsearch-0.0.1.tar.gz tmp/romsearch-0.0.2.tar.gz --markdown 20240508/r/romsearch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 13:56:50] INFO root fetch - processPackages [hyjinx]: executing diffoscope
+[2024-05-08 13:56:50] INFO root fetch - processPackages [hyjinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyjinx-0.28.8.tar.gz tmp/hyjinx-0.28.9.tar.gz --markdown 20240508/h/hyjinx/0.28.8-0.28.9/README.md --exclude *.pyd
+[2024-05-08 13:56:51] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.3.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-08 13:56:51] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.4.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.5.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-08 13:56:51] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.28.8.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - processPackages [hyjinx]: Remove: archive file [/home/abi/fetcher/tmp/hyjinx-0.28.9.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - main [MainThread]: End processing [hyjinx]: success
+[2024-05-08 13:56:51] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.45.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - processPackages [openobd-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openobd_protocol-0.0.46.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - main [MainThread]: End processing [openobd-protocol]: success
+[2024-05-08 13:56:51] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.1.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.2.tar.gz]
+[2024-05-08 13:56:51] INFO root fetch - main [MainThread]: End processing [romsearch]: success
+[2024-05-08 13:56:52] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-05-08 13:56:52] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.1b1.tar.gz]
+[2024-05-08 13:56:52] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-05-08 13:56:52] INFO root fetch - main [MainThread]: Store serial: [23112953]
