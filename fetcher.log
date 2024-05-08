@@ -13668,3 +13668,45 @@
 [2024-05-08 09:42:44] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-08 09:42:44] INFO root fetch - main [MainThread]: Store serial: [23109937]
+[2024-05-08 09:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109937]
+[2024-05-08 09:44:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rushcards
+[2024-05-08 09:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiosysbus
+[2024-05-08 09:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiozk
+[2024-05-08 09:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: updrinkz
+[2024-05-08 09:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PgQueuer
+[2024-05-08 09:44:53] INFO root fetch - processPackages [aiosysbus]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-08 09:44:53] INFO root fetch - processPackages [aiozk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 09:44:53] WARNING root fetch - processPackages [updrinkz]: Skipping, unable to determine old version
+[2024-05-08 09:44:53] INFO root fetch - main [MainThread]: End processing [updrinkz] error
+[2024-05-08 09:44:53] INFO root fetch - processPackages [PgQueuer]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 09:44:53] INFO root fetch - processPackages [rushcards]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiosysbus]: Downloading https://files.pythonhosted.org/packages/bf/a3/f5aeec7d828c46330fce1eb4c106d81f1766f08851c506977190fadc036a/aiosysbus-1.1.6.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [rushcards]: Downloading https://files.pythonhosted.org/packages/10/93/47a3194a92898d4869e4c1e00fc981cf236542cea1a5393345a9f32ed93c/rushcards-0.1.2.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [PgQueuer]: Downloading https://files.pythonhosted.org/packages/8d/51/1df36b8bcf3c77194025c01845760a8e32651cddce0880395e1368f666c1/pgqueuer-0.3.3.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiozk]: Downloading https://files.pythonhosted.org/packages/7c/6a/87b14d412b209c1191a4df0bdb160b91e904c5e7a678c567f7a544a6a1a2/aiozk-0.8.0.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [PgQueuer]: Downloading https://files.pythonhosted.org/packages/24/35/5cd9fe8895896533f90496fb07624787c135df26d45787ed6d7a0c173392/pgqueuer-0.3.4.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiozk]: Downloading https://files.pythonhosted.org/packages/80/d8/55b69a664e59b6d01f67b9311a200f25876b2cdfa4a596e204ce3ccc44cb/aiozk-0.9.0.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiosysbus]: Downloading https://files.pythonhosted.org/packages/d2/79/a4372183437c59bfc1a0e96bd62c6fbcc0f9c1cca0ba8be2b7a86bdea111/aiosysbus-1.1.7.tar.gz
+[2024-05-08 09:44:54] INFO root fetch - processPackages [PgQueuer]: executing diffoscope
+[2024-05-08 09:44:54] INFO root fetch - processPackages [PgQueuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgqueuer-0.3.3.tar.gz tmp/pgqueuer-0.3.4.tar.gz --markdown 20240508/P/PgQueuer/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiozk]: executing diffoscope
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiozk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiozk-0.8.0.tar.gz tmp/aiozk-0.9.0.tar.gz --markdown 20240508/a/aiozk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiosysbus]: executing diffoscope
+[2024-05-08 09:44:54] INFO root fetch - processPackages [aiosysbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosysbus-1.1.6.tar.gz tmp/aiosysbus-1.1.7.tar.gz --markdown 20240508/a/aiosysbus/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-08 09:44:54] INFO root fetch - processPackages [rushcards]: Downloading https://files.pythonhosted.org/packages/e7/bb/d0740df94978eca7b2194cf73acb6e107856f0e110dd7dd571b5361a7d02/rushcards-0.1.3.tar.gz
+[2024-05-08 09:44:55] INFO root fetch - processPackages [rushcards]: executing diffoscope
+[2024-05-08 09:44:55] INFO root fetch - processPackages [rushcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rushcards-0.1.2.tar.gz tmp/rushcards-0.1.3.tar.gz --markdown 20240508/r/rushcards/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 09:44:55] INFO root fetch - processPackages [PgQueuer]: Remove: archive file [/home/abi/fetcher/tmp/pgqueuer-0.3.3.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - processPackages [PgQueuer]: Remove: archive file [/home/abi/fetcher/tmp/pgqueuer-0.3.4.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - main [MainThread]: End processing [PgQueuer]: success
+[2024-05-08 09:44:55] INFO root fetch - processPackages [aiozk]: Remove: archive file [/home/abi/fetcher/tmp/aiozk-0.8.0.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - processPackages [aiozk]: Remove: archive file [/home/abi/fetcher/tmp/aiozk-0.9.0.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - main [MainThread]: End processing [aiozk]: success
+[2024-05-08 09:44:55] INFO root fetch - processPackages [aiosysbus]: Remove: archive file [/home/abi/fetcher/tmp/aiosysbus-1.1.6.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - processPackages [aiosysbus]: Remove: archive file [/home/abi/fetcher/tmp/aiosysbus-1.1.7.tar.gz]
+[2024-05-08 09:44:55] INFO root fetch - main [MainThread]: End processing [aiosysbus]: success
+[2024-05-08 09:44:57] INFO root fetch - processPackages [rushcards]: Remove: archive file [/home/abi/fetcher/tmp/rushcards-0.1.2.tar.gz]
+[2024-05-08 09:44:57] INFO root fetch - processPackages [rushcards]: Remove: archive file [/home/abi/fetcher/tmp/rushcards-0.1.3.tar.gz]
+[2024-05-08 09:44:57] INFO root fetch - main [MainThread]: End processing [rushcards]: success
+[2024-05-08 09:44:57] INFO root fetch - main [MainThread]: Store serial: [23109960]
