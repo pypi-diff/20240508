@@ -22602,3 +22602,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:56:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.936.tar.gz]
 [2024-05-08 14:56:41] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
 [2024-05-08 14:56:41] INFO root fetch - main [MainThread]: Store serial: [23113685]
+[2024-05-08 14:58:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113685]
+[2024-05-08 14:58:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oetils
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sed-processor
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-express
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corvic-engine
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-account
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-l10n-br-sale-commission
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OSF-EIMTC
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DesalSim
+[2024-05-08 14:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coherent.build
+[2024-05-08 14:58:50] INFO root fetch - processPackages [DesalSim]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [coherent.build]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202405080915] Old Version: [99.0.202405071433]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [oetils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [OSF-EIMTC]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev13]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [lusid-express]: New version: [1.1.2] Old Version: [1.0.9]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.9.3.0] Old Version: [14.0.9.2.0]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [sed-processor]: New version: [0.1.9a7] Old Version: [0.1.9a6]
+[2024-05-08 14:58:50] INFO root fetch - processPackages [coherent.build]: Downloading https://files.pythonhosted.org/packages/4b/69/460dcbd272483a60ec4fbcc1ba0b97fe4625462c31972fb88ab4d46690f9/coherent_build-0.3.0.tar.gz
+[2024-05-08 14:58:50] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/58/cf/6e179f2ecc201eb83c1a45538c5e94bdc037697ad7d25b134c16d9189e35/desalsim-0.7.3.tar.gz
+[2024-05-08 14:58:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3d/b4/22513154e0a14a5275b7cf72815f467a7aeb6bf9b431a316c68b71c15584/kfish-99.0.202405071433-py3-none-any.whl
+[2024-05-08 14:58:50] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-05-08 14:58:50] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: Downloading https://files.pythonhosted.org/packages/2b/88/4b1deea43dc1533ebd055114fbe98e31d88bafe300b8595ea12d260b2521/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev13-py3-none-any.whl
+[2024-05-08 14:58:50] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/48/ab/390618dd544367ca15f23aa52fc87456b0ca2b90d81b4805252039010b14/sed_processor-0.1.9a6.tar.gz
+[2024-05-08 14:58:50] INFO root fetch - processPackages [oetils]: Downloading https://files.pythonhosted.org/packages/a7/66/de5bd7cadfa0e6434f8f217833c00ac4e1e41b256b9f3c01b66bf0e779c1/oetils-0.2.6.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [OSF-EIMTC]: Downloading https://files.pythonhosted.org/packages/07/47/16d078e1107ddbfc1c5606fa448180e3bd7923ef32d5aad2a9a3e97e0214/OSF_EIMTC-0.1.8.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/c1/b2/6ea970bb4862d3d0a9718e949629809447e0feb2b236982d1a017c244e6f/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl
+[2024-05-08 14:58:51] INFO root fetch - processPackages [coherent.build]: Downloading https://files.pythonhosted.org/packages/38/6f/e397a889fbf39028e8b6b7e72a98997656594ae2c64120a69ba33f9f2457/coherent_build-0.4.0.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/e5/d9/b67b6df5c637ea02bfa103078915752bf380d36f341c9192b58ab4c630d0/lusid_express-1.0.9.tar.gz
+[2024-05-08 14:58:51] WARNING root fetch - processPackages [OSF-EIMTC]: Skipping package: exceeds size limit 13771117>=10485760
+[2024-05-08 14:58:51] INFO root fetch - main [MainThread]: End processing [OSF-EIMTC] error
+[2024-05-08 14:58:51] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/be/e6/f12a8a12e8e293abbffc20feb1ef74b195eeb4f641ab2482d4313366b614/kfish-99.0.202405080915-py3-none-any.whl
+[2024-05-08 14:58:51] INFO root fetch - processPackages [coherent.build]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [coherent.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coherent_build-0.3.0.tar.gz tmp/coherent_build-0.4.0.tar.gz --markdown 20240508/c/coherent.build/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/92/29/60e874cfabba2175c938d610f6103d7a8916ae333e3631f3d90f390951b2/desalsim-0.7.4.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405071433-py3-none-any.whl.zip tmp/kfish-99.0.202405080915-py3-none-any.whl.zip --markdown 20240508/k/kfish/99.0.202405071433-99.0.202405080915/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.7.3.tar.gz tmp/desalsim-0.7.4.tar.gz --markdown 20240508/D/DesalSim/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [oetils]: Downloading https://files.pythonhosted.org/packages/70/3a/2cf82a00cc4833fa2232c9a798f2267f950525f8e7c11efa3f57fa866fa6/oetils-0.2.7.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/09/78/adab50308854e87a3bff14001e6c9580ded467e8256ed3c1a60298142dac/lusid_express-1.1.2.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: Downloading https://files.pythonhosted.org/packages/2a/0d/7356f1736d6b982789c0e7d4e88397332c59c77b9ef7c8dab925ee79da8c/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/6e/f7/d34dd8f08d8a9f15f129170695efb0999d57be4dd43c55729e57c59498b6/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl
+[2024-05-08 14:58:51] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240508/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/87/3d/46f05a827162ec042dcd0c89c2248c3ce48cb5f21a3dfa818abd146f2b85/sed_processor-0.1.9a7.tar.gz
+[2024-05-08 14:58:51] INFO root fetch - processPackages [oetils]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [oetils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oetils-0.2.6.tar.gz tmp/oetils-0.2.7.tar.gz --markdown 20240508/o/oetils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-1.0.9.tar.gz tmp/lusid_express-1.1.2.tar.gz --markdown 20240508/l/lusid-express/1.0.9-1.1.2/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev13-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-l10n-br-sale-commission/14.0.1.0.1.dev13-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [coherent.build]: Remove: archive file [/home/abi/fetcher/tmp/coherent_build-0.3.0.tar.gz]
+[2024-05-08 14:58:51] INFO root fetch - processPackages [coherent.build]: Remove: archive file [/home/abi/fetcher/tmp/coherent_build-0.4.0.tar.gz]
+[2024-05-08 14:58:51] INFO root fetch - main [MainThread]: End processing [coherent.build]: success
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-l10n-br-account/14.0.9.2.0-14.0.9.3.0/README.md --exclude *.pyd
+[2024-05-08 14:58:51] INFO root fetch - processPackages [sed-processor]: executing diffoscope
+[2024-05-08 14:58:51] INFO root fetch - processPackages [sed-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sed_processor-0.1.9a6.tar.gz tmp/sed_processor-0.1.9a7.tar.gz --markdown 20240508/s/sed-processor/0.1.9a6-0.1.9a7/README.md --exclude *.pyd
+[2024-05-08 14:58:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405071433-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405080915-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [oetils]: Remove: archive file [/home/abi/fetcher/tmp/oetils-0.2.6.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [oetils]: Remove: archive file [/home/abi/fetcher/tmp/oetils-0.2.7.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [oetils]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.3.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.4.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev13-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale_commission-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale-commission]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-1.0.9.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-1.1.2.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a6.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a7.tar.gz]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [sed-processor]: success
+[2024-05-08 14:58:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip]
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2024-05-08 14:58:52] INFO root fetch - main [MainThread]: Store serial: [23113719]
