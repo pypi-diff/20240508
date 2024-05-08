@@ -17974,3 +17974,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:56:25] INFO root fetch - processPackages [micropolarray]: Remove: archive file [/home/abi/fetcher/tmp/micropolarray-1.2.9.tar.gz]
 [2024-05-08 11:56:25] INFO root fetch - main [MainThread]: End processing [micropolarray]: success
 [2024-05-08 11:56:25] INFO root fetch - main [MainThread]: Store serial: [23111641]
+[2024-05-08 11:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111641]
+[2024-05-08 11:58:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-postprocessor-dashscope-rerank-custom
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbterd
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsst
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quanchecker
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deker
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyneople
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamtracer
+[2024-05-08 11:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygeckocircuits2
+[2024-05-08 11:58:34] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 11:58:34] WARNING root fetch - processPackages [llama-index-postprocessor-dashscope-rerank-custom]: Skipping, unable to determine old version
+[2024-05-08 11:58:34] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-dashscope-rerank-custom] error
+[2024-05-08 11:58:34] INFO root fetch - processPackages [deker]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-08 11:58:34] WARNING root fetch - processPackages [tsst]: Skipping, unable to determine old version
+[2024-05-08 11:58:34] INFO root fetch - main [MainThread]: End processing [tsst] error
+[2024-05-08 11:58:34] INFO root fetch - processPackages [quanchecker]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 11:58:34] INFO root fetch - processPackages [streamtracer]: New version: [2.1.0.dev0] Old Version: [2.0.1]
+[2024-05-08 11:58:34] WARNING root fetch - processPackages [pygeckocircuits2]: Skipping, unable to determine old version
+[2024-05-08 11:58:34] INFO root fetch - main [MainThread]: End processing [pygeckocircuits2] error
+[2024-05-08 11:58:34] INFO root fetch - processPackages [dbterd]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-08 11:58:34] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [deker]: Downloading https://files.pythonhosted.org/packages/10/5b/dcd97ce900f0888738a34031b8d4adaf1729841bb429ec1d52fdbcee8bb3/deker-1.1.5.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [quanchecker]: Downloading https://files.pythonhosted.org/packages/47/0f/b6f1d3f25b0d04434a24f9abf8bb197bbe12d0939417829356ddd4b85443/quanchecker-0.0.1.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/de/42/62fe02c70b3c71a3f2602e9100aaa747def8778927b35b54fc88697e317b/dbterd-1.9.1.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [streamtracer]: Downloading https://files.pythonhosted.org/packages/6d/4d/a645d94a36383068186e210fadb31672f72221d8211727eabcd5d41dc631/streamtracer-2.0.1.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 11:58:34] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 11:58:34] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 11:58:34] INFO root fetch - processPackages [deker]: Downloading https://files.pythonhosted.org/packages/a3/d3/9212bebc8deba5eb29a7cfa392a3804ea4ff625e1c10b95c8717ad2c2fd8/deker-1.1.6.tar.gz
+[2024-05-08 11:58:35] INFO root fetch - processPackages [quanchecker]: Downloading https://files.pythonhosted.org/packages/5a/fb/d489f93d16cd67b3b0727eb961469f90afb902acb99b8f7e555fcdb389f3/quanchecker-0.0.2.tar.gz
+[2024-05-08 11:58:35] INFO root fetch - processPackages [dbterd]: Downloading https://files.pythonhosted.org/packages/de/a1/1803e6626e3cfd81f8ac80737ecc470b21ccc2f8680243f6a2a96940abde/dbterd-1.9.2.tar.gz
+[2024-05-08 11:58:35] INFO root fetch - processPackages [deker]: executing diffoscope
+[2024-05-08 11:58:35] INFO root fetch - processPackages [deker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deker-1.1.5.tar.gz tmp/deker-1.1.6.tar.gz --markdown 20240508/d/deker/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-08 11:58:35] INFO root fetch - processPackages [quanchecker]: executing diffoscope
+[2024-05-08 11:58:35] INFO root fetch - processPackages [quanchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanchecker-0.0.1.tar.gz tmp/quanchecker-0.0.2.tar.gz --markdown 20240508/q/quanchecker/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 11:58:35] INFO root fetch - processPackages [dbterd]: executing diffoscope
+[2024-05-08 11:58:35] INFO root fetch - processPackages [dbterd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbterd-1.9.1.tar.gz tmp/dbterd-1.9.2.tar.gz --markdown 20240508/d/dbterd/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-08 11:58:35] INFO root fetch - processPackages [streamtracer]: Downloading https://files.pythonhosted.org/packages/97/c4/13fe3af862a11f15f0d4331567d533710353cb04dcaff6498fed69be8137/streamtracer-2.1.0.dev0-cp311-none-win_amd64.whl
+[2024-05-08 11:58:35] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 11:58:35] INFO root fetch - processPackages [quanchecker]: Remove: archive file [/home/abi/fetcher/tmp/quanchecker-0.0.1.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - processPackages [quanchecker]: Remove: archive file [/home/abi/fetcher/tmp/quanchecker-0.0.2.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - main [MainThread]: End processing [quanchecker]: success
+[2024-05-08 11:58:35] INFO root fetch - processPackages [deker]: Remove: archive file [/home/abi/fetcher/tmp/deker-1.1.5.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - processPackages [deker]: Remove: archive file [/home/abi/fetcher/tmp/deker-1.1.6.tar.gz]
+[2024-05-08 11:58:35] INFO root fetch - main [MainThread]: End processing [deker]: success
+[2024-05-08 11:58:36] INFO root fetch - processPackages [streamtracer]: executing diffoscope
+[2024-05-08 11:58:36] INFO root fetch - processPackages [streamtracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamtracer-2.0.1.tar.gz tmp/streamtracer-2.1.0.dev0-cp311-none-win_amd64.whl.zip --markdown 20240508/s/streamtracer/2.0.1-2.1.0.dev0/README.md --exclude *.pyd
+[2024-05-08 11:58:36] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.9.1.tar.gz]
+[2024-05-08 11:58:36] INFO root fetch - processPackages [dbterd]: Remove: archive file [/home/abi/fetcher/tmp/dbterd-1.9.2.tar.gz]
+[2024-05-08 11:58:36] INFO root fetch - main [MainThread]: End processing [dbterd]: success
+[2024-05-08 11:58:36] INFO root fetch - processPackages [streamtracer]: Remove: archive file [/home/abi/fetcher/tmp/streamtracer-2.0.1.tar.gz]
+[2024-05-08 11:58:36] INFO root fetch - processPackages [streamtracer]: Remove: archive file [/home/abi/fetcher/tmp/streamtracer-2.1.0.dev0-cp311-none-win_amd64.whl.zip]
+[2024-05-08 11:58:36] INFO root fetch - main [MainThread]: End processing [streamtracer]: success
+[2024-05-08 11:58:36] INFO root fetch - main [MainThread]: Store serial: [23111679]
