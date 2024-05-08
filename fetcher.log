@@ -10229,3 +10229,49 @@
 [2024-05-08 06:05:10] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_cryonirsp-0.0.9.tar.gz]
 [2024-05-08 06:05:10] INFO root fetch - main [MainThread]: End processing [dkist-processing-cryonirsp]: success
 [2024-05-08 06:05:10] INFO root fetch - main [MainThread]: Store serial: [23108163]
+[2024-05-08 06:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108163]
+[2024-05-08 06:07:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrable
+[2024-05-08 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-05-08 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-task-timebox
+[2024-05-08 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-binary
+[2024-05-08 06:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2024-05-08 06:07:19] INFO root fetch - processPackages [infrable]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-08 06:07:19] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-08 06:07:19] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: New version: [14.0.3.0.0] Old Version: [14.0.2.2.0]
+[2024-05-08 06:07:19] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/75/2a/e7d0b66a4ca06c976599de87c2fc2b33a7b7da2751876c49b724554331df/infrable-0.1.6.tar.gz
+[2024-05-08 06:07:19] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-08 06:07:19] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-08 06:07:19] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-08 06:07:19] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-08 06:07:19] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-08 06:07:19] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Downloading https://files.pythonhosted.org/packages/18/66/c678bb42c45f7f7b5950c8a1d78abc39087f3fed6c3a8965177086401ab1/odoo14_addon_ssi_task_timebox-14.0.2.2.0-py3-none-any.whl
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-08 06:07:20] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-08 06:07:20] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/9e/8f/76f1098d3c998412814aa2e8de915f767e1d58f2518fca2eee05f69096d6/infrable-0.1.7.tar.gz
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240508/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240508/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-08 06:07:20] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-08 06:07:20] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.6.tar.gz tmp/infrable-0.1.7.tar.gz --markdown 20240508/i/infrable/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-08 06:07:20] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Downloading https://files.pythonhosted.org/packages/a2/e5/c6de5ced986761031d35a1e9a5b3454aafba861e08d6c06c825cbaa7afbe/odoo14_addon_ssi_task_timebox-14.0.3.0.0-py3-none-any.whl
+[2024-05-08 06:07:20] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-08 06:07:20] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240508/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-08 06:07:20] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: executing diffoscope
+[2024-05-08 06:07:20] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_task_timebox-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_task_timebox-14.0.3.0.0-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-ssi-task-timebox/14.0.2.2.0-14.0.3.0.0/README.md --exclude *.pyd
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-08 06:07:20] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-08 06:07:20] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-08 06:07:20] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.6.tar.gz]
+[2024-05-08 06:07:20] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.7.tar.gz]
+[2024-05-08 06:07:20] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-08 06:07:20] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-08 06:07:20] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_task_timebox-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-05-08 06:07:20] INFO root fetch - processPackages [odoo14-addon-ssi-task-timebox]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_task_timebox-14.0.3.0.0-py3-none-any.whl.zip]
+[2024-05-08 06:07:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-task-timebox]: success
+[2024-05-08 06:07:21] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-08 06:07:21] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-08 06:07:21] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-08 06:07:21] INFO root fetch - main [MainThread]: Store serial: [23108175]
