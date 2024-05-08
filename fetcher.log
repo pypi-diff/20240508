@@ -20775,3 +20775,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:43:18] INFO root fetch - processPackages [ydf]: Remove: archive file [/home/abi/fetcher/tmp/ydf-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-08 13:43:18] INFO root fetch - main [MainThread]: End processing [ydf]: success
 [2024-05-08 13:43:18] INFO root fetch - main [MainThread]: Store serial: [23112803]
+[2024-05-08 13:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112803]
+[2024-05-08 13:45:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-multilingual
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-antd
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mathjson-solver
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascender
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuvla-api
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cohere
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TrailPy
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grabberlib
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faim-ipa
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2024-05-08 13:45:47] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [reflex-antd]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ascender]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [mathjson-solver]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [nuvla-api]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [grabberlib]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [faim-ipa]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-08 13:45:47] WARNING root fetch - processPackages [TrailPy]: Skipping, unable to determine old version
+[2024-05-08 13:45:47] INFO root fetch - main [MainThread]: End processing [TrailPy] error
+[2024-05-08 13:45:47] INFO root fetch - processPackages [cohere]: New version: [5.3.5] Old Version: [5.3.4]
+[2024-05-08 13:45:47] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/0d/a9/3193c8308d5edc1359ddb183876ec7c83de1fc7ab882b3723725a7154df8/reflex_antd-0.0.5.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/19/bc/ba1e07811d1ba767bbf943b0fbf3c7260cff9fd09032981328132808ea23/mathjson-solver-1.6.1.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/10/45/6da52c54739386df4df7f1af6350da509a3283079971c1c4baee08885722/cohere-5.3.4.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/16/2a/37356de22e8dfa55366cd49f00c4c0d9df29687d91c3293bc66481362dda/grabberlib-0.0.9.tar.gz
+[2024-05-08 13:45:47] INFO root fetch - processPackages [ascender]: Downloading https://files.pythonhosted.org/packages/8d/79/6738f77e8d98b32d686ea1a88e69da632a30c6d9e6b8bd893af12b8e7d2b/ascender-0.1.9.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/53/84/29c31e0c5e24fb8a235e4621019715a4b48a31cec7c59a935b307e1a5729/nuvla_api-4.0.0-py3-none-any.whl
+[2024-05-08 13:45:48] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/85/b4/2661abc8b45dfb849240d8506ee3e3a17df51c2f28368db4b6c3d752a4bb/faim_ipa-0.3.2.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240508/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/80/8f/5bc73dc1580c11ab50694772a86b54f78eec72810a21041ef3622a65abff/reflex_antd-0.0.6.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [mathjson-solver]: Downloading https://files.pythonhosted.org/packages/a4/f4/619561a6bd9796c4584fc7f3ffbba5c7a271329df77846532a05b25f9383/mathjson_solver-1.7.0.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [ascender]: Downloading https://files.pythonhosted.org/packages/3b/5f/694dcdff618e89f4889a339ae3d096ef88a0bb364198f15167aad6b01cfe/ascender-0.2.0.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240508/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/a2/6b/e3a2ceb824bf5b96eae59bbc4c405979ccb1ce48a3558d56810288dd3762/grabberlib-0.1.0.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/f5/3e/878d22514ca116ae2c138b27e9d111f773d9946ce4254c1fb266319d2636/cohere-5.3.5.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [faim-ipa]: Downloading https://files.pythonhosted.org/packages/cf/9a/a19c1990d3255d317cc5b01369dc2ee672608aa411a3f650528d6430ea29/faim_ipa-0.3.3.tar.gz
+[2024-05-08 13:45:48] INFO root fetch - processPackages [reflex-antd]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [reflex-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_antd-0.0.5.tar.gz tmp/reflex_antd-0.0.6.tar.gz --markdown 20240508/r/reflex-antd/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [mathjson-solver]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [mathjson-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathjson-solver-1.6.1.tar.gz tmp/mathjson_solver-1.7.0.tar.gz --markdown 20240508/m/mathjson-solver/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [nuvla-api]: Downloading https://files.pythonhosted.org/packages/a7/f2/1a25b432f2ff8ecdf205c6e397e779015067478479b5144709883cef876d/nuvla_api-4.0.1-py3-none-any.whl
+[2024-05-08 13:45:48] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.0.9.tar.gz tmp/grabberlib-0.1.0.tar.gz --markdown 20240508/g/grabberlib/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-5.3.4.tar.gz tmp/cohere-5.3.5.tar.gz --markdown 20240508/c/cohere/5.3.4-5.3.5/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [ascender]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [ascender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascender-0.1.9.tar.gz tmp/ascender-0.2.0.tar.gz --markdown 20240508/a/ascender/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [faim-ipa]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [faim-ipa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faim_ipa-0.3.2.tar.gz tmp/faim_ipa-0.3.3.tar.gz --markdown 20240508/f/faim-ipa/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-08 13:45:48] INFO root fetch - processPackages [nuvla-api]: executing diffoscope
+[2024-05-08 13:45:48] INFO root fetch - processPackages [nuvla-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvla_api-4.0.0-py3-none-any.whl.zip tmp/nuvla_api-4.0.1-py3-none-any.whl.zip --markdown 20240508/n/nuvla-api/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-08 13:45:49] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [mathjson-solver]: Remove: archive file [/home/abi/fetcher/tmp/mathjson-solver-1.6.1.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [mathjson-solver]: Remove: archive file [/home/abi/fetcher/tmp/mathjson_solver-1.7.0.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [mathjson-solver]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.0.9.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.0.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [ascender]: Remove: archive file [/home/abi/fetcher/tmp/ascender-0.1.9.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [ascender]: Remove: archive file [/home/abi/fetcher/tmp/ascender-0.2.0.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [ascender]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla_api-4.0.0-py3-none-any.whl.zip]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [nuvla-api]: Remove: archive file [/home/abi/fetcher/tmp/nuvla_api-4.0.1-py3-none-any.whl.zip]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [nuvla-api]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.2.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [faim-ipa]: Remove: archive file [/home/abi/fetcher/tmp/faim_ipa-0.3.3.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [faim-ipa]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.5.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.6.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
+[2024-05-08 13:45:49] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.3.4.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.3.5.tar.gz]
+[2024-05-08 13:45:49] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2024-05-08 13:45:50] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-08 13:45:50] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-08 13:45:50] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-08 13:45:50] INFO root fetch - main [MainThread]: Store serial: [23112836]
