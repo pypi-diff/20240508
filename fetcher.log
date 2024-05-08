@@ -11313,3 +11313,24 @@
 [2024-05-08 07:39:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-08 07:39:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-08 07:39:37] INFO root fetch - main [MainThread]: Store serial: [23108586]
+[2024-05-08 07:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108586]
+[2024-05-08 07:41:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rally
+[2024-05-08 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-05-08 07:41:46] INFO root fetch - processPackages [rally]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-08 07:41:46] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 07:41:47] INFO root fetch - processPackages [rally]: Downloading https://files.pythonhosted.org/packages/37/bf/b4944794fed7b71cc92625b8f876caaa7316e6d9e67a74d764010163abaa/rally-4.0.0.tar.gz
+[2024-05-08 07:41:47] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-05-08 07:41:47] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-05-08 07:41:47] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-08 07:41:47] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240508/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 07:41:48] INFO root fetch - processPackages [rally]: Downloading https://files.pythonhosted.org/packages/27/14/c02f96b847b3111f8d04aba3c349bf917be92da89053bddccb11464d16cd/rally-4.1.0.tar.gz
+[2024-05-08 07:41:48] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-05-08 07:41:48] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-05-08 07:41:48] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-08 07:41:48] INFO root fetch - processPackages [rally]: executing diffoscope
+[2024-05-08 07:41:48] INFO root fetch - processPackages [rally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rally-4.0.0.tar.gz tmp/rally-4.1.0.tar.gz --markdown 20240508/r/rally/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-08 07:41:51] INFO root fetch - processPackages [rally]: Remove: archive file [/home/abi/fetcher/tmp/rally-4.0.0.tar.gz]
+[2024-05-08 07:41:51] INFO root fetch - processPackages [rally]: Remove: archive file [/home/abi/fetcher/tmp/rally-4.1.0.tar.gz]
+[2024-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [rally]: success
+[2024-05-08 07:41:51] INFO root fetch - main [MainThread]: Store serial: [23108590]
