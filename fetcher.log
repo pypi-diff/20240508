@@ -18402,3 +18402,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:14:27] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.52.0-py3-none-macosx_11_0_arm64.whl.zip]
 [2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [fzf-bin]: success
 [2024-05-08 12:14:27] INFO root fetch - main [MainThread]: Store serial: [23111831]
+[2024-05-08 12:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111831]
+[2024-05-08 12:16:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ce-mkc
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uk-bin-collection
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbx-code-owners
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecastout
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.2a1]
+[2024-05-08 12:16:36] INFO root fetch - processPackages [forecastout]: New version: [0.2.7] Old Version: [0.1.0]
+[2024-05-08 12:16:36] INFO root fetch - processPackages [uk-bin-collection]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 12:16:36] WARNING root fetch - processPackages [pbx-code-owners]: Skipping, unable to determine old version
+[2024-05-08 12:16:36] INFO root fetch - main [MainThread]: End processing [pbx-code-owners] error
+[2024-05-08 12:16:36] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/e1/51/f938477f91c5b46df120328e77c2438c09cbc64969001f41fe8bc1b2f880/ce_mkc-0.0.2a1.tar.gz
+[2024-05-08 12:16:36] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/f6/3c/e25a4eb0a28d67a6748fdb9acd0380565c1585a1ff833d282a9d2acc90a1/uk_bin_collection-0.8.0.tar.gz
+[2024-05-08 12:16:36] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/31/99/765491b4120b55b6459fea61a2d1f1d8b4f19b5f5c28dcea8b9f90315963/forecastout-0.1.0.tar.gz
+[2024-05-08 12:16:37] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-08 12:16:37] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-08 12:16:37] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.2a1.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240508/c/ce-mkc/0.0.2a1-0.1.0/README.md --exclude *.pyd
+[2024-05-08 12:16:37] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/ab/40/4b7b790acb6304c94e670211fcaef2498faf5ac3388fc20e31ca0b3271b5/forecastout-0.2.7.tar.gz
+[2024-05-08 12:16:37] INFO root fetch - processPackages [uk-bin-collection]: Downloading https://files.pythonhosted.org/packages/55/0e/a2cb2057f203540273a20c67ef245d13d61a542934302f0475c939494a96/uk_bin_collection-0.9.0.tar.gz
+[2024-05-08 12:16:37] INFO root fetch - processPackages [forecastout]: executing diffoscope
+[2024-05-08 12:16:37] INFO root fetch - processPackages [forecastout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastout-0.1.0.tar.gz tmp/forecastout-0.2.7.tar.gz --markdown 20240508/f/forecastout/0.1.0-0.2.7/README.md --exclude *.pyd
+[2024-05-08 12:16:37] INFO root fetch - processPackages [uk-bin-collection]: executing diffoscope
+[2024-05-08 12:16:37] INFO root fetch - processPackages [uk-bin-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_bin_collection-0.8.0.tar.gz tmp/uk_bin_collection-0.9.0.tar.gz --markdown 20240508/u/uk-bin-collection/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 12:16:37] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.2a1.tar.gz]
+[2024-05-08 12:16:37] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-08 12:16:37] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-08 12:16:37] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.1.0.tar.gz]
+[2024-05-08 12:16:37] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.2.7.tar.gz]
+[2024-05-08 12:16:37] INFO root fetch - main [MainThread]: End processing [forecastout]: success
+[2024-05-08 12:16:38] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.8.0.tar.gz]
+[2024-05-08 12:16:38] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.9.0.tar.gz]
+[2024-05-08 12:16:38] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
+[2024-05-08 12:16:38] INFO root fetch - main [MainThread]: Store serial: [23111853]
