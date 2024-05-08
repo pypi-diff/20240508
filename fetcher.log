@@ -22485,3 +22485,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:54:28] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.1.tar.gz]
 [2024-05-08 14:54:28] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-05-08 14:54:28] INFO root fetch - main [MainThread]: Store serial: [23113643]
+[2024-05-08 14:56:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113643]
+[2024-05-08 14:56:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-08 14:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gianna
+[2024-05-08 14:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vantage6-common
+[2024-05-08 14:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vantage6-client
+[2024-05-08 14:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2024-05-08 14:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vantage6-algorithm-tools
+[2024-05-08 14:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vantage6
+[2024-05-08 14:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sensorialytics
+[2024-05-08 14:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-node
+[2024-05-08 14:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6-backend-common
+[2024-05-08 14:56:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-server
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-client]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202405080912] Old Version: [99.0.202405071430]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [sensorialytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 14:56:37] WARNING root fetch - processPackages [gianna]: Skipping, unable to determine old version
+[2024-05-08 14:56:37] INFO root fetch - processPackages [gianna]: Start processing: qBitrr2
+[2024-05-08 14:56:37] INFO root fetch - main [MainThread]: End processing [gianna] error
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-common]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-backend-common]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-algorithm-tools]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-server]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-node]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/27/c4/6399b85224a377f978e952b77180b9febdb1c6401467de0d2d003c059c65/kcli-99.0.202405071430.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/84/df/b92d6fdd29a6e1b81b8e8559e572291634926b2511794707df4e896b80f9/vantage6-client-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/3a/72/734df2c20ad720f94245bd81c903e5dffcf113ba8476eab157fc530cc31b/vantage6-common-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/84/7a/7c6a859d986da1919c0e46ccd4ad158ae434034b1ceb7800889556c6dfd4/qbitrr2-4.5.8.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/7b/b1/ad234c7048eac4b0f2e71ccacf7637ee4d641fc0644c9057b34239e103f4/sensorialytics-1.0.8.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/3f/29/f506f2a2f6a10779b4cf44cc3b6a497529ff0b8cfe9fc671d93479de7924/vantage6-algorithm-tools-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/b3/7f/b8d18f26afaf29257287e882fd38d60e320a06bebbd3e9f25546ed08ad92/vantage6-backend-common-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/81/b3/710168858aa7ecab891ec9b47244f28d76b9be7f118c344d0949bbf1b488/vantage6-server-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/c9/6f/c5c983de321f64ac36b92261addb1ef6d6761632da43c385123ae7349a01/vantage6-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b7/b7/ac9ad851e1e53caf194edccaa860e596f4c6c645a589c4a30e208a4e7fcb/vantage6-node-4.4.0rc3.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/60/b3/5b053f1e8c914c8df8ba56516273e7ae252ab092078e32ba2c6e9d623a85/qbitrr2-4.5.9.tar.gz
+[2024-05-08 14:56:37] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/79/8f/343f53e613505fc5f2390603d4d6b016bc76125846ab26ca53666b03f89e/vantage6-client-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/66/de/75b0134b83a8eeb982894bb3dbfd6bb79e99194cb443a5b8dcec3c08ec8e/kcli-99.0.202405080912.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/fb/6e/fcfd9b463a2cd900891d569eaed9fac597aaf2373cd8186bd44b92ed7d41/vantage6-algorithm-tools-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/6f/01/9b376d5322ed53721fa7de48a42a6d931d5895c39d0f4a917228de7ce00d/vantage6-backend-common-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.8.tar.gz tmp/qbitrr2-4.5.9.tar.gz --markdown 20240508/q/qBitrr2/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/01/0b/fe9bd377ee2dc4d699439879437aba2d91f0d5aac5297cae21b751a7dc8c/sensorialytics-1.0.9.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/81/c1/ca2f2bc1ca70f558f1a85ecadaa96b32f3de11c77bebd652fe845ee31d42/vantage6-common-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.4.0rc3.tar.gz tmp/vantage6-client-4.4.1.tar.gz --markdown 20240508/v/vantage6-client/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/f0/78/aaa340e50ce22beb8c98c6822f0d4f42f644403bfddb94667d156d27386e/vantage6-node-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/9c/56/32c63552507cfbfc08a0a0e4d7285a2b1e9fbf732a5a0158cbf335ca5e4c/vantage6-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-algorithm-tools]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-algorithm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz tmp/vantage6-algorithm-tools-4.4.1.tar.gz --markdown 20240508/v/vantage6-algorithm-tools/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-backend-common]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-backend-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-backend-common-4.4.0rc3.tar.gz tmp/vantage6-backend-common-4.4.1.tar.gz --markdown 20240508/v/vantage6-backend-common/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/ff/56/0426d6333a6ce1a52a0b4b86fef18f2040f71e1309c7228f5fcfd6dc4083/vantage6-server-4.4.1.tar.gz
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.4.0rc3.tar.gz tmp/vantage6-4.4.1.tar.gz --markdown 20240508/v/vantage6/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.4.0rc3.tar.gz tmp/vantage6-node-4.4.1.tar.gz --markdown 20240508/v/vantage6-node/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405071430.tar.gz tmp/kcli-99.0.202405080912.tar.gz --markdown 20240508/k/kcli/99.0.202405071430-99.0.202405080912/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [sensorialytics]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [sensorialytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensorialytics-1.0.8.tar.gz tmp/sensorialytics-1.0.9.tar.gz --markdown 20240508/s/sensorialytics/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.4.0rc3.tar.gz tmp/vantage6-common-4.4.1.tar.gz --markdown 20240508/v/vantage6-common/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2024-05-08 14:56:38] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-4.4.0rc3.tar.gz tmp/vantage6-server-4.4.1.tar.gz --markdown 20240508/v/vantage6-server/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-backend-common]: Start processing: vantage6-algorithm-store
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-backend-common]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.8.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.9.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [qBitrr2]: Start processing: DNA-SE
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-08 14:56:39] WARNING root fetch - processPackages [DNA-SE]: Skipping, unable to determine old version
+[2024-05-08 14:56:39] INFO root fetch - processPackages [DNA-SE]: Start processing: lusid-notification-sdk-preview
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [DNA-SE] error
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-tools]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-algorithm-store]: New version: [4.4.1] Old Version: [4.4.0rc3]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.936] Old Version: [0.1.934]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.8.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.9.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [sensorialytics]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/0a/fc/659c18b753eeb2ca260ef69a959d37133bb8d4e8127853177ba904f01295/vantage6-algorithm-store-4.4.0rc3.tar.gz
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.4.1.tar.gz]
+[2024-05-08 14:56:39] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2024-05-08 14:56:39] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4e/73/15b7a75310123a199006abbc878ae757f41e52a3c8a5fac9a06de68d66bf/lusid-notification-sdk-preview-0.1.934.tar.gz
+[2024-05-08 14:56:40] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/73/62/7dc032b19710f6aa8935d3e1e02da6689ddb591a77777e9bf539086e08cb/vantage6-algorithm-store-4.4.1.tar.gz
+[2024-05-08 14:56:40] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/58/b7/2c937c315c17d5fe0e45d3768fb60ae72afe41fa5a08a940a8431b85d9d3/lusid-notification-sdk-preview-0.1.936.tar.gz
+[2024-05-08 14:56:40] INFO root fetch - processPackages [vantage6-algorithm-store]: executing diffoscope
+[2024-05-08 14:56:40] INFO root fetch - processPackages [vantage6-algorithm-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz tmp/vantage6-algorithm-store-4.4.1.tar.gz --markdown 20240508/v/vantage6-algorithm-store/4.4.0rc3-4.4.1/README.md --exclude *.pyd
+[2024-05-08 14:56:40] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2024-05-08 14:56:40] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.934.tar.gz tmp/lusid-notification-sdk-preview-0.1.936.tar.gz --markdown 20240508/l/lusid-notification-sdk-preview/0.1.934-0.1.936/README.md --exclude *.pyd
+[2024-05-08 14:56:40] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz]
+[2024-05-08 14:56:40] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.4.1.tar.gz]
+[2024-05-08 14:56:40] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-store]: success
+[2024-05-08 14:56:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405071430.tar.gz]
+[2024-05-08 14:56:41] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405080912.tar.gz]
+[2024-05-08 14:56:41] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-08 14:56:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.934.tar.gz]
+[2024-05-08 14:56:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.936.tar.gz]
+[2024-05-08 14:56:41] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2024-05-08 14:56:41] INFO root fetch - main [MainThread]: Store serial: [23113685]
