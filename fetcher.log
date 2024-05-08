@@ -21205,3 +21205,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:59:02] INFO root fetch - processPackages [flake8-requirements]: Remove: archive file [/home/abi/fetcher/tmp/flake8_requirements-2.2.0-py3-none-any.whl.zip]
 [2024-05-08 13:59:02] INFO root fetch - main [MainThread]: End processing [flake8-requirements]: success
 [2024-05-08 13:59:02] INFO root fetch - main [MainThread]: Store serial: [23112979]
+[2024-05-08 14:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112979]
+[2024-05-08 14:01:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tilearn-llm
+[2024-05-08 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: troubadix
+[2024-05-08 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcax
+[2024-05-08 14:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yolosegment2labelme
+[2024-05-08 14:01:11] INFO root fetch - processPackages [yolosegment2labelme]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 14:01:11] INFO root fetch - processPackages [tilearn-llm]: New version: [0.9.1.dev2] Old Version: [0.9.1]
+[2024-05-08 14:01:11] INFO root fetch - processPackages [lcax]: New version: [2.0.5] Old Version: [1.7.0]
+[2024-05-08 14:01:11] INFO root fetch - processPackages [troubadix]: New version: [24.5.0] Old Version: [24.4.1]
+[2024-05-08 14:01:11] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/07/a3/d03a6351d17acdb7404b35b8e0464c8f8918ce4b75735c205e03dd546e3a/tilearn_llm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 14:01:11] INFO root fetch - processPackages [yolosegment2labelme]: Downloading https://files.pythonhosted.org/packages/60/d1/c457eea8ae3ad6c444bd5fe6d6235fd39db9619d092e06d1d191db3e55ac/yolosegment2labelme-0.0.2.tar.gz
+[2024-05-08 14:01:11] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 15252855>=10485760
+[2024-05-08 14:01:11] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-05-08 14:01:11] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/d3/f6/71379115c6efaf4f868b6534d442ac21d55c684d8df03bc12c8e08629441/troubadix-24.4.1.tar.gz
+[2024-05-08 14:01:11] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/3b/04/6fc3b06b5158381f2504e1ff80caf3bd4d861b49c3fa3a414a97ee692cc0/lcax-1.7.0.tar.gz
+[2024-05-08 14:01:12] INFO root fetch - processPackages [yolosegment2labelme]: Downloading https://files.pythonhosted.org/packages/ce/00/5fa623019281dbc630c57b843cc998ff56772f852af25a6619bb5babbe7c/yolosegment2labelme-0.0.3.tar.gz
+[2024-05-08 14:01:12] INFO root fetch - processPackages [yolosegment2labelme]: executing diffoscope
+[2024-05-08 14:01:12] INFO root fetch - processPackages [yolosegment2labelme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolosegment2labelme-0.0.2.tar.gz tmp/yolosegment2labelme-0.0.3.tar.gz --markdown 20240508/y/yolosegment2labelme/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 14:01:12] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/ba/8d/454e1f37c9b0127d5eba07458284b707a31aa4bfdcd20973620b99dbaf40/troubadix-24.5.0.tar.gz
+[2024-05-08 14:01:12] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/52/2d/e0003954d95c9e2f81886f48f601e431e46ee336ce7c15887ff66483286b/lcax-2.0.5.tar.gz
+[2024-05-08 14:01:12] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2024-05-08 14:01:12] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-24.4.1.tar.gz tmp/troubadix-24.5.0.tar.gz --markdown 20240508/t/troubadix/24.4.1-24.5.0/README.md --exclude *.pyd
+[2024-05-08 14:01:12] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-05-08 14:01:12] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-1.7.0.tar.gz tmp/lcax-2.0.5.tar.gz --markdown 20240508/l/lcax/1.7.0-2.0.5/README.md --exclude *.pyd
+[2024-05-08 14:01:12] INFO root fetch - processPackages [yolosegment2labelme]: Remove: archive file [/home/abi/fetcher/tmp/yolosegment2labelme-0.0.2.tar.gz]
+[2024-05-08 14:01:12] INFO root fetch - processPackages [yolosegment2labelme]: Remove: archive file [/home/abi/fetcher/tmp/yolosegment2labelme-0.0.3.tar.gz]
+[2024-05-08 14:01:12] INFO root fetch - main [MainThread]: End processing [yolosegment2labelme]: success
+[2024-05-08 14:01:13] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-1.7.0.tar.gz]
+[2024-05-08 14:01:13] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.0.5.tar.gz]
+[2024-05-08 14:01:13] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-05-08 14:01:13] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.4.1.tar.gz]
+[2024-05-08 14:01:13] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-24.5.0.tar.gz]
+[2024-05-08 14:01:13] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2024-05-08 14:01:13] INFO root fetch - main [MainThread]: Store serial: [23112993]
