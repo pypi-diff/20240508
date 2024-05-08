@@ -16686,3 +16686,69 @@
 [2024-05-08 11:14:31] INFO root fetch - processPackages [pyAgrum]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-05-08 11:14:31] INFO root fetch - main [MainThread]: End processing [pyAgrum]: success
 [2024-05-08 11:14:31] INFO root fetch - main [MainThread]: Store serial: [23111184]
+[2024-05-08 11:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111184]
+[2024-05-08 11:16:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terrajinja-sbp-vcd
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu121
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyneople
+[2024-05-08 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2024-05-08 11:16:40] INFO root fetch - processPackages [pyneople]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240507] Old Version: [0.2.3.dev20240506]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [kfish]: New version: [99.0.202405071433] Old Version: [99.0.202405070559]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [terrajinja-sbp-vcd]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240508] Old Version: [0.2.3.dev20240507]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/58/d1/493a5b8d7de8006fdba176faf705b319ad0f66fa23891e1d13f451930fcf/nvfuser_cu118-0.2.3.dev20240506.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f4/5b/b69f635a839ab56cfccf8d21550150d1cdd8699b944b256f9489052289b7/kfish-99.0.202405070559-py3-none-any.whl
+[2024-05-08 11:16:40] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/6c/08/886d2d6a094f83ce0846185ffc6de868d3ec46079364b7476cbb47e61d77/pyneople-0.3.6.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-08 11:16:40] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/cb/b6/9ac773ffdf7aa7e59480944eb97e5f713d344a80fafab70d3b2521527864/terrajinja-sbp-vcd-0.2.0.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/24/96/2146acd1e0857c85038656cd5af37d66440d901e1c1eeec36e0a10345295/nvfuser_cu121-0.2.3.dev20240507.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-08 11:16:40] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/52/c2/9a14a200a886a1cb09e0cd22817b3e5a9ed9c301c320f6c13981dc760c05/nvfuser_cu118-0.2.3.dev20240507.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/75/3c/a7d4cf50dbab6c98799c43eba6a3bc96c4cadfe7c2901b8adba50b0c991a/terrajinja-sbp-vcd-0.2.1.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3d/b4/22513154e0a14a5275b7cf72815f467a7aeb6bf9b431a316c68b71c15584/kfish-99.0.202405071433-py3-none-any.whl
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a2/9f/0ccc14eaab0929b6a8176807c522d79e26e0a29a1fa8a22347d3c6af2d23/nvfuser_cu121-0.2.3.dev20240508.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.6.tar.gz tmp/pyneople-0.3.7.tar.gz --markdown 20240508/p/pyneople/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405070559-py3-none-any.whl.zip tmp/kfish-99.0.202405071433-py3-none-any.whl.zip --markdown 20240508/k/kfish/99.0.202405070559-99.0.202405071433/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240506.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240507.tar.gz --markdown 20240508/n/nvfuser-cu118/0.2.3.dev20240506-0.2.3.dev20240507/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [terrajinja-sbp-vcd]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [terrajinja-sbp-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-sbp-vcd-0.2.0.tar.gz tmp/terrajinja-sbp-vcd-0.2.1.tar.gz --markdown 20240508/t/terrajinja-sbp-vcd/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240507.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz --markdown 20240508/n/nvfuser-cu121/0.2.3.dev20240507-0.2.3.dev20240508/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-08 11:16:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240508/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-08 11:16:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405070559-py3-none-any.whl.zip]
+[2024-05-08 11:16:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405071433-py3-none-any.whl.zip]
+[2024-05-08 11:16:41] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.6.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240506.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240507.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240507.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.2.0.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.2.1.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [terrajinja-sbp-vcd]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-08 11:16:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:16:42] INFO root fetch - main [MainThread]: Store serial: [23111217]
