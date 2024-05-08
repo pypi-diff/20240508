@@ -13020,3 +13020,45 @@
 [2024-05-08 09:15:24] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.3.tar.gz]
 [2024-05-08 09:15:24] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
 [2024-05-08 09:15:24] INFO root fetch - main [MainThread]: Store serial: [23109635]
+[2024-05-08 09:17:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109635]
+[2024-05-08 09:17:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncur
+[2024-05-08 09:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-batch-regression
+[2024-05-08 09:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dgl
+[2024-05-08 09:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bam-filter
+[2024-05-08 09:17:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrajinja-sbp-vcd
+[2024-05-08 09:17:32] WARNING root fetch - processPackages [pytest-batch-regression]: Skipping, unable to determine old version
+[2024-05-08 09:17:32] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression] error
+[2024-05-08 09:17:32] INFO root fetch - processPackages [dgl]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-08 09:17:32] INFO root fetch - processPackages [asyncur]: New version: [0.5.2] Old Version: [0.5.0]
+[2024-05-08 09:17:32] INFO root fetch - processPackages [terrajinja-sbp-vcd]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-08 09:17:32] INFO root fetch - processPackages [bam-filter]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-08 09:17:32] INFO root fetch - processPackages [bam-filter]: Downloading https://files.pythonhosted.org/packages/13/fd/22da9db111aacbc97f5eaa7688c8d8fc44070fb18d9f48f55687eabe509c/bam-filter-1.5.0.tar.gz
+[2024-05-08 09:17:33] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/bd/f8/23e7278e4f5b45363a77635d07b1925640827e8a101e1f315feca0eb6bec/asyncur-0.5.0.tar.gz
+[2024-05-08 09:17:33] INFO root fetch - processPackages [dgl]: Downloading https://files.pythonhosted.org/packages/40/fd/3d7f89c6413786f96065a46bb66be343c92cfc4f61f75e365da534a94a93/dgl-2.1.0-cp39-cp39-manylinux2014_aarch64.whl
+[2024-05-08 09:17:33] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/9c/63/bd804aadc142960421f5951228e82bc1158431eb00cac60ad599ce1f5e1b/terrajinja-sbp-vcd-0.1.9.tar.gz
+[2024-05-08 09:17:33] INFO root fetch - processPackages [bam-filter]: Downloading https://files.pythonhosted.org/packages/c9/94/a0941b1014ed997e934c22f466cc661c6a331c33e843c84bc2ae6a44be3c/bam-filter-1.5.1.tar.gz
+[2024-05-08 09:17:33] INFO root fetch - processPackages [asyncur]: Downloading https://files.pythonhosted.org/packages/01/f1/dd1fbc28b5a2bd6199cdfa2ce2632ad59f9c89eb2bc95b701d77a4c50bbc/asyncur-0.5.2.tar.gz
+[2024-05-08 09:17:33] INFO root fetch - processPackages [bam-filter]: executing diffoscope
+[2024-05-08 09:17:33] INFO root fetch - processPackages [bam-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-filter-1.5.0.tar.gz tmp/bam-filter-1.5.1.tar.gz --markdown 20240508/b/bam-filter/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-08 09:17:33] INFO root fetch - processPackages [asyncur]: executing diffoscope
+[2024-05-08 09:17:33] INFO root fetch - processPackages [asyncur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncur-0.5.0.tar.gz tmp/asyncur-0.5.2.tar.gz --markdown 20240508/a/asyncur/0.5.0-0.5.2/README.md --exclude *.pyd
+[2024-05-08 09:17:33] INFO root fetch - processPackages [dgl]: Downloading https://files.pythonhosted.org/packages/07/6d/0b3b12a78b03912ee240572eb0b704eb7f3ee496457aa8d34425e739b393/dgl-2.2.0-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-05-08 09:17:34] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/cb/b6/9ac773ffdf7aa7e59480944eb97e5f713d344a80fafab70d3b2521527864/terrajinja-sbp-vcd-0.2.0.tar.gz
+[2024-05-08 09:17:34] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.5.0.tar.gz]
+[2024-05-08 09:17:34] INFO root fetch - processPackages [asyncur]: Remove: archive file [/home/abi/fetcher/tmp/asyncur-0.5.2.tar.gz]
+[2024-05-08 09:17:34] INFO root fetch - main [MainThread]: End processing [asyncur]: success
+[2024-05-08 09:17:34] INFO root fetch - processPackages [bam-filter]: Remove: archive file [/home/abi/fetcher/tmp/bam-filter-1.5.0.tar.gz]
+[2024-05-08 09:17:34] INFO root fetch - processPackages [bam-filter]: Remove: archive file [/home/abi/fetcher/tmp/bam-filter-1.5.1.tar.gz]
+[2024-05-08 09:17:34] INFO root fetch - main [MainThread]: End processing [bam-filter]: success
+[2024-05-08 09:17:34] INFO root fetch - processPackages [terrajinja-sbp-vcd]: executing diffoscope
+[2024-05-08 09:17:34] INFO root fetch - processPackages [terrajinja-sbp-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-sbp-vcd-0.1.9.tar.gz tmp/terrajinja-sbp-vcd-0.2.0.tar.gz --markdown 20240508/t/terrajinja-sbp-vcd/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-08 09:17:35] INFO root fetch - processPackages [dgl]: executing diffoscope
+[2024-05-08 09:17:35] INFO root fetch - processPackages [dgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgl-2.1.0-cp39-cp39-manylinux2014_aarch64.whl.zip tmp/dgl-2.2.0-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20240508/d/dgl/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-08 09:17:35] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.9.tar.gz]
+[2024-05-08 09:17:35] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.2.0.tar.gz]
+[2024-05-08 09:17:35] INFO root fetch - main [MainThread]: End processing [terrajinja-sbp-vcd]: success
+[2024-05-08 09:17:38] INFO root fetch - processPackages [dgl]: Remove: archive file [/home/abi/fetcher/tmp/dgl-2.1.0-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2024-05-08 09:17:38] INFO root fetch - processPackages [dgl]: Remove: archive file [/home/abi/fetcher/tmp/dgl-2.2.0-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2024-05-08 09:17:38] INFO root fetch - main [MainThread]: End processing [dgl]: success
+[2024-05-08 09:17:38] INFO root fetch - main [MainThread]: Store serial: [23109664]
