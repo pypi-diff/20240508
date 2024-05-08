@@ -1,4 +1,4 @@
-# Comparing `tmp/scilpy-2.0.0.tar.gz` & `tmp/scilpy-2.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip`
+# Comparing `tmp/scilpy-2.0.0.tar.gz` & `tmp/scilpy-2.0.1.tar.gz`
 
 ## filetype from file(1)
 
