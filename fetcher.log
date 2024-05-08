@@ -10016,3 +10016,27 @@
 [2024-05-08 05:47:53] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720172-py3-none-any.whl.zip]
 [2024-05-08 05:47:53] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
 [2024-05-08 05:47:53] INFO root fetch - main [MainThread]: Store serial: [23108107]
+[2024-05-08 05:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108107]
+[2024-05-08 05:50:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 05:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: climan
+[2024-05-08 05:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bambooai
+[2024-05-08 05:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-08 05:50:02] INFO root fetch - processPackages [yoto-api]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-05-08 05:50:02] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 05:50:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/3e/64/37c9bbe31bc3671ec3790dcd11c637db90375c237be2081faed5c8de3d01/yoto_api-1.7.9.tar.gz
+[2024-05-08 05:50:02] WARNING root fetch - processPackages [climan]: Skipping, unable to determine old version
+[2024-05-08 05:50:02] INFO root fetch - main [MainThread]: End processing [climan] error
+[2024-05-08 05:50:02] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-08 05:50:02] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-08 05:50:02] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-08 05:50:02] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-08 05:50:02] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.7.9.tar.gz tmp/yoto_api-1.8.0.tar.gz --markdown 20240508/y/yoto-api/1.7.9-1.8.0/README.md --exclude *.pyd
+[2024-05-08 05:50:03] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-08 05:50:03] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240508/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 05:50:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.7.9.tar.gz]
+[2024-05-08 05:50:03] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-08 05:50:03] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-08 05:50:03] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-08 05:50:03] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-08 05:50:03] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-08 05:50:03] INFO root fetch - main [MainThread]: Store serial: [23108116]
