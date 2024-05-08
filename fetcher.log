@@ -22212,3 +22212,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:43:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240507-py3-none-win_amd64.whl.zip]
 [2024-05-08 14:43:30] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-08 14:43:30] INFO root fetch - main [MainThread]: Store serial: [23113515]
+[2024-05-08 14:45:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113515]
+[2024-05-08 14:45:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omero-dropbox
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forecastout
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkle-stock
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-08 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oligo-designer-toolsuite-ai-filters
+[2024-05-08 14:45:39] INFO root fetch - processPackages [forecastout]: New version: [0.2.8] Old Version: [0.1.0]
+[2024-05-08 14:45:39] WARNING root fetch - processPackages [sparkle-stock]: Skipping, unable to determine old version
+[2024-05-08 14:45:39] INFO root fetch - main [MainThread]: End processing [sparkle-stock] error
+[2024-05-08 14:45:39] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/31/99/765491b4120b55b6459fea61a2d1f1d8b4f19b5f5c28dcea8b9f90315963/forecastout-0.1.0.tar.gz
+[2024-05-08 14:45:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.38.0.dev20240506] Old Version: [1.38.0.dev20240503]
+[2024-05-08 14:45:39] INFO root fetch - processPackages [omero-dropbox]: New version: [5.7.0] Old Version: [5.6.dev3]
+[2024-05-08 14:45:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.38.0.dev20240506] Old Version: [1.38.0.dev20240503]
+[2024-05-08 14:45:39] INFO root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 14:45:39] INFO root fetch - processPackages [omero-dropbox]: Downloading https://files.pythonhosted.org/packages/fa/02/139f5bec28b3d38e89ddd3f2073ec93869330d0e36dcf7297e0eb6ed8c4a/omero-dropbox-5.6.dev3.tar.gz
+[2024-05-08 14:45:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/29/45/0ce34a70104e7a1bb94babb4a1d58fcd63b0dc9bc8671ed011ef344ec96c/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz
+[2024-05-08 14:45:39] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/76/93/81d147133495a4a91f9855f2a3545ccdea1871d2d76a16df795d0368aed4/forecastout-0.2.8.tar.gz
+[2024-05-08 14:45:39] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7b/68/e3a358a51b94ea306d1f776f92643e9406db3ec8d3ea2f78feb0256d7679/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz
+[2024-05-08 14:45:39] INFO root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Downloading https://files.pythonhosted.org/packages/cc/ff/23f6e4edc3bc864f1adfa96d5ebcbcad56b25b17ff901080f612ab504fef/oligo_designer_toolsuite_ai_filters-0.0.1.tar.gz
+[2024-05-08 14:45:40] WARNING root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Skipping package: exceeds size limit 15617640>=10485760
+[2024-05-08 14:45:40] INFO root fetch - main [MainThread]: End processing [oligo-designer-toolsuite-ai-filters] error
+[2024-05-08 14:45:40] INFO root fetch - processPackages [forecastout]: executing diffoscope
+[2024-05-08 14:45:40] INFO root fetch - processPackages [forecastout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastout-0.1.0.tar.gz tmp/forecastout-0.2.8.tar.gz --markdown 20240508/f/forecastout/0.1.0-0.2.8/README.md --exclude *.pyd
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/46/4f/26929e2f26f455940750afe1f69fd517fe12425e7690f1b60b0ed3de5004/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240506.tar.gz
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/63/82/f9649deb006866e0d721d8cac8448f06d020f854fe1fbcde8b34fb106abb/nvidia_dali_nightly_cuda120-1.38.0.dev20240506.tar.gz
+[2024-05-08 14:45:40] INFO root fetch - processPackages [omero-dropbox]: Downloading https://files.pythonhosted.org/packages/a7/dd/d45097550b5074e64da3198c3acda53f627e30d439aed12beffadd6e1f80/omero-dropbox-5.7.0.tar.gz
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240506.tar.gz --markdown 20240508/n/nvidia-dali-tf-plugin-nightly-cuda120/1.38.0.dev20240503-1.38.0.dev20240506/README.md --exclude *.pyd
+[2024-05-08 14:45:40] INFO root fetch - processPackages [omero-dropbox]: executing diffoscope
+[2024-05-08 14:45:40] INFO root fetch - processPackages [omero-dropbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-dropbox-5.6.dev3.tar.gz tmp/omero-dropbox-5.7.0.tar.gz --markdown 20240508/o/omero-dropbox/5.6.dev3-5.7.0/README.md --exclude *.pyd
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240506.tar.gz --markdown 20240508/n/nvidia-dali-nightly-cuda120/1.38.0.dev20240503-1.38.0.dev20240506/README.md --exclude *.pyd
+[2024-05-08 14:45:40] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.1.0.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.2.8.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - main [MainThread]: End processing [forecastout]: success
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240503.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.38.0.dev20240506.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240503.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.38.0.dev20240506.tar.gz]
+[2024-05-08 14:45:40] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-08 14:45:41] INFO root fetch - processPackages [omero-dropbox]: Remove: archive file [/home/abi/fetcher/tmp/omero-dropbox-5.6.dev3.tar.gz]
+[2024-05-08 14:45:41] INFO root fetch - processPackages [omero-dropbox]: Remove: archive file [/home/abi/fetcher/tmp/omero-dropbox-5.7.0.tar.gz]
+[2024-05-08 14:45:41] INFO root fetch - main [MainThread]: End processing [omero-dropbox]: success
+[2024-05-08 14:45:41] INFO root fetch - main [MainThread]: Store serial: [23113536]
