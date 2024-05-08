@@ -15185,3 +15185,81 @@
 [2024-05-08 10:31:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507160031.tar.gz]
 [2024-05-08 10:31:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-08 10:31:20] INFO root fetch - main [MainThread]: Store serial: [23110572]
+[2024-05-08 10:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110572]
+[2024-05-08 10:33:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radyno
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycloudlib
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NJFU
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RFL.build
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contact-user-external-local
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RFL.core
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RFL.log
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotion-lambda
+[2024-05-08 10:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RFL.permissions
+[2024-05-08 10:33:30] INFO root fetch - processPackages [radyno]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [NJFU]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [radyno]: Downloading https://files.pythonhosted.org/packages/b5/ac/2a8925b7c0eef762e59c7986c805f9767c8518d2a2be67738848a940f482/radyno-0.0.3.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.permissions]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.build]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:33:30] WARNING root fetch - processPackages [contact-user-external-local]: Skipping, unable to determine old version
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.log]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:33:30] INFO root fetch - main [MainThread]: End processing [contact-user-external-local] error
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.core]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-08 10:33:30] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/84/09/6384401cba1f678c14becc371e953cfba9c9ede74c791c0d2096b4c56451/NJFU-0.0.1.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.build]: Downloading https://files.pythonhosted.org/packages/28/5f/f9cdeb1bbbafb77df218743f368e9c9fb193c267eb26786638cef8849671/RFL.build-1.0.0.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.core]: Downloading https://files.pythonhosted.org/packages/7e/f0/33b09fd3015acbc23004d0f5eb7bdf5be45365fb3aa89b41579d30765b40/RFL.core-1.0.0.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.permissions]: Downloading https://files.pythonhosted.org/packages/ec/43/f8d0e4119be25ed4dd3d96e9ddccc43088265ff376e187117a232c12cd34/RFL.permissions-1.0.0.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [RFL.log]: Downloading https://files.pythonhosted.org/packages/46/38/74a9391e760c5c4651fe4d7dfcd816f4a2495daa45e22906742f7b1e6b68/RFL.log-1.0.0.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [radyno]: Downloading https://files.pythonhosted.org/packages/3c/db/14889d3cc8677f218017413e9918f7e7f6b623f6e699c77ee51c87006f12/radyno-0.0.4.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/a2/63/8860df9e6963982bf7a7574677847496c229661cd0f55976b8225532aba8/NJFU-0.0.2.tar.gz
+[2024-05-08 10:33:30] INFO root fetch - processPackages [radyno]: executing diffoscope
+[2024-05-08 10:33:30] INFO root fetch - processPackages [radyno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radyno-0.0.3.tar.gz tmp/radyno-0.0.4.tar.gz --markdown 20240508/r/radyno/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.1.tar.gz tmp/NJFU-0.0.2.tar.gz --markdown 20240508/N/NJFU/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.core]: Downloading https://files.pythonhosted.org/packages/94/fd/aabffb8166506b9ed8c057b3bb61473dbb9585995db5447abd55cb198a3c/rfl_core-1.0.1.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.build]: Downloading https://files.pythonhosted.org/packages/d4/bc/d95f678bf4bfebbab7a787186e1a04c78f5cd0f9abfe581f42be55482510/rfl_build-1.0.1.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.permissions]: Downloading https://files.pythonhosted.org/packages/ee/7b/b2eaceb81cf859b27f0933dbf9f976d0891b8868090b424a549f9d5a2eaf/rfl_permissions-1.0.1.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.log]: Downloading https://files.pythonhosted.org/packages/a2/57/827928265264d37d1db310aa8adddd731894429da6e496f5f71721016250/rfl_log-1.0.1.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.core]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFL.core-1.0.0.tar.gz tmp/rfl_core-1.0.1.tar.gz --markdown 20240508/R/RFL.core/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240508/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.build]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFL.build-1.0.0.tar.gz tmp/rfl_build-1.0.1.tar.gz --markdown 20240508/R/RFL.build/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.permissions]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFL.permissions-1.0.0.tar.gz tmp/rfl_permissions-1.0.1.tar.gz --markdown 20240508/R/RFL.permissions/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.log]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [RFL.log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFL.log-1.0.0.tar.gz tmp/rfl_log-1.0.1.tar.gz --markdown 20240508/R/RFL.log/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:33:31] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-08 10:33:31] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240508/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-08 10:33:32] INFO root fetch - processPackages [radyno]: Remove: archive file [/home/abi/fetcher/tmp/radyno-0.0.3.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [radyno]: Remove: archive file [/home/abi/fetcher/tmp/radyno-0.0.4.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [radyno]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.1.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.2.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.core]: Remove: archive file [/home/abi/fetcher/tmp/RFL.core-1.0.0.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.core]: Remove: archive file [/home/abi/fetcher/tmp/rfl_core-1.0.1.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [RFL.core]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.build]: Remove: archive file [/home/abi/fetcher/tmp/RFL.build-1.0.0.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.build]: Remove: archive file [/home/abi/fetcher/tmp/rfl_build-1.0.1.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [RFL.build]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.permissions]: Remove: archive file [/home/abi/fetcher/tmp/RFL.permissions-1.0.0.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.permissions]: Remove: archive file [/home/abi/fetcher/tmp/rfl_permissions-1.0.1.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [RFL.permissions]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.log]: Remove: archive file [/home/abi/fetcher/tmp/RFL.log-1.0.0.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [RFL.log]: Remove: archive file [/home/abi/fetcher/tmp/rfl_log-1.0.1.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [RFL.log]: success
+[2024-05-08 10:33:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-08 10:33:32] INFO root fetch - main [MainThread]: Store serial: [23110603]
