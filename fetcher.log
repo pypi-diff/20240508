@@ -14429,3 +14429,78 @@
 [2024-05-08 10:13:36] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-08 10:13:36] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-08 10:13:36] INFO root fetch - main [MainThread]: Store serial: [23110276]
+[2024-05-08 10:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110276]
+[2024-05-08 10:15:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truefoundry
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyneople
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfuse
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finch-tensor
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-rdm-records
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyubx2
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crewai-clean
+[2024-05-08 10:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-th-gov-purchase-guarantee
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyneople]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyubx2]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [crewai-clean]: New version: [0.30.0rc5] Old Version: [0.22.5]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc8] Old Version: [0.2.0rc7]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/82/7b/1cfbea3d703bbf99d878a570847c46c446915d58ecd25a141020b30a3542/pyneople-0.3.0.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyubx2]: Downloading https://files.pythonhosted.org/packages/f2/9f/9f6f21654c17948189768ad01305c6b5acbead228fe5545d17173d555468/pyubx2-1.2.8.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/e8/c7/6d01e95e1dd503f66efa75aade2d109470185f9094389fe09ffb5bf401da/truefoundry-0.2.0rc7.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [crewai-clean]: Downloading https://files.pythonhosted.org/packages/6f/36/eaa3186cbf50a5aa9f67a0a3fd70aa5eeefca0d84dc450fda90dd7627154/crewai_clean-0.22.5.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Downloading https://files.pythonhosted.org/packages/24/6a/6eb78a2b9aa643285b93cff9d8486aacb73fe0881a76eb759754cbd52e07/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/56/93/d1f5688cdcd48e37f42261465941a41ba9ab360699269bd028ed10bf8684/pyneople-0.3.1.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:15:45] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.0.tar.gz tmp/pyneople-0.3.1.tar.gz --markdown 20240508/p/pyneople/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-08 10:15:45] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-05-08 10:15:45] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240508/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-05-08 10:15:45] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-08 10:15:45] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240508/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 10:15:45] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/0a/ba/56d831ddf0462f0fdd5a69e97431fd425a3c2f36e4eaf631946f3b7ccac3/truefoundry-0.2.0rc8.tar.gz
+[2024-05-08 10:15:45] INFO root fetch - processPackages [crewai-clean]: Downloading https://files.pythonhosted.org/packages/b1/0e/1b9310e96adca6264ec6722af35e0ab86284c381323d6b4e07ce3fb0f305/crewai_clean-0.30.0rc5.tar.gz
+[2024-05-08 10:15:46] INFO root fetch - processPackages [pyubx2]: Downloading https://files.pythonhosted.org/packages/d6/9e/b86798e51a6e76aa7507a405905a8fe30562608f9ff78aa4d0558f918c1d/pyubx2-1.2.9.tar.gz
+[2024-05-08 10:15:46] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-05-08 10:15:46] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240508/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-08 10:15:46] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-05-08 10:15:46] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.0rc7.tar.gz tmp/truefoundry-0.2.0rc8.tar.gz --markdown 20240508/t/truefoundry/0.2.0rc7-0.2.0rc8/README.md --exclude *.pyd
+[2024-05-08 10:15:46] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Downloading https://files.pythonhosted.org/packages/a2/fb/0fed0673660f358116523fc2e1220c516d6554651624fcd565d8f1a99e0e/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl
+[2024-05-08 10:15:46] INFO root fetch - processPackages [crewai-clean]: executing diffoscope
+[2024-05-08 10:15:46] INFO root fetch - processPackages [crewai-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_clean-0.22.5.tar.gz tmp/crewai_clean-0.30.0rc5.tar.gz --markdown 20240508/c/crewai-clean/0.22.5-0.30.0rc5/README.md --exclude *.pyd
+[2024-05-08 10:15:46] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: executing diffoscope
+[2024-05-08 10:15:46] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-l10n-th-gov-purchase-guarantee/15.0.1.1.1-15.0.1.1.2/README.md --exclude *.pyd
+[2024-05-08 10:15:46] INFO root fetch - processPackages [pyubx2]: executing diffoscope
+[2024-05-08 10:15:46] INFO root fetch - processPackages [pyubx2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyubx2-1.2.8.tar.gz tmp/pyubx2-1.2.9.tar.gz --markdown 20240508/p/pyubx2/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-08 10:15:46] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-08 10:15:46] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-08 10:15:46] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-08 10:15:46] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.0.tar.gz]
+[2024-05-08 10:15:46] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.1.tar.gz]
+[2024-05-08 10:15:46] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:15:47] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc7.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc8.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-05-08 10:15:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-05-08 10:15:47] INFO root fetch - processPackages [pyubx2]: Remove: archive file [/home/abi/fetcher/tmp/pyubx2-1.2.8.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - processPackages [pyubx2]: Remove: archive file [/home/abi/fetcher/tmp/pyubx2-1.2.9.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - main [MainThread]: End processing [pyubx2]: success
+[2024-05-08 10:15:47] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-08 10:15:47] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-08 10:15:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-gov-purchase-guarantee]: success
+[2024-05-08 10:15:47] INFO root fetch - processPackages [crewai-clean]: Remove: archive file [/home/abi/fetcher/tmp/crewai_clean-0.22.5.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - processPackages [crewai-clean]: Remove: archive file [/home/abi/fetcher/tmp/crewai_clean-0.30.0rc5.tar.gz]
+[2024-05-08 10:15:47] INFO root fetch - main [MainThread]: End processing [crewai-clean]: success
+[2024-05-08 10:15:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-05-08 10:15:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-05-08 10:15:50] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-05-08 10:15:50] INFO root fetch - main [MainThread]: Store serial: [23110297]
