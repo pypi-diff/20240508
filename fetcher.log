@@ -11292,3 +11292,24 @@
 [2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.4.tar.gz]
 [2024-05-08 07:37:26] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
 [2024-05-08 07:37:26] INFO root fetch - main [MainThread]: Store serial: [23108579]
+[2024-05-08 07:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108579]
+[2024-05-08 07:39:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-08 07:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deocde-jzb
+[2024-05-08 07:39:35] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-08 07:39:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-08 07:39:35] INFO root fetch - processPackages [deocde-jzb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-08 07:39:35] INFO root fetch - processPackages [deocde-jzb]: Downloading https://files.pythonhosted.org/packages/1a/bd/36c0232ea472aa5fe47a7d417c322162fec3e2811c2d1d47cf2e912c4467/deocde_jzb-0.0.1.tar.gz
+[2024-05-08 07:39:35] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-08 07:39:36] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-08 07:39:36] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240508/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-08 07:39:36] INFO root fetch - processPackages [deocde-jzb]: Downloading https://files.pythonhosted.org/packages/ec/95/11737a18cb06d4f5375c5b24d66120f573d639ac10f1cf43f7c46919bf14/deocde_jzb-0.0.3.tar.gz
+[2024-05-08 07:39:36] INFO root fetch - processPackages [deocde-jzb]: executing diffoscope
+[2024-05-08 07:39:36] INFO root fetch - processPackages [deocde-jzb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deocde_jzb-0.0.1.tar.gz tmp/deocde_jzb-0.0.3.tar.gz --markdown 20240508/d/deocde-jzb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-08 07:39:36] INFO root fetch - processPackages [deocde-jzb]: Remove: archive file [/home/abi/fetcher/tmp/deocde_jzb-0.0.1.tar.gz]
+[2024-05-08 07:39:36] INFO root fetch - processPackages [deocde-jzb]: Remove: archive file [/home/abi/fetcher/tmp/deocde_jzb-0.0.3.tar.gz]
+[2024-05-08 07:39:36] INFO root fetch - main [MainThread]: End processing [deocde-jzb]: success
+[2024-05-08 07:39:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-08 07:39:37] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-08 07:39:37] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-08 07:39:37] INFO root fetch - main [MainThread]: Store serial: [23108586]
