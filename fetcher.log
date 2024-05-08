@@ -13328,3 +13328,44 @@
 [2024-05-08 09:28:36] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.tar.gz]
 [2024-05-08 09:28:36] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
 [2024-05-08 09:28:36] INFO root fetch - main [MainThread]: Store serial: [23109768]
+[2024-05-08 09:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109768]
+[2024-05-08 09:30:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vis-analysis-torch
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultratrivialz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikyuu
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvprocessor
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libconfig-py
+[2024-05-08 09:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotion-lambda
+[2024-05-08 09:30:45] INFO root fetch - processPackages [vis-analysis-torch]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-08 09:30:45] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-08 09:30:45] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/e5/90/5efa5606be04db93988985585258c0fcc2cca1cbde54937619546c5ef879/vis_analysis_torch-0.3.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-05-08 09:30:45] WARNING root fetch - processPackages [ultratrivialz]: Skipping, unable to determine old version
+[2024-05-08 09:30:45] INFO root fetch - main [MainThread]: End processing [ultratrivialz] error
+[2024-05-08 09:30:45] WARNING root fetch - processPackages [libconfig-py]: Skipping, unable to determine old version
+[2024-05-08 09:30:45] INFO root fetch - main [MainThread]: End processing [libconfig-py] error
+[2024-05-08 09:30:45] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [hikyuu]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-08 09:30:45] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/93/06/e7be9001efa85bb1792816cdadfb79d4ab2b8cebd970aec76ba767eb9e53/cvprocessor-0.0.24.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/70/fd/5416a32cd2f0c97ed55bab393ded4c27aa2ce2b15124629b71c3c93b3397/vis_analysis_torch-0.3.1.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [hikyuu]: Downloading https://files.pythonhosted.org/packages/45/e8/ea94a571396023f0cf1ccc5d7ef9b13e84e2f5cfa1ddb1fc7bb53dbaa226/hikyuu-2.0.4-cp39-none-win_amd64.whl
+[2024-05-08 09:30:45] INFO root fetch - processPackages [vis-analysis-torch]: executing diffoscope
+[2024-05-08 09:30:45] INFO root fetch - processPackages [vis-analysis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis_analysis_torch-0.3.tar.gz tmp/vis_analysis_torch-0.3.1.tar.gz --markdown 20240508/v/vis-analysis-torch/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-08 09:30:45] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-08 09:30:45] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240508/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-08 09:30:45] WARNING root fetch - processPackages [hikyuu]: Skipping package: exceeds size limit 15651024>=10485760
+[2024-05-08 09:30:45] INFO root fetch - main [MainThread]: End processing [hikyuu] error
+[2024-05-08 09:30:45] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/02/0fe6ff066883b1a0ddb6a30c85d0a576241488b1bfd073e36307a21b7209/cvprocessor-0.0.25.tar.gz
+[2024-05-08 09:30:45] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 09:30:45] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.24.tar.gz tmp/cvprocessor-0.0.25.tar.gz --markdown 20240508/c/cvprocessor/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-05-08 09:30:46] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.3.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.3.1.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch]: success
+[2024-05-08 09:30:46] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-08 09:30:46] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.24.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.25.tar.gz]
+[2024-05-08 09:30:46] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 09:30:46] INFO root fetch - main [MainThread]: Store serial: [23109796]
