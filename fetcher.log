@@ -14277,3 +14277,89 @@
 [2024-05-08 10:06:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-08 10:06:59] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-08 10:06:59] INFO root fetch - main [MainThread]: Store serial: [23110214]
+[2024-05-08 10:09:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110214]
+[2024-05-08 10:09:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-kms
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tezapi
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miner-ai-beta
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-mixpanel
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eurmlsdk
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idvpackage
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amos-api
+[2024-05-08 10:09:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-kms20160120
+[2024-05-08 10:09:08] INFO root fetch - processPackages [amos-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.73] Old Version: [0.0.72]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [airbyte-source-mixpanel]: New version: [2.2.2] Old Version: [2.2.0]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240507] Old Version: [0.4.5.dev20240506]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [alibabacloud-kms20160120]: New version: [2.2.0] Old Version: [2.1.3]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [aliyun-python-sdk-kms]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-08 10:09:08] WARNING root fetch - processPackages [tezapi]: Skipping, unable to determine old version
+[2024-05-08 10:09:08] INFO root fetch - processPackages [tezapi]: Start processing: libconfigv1
+[2024-05-08 10:09:08] INFO root fetch - main [MainThread]: End processing [tezapi] error
+[2024-05-08 10:09:08] INFO root fetch - processPackages [idvpackage]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-08 10:09:08] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/86/13/891db683d0baa5bba89fb711d20dfd94b6261de617f230b97a3249d425e3/eurmlsdk-0.0.72.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [airbyte-source-mixpanel]: Downloading https://files.pythonhosted.org/packages/fa/80/511fbbab71d794eb521efbc83cb77238986880abd544989b58fe1ba892ac/airbyte_source_mixpanel-2.2.0.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ab/ab/09eedc7193b28b89aacf6fe40f61ec8c7a4a3d774315bf79538ca28c5362/pyglove-0.4.5.dev20240506.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/00/ae/735c3baed973724b8139eef533279fdbad04189bc13d4ae734f510f01abf/amos_api-1.0.0.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Downloading https://files.pythonhosted.org/packages/d7/cd/a708ffe449138d8eb15a2018d31f131c4d38a5befc0668348620e1398e71/aliyun-python-sdk-kms-2.8.0.tar.gz
+[2024-05-08 10:09:08] WARNING root fetch - processPackages [libconfigv1]: Skipping, unable to determine old version
+[2024-05-08 10:09:08] INFO root fetch - main [MainThread]: End processing [libconfigv1] error
+[2024-05-08 10:09:08] INFO root fetch - processPackages [alibabacloud-kms20160120]: Downloading https://files.pythonhosted.org/packages/0d/fc/7c9da6788630d0962a660831de270c0b3a3185b0ac842b9be23a1980423f/alibabacloud_kms20160120-2.1.3.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [idvpackage]: Downloading https://files.pythonhosted.org/packages/6c/7c/65b70ff47604461688a9475630c0e6f7b3f0809d59034ee93c3a20a856cd/idvpackage-1.9.8.tar.gz
+[2024-05-08 10:09:08] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [airbyte-source-mixpanel]: Downloading https://files.pythonhosted.org/packages/2b/18/f743a6481f68eab6f1d0b19c6875bf47780014c7bda711e294c6c1b567a5/airbyte_source_mixpanel-2.2.2.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/1f/7a/06033a80ee2bb98246e1bed1e71e6dd9186497c50527780a6cc895cf3b50/eurmlsdk-0.0.73.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 10:09:09] WARNING root fetch - processPackages [idvpackage]: Skipping package: exceeds size limit 28247832>=10485760
+[2024-05-08 10:09:09] INFO root fetch - main [MainThread]: End processing [idvpackage] error
+[2024-05-08 10:09:09] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/d5/39/0b8840eea5d2296a279d07b09bddf4a1a64821d9d51221d6cd9003149330/amos_api-1.0.1.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/61/36/10a8e382076230dd7fa32ffa55d73f37a58c01fab5fbcb2808dc33ed59e1/pyglove-0.4.5.dev20240507.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [airbyte-source-mixpanel]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [airbyte-source-mixpanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_mixpanel-2.2.0.tar.gz tmp/airbyte_source_mixpanel-2.2.2.tar.gz --markdown 20240508/a/airbyte-source-mixpanel/2.2.0-2.2.2/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.72.tar.gz tmp/eurmlsdk-0.0.73.tar.gz --markdown 20240508/e/eurmlsdk/0.0.72-0.0.73/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240508/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [amos-api]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [amos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amos_api-1.0.0.tar.gz tmp/amos_api-1.0.1.tar.gz --markdown 20240508/a/amos-api/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [alibabacloud-kms20160120]: Downloading https://files.pythonhosted.org/packages/b8/23/f87d2c3532968557445707b2001ef0ab9e70588c366f75c66f61bcdd41ad/alibabacloud_kms20160120-2.2.0.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240506.tar.gz tmp/pyglove-0.4.5.dev20240507.tar.gz --markdown 20240508/p/pyglove/0.4.5.dev20240506-0.4.5.dev20240507/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Downloading https://files.pythonhosted.org/packages/31/d9/8f7e7e0f85e158e182b45bb5479b24fb17e1c6876171c46aa02d1a1a250d/aliyun-python-sdk-kms-2.9.0.tar.gz
+[2024-05-08 10:09:09] INFO root fetch - processPackages [aliyun-python-sdk-kms]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [aliyun-python-sdk-kms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-kms-2.8.0.tar.gz tmp/aliyun-python-sdk-kms-2.9.0.tar.gz --markdown 20240508/a/aliyun-python-sdk-kms/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-08 10:09:09] INFO root fetch - processPackages [alibabacloud-kms20160120]: executing diffoscope
+[2024-05-08 10:09:09] INFO root fetch - processPackages [alibabacloud-kms20160120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_kms20160120-2.1.3.tar.gz tmp/alibabacloud_kms20160120-2.2.0.tar.gz --markdown 20240508/a/alibabacloud-kms20160120/2.1.3-2.2.0/README.md --exclude *.pyd
+[2024-05-08 10:09:10] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.0.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.1.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [amos-api]: success
+[2024-05-08 10:09:10] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 10:09:10] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.72.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.73.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-08 10:09:10] INFO root fetch - processPackages [airbyte-source-mixpanel]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mixpanel-2.2.0.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [airbyte-source-mixpanel]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mixpanel-2.2.2.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-mixpanel]: success
+[2024-05-08 10:09:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-08 10:09:10] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-kms-2.8.0.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - processPackages [aliyun-python-sdk-kms]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-kms-2.9.0.tar.gz]
+[2024-05-08 10:09:10] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-kms]: success
+[2024-05-08 10:09:11] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240506.tar.gz]
+[2024-05-08 10:09:11] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240507.tar.gz]
+[2024-05-08 10:09:11] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-08 10:09:11] INFO root fetch - processPackages [alibabacloud-kms20160120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_kms20160120-2.1.3.tar.gz]
+[2024-05-08 10:09:11] INFO root fetch - processPackages [alibabacloud-kms20160120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_kms20160120-2.2.0.tar.gz]
+[2024-05-08 10:09:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-kms20160120]: success
+[2024-05-08 10:09:11] INFO root fetch - main [MainThread]: Store serial: [23110247]
