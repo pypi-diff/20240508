@@ -2178,3 +2178,42 @@
 [2024-05-08 02:03:10] INFO root fetch - processPackages [DFRobotUPS]: Remove: archive file [/home/abi/fetcher/tmp/DFRobotUPS-0.4.6.tar.gz]
 [2024-05-08 02:03:10] INFO root fetch - main [MainThread]: End processing [DFRobotUPS]: success
 [2024-05-08 02:03:10] INFO root fetch - main [MainThread]: Store serial: [23105156]
+[2024-05-08 02:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105156]
+[2024-05-08 02:05:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 02:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-05-08 02:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-05-08 02:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowbar-package-manager
+[2024-05-08 02:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmprototyping
+[2024-05-08 02:05:19] INFO root fetch - processPackages [llmprototyping]: New version: [0.1.0.dev2] Old Version: [0.1.0.dev1]
+[2024-05-08 02:05:19] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 02:05:19] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-08 02:05:19] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240507.417] Old Version: [2.0.0.20240506.443]
+[2024-05-08 02:05:19] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/63/97/4cb1d2617c5619e7148f9ac7c4a014fba249dc920ead6cc4d17a0b3b8359/crowbar_package_manager-0.1.8.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d8/2e/3c8a2f7b22a4486a0b6ed8750f890a70f3ee1ebefa66a1f99bed7490c9e3/mct-nightly-2.0.0.20240506.443.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [llmprototyping]: Downloading https://files.pythonhosted.org/packages/4b/95/f4795551bff6797a830d25f6a235e3b1f3901b771b640cc007ebc44b00a0/llmprototyping-0.1.0.dev1.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/59/37/0dd70904f55a40f9d1306d5e4dbb6c73e7e18f7120c236406426245e1b93/crowbar_package_manager-0.1.9.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-05-08 02:05:19] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.8.tar.gz tmp/crowbar_package_manager-0.1.9.tar.gz --markdown 20240508/c/crowbar-package-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 02:05:19] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-08 02:05:19] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/0d/f5/df120a85e956a38d7a6ada24ac9c0b96943b8ec2d377a74690b83b05783d/mct-nightly-2.0.0.20240507.417.tar.gz
+[2024-05-08 02:05:20] INFO root fetch - processPackages [llmprototyping]: Downloading https://files.pythonhosted.org/packages/f7/f6/6d4754b2d3bb17bb69d0308d8fcf5d1181acf3806c8258510ecc3d9e6276/llmprototyping-0.1.0.dev2.tar.gz
+[2024-05-08 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-08 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240508/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-08 02:05:20] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-08 02:05:20] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240506.443.tar.gz tmp/mct-nightly-2.0.0.20240507.417.tar.gz --markdown 20240508/m/mct-nightly/2.0.0.20240506.443-2.0.0.20240507.417/README.md --exclude *.pyd
+[2024-05-08 02:05:20] INFO root fetch - processPackages [llmprototyping]: executing diffoscope
+[2024-05-08 02:05:20] INFO root fetch - processPackages [llmprototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmprototyping-0.1.0.dev1.tar.gz tmp/llmprototyping-0.1.0.dev2.tar.gz --markdown 20240508/l/llmprototyping/0.1.0.dev1-0.1.0.dev2/README.md --exclude *.pyd
+[2024-05-08 02:05:20] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.8.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.9.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-05-08 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-08 02:05:20] INFO root fetch - processPackages [llmprototyping]: Remove: archive file [/home/abi/fetcher/tmp/llmprototyping-0.1.0.dev1.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - processPackages [llmprototyping]: Remove: archive file [/home/abi/fetcher/tmp/llmprototyping-0.1.0.dev2.tar.gz]
+[2024-05-08 02:05:20] INFO root fetch - main [MainThread]: End processing [llmprototyping]: success
+[2024-05-08 02:05:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240506.443.tar.gz]
+[2024-05-08 02:05:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240507.417.tar.gz]
+[2024-05-08 02:05:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-08 02:05:22] INFO root fetch - main [MainThread]: Store serial: [23105168]
