@@ -7177,3 +7177,79 @@
 [2024-05-08 03:23:14] INFO root fetch - processPackages [shippo]: Remove: archive file [/home/abi/fetcher/tmp/shippo-3.3.5.tar.gz]
 [2024-05-08 03:23:14] INFO root fetch - main [MainThread]: End processing [shippo]: success
 [2024-05-08 03:23:14] INFO root fetch - main [MainThread]: Store serial: [23106990]
+[2024-05-08 03:25:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23106990]
+[2024-05-08 03:25:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mini-maze
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: desipiencyz
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wah
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuitree
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-weekly-cuda120
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccml2021
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-tf-plugin-weekly-cuda120
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccml2021
+[2024-05-08 03:25:22] INFO root fetch - processPackages [mini-maze]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [circuitree]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.8.58.38] Old Version: [2024.4.30.15.41.26]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [mini-maze]: Downloading https://files.pythonhosted.org/packages/e0/dd/46df0e5e6805baad705030e64b539a4785360f160ce0b7e26aeca60886ac/mini-maze-0.1.1.tar.gz
+[2024-05-08 03:25:22] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: New version: [1.38.0.dev20240505] Old Version: [1.38.0.dev20240428]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ccml2021]: New version: [0.2.9] Old Version: [0.2.88888888]
+[2024-05-08 03:25:22] INFO root fetch - processPackages [ccml2021]: New version: [0.2.9] Old Version: [0.2.88888888]
+[2024-05-08 03:25:22] WARNING root fetch - processPackages [desipiencyz]: Skipping, unable to determine old version
+[2024-05-08 03:25:22] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-08 03:25:22] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.38.0.dev20240505] Old Version: [1.38.0.dev20240428]
+[2024-05-08 03:25:22] INFO root fetch - main [MainThread]: End processing [desipiencyz] error
+[2024-05-08 03:25:22] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2f/0d/b840d59066197229e3006500d03aa67ed4e12e719671d62e8423662f3bf0/circuitree-0.9.8.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/a2/33/7562762a34dd40bd735b4d52240957675d799abacf61888042b0008f25a5/chatllm-2024.4.30.15.41.26.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/8c/5c/25af40ce22d5230154519a92010aecbe4b68c8b3810c9fe76d817439304d/circuitree-0.9.9.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [mini-maze]: Downloading https://files.pythonhosted.org/packages/a4/d5/b7003577a7704d36df569f75c1c1234773a4a14379a3a540a2e8cd07f224/mini_maze-0.1.2.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/21/91/95c94455cb1b2fa2dc4fd4e8205dc66494cf56be1dab5e038f19454d8208/ccml2021-0.2.88888888.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/40/bb/27a8b5842a750c3acb4ee2f492b83b740edada27ea73cf144a8b2a6c0121/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/be/f1/a8f941c754e25b7fb2947810456041daedff1dd46df1345c191b6a32c098/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/21/91/95c94455cb1b2fa2dc4fd4e8205dc66494cf56be1dab5e038f19454d8208/ccml2021-0.2.88888888.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [mini-maze]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [mini-maze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini-maze-0.1.1.tar.gz tmp/mini_maze-0.1.2.tar.gz --markdown 20240508/m/mini-maze/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.9.8.tar.gz tmp/circuitree-0.9.9.tar.gz --markdown 20240508/c/circuitree/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240508/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.30.15.41.26.tar.gz tmp/chatllm-2024.5.8.8.58.38.tar.gz --markdown 20240508/c/chatllm/2024.4.30.15.41.26-2024.5.8.8.58.38/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/83/94/9362014b5e58caa2cd034d19d8681657109bd3b6582878cc2c27b71065dc/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/bc/3c/4233eb2431f95006f8c8f7b1d5cb07a167c6dc6b243def25313df4d1a5a4/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/52/e3/ccfdafa94dd144b43948a482867177a4578b39a38d0de21b328df334b9e2/ccml2021-0.2.9.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: Downloading https://files.pythonhosted.org/packages/52/e3/ccfdafa94dd144b43948a482867177a4578b39a38d0de21b328df334b9e2/ccml2021-0.2.9.tar.gz
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz --markdown 20240508/n/nvidia-dali-tf-plugin-weekly-cuda120/1.38.0.dev20240428-1.38.0.dev20240505/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccml2021-0.2.88888888.tar.gz tmp/ccml2021-0.2.9.tar.gz --markdown 20240508/c/ccml2021/0.2.88888888-0.2.9/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [ccml2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccml2021-0.2.88888888.tar.gz tmp/ccml2021-0.2.9.tar.gz --markdown 20240508/c/ccml2021/0.2.88888888-0.2.9/README.md --exclude *.pyd
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2024-05-08 03:25:23] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz --markdown 20240508/n/nvidia-dali-weekly-cuda120/1.38.0.dev20240428-1.38.0.dev20240505/README.md --exclude *.pyd
+[2024-05-08 03:25:24] INFO root fetch - processPackages [mini-maze]: Remove: archive file [/home/abi/fetcher/tmp/mini-maze-0.1.1.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [mini-maze]: Remove: archive file [/home/abi/fetcher/tmp/mini_maze-0.1.2.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [mini-maze]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.8.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.9.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240505.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.88888888.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [ccml2021]: Remove: archive file [/home/abi/fetcher/tmp/ccml2021-0.2.9.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [ccml2021]: success
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [ccml2021]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240505.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-weekly-cuda120]: success
+[2024-05-08 03:25:24] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.30.15.41.26.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-08 03:25:24] INFO root fetch - main [MainThread]: Store serial: [23107069]
