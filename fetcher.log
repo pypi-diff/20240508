@@ -9866,3 +9866,51 @@
 [2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
 [2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [misleep]: success
 [2024-05-08 05:41:19] INFO root fetch - main [MainThread]: Store serial: [23108062]
+[2024-05-08 05:43:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108062]
+[2024-05-08 05:43:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 05:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iotest-grader
+[2024-05-08 05:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youqu
+[2024-05-08 05:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-website-sale-product-brand
+[2024-05-08 05:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py2docfx
+[2024-05-08 05:43:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-website-sale-product-brand
+[2024-05-08 05:43:28] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7.dev1720145] Old Version: [0.1.6rc1718913]
+[2024-05-08 05:43:28] INFO root fetch - processPackages [iotest-grader]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-08 05:43:28] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/9a/41/dc1705946eaa5effcd4cb0d584c15dfa9f8975739f99b5079d60b627e203/py2docfx-0.1.6rc1718913-py3-none-any.whl
+[2024-05-08 05:43:28] INFO root fetch - processPackages [youqu]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-08 05:43:28] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: New version: [12.0.1.3.1.99.dev2] Old Version: [12.0.1.3.1.99.dev1]
+[2024-05-08 05:43:28] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2024-05-08 05:43:28] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/70/4e/cefff872763aafc0087b067a37f2c02769445ef89a3b615ba8a2adfb68d7/iotest_grader-0.0.5.tar.gz
+[2024-05-08 05:43:28] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/6a/1f/96507658866c5526b3ab59af6e6dc5ac1450dd48ce4c552b1ee0f89009ee/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev1-py3-none-any.whl
+[2024-05-08 05:43:28] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/20/8f/f9e46a0b907d4021810b0a51b704c60d0b92a1e0be9e3a056711ce72f8d6/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-05-08 05:43:28] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/4f/8b/e265487012d95e37f870aa9bc1cd00443175848bc8d2f8c2be5b82370f6d/youqu-2.5.3.tar.gz
+[2024-05-08 05:43:28] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/01/eb/f46fd15248ddd4de14ccdb319a22b3650b2730d6db2ee059842c2a5995d6/py2docfx-0.1.7.dev1720145-py3-none-any.whl
+[2024-05-08 05:43:29] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/38/3c/cf771f20333e4224737fe12fa49bf8506b572b59056f323938308bd8693f/iotest_grader-0.0.6.tar.gz
+[2024-05-08 05:43:29] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-08 05:43:29] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.6rc1718913-py3-none-any.whl.zip tmp/py2docfx-0.1.7.dev1720145-py3-none-any.whl.zip --markdown 20240508/p/py2docfx/0.1.6rc1718913-0.1.7.dev1720145/README.md --exclude *.pyd
+[2024-05-08 05:43:29] INFO root fetch - processPackages [iotest-grader]: executing diffoscope
+[2024-05-08 05:43:29] INFO root fetch - processPackages [iotest-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotest_grader-0.0.5.tar.gz tmp/iotest_grader-0.0.6.tar.gz --markdown 20240508/i/iotest-grader/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-08 05:43:29] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/26/f5/7214732c36bfa0e99c891713d9f7121a001ae98483c37f383d9980ecf258/youqu-2.5.4.tar.gz
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/fa/1d/b8063c80bdcb8e997755a1fce40f19737d128ebc235a1624efa3c99fd03e/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev2-py3-none-any.whl
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Downloading https://files.pythonhosted.org/packages/44/07/0ba5cf35a037424cf21728482d4607c7dd9aea3e2b1fa84b7dabfb392118/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev9-py3-none-any.whl
+[2024-05-08 05:43:29] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-08 05:43:29] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.5.3.tar.gz tmp/youqu-2.5.4.tar.gz --markdown 20240508/y/youqu/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: executing diffoscope
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev2-py3-none-any.whl.zip --markdown 20240508/o/odoo12-addon-website-sale-product-brand/12.0.1.3.1.99.dev1-12.0.1.3.1.99.dev2/README.md --exclude *.pyd
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: executing diffoscope
+[2024-05-08 05:43:29] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-website-sale-product-brand/14.0.1.1.1.dev8-14.0.1.1.1.dev9/README.md --exclude *.pyd
+[2024-05-08 05:43:29] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.5.tar.gz]
+[2024-05-08 05:43:29] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.6.tar.gz]
+[2024-05-08 05:43:29] INFO root fetch - main [MainThread]: End processing [iotest-grader]: success
+[2024-05-08 05:43:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6rc1718913-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720145-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-08 05:43:30] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev1-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - processPackages [odoo12-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_product_brand-12.0.1.3.1.99.dev2-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-sale-product-brand]: success
+[2024-05-08 05:43:30] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - processPackages [odoo14-addon-website-sale-product-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_brand-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2024-05-08 05:43:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-product-brand]: success
+[2024-05-08 05:43:30] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.3.tar.gz]
+[2024-05-08 05:43:30] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.4.tar.gz]
+[2024-05-08 05:43:30] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-08 05:43:30] INFO root fetch - main [MainThread]: Store serial: [23108077]
