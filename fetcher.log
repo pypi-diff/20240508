@@ -9437,3 +9437,33 @@
 [2024-05-08 05:30:21] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
 [2024-05-08 05:30:21] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-05-08 05:30:21] INFO root fetch - main [MainThread]: Store serial: [23107956]
+[2024-05-08 05:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107956]
+[2024-05-08 05:32:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-05-08 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Way2DSSAT
+[2024-05-08 05:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qdtrader
+[2024-05-08 05:32:30] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:32:30] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-08 05:32:30] INFO root fetch - processPackages [qdtrader]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 05:32:30] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/16/86/b3cbbcfb1b74988fff82624cea189bce5300b38b72dd7e23f0680b96a95b/way2dssat-0.0.8.tar.gz
+[2024-05-08 05:32:30] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-08 05:32:30] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/76/e8/e537f0348138b8ee8b76bab7e5d42e2ffa016d6b666f3def357a343fef65/qdtrader-0.0.2.tar.gz
+[2024-05-08 05:32:30] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/e5/5b/9178bb7bf8264a255e0e64f008ee60b2e5307cd6da212f8919500ffa2108/way2dssat-0.0.9.tar.gz
+[2024-05-08 05:32:30] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-05-08 05:32:30] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.8.tar.gz tmp/way2dssat-0.0.9.tar.gz --markdown 20240508/W/Way2DSSAT/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:32:31] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-08 05:32:31] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/da/79/8a2e291917a0523a6195186ae086a007e5cf62872fedd8248f0a4c8aed52/qdtrader-0.0.3-py3-none-any.whl
+[2024-05-08 05:32:31] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-08 05:32:31] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240508/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-08 05:32:31] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.8.tar.gz]
+[2024-05-08 05:32:31] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.9.tar.gz]
+[2024-05-08 05:32:31] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-05-08 05:32:32] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-08 05:32:32] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-08 05:32:32] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-08 05:32:32] INFO root fetch - processPackages [qdtrader]: executing diffoscope
+[2024-05-08 05:32:32] INFO root fetch - processPackages [qdtrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdtrader-0.0.2.tar.gz tmp/qdtrader-0.0.3-py3-none-any.whl.zip --markdown 20240508/q/qdtrader/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 05:32:33] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.2.tar.gz]
+[2024-05-08 05:32:33] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.3-py3-none-any.whl.zip]
+[2024-05-08 05:32:33] INFO root fetch - main [MainThread]: End processing [qdtrader]: success
+[2024-05-08 05:32:33] INFO root fetch - main [MainThread]: Store serial: [23107963]
