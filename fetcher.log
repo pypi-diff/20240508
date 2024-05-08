@@ -17693,3 +17693,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:45:17] INFO root fetch - processPackages [elegant-django]: Remove: archive file [/home/abi/fetcher/tmp/elegant_django-0.2.8.tar.gz]
 [2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [elegant-django]: success
 [2024-05-08 11:45:17] INFO root fetch - main [MainThread]: Store serial: [23111537]
+[2024-05-08 11:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111537]
+[2024-05-08 11:47:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playsound3
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-iris
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyannote.audio
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: treasury-gov-pandas
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: treasury-gov-pandas
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aipha-geo-solutions
+[2024-05-08 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onestop-opensign
+[2024-05-08 11:47:26] INFO root fetch - processPackages [playsound3]: New version: [2.2.0] Old Version: [2.1.6]
+[2024-05-08 11:47:26] WARNING root fetch - processPackages [onestop-opensign]: Skipping, unable to determine old version
+[2024-05-08 11:47:26] INFO root fetch - main [MainThread]: End processing [onestop-opensign] error
+[2024-05-08 11:47:26] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.2a0] Old Version: [0.0.2]
+[2024-05-08 11:47:26] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.2a0] Old Version: [0.0.2]
+[2024-05-08 11:47:26] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/8a/b5/587599dfbebd9d40d62f7474715502f0aeca1cb04f2c877bea142ba5033c/playsound3-2.1.6.tar.gz
+[2024-05-08 11:47:26] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:47:26] INFO root fetch - processPackages [pyannote.audio]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-05-08 11:47:26] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2024-05-08 11:47:26] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/8e/b5/b55be476a0e6b159427a50bbe636e53e1ef9738ac70535cc78f3f5501693/treasury_gov_pandas-0.0.2.tar.gz
+[2024-05-08 11:47:26] INFO root fetch - processPackages [pyannote.audio]: Downloading https://files.pythonhosted.org/packages/cf/8d/c6920c1c1fe439bee72c591297c69d32fe27218a96fd708e4d2274d5462c/pyannote.audio-3.1.1.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/8e/b5/b55be476a0e6b159427a50bbe636e53e1ef9738ac70535cc78f3f5501693/treasury_gov_pandas-0.0.2.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/64/2d/62b905eb3ae4ee0866c7db05abdb98bcff67f7ce7ef6e9b777d65032d383/aipha_geo_solutions-0.9.8.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [playsound3]: Downloading https://files.pythonhosted.org/packages/dc/0f/2fa9afc73d91025cd2574fb84543325b078482ec55dd665472095a4fa6e7/playsound3-2.2.0.tar.gz
+[2024-05-08 11:47:27] WARNING root fetch - processPackages [pyannote.audio]: Skipping package: exceeds size limit 14805981>=10485760
+[2024-05-08 11:47:27] INFO root fetch - main [MainThread]: End processing [pyannote.audio] error
+[2024-05-08 11:47:27] INFO root fetch - processPackages [playsound3]: executing diffoscope
+[2024-05-08 11:47:27] INFO root fetch - processPackages [playsound3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playsound3-2.1.6.tar.gz tmp/playsound3-2.2.0.tar.gz --markdown 20240508/p/playsound3/2.1.6-2.2.0/README.md --exclude *.pyd
+[2024-05-08 11:47:27] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/e8/7b/7deac4c980ac68318ca0ac6dbbc30b5e85577ad08905258f379e9388c36a/aipha_geo_solutions-0.9.9.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/19/f7/aedc8d1d75b684b77d1d163c4485251ce5fd122688642e8fecf0bdf63664/treasury_gov_pandas-0.0.2a0.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/19/f7/aedc8d1d75b684b77d1d163c4485251ce5fd122688642e8fecf0bdf63664/treasury_gov_pandas-0.0.2a0.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2024-05-08 11:47:27] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2024-05-08 11:47:27] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.9.8.tar.gz tmp/aipha_geo_solutions-0.9.9.tar.gz --markdown 20240508/a/aipha-geo-solutions/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.2.tar.gz tmp/treasury_gov_pandas-0.0.2a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.2-0.0.2a0/README.md --exclude *.pyd
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 11:47:27] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.2.tar.gz tmp/treasury_gov_pandas-0.0.2a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.2-0.0.2a0/README.md --exclude *.pyd
+[2024-05-08 11:47:27] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2024-05-08 11:47:27] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20240508/s/sqlalchemy-iris/0.8.1b1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 11:47:28] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.1.6.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - processPackages [playsound3]: Remove: archive file [/home/abi/fetcher/tmp/playsound3-2.2.0.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [playsound3]: success
+[2024-05-08 11:47:28] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.2.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.2a0.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 11:47:28] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.8.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.9.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2024-05-08 11:47:28] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2024-05-08 11:47:28] INFO root fetch - main [MainThread]: Store serial: [23111560]
