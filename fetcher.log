@@ -7677,3 +7677,54 @@
 [2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.9.tar.gz]
 [2024-05-08 03:42:54] INFO root fetch - main [MainThread]: End processing [firstrade]: success
 [2024-05-08 03:42:54] INFO root fetch - main [MainThread]: Store serial: [23107295]
+[2024-05-08 03:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107295]
+[2024-05-08 03:45:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heiwa4126.hello
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitree
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-foundry
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yetherz
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dhuodata-lib
+[2024-05-08 03:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnmf
+[2024-05-08 03:45:03] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-08 03:45:03] INFO root fetch - processPackages [circuitree]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 03:45:03] INFO root fetch - processPackages [heiwa4126.hello]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 03:45:03] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/fb/bd/afc7db2595db3b753778751a070c85901e1694261135bd778a5fb2dd977f/dhuodata_lib-0.3.1.tar.gz
+[2024-05-08 03:45:03] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2f/0d/b840d59066197229e3006500d03aa67ed4e12e719671d62e8423662f3bf0/circuitree-0.9.8.tar.gz
+[2024-05-08 03:45:03] INFO root fetch - processPackages [llm-foundry]: New version: [0.9.0.dev0] Old Version: [0.7.0]
+[2024-05-08 03:45:03] INFO root fetch - processPackages [cnmf]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-08 03:45:03] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/2d/6b/945e293e6cda2f31792ae4cebd321e87c119e7f9518ea7fd7e9a80893312/heiwa4126_hello-0.0.7.tar.gz
+[2024-05-08 03:45:03] WARNING root fetch - processPackages [yetherz]: Skipping, unable to determine old version
+[2024-05-08 03:45:03] INFO root fetch - main [MainThread]: End processing [yetherz] error
+[2024-05-08 03:45:04] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/8c/5c/25af40ce22d5230154519a92010aecbe4b68c8b3810c9fe76d817439304d/circuitree-0.9.9.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/06/dd/b369a12bf74757160ce7b5ef4ff2673b108a7c31ef61c6366ec533bfcbb4/heiwa4126_hello-0.0.8.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/77/cc/727c7a9699e5dbd35127dddd83393b0c1838d2e2dd92f24ed5a539a9a50b/cnmf-1.4.1.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/2c/69/d99b9cc071f68a8fdeaa5c09a7dd2244be4a81fab41ce348d9181228e7a9/llm-foundry-0.7.0.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2024-05-08 03:45:04] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.9.8.tar.gz tmp/circuitree-0.9.9.tar.gz --markdown 20240508/c/circuitree/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 03:45:04] INFO root fetch - processPackages [heiwa4126.hello]: executing diffoscope
+[2024-05-08 03:45:04] INFO root fetch - processPackages [heiwa4126.hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heiwa4126_hello-0.0.7.tar.gz tmp/heiwa4126_hello-0.0.8.tar.gz --markdown 20240508/h/heiwa4126.hello/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 03:45:04] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/b0/4f/de547060683877806c92c39a443b77e0badc91f7144ae9dd8865d7789f67/dhuodata_lib-0.3.2.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-08 03:45:04] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.3.1.tar.gz tmp/dhuodata_lib-0.3.2.tar.gz --markdown 20240508/d/dhuodata-lib/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-08 03:45:04] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/5a/3d/43e53ba12e75d272285672399088e7ff2216360a86906560b1b2aa4eab70/llm-foundry-0.9.0.dev0.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/10/84/e0d88e5c7ad76bbc991af44b274b65719bf8e16b658ad492328806140e9b/cnmf-1.5.0.tar.gz
+[2024-05-08 03:45:04] INFO root fetch - processPackages [llm-foundry]: executing diffoscope
+[2024-05-08 03:45:04] INFO root fetch - processPackages [llm-foundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-foundry-0.7.0.tar.gz tmp/llm-foundry-0.9.0.dev0.tar.gz --markdown 20240508/l/llm-foundry/0.7.0-0.9.0.dev0/README.md --exclude *.pyd
+[2024-05-08 03:45:04] INFO root fetch - processPackages [cnmf]: executing diffoscope
+[2024-05-08 03:45:04] INFO root fetch - processPackages [cnmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnmf-1.4.1.tar.gz tmp/cnmf-1.5.0.tar.gz --markdown 20240508/c/cnmf/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-08 03:45:04] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.7.tar.gz]
+[2024-05-08 03:45:04] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.8.tar.gz]
+[2024-05-08 03:45:04] INFO root fetch - main [MainThread]: End processing [heiwa4126.hello]: success
+[2024-05-08 03:45:05] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.8.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.9.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2024-05-08 03:45:05] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.1.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.2.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-08 03:45:05] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.4.1.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.5.0.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - main [MainThread]: End processing [cnmf]: success
+[2024-05-08 03:45:05] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.7.0.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.9.0.dev0.tar.gz]
+[2024-05-08 03:45:05] INFO root fetch - main [MainThread]: End processing [llm-foundry]: success
+[2024-05-08 03:45:05] INFO root fetch - main [MainThread]: Store serial: [23107314]
