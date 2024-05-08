@@ -11796,3 +11796,38 @@
 [2024-05-08 08:10:42] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
 [2024-05-08 08:10:42] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
 [2024-05-08 08:10:42] INFO root fetch - main [MainThread]: Store serial: [23108815]
+[2024-05-08 08:12:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108815]
+[2024-05-08 08:12:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-05-08 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjops
+[2024-05-08 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudparing.aws-cdk
+[2024-05-08 08:12:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-05-08 08:12:51] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 08:12:51] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 08:12:51] INFO root fetch - processPackages [cjops]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 08:12:51] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 08:12:51] INFO root fetch - processPackages [cloudparing.aws-cdk]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-08 08:12:51] INFO root fetch - processPackages [cjops]: Downloading https://files.pythonhosted.org/packages/94/a4/6581adbbe6546f40df6344204c3102b5f5d55e83a92391b4cd436c151133/cjops-1.0.3.tar.gz
+[2024-05-08 08:12:51] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-05-08 08:12:51] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 08:12:51] INFO root fetch - processPackages [cloudparing.aws-cdk]: Downloading https://files.pythonhosted.org/packages/e6/da/69736e4972869bbf92a071f5398fc27a81dad12c53435fd3a1d3bfcc81ed/cloudparing.aws-cdk-0.0.18.tar.gz
+[2024-05-08 08:12:52] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 08:12:52] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 08:12:52] WARNING root fetch - processPackages [cloudparing.aws-cdk]: Skipping package: exceeds size limit 16718803>=10485760
+[2024-05-08 08:12:52] INFO root fetch - main [MainThread]: End processing [cloudparing.aws-cdk] error
+[2024-05-08 08:12:52] INFO root fetch - processPackages [cjops]: Downloading https://files.pythonhosted.org/packages/b2/7a/b63ed44591756959addcd1ccdf1c64e1ff4700815445a7dcdad9797a15f3/cjops-1.0.4.tar.gz
+[2024-05-08 08:12:52] INFO root fetch - processPackages [cjops]: executing diffoscope
+[2024-05-08 08:12:52] INFO root fetch - processPackages [cjops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjops-1.0.3.tar.gz tmp/cjops-1.0.4.tar.gz --markdown 20240508/c/cjops/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 08:12:52] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-05-08 08:12:52] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-05-08 08:12:52] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240508/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 08:12:52] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 08:12:52] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 08:12:52] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 08:12:52] INFO root fetch - processPackages [cjops]: Remove: archive file [/home/abi/fetcher/tmp/cjops-1.0.3.tar.gz]
+[2024-05-08 08:12:52] INFO root fetch - processPackages [cjops]: Remove: archive file [/home/abi/fetcher/tmp/cjops-1.0.4.tar.gz]
+[2024-05-08 08:12:52] INFO root fetch - main [MainThread]: End processing [cjops]: success
+[2024-05-08 08:12:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-05-08 08:12:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-05-08 08:12:53] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-05-08 08:12:53] INFO root fetch - main [MainThread]: Store serial: [23108863]
