@@ -16150,3 +16150,80 @@
 [2024-05-08 11:00:25] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-1.0.0.tar.gz]
 [2024-05-08 11:00:25] INFO root fetch - main [MainThread]: End processing [link-mongodb]: success
 [2024-05-08 11:00:25] INFO root fetch - main [MainThread]: Store serial: [23110950]
+[2024-05-08 11:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110950]
+[2024-05-08 11:02:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: link-mongodb
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imumaster
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xzutils
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mobspy
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spatialproteomics
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrbdataproject
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spidermon
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numerous
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: destinelab
+[2024-05-08 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OiRunner
+[2024-05-08 11:02:34] INFO root fetch - processPackages [link-mongodb]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [xzutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [mobspy]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [imumaster]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/e3/57/d81cf8408264c294f59560022192792f2271ab3d4c6605fdc294b4e23437/link_mongodb-0.1.3.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [xzutils]: Downloading https://files.pythonhosted.org/packages/1d/fe/63f1d8cd7c2dd68deac3fea09b9139e2d165f098b8cda8bb92f1c7c34498/xzutils-0.0.1.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [hrbdataproject]: New version: [2.3] Old Version: [2.2]
+[2024-05-08 11:02:34] WARNING root fetch - processPackages [destinelab]: Skipping, unable to determine old version
+[2024-05-08 11:02:34] INFO root fetch - processPackages [spidermon]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 11:02:34] INFO root fetch - main [MainThread]: End processing [destinelab] error
+[2024-05-08 11:02:34] WARNING root fetch - processPackages [spatialproteomics]: Skipping, unable to determine old version
+[2024-05-08 11:02:34] INFO root fetch - main [MainThread]: End processing [spatialproteomics] error
+[2024-05-08 11:02:34] INFO root fetch - processPackages [numerous]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [OiRunner]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-08 11:02:34] INFO root fetch - processPackages [imumaster]: Downloading https://files.pythonhosted.org/packages/3e/a1/0bb2e671d13d03143be2b86f799d6dba8baa26944b0fbeb49cd2eb21abad/imumaster-0.0.1.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [mobspy]: Downloading https://files.pythonhosted.org/packages/1d/65/c7752e68db1ca977005aa482c1ca8e7066bd21281074bdbd1a1f7613b09e/mobspy-2.4.0.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/8c/68/71d93ae23c3fd90d476a3c8ab687659fd175e87f321c904668fe1e3bfdfd/hrbdataproject-2.2.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/6b/a3/9a1dbb65c7f332ad9a87aa4337a80ccf41da4653c59fadc8400dfe5f748f/spidermon-1.8.0.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/65/44/14de8ca45bcdfc1017cee3c5f1e33f089cc3e4e1f91b24d3a740885ab0d4/link_mongodb-1.0.0.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [xzutils]: Downloading https://files.pythonhosted.org/packages/15/d5/a6e7d26eeb1e626276951f2bb049942e647b3c12aded3ec3697d62e41904/xzutils-0.0.2.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/54/99/b0770d486535561f4f5e4f2446cd46cafecb54946813733437073d664f95/OiRunner-0.0.2.tar.gz
+[2024-05-08 11:02:34] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/d0/56/52fd8b6dabb17f442396aa086daf67c83ac52d4bba36d28e21f09dc50a3f/numerous-0.3.0.tar.gz
+[2024-05-08 11:02:34] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 63954852>=10485760
+[2024-05-08 11:02:34] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-05-08 11:02:35] INFO root fetch - processPackages [xzutils]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [xzutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xzutils-0.0.1.tar.gz tmp/xzutils-0.0.2.tar.gz --markdown 20240508/x/xzutils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [link-mongodb]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [link-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/link_mongodb-0.1.3.tar.gz tmp/link_mongodb-1.0.0.tar.gz --markdown 20240508/l/link-mongodb/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [imumaster]: Downloading https://files.pythonhosted.org/packages/36/2c/c0b3a835a4745cc777a0d0beaf80c0928b8b14ecc976569434d65627648d/imumaster-0.0.2.tar.gz
+[2024-05-08 11:02:35] INFO root fetch - processPackages [mobspy]: Downloading https://files.pythonhosted.org/packages/22/17/cb78ad21fb36f296507fa911e753e2e5ab9c0c89650fd07dee3b82eb242a/mobspy-2.4.1.tar.gz
+[2024-05-08 11:02:35] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/09/5e/ef0f60d9f875b1f592932974f674d56a9cdc79d7597d4b04b89ab9efce87/hrbdataproject-2.3.tar.gz
+[2024-05-08 11:02:35] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/1f/58/2846e48a95fc28a3c49619db5f18d96e0ed17b2f2cb95ecd0572dd4e219b/oirunner-0.0.4.tar.gz
+[2024-05-08 11:02:35] INFO root fetch - processPackages [imumaster]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [imumaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imumaster-0.0.1.tar.gz tmp/imumaster-0.0.2.tar.gz --markdown 20240508/i/imumaster/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [hrbdataproject]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [hrbdataproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbdataproject-2.2.tar.gz tmp/hrbdataproject-2.3.tar.gz --markdown 20240508/h/hrbdataproject/2.2-2.3/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [OiRunner]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [OiRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OiRunner-0.0.2.tar.gz tmp/oirunner-0.0.4.tar.gz --markdown 20240508/O/OiRunner/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [mobspy]: executing diffoscope
+[2024-05-08 11:02:35] INFO root fetch - processPackages [mobspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobspy-2.4.0.tar.gz tmp/mobspy-2.4.1.tar.gz --markdown 20240508/m/mobspy/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-08 11:02:35] INFO root fetch - processPackages [xzutils]: Remove: archive file [/home/abi/fetcher/tmp/xzutils-0.0.1.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - processPackages [xzutils]: Remove: archive file [/home/abi/fetcher/tmp/xzutils-0.0.2.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - main [MainThread]: End processing [xzutils]: success
+[2024-05-08 11:02:35] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-0.1.3.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-1.0.0.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - main [MainThread]: End processing [link-mongodb]: success
+[2024-05-08 11:02:35] INFO root fetch - processPackages [imumaster]: Remove: archive file [/home/abi/fetcher/tmp/imumaster-0.0.1.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - processPackages [imumaster]: Remove: archive file [/home/abi/fetcher/tmp/imumaster-0.0.2.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - main [MainThread]: End processing [imumaster]: success
+[2024-05-08 11:02:35] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.2.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.3.tar.gz]
+[2024-05-08 11:02:35] INFO root fetch - main [MainThread]: End processing [hrbdataproject]: success
+[2024-05-08 11:02:36] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/OiRunner-0.0.2.tar.gz]
+[2024-05-08 11:02:36] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/oirunner-0.0.4.tar.gz]
+[2024-05-08 11:02:36] INFO root fetch - main [MainThread]: End processing [OiRunner]: success
+[2024-05-08 11:02:36] INFO root fetch - processPackages [spidermon]: Downloading https://files.pythonhosted.org/packages/a4/31/03bbee1e8b7316f5f953707bdbb7cf1d226b9fee3e2763f15ca80f19ee28/spidermon-1.9.0.tar.gz
+[2024-05-08 11:02:36] INFO root fetch - processPackages [spidermon]: executing diffoscope
+[2024-05-08 11:02:36] INFO root fetch - processPackages [spidermon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spidermon-1.8.0.tar.gz tmp/spidermon-1.9.0.tar.gz --markdown 20240508/s/spidermon/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 11:02:37] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.8.0.tar.gz]
+[2024-05-08 11:02:37] INFO root fetch - processPackages [spidermon]: Remove: archive file [/home/abi/fetcher/tmp/spidermon-1.9.0.tar.gz]
+[2024-05-08 11:02:37] INFO root fetch - main [MainThread]: End processing [spidermon]: success
+[2024-05-08 11:02:37] INFO root fetch - processPackages [mobspy]: Remove: archive file [/home/abi/fetcher/tmp/mobspy-2.4.0.tar.gz]
+[2024-05-08 11:02:37] INFO root fetch - processPackages [mobspy]: Remove: archive file [/home/abi/fetcher/tmp/mobspy-2.4.1.tar.gz]
+[2024-05-08 11:02:37] INFO root fetch - main [MainThread]: End processing [mobspy]: success
+[2024-05-08 11:02:37] INFO root fetch - main [MainThread]: Store serial: [23110985]
