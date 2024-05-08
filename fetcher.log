@@ -12844,3 +12844,81 @@
 [2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
 [2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [space-breakdown-method]: success
 [2024-05-08 09:07:58] INFO root fetch - main [MainThread]: Store serial: [23109447]
+[2024-05-08 09:10:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109447]
+[2024-05-08 09:10:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectbox
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-pandas
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sora-sdk
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acystiaz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MaaDebugger
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicom2nifti
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duxcocpp
+[2024-05-08 09:10:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-th-gov-hr-expense
+[2024-05-08 09:10:07] INFO root fetch - processPackages [duxcocpp]: New version: [0.1.7] Old Version: [0.1.1]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [dicom2nifti]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-08 09:10:07] WARNING root fetch - processPackages [acystiaz]: Skipping, unable to determine old version
+[2024-05-08 09:10:07] INFO root fetch - main [MainThread]: End processing [acystiaz] error
+[2024-05-08 09:10:07] INFO root fetch - processPackages [MaaDebugger]: New version: [1.1.0b1] Old Version: [1.0.0]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [sora-sdk]: New version: [2024.3.0.dev1] Old Version: [2024.3.0.dev0]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [objectbox]: New version: [0.7.0a9] Old Version: [0.7.0a8]
+[2024-05-08 09:10:07] INFO root fetch - processPackages [duxcocpp]: Downloading https://files.pythonhosted.org/packages/07/41/33487e9c80658c8ab7c133c37662bccfa895719a019342bbe69b206adfa1/duxcocpp-0.1.1.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-08 09:10:07] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/ca/b0/bc55b6c102b74a77001475c4b32513a8cd8c4bae731950681521bd807e12/maadebugger-1.0.0.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: Downloading https://files.pythonhosted.org/packages/d1/18/f07c6f3a8f771e02e9a596d37edfeaaed7c6c2482f844ff3bc8ffbaa653f/odoo_addon_l10n_th_gov_hr_expense-15.0.1.0.1-py3-none-any.whl
+[2024-05-08 09:10:07] INFO root fetch - processPackages [dicom2nifti]: Downloading https://files.pythonhosted.org/packages/7f/b6/55b0e0985fcdc121035061a942149af3a485a3612ee65ec334f1852b141b/dicom2nifti-2.4.8.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/cc/ba/44e8ce980ec0a88c80e70492fdf005fe438e7ad5d861fa6a1b4a6875fd8a/objectbox-0.7.0a8-py3-none-any.whl
+[2024-05-08 09:10:07] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-08 09:10:07] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/99/fc/c21a5df37d09d13f04713fec88d83343fc823c0b2cc9f82d66ff2162758f/sora_sdk-2024.3.0.dev0.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [duxcocpp]: Downloading https://files.pythonhosted.org/packages/fc/8a/3865758b9fdd8d23e71975ef9e37cc886216fc26e675e6ce16196921776e/duxcocpp-0.1.7.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/cc/e8/21076c0d20be969b0e886981249da8335cf9f2f0cc43d082f4fc1c86bfc5/maadebugger-1.1.0b1.tar.gz
+[2024-05-08 09:10:07] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-08 09:10:07] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240508/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: Downloading https://files.pythonhosted.org/packages/1f/f9/4f44cf71bd91ac1312ca401f384ddc51aacb8b20767de865e41871aeb5ba/odoo_addon_l10n_th_gov_hr_expense-15.0.1.1.0-py3-none-any.whl
+[2024-05-08 09:10:08] INFO root fetch - processPackages [duxcocpp]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [duxcocpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duxcocpp-0.1.1.tar.gz tmp/duxcocpp-0.1.7.tar.gz --markdown 20240508/d/duxcocpp/0.1.1-0.1.7/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-08 09:10:08] INFO root fetch - processPackages [dicom2nifti]: Downloading https://files.pythonhosted.org/packages/87/7c/ba86bad039141d5c46bab3bd80fcc14288441f2900037d99c7d92ceaae72/dicom2nifti-2.4.9.tar.gz
+[2024-05-08 09:10:08] INFO root fetch - processPackages [MaaDebugger]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [MaaDebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadebugger-1.0.0.tar.gz tmp/maadebugger-1.1.0b1.tar.gz --markdown 20240508/M/MaaDebugger/1.0.0-1.1.0b1/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240508/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_gov_hr_expense-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_gov_hr_expense-15.0.1.1.0-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-l10n-th-gov-hr-expense/15.0.1.0.1-15.0.1.1.0/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/c3/61/0aa9d0116287743c7d3ed3dcd0cecddd576b2c27bc58cd72ac9e9513a8be/objectbox-0.7.0a9-py3-none-any.whl
+[2024-05-08 09:10:08] INFO root fetch - processPackages [dicom2nifti]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [dicom2nifti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicom2nifti-2.4.8.tar.gz tmp/dicom2nifti-2.4.9.tar.gz --markdown 20240508/d/dicom2nifti/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-08 09:10:08] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-08 09:10:08] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-0.7.0a8-py3-none-any.whl.zip tmp/objectbox-0.7.0a9-py3-none-any.whl.zip --markdown 20240508/o/objectbox/0.7.0a8-0.7.0a9/README.md --exclude *.pyd
+[2024-05-08 09:10:09] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.0.0.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.1.0b1.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [MaaDebugger]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/88/4f/4a2279fec65d687c0e5bce934a604d129d71df0087b410555fb01f08978f/sora_sdk-2024.3.0.dev1.tar.gz
+[2024-05-08 09:10:09] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [duxcocpp]: Remove: archive file [/home/abi/fetcher/tmp/duxcocpp-0.1.1.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [duxcocpp]: Remove: archive file [/home/abi/fetcher/tmp/duxcocpp-0.1.7.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [duxcocpp]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_hr_expense-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_hr_expense-15.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-gov-hr-expense]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [dicom2nifti]: Remove: archive file [/home/abi/fetcher/tmp/dicom2nifti-2.4.8.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - processPackages [dicom2nifti]: Remove: archive file [/home/abi/fetcher/tmp/dicom2nifti-2.4.9.tar.gz]
+[2024-05-08 09:10:09] INFO root fetch - main [MainThread]: End processing [dicom2nifti]: success
+[2024-05-08 09:10:09] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-05-08 09:10:09] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.3.0.dev0.tar.gz tmp/sora_sdk-2024.3.0.dev1.tar.gz --markdown 20240508/s/sora-sdk/2024.3.0.dev0-2024.3.0.dev1/README.md --exclude *.pyd
+[2024-05-08 09:10:21] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev0.tar.gz]
+[2024-05-08 09:10:21] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev1.tar.gz]
+[2024-05-08 09:10:21] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-05-08 09:10:53] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a8-py3-none-any.whl.zip]
+[2024-05-08 09:10:53] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a9-py3-none-any.whl.zip]
+[2024-05-08 09:10:53] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-08 09:10:53] INFO root fetch - main [MainThread]: Store serial: [23109552]
