@@ -9372,3 +9372,20 @@
 [2024-05-08 05:26:00] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
 [2024-05-08 05:26:00] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-05-08 05:26:00] INFO root fetch - main [MainThread]: Store serial: [23107937]
+[2024-05-08 05:28:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107937]
+[2024-05-08 05:28:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 05:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-osubot
+[2024-05-08 05:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-infrastructure-local
+[2024-05-08 05:28:09] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.8.5] Old Version: [5.8.4]
+[2024-05-08 05:28:09] INFO root fetch - processPackages [database-infrastructure-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:28:09] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/91/b6/45b915b1486366f084c8e753e514a11ad03e3ab505e11881100a1b1e0fc0/nonebot-plugin-osubot-5.8.4.tar.gz
+[2024-05-08 05:28:09] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/a6/2a/acb95ce53685f86e4349fbf463e4a36d9f7ef451eafeb3e91a712ea5e7ca/database-infrastructure-local-0.0.8.tar.gz
+[2024-05-08 05:28:09] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382952>=10485760
+[2024-05-08 05:28:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/4f/42/470ba2080e8c61f1a794d30d5ea0148166753635f55e1a6b7d49e90af772/database-infrastructure-local-0.0.9.tar.gz
+[2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: executing diffoscope
+[2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-infrastructure-local-0.0.8.tar.gz tmp/database-infrastructure-local-0.0.9.tar.gz --markdown 20240508/d/database-infrastructure-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.8.tar.gz]
+[2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.9.tar.gz]
+[2024-05-08 05:28:10] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local]: success
+[2024-05-08 05:28:10] INFO root fetch - main [MainThread]: Store serial: [23107942]
