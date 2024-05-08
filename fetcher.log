@@ -18803,3 +18803,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:27:52] INFO root fetch - processPackages [Garfield]: Remove: archive file [/home/abi/fetcher/tmp/Garfield-0.1.1.tar.gz]
 [2024-05-08 12:27:52] INFO root fetch - main [MainThread]: End processing [Garfield]: success
 [2024-05-08 12:27:52] INFO root fetch - main [MainThread]: Store serial: [23111980]
+[2024-05-08 12:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111980]
+[2024-05-08 12:30:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 12:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-machina
+[2024-05-08 12:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataforseo-client
+[2024-05-08 12:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ise
+[2024-05-08 12:30:01] INFO root fetch - processPackages [pulumi-ise]: New version: [0.1.0a1715162059] Old Version: [0.1.0a1715108131]
+[2024-05-08 12:30:01] INFO root fetch - processPackages [dataforseo-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 12:30:01] INFO root fetch - processPackages [text-machina]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 12:30:01] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/72/39/8fd5e3e98ec47e007aab0772bdafb0247fcda80b9bb7c3d4d2aa4a8ddae9/pulumi_ise-0.1.0a1715108131.tar.gz
+[2024-05-08 12:30:01] INFO root fetch - processPackages [text-machina]: Downloading https://files.pythonhosted.org/packages/20/39/a2270cfcb39fdcb497c8137e2cc0e9694f6ac4b8a346b5731d8a866c172c/text_machina-0.2.8.tar.gz
+[2024-05-08 12:30:01] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/d2/68/84689fba81cb3c59fee0e9b14ee4e226f70268905547fed46e29a9c67acd/dataforseo-client-1.0.8.tar.gz
+[2024-05-08 12:30:01] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/d8/38/13460f12041a754f91381f6300f7ae0a4cfefb973622429adbb6d829999e/pulumi_ise-0.1.0a1715162059.tar.gz
+[2024-05-08 12:30:02] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-08 12:30:02] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.1.0a1715108131.tar.gz tmp/pulumi_ise-0.1.0a1715162059.tar.gz --markdown 20240508/p/pulumi-ise/0.1.0a1715108131-0.1.0a1715162059/README.md --exclude *.pyd
+[2024-05-08 12:30:02] INFO root fetch - processPackages [text-machina]: Downloading https://files.pythonhosted.org/packages/01/de/781f3011b70e23ee6e6872747eae7aba1b0d1a2b402bb3d06517be5ffbdc/text_machina-0.2.9.tar.gz
+[2024-05-08 12:30:02] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/8d/04/47b191652bf6e54ee50a87ce1cdfc88a53f79dafe06782858d8b4d892246/dataforseo-client-1.0.9.tar.gz
+[2024-05-08 12:30:02] INFO root fetch - processPackages [text-machina]: executing diffoscope
+[2024-05-08 12:30:02] INFO root fetch - processPackages [text-machina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_machina-0.2.8.tar.gz tmp/text_machina-0.2.9.tar.gz --markdown 20240508/t/text-machina/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 12:30:02] INFO root fetch - processPackages [dataforseo-client]: executing diffoscope
+[2024-05-08 12:30:02] INFO root fetch - processPackages [dataforseo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforseo-client-1.0.8.tar.gz tmp/dataforseo-client-1.0.9.tar.gz --markdown 20240508/d/dataforseo-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 12:30:03] INFO root fetch - processPackages [text-machina]: Remove: archive file [/home/abi/fetcher/tmp/text_machina-0.2.8.tar.gz]
+[2024-05-08 12:30:03] INFO root fetch - processPackages [text-machina]: Remove: archive file [/home/abi/fetcher/tmp/text_machina-0.2.9.tar.gz]
+[2024-05-08 12:30:03] INFO root fetch - main [MainThread]: End processing [text-machina]: success
+[2024-05-08 12:30:03] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715108131.tar.gz]
+[2024-05-08 12:30:03] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715162059.tar.gz]
+[2024-05-08 12:30:03] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-08 12:30:30] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.8.tar.gz]
+[2024-05-08 12:30:30] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
+[2024-05-08 12:30:30] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
+[2024-05-08 12:30:30] INFO root fetch - main [MainThread]: Store serial: [23111990]
