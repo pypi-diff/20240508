@@ -21064,3 +21064,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:52:29] INFO root fetch - processPackages [saenopy]: Remove: archive file [/home/abi/fetcher/tmp/saenopy-1.0.4.tar.gz]
 [2024-05-08 13:52:29] INFO root fetch - main [MainThread]: End processing [saenopy]: success
 [2024-05-08 13:52:29] INFO root fetch - main [MainThread]: Store serial: [23112913]
+[2024-05-08 13:54:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112913]
+[2024-05-08 13:54:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 13:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-fedit
+[2024-05-08 13:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-cell-status-extension
+[2024-05-08 13:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: space-stream
+[2024-05-08 13:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyneople
+[2024-05-08 13:54:38] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 13:54:38] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.5rc2] Old Version: [1.5.5rc1]
+[2024-05-08 13:54:38] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-08 13:54:38] INFO root fetch - processPackages [space-stream]: New version: [0.2.0] Old Version: [0.1.7.2]
+[2024-05-08 13:54:38] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 13:54:38] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/be/8c/6158ea8b958e0fa8608d28bc0bef2d9c046c84ffdca46bc3986c0c6b0843/wagtail_fedit-1.5.5rc1.tar.gz
+[2024-05-08 13:54:38] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Downloading https://files.pythonhosted.org/packages/cb/50/1db8a71c97040d4f013c57c408ac7fb95073b74a3c6d9f698e050383e11e/jupyterlab_cell_status_extension-0.1.3-py3-none-any.whl
+[2024-05-08 13:54:38] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/96/cc/a51bb1d91fd814af50904a720b5b78b96855427e30c9ba4257e9b743cb43/space_stream-0.1.7.2-py3-none-any.whl
+[2024-05-08 13:54:38] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 13:54:38] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/a7/4b/25def2f19754f640e5f941a1b546cf0deac4a36f59396f8a78f1bc949e0e/wagtail_fedit-1.5.5rc2.tar.gz
+[2024-05-08 13:54:38] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 13:54:38] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 13:54:39] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-08 13:54:39] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.5rc1.tar.gz tmp/wagtail_fedit-1.5.5rc2.tar.gz --markdown 20240508/w/wagtail-fedit/1.5.5rc1-1.5.5rc2/README.md --exclude *.pyd
+[2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Downloading https://files.pythonhosted.org/packages/16/72/237ee51dd8cf6ecadf066d92f1cd6e12240b5c7ba296f0553baf9da6292c/jupyterlab_cell_status_extension-0.2.0.tar.gz
+[2024-05-08 13:54:39] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/ef/b2/3d8c030b64eaeaf78b2385a32154c91e5dd7de973c328a485a6db6e26d44/space_stream-0.2.0-py3-none-any.whl
+[2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: executing diffoscope
+[2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_cell_status_extension-0.1.3-py3-none-any.whl.zip tmp/jupyterlab_cell_status_extension-0.2.0.tar.gz --markdown 20240508/j/jupyterlab-cell-status-extension/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-08 13:54:39] INFO root fetch - processPackages [space-stream]: executing diffoscope
+[2024-05-08 13:54:39] INFO root fetch - processPackages [space-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_stream-0.1.7.2-py3-none-any.whl.zip tmp/space_stream-0.2.0-py3-none-any.whl.zip --markdown 20240508/s/space-stream/0.1.7.2-0.2.0/README.md --exclude *.pyd
+[2024-05-08 13:54:39] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 13:54:39] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 13:54:39] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 13:54:39] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc1.tar.gz]
+[2024-05-08 13:54:39] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc2.tar.gz]
+[2024-05-08 13:54:39] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-08 13:54:39] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.7.2-py3-none-any.whl.zip]
+[2024-05-08 13:54:39] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.2.0-py3-none-any.whl.zip]
+[2024-05-08 13:54:39] INFO root fetch - main [MainThread]: End processing [space-stream]: success
+[2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_cell_status_extension-0.1.3-py3-none-any.whl.zip]
+[2024-05-08 13:54:39] INFO root fetch - processPackages [jupyterlab-cell-status-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_cell_status_extension-0.2.0.tar.gz]
+[2024-05-08 13:54:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-cell-status-extension]: success
+[2024-05-08 13:54:40] INFO root fetch - main [MainThread]: Store serial: [23112924]
