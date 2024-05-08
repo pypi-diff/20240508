@@ -10711,3 +10711,18 @@
 [2024-05-08 06:46:32] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.6.0.tar.gz]
 [2024-05-08 06:46:32] INFO root fetch - main [MainThread]: End processing [mms-client]: success
 [2024-05-08 06:46:32] INFO root fetch - main [MainThread]: Store serial: [23108329]
+[2024-05-08 06:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108329]
+[2024-05-08 06:48:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain
+[2024-05-08 06:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Latifa
+[2024-05-08 06:48:41] WARNING root fetch - processPackages [Latifa]: Skipping, unable to determine old version
+[2024-05-08 06:48:41] INFO root fetch - main [MainThread]: End processing [Latifa] error
+[2024-05-08 06:48:41] INFO root fetch - processPackages [langchain]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2024-05-08 06:48:41] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/a1/ed/eae583bcddd5ae4371aac407164b708868e09c2823142d8319fe9990e028/langchain-0.1.9.tar.gz
+[2024-05-08 06:48:42] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/4b/0f/224cfe36cbf4ee9320375e5882c101bb72707df92d97d8ee67a2c1b95696/langchain-0.2.0rc1.tar.gz
+[2024-05-08 06:48:42] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2024-05-08 06:48:42] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.1.9.tar.gz tmp/langchain-0.2.0rc1.tar.gz --markdown 20240508/l/langchain/0.1.9-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-08 06:48:45] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.1.9.tar.gz]
+[2024-05-08 06:48:45] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.2.0rc1.tar.gz]
+[2024-05-08 06:48:45] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2024-05-08 06:48:45] INFO root fetch - main [MainThread]: Store serial: [23108336]
