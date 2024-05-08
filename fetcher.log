@@ -20063,3 +20063,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:18:36] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 13:18:36] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 13:18:36] INFO root fetch - main [MainThread]: Store serial: [23112538]
+[2024-05-08 13:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112538]
+[2024-05-08 13:20:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngsolve
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SleepHarmonizer
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg-sync-roles
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-ise
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zoltraak
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiwi-boxed-plugin
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pulumi-ise]: New version: [0.1.0a1715162059] Old Version: [0.1.0a1715108131]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [SleepHarmonizer]: New version: [0.2.1] Old Version: [0.1.5]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/72/39/8fd5e3e98ec47e007aab0772bdafb0247fcda80b9bb7c3d4d2aa4a8ddae9/pulumi_ise-0.1.0a1715108131.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [kiwi-boxed-plugin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/f5/82/b0198888964041f7d2fdefd34901c00a1d8e11adc82d8d7452103c6ba501/SleepHarmonizer-0.1.5.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403] Old Version: [6.2.2402.post57.dev0]
+[2024-05-08 13:20:45] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/8e/f6/0e0669063179a97a27cf9879de609d3b0f6ab885f6685fb82142c799d31d/pg_sync_roles-0.0.1.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/3e/dd/8f28f603c96e59c9db4c20980ce2ce7e31e128e543e1588b4f97628a4918/ngsolve-6.2.2402.post57.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/d8/38/13460f12041a754f91381f6300f7ae0a4cfefb973622429adbb6d829999e/pulumi_ise-0.1.0a1715162059.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [kiwi-boxed-plugin]: Downloading https://files.pythonhosted.org/packages/fd/80/3f87e5adf00d2045d3683bb9f2bb6fae81a884c7f04a7e4e72b42cb9ef4e/kiwi_boxed_plugin-0.2.8.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 13:20:45] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 12679793>=10485760
+[2024-05-08 13:20:45] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-08 13:20:45] INFO root fetch - processPackages [SleepHarmonizer]: Downloading https://files.pythonhosted.org/packages/cf/d5/54585171be4175e60b38f6b4504a377550341c0a28e07c8ba1696cc10c87/SleepHarmonizer-0.2.1.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.1.0a1715108131.tar.gz tmp/pulumi_ise-0.1.0a1715162059.tar.gz --markdown 20240508/p/pulumi-ise/0.1.0a1715108131-0.1.0a1715162059/README.md --exclude *.pyd
+[2024-05-08 13:20:45] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 13:20:45] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:20:45] INFO root fetch - processPackages [SleepHarmonizer]: executing diffoscope
+[2024-05-08 13:20:45] INFO root fetch - processPackages [SleepHarmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SleepHarmonizer-0.1.5.tar.gz tmp/SleepHarmonizer-0.2.1.tar.gz --markdown 20240508/S/SleepHarmonizer/0.1.5-0.2.1/README.md --exclude *.pyd
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/07/f7/d47d4f0991b45769181a33757220e515b0297add57bcbcf68037483b4c9e/pg_sync_roles-0.0.2.tar.gz
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-08 13:20:45] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.1.tar.gz tmp/pg_sync_roles-0.0.2.tar.gz --markdown 20240508/p/pg-sync-roles/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 13:20:45] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-05-08 13:20:46] INFO root fetch - processPackages [kiwi-boxed-plugin]: Downloading https://files.pythonhosted.org/packages/4a/f0/4efe50b8694d8d6445aa1cf3a1accb73aab621fcf2db39c93d441a443f8e/kiwi_boxed_plugin-0.2.9.tar.gz
+[2024-05-08 13:20:46] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-05-08 13:20:46] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240508/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 13:20:46] INFO root fetch - processPackages [kiwi-boxed-plugin]: executing diffoscope
+[2024-05-08 13:20:46] INFO root fetch - processPackages [kiwi-boxed-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_boxed_plugin-0.2.8.tar.gz tmp/kiwi_boxed_plugin-0.2.9.tar.gz --markdown 20240508/k/kiwi-boxed-plugin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 13:20:46] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.1.tar.gz]
+[2024-05-08 13:20:46] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.2.tar.gz]
+[2024-05-08 13:20:46] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-08 13:20:46] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.1.5.tar.gz]
+[2024-05-08 13:20:46] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.2.1.tar.gz]
+[2024-05-08 13:20:46] INFO root fetch - main [MainThread]: End processing [SleepHarmonizer]: success
+[2024-05-08 13:20:47] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-05-08 13:20:47] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 13:20:47] INFO root fetch - processPackages [kiwi-boxed-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_boxed_plugin-0.2.8.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - processPackages [kiwi-boxed-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_boxed_plugin-0.2.9.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - main [MainThread]: End processing [kiwi-boxed-plugin]: success
+[2024-05-08 13:20:47] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715108131.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715162059.tar.gz]
+[2024-05-08 13:20:47] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-08 13:20:47] INFO root fetch - main [MainThread]: Store serial: [23112559]
