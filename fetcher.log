@@ -18043,3 +18043,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:00:47] INFO root fetch - processPackages [litgpt]: Remove: archive file [/home/abi/fetcher/tmp/litgpt-0.3.0.tar.gz]
 [2024-05-08 12:00:47] INFO root fetch - main [MainThread]: End processing [litgpt]: success
 [2024-05-08 12:00:47] INFO root fetch - main [MainThread]: Store serial: [23111691]
+[2024-05-08 12:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111691]
+[2024-05-08 12:02:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Photini
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-lts-cpu
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markdown-include-bd
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-u64-idx
+[2024-05-08 12:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aps-toolkit
+[2024-05-08 12:02:56] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-08 12:02:56] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-05-08 12:02:56] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 12:02:56] WARNING root fetch - processPackages [markdown-include-bd]: Skipping, unable to determine old version
+[2024-05-08 12:02:56] INFO root fetch - main [MainThread]: End processing [markdown-include-bd] error
+[2024-05-08 12:02:56] INFO root fetch - processPackages [Photini]: New version: [2024.5.0] Old Version: [2024.4.0]
+[2024-05-08 12:02:56] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-05-08 12:02:56] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/15/8f/e0c6e624b4cbeb8da2f3abb5f98d6d2fa37f05f1c031de6dc428272dabe1/aps-toolkit-0.6.1.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/22/c0/7c8fcfe8d4d7376848e02a8a3975268cbd0ec0f863fbf3338068ff73c90f/polars_lts_cpu-0.20.8.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [Photini]: Downloading https://files.pythonhosted.org/packages/42/cd/a548787c0d83ad4a86aac5f2b3f39dac9bd1c8b0a762e43fa5b9db309ddc/Photini-2024.4.0.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/5c/9e/da38f2488beaaddc2cb54403b8c016e3e1ba7a4c8fc870e9010ec1197aef/polars_u64_idx-0.20.8.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/a4/f1/4bf98e970e52c019ab54de3a31ad601137ec367c4a3b1b73995bdded8aef/aps-toolkit-0.6.2.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-08 12:02:57] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.6.1.tar.gz tmp/aps-toolkit-0.6.2.tar.gz --markdown 20240508/a/aps-toolkit/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-08 12:02:57] INFO root fetch - processPackages [Photini]: Downloading https://files.pythonhosted.org/packages/79/8c/f0921d4459ffaee1a379105a095fa47e8ded7e8e34b9841b1570b0cdadf7/Photini-2024.5.0.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [Photini]: executing diffoscope
+[2024-05-08 12:02:57] INFO root fetch - processPackages [Photini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Photini-2024.4.0.tar.gz tmp/Photini-2024.5.0.tar.gz --markdown 20240508/P/Photini/2024.4.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/33/5e/df508475e1d147ef4c8bc6849d8274906574714b6f551b1e6674c7b94c3a/polars_lts_cpu-0.20.9.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars]: executing diffoscope
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20240508/p/polars/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/bf/d5/35ea31387b107a09be335c63708294033b3cc0d21fa1fe68eae967ae3855/polars_u64_idx-0.20.9.tar.gz
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2024-05-08 12:02:57] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.20.8.tar.gz tmp/polars_lts_cpu-0.20.9.tar.gz --markdown 20240508/p/polars-lts-cpu/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-05-08 12:02:58] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2024-05-08 12:02:58] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.20.8.tar.gz tmp/polars_u64_idx-0.20.9.tar.gz --markdown 20240508/p/polars-u64-idx/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-05-08 12:02:58] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.1.tar.gz]
+[2024-05-08 12:02:58] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.2.tar.gz]
+[2024-05-08 12:02:58] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-08 12:02:58] INFO root fetch - processPackages [Photini]: Remove: archive file [/home/abi/fetcher/tmp/Photini-2024.4.0.tar.gz]
+[2024-05-08 12:02:58] INFO root fetch - processPackages [Photini]: Remove: archive file [/home/abi/fetcher/tmp/Photini-2024.5.0.tar.gz]
+[2024-05-08 12:02:58] INFO root fetch - main [MainThread]: End processing [Photini]: success
+[2024-05-08 12:02:59] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2024-05-08 12:02:59] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2024-05-08 12:03:00] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2024-05-08 12:03:13] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.8.tar.gz]
+[2024-05-08 12:03:13] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.9.tar.gz]
+[2024-05-08 12:03:13] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2024-05-08 12:03:13] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.8.tar.gz]
+[2024-05-08 12:03:13] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
+[2024-05-08 12:03:13] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2024-05-08 12:03:13] INFO root fetch - main [MainThread]: Store serial: [23111724]
