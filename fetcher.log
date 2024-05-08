@@ -8013,3 +8013,18 @@
 [2024-05-08 04:04:32] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.1.tar.gz]
 [2024-05-08 04:04:32] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-05-08 04:04:32] INFO root fetch - main [MainThread]: Store serial: [23107413]
+[2024-05-08 04:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107413]
+[2024-05-08 04:06:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: montelo
+[2024-05-08 04:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fakesnow
+[2024-05-08 04:06:40] INFO root fetch - processPackages [fakesnow]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 04:06:40] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/6b/2a/f0ce270f9094e390b8d6c6206e1725c88d65989bc2bdb25d259f4e371ed7/fakesnow-0.9.8.tar.gz
+[2024-05-08 04:06:40] WARNING root fetch - processPackages [montelo]: Skipping, unable to determine old version
+[2024-05-08 04:06:40] INFO root fetch - main [MainThread]: End processing [montelo] error
+[2024-05-08 04:06:41] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/94/7b/47725738bd7c4bb10ac4759bcf5f0d7f42e6c1c128424c7aaf38ea0524be/fakesnow-0.9.9.tar.gz
+[2024-05-08 04:06:41] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2024-05-08 04:06:41] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.9.8.tar.gz tmp/fakesnow-0.9.9.tar.gz --markdown 20240508/f/fakesnow/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 04:06:42] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.8.tar.gz]
+[2024-05-08 04:06:42] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.9.tar.gz]
+[2024-05-08 04:06:42] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2024-05-08 04:06:42] INFO root fetch - main [MainThread]: Store serial: [23107421]
