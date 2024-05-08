@@ -7885,3 +7885,44 @@
 [2024-05-08 03:55:55] INFO root fetch - processPackages [disko]: Remove: archive file [/home/abi/fetcher/tmp/disko-0.9.6b2.tar.gz]
 [2024-05-08 03:55:55] INFO root fetch - main [MainThread]: End processing [disko]: success
 [2024-05-08 03:55:55] INFO root fetch - main [MainThread]: Store serial: [23107374]
+[2024-05-08 03:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107374]
+[2024-05-08 03:58:04] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-08 04:00:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107375]
+[2024-05-08 04:00:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 04:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sms-message-aws-sns-local
+[2024-05-08 04:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-05-08 04:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-send-local
+[2024-05-08 04:00:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebest
+[2024-05-08 04:00:09] INFO root fetch - processPackages [sms-message-aws-sns-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:00:09] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:00:09] INFO root fetch - processPackages [yoto-api]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-05-08 04:00:09] INFO root fetch - processPackages [ebest]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 04:00:10] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/b5/8c/2d497590b930ee0ea12a669b5747b1e2d251363d62238bd1fc127811dfff/sms_message_aws_sns_local-0.0.8.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/3e/64/37c9bbe31bc3671ec3790dcd11c637db90375c237be2081faed5c8de3d01/yoto_api-1.7.9.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [ebest]: Downloading https://files.pythonhosted.org/packages/f2/7c/68e5ce12785d77f36ae038adcf104474165fdd1189e481a69169d5fbb94c/ebest-0.0.4.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [ebest]: Downloading https://files.pythonhosted.org/packages/cb/a1/48b21dd220a15ca8b40e8446b8b56dfec53c7d129d223bd17a7b3dcb7a49/ebest-0.0.5.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [sms-message-aws-sns-local]: Downloading https://files.pythonhosted.org/packages/9b/5a/3c25e8cc34e9a8c618a8a50e247085efee93fa786a9823257a0523b560de/sms_message_aws_sns_local-0.0.9.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-08 04:00:10] INFO root fetch - processPackages [sms-message-aws-sns-local]: executing diffoscope
+[2024-05-08 04:00:10] INFO root fetch - processPackages [sms-message-aws-sns-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sms_message_aws_sns_local-0.0.8.tar.gz tmp/sms_message_aws_sns_local-0.0.9.tar.gz --markdown 20240508/s/sms-message-aws-sns-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:00:10] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-05-08 04:00:10] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240508/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:00:10] INFO root fetch - processPackages [ebest]: executing diffoscope
+[2024-05-08 04:00:10] INFO root fetch - processPackages [ebest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebest-0.0.4.tar.gz tmp/ebest-0.0.5.tar.gz --markdown 20240508/e/ebest/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 04:00:10] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-08 04:00:10] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.7.9.tar.gz tmp/yoto_api-1.8.0.tar.gz --markdown 20240508/y/yoto-api/1.7.9-1.8.0/README.md --exclude *.pyd
+[2024-05-08 04:00:11] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.8.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - processPackages [sms-message-aws-sns-local]: Remove: archive file [/home/abi/fetcher/tmp/sms_message_aws_sns_local-0.0.9.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - main [MainThread]: End processing [sms-message-aws-sns-local]: success
+[2024-05-08 04:00:11] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-05-08 04:00:11] INFO root fetch - processPackages [ebest]: Remove: archive file [/home/abi/fetcher/tmp/ebest-0.0.4.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - processPackages [ebest]: Remove: archive file [/home/abi/fetcher/tmp/ebest-0.0.5.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - main [MainThread]: End processing [ebest]: success
+[2024-05-08 04:00:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.7.9.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-08 04:00:11] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-08 04:00:11] INFO root fetch - main [MainThread]: Store serial: [23107387]
