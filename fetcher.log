@@ -2903,3 +2903,72 @@
 [2024-05-08 02:39:53] INFO root fetch - processPackages [research-framework]: Remove: archive file [/home/abi/fetcher/tmp/research_framework-0.2.5.tar.gz]
 [2024-05-08 02:39:53] INFO root fetch - main [MainThread]: End processing [research-framework]: success
 [2024-05-08 02:39:53] INFO root fetch - main [MainThread]: Store serial: [23105509]
+[2024-05-08 02:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105509]
+[2024-05-08 02:42:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: naludaq
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agt-server
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-infraflow-cdk
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-db-polars
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UQPyL
+[2024-05-08 02:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dependency-confusion123
+[2024-05-08 02:42:02] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [UQPyL]: New version: [2.0.3] Old Version: [2.0.1]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [agt-server]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [py-infraflow-cdk]: New version: [0.1.9.9.0.3] Old Version: [0.1.9.9.0.2]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-08 02:42:02] WARNING root fetch - processPackages [dependency-confusion123]: Skipping, unable to determine old version
+[2024-05-08 02:42:02] INFO root fetch - main [MainThread]: End processing [dependency-confusion123] error
+[2024-05-08 02:42:02] INFO root fetch - processPackages [async-db-polars]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/cf/69/a90c351560f14c37d2d45337442e2bd1dd94cd758c10d9097adcddd33ca9/UQPyL-2.0.1.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/bb/d0/5c412c87e35cce2cacbc78af04fd322d4ad58e5091de8b3d6469968b8b11/agt_server-1.4.3.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/f1/8d/4365687e0fa4b138cc97acbae2daee7123d316cd7fba309bd8df97562256/py_infraflow_cdk-0.1.9.9.0.2.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [naludaq]: New version: [0.26.4] Old Version: [0.26.3]
+[2024-05-08 02:42:02] INFO root fetch - processPackages [async-db-polars]: Downloading https://files.pythonhosted.org/packages/a9/57/7d54f4f47cdc66e9fe54fd2692f27d8761305ad989f87594cf3bdec0c899/async_db_polars-0.1.6.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/20/ee/599daba281ddd0f0f0f4cc802f05d843b755e552030aafb8adb8fa87829b/agt_server-1.5.0.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/f9/0c/f9b2a6fc35a893680412f8169e57bc5354ecf04e3c860003214302409710/naludaq-0.26.3.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [UQPyL]: Downloading https://files.pythonhosted.org/packages/2f/91/f3e211a0db2aa58a3270515bbce73f02df77852a8dbe9314214d4ba5d7a8/UQPyL-2.0.3.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [py-infraflow-cdk]: Downloading https://files.pythonhosted.org/packages/d3/01/588301eca2dac2eca19a8d8679523132ea8dee019b5036897484d21cec8e/py_infraflow_cdk-0.1.9.9.0.3.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240508/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-08 02:42:02] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.4.3.tar.gz tmp/agt_server-1.5.0.tar.gz --markdown 20240508/a/agt-server/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-08 02:42:02] INFO root fetch - processPackages [UQPyL]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [UQPyL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UQPyL-2.0.1.tar.gz tmp/UQPyL-2.0.3.tar.gz --markdown 20240508/U/UQPyL/2.0.1-2.0.3/README.md --exclude *.pyd
+[2024-05-08 02:42:02] INFO root fetch - processPackages [async-db-polars]: Downloading https://files.pythonhosted.org/packages/41/a6/5b00e0ed3879b02a69ba48efe842a30033eb8f35f83e9445cba49f70ceed/async_db_polars-0.1.7.tar.gz
+[2024-05-08 02:42:02] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240508/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:42:02] INFO root fetch - processPackages [py-infraflow-cdk]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [py-infraflow-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_infraflow_cdk-0.1.9.9.0.2.tar.gz tmp/py_infraflow_cdk-0.1.9.9.0.3.tar.gz --markdown 20240508/p/py-infraflow-cdk/0.1.9.9.0.2-0.1.9.9.0.3/README.md --exclude *.pyd
+[2024-05-08 02:42:02] INFO root fetch - processPackages [async-db-polars]: executing diffoscope
+[2024-05-08 02:42:02] INFO root fetch - processPackages [async-db-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_db_polars-0.1.6.tar.gz tmp/async_db_polars-0.1.7.tar.gz --markdown 20240508/a/async-db-polars/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-08 02:42:03] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/55/79/0a029494b93126174bf3edddd0cfda01a301ab5e8fe0292eef3246c2bc0f/naludaq-0.26.4.tar.gz
+[2024-05-08 02:42:03] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2024-05-08 02:42:03] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.26.3.tar.gz tmp/naludaq-0.26.4.tar.gz --markdown 20240508/n/naludaq/0.26.3-0.26.4/README.md --exclude *.pyd
+[2024-05-08 02:42:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-08 02:42:03] INFO root fetch - processPackages [async-db-polars]: Remove: archive file [/home/abi/fetcher/tmp/async_db_polars-0.1.6.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - processPackages [async-db-polars]: Remove: archive file [/home/abi/fetcher/tmp/async_db_polars-0.1.7.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - main [MainThread]: End processing [async-db-polars]: success
+[2024-05-08 02:42:03] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.2.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - processPackages [py-infraflow-cdk]: Remove: archive file [/home/abi/fetcher/tmp/py_infraflow_cdk-0.1.9.9.0.3.tar.gz]
+[2024-05-08 02:42:03] INFO root fetch - main [MainThread]: End processing [py-infraflow-cdk]: success
+[2024-05-08 02:42:04] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.4.3.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.0.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-08 02:42:04] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.26.3.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.26.4.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2024-05-08 02:42:04] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.1.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - processPackages [UQPyL]: Remove: archive file [/home/abi/fetcher/tmp/UQPyL-2.0.3.tar.gz]
+[2024-05-08 02:42:04] INFO root fetch - main [MainThread]: End processing [UQPyL]: success
+[2024-05-08 02:42:22] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-08 02:42:22] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-08 02:42:22] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-08 02:42:22] INFO root fetch - main [MainThread]: Store serial: [23105549]
