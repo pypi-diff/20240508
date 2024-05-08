@@ -9983,3 +9983,36 @@
 [2024-05-08 05:45:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-9.2.0.tar.gz]
 [2024-05-08 05:45:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
 [2024-05-08 05:45:43] INFO root fetch - main [MainThread]: Store serial: [23108097]
+[2024-05-08 05:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108097]
+[2024-05-08 05:47:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 05:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2docfx
+[2024-05-08 05:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-generic-views
+[2024-05-08 05:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: variable-local
+[2024-05-08 05:47:52] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-08 05:47:52] WARNING root fetch - processPackages [drf-generic-views]: Skipping, unable to determine old version
+[2024-05-08 05:47:52] INFO root fetch - main [MainThread]: End processing [drf-generic-views] error
+[2024-05-08 05:47:52] INFO root fetch - processPackages [variable-local]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-05-08 05:47:52] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7.dev1720172] Old Version: [0.1.7.dev1720145]
+[2024-05-08 05:47:52] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/e9/69/0e4492f50161a326bf23aea3e1bac9fcdd9349c26e2bfe5fba6669d1de9f/charzr_lib-1.0.4.tar.gz
+[2024-05-08 05:47:52] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/ee/3b/7e5911d73bb1085cfbba189048a88bf0d52e2bccc355eadc26b6792b2fcf/variable_local-0.0.96.tar.gz
+[2024-05-08 05:47:52] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/01/eb/f46fd15248ddd4de14ccdb319a22b3650b2730d6db2ee059842c2a5995d6/py2docfx-0.1.7.dev1720145-py3-none-any.whl
+[2024-05-08 05:47:52] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/22/8d/13e30df2ccaa3ba3cc05132e3534020f164c52e37a271f132bb810bf2c81/variable_local-0.0.97.tar.gz
+[2024-05-08 05:47:52] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/7f/40/39fe841a9b5c5fa087d5494e54ce5a580cbd4c88b114164433f6ecfaeed9/py2docfx-0.1.7.dev1720172-py3-none-any.whl
+[2024-05-08 05:47:52] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/4f/4a/8bcb865f7c15a1866de54fef2045992fd9ff106975f17da5eefc59bc9b71/charzr_lib-1.0.5.tar.gz
+[2024-05-08 05:47:53] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-08 05:47:53] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.96.tar.gz tmp/variable_local-0.0.97.tar.gz --markdown 20240508/v/variable-local/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-05-08 05:47:53] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 05:47:53] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.4.tar.gz tmp/charzr_lib-1.0.5.tar.gz --markdown 20240508/c/charzr-lib/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-08 05:47:53] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-08 05:47:53] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7.dev1720145-py3-none-any.whl.zip tmp/py2docfx-0.1.7.dev1720172-py3-none-any.whl.zip --markdown 20240508/p/py2docfx/0.1.7.dev1720145-0.1.7.dev1720172/README.md --exclude *.pyd
+[2024-05-08 05:47:53] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.96.tar.gz]
+[2024-05-08 05:47:53] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.97.tar.gz]
+[2024-05-08 05:47:53] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-08 05:47:53] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.4.tar.gz]
+[2024-05-08 05:47:53] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.5.tar.gz]
+[2024-05-08 05:47:53] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 05:47:53] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720145-py3-none-any.whl.zip]
+[2024-05-08 05:47:53] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720172-py3-none-any.whl.zip]
+[2024-05-08 05:47:53] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-08 05:47:53] INFO root fetch - main [MainThread]: Store serial: [23108107]
