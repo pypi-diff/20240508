@@ -7837,3 +7837,9 @@
 [2024-05-08 03:51:36] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev5.tar.gz]
 [2024-05-08 03:51:36] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
 [2024-05-08 03:51:36] INFO root fetch - main [MainThread]: Store serial: [23107349]
+[2024-05-08 03:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107349]
+[2024-05-08 03:53:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 03:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyder-index
+[2024-05-08 03:53:45] WARNING root fetch - processPackages [spyder-index]: Skipping, unable to determine old version
+[2024-05-08 03:53:45] INFO root fetch - main [MainThread]: End processing [spyder-index] error
+[2024-05-08 03:53:45] INFO root fetch - main [MainThread]: Store serial: [23107355]
