@@ -8355,3 +8355,30 @@
 [2024-05-08 04:22:13] INFO root fetch - processPackages [elfws]: Remove: archive file [/home/abi/fetcher/tmp/elfws-0.9.1.tar.gz]
 [2024-05-08 04:22:13] INFO root fetch - main [MainThread]: End processing [elfws]: success
 [2024-05-08 04:22:13] INFO root fetch - main [MainThread]: Store serial: [23107545]
+[2024-05-08 04:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107545]
+[2024-05-08 04:24:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 04:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-foundry
+[2024-05-08 04:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms2vec
+[2024-05-08 04:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miner-ai-beta
+[2024-05-08 04:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msimilarities
+[2024-05-08 04:24:22] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-08 04:24:22] WARNING root fetch - processPackages [msimilarities]: Skipping, unable to determine old version
+[2024-05-08 04:24:22] INFO root fetch - main [MainThread]: End processing [msimilarities] error
+[2024-05-08 04:24:22] INFO root fetch - processPackages [llm-foundry]: New version: [0.9.0.dev0] Old Version: [0.8.0]
+[2024-05-08 04:24:22] WARNING root fetch - processPackages [ms2vec]: Skipping, unable to determine old version
+[2024-05-08 04:24:22] INFO root fetch - main [MainThread]: End processing [ms2vec] error
+[2024-05-08 04:24:22] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/59/a4/4745453c2a59dc1fda0bf8a59e4f509e218f039d7fbbbccba6c6a3b55bc1/llm-foundry-0.8.0.tar.gz
+[2024-05-08 04:24:22] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c6/cb/9089014649f437cdcbf4e5abff87900b68654f4b1586b566623c1b3953a3/miner_ai_beta-0.1.7.tar.gz
+[2024-05-08 04:24:22] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 04:24:23] INFO root fetch - processPackages [llm-foundry]: Downloading https://files.pythonhosted.org/packages/5a/3d/43e53ba12e75d272285672399088e7ff2216360a86906560b1b2aa4eab70/llm-foundry-0.9.0.dev0.tar.gz
+[2024-05-08 04:24:23] INFO root fetch - processPackages [llm-foundry]: executing diffoscope
+[2024-05-08 04:24:23] INFO root fetch - processPackages [llm-foundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-foundry-0.8.0.tar.gz tmp/llm-foundry-0.9.0.dev0.tar.gz --markdown 20240508/l/llm-foundry/0.8.0-0.9.0.dev0/README.md --exclude *.pyd
+[2024-05-08 04:24:23] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 04:24:23] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.7.tar.gz tmp/miner_ai_beta-0.1.8.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-08 04:24:23] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.7.tar.gz]
+[2024-05-08 04:24:23] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 04:24:23] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 04:24:24] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.8.0.tar.gz]
+[2024-05-08 04:24:24] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.9.0.dev0.tar.gz]
+[2024-05-08 04:24:24] INFO root fetch - main [MainThread]: End processing [llm-foundry]: success
+[2024-05-08 04:24:24] INFO root fetch - main [MainThread]: Store serial: [23107559]
