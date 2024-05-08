@@ -12164,3 +12164,12 @@
 [2024-05-08 08:32:52] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.4.tar.gz]
 [2024-05-08 08:32:52] INFO root fetch - main [MainThread]: End processing [danling]: success
 [2024-05-08 08:32:52] INFO root fetch - main [MainThread]: Store serial: [23109107]
+[2024-05-08 08:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109107]
+[2024-05-08 08:35:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duxcocpp
+[2024-05-08 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlextra
+[2024-05-08 08:35:01] WARNING root fetch - processPackages [duxcocpp]: Skipping, unable to determine old version
+[2024-05-08 08:35:01] INFO root fetch - main [MainThread]: End processing [duxcocpp] error
+[2024-05-08 08:35:01] WARNING root fetch - processPackages [rlextra]: Skipping, unable to determine old version
+[2024-05-08 08:35:01] INFO root fetch - main [MainThread]: End processing [rlextra] error
+[2024-05-08 08:35:01] INFO root fetch - main [MainThread]: Store serial: [23109123]
