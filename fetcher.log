@@ -11972,3 +11972,63 @@
 [2024-05-08 08:21:58] INFO root fetch - processPackages [odoo-addon-server-action-mass-edit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_action_mass_edit-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-08 08:21:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-action-mass-edit]: success
 [2024-05-08 08:21:58] INFO root fetch - main [MainThread]: Store serial: [23109015]
+[2024-05-08 08:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109015]
+[2024-05-08 08:24:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfbm
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subdivision-hole-filler
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: annofabcli
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmonkey-namonica
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pelicun
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prodsys
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiconnections
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scidatetime
+[2024-05-08 08:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: knighthoodsz
+[2024-05-08 08:24:07] WARNING root fetch - processPackages [tfbm]: Skipping, unable to determine old version
+[2024-05-08 08:24:07] INFO root fetch - main [MainThread]: End processing [tfbm] error
+[2024-05-08 08:24:07] WARNING root fetch - processPackages [subdivision-hole-filler]: Skipping, unable to determine old version
+[2024-05-08 08:24:07] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler] error
+[2024-05-08 08:24:07] WARNING root fetch - processPackages [knighthoodsz]: Skipping, unable to determine old version
+[2024-05-08 08:24:07] INFO root fetch - main [MainThread]: End processing [knighthoodsz] error
+[2024-05-08 08:24:07] WARNING root fetch - processPackages [multiconnections]: Skipping, unable to determine old version
+[2024-05-08 08:24:07] INFO root fetch - main [MainThread]: End processing [multiconnections] error
+[2024-05-08 08:24:07] INFO root fetch - processPackages [scidatetime]: New version: [1.20.1] Old Version: [1.19.6]
+[2024-05-08 08:24:07] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-08 08:24:07] INFO root fetch - processPackages [prodsys]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-08 08:24:07] INFO root fetch - processPackages [pelicun]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-05-08 08:24:07] INFO root fetch - processPackages [annofabcli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-08 08:24:07] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/ae/81/83488bba84b53e744430ab8936bebe5dbb1d367f85d84fd9242168dfd65e/xmonkey_namonica-0.1.7.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/f7/47/97ef4307890720c6c4fa5fed89f4004eba944efc4ee3c7902a67b022acd6/pelicun-3.3.2.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/9b/30/c4b262939f47c9a5b879fd55c593b084bfaf1bd05e70454b77ae76dc4836/annofabcli-1.9.0.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [scidatetime]: Downloading https://files.pythonhosted.org/packages/64/76/12a2fea09c25c3727f0ce13ef50d015ba422524f63f7704111d7d065ea03/scidatetime-1.19.6.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/ba/8c/37462cbe7b04f5da6783b531318ad6f38f5cae7b033566232f7bcbb717d4/prodsys-0.6.2.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/3a/14/07565d15ef8b91060c365b6c85165132a7e682e164f257c096de82e28e1a/prodsys-0.6.3.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [annofabcli]: Downloading https://files.pythonhosted.org/packages/f3/65/e480a62f8a5ee129f7a4ed0ec83f6f6dcd5418f8a620d1c17c801ffb6e80/annofabcli-1.9.1.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [scidatetime]: Downloading https://files.pythonhosted.org/packages/68/be/be330a44313539c6b89bb88278f270710c73298367ae4714db6a5c1bb253/scidatetime-1.20.1.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [pelicun]: Downloading https://files.pythonhosted.org/packages/03/da/e7b528e760d260558467263cb98af39cdc3c19797302f669ee63ca889cc9/pelicun-3.3.3.tar.gz
+[2024-05-08 08:24:07] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-08 08:24:07] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.7.tar.gz tmp/xmonkey_namonica-0.1.8.tar.gz --markdown 20240508/x/xmonkey-namonica/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-08 08:24:07] INFO root fetch - processPackages [prodsys]: executing diffoscope
+[2024-05-08 08:24:07] INFO root fetch - processPackages [prodsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodsys-0.6.2.tar.gz tmp/prodsys-0.6.3.tar.gz --markdown 20240508/p/prodsys/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-08 08:24:08] INFO root fetch - processPackages [scidatetime]: executing diffoscope
+[2024-05-08 08:24:08] INFO root fetch - processPackages [scidatetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scidatetime-1.19.6.tar.gz tmp/scidatetime-1.20.1.tar.gz --markdown 20240508/s/scidatetime/1.19.6-1.20.1/README.md --exclude *.pyd
+[2024-05-08 08:24:08] INFO root fetch - processPackages [annofabcli]: executing diffoscope
+[2024-05-08 08:24:08] INFO root fetch - processPackages [annofabcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annofabcli-1.9.0.tar.gz tmp/annofabcli-1.9.1.tar.gz --markdown 20240508/a/annofabcli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-08 08:24:08] INFO root fetch - processPackages [pelicun]: executing diffoscope
+[2024-05-08 08:24:08] INFO root fetch - processPackages [pelicun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelicun-3.3.2.tar.gz tmp/pelicun-3.3.3.tar.gz --markdown 20240508/p/pelicun/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-05-08 08:24:08] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.7.tar.gz]
+[2024-05-08 08:24:08] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-08 08:24:08] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-08 08:24:09] INFO root fetch - processPackages [scidatetime]: Remove: archive file [/home/abi/fetcher/tmp/scidatetime-1.19.6.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - processPackages [scidatetime]: Remove: archive file [/home/abi/fetcher/tmp/scidatetime-1.20.1.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - main [MainThread]: End processing [scidatetime]: success
+[2024-05-08 08:24:09] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.0.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - processPackages [annofabcli]: Remove: archive file [/home/abi/fetcher/tmp/annofabcli-1.9.1.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - main [MainThread]: End processing [annofabcli]: success
+[2024-05-08 08:24:09] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.2.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.3.tar.gz]
+[2024-05-08 08:24:09] INFO root fetch - main [MainThread]: End processing [prodsys]: success
+[2024-05-08 08:24:10] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.2.tar.gz]
+[2024-05-08 08:24:10] INFO root fetch - processPackages [pelicun]: Remove: archive file [/home/abi/fetcher/tmp/pelicun-3.3.3.tar.gz]
+[2024-05-08 08:24:10] INFO root fetch - main [MainThread]: End processing [pelicun]: success
+[2024-05-08 08:24:10] INFO root fetch - main [MainThread]: Store serial: [23109049]
