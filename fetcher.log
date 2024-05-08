@@ -10765,3 +10765,18 @@
 [2024-05-08 06:50:56] INFO root fetch - processPackages [frappe-bench]: Remove: archive file [/home/abi/fetcher/tmp/frappe_bench-5.9.0-py2.py3-none-any.whl.zip]
 [2024-05-08 06:50:56] INFO root fetch - main [MainThread]: End processing [frappe-bench]: success
 [2024-05-08 06:50:56] INFO root fetch - main [MainThread]: Store serial: [23108348]
+[2024-05-08 06:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108348]
+[2024-05-08 06:53:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deocde-jzb
+[2024-05-08 06:53:04] INFO root fetch - processPackages [charzr-lib]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-08 06:53:04] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/78/0a/9225086aa21672dca03aaf8022994552338e48aff9816fcca30cfb687e83/charzr_lib-1.1.1.tar.gz
+[2024-05-08 06:53:04] WARNING root fetch - processPackages [deocde-jzb]: Skipping, unable to determine old version
+[2024-05-08 06:53:04] INFO root fetch - main [MainThread]: End processing [deocde-jzb] error
+[2024-05-08 06:53:05] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/59/9b/ee71493b6d0bb86f44f3affe95f147f65bfb51b90320058ef1878c3d78db/charzr_lib-1.1.2.tar.gz
+[2024-05-08 06:53:05] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:53:05] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.1.1.tar.gz tmp/charzr_lib-1.1.2.tar.gz --markdown 20240508/c/charzr-lib/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-08 06:53:05] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.1.tar.gz]
+[2024-05-08 06:53:05] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.2.tar.gz]
+[2024-05-08 06:53:05] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:53:05] INFO root fetch - main [MainThread]: Store serial: [23108356]
