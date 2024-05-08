@@ -7926,3 +7926,33 @@
 [2024-05-08 04:00:11] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
 [2024-05-08 04:00:11] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
 [2024-05-08 04:00:11] INFO root fetch - main [MainThread]: Store serial: [23107387]
+[2024-05-08 04:02:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107387]
+[2024-05-08 04:02:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ilds
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langgraph-sdk
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ilds]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-08 04:02:20] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-08 04:02:20] INFO root fetch - processPackages [langgraph-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/49/0f/25659f22b1d5d6f5851aaca57b8ec8400bf56cfa9794de10e416fd0bd753/ilds-2024.5.6.tar.gz
+[2024-05-08 04:02:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-08 04:02:20] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/95/27/8bd7b3a46c26862ae3af617ee4c82e7ea911a563a870bd0784b3d64a3188/langgraph_sdk-0.1.1.tar.gz
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ilds]: Downloading https://files.pythonhosted.org/packages/c7/c6/dd6f0a5dada3ebc9781e925bfff947fe72d102461e39054bc5aaf120d318/ilds-2024.5.7.tar.gz
+[2024-05-08 04:02:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ilds]: executing diffoscope
+[2024-05-08 04:02:20] INFO root fetch - processPackages [ilds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilds-2024.5.6.tar.gz tmp/ilds-2024.5.7.tar.gz --markdown 20240508/i/ilds/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-08 04:02:20] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-08 04:02:20] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240508/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-08 04:02:20] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/42/aa/78e77a133ec34588f75bd24cca669ed1d57328389ee26243883632518de4/langgraph_sdk-0.1.2.tar.gz
+[2024-05-08 04:02:21] INFO root fetch - processPackages [langgraph-sdk]: executing diffoscope
+[2024-05-08 04:02:21] INFO root fetch - processPackages [langgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_sdk-0.1.1.tar.gz tmp/langgraph_sdk-0.1.2.tar.gz --markdown 20240508/l/langgraph-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 04:02:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-08 04:02:21] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.5.6.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - processPackages [ilds]: Remove: archive file [/home/abi/fetcher/tmp/ilds-2024.5.7.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - main [MainThread]: End processing [ilds]: success
+[2024-05-08 04:02:21] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.1.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.2.tar.gz]
+[2024-05-08 04:02:21] INFO root fetch - main [MainThread]: End processing [langgraph-sdk]: success
+[2024-05-08 04:02:21] INFO root fetch - main [MainThread]: Store serial: [23107397]
