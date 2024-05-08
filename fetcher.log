@@ -12286,3 +12286,39 @@
 [2024-05-08 08:41:40] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-05-08 08:41:40] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-05-08 08:41:40] INFO root fetch - main [MainThread]: Store serial: [23109172]
+[2024-05-08 08:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109172]
+[2024-05-08 08:43:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 08:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apn-validators
+[2024-05-08 08:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wonder-diffusion-sdk
+[2024-05-08 08:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandera
+[2024-05-08 08:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Chrmnder-lib
+[2024-05-08 08:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phringe
+[2024-05-08 08:43:49] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 08:43:49] WARNING root fetch - processPackages [apn-validators]: Skipping, unable to determine old version
+[2024-05-08 08:43:49] INFO root fetch - main [MainThread]: End processing [apn-validators] error
+[2024-05-08 08:43:49] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev2] Old Version: [0.0.6.dev1]
+[2024-05-08 08:43:49] WARNING root fetch - processPackages [Chrmnder-lib]: Skipping, unable to determine old version
+[2024-05-08 08:43:49] INFO root fetch - main [MainThread]: End processing [Chrmnder-lib] error
+[2024-05-08 08:43:49] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-08 08:43:49] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-05-08 08:43:49] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/43/c2/adcedab6a2a582d765b3c793aeef43c65104129ba0f1c4395f2b66c6945d/wonder-diffusion-sdk-0.0.6.dev1.tar.gz
+[2024-05-08 08:43:49] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2024-05-08 08:43:50] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-05-08 08:43:50] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-05-08 08:43:50] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240508/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 08:43:50] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/b0/9e/213e18a99bc10b4252d6941e2c67a9c732dce43e17726d2a65212a6f411c/wonder-diffusion-sdk-0.0.6.dev2.tar.gz
+[2024-05-08 08:43:50] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2024-05-08 08:43:50] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-08 08:43:50] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz --markdown 20240508/w/wonder-diffusion-sdk/0.0.6.dev1-0.0.6.dev2/README.md --exclude *.pyd
+[2024-05-08 08:43:50] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2024-05-08 08:43:50] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20240508/p/pandera/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 08:43:51] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-05-08 08:43:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-08 08:43:51] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2024-05-08 08:43:51] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2024-05-08 08:43:51] INFO root fetch - main [MainThread]: Store serial: [23109192]
