@@ -18094,3 +18094,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:03:13] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
 [2024-05-08 12:03:13] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2024-05-08 12:03:13] INFO root fetch - main [MainThread]: Store serial: [23111724]
+[2024-05-08 12:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111724]
+[2024-05-08 12:05:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: new-dt-algorithm
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cgelib
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynws
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msa-toolbox
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anyforce
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matlab-proxy
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rfc-sdk
+[2024-05-08 12:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyright
+[2024-05-08 12:05:23] INFO root fetch - processPackages [msa-toolbox]: New version: [1.0.2] Old Version: [0.0.2]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [new-dt-algorithm]: New version: [0.8] Old Version: [0.7]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [msa-toolbox]: Downloading https://files.pythonhosted.org/packages/66/b9/46d2352961fc57e8848e6f76c9bde66b39a9ff7084069ef411e9aaaf5953/msa_toolbox-0.0.2.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pynws]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [cgelib]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-08 12:05:23] WARNING root fetch - processPackages [rfc-sdk]: Skipping, unable to determine old version
+[2024-05-08 12:05:23] INFO root fetch - main [MainThread]: End processing [rfc-sdk] error
+[2024-05-08 12:05:23] INFO root fetch - processPackages [matlab-proxy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/3c/7a/52071f32511e14eff8a560357aa28d8754119805611538e904b40fee25db/new_dt_algorithm-0.7.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pyright]: New version: [1.1.362] Old Version: [1.1.361]
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/42/65/21f87b9c6bc1e45583e66c155ba81d36c6685847395e604711059d7701b1/pyright-1.1.361.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pynws]: Downloading https://files.pythonhosted.org/packages/d9/e5/b3cf9bdcaca2e30f59c750120d1a93899f7c2957e6e9ccb55bb7c9e49196/pynws-1.7.0.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [cgelib]: Downloading https://files.pythonhosted.org/packages/cc/c9/645f49bf57c0913dc9f52078eb20ca7032726290744763797e8a20f1085f/cgelib-0.7.4.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/8c/1b/86246a5edd6afa8b11b45f85898418cdb6809602d344ef7fbcd2bc478c88/matlab-proxy-0.9.0.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [msa-toolbox]: Downloading https://files.pythonhosted.org/packages/87/22/465163f32b3d3c281cc852c8aad34b064f5a92007151b6be33e42f34011d/msa_toolbox-1.0.2.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/7f/5c/b4012ff4d1e28281cfebcf3fd6b590537502a01a54c27f4e410d3c767989/new_dt_algorithm-0.8.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [msa-toolbox]: executing diffoscope
+[2024-05-08 12:05:23] INFO root fetch - processPackages [msa-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msa_toolbox-0.0.2.tar.gz tmp/msa_toolbox-1.0.2.tar.gz --markdown 20240508/m/msa-toolbox/0.0.2-1.0.2/README.md --exclude *.pyd
+[2024-05-08 12:05:23] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-08 12:05:23] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.7.tar.gz tmp/new_dt_algorithm-0.8.tar.gz --markdown 20240508/n/new-dt-algorithm/0.7-0.8/README.md --exclude *.pyd
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pynws]: Downloading https://files.pythonhosted.org/packages/a4/6c/8c3462eac93799707f27ba35db7052840355a3f7811f144bda07bdaf72f3/pynws-1.8.0.tar.gz
+[2024-05-08 12:05:23] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d5/36/327472a9984e2b82cb4e80492f95965aa46da9c9696f968aa754e35a2a61/pyright-1.1.362.tar.gz
+[2024-05-08 12:05:24] INFO root fetch - processPackages [cgelib]: Downloading https://files.pythonhosted.org/packages/91/92/1e302b0604c3b51edfc4a7c0e236a6138d7f6b17aa55fd23376da7425564/cgelib-0.7.5.tar.gz
+[2024-05-08 12:05:24] INFO root fetch - processPackages [pynws]: executing diffoscope
+[2024-05-08 12:05:24] INFO root fetch - processPackages [pynws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynws-1.7.0.tar.gz tmp/pynws-1.8.0.tar.gz --markdown 20240508/p/pynws/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-08 12:05:24] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2024-05-08 12:05:24] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20240508/a/anyforce/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-08 12:05:24] INFO root fetch - processPackages [cgelib]: executing diffoscope
+[2024-05-08 12:05:24] INFO root fetch - processPackages [cgelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgelib-0.7.4.tar.gz tmp/cgelib-0.7.5.tar.gz --markdown 20240508/c/cgelib/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-08 12:05:24] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/d1/9a/28fe0c3d77af6866803b3b114849cdbfb85326aadcd657cc8bec3c6ff78f/matlab-proxy-0.9.1.tar.gz
+[2024-05-08 12:05:24] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-05-08 12:05:24] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.361.tar.gz tmp/pyright-1.1.362.tar.gz --markdown 20240508/p/pyright/1.1.361-1.1.362/README.md --exclude *.pyd
+[2024-05-08 12:05:24] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.7.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.8.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-08 12:05:24] INFO root fetch - processPackages [msa-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/msa_toolbox-0.0.2.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - processPackages [msa-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/msa_toolbox-1.0.2.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - main [MainThread]: End processing [msa-toolbox]: success
+[2024-05-08 12:05:24] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2024-05-08 12:05:24] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.9.0.tar.gz tmp/matlab-proxy-0.9.1.tar.gz --markdown 20240508/m/matlab-proxy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 12:05:24] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2024-05-08 12:05:24] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2024-05-08 12:05:25] INFO root fetch - processPackages [pynws]: Remove: archive file [/home/abi/fetcher/tmp/pynws-1.7.0.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - processPackages [pynws]: Remove: archive file [/home/abi/fetcher/tmp/pynws-1.8.0.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - main [MainThread]: End processing [pynws]: success
+[2024-05-08 12:05:25] INFO root fetch - processPackages [cgelib]: Remove: archive file [/home/abi/fetcher/tmp/cgelib-0.7.4.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - processPackages [cgelib]: Remove: archive file [/home/abi/fetcher/tmp/cgelib-0.7.5.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - main [MainThread]: End processing [cgelib]: success
+[2024-05-08 12:05:25] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.361.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.362.tar.gz]
+[2024-05-08 12:05:25] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-05-08 12:05:26] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.0.tar.gz]
+[2024-05-08 12:05:26] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.1.tar.gz]
+[2024-05-08 12:05:26] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2024-05-08 12:05:26] INFO root fetch - main [MainThread]: Store serial: [23111747]
