@@ -23737,3 +23737,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:32:39] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.34-py2.py3-none-any.whl.zip]
 [2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
 [2024-05-08 15:32:39] INFO root fetch - main [MainThread]: Store serial: [23114223]
+[2024-05-08 15:34:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114223]
+[2024-05-08 15:34:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sync-roles
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cdk
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-ise
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: module-process
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-nightly
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkrcomponents
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccs-digitalmarketplace-utils
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparklestock
+[2024-05-08 15:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bastet
+[2024-05-08 15:34:48] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 15:34:48] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-05-08 15:34:48] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715166376] Old Version: [0.1.0a1715162059]
+[2024-05-08 15:34:48] INFO root fetch - processPackages [bastet]: New version: [0.1.1] Old Version: [0.1.0.dev1]
+[2024-05-08 15:34:49] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240508113816] Old Version: [3.4.1.dev20240508104758]
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/6d/0c/870879f79d570c1ad280e61e980245c38bebf6df9f02a4a2d8e29fe99e11/pg_sync_roles-0.0.3.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pkrcomponents]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-08 15:34:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc1] Old Version: [65.9.0]
+[2024-05-08 15:34:49] WARNING root fetch - processPackages [module-process]: Skipping, unable to determine old version
+[2024-05-08 15:34:49] INFO root fetch - processPackages [module-process]: Start processing: iac-init
+[2024-05-08 15:34:49] INFO root fetch - main [MainThread]: End processing [module-process] error
+[2024-05-08 15:34:49] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240507] Old Version: [1.34.1.dev20240506]
+[2024-05-08 15:34:49] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [bastet]: Downloading https://files.pythonhosted.org/packages/a0/9f/3fce51bbd543a4b8a0c4c110640ed893471065c8008c2c05333312fd18bd/bastet-0.1.0.dev1.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/d8/38/13460f12041a754f91381f6300f7ae0a4cfefb973622429adbb6d829999e/pulumi_ise-0.1.0a1715162059.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d1/af/868932c6212a6ee349e60ee2de0d6220384998b5bd1401827cb6e7e401d7/localstack_core-3.4.1.dev20240508104758.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [iac-init]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 15:34:49] WARNING root fetch - processPackages [sparklestock]: Skipping, unable to determine old version
+[2024-05-08 15:34:49] INFO root fetch - processPackages [sparklestock]: Start processing: CADET-RDM
+[2024-05-08 15:34:49] INFO root fetch - main [MainThread]: End processing [sparklestock] error
+[2024-05-08 15:34:49] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/46/7f/e660f6dc54a9dba104d37cc5a266a91ea1e3edf16f934ddc385c8c821adb/pkrcomponents-0.0.2-py3-none-any.whl
+[2024-05-08 15:34:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/e3/58/b581e9f1c3752ee354127a102ceb46dda9dfe9487af7e4c32cdc7ad8ce5d/ccs-digitalmarketplace-utils-65.9.0.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/76/c4/58e65b68f9b29d633f33cb71648758e5b49120f751648d306acbd8aefb20/streamlit_nightly-1.34.1.dev20240506.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [bastet]: Downloading https://files.pythonhosted.org/packages/2c/1e/ddb196d116c7effb0d5ae9668560915fe0bd55315cda1079a58ee9862270/bastet-0.1.1.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/c2/9a/370a32b75b1baa090ac3de8b2d911816d3c6e1e790490c32397d518cd275/pg_sync_roles-0.0.4.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f6/e3/ea083fd82bff554dd74fad19d4beef9ae99dd50f0f5d3a10e917605345de/iac_init-0.5.8.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/b8/6e/f505128df1dfe596bc3fd6231cab925531191e708a6d398e062915715376/CADET-RDM-0.0.6.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [bastet]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [bastet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastet-0.1.0.dev1.tar.gz tmp/bastet-0.1.1.tar.gz --markdown 20240508/b/bastet/0.1.0.dev1-0.1.1/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/99/1c/a3f2f859e92f67e869987a737c923a28e9de30a8fa871e9b0ae145202e70/pulumi_ise-0.2.0a1715166376.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.3.tar.gz tmp/pg_sync_roles-0.0.4.tar.gz --markdown 20240508/p/pg-sync-roles/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240508/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2f/0b/70e85722d49b1f4327d64688ded395967b91e49103a3a0228fa39092ad85/localstack_core-3.4.1.dev20240508113816.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/ee/8d/6728d23ecf123b2db3439c46d61a821a1842e8cbed0508ef21a8974be66d/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e2/e1/199bd8ec07d380390cfda91e99ae1dacba99b2a33b0e0564efdf6f685f1a/iac_init-0.5.9.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/c9/45/7d34250030ab5f921fd0d5349987f98d0ee2d716fe2a424b3c5543a2afd7/pkrcomponents-1.0.0.tar.gz
+[2024-05-08 15:34:49] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240508104758.tar.gz tmp/localstack_core-3.4.1.dev20240508113816.tar.gz --markdown 20240508/l/localstack-core/3.4.1.dev20240508104758-3.4.1.dev20240508113816/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz --markdown 20240508/c/ccs-digitalmarketplace-utils/65.9.0-66.0.0rc1/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-08 15:34:49] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.1.0a1715162059.tar.gz tmp/pulumi_ise-0.2.0a1715166376.tar.gz --markdown 20240508/p/pulumi-ise/0.1.0a1715162059-0.2.0a1715166376/README.md --exclude *.pyd
+[2024-05-08 15:34:49] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/8c/4f/cc6992d3cee849248ebcafed89c42d8801d905fc23651ef92b0ef0a83cb5/CADET-RDM-0.0.9.tar.gz
+[2024-05-08 15:34:50] WARNING root fetch - processPackages [pkrcomponents]: Skipping package: exceeds size limit 29787690>=10485760
+[2024-05-08 15:34:50] INFO root fetch - processPackages [pkrcomponents]: Start processing: CADET-RDM
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [pkrcomponents] error
+[2024-05-08 15:34:50] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-08 15:34:50] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.8.tar.gz tmp/iac_init-0.5.9.tar.gz --markdown 20240508/i/iac-init/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 15:34:50] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-05-08 15:34:50] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240508/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-08 15:34:50] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/0a2e1040841b107cd8afb0e4b3af121c24432af2d3fd46b4b5abe2d2126e/streamlit_nightly-1.34.1.dev20240507.tar.gz
+[2024-05-08 15:34:50] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-05-08 15:34:50] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240508/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-08 15:34:50] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.3.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.4.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-08 15:34:50] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-05-08 15:34:50] INFO root fetch - processPackages [bastet]: Remove: archive file [/home/abi/fetcher/tmp/bastet-0.1.0.dev1.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [bastet]: Remove: archive file [/home/abi/fetcher/tmp/bastet-0.1.1.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [bastet]: success
+[2024-05-08 15:34:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-65.9.0.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc1.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-05-08 15:34:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.8.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.9.tar.gz]
+[2024-05-08 15:34:50] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-08 15:34:51] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.6.tar.gz]
+[2024-05-08 15:34:51] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.9.tar.gz]
+[2024-05-08 15:34:51] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-05-08 15:34:51] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-05-08 15:34:51] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715162059.tar.gz]
+[2024-05-08 15:34:51] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715166376.tar.gz]
+[2024-05-08 15:34:51] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-08 15:34:51] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-08 15:34:51] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240506.tar.gz tmp/streamlit_nightly-1.34.1.dev20240507.tar.gz --markdown 20240508/s/streamlit-nightly/1.34.1.dev20240506-1.34.1.dev20240507/README.md --exclude *.pyd
+[2024-05-08 15:34:54] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508104758.tar.gz]
+[2024-05-08 15:34:54] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508113816.tar.gz]
+[2024-05-08 15:34:54] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-08 15:36:50] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240506.tar.gz]
+[2024-05-08 15:36:50] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240507.tar.gz]
+[2024-05-08 15:36:50] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-08 15:36:50] INFO root fetch - main [MainThread]: Store serial: [23114268]
