@@ -11831,3 +11831,18 @@
 [2024-05-08 08:12:53] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
 [2024-05-08 08:12:53] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
 [2024-05-08 08:12:53] INFO root fetch - main [MainThread]: Store serial: [23108863]
+[2024-05-08 08:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108863]
+[2024-05-08 08:15:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 08:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjops
+[2024-05-08 08:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reaccentz
+[2024-05-08 08:15:02] INFO root fetch - processPackages [cjops]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-08 08:15:02] INFO root fetch - processPackages [cjops]: Downloading https://files.pythonhosted.org/packages/b2/7a/b63ed44591756959addcd1ccdf1c64e1ff4700815445a7dcdad9797a15f3/cjops-1.0.4.tar.gz
+[2024-05-08 08:15:02] WARNING root fetch - processPackages [reaccentz]: Skipping, unable to determine old version
+[2024-05-08 08:15:02] INFO root fetch - main [MainThread]: End processing [reaccentz] error
+[2024-05-08 08:15:02] INFO root fetch - processPackages [cjops]: Downloading https://files.pythonhosted.org/packages/fd/de/27e50f1a64d7a7907a0a995cbcd0a2c09ded97eae84b6fe8292cc5e701fa/cjops-1.0.5.tar.gz
+[2024-05-08 08:15:02] INFO root fetch - processPackages [cjops]: executing diffoscope
+[2024-05-08 08:15:02] INFO root fetch - processPackages [cjops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjops-1.0.4.tar.gz tmp/cjops-1.0.5.tar.gz --markdown 20240508/c/cjops/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-08 08:15:03] INFO root fetch - processPackages [cjops]: Remove: archive file [/home/abi/fetcher/tmp/cjops-1.0.4.tar.gz]
+[2024-05-08 08:15:03] INFO root fetch - processPackages [cjops]: Remove: archive file [/home/abi/fetcher/tmp/cjops-1.0.5.tar.gz]
+[2024-05-08 08:15:03] INFO root fetch - main [MainThread]: End processing [cjops]: success
+[2024-05-08 08:15:03] INFO root fetch - main [MainThread]: Store serial: [23108879]
