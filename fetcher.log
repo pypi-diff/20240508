@@ -12484,3 +12484,42 @@
 [2024-05-08 08:50:24] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.3.tar.gz]
 [2024-05-08 08:50:24] INFO root fetch - main [MainThread]: End processing [prodsys]: success
 [2024-05-08 08:50:24] INFO root fetch - main [MainThread]: Store serial: [23109247]
+[2024-05-08 08:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109247]
+[2024-05-08 08:52:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rqrisk
+[2024-05-08 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: warmth
+[2024-05-08 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anydi
+[2024-05-08 08:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blueshed-gust
+[2024-05-08 08:52:32] INFO root fetch - processPackages [anydi]: New version: [0.25.0a1] Old Version: [0.25.0a0]
+[2024-05-08 08:52:32] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/52/86/a6f5dfdb0a57d0ecb7f6edee6c7879bd20282d85f33a1ddd3022eee835b2/anydi-0.25.0a0.tar.gz
+[2024-05-08 08:52:32] INFO root fetch - processPackages [warmth]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 08:52:32] INFO root fetch - processPackages [blueshed-gust]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 08:52:32] INFO root fetch - processPackages [rqrisk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 08:52:33] INFO root fetch - processPackages [warmth]: Downloading https://files.pythonhosted.org/packages/b4/a6/fcbedcfdefd36b1e1f00f36c39925c1bcd79848d43f43c24b5e2de7ee71a/warmth-0.0.2.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [rqrisk]: Downloading https://files.pythonhosted.org/packages/4b/af/f04b8cb4ba9706d14f8060d1b0a8b6833b6c318f893d581c800ddd9f17ae/rqrisk-1.0.8.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [anydi]: Downloading https://files.pythonhosted.org/packages/79/63/fde0b50b754d2b46559d081b40ad8a887814bda3559a0057fa1d8a9b7ba6/anydi-0.25.0a1.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/47/b0/cdcedf95f27e45187e6b25937da227f3025b51d15258970d3413bbcd1f2a/blueshed_gust-0.0.6.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [anydi]: executing diffoscope
+[2024-05-08 08:52:33] INFO root fetch - processPackages [anydi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anydi-0.25.0a0.tar.gz tmp/anydi-0.25.0a1.tar.gz --markdown 20240508/a/anydi/0.25.0a0-0.25.0a1/README.md --exclude *.pyd
+[2024-05-08 08:52:33] INFO root fetch - processPackages [warmth]: Downloading https://files.pythonhosted.org/packages/e2/52/acd7aca72c3ee05961cbf87379913e73725411d242c088a0b1ed1ad5d824/warmth-0.0.3.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/36/a8/2388f90ce25ea87484f86983b272e101a3cc6ca1dcaf9ad9b35c8f5c16c4/blueshed_gust-0.0.7.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [rqrisk]: Downloading https://files.pythonhosted.org/packages/e1/02/f07295ba91ea5b4ab71a3ad95016ae08c89e2650b2dbfabd7bdb4fd117b5/rqrisk-1.0.9.tar.gz
+[2024-05-08 08:52:33] INFO root fetch - processPackages [blueshed-gust]: executing diffoscope
+[2024-05-08 08:52:33] INFO root fetch - processPackages [blueshed-gust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueshed_gust-0.0.6.tar.gz tmp/blueshed_gust-0.0.7.tar.gz --markdown 20240508/b/blueshed-gust/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 08:52:33] INFO root fetch - processPackages [warmth]: executing diffoscope
+[2024-05-08 08:52:33] INFO root fetch - processPackages [warmth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warmth-0.0.2.tar.gz tmp/warmth-0.0.3.tar.gz --markdown 20240508/w/warmth/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 08:52:33] INFO root fetch - processPackages [rqrisk]: executing diffoscope
+[2024-05-08 08:52:33] INFO root fetch - processPackages [rqrisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqrisk-1.0.8.tar.gz tmp/rqrisk-1.0.9.tar.gz --markdown 20240508/r/rqrisk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 08:52:33] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.25.0a0.tar.gz]
+[2024-05-08 08:52:33] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.25.0a1.tar.gz]
+[2024-05-08 08:52:33] INFO root fetch - main [MainThread]: End processing [anydi]: success
+[2024-05-08 08:52:34] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.6.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.7.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - main [MainThread]: End processing [blueshed-gust]: success
+[2024-05-08 08:52:34] INFO root fetch - processPackages [rqrisk]: Remove: archive file [/home/abi/fetcher/tmp/rqrisk-1.0.8.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - processPackages [rqrisk]: Remove: archive file [/home/abi/fetcher/tmp/rqrisk-1.0.9.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - main [MainThread]: End processing [rqrisk]: success
+[2024-05-08 08:52:34] INFO root fetch - processPackages [warmth]: Remove: archive file [/home/abi/fetcher/tmp/warmth-0.0.2.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - processPackages [warmth]: Remove: archive file [/home/abi/fetcher/tmp/warmth-0.0.3.tar.gz]
+[2024-05-08 08:52:34] INFO root fetch - main [MainThread]: End processing [warmth]: success
+[2024-05-08 08:52:34] INFO root fetch - main [MainThread]: Store serial: [23109258]
