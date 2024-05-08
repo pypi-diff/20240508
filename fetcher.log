@@ -14085,3 +14085,30 @@
 [2024-05-08 10:00:18] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.2.tar.gz]
 [2024-05-08 10:00:18] INFO root fetch - main [MainThread]: End processing [agt-server]: success
 [2024-05-08 10:00:18] INFO root fetch - main [MainThread]: Store serial: [23110122]
+[2024-05-08 10:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110122]
+[2024-05-08 10:02:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-kfp-task-stub
+[2024-05-08 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartpasslib
+[2024-05-08 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-05-08 10:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2024-05-08 10:02:27] INFO root fetch - processPackages [qwak-core]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-08 10:02:27] WARNING root fetch - processPackages [simple-kfp-task-stub]: Skipping, unable to determine old version
+[2024-05-08 10:02:27] INFO root fetch - main [MainThread]: End processing [simple-kfp-task-stub] error
+[2024-05-08 10:02:27] WARNING root fetch - processPackages [smartpasslib]: Skipping, unable to determine old version
+[2024-05-08 10:02:27] INFO root fetch - main [MainThread]: End processing [smartpasslib] error
+[2024-05-08 10:02:27] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/ba/76/95305773140f405024441aabfc5f6adae4257a1d0c472f37cb15d2a87182/qwak_core-0.4.3.tar.gz
+[2024-05-08 10:02:27] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-08 10:02:27] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-08 10:02:27] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/3d/73/2048ef78d86adb6695bb9353a24ab725e6e130c301a7db8a65523797c953/qwak_core-0.4.4.tar.gz
+[2024-05-08 10:02:28] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-08 10:02:28] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-08 10:02:28] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.3.tar.gz tmp/qwak_core-0.4.4.tar.gz --markdown 20240508/q/qwak-core/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-08 10:02:28] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-08 10:02:28] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240508/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-08 10:02:28] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-08 10:02:28] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-08 10:02:28] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-08 10:02:30] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.3.tar.gz]
+[2024-05-08 10:02:30] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.4.tar.gz]
+[2024-05-08 10:02:30] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-08 10:02:30] INFO root fetch - main [MainThread]: Store serial: [23110135]
