@@ -2748,3 +2748,57 @@
 [2024-05-08 02:31:11] ERROR root fetch - processPackages [annonition]: Unable to get metadata: No such project 'annonition'
 [2024-05-08 02:31:11] INFO root fetch - main [MainThread]: End processing [annonition] error
 [2024-05-08 02:31:11] INFO root fetch - main [MainThread]: Store serial: [23105404]
+[2024-05-08 02:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105404]
+[2024-05-08 02:33:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PicaChu-lib
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twigs
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: braintrust
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpudb
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coop
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chyllonge
+[2024-05-08 02:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autochthonousz
+[2024-05-08 02:33:20] INFO root fetch - processPackages [coop]: New version: [6.0.0] Old Version: [5.2.3]
+[2024-05-08 02:33:20] WARNING root fetch - processPackages [autochthonousz]: Skipping, unable to determine old version
+[2024-05-08 02:33:20] INFO root fetch - main [MainThread]: End processing [autochthonousz] error
+[2024-05-08 02:33:20] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-08 02:33:20] WARNING root fetch - processPackages [PicaChu-lib]: Skipping, unable to determine old version
+[2024-05-08 02:33:20] INFO root fetch - main [MainThread]: End processing [PicaChu-lib] error
+[2024-05-08 02:33:20] INFO root fetch - processPackages [chyllonge]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-08 02:33:20] INFO root fetch - processPackages [braintrust]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 02:33:20] INFO root fetch - processPackages [coop]: Downloading https://files.pythonhosted.org/packages/79/2a/73d447382dcd474dedbbd65c730a1f6607730e67ed4456a8b79084c484af/coop-5.2.3.tar.gz
+[2024-05-08 02:33:20] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/48/d4/68adcc842577341551e4f4268c3f78866b55de0c9e324483d9de1b666386/twigs-1.1.8.tar.gz
+[2024-05-08 02:33:20] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/de/c6/30b3eb7e4b1c5983c8ec7e822a7e696104c7a7f1790bed3ef80a987f4941/braintrust-0.0.98.tar.gz
+[2024-05-08 02:33:21] INFO root fetch - processPackages [chyllonge]: Downloading https://files.pythonhosted.org/packages/53/91/c9bebc9cdaf659c824b15b1ab96d2a3c3b4b489c555a3ae4293e1f9790ff/chyllonge-1.0.5.tar.gz
+[2024-05-08 02:33:21] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bd/26/72df543bed4a12c9562f49bd7e81c0844d75e2a98f58941a7d24609cfb0a/braintrust-0.0.99.tar.gz
+[2024-05-08 02:33:21] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/87/16/2f49ac4cac24277167593805bf404e8590aaab1f2e1fa161752ff48a2074/twigs-1.1.9.tar.gz
+[2024-05-08 02:33:21] INFO root fetch - processPackages [gpudb]: New version: [7.2.0.7] Old Version: [7.2.0.6]
+[2024-05-08 02:33:21] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2024-05-08 02:33:21] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.98.tar.gz tmp/braintrust-0.0.99.tar.gz --markdown 20240508/b/braintrust/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 02:33:21] INFO root fetch - processPackages [chyllonge]: Downloading https://files.pythonhosted.org/packages/41/10/54b4051d392227db6f9ef331aba5de1bfcdd2f04d348c4148529f29b17b2/chyllonge-1.0.6.tar.gz
+[2024-05-08 02:33:21] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/ab/54/fc6bab6ad82300aafc0302d861e20aac16de07faeae9c3152af1f9d0e78d/gpudb-7.2.0.6-cp39-cp39-win_amd64.whl
+[2024-05-08 02:33:21] INFO root fetch - processPackages [chyllonge]: executing diffoscope
+[2024-05-08 02:33:21] INFO root fetch - processPackages [chyllonge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chyllonge-1.0.5.tar.gz tmp/chyllonge-1.0.6.tar.gz --markdown 20240508/c/chyllonge/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-08 02:33:21] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2024-05-08 02:33:21] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20240508/t/twigs/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-08 02:33:21] INFO root fetch - processPackages [gpudb]: Downloading https://files.pythonhosted.org/packages/df/d1/af29ce3d34d842514fdf673b422c213c25e28601f4bb9775ce85f9dbb47f/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl
+[2024-05-08 02:33:21] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.98.tar.gz]
+[2024-05-08 02:33:21] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
+[2024-05-08 02:33:21] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2024-05-08 02:33:22] INFO root fetch - processPackages [chyllonge]: Remove: archive file [/home/abi/fetcher/tmp/chyllonge-1.0.5.tar.gz]
+[2024-05-08 02:33:22] INFO root fetch - processPackages [chyllonge]: Remove: archive file [/home/abi/fetcher/tmp/chyllonge-1.0.6.tar.gz]
+[2024-05-08 02:33:22] INFO root fetch - main [MainThread]: End processing [chyllonge]: success
+[2024-05-08 02:33:22] INFO root fetch - processPackages [gpudb]: executing diffoscope
+[2024-05-08 02:33:22] INFO root fetch - processPackages [gpudb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpudb-7.2.0.6-cp39-cp39-win_amd64.whl.zip tmp/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl.zip --markdown 20240508/g/gpudb/7.2.0.6-7.2.0.7/README.md --exclude *.pyd
+[2024-05-08 02:33:22] INFO root fetch - processPackages [coop]: Downloading https://files.pythonhosted.org/packages/37/23/b4d598a519aa223a25e51644b0b850307dddcabed6af51731829ce14cdef/coop-6.0.0.tar.gz
+[2024-05-08 02:33:22] INFO root fetch - processPackages [coop]: executing diffoscope
+[2024-05-08 02:33:22] INFO root fetch - processPackages [coop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coop-5.2.3.tar.gz tmp/coop-6.0.0.tar.gz --markdown 20240508/c/coop/5.2.3-6.0.0/README.md --exclude *.pyd
+[2024-05-08 02:33:22] INFO root fetch - processPackages [twigs]: Remove: archive file [/home/abi/fetcher/tmp/twigs-1.1.8.tar.gz]
+[2024-05-08 02:33:22] INFO root fetch - processPackages [twigs]: Remove: archive file [/home/abi/fetcher/tmp/twigs-1.1.9.tar.gz]
+[2024-05-08 02:33:22] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2024-05-08 02:33:23] INFO root fetch - processPackages [gpudb]: Remove: archive file [/home/abi/fetcher/tmp/gpudb-7.2.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 02:33:23] INFO root fetch - processPackages [gpudb]: Remove: archive file [/home/abi/fetcher/tmp/gpudb-7.2.0.7-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 02:33:23] INFO root fetch - main [MainThread]: End processing [gpudb]: success
+[2024-05-08 02:33:23] INFO root fetch - processPackages [coop]: Remove: archive file [/home/abi/fetcher/tmp/coop-5.2.3.tar.gz]
+[2024-05-08 02:33:23] INFO root fetch - processPackages [coop]: Remove: archive file [/home/abi/fetcher/tmp/coop-6.0.0.tar.gz]
+[2024-05-08 02:33:23] INFO root fetch - main [MainThread]: End processing [coop]: success
+[2024-05-08 02:33:23] INFO root fetch - main [MainThread]: Store serial: [23105461]
