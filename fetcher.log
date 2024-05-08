@@ -18976,3 +18976,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:39:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz]
 [2024-05-08 12:39:14] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-08 12:39:14] INFO root fetch - main [MainThread]: Store serial: [23112066]
+[2024-05-08 12:41:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112066]
+[2024-05-08 12:41:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymemgpt-nightly
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ucam-faas
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgeniepy
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langcheck
+[2024-05-08 12:41:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anotify
+[2024-05-08 12:41:23] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-08 12:41:23] INFO root fetch - processPackages [cgeniepy]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-08 12:41:23] INFO root fetch - processPackages [langcheck]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-08 12:41:23] INFO root fetch - processPackages [anotify]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 12:41:23] WARNING root fetch - processPackages [ucam-faas]: Skipping, unable to determine old version
+[2024-05-08 12:41:23] INFO root fetch - main [MainThread]: End processing [ucam-faas] error
+[2024-05-08 12:41:23] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-08 12:41:23] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-08 12:41:23] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/22/27/d8e07ebf924c926afa9c29cabcb3c7b121c968688f2e13da307ccde6d63c/langcheck-0.6.0.tar.gz
+[2024-05-08 12:41:23] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/b7/98/eee2c884ab93070afc5db081d7a9ce2bfd1a3aa7060ef6e6269dcf003f68/cgeniepy-0.7.4.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/81/38/25beb1197577318effce104b1cab4c474421137489072efa2e240d56dde5/anotify-0.0.4.tar.gz
+[2024-05-08 12:41:24] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-08 12:41:24] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-08 12:41:24] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [cgeniepy]: Downloading https://files.pythonhosted.org/packages/5c/d2/1553518c6b08d35659a6888c610de0d6f8979893c79d4729d7c29eb3a25d/cgeniepy-0.7.5.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-08 12:41:24] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240508/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-08 12:41:24] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/ee/92/2c40382208801a23b0e340ba9fe06231a41f2749ec35f2a6c4708d116dcb/anotify-0.0.5.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/99/0e/a8dd0e921718df4c92c50674d9e0f7c2b97c19a745467397bcfdd841b8d1/langcheck-0.7.0.tar.gz
+[2024-05-08 12:41:24] INFO root fetch - processPackages [cgeniepy]: executing diffoscope
+[2024-05-08 12:41:24] INFO root fetch - processPackages [cgeniepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgeniepy-0.7.4.tar.gz tmp/cgeniepy-0.7.5.tar.gz --markdown 20240508/c/cgeniepy/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-08 12:41:24] INFO root fetch - processPackages [langcheck]: executing diffoscope
+[2024-05-08 12:41:24] INFO root fetch - processPackages [langcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcheck-0.6.0.tar.gz tmp/langcheck-0.7.0.tar.gz --markdown 20240508/l/langcheck/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-08 12:41:24] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-08 12:41:24] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.0.4.tar.gz tmp/anotify-0.0.5.tar.gz --markdown 20240508/a/anotify/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 12:41:25] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.4.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - processPackages [cgeniepy]: Remove: archive file [/home/abi/fetcher/tmp/cgeniepy-0.7.5.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - main [MainThread]: End processing [cgeniepy]: success
+[2024-05-08 12:41:25] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.4.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.0.5.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-08 12:41:25] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.6.0.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.7.0.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - main [MainThread]: End processing [langcheck]: success
+[2024-05-08 12:41:25] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-08 12:41:25] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-08 12:41:25] INFO root fetch - main [MainThread]: Store serial: [23112086]
