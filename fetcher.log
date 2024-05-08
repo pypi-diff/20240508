@@ -11743,3 +11743,33 @@
 [2024-05-08 08:06:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-05-08 08:06:17] INFO root fetch - main [MainThread]: Store serial: [23108789]
+[2024-05-08 08:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108789]
+[2024-05-08 08:08:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 08:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itrm
+[2024-05-08 08:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MMLToolbox
+[2024-05-08 08:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoThemeGenerator
+[2024-05-08 08:08:26] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 08:08:26] INFO root fetch - processPackages [itrm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 08:08:26] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/84/3f/b5e7fc6009ce0354b4675373a4bc5c42de75d53bfa65722db25d842c05de/itrm-0.1.8.tar.gz
+[2024-05-08 08:08:26] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/1a/15/8aa76540528712f59d4ea5d95667eb5ede9c97dd3c546900cadbd8b5f963/autothemegenerator-0.0.8.tar.gz
+[2024-05-08 08:08:26] INFO root fetch - processPackages [MMLToolbox]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-08 08:08:26] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/1b/00/7cb4fee68a08bd17314276e652b07aa6363a35b2e2ea5c4ec1abd02e92fc/MMLToolbox-1.0.9.tar.gz
+[2024-05-08 08:08:26] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/35/d9/2923458248fefadc46291ec0e8d452d1a4bb64cfaee00db5b884895e3ecc/itrm-0.1.9.tar.gz
+[2024-05-08 08:08:26] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/d9/8b/dd472d96d2df44068ec1276f140c7136c44af7cb0e2288a8967316dc3639/autothemegenerator-0.0.9.tar.gz
+[2024-05-08 08:08:26] INFO root fetch - processPackages [itrm]: executing diffoscope
+[2024-05-08 08:08:26] INFO root fetch - processPackages [itrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itrm-0.1.8.tar.gz tmp/itrm-0.1.9.tar.gz --markdown 20240508/i/itrm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 08:08:27] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-08 08:08:27] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.0.8.tar.gz tmp/autothemegenerator-0.0.9.tar.gz --markdown 20240508/A/AutoThemeGenerator/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 08:08:27] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/90/20/06220a76fe4f63c0dff65341154d50ea55c239fe36e69fe0114c1eb125b5/MMLToolbox-1.1.0-py3-none-any.whl
+[2024-05-08 08:08:27] INFO root fetch - processPackages [MMLToolbox]: executing diffoscope
+[2024-05-08 08:08:27] INFO root fetch - processPackages [MMLToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMLToolbox-1.0.9.tar.gz tmp/MMLToolbox-1.1.0-py3-none-any.whl.zip --markdown 20240508/M/MMLToolbox/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-08 08:08:27] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.8.tar.gz]
+[2024-05-08 08:08:27] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.9.tar.gz]
+[2024-05-08 08:08:27] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-08 08:08:27] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.8.tar.gz]
+[2024-05-08 08:08:27] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.9.tar.gz]
+[2024-05-08 08:08:27] INFO root fetch - main [MainThread]: End processing [itrm]: success
+[2024-05-08 08:08:27] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.0.9.tar.gz]
+[2024-05-08 08:08:27] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.1.0-py3-none-any.whl.zip]
+[2024-05-08 08:08:27] INFO root fetch - main [MainThread]: End processing [MMLToolbox]: success
+[2024-05-08 08:08:27] INFO root fetch - main [MainThread]: Store serial: [23108797]
