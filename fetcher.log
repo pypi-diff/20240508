@@ -17747,3 +17747,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:47:28] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
 [2024-05-08 11:47:28] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
 [2024-05-08 11:47:28] INFO root fetch - main [MainThread]: Store serial: [23111560]
+[2024-05-08 11:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111560]
+[2024-05-08 11:49:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requirements-checker
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treasury-gov-pandas
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretzelai
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trio-bybit
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: treasury-gov-pandas
+[2024-05-08 11:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fittrackee
+[2024-05-08 11:49:37] INFO root fetch - processPackages [pretzelai]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [trio-bybit]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.2a0] Old Version: [0.0.2]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.2a0] Old Version: [0.0.2]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [testplans]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [pretzelai]: Downloading https://files.pythonhosted.org/packages/e6/f8/80ddcec66bd137237a1a09458d9262df7b41dd178c3b0b0fa0162dd96646/pretzelai-0.2.0.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [requirements-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/74/37/4a69afc0ffafd5dfa22bb4f61a29bb070e44619f1af724045ba027e87b7f/trio_bybit-0.1.7.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/8e/b5/b55be476a0e6b159427a50bbe636e53e1ef9738ac70535cc78f3f5501693/treasury_gov_pandas-0.0.2.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [fittrackee]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/8e/b5/b55be476a0e6b159427a50bbe636e53e1ef9738ac70535cc78f3f5501693/treasury_gov_pandas-0.0.2.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/79/fa/1230a2946bb9ae3a61c55554c7bba3a623eecc14788d5c315701c178e4b2/testplans-0.2.6.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/89/1c/b5d2a0ff6e8b37530f2972ebeebaf7cb3a2228d1c30646a8c7a93516c536/requirements_checker-0.1.8.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/66/ea/7f24a140ebdfe30d5e67177c59004e01d636dbb4f0adeb6def82868e3e0a/trio_bybit-0.2.0.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/19/f7/aedc8d1d75b684b77d1d163c4485251ce5fd122688642e8fecf0bdf63664/treasury_gov_pandas-0.0.2a0.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/ee/5e/bb51b62407246262637115efbcf9da7bb95b1e327ee68d21027946190307/fittrackee-0.8.1.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/19/f7/aedc8d1d75b684b77d1d163c4485251ce5fd122688642e8fecf0bdf63664/treasury_gov_pandas-0.0.2a0.tar.gz
+[2024-05-08 11:49:37] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-05-08 11:49:37] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.7.tar.gz tmp/trio_bybit-0.2.0.tar.gz --markdown 20240508/t/trio-bybit/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.2.tar.gz tmp/treasury_gov_pandas-0.0.2a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.2-0.0.2a0/README.md --exclude *.pyd
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 11:49:37] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.2.tar.gz tmp/treasury_gov_pandas-0.0.2a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.2-0.0.2a0/README.md --exclude *.pyd
+[2024-05-08 11:49:37] INFO root fetch - processPackages [pretzelai]: Downloading https://files.pythonhosted.org/packages/4c/e1/580a3ee5df017c41141fbca7ddf0f5812302ff86d152cb0c70a98ba4befa/pretzelai-0.2.1-py3-none-any.whl
+[2024-05-08 11:49:38] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/a5/88/37287bcef0865ee2bec66a1ff51acdbe38bb340e2e9ec4bd2b0abefda76f/testplans-0.2.7.tar.gz
+[2024-05-08 11:49:38] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/81/53/bd2e1b82ed32c2f7cfe852f4630f7b89232eb02baf877a4ac355d41801c5/requirements_checker-0.1.9.tar.gz
+[2024-05-08 11:49:38] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-08 11:49:38] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.6.tar.gz tmp/testplans-0.2.7.tar.gz --markdown 20240508/t/testplans/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-08 11:49:38] INFO root fetch - processPackages [requirements-checker]: executing diffoscope
+[2024-05-08 11:49:38] INFO root fetch - processPackages [requirements-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirements_checker-0.1.8.tar.gz tmp/requirements_checker-0.1.9.tar.gz --markdown 20240508/r/requirements-checker/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 11:49:38] INFO root fetch - processPackages [pretzelai]: executing diffoscope
+[2024-05-08 11:49:38] INFO root fetch - processPackages [pretzelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretzelai-0.2.0.tar.gz tmp/pretzelai-0.2.1-py3-none-any.whl.zip --markdown 20240508/p/pretzelai/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 11:49:38] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.2.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.2a0.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 11:49:38] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.7.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.0.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-05-08 11:49:38] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/3d/49/e8e9e5b1ebfce74a794d5994a2fee77fafc32acdbc8b02f2182897604f72/fittrackee-0.8.2.tar.gz
+[2024-05-08 11:49:38] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 11:49:38] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.6.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.7.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-08 11:49:38] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.8.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.9.tar.gz]
+[2024-05-08 11:49:38] INFO root fetch - main [MainThread]: End processing [requirements-checker]: success
+[2024-05-08 11:49:40] INFO root fetch - processPackages [pretzelai]: Remove: archive file [/home/abi/fetcher/tmp/pretzelai-0.2.0.tar.gz]
+[2024-05-08 11:49:40] INFO root fetch - processPackages [pretzelai]: Remove: archive file [/home/abi/fetcher/tmp/pretzelai-0.2.1-py3-none-any.whl.zip]
+[2024-05-08 11:49:40] INFO root fetch - main [MainThread]: End processing [pretzelai]: success
+[2024-05-08 11:49:41] INFO root fetch - processPackages [fittrackee]: executing diffoscope
+[2024-05-08 11:49:41] INFO root fetch - processPackages [fittrackee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittrackee-0.8.1.tar.gz tmp/fittrackee-0.8.2.tar.gz --markdown 20240508/f/fittrackee/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-08 11:49:50] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.1.tar.gz]
+[2024-05-08 11:49:50] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.2.tar.gz]
+[2024-05-08 11:49:50] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
+[2024-05-08 11:49:50] INFO root fetch - main [MainThread]: Store serial: [23111580]
