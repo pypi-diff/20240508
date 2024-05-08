@@ -8708,3 +8708,45 @@
 [2024-05-08 04:46:21] INFO root fetch - processPackages [check-sdist]: Remove: archive file [/home/abi/fetcher/tmp/check_sdist-1.0.0rc1.tar.gz]
 [2024-05-08 04:46:21] INFO root fetch - main [MainThread]: End processing [check-sdist]: success
 [2024-05-08 04:46:21] INFO root fetch - main [MainThread]: Store serial: [23107686]
+[2024-05-08 04:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107686]
+[2024-05-08 04:48:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comfy-cli
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedge-lab-ct
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pcffont
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: machine-learning-model-local
+[2024-05-08 04:48:30] INFO root fetch - processPackages [pcffont]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 04:48:30] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:48:30] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/8f/65/c5a79f96f3fb90276c59162aeffa250d4afc055e628f150f637b57290373/pcffont-0.0.7.tar.gz
+[2024-05-08 04:48:30] WARNING root fetch - processPackages [hedge-lab-ct]: Skipping, unable to determine old version
+[2024-05-08 04:48:30] INFO root fetch - main [MainThread]: End processing [hedge-lab-ct] error
+[2024-05-08 04:48:30] INFO root fetch - processPackages [machine-learning-model-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 04:48:30] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-08 04:48:30] INFO root fetch - processPackages [machine-learning-model-local]: Downloading https://files.pythonhosted.org/packages/dd/25/50ca5c310ef4bef01543257e11e0afc050ed05fbee2d6237874c8ecc6aa3/machine-learning-model-local-0.0.3.tar.gz
+[2024-05-08 04:48:30] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-08 04:48:30] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/92/35/03862ad6dd7b59fd56a2b6550361d86db7575145d828ac85b1bfa29d722d/pcffont-0.0.8.tar.gz
+[2024-05-08 04:48:30] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-08 04:48:30] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-08 04:48:30] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240508/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:48:31] INFO root fetch - processPackages [machine-learning-model-local]: Downloading https://files.pythonhosted.org/packages/54/dc/37e45f6a7b36ef3635899914e5cda262a52ea3f746ce00ac380d54f25274/machine_learning_model_local-0.0.4.tar.gz
+[2024-05-08 04:48:31] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-05-08 04:48:31] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.7.tar.gz tmp/pcffont-0.0.8.tar.gz --markdown 20240508/p/pcffont/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 04:48:31] INFO root fetch - processPackages [machine-learning-model-local]: executing diffoscope
+[2024-05-08 04:48:31] INFO root fetch - processPackages [machine-learning-model-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machine-learning-model-local-0.0.3.tar.gz tmp/machine_learning_model_local-0.0.4.tar.gz --markdown 20240508/m/machine-learning-model-local/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 04:48:31] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-08 04:48:31] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-08 04:48:31] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-08 04:48:31] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-08 04:48:31] INFO root fetch - processPackages [machine-learning-model-local]: Remove: archive file [/home/abi/fetcher/tmp/machine-learning-model-local-0.0.3.tar.gz]
+[2024-05-08 04:48:31] INFO root fetch - processPackages [machine-learning-model-local]: Remove: archive file [/home/abi/fetcher/tmp/machine_learning_model_local-0.0.4.tar.gz]
+[2024-05-08 04:48:31] INFO root fetch - main [MainThread]: End processing [machine-learning-model-local]: success
+[2024-05-08 04:48:31] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-08 04:48:31] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240508/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-08 04:48:32] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.7.tar.gz]
+[2024-05-08 04:48:32] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.8.tar.gz]
+[2024-05-08 04:48:32] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-05-08 04:48:35] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-08 04:48:35] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-08 04:48:35] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-08 04:48:35] INFO root fetch - main [MainThread]: Store serial: [23107703]
