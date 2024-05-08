@@ -9261,3 +9261,42 @@
 [2024-05-08 05:19:20] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-1.0.1-py2.py3-none-any.whl.zip]
 [2024-05-08 05:19:20] INFO root fetch - main [MainThread]: End processing [iturtle]: success
 [2024-05-08 05:19:20] INFO root fetch - main [MainThread]: Store serial: [23107904]
+[2024-05-08 05:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107904]
+[2024-05-08 05:21:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-newrelic
+[2024-05-08 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uac-api
+[2024-05-08 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedmongo
+[2024-05-08 05:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-toolkit
+[2024-05-08 05:21:29] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 05:21:29] INFO root fetch - processPackages [typedmongo]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-08 05:21:29] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 05:21:29] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/39/19/f04fa8d3a0c077cbdebbc53aef21720df03700e83620d02f9e36aa0f6424/typedmongo-1.3.0.tar.gz
+[2024-05-08 05:21:29] INFO root fetch - processPackages [uac-api]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-08 05:21:29] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 05:21:29] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/63/16/77ba9351580bcc9f3e9e78d2b4f1b01bc4000ba63860420fafcb0deb0922/uac-api-0.4.1.tar.gz
+[2024-05-08 05:21:29] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 05:21:29] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 05:21:29] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/c6/6b/cef3fd8a8386dccad6a699081508559ddf693713bbd069c2bcaa0c750dae/typedmongo-1.4.0.tar.gz
+[2024-05-08 05:21:29] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-08 05:21:30] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-05-08 05:21:30] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.3.0.tar.gz tmp/typedmongo-1.4.0.tar.gz --markdown 20240508/t/typedmongo/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-08 05:21:30] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/d0/03/d32244926f987c5267299c618251e88ce6bee4484d3271350dc5a2e70b1b/uac-api-0.4.2.tar.gz
+[2024-05-08 05:21:30] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/55/6c/13147eb9dc112527bf0b1655b4fe6d422b316473a9b1bba53a578fefe783/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz
+[2024-05-08 05:21:30] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-05-08 05:21:30] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.4.1.tar.gz tmp/uac-api-0.4.2.tar.gz --markdown 20240508/u/uac-api/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-08 05:21:30] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 05:21:30] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.3.0.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.4.0.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-05-08 05:21:30] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/88/f8/83dfce55259c0d4cd856368434e57e65d27ab17a9f11f751221db52666a7/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz
+[2024-05-08 05:21:30] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.1.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.2.tar.gz]
+[2024-05-08 05:21:30] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-05-08 05:21:31] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2024-05-08 05:21:31] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz --markdown 20240508/c/cdktf-cdktf-provider-newrelic/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-08 05:21:34] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.2.tar.gz]
+[2024-05-08 05:21:34] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
+[2024-05-08 05:21:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2024-05-08 05:21:34] INFO root fetch - main [MainThread]: Store serial: [23107915]
