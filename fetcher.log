@@ -15858,3 +15858,74 @@
 [2024-05-08 10:49:25] INFO root fetch - processPackages [splunk-appinspect]: Remove: archive file [/home/abi/fetcher/tmp/splunk-appinspect-3.7.0.tar.gz]
 [2024-05-08 10:49:25] INFO root fetch - main [MainThread]: End processing [splunk-appinspect]: success
 [2024-05-08 10:49:25] INFO root fetch - main [MainThread]: Store serial: [23110839]
+[2024-05-08 10:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110839]
+[2024-05-08 10:51:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bilichat
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FRETpredict
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manhelp
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-broadcast
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NetHyTech-MCV
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timed-decorator
+[2024-05-08 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upgini
+[2024-05-08 10:51:34] INFO root fetch - processPackages [NetHyTech-MCV]: New version: [1.0] Old Version: [0.1.0]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [manhelp]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240508082921] Old Version: [3.4.1.dev20240507160031]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/f6/1d/7c900e6dd57ceda52e53c45db994f28709dca05fc7a4003ae49de6911697/python_telegram_broadcast-0.9.3.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [FRETpredict]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [timed-decorator]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/f0/3f4bc5c26f9f82674bc1683a989e2170e7cbbf1df7f1177e3e2aca02a990/localstack_core-3.4.1.dev20240507160031.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-08 10:51:34] INFO root fetch - processPackages [manhelp]: Downloading https://files.pythonhosted.org/packages/e9/ab/8190dfd0fec2b4127a54163d66b9815464f078e822b4fc183b3a570c4ba1/manhelp-0.1.32.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [NetHyTech-MCV]: Downloading https://files.pythonhosted.org/packages/4b/9e/1f33e96b5991f22c6b6048d0ab07bdc67e1a76940c7acdbac5deb61a78ed/NetHyTech_MCV-0.1.0-py3-none-any.whl
+[2024-05-08 10:51:34] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/a8/b1/39d1cccb9707adc8966353d903f7026ba6c55650498ad28c75543d0055f7/nonebot_plugin_bilichat-5.9.2.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [FRETpredict]: Downloading https://files.pythonhosted.org/packages/47/2d/390fc831caaff4a9c308a96cdee8009bce1cd194eb55678dcb122b60333d/FRETpredict-0.1.9.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-08 10:51:34] WARNING root fetch - processPackages [FRETpredict]: Skipping package: exceeds size limit 29355194>=10485760
+[2024-05-08 10:51:34] INFO root fetch - main [MainThread]: End processing [FRETpredict] error
+[2024-05-08 10:51:34] INFO root fetch - processPackages [timed-decorator]: Downloading https://files.pythonhosted.org/packages/67/95/fef7570d32d6605841c9a64370827225430221796e78aa7cb9a03ee5f58d/timed_decorator-1.5.0.tar.gz
+[2024-05-08 10:51:34] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/8e/ca/59b3d1632b3f1385fd440b5f409ec5e4b05aba98c97138dbaf9fb564a950/python_telegram_broadcast-0.9.4.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [NetHyTech-MCV]: Downloading https://files.pythonhosted.org/packages/34/92/b9381fe9bf609ece792692be858dccd57b645dc1d0cff2fc7d63c4db195a/NetHyTech_MCV-1.0-py3-none-any.whl
+[2024-05-08 10:51:35] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/82/37/1edd2792383313b751f32489cf8ff67e770a5efe2396bf983a0820939eb3/nonebot_plugin_bilichat-5.9.3.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [manhelp]: Downloading https://files.pythonhosted.org/packages/6b/e3/43153d7f79ef47c8398fa136ca59c02f8bcf228494200c9e18a1f467f80f/manhelp-0.1.33.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.9.3.tar.gz tmp/python_telegram_broadcast-0.9.4.tar.gz --markdown 20240508/p/python-telegram-broadcast/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/bb/c4/0653468d309ce27805ba36b91aebd2f517013cbd8e05da462fe9f7aa2e28/localstack_core-3.4.1.dev20240508082921.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [NetHyTech-MCV]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [NetHyTech-MCV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetHyTech_MCV-0.1.0-py3-none-any.whl.zip tmp/NetHyTech_MCV-1.0-py3-none-any.whl.zip --markdown 20240508/N/NetHyTech-MCV/0.1.0-1.0/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [manhelp]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [manhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhelp-0.1.32.tar.gz tmp/manhelp-0.1.33.tar.gz --markdown 20240508/m/manhelp/0.1.32-0.1.33/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [timed-decorator]: Downloading https://files.pythonhosted.org/packages/f5/4d/e6fc276412705901eeec31d77acdc46264af4f873995bcfb26dba54746f5/timed_decorator-1.5.1.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.9.2.tar.gz tmp/nonebot_plugin_bilichat-5.9.3.tar.gz --markdown 20240508/n/nonebot-plugin-bilichat/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [timed-decorator]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [timed-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timed_decorator-1.5.0.tar.gz tmp/timed_decorator-1.5.1.tar.gz --markdown 20240508/t/timed-decorator/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240507160031.tar.gz tmp/localstack_core-3.4.1.dev20240508082921.tar.gz --markdown 20240508/l/localstack-core/3.4.1.dev20240507160031-3.4.1.dev20240508082921/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-08 10:51:35] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-08 10:51:35] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240508/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-08 10:51:35] INFO root fetch - processPackages [NetHyTech-MCV]: Remove: archive file [/home/abi/fetcher/tmp/NetHyTech_MCV-0.1.0-py3-none-any.whl.zip]
+[2024-05-08 10:51:35] INFO root fetch - processPackages [NetHyTech-MCV]: Remove: archive file [/home/abi/fetcher/tmp/NetHyTech_MCV-1.0-py3-none-any.whl.zip]
+[2024-05-08 10:51:35] INFO root fetch - main [MainThread]: End processing [NetHyTech-MCV]: success
+[2024-05-08 10:51:35] INFO root fetch - processPackages [manhelp]: Remove: archive file [/home/abi/fetcher/tmp/manhelp-0.1.32.tar.gz]
+[2024-05-08 10:51:35] INFO root fetch - processPackages [manhelp]: Remove: archive file [/home/abi/fetcher/tmp/manhelp-0.1.33.tar.gz]
+[2024-05-08 10:51:35] INFO root fetch - main [MainThread]: End processing [manhelp]: success
+[2024-05-08 10:51:35] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.3.tar.gz]
+[2024-05-08 10:51:35] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.4.tar.gz]
+[2024-05-08 10:51:35] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-08 10:51:36] INFO root fetch - processPackages [timed-decorator]: Remove: archive file [/home/abi/fetcher/tmp/timed_decorator-1.5.0.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - processPackages [timed-decorator]: Remove: archive file [/home/abi/fetcher/tmp/timed_decorator-1.5.1.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - main [MainThread]: End processing [timed-decorator]: success
+[2024-05-08 10:51:36] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.2.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.3.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-05-08 10:51:36] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-08 10:51:36] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-08 10:51:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507160031.tar.gz]
+[2024-05-08 10:51:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508082921.tar.gz]
+[2024-05-08 10:51:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-08 10:51:39] INFO root fetch - main [MainThread]: Store serial: [23110861]
