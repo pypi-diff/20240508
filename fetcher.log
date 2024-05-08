@@ -14729,3 +14729,142 @@
 [2024-05-08 10:20:15] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.4.tar.gz]
 [2024-05-08 10:20:15] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
 [2024-05-08 10:20:15] INFO root fetch - main [MainThread]: Store serial: [23110380]
+[2024-05-08 10:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110380]
+[2024-05-08 10:22:23] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vis-analysis-torch
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-model-lineage
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grasp-planning
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labnas
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-model-lineage
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvprocessor
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tilearn-llm
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2024-05-08 10:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aissemble-foundation-pdp-client-python
+[2024-05-08 10:22:24] INFO root fetch - processPackages [vis-analysis-torch]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [grasp-planning]: New version: [0.3] Old Version: [0.2]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/75/24/0549d61cb4a1641cb32a13a9163ff57de1a8a3247fc3aaa704eba2dd0266/vis_analysis_torch-0.4.1.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [labnas]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1715156441] Old Version: [1.7.0.dev1715156418]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1715156441] Old Version: [1.7.0.dev1715156418]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/02/0fe6ff066883b1a0ddb6a30c85d0a576241488b1bfd073e36307a21b7209/cvprocessor-0.0.25.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: New version: [1.7.0.dev1715156502] Old Version: [1.7.0.dev1715156498]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [tilearn-llm]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/8f/2d/1a8f4901454b386b68b455395ef18483a0117e19e7f2d72a957575d0a313/grasp_planning-0.2.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/ce/37/0dbd579ae92399e081a3a9a8e6aa804f5387c224b56370fd39bf01435db9/labnas-0.2.1.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/e2/ab/053e162ff59baeea0b25695e8185fcfaca6de744501e29da6f2e642a10e9/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/e2/ab/053e162ff59baeea0b25695e8185fcfaca6de744501e29da6f2e642a10e9/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/88/9d/dd04ee7baff1dcb4f883882191ccce13537feb885286879745ae226ab65c/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/f6/c4/38359b0ea9bfd0754c7160498a0d6a2fc9cc70ff25e0041a537aec2a354a/tilearn_llm-0.8.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/21/8d/1543e9bb0969995940a8234523684bfd741e1d1a9993dbd7b54cfe67b11f/grasp_planning-0.3.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/92/6b/670a26aef8288c0534a454b523e72b4f3ce3dd196fb6067ab3c841234af9/cvprocessor-0.0.26.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/c5/fd/1248ff6367f6ebe812a028c8d4615a1dd246e96995e02f0890e9f04f03f4/vis_analysis_torch-0.4.2.tar.gz
+[2024-05-08 10:22:24] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 14750313>=10485760
+[2024-05-08 10:22:24] INFO root fetch - processPackages [tilearn-llm]: Start processing: amos-api
+[2024-05-08 10:22:24] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [amos-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 10:22:24] INFO root fetch - processPackages [grasp-planning]: executing diffoscope
+[2024-05-08 10:22:24] INFO root fetch - processPackages [grasp-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.2.tar.gz tmp/grasp_planning-0.3.tar.gz --markdown 20240508/g/grasp-planning/0.2-0.3/README.md --exclude *.pyd
+[2024-05-08 10:22:24] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 10:22:24] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.25.tar.gz tmp/cvprocessor-0.0.26.tar.gz --markdown 20240508/c/cvprocessor/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-05-08 10:22:24] INFO root fetch - processPackages [vis-analysis-torch]: executing diffoscope
+[2024-05-08 10:22:24] INFO root fetch - processPackages [vis-analysis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis_analysis_torch-0.4.1.tar.gz tmp/vis_analysis_torch-0.4.2.tar.gz --markdown 20240508/v/vis-analysis-torch/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-08 10:22:24] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/b5/fa/b40f8c782c22badd41ccefbdee32713a9eec1ee9d823967bbd1fae55c461/labnas-0.2.2.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/c9/1c/c207a10fbb2bfbb7209268422e6f3044d79367ac525f14ab32a81e0f4162/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/d5/39/0b8840eea5d2296a279d07b09bddf4a1a64821d9d51221d6cd9003149330/amos_api-1.0.1.tar.gz
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-08 10:22:24] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 10:22:24] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/c9/1c/c207a10fbb2bfbb7209268422e6f3044d79367ac525f14ab32a81e0f4162/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/68/84/4e447a811ed893e4545ce3fc9060f5e8a059238ac89f222c862c0ced7b41/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz
+[2024-05-08 10:22:25] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-08 10:22:25] INFO root fetch - processPackages [labnas]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [labnas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labnas-0.2.1.tar.gz tmp/labnas-0.2.2.tar.gz --markdown 20240508/l/labnas/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz --markdown 20240508/a/aissemble-foundation-model-lineage/1.7.0.dev1715156418-1.7.0.dev1715156441/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz --markdown 20240508/a/aissemble-foundation-model-lineage/1.7.0.dev1715156418-1.7.0.dev1715156441/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz --markdown 20240508/a/aissemble-foundation-pdp-client-python/1.7.0.dev1715156498-1.7.0.dev1715156502/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/88/8d/7ca7e5276f4f263d4339efc43cf2c30ea80ad73e6a9b22218c4a871de4f5/amos_api-1.0.2.tar.gz
+[2024-05-08 10:22:25] INFO root fetch - processPackages [amos-api]: executing diffoscope
+[2024-05-08 10:22:25] INFO root fetch - processPackages [amos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amos_api-1.0.1.tar.gz tmp/amos_api-1.0.2.tar.gz --markdown 20240508/a/amos-api/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 10:22:25] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.2.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [grasp-planning]: Start processing: aissemble-foundation-pdp-client-python
+[2024-05-08 10:22:25] INFO root fetch - main [MainThread]: End processing [grasp-planning]: success
+[2024-05-08 10:22:25] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.1.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.2.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [vis-analysis-torch]: Start processing: scoringrules
+[2024-05-08 10:22:25] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch]: success
+[2024-05-08 10:22:25] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: New version: [1.7.0.dev1715156502] Old Version: [1.7.0.dev1715156498]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.25.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.26.tar.gz]
+[2024-05-08 10:22:25] INFO root fetch - processPackages [cvprocessor]: Start processing: aissemble-foundation-encryption-policy-python
+[2024-05-08 10:22:25] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [scoringrules]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: executing diffoscope
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz --markdown 20240508/a/aissemble-foundation-pdp-client-python/1.7.0.dev1715156498-1.7.0.dev1715156502/README.md --exclude *.pyd
+[2024-05-08 10:22:26] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [stigg-api-client]: Start processing: simple-kfp-task-stub
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: New version: [1.7.0.dev1715156537] Old Version: [1.7.0.dev1715156527]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [simple-kfp-task-stub]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [scoringrules]: Downloading https://files.pythonhosted.org/packages/a5/81/5cc68a22d8dddc8476483d9eb71be362d77e073dd1f66500a4bf37720d76/scoringrules-0.4.4.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Start processing: aissemble-foundation-encryption-policy-python
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: New version: [1.7.0.dev1715156537] Old Version: [1.7.0.dev1715156527]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.1.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.2.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [labnas]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/20/6a/5ab718989e37341af533065f4a2f9df68c533ca06862a7616ccb91cceac9/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156527.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-pdp-client-python]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/20/6a/5ab718989e37341af533065f4a2f9df68c533ca06862a7616ccb91cceac9/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156527.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.1.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.2.tar.gz]
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [amos-api]: success
+[2024-05-08 10:22:26] INFO root fetch - processPackages [simple-kfp-task-stub]: Downloading https://files.pythonhosted.org/packages/2f/c4/ed4c92c0c617735950a0c6edf2266b000c80259d4952c66f88ba2fa8a850/simple_kfp_task_stub-0.0.1.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [scoringrules]: Downloading https://files.pythonhosted.org/packages/5e/06/7f9d922cad2534ca5b7dd7c82e120200788a81a097a33bb6174d635438f4/scoringrules-0.5.0.tar.gz
+[2024-05-08 10:22:26] ERROR root fetch - processPackages [aissemble-foundation-pdp-client-python]: Diffoscope failed: time="2024-05-08T10:22:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz: No such file or directory
+
+[2024-05-08 10:22:26] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-pdp-client-python] error
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/71/b3/512a3bae9de0327a635f3b3d34a43f86b97e187ae888c12250a052ad7eb6/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156537.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Downloading https://files.pythonhosted.org/packages/71/b3/512a3bae9de0327a635f3b3d34a43f86b97e187ae888c12250a052ad7eb6/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156537.tar.gz
+[2024-05-08 10:22:26] INFO root fetch - processPackages [scoringrules]: executing diffoscope
+[2024-05-08 10:22:26] INFO root fetch - processPackages [scoringrules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoringrules-0.4.4.tar.gz tmp/scoringrules-0.5.0.tar.gz --markdown 20240508/s/scoringrules/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-08 10:22:26] INFO root fetch - processPackages [simple-kfp-task-stub]: Downloading https://files.pythonhosted.org/packages/28/b7/7cc032cb2eb67cc2202bc086cc6c9d1aeb9c9d6d7713307308123a3ca136/simple_kfp_task_stub-0.0.2.tar.gz
+[2024-05-08 10:22:27] INFO root fetch - processPackages [simple-kfp-task-stub]: executing diffoscope
+[2024-05-08 10:22:27] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: executing diffoscope
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: executing diffoscope
+[2024-05-08 10:22:27] INFO root fetch - processPackages [simple-kfp-task-stub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_kfp_task_stub-0.0.1.tar.gz tmp/simple_kfp_task_stub-0.0.2.tar.gz --markdown 20240508/s/simple-kfp-task-stub/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156527.tar.gz tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156537.tar.gz --markdown 20240508/a/aissemble-foundation-encryption-policy-python/1.7.0.dev1715156527-1.7.0.dev1715156537/README.md --exclude *.pyd
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156527.tar.gz tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156537.tar.gz --markdown 20240508/a/aissemble-foundation-encryption-policy-python/1.7.0.dev1715156527-1.7.0.dev1715156537/README.md --exclude *.pyd
+[2024-05-08 10:22:27] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-08 10:22:27] INFO root fetch - processPackages [simple-kfp-task-stub]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task_stub-0.0.1.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - processPackages [simple-kfp-task-stub]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task_stub-0.0.2.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - main [MainThread]: End processing [simple-kfp-task-stub]: success
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156527.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - processPackages [aissemble-foundation-encryption-policy-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_encryption_policy_python-1.7.0.dev1715156537.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-encryption-policy-python]: success
+[2024-05-08 10:22:27] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-encryption-policy-python]: success
+[2024-05-08 10:22:27] INFO root fetch - processPackages [scoringrules]: Remove: archive file [/home/abi/fetcher/tmp/scoringrules-0.4.4.tar.gz]
+[2024-05-08 10:22:27] INFO root fetch - processPackages [scoringrules]: Remove: archive file [/home/abi/fetcher/tmp/scoringrules-0.5.0.tar.gz]
+[2024-05-08 10:22:28] INFO root fetch - main [MainThread]: End processing [scoringrules]: success
+[2024-05-08 10:22:28] INFO root fetch - main [MainThread]: Store serial: [23110428]
