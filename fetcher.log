@@ -11469,3 +11469,56 @@
 [2024-05-08 07:50:56] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-08 07:50:56] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
 [2024-05-08 07:50:56] INFO root fetch - main [MainThread]: Store serial: [23108673]
+[2024-05-08 07:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108673]
+[2024-05-08 07:53:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NorrisUtils
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BuscaTuPokemon
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmancer
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ce-mkc
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytoniq-core
+[2024-05-08 07:53:10] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/0f/ae/305790c9da557a54b2f0cdea7908721a10dabdbde4082557754fd5309a23/NorrisUtils-1.4.3.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ce-mkc]: New version: [0.1.0] Old Version: [0.0.2a0]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [pytoniq-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [BuscaTuPokemon]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/5f/c4/675de3b996425db2ad0e958e1cf18e3a2b19d5266053e753f179db95e459/ce_mkc-0.0.2a0.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/80/fd/17719a7a0ccfcc5482b7463af901ba6d3e4f1874aae61f884fe75c3bbdb6/pytoniq-core-0.1.8.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [BuscaTuPokemon]: Downloading https://files.pythonhosted.org/packages/64/44/c6501dea8543d8b846417c45221d3f8a78cd2d5b1a3d485c0e66b6690fc5/BuscaTuPokemon-1.0.0.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-08 07:53:10] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-08 07:53:10] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-08 07:53:10] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/cf/9d/8e47c90440bc709a5dc9e413f1f476708d3c4533e6246cd1248412c5697b/NorrisUtils-1.4.4.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 07:53:10] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.3.tar.gz tmp/NorrisUtils-1.4.4.tar.gz --markdown 20240508/N/NorrisUtils/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-08 07:53:10] INFO root fetch - processPackages [BuscaTuPokemon]: Downloading https://files.pythonhosted.org/packages/29/50/17778a5f01a12cd75098cda9c4be63ae55196c4743df801d2633da36deb4/buscatupokemon-1.0.1.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-05-08 07:53:10] INFO root fetch - processPackages [ce-mkc]: Downloading https://files.pythonhosted.org/packages/11/ab/9fff11613225db011d59bdc3a97169c34b56709bd7b878dfac2f0203b200/ce_mkc-0.1.0.tar.gz
+[2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/1d/c6/2c8daf13fd29ba3b0b2065bf051f422b9e3733d408a6c5931f651d3aa033/pytoniq-core-0.1.9.tar.gz
+[2024-05-08 07:53:11] INFO root fetch - processPackages [ce-mkc]: executing diffoscope
+[2024-05-08 07:53:11] INFO root fetch - processPackages [ce-mkc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ce_mkc-0.0.2a0.tar.gz tmp/ce_mkc-0.1.0.tar.gz --markdown 20240508/c/ce-mkc/0.0.2a0-0.1.0/README.md --exclude *.pyd
+[2024-05-08 07:53:11] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-05-08 07:53:11] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240508/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-08 07:53:11] INFO root fetch - processPackages [BuscaTuPokemon]: executing diffoscope
+[2024-05-08 07:53:11] INFO root fetch - processPackages [BuscaTuPokemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BuscaTuPokemon-1.0.0.tar.gz tmp/buscatupokemon-1.0.1.tar.gz --markdown 20240508/B/BuscaTuPokemon/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: executing diffoscope
+[2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-core-0.1.8.tar.gz tmp/pytoniq-core-0.1.9.tar.gz --markdown 20240508/p/pytoniq-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 07:53:11] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.3.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.4.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 07:53:11] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.0.2a0.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - processPackages [ce-mkc]: Remove: archive file [/home/abi/fetcher/tmp/ce_mkc-0.1.0.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [ce-mkc]: success
+[2024-05-08 07:53:11] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-05-08 07:53:11] INFO root fetch - processPackages [BuscaTuPokemon]: Remove: archive file [/home/abi/fetcher/tmp/BuscaTuPokemon-1.0.0.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - processPackages [BuscaTuPokemon]: Remove: archive file [/home/abi/fetcher/tmp/buscatupokemon-1.0.1.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [BuscaTuPokemon]: success
+[2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.8.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
+[2024-05-08 07:53:11] INFO root fetch - main [MainThread]: Store serial: [23108694]
