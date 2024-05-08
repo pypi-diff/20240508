@@ -21714,3 +21714,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:28:01] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.4.tar.gz]
 [2024-05-08 14:28:01] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-08 14:28:01] INFO root fetch - main [MainThread]: Store serial: [23113192]
+[2024-05-08 14:30:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113192]
+[2024-05-08 14:30:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marksocket
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-delivery-link
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rvit
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Starco
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyatlan
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skilleter-thingy
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pg-sync-roles
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-identity-sdk
+[2024-05-08 14:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skilleter-thingy
+[2024-05-08 14:30:10] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 14:30:10] WARNING root fetch - processPackages [rvit]: Skipping, unable to determine old version
+[2024-05-08 14:30:10] INFO root fetch - processPackages [rvit]: Start processing: diffenator2
+[2024-05-08 14:30:10] INFO root fetch - main [MainThread]: End processing [rvit] error
+[2024-05-08 14:30:10] WARNING root fetch - processPackages [marksocket]: Skipping, unable to determine old version
+[2024-05-08 14:30:10] INFO root fetch - processPackages [marksocket]: Start processing: intezer-sdk
+[2024-05-08 14:30:10] INFO root fetch - main [MainThread]: End processing [marksocket] error
+[2024-05-08 14:30:10] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1.1]
+[2024-05-08 14:30:10] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.33] Old Version: [0.0.32]
+[2024-05-08 14:30:10] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.33] Old Version: [0.0.32]
+[2024-05-08 14:30:10] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-08 14:30:10] INFO root fetch - processPackages [Starco]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/07/f7/d47d4f0991b45769181a33757220e515b0297add57bcbcf68037483b4c9e/pg_sync_roles-0.0.2.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/e9/a5/69f0a04b2158ef8edcc529cd18b0e9642e56470bab442f725ff9127dfded/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.1-py3-none-any.whl
+[2024-05-08 14:30:11] INFO root fetch - processPackages [projen]: New version: [0.81.8] Old Version: [0.81.7]
+[2024-05-08 14:30:11] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-08 14:30:11] INFO root fetch - processPackages [diffenator2]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/9e/cc/c8ff4ababe9af738efe2990c1fb47726f433c04b2fb1af1fe0bcfba9e639/skilleter_thingy-0.0.32.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/9e/cc/c8ff4ababe9af738efe2990c1fb47726f433c04b2fb1af1fe0bcfba9e639/skilleter_thingy-0.0.32.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/7c/a1/363187503a28a6280b1c238cb9e414b2edfc4dc2a45656cf7a709658ad5d/Starco-3.1.5.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/e3/b6/9974a79e3897cf44cb8f7a47bcad4c0f7eaa694661fb143b793e93fb6cca/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.2-py3-none-any.whl
+[2024-05-08 14:30:11] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2024-05-08 14:30:11] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/3a/f3/117814b193a47859e127fa7300765dd998c3de9a8f2026dc019c985621e8/projen-0.81.7.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pyatlan]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-08 14:30:11] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/23/e2/860c09c0de4d20c7964d53b7830a3ca09b62b46ff161f1bdd36e2ade394a/diffenator2-0.3.9.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/6d/0c/870879f79d570c1ad280e61e980245c38bebf6df9f02a4a2d8e29fe99e11/pg_sync_roles-0.0.3.tar.gz
+[2024-05-08 14:30:11] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12909783>=10485760
+[2024-05-08 14:30:11] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2024-05-08 14:30:11] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-stock-picking-delivery-link/16.0.1.1.1.1-16.0.1.1.1.2/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/0e/52/ddd3d85bec303481f49c16022534108fcc8d058c9e51da84c5dcdf67a893/skilleter_thingy-0.0.33.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/0e/52/ddd3d85bec303481f49c16022534108fcc8d058c9e51da84c5dcdf67a893/skilleter_thingy-0.0.33.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.2.tar.gz tmp/pg_sync_roles-0.0.3.tar.gz --markdown 20240508/p/pg-sync-roles/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240508/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/ef/98/cec4b4f026d25f83ce741357fc7fc6b097e9672721d621570b8d671da95b/Starco-3.1.6.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/76/ac/fc14166cb5d437282ad0a0ea73bb39de8b89f4341f2fd768b85d81638eba/pyatlan-2.1.7.tar.gz
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.32.tar.gz tmp/skilleter_thingy-0.0.33.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.32-0.0.33/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.1.5.tar.gz tmp/Starco-3.1.6.tar.gz --markdown 20240508/S/Starco/3.1.5-3.1.6/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:30:11] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.32.tar.gz tmp/skilleter_thingy-0.0.33.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.32-0.0.33/README.md --exclude *.pyd
+[2024-05-08 14:30:11] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2024-05-08 14:30:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-08 14:30:12] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/6a/06/9799e74fb88143bf481fe15d797176617f768c7208a161b15ccb898a8766/pyatlan-2.1.8.tar.gz
+[2024-05-08 14:30:12] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2024-05-08 14:30:12] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20240508/i/intezer-sdk/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-08 14:30:12] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2024-05-08 14:30:12] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-2.1.7.tar.gz tmp/pyatlan-2.1.8.tar.gz --markdown 20240508/p/pyatlan/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-08 14:30:12] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-delivery-link]: success
+[2024-05-08 14:30:12] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.2.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.3.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-08 14:30:12] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-08 14:30:12] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.7.tar.gz tmp/projen-0.81.8.tar.gz --markdown 20240508/p/projen/0.81.7-0.81.8/README.md --exclude *.pyd
+[2024-05-08 14:30:12] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.5.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.6.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-08 14:30:12] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-08 14:30:12] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.32.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.33.tar.gz]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:30:12] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2024-05-08 14:30:12] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2024-05-08 14:30:12] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2024-05-08 14:30:13] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.7.tar.gz]
+[2024-05-08 14:30:13] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-08 14:30:13] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-08 14:30:14] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.7.tar.gz]
+[2024-05-08 14:30:14] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.8.tar.gz]
+[2024-05-08 14:30:14] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2024-05-08 14:30:14] INFO root fetch - main [MainThread]: Store serial: [23113240]
