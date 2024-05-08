@@ -17636,3 +17636,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:43:06] INFO root fetch - processPackages [bbrc-bx]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-bx-0.5.4.post1.tar.gz]
 [2024-05-08 11:43:06] INFO root fetch - main [MainThread]: End processing [bbrc-bx]: success
 [2024-05-08 11:43:06] INFO root fetch - main [MainThread]: Store serial: [23111518]
+[2024-05-08 11:45:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111518]
+[2024-05-08 11:45:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfduck-bsd
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-with-ai-agents
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samples-filter
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xotless
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elegant-django
+[2024-05-08 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperspy-gui-ipywidgets
+[2024-05-08 11:45:15] INFO root fetch - processPackages [xotless]: New version: [4.1.3] Old Version: [4.1.0]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [elegant-django]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [samples-filter]: New version: [0.4.0] Old Version: [0.1.5]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: New version: [2.0.1] Old Version: [2.0]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [tfduck-bsd]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-08 11:45:15] INFO root fetch - processPackages [xotless]: Downloading https://files.pythonhosted.org/packages/f7/fa/6a620ab93a7c43d795e0bfcf7a2b099a30af25a80f38d0e4fe5f195a92bb/xotless-4.1.0.tar.gz
+[2024-05-08 11:45:15] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/83/5c/0da70b6ace6bbcf4d52626852e02d28cb8ee93636b738addb61ba025be46/samples-filter-0.1.5.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [tfduck-bsd]: Downloading https://files.pythonhosted.org/packages/92/b6/43fd2783b6cf9b6b9e12be9f0ca8f862fd5385566435bb80afaf84497a37/tfduck-bsd-0.8.5.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [elegant-django]: Downloading https://files.pythonhosted.org/packages/7f/56/2c54bf313839f41401efcb638568d8a54994cfb304d4f1c2a15d6fe35fa5/elegant_django-0.2.7.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/3b/6d/21b7496434e55fc49442d4d8f97c65fa7ee6d734cfb9a21819f2f4c82b96/nonebot_plugin_with_ai_agents-0.1.5.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [xotless]: Downloading https://files.pythonhosted.org/packages/23/9e/ba27c31172312ba1a8d5dbcba802b679cb48ae07605a5ff48578534fbec2/xotless-4.1.3.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: Downloading https://files.pythonhosted.org/packages/78/1d/15ee5722a4cdaaa7df4639508020977d70590a04883bb22a7960f2e17d6c/hyperspy_gui_ipywidgets-2.0.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [xotless]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [xotless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xotless-4.1.0.tar.gz tmp/xotless-4.1.3.tar.gz --markdown 20240508/x/xotless/4.1.0-4.1.3/README.md --exclude *.pyd
+[2024-05-08 11:45:16] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/ad/ff/b1d98e3aa8bad9f269c114f7207a3f9ffe10950b3e2b7703c566428067f5/samples-filter-0.4.0.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/23/c6/79dd4759ce7efca4cc8552aa438b4580dd9be4b6ddd0df5a5d3232b43f14/nonebot_plugin_with_ai_agents-0.1.6.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [tfduck-bsd]: Downloading https://files.pythonhosted.org/packages/50/36/3334feb3f281c67dd42ca79188d66d0cb4fa71dac481ceff207d3c61fa11/tfduck-bsd-0.8.6.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [samples-filter]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [samples-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samples-filter-0.1.5.tar.gz tmp/samples-filter-0.4.0.tar.gz --markdown 20240508/s/samples-filter/0.1.5-0.4.0/README.md --exclude *.pyd
+[2024-05-08 11:45:16] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_with_ai_agents-0.1.5.tar.gz tmp/nonebot_plugin_with_ai_agents-0.1.6.tar.gz --markdown 20240508/n/nonebot-plugin-with-ai-agents/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-08 11:45:16] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: Downloading https://files.pythonhosted.org/packages/1f/fa/66ce5c9a0c342810055b3f2541035cdf2c8e71037a760ac51cde8061052d/hyperspy_gui_ipywidgets-2.0.1.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [tfduck-bsd]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [tfduck-bsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfduck-bsd-0.8.5.tar.gz tmp/tfduck-bsd-0.8.6.tar.gz --markdown 20240508/t/tfduck-bsd/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-08 11:45:16] INFO root fetch - processPackages [elegant-django]: Downloading https://files.pythonhosted.org/packages/88/ea/af1a19d96a68ddc4e20435bf36686c10478bfd281e5e9bd87d63bee607a4/elegant_django-0.2.8.tar.gz
+[2024-05-08 11:45:16] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperspy_gui_ipywidgets-2.0.tar.gz tmp/hyperspy_gui_ipywidgets-2.0.1.tar.gz --markdown 20240508/h/hyperspy-gui-ipywidgets/2.0-2.0.1/README.md --exclude *.pyd
+[2024-05-08 11:45:16] INFO root fetch - processPackages [elegant-django]: executing diffoscope
+[2024-05-08 11:45:16] INFO root fetch - processPackages [elegant-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegant_django-0.2.7.tar.gz tmp/elegant_django-0.2.8.tar.gz --markdown 20240508/e/elegant-django/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-08 11:45:17] INFO root fetch - processPackages [xotless]: Remove: archive file [/home/abi/fetcher/tmp/xotless-4.1.0.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [xotless]: Remove: archive file [/home/abi/fetcher/tmp/xotless-4.1.3.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [xotless]: success
+[2024-05-08 11:45:17] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.5.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.6.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
+[2024-05-08 11:45:17] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.1.5.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.4.0.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [samples-filter]: success
+[2024-05-08 11:45:17] INFO root fetch - processPackages [tfduck-bsd]: Remove: archive file [/home/abi/fetcher/tmp/tfduck-bsd-0.8.5.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [tfduck-bsd]: Remove: archive file [/home/abi/fetcher/tmp/tfduck-bsd-0.8.6.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [tfduck-bsd]: success
+[2024-05-08 11:45:17] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: Remove: archive file [/home/abi/fetcher/tmp/hyperspy_gui_ipywidgets-2.0.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [hyperspy-gui-ipywidgets]: Remove: archive file [/home/abi/fetcher/tmp/hyperspy_gui_ipywidgets-2.0.1.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [hyperspy-gui-ipywidgets]: success
+[2024-05-08 11:45:17] INFO root fetch - processPackages [elegant-django]: Remove: archive file [/home/abi/fetcher/tmp/elegant_django-0.2.7.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - processPackages [elegant-django]: Remove: archive file [/home/abi/fetcher/tmp/elegant_django-0.2.8.tar.gz]
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: End processing [elegant-django]: success
+[2024-05-08 11:45:17] INFO root fetch - main [MainThread]: Store serial: [23111537]
