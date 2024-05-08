@@ -10690,3 +10690,24 @@
 [2024-05-08 06:44:21] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.5.7.1.tar.gz]
 [2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [cabinet]: success
 [2024-05-08 06:44:21] INFO root fetch - main [MainThread]: Store serial: [23108320]
+[2024-05-08 06:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108320]
+[2024-05-08 06:46:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betfair-parser
+[2024-05-08 06:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mms-client
+[2024-05-08 06:46:30] INFO root fetch - processPackages [mms-client]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-08 06:46:30] INFO root fetch - processPackages [betfair-parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 06:46:30] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/77/a7/0fb00f447f6b018ad76da1defc124825875df0ed5847153e0afcfc1698f0/mms_client-1.5.1.tar.gz
+[2024-05-08 06:46:30] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/15/29/f71b7887469e0b25858f6c498741c46959db7661837d546fb16f1aa8e891/betfair_parser-0.9.0.tar.gz
+[2024-05-08 06:46:31] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/e5/be/d11557dad96843838683c04fa5c83925021f970f0107abb3d5108f5ab89c/mms_client-1.6.0.tar.gz
+[2024-05-08 06:46:31] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/49/4c/cc460a86ab61ac61c3bad60a166c8d721348ca53e84d94f2a65ac9ab291f/betfair_parser-0.9.1.tar.gz
+[2024-05-08 06:46:31] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2024-05-08 06:46:31] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.9.0.tar.gz tmp/betfair_parser-0.9.1.tar.gz --markdown 20240508/b/betfair-parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 06:46:31] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-05-08 06:46:31] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.5.1.tar.gz tmp/mms_client-1.6.0.tar.gz --markdown 20240508/m/mms-client/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-08 06:46:31] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.0.tar.gz]
+[2024-05-08 06:46:31] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.9.1.tar.gz]
+[2024-05-08 06:46:31] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2024-05-08 06:46:32] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.5.1.tar.gz]
+[2024-05-08 06:46:32] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.6.0.tar.gz]
+[2024-05-08 06:46:32] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-05-08 06:46:32] INFO root fetch - main [MainThread]: Store serial: [23108329]
