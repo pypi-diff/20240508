@@ -3014,3 +3014,45 @@
 [2024-05-08 02:44:42] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405070044.tar.gz]
 [2024-05-08 02:44:42] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-08 02:44:42] INFO root fetch - main [MainThread]: Store serial: [23105577]
+[2024-05-08 02:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105577]
+[2024-05-08 02:46:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 02:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2024-05-08 02:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-05-08 02:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web-ui-helper
+[2024-05-08 02:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dependency-confusion1234
+[2024-05-08 02:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hospitalpy
+[2024-05-08 02:46:51] INFO root fetch - processPackages [hospitalpy]: New version: [0.1.21] Old Version: [0.1.2]
+[2024-05-08 02:46:51] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-08 02:46:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:46:51] INFO root fetch - processPackages [web-ui-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:46:51] ERROR root fetch - processPackages [dependency-confusion1234]: Unable to get metadata: No such project 'dependency-confusion1234'
+[2024-05-08 02:46:51] INFO root fetch - main [MainThread]: End processing [dependency-confusion1234] error
+[2024-05-08 02:46:51] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/f7/67/637fe6f3cc0f24bc1a0eb128ca26043677836a8d90c5e197e22009c050cf/hospitalpy-0.1.2.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/c9/ff/b364f60ce185f59ac74059aec301d941570acc93a0d289e15f139c988f81/web-ui-helper-0.0.8.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/5a/f1/f21a440ebeb81f7ec4fbfed1723d362956b59f2ae3e7d793635a04b82eac/hospitalpy-0.1.21.tar.gz
+[2024-05-08 02:46:51] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-08 02:46:51] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240508/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-08 02:46:51] INFO root fetch - processPackages [hospitalpy]: executing diffoscope
+[2024-05-08 02:46:51] INFO root fetch - processPackages [hospitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hospitalpy-0.1.2.tar.gz tmp/hospitalpy-0.1.21.tar.gz --markdown 20240508/h/hospitalpy/0.1.2-0.1.21/README.md --exclude *.pyd
+[2024-05-08 02:46:51] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/f9/67/3ea65ed5e35cde11b9f359a759db6bfe6183992bce9d5cbf38c61cbca49f/web-ui-helper-0.0.9.tar.gz
+[2024-05-08 02:46:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-08 02:46:52] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-08 02:46:52] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-0.0.8.tar.gz tmp/web-ui-helper-0.0.9.tar.gz --markdown 20240508/w/web-ui-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:46:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-08 02:46:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240508/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:46:52] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.2.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.21.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - main [MainThread]: End processing [hospitalpy]: success
+[2024-05-08 02:46:52] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.8.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-0.0.9.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-08 02:46:52] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-05-08 02:46:52] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-08 02:46:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-08 02:46:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-08 02:46:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-08 02:46:53] INFO root fetch - main [MainThread]: Store serial: [23105594]
