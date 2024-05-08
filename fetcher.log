@@ -2297,3 +2297,42 @@
 [2024-05-08 02:09:45] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405070009.tar.gz]
 [2024-05-08 02:09:45] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-08 02:09:45] INFO root fetch - main [MainThread]: Store serial: [23105211]
+[2024-05-08 02:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105211]
+[2024-05-08 02:11:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experiment-helpers
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ding-api-client
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-events-notify
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ding-api-client]: New version: [3.5.0] Old Version: [3.4.5]
+[2024-05-08 02:11:54] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:11:54] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-08 02:11:54] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/89/5a/098109cdf48854b7d7af32bcf44700d4fc1b82c201d82b6b0524db1a734e/ding_api_client-3.4.5.tar.gz
+[2024-05-08 02:11:54] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-08 02:11:54] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/6e/78/8e0f6e2f1bebe7d2b37f50962125740c4e1437a198398d4836331876ba18/ding_api_client-3.5.0.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:11:55] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-05-08 02:11:55] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.4.5.tar.gz tmp/ding_api_client-3.5.0.tar.gz --markdown 20240508/d/ding-api-client/3.4.5-3.5.0/README.md --exclude *.pyd
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240508/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-08 02:11:55] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-08 02:11:55] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240508/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-08 02:11:55] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-08 02:11:55] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.5.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.5.0.tar.gz]
+[2024-05-08 02:11:55] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-05-08 02:11:56] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-08 02:11:56] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240508/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:11:57] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-08 02:11:57] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-08 02:11:57] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-08 02:11:57] INFO root fetch - main [MainThread]: Store serial: [23105223]
