@@ -7601,3 +7601,34 @@
 [2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-08 03:36:24] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-08 03:36:24] INFO root fetch - main [MainThread]: Store serial: [23107248]
+[2024-05-08 03:38:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107248]
+[2024-05-08 03:38:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whataspp-inforu-local
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpflib
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-connect
+[2024-05-08 03:38:33] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.221] Old Version: [0.1.217]
+[2024-05-08 03:38:33] INFO root fetch - processPackages [whataspp-inforu-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 03:38:33] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/78/92/5e0014ff88372cdcdff739dd1cd81cfdba52dc373e852c50e278a73c83f7/ansar_connect-0.1.217.tar.gz
+[2024-05-08 03:38:33] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-08 03:38:33] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-08 03:38:33] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-08 03:38:33] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-05-08 03:38:33] INFO root fetch - processPackages [whataspp-inforu-local]: Downloading https://files.pythonhosted.org/packages/50/33/6f1b431c9542664eb1f5b103700b93eacb677b3e33364db15a2f1068a17a/whataspp-inforu-local-0.0.8.tar.gz
+[2024-05-08 03:38:33] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-05-08 03:38:33] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-05-08 03:38:33] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f1/74/77d15f26e5861ca29cd46e3b550af902225bec1f7864f7a4d5c87a1c2a83/ansar_connect-0.1.221.tar.gz
+[2024-05-08 03:38:34] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-08 03:38:34] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.217.tar.gz tmp/ansar_connect-0.1.221.tar.gz --markdown 20240508/a/ansar-connect/0.1.217-0.1.221/README.md --exclude *.pyd
+[2024-05-08 03:38:34] INFO root fetch - processPackages [whataspp-inforu-local]: Downloading https://files.pythonhosted.org/packages/a7/a1/dc5e68aa7f9ccf71eb3bf972e1a66b4fb6d258c6d1541f7e451661d659f1/whataspp-inforu-local-0.0.9.tar.gz
+[2024-05-08 03:38:34] INFO root fetch - processPackages [whataspp-inforu-local]: executing diffoscope
+[2024-05-08 03:38:34] INFO root fetch - processPackages [whataspp-inforu-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whataspp-inforu-local-0.0.8.tar.gz tmp/whataspp-inforu-local-0.0.9.tar.gz --markdown 20240508/w/whataspp-inforu-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 03:38:34] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.217.tar.gz]
+[2024-05-08 03:38:34] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.221.tar.gz]
+[2024-05-08 03:38:34] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-08 03:38:34] INFO root fetch - processPackages [whataspp-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp-inforu-local-0.0.8.tar.gz]
+[2024-05-08 03:38:34] INFO root fetch - processPackages [whataspp-inforu-local]: Remove: archive file [/home/abi/fetcher/tmp/whataspp-inforu-local-0.0.9.tar.gz]
+[2024-05-08 03:38:34] INFO root fetch - main [MainThread]: End processing [whataspp-inforu-local]: success
+[2024-05-08 03:38:34] INFO root fetch - main [MainThread]: Store serial: [23107282]
