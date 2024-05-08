@@ -7069,3 +7069,45 @@
 [2024-05-08 03:16:43] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.96.tar.gz]
 [2024-05-08 03:16:43] INFO root fetch - main [MainThread]: End processing [variable-local]: success
 [2024-05-08 03:16:43] INFO root fetch - main [MainThread]: Store serial: [23106785]
+[2024-05-08 03:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23106785]
+[2024-05-08 03:18:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 03:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-08 03:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-05-08 03:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txdpy
+[2024-05-08 03:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conativez
+[2024-05-08 03:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spleenseg
+[2024-05-08 03:18:52] INFO root fetch - processPackages [txdpy]: New version: [7.6.9] Old Version: [7.6.8]
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405070127] Old Version: [1.0.0.dev202405060127]
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405070127] Old Version: [1.0.0.dev202405060127]
+[2024-05-08 03:18:52] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/63/72/abf10dbd8545e635b16c1cc52e501967a457b2a0d3bf6de8b3aa358e6756/txdpy-7.6.8.tar.gz
+[2024-05-08 03:18:52] WARNING root fetch - processPackages [conativez]: Skipping, unable to determine old version
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/e6/a8/bc8988f3d416064d9e5895d501d206720fd66565d0e448021db1d25f4dfa/onediff-1.0.0.dev202405060127.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - main [MainThread]: End processing [conativez] error
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/15/99/edc61f0bff267f6cb5231881e1a59a68bf2404e77fa2777215a1da9e4d10/onediffx-1.0.0.dev202405060127.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [spleenseg]: New version: [1.2.44] Old Version: [1.2.42]
+[2024-05-08 03:18:52] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/95/95/f81962d34da7f7353b37e7bcdf87cbe6557f1f2d91c5af66db6e0c390541/txdpy-7.6.9.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/36/7f/67e57d19f290202193c4bafe94e7c96e8f7471f35543b8bf75712d389cfa/spleenseg-1.2.42.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-05-08 03:18:52] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-7.6.8.tar.gz tmp/txdpy-7.6.9.tar.gz --markdown 20240508/t/txdpy/7.6.8-7.6.9/README.md --exclude *.pyd
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/c0/63/684d708787cb14dcf15968724fad9e585a02c4f53d724395e081f02be383/onediff-1.0.0.dev202405070127.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/94/5c/c93e86d3553a7598330c69fbba61bb5f5f028511970cbf8c290414e68913/onediffx-1.0.0.dev202405070127.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405060127.tar.gz tmp/onediff-1.0.0.dev202405070127.tar.gz --markdown 20240508/o/onediff/1.0.0.dev202405060127-1.0.0.dev202405070127/README.md --exclude *.pyd
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-08 03:18:52] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405060127.tar.gz tmp/onediffx-1.0.0.dev202405070127.tar.gz --markdown 20240508/o/onediffx/1.0.0.dev202405060127-1.0.0.dev202405070127/README.md --exclude *.pyd
+[2024-05-08 03:18:52] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/76/2f/1468a23218fe4f140a082d15f774f3f440da52f54f84aecca7557d9a8a8b/spleenseg-1.2.44.tar.gz
+[2024-05-08 03:18:52] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-05-08 03:18:52] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.42.tar.gz tmp/spleenseg-1.2.44.tar.gz --markdown 20240508/s/spleenseg/1.2.42-1.2.44/README.md --exclude *.pyd
+[2024-05-08 03:18:53] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.6.8.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.6.9.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-05-08 03:18:53] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.42.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.44.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-05-08 03:18:53] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405060127.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405070127.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-08 03:18:53] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405060127.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405070127.tar.gz]
+[2024-05-08 03:18:53] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-08 03:18:53] INFO root fetch - main [MainThread]: Store serial: [23106854]
