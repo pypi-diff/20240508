@@ -18193,3 +18193,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:07:38] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050709.tar.gz]
 [2024-05-08 12:07:38] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-08 12:07:38] INFO root fetch - main [MainThread]: Store serial: [23111756]
+[2024-05-08 12:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111756]
+[2024-05-08 12:09:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-scheduler
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Spider-ToolsBox
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bentoml
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-travel
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netgen-mesher
+[2024-05-08 12:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromadb-data-pipes
+[2024-05-08 12:09:47] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.4.0] Old Version: [1.0.3.9]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [Spider-ToolsBox]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [pulumi-ise]: New version: [0.1.0a1715108131] Old Version: [0.1.0a1715070880]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/a0/3a/5303a06a397d8e9399bc8b6d4ab6b7fc99407f861eeca23056c29df9e2d1/mns-scheduler-1.0.3.9.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [chromadb-data-pipes]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/6f/ad/9ebfe6adeeee224284eda1ec64ce038a6046fd5e6f5344ad14e2c4815b80/Spider_ToolsBox-0.0.3.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [py-travel]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/d1/b2/95d3ec820f0f72517bb8535b3794932d839310632594eb0b38b6fac54941/pulumi_ise-0.1.0a1715070880.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post36.dev0] Old Version: [6.2.2403.post35.dev0]
+[2024-05-08 12:09:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/98/5f/89f9692596de9ae799553c11134c8f5071719b2ec22b5b0c7c7538c7f4e3/mns-scheduler-1.0.4.0.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [py-travel]: Downloading https://files.pythonhosted.org/packages/1b/76/0940008c247720b9762c0e004c5bccf430738534d705121bcb23751c0ffb/py_travel-0.1.tar.gz
+[2024-05-08 12:09:47] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/04/3e/8854f356074b07ad8696d3d3c41a1e8abf7ca4e89e86146ab74190f2d48b/netgen_mesher-6.2.2403.post35.dev0-cp312-cp312-win_amd64.whl
+[2024-05-08 12:09:48] INFO root fetch - processPackages [chromadb-data-pipes]: Downloading https://files.pythonhosted.org/packages/ba/cf/0d76cd8e783563b41ad07774dd4cd9241ce271d9d4689ee3b653e35e6391/chromadb_data_pipes-0.0.8.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/72/39/8fd5e3e98ec47e007aab0772bdafb0247fcda80b9bb7c3d4d2aa4a8ddae9/pulumi_ise-0.1.0a1715108131.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/e5/90/b27fca1a97e2e2a1fefb816f7a8c0eced8d288fe148f6973f41c43e79862/Spider_ToolsBox-0.0.4.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.3.9.tar.gz tmp/mns-scheduler-1.0.4.0.tar.gz --markdown 20240508/m/mns-scheduler/1.0.3.9-1.0.4.0/README.md --exclude *.pyd
+[2024-05-08 12:09:48] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20379393>=10485760
+[2024-05-08 12:09:48] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 12:09:48] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.1.0a1715070880.tar.gz tmp/pulumi_ise-0.1.0a1715108131.tar.gz --markdown 20240508/p/pulumi-ise/0.1.0a1715070880-0.1.0a1715108131/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [Spider-ToolsBox]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [Spider-ToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_ToolsBox-0.0.3.tar.gz tmp/Spider_ToolsBox-0.0.4.tar.gz --markdown 20240508/S/Spider-ToolsBox/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [py-travel]: Downloading https://files.pythonhosted.org/packages/1f/ab/d676e590b795ab3437f2094a177c015e674f158aea8f85e69d2b41e3f8c9/py_travel-0.1.1.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [chromadb-data-pipes]: Downloading https://files.pythonhosted.org/packages/89/80/8dd871f4126d00c6abc03e42b0e97476309e3fe1b3b910c3cd5265c1c9b8/chromadb_data_pipes-0.0.9.tar.gz
+[2024-05-08 12:09:48] INFO root fetch - processPackages [py-travel]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [py-travel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_travel-0.1.tar.gz tmp/py_travel-0.1.1.tar.gz --markdown 20240508/p/py-travel/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [chromadb-data-pipes]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [chromadb-data-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb_data_pipes-0.0.8.tar.gz tmp/chromadb_data_pipes-0.0.9.tar.gz --markdown 20240508/c/chromadb-data-pipes/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-05-08 12:09:48] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240508/b/bentoml/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-08 12:09:48] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.3.tar.gz]
+[2024-05-08 12:09:48] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.4.tar.gz]
+[2024-05-08 12:09:48] INFO root fetch - main [MainThread]: End processing [Spider-ToolsBox]: success
+[2024-05-08 12:09:49] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.3.9.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.0.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-08 12:09:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 12:09:49] INFO root fetch - processPackages [py-travel]: Remove: archive file [/home/abi/fetcher/tmp/py_travel-0.1.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - processPackages [py-travel]: Remove: archive file [/home/abi/fetcher/tmp/py_travel-0.1.1.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - main [MainThread]: End processing [py-travel]: success
+[2024-05-08 12:09:49] INFO root fetch - processPackages [chromadb-data-pipes]: Remove: archive file [/home/abi/fetcher/tmp/chromadb_data_pipes-0.0.8.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - processPackages [chromadb-data-pipes]: Remove: archive file [/home/abi/fetcher/tmp/chromadb_data_pipes-0.0.9.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - main [MainThread]: End processing [chromadb-data-pipes]: success
+[2024-05-08 12:09:49] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715070880.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715108131.tar.gz]
+[2024-05-08 12:09:49] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-08 12:09:52] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-05-08 12:09:52] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-05-08 12:09:52] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-05-08 12:09:52] INFO root fetch - main [MainThread]: Store serial: [23111780]
