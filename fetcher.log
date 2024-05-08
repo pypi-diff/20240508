@@ -16055,3 +16055,63 @@
 [2024-05-08 10:56:02] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-05-08 10:56:02] INFO root fetch - main [MainThread]: Store serial: [23110903]
+[2024-05-08 10:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110903]
+[2024-05-08 10:58:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mpesa-express
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-hr-timesheet-begin-end
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneople
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codaio
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-d2-plugin
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-import-export
+[2024-05-08 10:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyE2
+[2024-05-08 10:58:11] INFO root fetch - processPackages [pyneople]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-08 10:58:11] INFO root fetch - processPackages [mkdocs-d2-plugin]: New version: [1.4.0rc1] Old Version: [1.3.3]
+[2024-05-08 10:58:11] WARNING root fetch - processPackages [django-mpesa-express]: Skipping, unable to determine old version
+[2024-05-08 10:58:11] INFO root fetch - main [MainThread]: End processing [django-mpesa-express] error
+[2024-05-08 10:58:11] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/48/5d/7326bcb583f9dda8cf03ad8b11c9ef2acdcea1dcb2626b5643268148b019/pyneople-0.3.4.tar.gz
+[2024-05-08 10:58:11] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1]
+[2024-05-08 10:58:11] INFO root fetch - processPackages [codaio]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-08 10:58:11] INFO root fetch - processPackages [django-import-export]: New version: [4.0.1] Old Version: [4.0.0rc3]
+[2024-05-08 10:58:11] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-08 10:58:12] INFO root fetch - processPackages [mkdocs-d2-plugin]: Downloading https://files.pythonhosted.org/packages/0b/f1/2da71f4386a3c4c071ac5b9d16c4636177772f422c5e4f89f8ec34fdeec3/mkdocs_d2_plugin-1.3.3.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: Downloading https://files.pythonhosted.org/packages/d1/1c/07a727a862d066743c54b3f8100d729b21937dfa6d59d1d25ef1e095b949/odoo_addon_hr_timesheet_begin_end-16.0.1.0.1-py3-none-any.whl
+[2024-05-08 10:58:12] INFO root fetch - processPackages [codaio]: Downloading https://files.pythonhosted.org/packages/27/70/98020ef1a3abf0705480c9a034b0dde1d8d40f09b66664558886d391c6f6/codaio-0.6.8.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [django-import-export]: Downloading https://files.pythonhosted.org/packages/b2/b3/303edc33f78f60788bc60f87e0825f75e00c732c6a0fe811935923d42e53/django_import_export-4.0.0rc3.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/24/30/1b1df8b310d857cc8838cbf935e42ee36342a0016a2887e05133fe7f0a11/pyneople-0.3.5.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.4.tar.gz tmp/pyneople-0.3.5.tar.gz --markdown 20240508/p/pyneople/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: Downloading https://files.pythonhosted.org/packages/74/5a/73884adefb5b44aa3f06cdfba6dfd6f1523aa872496fcd554f9f79e9a440/odoo_addon_hr_timesheet_begin_end-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-08 10:58:12] INFO root fetch - processPackages [mkdocs-d2-plugin]: Downloading https://files.pythonhosted.org/packages/ac/dc/e6a38ce6b5db879b9f6f09efa96ef2ce247707e88c96380ce0fc2034e50c/mkdocs_d2_plugin-1.4.0rc1.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_begin_end-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_begin_end-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-hr-timesheet-begin-end/16.0.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [codaio]: Downloading https://files.pythonhosted.org/packages/4c/09/f34f1775833da959c285937c87f1ab578a3d2f274531b0a3ea996ed7e914/codaio-0.6.9.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [django-import-export]: Downloading https://files.pythonhosted.org/packages/ca/2b/1e02d7fa389787fc30f8c20b838ab1d783702636da6a211d03c32dd62f8c/django_import_export-4.0.1.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [mkdocs-d2-plugin]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [mkdocs-d2-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_d2_plugin-1.3.3.tar.gz tmp/mkdocs_d2_plugin-1.4.0rc1.tar.gz --markdown 20240508/m/mkdocs-d2-plugin/1.3.3-1.4.0rc1/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-08 10:58:12] INFO root fetch - processPackages [codaio]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [codaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codaio-0.6.8.tar.gz tmp/codaio-0.6.9.tar.gz --markdown 20240508/c/codaio/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240508/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [django-import-export]: executing diffoscope
+[2024-05-08 10:58:12] INFO root fetch - processPackages [django-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_import_export-4.0.0rc3.tar.gz tmp/django_import_export-4.0.1.tar.gz --markdown 20240508/d/django-import-export/4.0.0rc3-4.0.1/README.md --exclude *.pyd
+[2024-05-08 10:58:12] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.4.tar.gz]
+[2024-05-08 10:58:12] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.5.tar.gz]
+[2024-05-08 10:58:12] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:58:13] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_begin_end-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 10:58:13] INFO root fetch - processPackages [odoo-addon-hr-timesheet-begin-end]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_begin_end-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-08 10:58:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-begin-end]: success
+[2024-05-08 10:58:13] INFO root fetch - processPackages [codaio]: Remove: archive file [/home/abi/fetcher/tmp/codaio-0.6.8.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - processPackages [codaio]: Remove: archive file [/home/abi/fetcher/tmp/codaio-0.6.9.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - main [MainThread]: End processing [codaio]: success
+[2024-05-08 10:58:13] INFO root fetch - processPackages [mkdocs-d2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_d2_plugin-1.3.3.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - processPackages [mkdocs-d2-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_d2_plugin-1.4.0rc1.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - main [MainThread]: End processing [mkdocs-d2-plugin]: success
+[2024-05-08 10:58:13] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-08 10:58:13] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-08 10:58:14] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django_import_export-4.0.0rc3.tar.gz]
+[2024-05-08 10:58:14] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django_import_export-4.0.1.tar.gz]
+[2024-05-08 10:58:14] INFO root fetch - main [MainThread]: End processing [django-import-export]: success
+[2024-05-08 10:58:14] INFO root fetch - main [MainThread]: Store serial: [23110925]
