@@ -22691,3 +22691,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:58:52] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip]
 [2024-05-08 14:58:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
 [2024-05-08 14:58:52] INFO root fetch - main [MainThread]: Store serial: [23113719]
+[2024-05-08 15:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113719]
+[2024-05-08 15:01:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coherent.build
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlsauce
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sanctimonyz
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inuits-python-logging-loki
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cruel
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipsvm
+[2024-05-08 15:01:01] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 15:01:01] INFO root fetch - processPackages [ipsvm]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-08 15:01:01] INFO root fetch - processPackages [coherent.build]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-08 15:01:01] INFO root fetch - processPackages [inuits-python-logging-loki]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-08 15:01:02] WARNING root fetch - processPackages [cruel]: Skipping, unable to determine old version
+[2024-05-08 15:01:02] INFO root fetch - main [MainThread]: End processing [cruel] error
+[2024-05-08 15:01:02] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [coherent.build]: Downloading https://files.pythonhosted.org/packages/38/6f/e397a889fbf39028e8b6b7e72a98997656594ae2c64120a69ba33f9f2457/coherent_build-0.4.0.tar.gz
+[2024-05-08 15:01:02] WARNING root fetch - processPackages [sanctimonyz]: Skipping, unable to determine old version
+[2024-05-08 15:01:02] INFO root fetch - main [MainThread]: End processing [sanctimonyz] error
+[2024-05-08 15:01:02] INFO root fetch - processPackages [ipsvm]: Downloading https://files.pythonhosted.org/packages/28/b1/3b961f84dc674cbac95f198df5d20dfc8b7adf46a3ecac5004e34ab15841/ipsvm-1.1.0.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/db/f2/be7f325c17f55655c279ed0d6c376f5058b755c84b8665a8b2c5aa1a5914/inuits_python_logging_loki-1.2.1.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/4a/e3/33cec648843bc13afe54f7fab1cf169a09d310b0391a36d809efea1e7390/inuits_python_logging_loki-1.3.0.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [ipsvm]: Downloading https://files.pythonhosted.org/packages/b1/69/9d613f2f474fd3c00245fe471dd453e89a83dacb3942ab56c374dd103f74/ipsvm-1.2.0.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [coherent.build]: Downloading https://files.pythonhosted.org/packages/c2/5a/aa6d577d0e12141fc18117e64caaf038120497dc089f79c03477156c146c/coherent_build-0.5.0.tar.gz
+[2024-05-08 15:01:02] INFO root fetch - processPackages [inuits-python-logging-loki]: executing diffoscope
+[2024-05-08 15:01:02] INFO root fetch - processPackages [inuits-python-logging-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_python_logging_loki-1.2.1.tar.gz tmp/inuits_python_logging_loki-1.3.0.tar.gz --markdown 20240508/i/inuits-python-logging-loki/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-08 15:01:02] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-05-08 15:01:02] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240508/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 15:01:02] INFO root fetch - processPackages [ipsvm]: executing diffoscope
+[2024-05-08 15:01:02] INFO root fetch - processPackages [ipsvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsvm-1.1.0.tar.gz tmp/ipsvm-1.2.0.tar.gz --markdown 20240508/i/ipsvm/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-08 15:01:02] INFO root fetch - processPackages [coherent.build]: executing diffoscope
+[2024-05-08 15:01:02] INFO root fetch - processPackages [coherent.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coherent_build-0.4.0.tar.gz tmp/coherent_build-0.5.0.tar.gz --markdown 20240508/c/coherent.build/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 15:01:03] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.2.1.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.3.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - main [MainThread]: End processing [inuits-python-logging-loki]: success
+[2024-05-08 15:01:03] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-05-08 15:01:03] INFO root fetch - processPackages [coherent.build]: Remove: archive file [/home/abi/fetcher/tmp/coherent_build-0.4.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - processPackages [coherent.build]: Remove: archive file [/home/abi/fetcher/tmp/coherent_build-0.5.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - main [MainThread]: End processing [coherent.build]: success
+[2024-05-08 15:01:03] INFO root fetch - processPackages [ipsvm]: Remove: archive file [/home/abi/fetcher/tmp/ipsvm-1.1.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - processPackages [ipsvm]: Remove: archive file [/home/abi/fetcher/tmp/ipsvm-1.2.0.tar.gz]
+[2024-05-08 15:01:03] INFO root fetch - main [MainThread]: End processing [ipsvm]: success
+[2024-05-08 15:01:03] INFO root fetch - main [MainThread]: Store serial: [23113740]
