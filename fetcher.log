@@ -11522,3 +11522,62 @@
 [2024-05-08 07:53:11] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
 [2024-05-08 07:53:11] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
 [2024-05-08 07:53:11] INFO root fetch - main [MainThread]: Store serial: [23108694]
+[2024-05-08 07:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108694]
+[2024-05-08 07:55:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blessz
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoMLApp
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-nftc
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py4web
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thingspire-datasets
+[2024-05-08 07:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnurl
+[2024-05-08 07:55:22] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [lnurl]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-08 07:55:22] WARNING root fetch - processPackages [blessz]: Skipping, unable to determine old version
+[2024-05-08 07:55:22] INFO root fetch - main [MainThread]: End processing [blessz] error
+[2024-05-08 07:55:22] INFO root fetch - processPackages [py4web]: New version: [1.20240507.1] Old Version: [1.20240428.2]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [thingspire-datasets]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [antchain-nftc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.66] Old Version: [0.1.65]
+[2024-05-08 07:55:22] INFO root fetch - processPackages [lnurl]: Downloading https://files.pythonhosted.org/packages/aa/2d/4a03263c7def37535a73dc922f6f09fb38d7084e542e9eaaa183646a256b/lnurl-0.5.0.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/37/a8/f390bb2181312d1be445023993ab6923ed46bd4ba9ac685d8a8bdcc4eeaf/automlapp-0.1.65.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/4a/94/033aaf480ac07f212a67c8f20bcbb1a8d7f9e7142b8214bdfd7a7e139df9/py4web-1.20240428.2.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/70/d0/07aaf551363dca8be98b05dd2dbc394a2c5c0cac5ce037ed661c64532e84/antchain_nftc-1.0.8.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [thingspire-datasets]: Downloading https://files.pythonhosted.org/packages/5a/d3/617f602cb295b97fff398594b4a0570e63250731ea05b1a71fdd0f1e2ac6/thingspire-datasets-0.1.4.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-08 07:55:22] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240508/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 07:55:22] INFO root fetch - processPackages [thingspire-datasets]: executing diffoscope
+[2024-05-08 07:55:22] INFO root fetch - processPackages [thingspire-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingspire-datasets-0.1.2.tar.gz tmp/thingspire-datasets-0.1.4.tar.gz --markdown 20240508/t/thingspire-datasets/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-08 07:55:22] INFO root fetch - processPackages [lnurl]: Downloading https://files.pythonhosted.org/packages/1b/10/22057e6122c9bfcd9678921dc6c3e66af1b6561c95a270653d9a9b37e59f/lnurl-0.5.1.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/83/ef/5c1544c3fa1e7e7009f90a47a6804b8a649d873525961fdaa163cde32ba2/automlapp-0.1.66.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/a0/5d/8ad4372b715b6b24700a1942458941881a34cf2277755309e68024f1d6b1/antchain_nftc-1.0.9.tar.gz
+[2024-05-08 07:55:22] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-08 07:55:22] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.65.tar.gz tmp/automlapp-0.1.66.tar.gz --markdown 20240508/A/AutoMLApp/0.1.65-0.1.66/README.md --exclude *.pyd
+[2024-05-08 07:55:22] INFO root fetch - processPackages [lnurl]: executing diffoscope
+[2024-05-08 07:55:22] INFO root fetch - processPackages [lnurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnurl-0.5.0.tar.gz tmp/lnurl-0.5.1.tar.gz --markdown 20240508/l/lnurl/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-08 07:55:23] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/d3/3f/e559eb5586cf142d5cc0d0fb4c8f3b3cc141f492761a4b762d40d5c42918/py4web-1.20240507.1.tar.gz
+[2024-05-08 07:55:23] INFO root fetch - processPackages [antchain-nftc]: executing diffoscope
+[2024-05-08 07:55:23] INFO root fetch - processPackages [antchain-nftc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftc-1.0.8.tar.gz tmp/antchain_nftc-1.0.9.tar.gz --markdown 20240508/a/antchain-nftc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 07:55:23] INFO root fetch - processPackages [thingspire-datasets]: Remove: archive file [/home/abi/fetcher/tmp/thingspire-datasets-0.1.2.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - processPackages [thingspire-datasets]: Remove: archive file [/home/abi/fetcher/tmp/thingspire-datasets-0.1.4.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - main [MainThread]: End processing [thingspire-datasets]: success
+[2024-05-08 07:55:23] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-08 07:55:23] INFO root fetch - processPackages [lnurl]: Remove: archive file [/home/abi/fetcher/tmp/lnurl-0.5.0.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - processPackages [lnurl]: Remove: archive file [/home/abi/fetcher/tmp/lnurl-0.5.1.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - main [MainThread]: End processing [lnurl]: success
+[2024-05-08 07:55:23] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.65.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.66.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-08 07:55:23] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.8.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
+[2024-05-08 07:55:23] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
+[2024-05-08 07:55:24] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-08 07:55:24] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240428.2.tar.gz tmp/py4web-1.20240507.1.tar.gz --markdown 20240508/p/py4web/1.20240428.2-1.20240507.1/README.md --exclude *.pyd
+[2024-05-08 07:55:26] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240428.2.tar.gz]
+[2024-05-08 07:55:26] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240507.1.tar.gz]
+[2024-05-08 07:55:26] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-08 07:55:26] INFO root fetch - main [MainThread]: Store serial: [23108718]
