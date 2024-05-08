@@ -13603,3 +13603,68 @@
 [2024-05-08 09:40:33] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-05-08 09:40:33] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-05-08 09:40:33] INFO root fetch - main [MainThread]: Store serial: [23109893]
+[2024-05-08 09:42:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109893]
+[2024-05-08 09:42:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libecalc
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miner-ai-beta
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfmath
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-marshmallow-openapi
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: theohe-epias
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: user-external-local
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: locust
+[2024-05-08 09:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-aliding20230426
+[2024-05-08 09:42:42] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [user-external-local]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [theohe-epias]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-08 09:42:42] WARNING root fetch - processPackages [pfmath]: Skipping, unable to determine old version
+[2024-05-08 09:42:42] INFO root fetch - main [MainThread]: End processing [pfmath] error
+[2024-05-08 09:42:42] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-08 09:42:42] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 09:42:42] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/5e/ed/7ebac192e9dd0130ceaa36f02cecc99e4897e32d3b8b56bc0bc3296f051a/user_external_local-0.0.39.tar.gz
+[2024-05-08 09:42:42] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-08 09:42:42] INFO root fetch - processPackages [theohe-epias]: Downloading https://files.pythonhosted.org/packages/5b/a3/3a65355dd236e0cc043225aca4e084a4f55c4788cfc866404408ea4c6a9a/theohe-epias-0.0.8.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/3a/d2/eb8363a37692ccb92f5c1c45ac0b0efb36368ccab2752ba1e0dd43b15655/flask_marshmallow_openapi-0.6.2.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/42/57/e6db7862b99a209428ea103588c4a73b73d20702a8d57a4539e678c6c0fe/user_external_local-0.0.40.tar.gz
+[2024-05-08 09:42:43] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-05-08 09:42:43] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-05-08 09:42:43] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 09:42:43] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [user-external-local]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_external_local-0.0.39.tar.gz tmp/user_external_local-0.0.40.tar.gz --markdown 20240508/u/user-external-local/0.0.39-0.0.40/README.md --exclude *.pyd
+[2024-05-08 09:42:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240508/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-08 09:42:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/ec/17/2d901ca88ee5924ba35c71c6bb4f8b3f0171f599e1c766bd54b41111910c/flask_marshmallow_openapi-0.6.3.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [theohe-epias]: Downloading https://files.pythonhosted.org/packages/94/64/9be708a87efea1075febc3a464865ac769f5382b6f82519ad64ebb75b0a1/theohe_epias-0.0.9.tar.gz
+[2024-05-08 09:42:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240508/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-08 09:42:43] INFO root fetch - processPackages [theohe-epias]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [theohe-epias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theohe-epias-0.0.8.tar.gz tmp/theohe_epias-0.0.9.tar.gz --markdown 20240508/t/theohe-epias/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:42:43] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 09:42:43] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 09:42:43] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 09:42:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2024-05-08 09:42:43] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_marshmallow_openapi-0.6.2.tar.gz tmp/flask_marshmallow_openapi-0.6.3.tar.gz --markdown 20240508/f/flask-marshmallow-openapi/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-08 09:42:44] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.39.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.40.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [user-external-local]: success
+[2024-05-08 09:42:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-08 09:42:44] INFO root fetch - processPackages [theohe-epias]: Remove: archive file [/home/abi/fetcher/tmp/theohe-epias-0.0.8.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - processPackages [theohe-epias]: Remove: archive file [/home/abi/fetcher/tmp/theohe_epias-0.0.9.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [theohe-epias]: success
+[2024-05-08 09:42:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask_marshmallow_openapi-0.6.2.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask_marshmallow_openapi-0.6.3.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2024-05-08 09:42:44] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-08 09:42:44] INFO root fetch - main [MainThread]: Store serial: [23109937]
