@@ -16115,3 +16115,38 @@
 [2024-05-08 10:58:14] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django_import_export-4.0.1.tar.gz]
 [2024-05-08 10:58:14] INFO root fetch - main [MainThread]: End processing [django-import-export]: success
 [2024-05-08 10:58:14] INFO root fetch - main [MainThread]: Store serial: [23110925]
+[2024-05-08 11:00:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110925]
+[2024-05-08 11:00:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowty
+[2024-05-08 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tilearn-llm
+[2024-05-08 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h5rdmtoolbox
+[2024-05-08 11:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: link-mongodb
+[2024-05-08 11:00:23] INFO root fetch - processPackages [tilearn-llm]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-08 11:00:23] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/f6/c4/38359b0ea9bfd0754c7160498a0d6a2fc9cc70ff25e0041a537aec2a354a/tilearn_llm-0.8.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 11:00:23] INFO root fetch - processPackages [link-mongodb]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-05-08 11:00:23] INFO root fetch - processPackages [h5rdmtoolbox]: New version: [1.3.0a1] Old Version: [1.3.0]
+[2024-05-08 11:00:23] INFO root fetch - processPackages [flowty]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-05-08 11:00:23] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 14750313>=10485760
+[2024-05-08 11:00:23] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-05-08 11:00:23] INFO root fetch - processPackages [h5rdmtoolbox]: Downloading https://files.pythonhosted.org/packages/24/c8/5e77b9b6a66e993ad834df0920ebfa1345a77eafc06cf54a04fe56f30454/h5rdmtoolbox-1.3.0.tar.gz
+[2024-05-08 11:00:23] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/8a/21/0ef35cb4f837c514f719e4a803fe92df8a925ad34cf509ade3368bc7a9d9/flowty-2.0a8-cp39-cp39-win_amd64.whl
+[2024-05-08 11:00:23] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/e3/57/d81cf8408264c294f59560022192792f2271ab3d4c6605fdc294b4e23437/link_mongodb-0.1.3.tar.gz
+[2024-05-08 11:00:24] INFO root fetch - processPackages [h5rdmtoolbox]: Downloading https://files.pythonhosted.org/packages/6e/c6/e46ebb37fc41025cb03b4d5259f9ae5f920ac790481335403b430508c61d/h5rdmtoolbox-1.3.0a1.tar.gz
+[2024-05-08 11:00:24] INFO root fetch - processPackages [h5rdmtoolbox]: executing diffoscope
+[2024-05-08 11:00:24] INFO root fetch - processPackages [h5rdmtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5rdmtoolbox-1.3.0.tar.gz tmp/h5rdmtoolbox-1.3.0a1.tar.gz --markdown 20240508/h/h5rdmtoolbox/1.3.0-1.3.0a1/README.md --exclude *.pyd
+[2024-05-08 11:00:24] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/65/44/14de8ca45bcdfc1017cee3c5f1e33f089cc3e4e1f91b24d3a740885ab0d4/link_mongodb-1.0.0.tar.gz
+[2024-05-08 11:00:24] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/86/06/633363dc6df20f628161857a8880273ffd4dd4926dd4625f1a1f5c596f73/flowty-2.0a9-cp39-cp39-win_amd64.whl
+[2024-05-08 11:00:24] INFO root fetch - processPackages [flowty]: executing diffoscope
+[2024-05-08 11:00:24] INFO root fetch - processPackages [flowty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20240508/f/flowty/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-05-08 11:00:24] INFO root fetch - processPackages [link-mongodb]: executing diffoscope
+[2024-05-08 11:00:24] INFO root fetch - processPackages [link-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/link_mongodb-0.1.3.tar.gz tmp/link_mongodb-1.0.0.tar.gz --markdown 20240508/l/link-mongodb/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-05-08 11:00:25] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 11:00:25] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 11:00:25] INFO root fetch - main [MainThread]: End processing [flowty]: success
+[2024-05-08 11:00:25] INFO root fetch - processPackages [h5rdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/h5rdmtoolbox-1.3.0.tar.gz]
+[2024-05-08 11:00:25] INFO root fetch - processPackages [h5rdmtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/h5rdmtoolbox-1.3.0a1.tar.gz]
+[2024-05-08 11:00:25] INFO root fetch - main [MainThread]: End processing [h5rdmtoolbox]: success
+[2024-05-08 11:00:25] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-0.1.3.tar.gz]
+[2024-05-08 11:00:25] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-1.0.0.tar.gz]
+[2024-05-08 11:00:25] INFO root fetch - main [MainThread]: End processing [link-mongodb]: success
+[2024-05-08 11:00:25] INFO root fetch - main [MainThread]: Store serial: [23110950]
