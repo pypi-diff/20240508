@@ -21930,3 +21930,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:34:37] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38420336>=10485760
 [2024-05-08 14:34:37] INFO root fetch - main [MainThread]: End processing [panel] error
 [2024-05-08 14:34:37] INFO root fetch - main [MainThread]: Store serial: [23113337]
+[2024-05-08 14:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113337]
+[2024-05-08 14:36:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 14:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-05-08 14:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virtualmachine
+[2024-05-08 14:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Starco
+[2024-05-08 14:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-needs
+[2024-05-08 14:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skilleter-thingy
+[2024-05-08 14:36:46] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-05-08 14:36:46] INFO root fetch - processPackages [Starco]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-05-08 14:36:46] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.36] Old Version: [0.0.35]
+[2024-05-08 14:36:46] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [virtualmachine]: New version: [1.3.1] Old Version: [1.2.1]
+[2024-05-08 14:36:46] INFO root fetch - processPackages [sphinx-needs]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-08 14:36:46] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/7c/a1/363187503a28a6280b1c238cb9e414b2edfc4dc2a45656cf7a709658ad5d/Starco-3.1.5.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/e8/1e/0e29e2301791b02d42182f11f3ead44e3bd0fe04292bcbc0285ec0d3f823/skilleter_thingy-0.0.35.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [virtualmachine]: Downloading https://files.pythonhosted.org/packages/b8/39/e2eb7864a6a1f452587028c2b28233e1604e35ddb14ea4a4a59445ae1fb0/virtualmachine-1.2.1.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [sphinx-needs]: Downloading https://files.pythonhosted.org/packages/b7/6e/bc21eec03eb47a10b062f8cf25d1fd0e682e7192874a70c63f5147729483/sphinx_needs-2.0.0.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/ef/98/cec4b4f026d25f83ce741357fc7fc6b097e9672721d621570b8d671da95b/Starco-3.1.6.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-05-08 14:36:46] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240508/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 14:36:46] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/cd/61/8334f796a2f90bbaa001de540e575feda5cc79a9f6079b229b15f79df01d/skilleter_thingy-0.0.36.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-08 14:36:46] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.1.5.tar.gz tmp/Starco-3.1.6.tar.gz --markdown 20240508/S/Starco/3.1.5-3.1.6/README.md --exclude *.pyd
+[2024-05-08 14:36:46] INFO root fetch - processPackages [virtualmachine]: Downloading https://files.pythonhosted.org/packages/2a/f9/d0bb2a99dcccb39aa8241c3b1e1ac1f3f1d5127b648815bcda02492cfaae/virtualmachine-1.3.1.tar.gz
+[2024-05-08 14:36:46] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:36:46] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.35.tar.gz tmp/skilleter_thingy-0.0.36.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.35-0.0.36/README.md --exclude *.pyd
+[2024-05-08 14:36:47] INFO root fetch - processPackages [virtualmachine]: executing diffoscope
+[2024-05-08 14:36:47] INFO root fetch - processPackages [virtualmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualmachine-1.2.1.tar.gz tmp/virtualmachine-1.3.1.tar.gz --markdown 20240508/v/virtualmachine/1.2.1-1.3.1/README.md --exclude *.pyd
+[2024-05-08 14:36:47] INFO root fetch - processPackages [sphinx-needs]: Downloading https://files.pythonhosted.org/packages/b4/3b/b5edcfe68cd07ebd99b1f4844afeea3b323a4eee7dc18fdf320362682835/sphinx_needs-2.1.0.tar.gz
+[2024-05-08 14:36:47] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-05-08 14:36:47] INFO root fetch - processPackages [sphinx-needs]: executing diffoscope
+[2024-05-08 14:36:47] INFO root fetch - processPackages [sphinx-needs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_needs-2.0.0.tar.gz tmp/sphinx_needs-2.1.0.tar.gz --markdown 20240508/s/sphinx-needs/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-08 14:36:47] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.5.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.6.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-08 14:36:47] INFO root fetch - processPackages [virtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/virtualmachine-1.2.1.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - processPackages [virtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/virtualmachine-1.3.1.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - main [MainThread]: End processing [virtualmachine]: success
+[2024-05-08 14:36:47] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.35.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.36.tar.gz]
+[2024-05-08 14:36:47] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:36:49] INFO root fetch - processPackages [sphinx-needs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_needs-2.0.0.tar.gz]
+[2024-05-08 14:36:49] INFO root fetch - processPackages [sphinx-needs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_needs-2.1.0.tar.gz]
+[2024-05-08 14:36:49] INFO root fetch - main [MainThread]: End processing [sphinx-needs]: success
+[2024-05-08 14:36:49] INFO root fetch - main [MainThread]: Store serial: [23113395]
