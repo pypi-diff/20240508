@@ -21978,3 +21978,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:36:49] INFO root fetch - processPackages [sphinx-needs]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_needs-2.1.0.tar.gz]
 [2024-05-08 14:36:49] INFO root fetch - main [MainThread]: End processing [sphinx-needs]: success
 [2024-05-08 14:36:49] INFO root fetch - main [MainThread]: Store serial: [23113395]
+[2024-05-08 14:38:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113395]
+[2024-05-08 14:38:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax-freighter
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sagemaker-huggingface-inference-toolkit
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DesalSim
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libcnmc
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: river-core
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synnax
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resc-vcs-scanner
+[2024-05-08 14:38:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sklearn-viz
+[2024-05-08 14:38:58] INFO root fetch - processPackages [DesalSim]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [cg]: New version: [60.7.4] Old Version: [60.7.3]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/bc/35/9ca596667f14b6cd4c518685a2d89108fe6a62f2545bf40eebd8f7e4027e/desalsim-0.7.1.tar.gz
+[2024-05-08 14:38:58] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f6/d3/85a034f2e5335a1fa6fcfc1e37a54163bddf93ed16a86fb18296457a6e37/cg-60.7.3.tar.gz
+[2024-05-08 14:38:58] INFO root fetch - processPackages [river-core]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [resc-vcs-scanner]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [sklearn-viz]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-05-08 14:38:58] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 14:38:58] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-08 14:38:59] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/ae/74/8c39b5fb79f11b61c565d7ad7eed3d50ecc50080e4cb94b00f5a2cb1746b/river_core-1.4.3.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: Downloading https://files.pythonhosted.org/packages/ae/5b/18710f8a40903ae613243e996b2927e513025a77280e107ed1e15181b38f/sagemaker-huggingface-inference-toolkit-2.3.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/94/93/5fc03a7a4e711b1fcac1a3384b7847b108d5c8145f00733ac19b3da41241/resc_vcs_scanner-3.0.1.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/de/17/77bdb95d5ae074512770c9f46a1fda8653fe14e04b68bc905b5ecab359ff/sklearn_viz-0.4.9.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/a3/ae/774f3713fc2e6f574d8c7d8db5d1f3adfb4caece17514c435a4e4f69ce96/desalsim-0.7.2.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/50/fc/ee78bf2d6bf325a652a364d4924708b1cabf3def87310a88f34a341fb542/river_core-1.5.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240508/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: Downloading https://files.pythonhosted.org/packages/f7/97/0ecdb953b857bd2ce3619d4c6fbc9f370b5cd848684dbd7a431eaaa2d784/sagemaker_huggingface_inference_toolkit-2.4.0-py3-none-any.whl
+[2024-05-08 14:38:59] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/49/e9/55960552516a036d55ba75d279f7ec9fb848176940cbfa2f109a91209f58/cg-60.7.4.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.7.1.tar.gz tmp/desalsim-0.7.2.tar.gz --markdown 20240508/D/DesalSim/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240508/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/a4/0c/25bbdfab97c5bbc4794a11470b6a73b769c8560e11921c3ad0c589872364/sklearn_viz-0.5.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [river-core]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [river-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river_core-1.4.3.tar.gz tmp/river_core-1.5.0.tar.gz --markdown 20240508/r/river-core/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/44/73/ccb65d59860037a1338b055e8d40a82b1799919e447fab7eceea0ab692f8/resc_vcs_scanner-3.1.0.tar.gz
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-huggingface-inference-toolkit-2.3.0.tar.gz tmp/sagemaker_huggingface_inference_toolkit-2.4.0-py3-none-any.whl.zip --markdown 20240508/s/sagemaker-huggingface-inference-toolkit/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240508/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sklearn-viz]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [sklearn-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_viz-0.4.9.tar.gz tmp/sklearn_viz-0.5.0.tar.gz --markdown 20240508/s/sklearn-viz/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240508/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [resc-vcs-scanner]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [resc-vcs-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_vcs_scanner-3.0.1.tar.gz tmp/resc_vcs_scanner-3.1.0.tar.gz --markdown 20240508/r/resc-vcs-scanner/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-08 14:38:59] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-08 14:38:59] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.3.tar.gz tmp/cg-60.7.4.tar.gz --markdown 20240508/c/cg/60.7.3-60.7.4/README.md --exclude *.pyd
+[2024-05-08 14:39:00] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [alamos]: Start processing: dragon-baseline
+[2024-05-08 14:39:00] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-08 14:39:00] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-huggingface-inference-toolkit-2.3.0.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_huggingface_inference_toolkit-2.4.0-py3-none-any.whl.zip]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [sagemaker-huggingface-inference-toolkit]: Start processing: eea.facetednavigation
+[2024-05-08 14:39:00] INFO root fetch - main [MainThread]: End processing [sagemaker-huggingface-inference-toolkit]: success
+[2024-05-08 14:39:00] INFO root fetch - processPackages [dragon-baseline]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [eea.facetednavigation]: New version: [9.9] Old Version: [9.8]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [eea.facetednavigation]: Downloading https://files.pythonhosted.org/packages/a8/52/53715972331f564a2f4d084a40af92fcd6e58023f7e0781488f783de1c5b/eea.facetednavigation-9.8.zip
+[2024-05-08 14:39:00] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.1.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.2.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 14:39:00] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.4.3.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.5.0.tar.gz]
+[2024-05-08 14:39:00] INFO root fetch - main [MainThread]: End processing [river-core]: success
+[2024-05-08 14:39:00] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/0c/6e/a078522884b73bc41f20f0b9b35703a95012b92cc5cdff31b1c822c7bd22/dragon_baseline-0.2.0.tar.gz
+[2024-05-08 14:39:01] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-08 14:39:01] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.4.9.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.5.0.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
+[2024-05-08 14:39:01] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-08 14:39:01] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.0.1.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.1.0.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - main [MainThread]: End processing [resc-vcs-scanner]: success
+[2024-05-08 14:39:01] INFO root fetch - processPackages [eea.facetednavigation]: Downloading https://files.pythonhosted.org/packages/55/f7/4decced0b2dd6008f5051aa7fcc2d5cec25b6e113d4098cdf059592f99ec/eea.facetednavigation-9.9.zip
+[2024-05-08 14:39:01] INFO root fetch - processPackages [dragon-baseline]: Downloading https://files.pythonhosted.org/packages/fd/4d/527d3b92771ebd4521ba177e945fefa93191dbe9f04c6ccc3929e3fe8201/dragon_baseline-0.2.1.tar.gz
+[2024-05-08 14:39:01] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-05-08 14:39:01] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-05-08 14:39:01] INFO root fetch - processPackages [eea.facetednavigation]: executing diffoscope
+[2024-05-08 14:39:01] INFO root fetch - processPackages [eea.facetednavigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.facetednavigation-9.8.zip tmp/eea.facetednavigation-9.9.zip --markdown 20240508/e/eea.facetednavigation/9.8-9.9/README.md --exclude *.pyd
+[2024-05-08 14:39:01] INFO root fetch - processPackages [dragon-baseline]: executing diffoscope
+[2024-05-08 14:39:01] INFO root fetch - processPackages [dragon-baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon_baseline-0.2.0.tar.gz tmp/dragon_baseline-0.2.1.tar.gz --markdown 20240508/d/dragon-baseline/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 14:39:02] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.2.0.tar.gz]
+[2024-05-08 14:39:02] INFO root fetch - processPackages [dragon-baseline]: Remove: archive file [/home/abi/fetcher/tmp/dragon_baseline-0.2.1.tar.gz]
+[2024-05-08 14:39:02] INFO root fetch - main [MainThread]: End processing [dragon-baseline]: success
+[2024-05-08 14:39:03] INFO root fetch - processPackages [eea.facetednavigation]: Remove: archive file [/home/abi/fetcher/tmp/eea.facetednavigation-9.8.zip]
+[2024-05-08 14:39:03] INFO root fetch - processPackages [eea.facetednavigation]: Remove: archive file [/home/abi/fetcher/tmp/eea.facetednavigation-9.9.zip]
+[2024-05-08 14:39:03] INFO root fetch - main [MainThread]: End processing [eea.facetednavigation]: success
+[2024-05-08 14:39:05] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.3.tar.gz]
+[2024-05-08 14:39:05] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.4.tar.gz]
+[2024-05-08 14:39:05] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-08 14:39:05] INFO root fetch - main [MainThread]: Store serial: [23113430]
