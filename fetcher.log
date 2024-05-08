@@ -14112,3 +14112,72 @@
 [2024-05-08 10:02:30] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.4.tar.gz]
 [2024-05-08 10:02:30] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-08 10:02:30] INFO root fetch - main [MainThread]: Store serial: [23110135]
+[2024-05-08 10:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110135]
+[2024-05-08 10:04:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amos-api
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crud-repository
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MPSPEnv
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfun
+[2024-05-08 10:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyneople
+[2024-05-08 10:04:39] WARNING root fetch - processPackages [amos-api]: Skipping, unable to determine old version
+[2024-05-08 10:04:39] INFO root fetch - main [MainThread]: End processing [amos-api] error
+[2024-05-08 10:04:39] INFO root fetch - processPackages [crud-repository]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [qwak-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/c1/24/1b24976cf46c9d8d53d8d5e060300f496dfe53e98f25887e5def5c3d80df/crud_repository-0.1.9.tar.gz
+[2024-05-08 10:04:39] INFO root fetch - processPackages [MPSPEnv]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-05-08 10:04:39] INFO root fetch - processPackages [pyneople]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240508] Old Version: [0.0.2.dev20240507]
+[2024-05-08 10:04:39] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/3d/73/2048ef78d86adb6695bb9353a24ab725e6e130c301a7db8a65523797c953/qwak_core-0.4.4.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/29/82/094219a6ffaa030924807c0c7d1c5c4846b9da2766fb9242b309e3b7e41a/langfun-0.0.2.dev20240507.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/9e/be/f91fa76e471a0dd7260d37c9e6499277a10610790a3e5f7831d659956074/MPSPEnv-0.0.8.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/82/7b/1cfbea3d703bbf99d878a570847c46c446915d58ecd25a141020b30a3542/pyneople-0.3.0.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/05/a4/e60e2cf1f23091d3fbc627a6ac8c89cc78537be6552950f00268922f7a4f/crud_repository-0.2.0.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/89/ac/9c8b01e5faf1e88e6c31bfec782c443ecb1dd7356126c4ac2c6714a9349a/qwak_core-0.4.5.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240508/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [crud-repository]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [crud-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crud_repository-0.1.9.tar.gz tmp/crud_repository-0.2.0.tar.gz --markdown 20240508/c/crud-repository/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/56/93/d1f5688cdcd48e37f42261465941a41ba9ab360699269bd028ed10bf8684/pyneople-0.3.1.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/49/f7/3d0031c911e5d69c9e8536e156ebae2cf1453167270f34f5b3ba240b8672/MPSPEnv-0.0.9.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.4.tar.gz tmp/qwak_core-0.4.5.tar.gz --markdown 20240508/q/qwak-core/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/ab/07/1ac2c1dde1fb6a666078e8124110eccc1745e38e18d984a09f39f5862912/langfun-0.0.2.dev20240508.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-08 10:04:40] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.0.tar.gz tmp/pyneople-0.3.1.tar.gz --markdown 20240508/p/pyneople/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240507.tar.gz tmp/langfun-0.0.2.dev20240508.tar.gz --markdown 20240508/l/langfun/0.0.2.dev20240507-0.0.2.dev20240508/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240508/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:04:40] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-08 10:04:40] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPEnv-0.0.8.tar.gz tmp/MPSPEnv-0.0.9.tar.gz --markdown 20240508/M/MPSPEnv/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:04:41] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.1.9.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.2.0.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [crud-repository]: success
+[2024-05-08 10:04:41] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.0.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.1.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:04:41] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.8.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/MPSPEnv-0.0.9.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-08 10:04:41] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-08 10:04:41] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-05-08 10:04:41] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240507.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240508.tar.gz]
+[2024-05-08 10:04:41] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-08 10:04:43] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.4.tar.gz]
+[2024-05-08 10:04:43] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.5.tar.gz]
+[2024-05-08 10:04:43] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-08 10:04:43] INFO root fetch - main [MainThread]: Store serial: [23110163]
