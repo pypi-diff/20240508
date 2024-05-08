@@ -2516,3 +2516,38 @@
 [2024-05-08 02:18:28] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
 [2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
 [2024-05-08 02:18:28] INFO root fetch - main [MainThread]: Store serial: [23105285]
+[2024-05-08 02:20:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105285]
+[2024-05-08 02:20:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 02:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hospitalpy
+[2024-05-08 02:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cr-constructs
+[2024-05-08 02:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not-again-ai
+[2024-05-08 02:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lasertram
+[2024-05-08 02:20:37] INFO root fetch - processPackages [hospitalpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 02:20:37] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.448] Old Version: [2.1.447]
+[2024-05-08 02:20:37] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/1c/24/6c5365942c5d8afa44141a572250129ba1715c465aba8abf3d5c8d7bdcde/hospitalpy-0.1.1.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [lasertram]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 02:20:37] INFO root fetch - processPackages [not-again-ai]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-08 02:20:37] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/2d/3a/c37b7c98ca0de78ec15671fb11664815ae7d87ab70688a77c5bb0945261c/cdk-cr-constructs-2.1.447.tar.gz
+[2024-05-08 02:20:37] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15192992>=10485760
+[2024-05-08 02:20:37] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-08 02:20:37] INFO root fetch - processPackages [lasertram]: Downloading https://files.pythonhosted.org/packages/74/a3/2e953368d43df22f97cc13b955601522a454ce849d8796d7ae6b8e8493d7/lasertram-0.1.2.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [not-again-ai]: Downloading https://files.pythonhosted.org/packages/d6/9f/1356af808a042b788d7967539cc8b74087f1399cdb13ddffee060d833749/not_again_ai-0.7.0.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/f7/67/637fe6f3cc0f24bc1a0eb128ca26043677836a8d90c5e197e22009c050cf/hospitalpy-0.1.2.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [hospitalpy]: executing diffoscope
+[2024-05-08 02:20:37] INFO root fetch - processPackages [hospitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hospitalpy-0.1.1.tar.gz tmp/hospitalpy-0.1.2.tar.gz --markdown 20240508/h/hospitalpy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 02:20:37] INFO root fetch - processPackages [lasertram]: Downloading https://files.pythonhosted.org/packages/a9/fd/9083bd488f64027b91e27f25ff185c5ee0d060f3bee13ed2d2fb7970edc9/lasertram-0.1.3.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [not-again-ai]: Downloading https://files.pythonhosted.org/packages/3a/1a/3b855e05b5dbc28154e77886dab54c2470849d38ec377e9b2705f2ffffce/not_again_ai-0.8.0.tar.gz
+[2024-05-08 02:20:37] INFO root fetch - processPackages [lasertram]: executing diffoscope
+[2024-05-08 02:20:37] INFO root fetch - processPackages [lasertram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasertram-0.1.2.tar.gz tmp/lasertram-0.1.3.tar.gz --markdown 20240508/l/lasertram/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 02:20:37] INFO root fetch - processPackages [not-again-ai]: executing diffoscope
+[2024-05-08 02:20:37] INFO root fetch - processPackages [not-again-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not_again_ai-0.7.0.tar.gz tmp/not_again_ai-0.8.0.tar.gz --markdown 20240508/n/not-again-ai/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-08 02:20:38] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.1.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.2.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - main [MainThread]: End processing [hospitalpy]: success
+[2024-05-08 02:20:38] INFO root fetch - processPackages [lasertram]: Remove: archive file [/home/abi/fetcher/tmp/lasertram-0.1.2.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - processPackages [lasertram]: Remove: archive file [/home/abi/fetcher/tmp/lasertram-0.1.3.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - main [MainThread]: End processing [lasertram]: success
+[2024-05-08 02:20:38] INFO root fetch - processPackages [not-again-ai]: Remove: archive file [/home/abi/fetcher/tmp/not_again_ai-0.7.0.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - processPackages [not-again-ai]: Remove: archive file [/home/abi/fetcher/tmp/not_again_ai-0.8.0.tar.gz]
+[2024-05-08 02:20:38] INFO root fetch - main [MainThread]: End processing [not-again-ai]: success
+[2024-05-08 02:20:38] INFO root fetch - main [MainThread]: Store serial: [23105305]
