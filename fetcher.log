@@ -11457,3 +11457,15 @@
 [2024-05-08 07:48:22] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.9.tar.gz]
 [2024-05-08 07:48:22] INFO root fetch - main [MainThread]: End processing [red_utils]: success
 [2024-05-08 07:48:22] INFO root fetch - main [MainThread]: Store serial: [23108668]
+[2024-05-08 07:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108668]
+[2024-05-08 07:50:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 07:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepsearch-glm
+[2024-05-08 07:50:31] INFO root fetch - processPackages [deepsearch-glm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 07:50:31] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/9b/9e/e3aec9901c93140a9ce87412641f030d7e333289633728170b0e46f96459/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 07:50:31] INFO root fetch - processPackages [deepsearch-glm]: Downloading https://files.pythonhosted.org/packages/a7/b4/b6e4a1f599dd8c5b22a644ee41f01aa39b5fad5698dce6be0e003fdd6457/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 07:50:32] INFO root fetch - processPackages [deepsearch-glm]: executing diffoscope
+[2024-05-08 07:50:32] INFO root fetch - processPackages [deepsearch-glm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240508/d/deepsearch-glm/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 07:50:56] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 07:50:56] INFO root fetch - processPackages [deepsearch-glm]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_glm-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 07:50:56] INFO root fetch - main [MainThread]: End processing [deepsearch-glm]: success
+[2024-05-08 07:50:56] INFO root fetch - main [MainThread]: Store serial: [23108673]
