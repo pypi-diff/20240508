@@ -8430,3 +8430,15 @@
 [2024-05-08 04:26:34] INFO root fetch - processPackages [azcp-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/azcp_wrapper-0.0.3.tar.gz]
 [2024-05-08 04:26:34] INFO root fetch - main [MainThread]: End processing [azcp-wrapper]: success
 [2024-05-08 04:26:34] INFO root fetch - main [MainThread]: Store serial: [23107576]
+[2024-05-08 04:28:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107576]
+[2024-05-08 04:28:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 04:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 04:28:42] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 04:28:42] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/9a/79/a813b4a6441c94aa0d91028462c2eaf1761779baf868c261b6b669d209bb/charzr_lib-1.0.1.tar.gz
+[2024-05-08 04:28:42] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/d5/6d/c14da10a7b2df0fa00e46cbb9cfd25da669536a02b6ae31dd739fa7a418b/charzr_lib-1.0.2.tar.gz
+[2024-05-08 04:28:43] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 04:28:43] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.1.tar.gz tmp/charzr_lib-1.0.2.tar.gz --markdown 20240508/c/charzr-lib/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 04:28:43] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.1.tar.gz]
+[2024-05-08 04:28:43] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.2.tar.gz]
+[2024-05-08 04:28:43] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 04:28:43] INFO root fetch - main [MainThread]: Store serial: [23107582]
