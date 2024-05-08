@@ -9389,3 +9389,51 @@
 [2024-05-08 05:28:10] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.9.tar.gz]
 [2024-05-08 05:28:10] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local]: success
 [2024-05-08 05:28:10] INFO root fetch - main [MainThread]: Store serial: [23107942]
+[2024-05-08 05:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107942]
+[2024-05-08 05:30:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 05:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 05:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NorrisUtils
+[2024-05-08 05:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vision-agent
+[2024-05-08 05:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapbox-tilesets
+[2024-05-08 05:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pqsdk
+[2024-05-08 05:30:19] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 05:30:19] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-08 05:30:19] INFO root fetch - processPackages [pqsdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 05:30:19] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/fc/df/36665dd2bbb215742f6f16ab69fca3df0ecc761187949bda247bbba0b020/charzr_lib-1.0.3.tar.gz
+[2024-05-08 05:30:19] INFO root fetch - processPackages [mapbox-tilesets]: New version: [1.9.3] Old Version: [1.9.0]
+[2024-05-08 05:30:19] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/16/e1/a0a01956d4b3bc877b0b5260bd0926a74a64e39150c0747306717520b54a/NorrisUtils-1.4.0.tar.gz
+[2024-05-08 05:30:19] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 05:30:19] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/99/7e/a66dfc0891bc15662e169fc8c70fe6b76f40d98d21bda7b4d5d74d396325/pqsdk-0.0.6.tar.gz
+[2024-05-08 05:30:19] INFO root fetch - processPackages [mapbox-tilesets]: Downloading https://files.pythonhosted.org/packages/11/d3/85ef3e6c38867148dd2b470549ba6ee74e70e76936db68c6161c3f300993/mapbox-tilesets-1.9.0.tar.gz
+[2024-05-08 05:30:19] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-08 05:30:19] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/e9/69/0e4492f50161a326bf23aea3e1bac9fcdd9349c26e2bfe5fba6669d1de9f/charzr_lib-1.0.4.tar.gz
+[2024-05-08 05:30:20] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/d0/2c/cf7dc73472af0c45270ba0baa1c924ad359e62af6f45a3bc33dc0c0bfee4/NorrisUtils-1.4.1.tar.gz
+[2024-05-08 05:30:20] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 05:30:20] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.3.tar.gz tmp/charzr_lib-1.0.4.tar.gz --markdown 20240508/c/charzr-lib/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 05:30:20] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 05:30:20] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.0.tar.gz tmp/NorrisUtils-1.4.1.tar.gz --markdown 20240508/N/NorrisUtils/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-08 05:30:20] INFO root fetch - processPackages [mapbox-tilesets]: Downloading https://files.pythonhosted.org/packages/54/43/bdb8d9bc34d5cf73711a4e289af7e1b0e6c5c8c89eae72c6bf1fa126207e/mapbox-tilesets-1.9.3.tar.gz
+[2024-05-08 05:30:20] INFO root fetch - processPackages [mapbox-tilesets]: executing diffoscope
+[2024-05-08 05:30:20] INFO root fetch - processPackages [mapbox-tilesets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapbox-tilesets-1.9.0.tar.gz tmp/mapbox-tilesets-1.9.3.tar.gz --markdown 20240508/m/mapbox-tilesets/1.9.0-1.9.3/README.md --exclude *.pyd
+[2024-05-08 05:30:20] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-08 05:30:20] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/6d/f8/b95774c8b60df2b54a0e35390895e945e26417b7588227da6bf53a48e65c/pqsdk-0.0.7.tar.gz
+[2024-05-08 05:30:20] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.3.tar.gz]
+[2024-05-08 05:30:20] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.4.tar.gz]
+[2024-05-08 05:30:20] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 05:30:20] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-08 05:30:20] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240508/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 05:30:20] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.0.tar.gz]
+[2024-05-08 05:30:20] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.1.tar.gz]
+[2024-05-08 05:30:20] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 05:30:20] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-08 05:30:20] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.6.tar.gz tmp/pqsdk-0.0.7.tar.gz --markdown 20240508/p/pqsdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 05:30:21] INFO root fetch - processPackages [mapbox-tilesets]: Remove: archive file [/home/abi/fetcher/tmp/mapbox-tilesets-1.9.0.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - processPackages [mapbox-tilesets]: Remove: archive file [/home/abi/fetcher/tmp/mapbox-tilesets-1.9.3.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - main [MainThread]: End processing [mapbox-tilesets]: success
+[2024-05-08 05:30:21] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.6.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.7.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-08 05:30:21] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-08 05:30:21] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-08 05:30:21] INFO root fetch - main [MainThread]: Store serial: [23107956]
