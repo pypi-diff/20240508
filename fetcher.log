@@ -10795,3 +10795,27 @@
 [2024-05-08 06:55:15] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.3.tar.gz]
 [2024-05-08 06:55:15] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
 [2024-05-08 06:55:15] INFO root fetch - main [MainThread]: Store serial: [23108362]
+[2024-05-08 06:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108362]
+[2024-05-08 06:57:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 06:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-puppet
+[2024-05-08 06:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-storage-helper
+[2024-05-08 06:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libphdi-python
+[2024-05-08 06:57:24] WARNING root fetch - processPackages [api-puppet]: Skipping, unable to determine old version
+[2024-05-08 06:57:24] INFO root fetch - main [MainThread]: End processing [api-puppet] error
+[2024-05-08 06:57:24] INFO root fetch - processPackages [libphdi-python]: New version: [20240508] Old Version: [20240307]
+[2024-05-08 06:57:24] INFO root fetch - processPackages [fastapi-storage-helper]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 06:57:24] INFO root fetch - processPackages [fastapi-storage-helper]: Downloading https://files.pythonhosted.org/packages/61/af/2dd2b485eed67ae798455bd6944583bf507eb60650fb77c2190797c2a3fc/fastapi_storage_helper-0.0.4.tar.gz
+[2024-05-08 06:57:24] INFO root fetch - processPackages [libphdi-python]: Downloading https://files.pythonhosted.org/packages/3b/dd/1ea209f3d27de612318afd8c10d2b73dbb42d3346c822c6c941bb775d97a/libphdi-python-20240307.tar.gz
+[2024-05-08 06:57:24] INFO root fetch - processPackages [fastapi-storage-helper]: Downloading https://files.pythonhosted.org/packages/aa/b7/cecdbcab7d89be77a35fc1bf13d6edb12d038d87f5f15b72f5ec9eac1857/fastapi_storage_helper-0.0.5.tar.gz
+[2024-05-08 06:57:24] INFO root fetch - processPackages [fastapi-storage-helper]: executing diffoscope
+[2024-05-08 06:57:24] INFO root fetch - processPackages [fastapi-storage-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_storage_helper-0.0.4.tar.gz tmp/fastapi_storage_helper-0.0.5.tar.gz --markdown 20240508/f/fastapi-storage-helper/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 06:57:24] INFO root fetch - processPackages [libphdi-python]: Downloading https://files.pythonhosted.org/packages/88/aa/b85e1c89859569147e90601e0d04162e54b31eaeda83822a70c5ca3e61fc/libphdi-python-20240508.tar.gz
+[2024-05-08 06:57:25] INFO root fetch - processPackages [libphdi-python]: executing diffoscope
+[2024-05-08 06:57:25] INFO root fetch - processPackages [libphdi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libphdi-python-20240307.tar.gz tmp/libphdi-python-20240508.tar.gz --markdown 20240508/l/libphdi-python/20240307-20240508/README.md --exclude *.pyd
+[2024-05-08 06:57:25] INFO root fetch - processPackages [fastapi-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storage_helper-0.0.4.tar.gz]
+[2024-05-08 06:57:25] INFO root fetch - processPackages [fastapi-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storage_helper-0.0.5.tar.gz]
+[2024-05-08 06:57:25] INFO root fetch - main [MainThread]: End processing [fastapi-storage-helper]: success
+[2024-05-08 06:57:30] INFO root fetch - processPackages [libphdi-python]: Remove: archive file [/home/abi/fetcher/tmp/libphdi-python-20240307.tar.gz]
+[2024-05-08 06:57:30] INFO root fetch - processPackages [libphdi-python]: Remove: archive file [/home/abi/fetcher/tmp/libphdi-python-20240508.tar.gz]
+[2024-05-08 06:57:30] INFO root fetch - main [MainThread]: End processing [libphdi-python]: success
+[2024-05-08 06:57:30] INFO root fetch - main [MainThread]: Store serial: [23108372]
