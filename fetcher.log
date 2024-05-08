@@ -23407,3 +23407,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:23:50] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-08 15:23:50] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-08 15:23:50] INFO root fetch - main [MainThread]: Store serial: [23114085]
+[2024-05-08 15:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114085]
+[2024-05-08 15:26:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyyre
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcorepy
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrimeBotFramework
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparkle-stock
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paper-agent
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdn-research-environment
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lib-version-remla
+[2024-05-08 15:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antspyt1w
+[2024-05-08 15:26:00] INFO root fetch - processPackages [sparkle-stock]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [PrimeBotFramework]: New version: [1.0.60] Old Version: [1.0.56]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [lib-version-remla]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [lyyre]: New version: [2.4] Old Version: [2.3]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.7a3]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-08 15:26:00] WARNING root fetch - processPackages [paper-agent]: Skipping, unable to determine old version
+[2024-05-08 15:26:00] INFO root fetch - processPackages [paper-agent]: Start processing: birefractingz
+[2024-05-08 15:26:00] INFO root fetch - main [MainThread]: End processing [paper-agent] error
+[2024-05-08 15:26:00] INFO root fetch - processPackages [zcorepy]: New version: [0.2.0rc0] Old Version: [0.2.0a1]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [PrimeBotFramework]: Downloading https://files.pythonhosted.org/packages/52/b8/90c3194b8b0e7cf251760820d30121e3b2bf17a3d82b9b1671f63cb63a16/primebotframework-1.0.56.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [antspyt1w]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [sparkle-stock]: Downloading https://files.pythonhosted.org/packages/55/e8/0528ee88f9eea7ad64def05784b4015732b29e4065495f4c42a1d06d2d97/sparkle_stock-1.0.1-py3-none-any.whl
+[2024-05-08 15:26:00] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/0b/74/184b23ec882916360bf2089a9f70b5c9961f515a52fc6acfbee6ff555594/lib_version_remla-0.0.3.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/fa/a0/96391cddf6dac27ed7021d1e320dc71860d6c148244b55f6f57566877c59/lyyre-2.3.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-08 15:26:00] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/83/c7/843b42c0b72840f1992c8f5b40bae6a3925fce3d74b1245047b996351565/hdn-research-environment-3.0.7a3.tar.gz
+[2024-05-08 15:26:00] WARNING root fetch - processPackages [birefractingz]: Skipping, unable to determine old version
+[2024-05-08 15:26:00] INFO root fetch - processPackages [birefractingz]: Start processing: creaap
+[2024-05-08 15:26:00] INFO root fetch - main [MainThread]: End processing [birefractingz] error
+[2024-05-08 15:26:00] INFO root fetch - processPackages [zcorepy]: Downloading https://files.pythonhosted.org/packages/a5/48/f4e56e50ffd1d45038c9ecef4213056c5db17b436faa32fdd505a47aa67b/zcorepy-0.2.0a1.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [creaap]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 15:26:00] INFO root fetch - processPackages [antspyt1w]: Downloading https://files.pythonhosted.org/packages/b3/a4/154031233a1670d084b1e2972c1916e5a6e5372ea9f789a81ef429e0b81d/antspyt1w-0.9.1.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [PrimeBotFramework]: Downloading https://files.pythonhosted.org/packages/2d/77/704b8582e388189d39f33a652acb540fa30c49a8c770e0337ea6fe2032b4/primebotframework-1.0.60.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [sparkle-stock]: Downloading https://files.pythonhosted.org/packages/95/18/5000478aabd8340d3e8535201c94634fce9a13a41316ef0a0ccf3552de94/sparkle_stock-1.0.2-py3-none-any.whl
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-08 15:26:00] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/e8/d6/9c2d2cc88666667982658f3f059b591164c8326c9a0397422877de17387b/lyyre-2.4.tar.gz
+[2024-05-08 15:26:00] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-08 15:26:01] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/ec/eb/6f21204742cf99e56244e1dc76139094447387a01ad2017347ae602bb614/lib_version_remla-0.0.4.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [PrimeBotFramework]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [PrimeBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primebotframework-1.0.56.tar.gz tmp/primebotframework-1.0.60.tar.gz --markdown 20240508/P/PrimeBotFramework/1.0.56-1.0.60/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [creaap]: Downloading https://files.pythonhosted.org/packages/f8/ff/b60438d35feff62d93e1cda2f38af83cf419197833d9e3fcd34000b1c1e4/creaap-0.1.8.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240508/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [sparkle-stock]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [lyyre]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [sparkle-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkle_stock-1.0.1-py3-none-any.whl.zip tmp/sparkle_stock-1.0.2-py3-none-any.whl.zip --markdown 20240508/s/sparkle-stock/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [lyyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyre-2.3.tar.gz tmp/lyyre-2.4.tar.gz --markdown 20240508/l/lyyre/2.3-2.4/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [lib-version-remla]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [lib-version-remla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla-0.0.3.tar.gz tmp/lib_version_remla-0.0.4.tar.gz --markdown 20240508/l/lib-version-remla/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240508/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [antspyt1w]: Downloading https://files.pythonhosted.org/packages/47/d8/1ea6ab2e73df6d7239ddf3324e37af21920b664866abb304e74eda27295e/antspyt1w-0.9.2.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.7a3.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240508/h/hdn-research-environment/3.0.7a3-3.0.7rc0/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [antspyt1w]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [antspyt1w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antspyt1w-0.9.1.tar.gz tmp/antspyt1w-0.9.2.tar.gz --markdown 20240508/a/antspyt1w/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [zcorepy]: Downloading https://files.pythonhosted.org/packages/f6/4b/91e010fff02fae1417d70e03235560ab16216edc3deb722f15d4f2057244/zcorepy-0.2.0rc0.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [creaap]: Downloading https://files.pythonhosted.org/packages/02/98/be7c94918b4c3bf529a30736c12036c1f95783c4f38064b0e5b37e6fff2a/creaap-0.1.9.tar.gz
+[2024-05-08 15:26:01] INFO root fetch - processPackages [creaap]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [creaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creaap-0.1.8.tar.gz tmp/creaap-0.1.9.tar.gz --markdown 20240508/c/creaap/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 15:26:01] INFO root fetch - processPackages [zcorepy]: executing diffoscope
+[2024-05-08 15:26:01] INFO root fetch - processPackages [zcorepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcorepy-0.2.0a1.tar.gz tmp/zcorepy-0.2.0rc0.tar.gz --markdown 20240508/z/zcorepy/0.2.0a1-0.2.0rc0/README.md --exclude *.pyd
+[2024-05-08 15:26:02] INFO root fetch - processPackages [PrimeBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/primebotframework-1.0.56.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [PrimeBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/primebotframework-1.0.60.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [PrimeBotFramework]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.3.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.4.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [lib-version-remla]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.3.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.4.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [lyyre]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [sparkle-stock]: Remove: archive file [/home/abi/fetcher/tmp/sparkle_stock-1.0.1-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [sparkle-stock]: Remove: archive file [/home/abi/fetcher/tmp/sparkle_stock-1.0.2-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [sparkle-stock]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [antspyt1w]: Remove: archive file [/home/abi/fetcher/tmp/antspyt1w-0.9.1.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [antspyt1w]: Remove: archive file [/home/abi/fetcher/tmp/antspyt1w-0.9.2.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [antspyt1w]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7a3.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [creaap]: Remove: archive file [/home/abi/fetcher/tmp/creaap-0.1.8.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [creaap]: Remove: archive file [/home/abi/fetcher/tmp/creaap-0.1.9.tar.gz]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [creaap]: success
+[2024-05-08 15:26:02] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-08 15:26:02] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-08 15:26:04] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0a1.tar.gz]
+[2024-05-08 15:26:04] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0rc0.tar.gz]
+[2024-05-08 15:26:04] INFO root fetch - main [MainThread]: End processing [zcorepy]: success
+[2024-05-08 15:26:04] INFO root fetch - main [MainThread]: Store serial: [23114121]
