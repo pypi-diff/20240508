@@ -11430,3 +11430,30 @@
 [2024-05-08 07:46:12] INFO root fetch - processPackages [miniogre]: Remove: archive file [/home/abi/fetcher/tmp/miniogre-0.6.0.tar.gz]
 [2024-05-08 07:46:12] INFO root fetch - main [MainThread]: End processing [miniogre]: success
 [2024-05-08 07:46:12] INFO root fetch - main [MainThread]: Store serial: [23108652]
+[2024-05-08 07:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108652]
+[2024-05-08 07:48:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 07:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-indices-managed-dashscope-custom
+[2024-05-08 07:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartcliapp
+[2024-05-08 07:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jageocoder
+[2024-05-08 07:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: red_utils
+[2024-05-08 07:48:20] INFO root fetch - processPackages [jageocoder]: New version: [2.1.6] Old Version: [2.1.5.post1]
+[2024-05-08 07:48:20] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/c5/b7/31e295c0b90289e4fdf7c534b9fe7d90e97dd953f797163a9bdc2a00e8fd/jageocoder-2.1.5.post1.tar.gz
+[2024-05-08 07:48:20] WARNING root fetch - processPackages [llama-index-indices-managed-dashscope-custom]: Skipping, unable to determine old version
+[2024-05-08 07:48:20] INFO root fetch - main [MainThread]: End processing [llama-index-indices-managed-dashscope-custom] error
+[2024-05-08 07:48:20] WARNING root fetch - processPackages [smartcliapp]: Skipping, unable to determine old version
+[2024-05-08 07:48:20] INFO root fetch - main [MainThread]: End processing [smartcliapp] error
+[2024-05-08 07:48:20] INFO root fetch - processPackages [red_utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 07:48:21] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/03/19/b7017acb32a5cd36fb8b6821575a123dcab50af4e4b28b86090fb7932b13/jageocoder-2.1.6.tar.gz
+[2024-05-08 07:48:21] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/01/49/5b5df4cabf6cd1cd227d223a4a8c604952ae25b027d256c421197f2999ff/red_utils-0.2.8.tar.gz
+[2024-05-08 07:48:21] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2024-05-08 07:48:21] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.1.5.post1.tar.gz tmp/jageocoder-2.1.6.tar.gz --markdown 20240508/j/jageocoder/2.1.5.post1-2.1.6/README.md --exclude *.pyd
+[2024-05-08 07:48:21] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/27/50/8b809c64b9b6d9c951d2543605156cf5c87969a8de173e26de7e332ff1ea/red_utils-0.2.9.tar.gz
+[2024-05-08 07:48:21] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2024-05-08 07:48:21] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.2.8.tar.gz tmp/red_utils-0.2.9.tar.gz --markdown 20240508/r/red_utils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 07:48:21] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.5.post1.tar.gz]
+[2024-05-08 07:48:21] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.6.tar.gz]
+[2024-05-08 07:48:21] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2024-05-08 07:48:22] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.8.tar.gz]
+[2024-05-08 07:48:22] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.9.tar.gz]
+[2024-05-08 07:48:22] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2024-05-08 07:48:22] INFO root fetch - main [MainThread]: Store serial: [23108668]
