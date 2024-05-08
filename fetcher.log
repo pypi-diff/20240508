@@ -20862,3 +20862,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:45:50] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
 [2024-05-08 13:45:50] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-05-08 13:45:50] INFO root fetch - main [MainThread]: Store serial: [23112836]
+[2024-05-08 13:47:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112836]
+[2024-05-08 13:47:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcedefender
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtfs-parser
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-horizon-sdk
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveflask
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eea.facetednavigation
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngsolve
+[2024-05-08 13:47:59] WARNING root fetch - processPackages [sourcedefender]: Skipping, unable to determine old version
+[2024-05-08 13:47:59] INFO root fetch - main [MainThread]: End processing [sourcedefender] error
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403] Old Version: [6.2.2402.post57.dev0]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [gtfs-parser]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/3e/dd/8f28f603c96e59c9db4c20980ce2ce7e31e128e543e1588b4f97628a4918/ngsolve-6.2.2402.post57.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 13:47:59] INFO root fetch - processPackages [liveflask]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-08 13:47:59] INFO root fetch - processPackages [eea.facetednavigation]: New version: [9.9] Old Version: [9.8]
+[2024-05-08 13:47:59] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-08 13:47:59] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 12679793>=10485760
+[2024-05-08 13:47:59] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-08 13:47:59] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/f7/e2/730bb4ebc51b275df56002f35c2e39ee9714c5350e632571cb3341b25e94/gtfs_parser-0.1.4.tar.gz
+[2024-05-08 13:47:59] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/d5/27/a0645265c94bcd379d53799b4b69067389e5e17778700378d3472b98f0ed/liveflask-1.0.7.tar.gz
+[2024-05-08 13:47:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-08 13:47:59] INFO root fetch - processPackages [eea.facetednavigation]: Downloading https://files.pythonhosted.org/packages/a8/52/53715972331f564a2f4d084a40af92fcd6e58023f7e0781488f783de1c5b/eea.facetednavigation-9.8.zip
+[2024-05-08 13:47:59] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-08 13:47:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-08 13:47:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240508/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-08 13:47:59] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-08 13:47:59] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240508/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-08 13:48:00] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/f4/2f/d8941ccd6968cacd189c6353b367ed579a0d9f96fcfadb92c51d882cf86b/liveflask-1.0.8.tar.gz
+[2024-05-08 13:48:00] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/59/6e/b6872c0428eecd15ac5978f483745b3e057b8459d60e22a8372396657a4d/gtfs_parser-0.2.0.tar.gz
+[2024-05-08 13:48:00] INFO root fetch - processPackages [gtfs-parser]: executing diffoscope
+[2024-05-08 13:48:00] INFO root fetch - processPackages [gtfs-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_parser-0.1.4.tar.gz tmp/gtfs_parser-0.2.0.tar.gz --markdown 20240508/g/gtfs-parser/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-08 13:48:00] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-08 13:48:00] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.7.tar.gz tmp/liveflask-1.0.8.tar.gz --markdown 20240508/l/liveflask/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 13:48:00] INFO root fetch - processPackages [eea.facetednavigation]: Downloading https://files.pythonhosted.org/packages/55/f7/4decced0b2dd6008f5051aa7fcc2d5cec25b6e113d4098cdf059592f99ec/eea.facetednavigation-9.9.zip
+[2024-05-08 13:48:00] INFO root fetch - processPackages [eea.facetednavigation]: executing diffoscope
+[2024-05-08 13:48:00] INFO root fetch - processPackages [eea.facetednavigation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.facetednavigation-9.8.zip tmp/eea.facetednavigation-9.9.zip --markdown 20240508/e/eea.facetednavigation/9.8-9.9/README.md --exclude *.pyd
+[2024-05-08 13:48:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-08 13:48:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-08 13:48:00] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-08 13:48:01] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-08 13:48:01] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.4.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.7.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.2.0.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.8.tar.gz]
+[2024-05-08 13:48:01] INFO root fetch - main [MainThread]: End processing [gtfs-parser]: success
+[2024-05-08 13:48:01] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-08 13:48:02] INFO root fetch - processPackages [eea.facetednavigation]: Remove: archive file [/home/abi/fetcher/tmp/eea.facetednavigation-9.8.zip]
+[2024-05-08 13:48:02] INFO root fetch - processPackages [eea.facetednavigation]: Remove: archive file [/home/abi/fetcher/tmp/eea.facetednavigation-9.9.zip]
+[2024-05-08 13:48:02] INFO root fetch - main [MainThread]: End processing [eea.facetednavigation]: success
+[2024-05-08 13:48:02] INFO root fetch - main [MainThread]: Store serial: [23112858]
