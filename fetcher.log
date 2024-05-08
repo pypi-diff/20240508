@@ -22736,3 +22736,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:01:03] INFO root fetch - processPackages [ipsvm]: Remove: archive file [/home/abi/fetcher/tmp/ipsvm-1.2.0.tar.gz]
 [2024-05-08 15:01:03] INFO root fetch - main [MainThread]: End processing [ipsvm]: success
 [2024-05-08 15:01:03] INFO root fetch - main [MainThread]: Store serial: [23113740]
+[2024-05-08 15:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113740]
+[2024-05-08 15:03:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cruel
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperspy
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cntime-nlp
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samples-filter
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mediapipe-nightly
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-gmail
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semanticsdp
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-purchase-order-type-dashboard
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TrialPy2
+[2024-05-08 15:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fiddler-client
+[2024-05-08 15:03:12] INFO root fetch - processPackages [samples-filter]: New version: [0.4.0] Old Version: [0.1.5]
+[2024-05-08 15:03:12] WARNING root fetch - processPackages [cruel]: Skipping, unable to determine old version
+[2024-05-08 15:03:12] INFO root fetch - main [MainThread]: End processing [cruel] error
+[2024-05-08 15:03:12] WARNING root fetch - processPackages [cntime-nlp]: Skipping, unable to determine old version
+[2024-05-08 15:03:12] INFO root fetch - main [MainThread]: End processing [cntime-nlp] error
+[2024-05-08 15:03:12] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.7]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/83/5c/0da70b6ace6bbcf4d52626852e02d28cb8ee93636b738addb61ba025be46/samples-filter-0.1.5.tar.gz
+[2024-05-08 15:03:12] WARNING root fetch - processPackages [TrialPy2]: Skipping, unable to determine old version
+[2024-05-08 15:03:12] INFO root fetch - main [MainThread]: End processing [TrialPy2] error
+[2024-05-08 15:03:12] INFO root fetch - processPackages [hyperspy]: New version: [2.1.0] Old Version: [2.0rc0]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [semanticsdp]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.14.post20240508] Old Version: [0.10.14.post20240507]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/86/56/3d808ee6ae8130cc53b0b7c520781c2954d72047a286c3ed0d6171e9ccae/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-08 15:03:12] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev4] Old Version: [3.1.0.dev3]
+[2024-05-08 15:03:12] INFO root fetch - processPackages [hyperspy]: Downloading https://files.pythonhosted.org/packages/a1/c1/1f958e86050c294b54d3f2b6be33e7d5e7eecc6b1c95cfb886db33648c58/hyperspy-2.0rc0.tar.gz
+[2024-05-08 15:03:12] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/33/e3/0bc17b45d7b10949bf7437d28d1f88a4b5798b93ffed7950067a2eb2210b/fast_gmail-1.0.8.tar.gz
+[2024-05-08 15:03:12] INFO root fetch - processPackages [semanticsdp]: Downloading https://files.pythonhosted.org/packages/6f/e7/f6e37ed9f24c2758f632ef125baf7eb482f93c8a0f27a2dac0844bf7c275/semanticsdp-0.1.0b7.tar.gz
+[2024-05-08 15:03:12] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/78/29/98841e9013cb49168912d0c0f1c944d3d0c365441569588332a106ac9072/mediapipe_nightly-0.10.14.post20240507-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 15:03:12] INFO root fetch - processPackages [samples-filter]: Downloading https://files.pythonhosted.org/packages/ad/ff/b1d98e3aa8bad9f269c114f7207a3f9ffe10950b3e2b7703c566428067f5/samples-filter-0.4.0.tar.gz
+[2024-05-08 15:03:13] INFO root fetch - processPackages [samples-filter]: executing diffoscope
+[2024-05-08 15:03:13] INFO root fetch - processPackages [samples-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samples-filter-0.1.5.tar.gz tmp/samples-filter-0.4.0.tar.gz --markdown 20240508/s/samples-filter/0.1.5-0.4.0/README.md --exclude *.pyd
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-08 15:03:13] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 35647430>=10485760
+[2024-05-08 15:03:13] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-05-08 15:03:13] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/e7/ad/56078cedf798116d64e41a42759d7d09da8bae8c5188b2c9768710cfa039/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-08 15:03:13] INFO root fetch - processPackages [semanticsdp]: Downloading https://files.pythonhosted.org/packages/09/24/aefe52e2b87c289719295db95745e2665d2f6fe9a95af78a63f93c6be950/semanticsdp-0.1.0b8.tar.gz
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/60/bc/4aeb0e6b2b94673a40f7048006cc302db7233c1843445a610b14dbe52d66/fast_gmail-1.0.9.tar.gz
+[2024-05-08 15:03:13] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: executing diffoscope
+[2024-05-08 15:03:13] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-purchase-order-type-dashboard/16.0.1.0.0.7-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-08 15:03:13] INFO root fetch - processPackages [semanticsdp]: executing diffoscope
+[2024-05-08 15:03:13] INFO root fetch - processPackages [semanticsdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semanticsdp-0.1.0b7.tar.gz tmp/semanticsdp-0.1.0b8.tar.gz --markdown 20240508/s/semanticsdp/0.1.0b7-0.1.0b8/README.md --exclude *.pyd
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.8.tar.gz tmp/fast_gmail-1.0.9.tar.gz --markdown 20240508/f/fast-gmail/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/1b/92/05ec7172d30ff7c8af143a434de46b92b4fe525aaf8df5fb76c0a8ffc89c/fiddler_client-3.1.0.dev4.tar.gz
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-08 15:03:13] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev3.tar.gz tmp/fiddler_client-3.1.0.dev4.tar.gz --markdown 20240508/f/fiddler-client/3.1.0.dev3-3.1.0.dev4/README.md --exclude *.pyd
+[2024-05-08 15:03:13] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.1.5.tar.gz]
+[2024-05-08 15:03:13] INFO root fetch - processPackages [samples-filter]: Remove: archive file [/home/abi/fetcher/tmp/samples-filter-0.4.0.tar.gz]
+[2024-05-08 15:03:13] INFO root fetch - main [MainThread]: End processing [samples-filter]: success
+[2024-05-08 15:03:14] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.8.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.9.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-05-08 15:03:14] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-08 15:03:14] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-08 15:03:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type-dashboard]: success
+[2024-05-08 15:03:14] INFO root fetch - processPackages [semanticsdp]: Remove: archive file [/home/abi/fetcher/tmp/semanticsdp-0.1.0b7.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - processPackages [semanticsdp]: Remove: archive file [/home/abi/fetcher/tmp/semanticsdp-0.1.0b8.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - main [MainThread]: End processing [semanticsdp]: success
+[2024-05-08 15:03:14] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.1.0.dev4.tar.gz]
+[2024-05-08 15:03:14] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-08 15:03:15] INFO root fetch - processPackages [hyperspy]: Downloading https://files.pythonhosted.org/packages/bb/f7/417b70c7b363e4be6180a0879f81c8648d39593e9188b51caa1e36b8fb3e/hyperspy-2.1.0.tar.gz
+[2024-05-08 15:03:15] WARNING root fetch - processPackages [hyperspy]: Skipping package: exceeds size limit 25545687>=10485760
+[2024-05-08 15:03:15] INFO root fetch - main [MainThread]: End processing [hyperspy] error
+[2024-05-08 15:03:15] INFO root fetch - main [MainThread]: Store serial: [23113772]
