@@ -10834,3 +10834,33 @@
 [2024-05-08 06:59:40] INFO root fetch - processPackages [opendapi]: Remove: archive file [/home/abi/fetcher/tmp/opendapi-0.0.9.tar.gz]
 [2024-05-08 06:59:40] INFO root fetch - main [MainThread]: End processing [opendapi]: success
 [2024-05-08 06:59:40] INFO root fetch - main [MainThread]: Store serial: [23108380]
+[2024-05-08 07:01:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108380]
+[2024-05-08 07:01:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 07:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvxpygen
+[2024-05-08 07:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2024-05-08 07:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PepperPepper
+[2024-05-08 07:01:49] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-08 07:01:49] INFO root fetch - processPackages [cvxpygen]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-08 07:01:49] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-08 07:01:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-08 07:01:49] INFO root fetch - processPackages [cvxpygen]: Downloading https://files.pythonhosted.org/packages/21/32/44d5bb6c695175e43384dfd8ae95616702cf43bca93ee583fbd35d72b86f/cvxpygen-0.3.4.tar.gz
+[2024-05-08 07:01:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-08 07:01:49] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-08 07:01:49] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-08 07:01:49] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240508/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-08 07:01:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-08 07:01:49] INFO root fetch - processPackages [cvxpygen]: Downloading https://files.pythonhosted.org/packages/e7/5d/fce7b0223458e9e77df727552eac2247e3964b9f01e781500bfb5d5d9f1f/cvxpygen-0.3.5.tar.gz
+[2024-05-08 07:01:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-08 07:01:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240508/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-08 07:01:50] INFO root fetch - processPackages [cvxpygen]: executing diffoscope
+[2024-05-08 07:01:50] INFO root fetch - processPackages [cvxpygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpygen-0.3.4.tar.gz tmp/cvxpygen-0.3.5.tar.gz --markdown 20240508/c/cvxpygen/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-08 07:01:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-08 07:01:50] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-08 07:01:50] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-08 07:01:50] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-08 07:01:50] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-08 07:01:50] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-08 07:01:51] INFO root fetch - processPackages [cvxpygen]: Remove: archive file [/home/abi/fetcher/tmp/cvxpygen-0.3.4.tar.gz]
+[2024-05-08 07:01:51] INFO root fetch - processPackages [cvxpygen]: Remove: archive file [/home/abi/fetcher/tmp/cvxpygen-0.3.5.tar.gz]
+[2024-05-08 07:01:51] INFO root fetch - main [MainThread]: End processing [cvxpygen]: success
+[2024-05-08 07:01:51] INFO root fetch - main [MainThread]: Store serial: [23108388]
