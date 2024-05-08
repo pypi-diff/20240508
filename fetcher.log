@@ -23581,3 +23581,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:28:15] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: Remove: archive file [/home/abi/fetcher/tmp/sparv_sbx_ocr_correction_viklofg_sweocr-0.3.0.tar.gz]
 [2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [sparv-sbx-ocr-correction-viklofg-sweocr]: success
 [2024-05-08 15:28:15] INFO root fetch - main [MainThread]: Store serial: [23114144]
+[2024-05-08 15:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114144]
+[2024-05-08 15:30:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genopyc
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Opti-HPLC-Handler
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dhuodata-lib
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resnets
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diffenator2
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resnets2
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resnets222
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redis
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: basis-set-exchange
+[2024-05-08 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grabberlib
+[2024-05-08 15:30:24] INFO root fetch - processPackages [grabberlib]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [dhuodata-lib]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [diffenator2]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [redis]: New version: [5.1.0b4] Old Version: [5.1.0b3]
+[2024-05-08 15:30:24] ERROR root fetch - processPackages [resnets222]: Unable to get metadata: No such project 'resnets222'
+[2024-05-08 15:30:24] INFO root fetch - processPackages [resnets222]: Start processing: challtools
+[2024-05-08 15:30:24] INFO root fetch - main [MainThread]: End processing [resnets222] error
+[2024-05-08 15:30:24] WARNING root fetch - processPackages [resnets]: Skipping, unable to determine old version
+[2024-05-08 15:30:24] INFO root fetch - processPackages [resnets]: Start processing: TrialPy3
+[2024-05-08 15:30:24] INFO root fetch - main [MainThread]: End processing [resnets] error
+[2024-05-08 15:30:24] WARNING root fetch - processPackages [TrialPy3]: Skipping, unable to determine old version
+[2024-05-08 15:30:24] INFO root fetch - main [MainThread]: End processing [TrialPy3] error
+[2024-05-08 15:30:24] ERROR root fetch - processPackages [resnets2]: Unable to get metadata: No such project 'resnets2'
+[2024-05-08 15:30:24] INFO root fetch - main [MainThread]: End processing [resnets2] error
+[2024-05-08 15:30:24] INFO root fetch - processPackages [genopyc]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [Opti-HPLC-Handler]: New version: [3.0.0] Old Version: [2.9.0]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [basis-set-exchange]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-08 15:30:24] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/16/2a/37356de22e8dfa55366cd49f00c4c0d9df29687d91c3293bc66481362dda/grabberlib-0.0.9.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [diffenator2]: Downloading https://files.pythonhosted.org/packages/23/e2/860c09c0de4d20c7964d53b7830a3ca09b62b46ff161f1bdd36e2ade394a/diffenator2-0.3.9.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [challtools]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-08 15:30:25] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/ed/b6/69c5e6af252247c99c3a2446bea4741df4487cf01cdf92a2ef9f48396e6d/dhuodata_lib-0.3.3.tar.gz
+[2024-05-08 15:30:25] WARNING root fetch - processPackages [diffenator2]: Skipping package: exceeds size limit 12909783>=10485760
+[2024-05-08 15:30:25] INFO root fetch - main [MainThread]: End processing [diffenator2] error
+[2024-05-08 15:30:25] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/c2/fd/6c1fa907fb060a546bff93c1dd580879c223296f57486f48868b006c4282/redis-5.1.0b3.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/b4/f8/03e7eb830665f3e7b7bf27e0f694b0be00236fe096f7ea712b84e24630b5/genopyc-2.6.4-py3-none-any.whl
+[2024-05-08 15:30:25] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/46/d5/8ee8a86687aac05193fff873c9b4d65954a2a22b1ad71b14cfc23c0a09b8/opti_hplc_handler-2.9.0.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [basis-set-exchange]: Downloading https://files.pythonhosted.org/packages/75/52/adc893828e150eeb0e3e0040feed4ffa7df95f351168ddde314e6de51505/basis_set_exchange-0.9.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/a2/6b/e3a2ceb824bf5b96eae59bbc4c405979ccb1ce48a3558d56810288dd3762/grabberlib-0.1.0.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [challtools]: Downloading https://files.pythonhosted.org/packages/dd/7f/b3f826d73f9f900ca92eb4ab179d88f72bea0239f6f63c56a21006fdf4b8/challtools-0.4.8.tar.gz
+[2024-05-08 15:30:25] WARNING root fetch - processPackages [genopyc]: Skipping package: exceeds size limit 41800579>=10485760
+[2024-05-08 15:30:25] INFO root fetch - main [MainThread]: End processing [genopyc] error
+[2024-05-08 15:30:25] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-05-08 15:30:25] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.0.9.tar.gz tmp/grabberlib-0.1.0.tar.gz --markdown 20240508/g/grabberlib/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-08 15:30:25] WARNING root fetch - processPackages [basis-set-exchange]: Skipping package: exceeds size limit 32161255>=10485760
+[2024-05-08 15:30:25] INFO root fetch - main [MainThread]: End processing [basis-set-exchange] error
+[2024-05-08 15:30:25] INFO root fetch - processPackages [dhuodata-lib]: Downloading https://files.pythonhosted.org/packages/99/73/82ecf2f0708847f75029344a12916a52297042fa9f04f46341de977be1a4/dhuodata_lib-0.3.4.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [Opti-HPLC-Handler]: Downloading https://files.pythonhosted.org/packages/ae/b8/f5d1cf146a029e10a97e98636c635016fec7d156c79f3e94d71ba5681cb2/opti_hplc_handler-3.0.0.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [dhuodata-lib]: executing diffoscope
+[2024-05-08 15:30:25] INFO root fetch - processPackages [dhuodata-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhuodata_lib-0.3.3.tar.gz tmp/dhuodata_lib-0.3.4.tar.gz --markdown 20240508/d/dhuodata-lib/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 15:30:25] INFO root fetch - processPackages [Opti-HPLC-Handler]: executing diffoscope
+[2024-05-08 15:30:25] INFO root fetch - processPackages [Opti-HPLC-Handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opti_hplc_handler-2.9.0.tar.gz tmp/opti_hplc_handler-3.0.0.tar.gz --markdown 20240508/O/Opti-HPLC-Handler/2.9.0-3.0.0/README.md --exclude *.pyd
+[2024-05-08 15:30:25] INFO root fetch - processPackages [challtools]: Downloading https://files.pythonhosted.org/packages/1f/ac/d005198bd93c3ff4da0aee996aeba67198e1c6dfbef3f4c0960917664f37/challtools-0.4.9.tar.gz
+[2024-05-08 15:30:25] INFO root fetch - processPackages [challtools]: executing diffoscope
+[2024-05-08 15:30:25] INFO root fetch - processPackages [challtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/challtools-0.4.8.tar.gz tmp/challtools-0.4.9.tar.gz --markdown 20240508/c/challtools/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-08 15:30:26] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.0.9.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.0.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-05-08 15:30:26] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.3.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - processPackages [dhuodata-lib]: Remove: archive file [/home/abi/fetcher/tmp/dhuodata_lib-0.3.4.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - main [MainThread]: End processing [dhuodata-lib]: success
+[2024-05-08 15:30:26] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/opti_hplc_handler-2.9.0.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - processPackages [Opti-HPLC-Handler]: Remove: archive file [/home/abi/fetcher/tmp/opti_hplc_handler-3.0.0.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - main [MainThread]: End processing [Opti-HPLC-Handler]: success
+[2024-05-08 15:30:26] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/67/89/6ce23c834059648f62a92442a3b7cd39177fa9993b486be4f62cd048f28d/redis-5.1.0b4.tar.gz
+[2024-05-08 15:30:26] INFO root fetch - processPackages [challtools]: Remove: archive file [/home/abi/fetcher/tmp/challtools-0.4.8.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - processPackages [challtools]: Remove: archive file [/home/abi/fetcher/tmp/challtools-0.4.9.tar.gz]
+[2024-05-08 15:30:26] INFO root fetch - main [MainThread]: End processing [challtools]: success
+[2024-05-08 15:30:27] INFO root fetch - processPackages [redis]: executing diffoscope
+[2024-05-08 15:30:27] INFO root fetch - processPackages [redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-5.1.0b3.tar.gz tmp/redis-5.1.0b4.tar.gz --markdown 20240508/r/redis/5.1.0b3-5.1.0b4/README.md --exclude *.pyd
+[2024-05-08 15:30:28] INFO root fetch - processPackages [redis]: Remove: archive file [/home/abi/fetcher/tmp/redis-5.1.0b3.tar.gz]
+[2024-05-08 15:30:28] INFO root fetch - processPackages [redis]: Remove: archive file [/home/abi/fetcher/tmp/redis-5.1.0b4.tar.gz]
+[2024-05-08 15:30:28] INFO root fetch - main [MainThread]: End processing [redis]: success
+[2024-05-08 15:30:28] INFO root fetch - main [MainThread]: Store serial: [23114187]
