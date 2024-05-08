@@ -12615,3 +12615,36 @@
 [2024-05-08 08:56:56] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-08 08:56:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-remember-tree-column-width]: success
 [2024-05-08 08:56:56] INFO root fetch - main [MainThread]: Store serial: [23109296]
+[2024-05-08 08:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109296]
+[2024-05-08 08:59:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonder-diffusion-sdk
+[2024-05-08 08:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: preexclusivelyz
+[2024-05-08 08:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnikeeper-client
+[2024-05-08 08:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aps-toolkit
+[2024-05-08 08:59:05] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev3] Old Version: [0.0.6.dev2]
+[2024-05-08 08:59:05] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/b0/9e/213e18a99bc10b4252d6941e2c67a9c732dce43e17726d2a65212a6f411c/wonder-diffusion-sdk-0.0.6.dev2.tar.gz
+[2024-05-08 08:59:05] INFO root fetch - processPackages [omnikeeper-client]: New version: [5.2.0] Old Version: [5.1.1]
+[2024-05-08 08:59:05] WARNING root fetch - processPackages [preexclusivelyz]: Skipping, unable to determine old version
+[2024-05-08 08:59:05] INFO root fetch - main [MainThread]: End processing [preexclusivelyz] error
+[2024-05-08 08:59:05] INFO root fetch - processPackages [aps-toolkit]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-08 08:59:05] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/f7/2b/d8fd0289401aa617fe1de05809b09ffa1cf46b82f992a8cdc7782e7fbf77/omnikeeper_client-5.1.1-py3-none-any.whl
+[2024-05-08 08:59:05] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/89/595ec0478ec7b696789ef9ba891593139835599d71ccf9a741ae860bb230/aps-toolkit-0.5.8.tar.gz
+[2024-05-08 08:59:05] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/07/4f/7078aa3745e58090e99cf2903cfa6b522c5610be4bbb790eb3cd646068ca/wonder-diffusion-sdk-0.0.6.dev3.tar.gz
+[2024-05-08 08:59:05] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-08 08:59:05] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev3.tar.gz --markdown 20240508/w/wonder-diffusion-sdk/0.0.6.dev2-0.0.6.dev3/README.md --exclude *.pyd
+[2024-05-08 08:59:05] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/68/da/b6e13c54a790e71e1987f15a27f0c1be80a43ac1b535c66186cab86db2a9/aps-toolkit-0.5.9.tar.gz
+[2024-05-08 08:59:06] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/28/a2/e0d940d93879beda37a39bf6925b384eae71db9d6a533664e397f504fbb7/omnikeeper_client-5.2.0-py3-none-any.whl
+[2024-05-08 08:59:06] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-08 08:59:06] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.5.8.tar.gz tmp/aps-toolkit-0.5.9.tar.gz --markdown 20240508/a/aps-toolkit/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-08 08:59:06] INFO root fetch - processPackages [omnikeeper-client]: executing diffoscope
+[2024-05-08 08:59:06] INFO root fetch - processPackages [omnikeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnikeeper_client-5.1.1-py3-none-any.whl.zip tmp/omnikeeper_client-5.2.0-py3-none-any.whl.zip --markdown 20240508/o/omnikeeper-client/5.1.1-5.2.0/README.md --exclude *.pyd
+[2024-05-08 08:59:06] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz]
+[2024-05-08 08:59:06] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev3.tar.gz]
+[2024-05-08 08:59:06] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-08 08:59:06] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-5.1.1-py3-none-any.whl.zip]
+[2024-05-08 08:59:06] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-5.2.0-py3-none-any.whl.zip]
+[2024-05-08 08:59:06] INFO root fetch - main [MainThread]: End processing [omnikeeper-client]: success
+[2024-05-08 08:59:07] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.8.tar.gz]
+[2024-05-08 08:59:07] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.9.tar.gz]
+[2024-05-08 08:59:07] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-08 08:59:07] INFO root fetch - main [MainThread]: Store serial: [23109311]
