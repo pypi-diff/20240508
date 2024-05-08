@@ -17095,3 +17095,171 @@
 [2024-05-08 11:25:32] INFO root fetch - processPackages [bbrc-bx]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-bx-0.5.4.tar.gz]
 [2024-05-08 11:25:32] INFO root fetch - main [MainThread]: End processing [bbrc-bx]: success
 [2024-05-08 11:25:32] INFO root fetch - main [MainThread]: Store serial: [23111336]
+[2024-05-08 11:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111336]
+[2024-05-08 11:27:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyntcli
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-machine-learning-inference
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-machine-learning-sagemaker-training
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-machine-learning-sagemaker-training
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-machine-learning-training-base
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-machine-learning-training-base
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hc-log-tools
+[2024-05-08 11:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oqc-qcaas-client
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-inference]: New version: [1.7.0.dev1715160307] Old Version: [1.7.0.dev1714773485]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [hc-log-tools]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/14/e6/84f379562f5f6b993c32655893178ebe9e86c093ebd3d235b81ba4f8ce38/aissemble_machine_learning_inference-1.7.0.dev1714773485.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: New version: [1.7.0.dev1715160401] Old Version: [1.7.0.dev1715160381]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: New version: [1.7.0.dev1715160401] Old Version: [1.7.0.dev1715160381]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [oqc-qcaas-client]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [pyntcli]: New version: [0.1.83] Old Version: [0.1.82]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: New version: [1.7.0.dev1715160366] Old Version: [1.7.0.dev1715160344]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: New version: [1.7.0.dev1715160366] Old Version: [1.7.0.dev1715160344]
+[2024-05-08 11:27:41] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/eb/65/aed70e8f173f8e4732eb23b4d7af30a26df90d948b731e909b309d9297d7/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/eb/65/aed70e8f173f8e4732eb23b4d7af30a26df90d948b731e909b309d9297d7/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/50/51/def058c84ae67b97547ff5272b4115f9ac6a6d3a74a166de42b56af2276b/hc_log_tools-1.2.0.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/04/61/610b30eaecbdf4a58237da244f5b2f81c8f47d023924581ba97cc6cab53e/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz
+[2024-05-08 11:27:41] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/04/61/610b30eaecbdf4a58237da244f5b2f81c8f47d023924581ba97cc6cab53e/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/45/4d/6efbb3caddf22fb0d3b956ad7462360f6518fd1debfcfdeafa0fbfd737f1/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/6e/d9/20f382eeff92a751fec148949b6ed3b609ae0340aa259c41cc3ec11d13fc/pyntcli-0.1.82-py3-none-any.whl
+[2024-05-08 11:27:42] INFO root fetch - processPackages [oqc-qcaas-client]: Downloading https://files.pythonhosted.org/packages/5b/51/83b89ce53faffbcc6aec25183be53ef4d4a88e4653be43b60d2e4d4163fd/oqc_qcaas_client-3.2.0.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-inference]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_inference-1.7.0.dev1714773485.tar.gz tmp/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz --markdown 20240508/a/aissemble-machine-learning-inference/1.7.0.dev1714773485-1.7.0.dev1715160307/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/30/c8/c011d2ae789c8ce20a1ca29fabd339af6ee302a752671d19fb9d43e7fd91/hc_log_tools-1.2.1.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/81/dc/566a9fa04e3551b86e0027b082a5b2076f6224316a2fc041a968f9a4acc1/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/81/dc/566a9fa04e3551b86e0027b082a5b2076f6224316a2fc041a968f9a4acc1/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/ef/65/a24f30d1dcbc2c092e69e6526f13cee82f784fd3502e891b3f595bccaa80/pyntcli-0.1.83-py3-none-any.whl
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/5f/fb/ba2cfacd0621db4d38574374fc0e5313c07a59e52603da50b8869ecd17fe/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/5f/fb/ba2cfacd0621db4d38574374fc0e5313c07a59e52603da50b8869ecd17fe/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [oqc-qcaas-client]: Downloading https://files.pythonhosted.org/packages/ff/b1/fbe4e15cce3d1d04c6a7575b3bfec2a22b01637b78d058008ae2e7043528/oqc_qcaas_client-3.3.0.tar.gz
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz --markdown 20240508/a/aissemble-machine-learning-sagemaker-training/1.7.0.dev1715160344-1.7.0.dev1715160366/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz --markdown 20240508/a/aissemble-machine-learning-sagemaker-training/1.7.0.dev1715160344-1.7.0.dev1715160366/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.82-py3-none-any.whl.zip tmp/pyntcli-0.1.83-py3-none-any.whl.zip --markdown 20240508/p/pyntcli/0.1.82-0.1.83/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [hc-log-tools]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [hc-log-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hc_log_tools-1.2.0.tar.gz tmp/hc_log_tools-1.2.1.tar.gz --markdown 20240508/h/hc-log-tools/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz --markdown 20240508/a/aissemble-machine-learning-training-base/1.7.0.dev1715160381-1.7.0.dev1715160401/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz --markdown 20240508/a/aissemble-machine-learning-training-base/1.7.0.dev1715160381-1.7.0.dev1715160401/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [oqc-qcaas-client]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [oqc-qcaas-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oqc_qcaas_client-3.2.0.tar.gz tmp/oqc_qcaas_client-3.3.0.tar.gz --markdown 20240508/o/oqc-qcaas-client/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-08 11:27:42] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-08 11:27:42] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240508/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1714773485.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-inference]: success
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-sagemaker-training]: success
+[2024-05-08 11:27:43] ERROR root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Diffoscope failed: time="2024-05-08T11:27:42+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+gzip: tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 130, in comparisons
+    my_members = OrderedDict(self.get_adjusted_members_sizes())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 553, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 412, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-sagemaker-training] error
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-training-base]: success
+[2024-05-08 11:27:43] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.0.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.1.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [hc-log-tools]: success
+[2024-05-08 11:27:43] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.82-py3-none-any.whl.zip]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.83-py3-none-any.whl.zip]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2024-05-08 11:27:43] INFO root fetch - processPackages [oqc-qcaas-client]: Remove: archive file [/home/abi/fetcher/tmp/oqc_qcaas_client-3.2.0.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - processPackages [oqc-qcaas-client]: Remove: archive file [/home/abi/fetcher/tmp/oqc_qcaas_client-3.3.0.tar.gz]
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [oqc-qcaas-client]: success
+[2024-05-08 11:27:43] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-training-base]: success
+[2024-05-08 11:27:44] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-08 11:27:44] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-08 11:27:44] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-08 11:27:44] INFO root fetch - main [MainThread]: Store serial: [23111363]
