@@ -19879,3 +19879,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 13:14:14] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-08 13:14:14] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-08 13:14:14] INFO root fetch - main [MainThread]: Store serial: [23112505]
+[2024-05-08 13:16:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112505]
+[2024-05-08 13:16:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sayari
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarcharts
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenui
+[2024-05-08 13:16:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optrabot
+[2024-05-08 13:16:23] INFO root fetch - processPackages [sarcharts]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 13:16:23] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-08 13:16:23] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/73/48/e5bc015d94b61eab71c5050ea393547348578b8f7f2c4016e858faaf0eba/sarcharts-0.1.0.tar.gz
+[2024-05-08 13:16:23] INFO root fetch - processPackages [sayari]: New version: [0.0.82] Old Version: [0.0.78]
+[2024-05-08 13:16:23] WARNING root fetch - processPackages [zenui]: Skipping, unable to determine old version
+[2024-05-08 13:16:23] INFO root fetch - main [MainThread]: End processing [zenui] error
+[2024-05-08 13:16:23] INFO root fetch - processPackages [optrabot]: New version: [0.9.2a0] Old Version: [0.9.1a0]
+[2024-05-08 13:16:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240508] Old Version: [2.5.0b20240507]
+[2024-05-08 13:16:23] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/a4/c7/9ef650dc059083e762ddd7e0e340982383e6db9b31d6aed18b3c8c787ad4/bigdl_core_cpp-2.5.0b20240506-py3-none-manylinux2010_x86_64.whl
+[2024-05-08 13:16:23] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 82412939>=10485760
+[2024-05-08 13:16:23] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-08 13:16:23] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/ff/5e/c42bfb86dff2aad9437480fdbc8855fc861ef8bdc8ef0b93f17efcec4a51/sayari-0.0.78.tar.gz
+[2024-05-08 13:16:23] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/bb/20/8be2bef5dcc4746f6ed3dfa9fc3e764a99b44c7ec54f764977de41f439d3/optrabot-0.9.1a0.tar.gz
+[2024-05-08 13:16:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/2e/82/9399027b3b1d7a8477f9481698a4d721e680882264f777656aa64120e65e/bigdl_core_xe_esimd_21-2.5.0b20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 13:16:23] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/02/d0/823bc3277d39eb77449d20e7842361109b8d182918dfb3b3c7003e55c07a/sarcharts-0.1.1.tar.gz
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.1.0.tar.gz tmp/sarcharts-0.1.1.tar.gz --markdown 20240508/s/sarcharts/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sayari]: Downloading https://files.pythonhosted.org/packages/e9/67/372cedf0dcdd858112b38338979bc85de99e70d527581e853e216ec713af/sayari-0.0.82.tar.gz
+[2024-05-08 13:16:24] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/88/4e/f5662bfe16c0c255f7c701260e4ee891597ad30253d2d113b9d4c66b662b/optrabot-0.9.2a0.tar.gz
+[2024-05-08 13:16:24] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/da/94/5fe32256d73abb795101835065398d57409416c342e629fd6872b0575985/bigdl_core_xe_esimd_21-2.5.0b20240508-cp310-cp310-win_amd64.whl
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sayari]: executing diffoscope
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sayari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayari-0.0.78.tar.gz tmp/sayari-0.0.82.tar.gz --markdown 20240508/s/sayari/0.0.78-0.0.82/README.md --exclude *.pyd
+[2024-05-08 13:16:24] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-05-08 13:16:24] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.9.1a0.tar.gz tmp/optrabot-0.9.2a0.tar.gz --markdown 20240508/o/optrabot/0.9.1a0-0.9.2a0/README.md --exclude *.pyd
+[2024-05-08 13:16:24] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-08 13:16:24] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240507-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240508-cp310-cp310-win_amd64.whl.zip --markdown 20240508/b/bigdl-core-xe-esimd-21/2.5.0b20240507-2.5.0b20240508/README.md --exclude *.pyd
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.1.0.tar.gz]
+[2024-05-08 13:16:24] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.1.1.tar.gz]
+[2024-05-08 13:16:24] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-08 13:16:25] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.1a0.tar.gz]
+[2024-05-08 13:16:25] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.2a0.tar.gz]
+[2024-05-08 13:16:25] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-05-08 13:16:25] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-08T13:16:24+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140705276108176)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140705410326016)
+
+[2024-05-08 13:16:25] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-08 13:16:25] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.78.tar.gz]
+[2024-05-08 13:16:25] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.82.tar.gz]
+[2024-05-08 13:16:25] INFO root fetch - main [MainThread]: End processing [sayari]: success
+[2024-05-08 13:16:25] INFO root fetch - main [MainThread]: Store serial: [23112524]
