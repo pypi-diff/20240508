@@ -10335,3 +10335,33 @@
 [2024-05-08 06:11:43] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.3.0.tar.gz]
 [2024-05-08 06:11:43] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
 [2024-05-08 06:11:43] INFO root fetch - main [MainThread]: Store serial: [23108190]
+[2024-05-08 06:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108190]
+[2024-05-08 06:13:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pqsdk
+[2024-05-08 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeblok-sdk
+[2024-05-08 06:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkg-inspect
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pkg-inspect]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pqsdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 06:13:53] INFO root fetch - processPackages [zeblok-sdk]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/6d/f8/b95774c8b60df2b54a0e35390895e945e26417b7588227da6bf53a48e65c/pqsdk-0.0.7.tar.gz
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/9c/2f/bcceeeb0b0cc057d7d6957133b564d7dfc0f183f003dfd33a29e6deac560/pkg_inspect-0.1.8.tar.gz
+[2024-05-08 06:13:53] INFO root fetch - processPackages [zeblok-sdk]: Downloading https://files.pythonhosted.org/packages/94/53/fe8c2eaa07000a7520d1cab28cd1a4d431d2d3bc26b3f847b212a764cb83/zeblok_sdk-1.1.0.tar.gz
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pkg-inspect]: Downloading https://files.pythonhosted.org/packages/25/a4/72012f50f590e10ad1b72880c90d17942e1812da9056be51914e976dcff3/pkg_inspect-0.1.9.tar.gz
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/7d/ef/e1606d8c88536e329ff51d20c43d8c3a8fbf1f139463353e46ce9c5714b7/pqsdk-0.0.8.tar.gz
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pkg-inspect]: executing diffoscope
+[2024-05-08 06:13:53] INFO root fetch - processPackages [pkg-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_inspect-0.1.8.tar.gz tmp/pkg_inspect-0.1.9.tar.gz --markdown 20240508/p/pkg-inspect/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.7.tar.gz tmp/pqsdk-0.0.8.tar.gz --markdown 20240508/p/pqsdk/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: Downloading https://files.pythonhosted.org/packages/a2/49/c3ad72a30e1b0573ee39fac99b6d72a60ede56bb44bb08e1032f57a6e394/zeblok_sdk-1.1.1.tar.gz
+[2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: executing diffoscope
+[2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeblok_sdk-1.1.0.tar.gz tmp/zeblok_sdk-1.1.1.tar.gz --markdown 20240508/z/zeblok-sdk/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.8.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pkg-inspect]: Remove: archive file [/home/abi/fetcher/tmp/pkg_inspect-0.1.9.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - main [MainThread]: End processing [pkg-inspect]: success
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.7.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.8.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zeblok_sdk-1.1.0.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zeblok_sdk-1.1.1.tar.gz]
+[2024-05-08 06:13:54] INFO root fetch - main [MainThread]: End processing [zeblok-sdk]: success
+[2024-05-08 06:13:54] INFO root fetch - main [MainThread]: Store serial: [23108197]
