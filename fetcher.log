@@ -21166,3 +21166,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:56:52] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.1b1.tar.gz]
 [2024-05-08 13:56:52] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
 [2024-05-08 13:56:52] INFO root fetch - main [MainThread]: Store serial: [23112953]
+[2024-05-08 13:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112953]
+[2024-05-08 13:59:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ppatch
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-requirements
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowty
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyneople
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ppatch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 13:59:01] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flowty]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ppatch]: Downloading https://files.pythonhosted.org/packages/85/f6/1f15ffea1c325c7ed7604a776c53189b7c25006f399c2801df3bac76b488/ppatch-0.0.3.tar.gz
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flake8-requirements]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-08 13:59:01] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/8a/21/0ef35cb4f837c514f719e4a803fe92df8a925ad34cf509ade3368bc7a9d9/flowty-2.0a8-cp39-cp39-win_amd64.whl
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flake8-requirements]: Downloading https://files.pythonhosted.org/packages/97/17/7a65390b799238842eece2e973c8b00b7d084684549783bf68bc06807191/flake8_requirements-2.1.1-py3-none-any.whl
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ppatch]: Downloading https://files.pythonhosted.org/packages/27/62/c498c40f7e0e7ff4db7466aa6779921ea5e9e2fa5001492a60e1d56bdbfa/ppatch-0.0.4.tar.gz
+[2024-05-08 13:59:01] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ppatch]: executing diffoscope
+[2024-05-08 13:59:01] INFO root fetch - processPackages [ppatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppatch-0.0.3.tar.gz tmp/ppatch-0.0.4.tar.gz --markdown 20240508/p/ppatch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 13:59:01] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 13:59:01] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/86/06/633363dc6df20f628161857a8880273ffd4dd4926dd4625f1a1f5c596f73/flowty-2.0a9-cp39-cp39-win_amd64.whl
+[2024-05-08 13:59:01] INFO root fetch - processPackages [flake8-requirements]: Downloading https://files.pythonhosted.org/packages/9d/61/de5cd7bb87bf3179230562041f6b0ee19c3b2596b3d13f5f672db3ac46e4/flake8_requirements-2.2.0-py3-none-any.whl
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flowty]: executing diffoscope
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flowty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20240508/f/flowty/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flake8-requirements]: executing diffoscope
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flake8-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_requirements-2.1.1-py3-none-any.whl.zip tmp/flake8_requirements-2.2.0-py3-none-any.whl.zip --markdown 20240508/f/flake8-requirements/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-08 13:59:02] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 13:59:02] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 13:59:02] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 13:59:02] INFO root fetch - processPackages [ppatch]: Remove: archive file [/home/abi/fetcher/tmp/ppatch-0.0.3.tar.gz]
+[2024-05-08 13:59:02] INFO root fetch - processPackages [ppatch]: Remove: archive file [/home/abi/fetcher/tmp/ppatch-0.0.4.tar.gz]
+[2024-05-08 13:59:02] INFO root fetch - main [MainThread]: End processing [ppatch]: success
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 13:59:02] INFO root fetch - main [MainThread]: End processing [flowty]: success
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flake8-requirements]: Remove: archive file [/home/abi/fetcher/tmp/flake8_requirements-2.1.1-py3-none-any.whl.zip]
+[2024-05-08 13:59:02] INFO root fetch - processPackages [flake8-requirements]: Remove: archive file [/home/abi/fetcher/tmp/flake8_requirements-2.2.0-py3-none-any.whl.zip]
+[2024-05-08 13:59:02] INFO root fetch - main [MainThread]: End processing [flake8-requirements]: success
+[2024-05-08 13:59:02] INFO root fetch - main [MainThread]: Store serial: [23112979]
