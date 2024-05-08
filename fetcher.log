@@ -18695,3 +18695,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:23:29] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.1.0.tar.gz]
 [2024-05-08 12:23:29] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2024-05-08 12:23:29] INFO root fetch - main [MainThread]: Store serial: [23111948]
+[2024-05-08 12:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111948]
+[2024-05-08 12:25:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbx-code-owners
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ood_detectors
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kedro-expectations
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panorma
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catalystwan
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h1parser
+[2024-05-08 12:25:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Supplier-API-tester
+[2024-05-08 12:25:38] INFO root fetch - processPackages [Supplier-API-tester]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-08 12:25:38] INFO root fetch - processPackages [kedro-expectations]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 12:25:38] WARNING root fetch - processPackages [pbx-code-owners]: Skipping, unable to determine old version
+[2024-05-08 12:25:38] INFO root fetch - main [MainThread]: End processing [pbx-code-owners] error
+[2024-05-08 12:25:38] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 12:25:38] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/f3/1a/bdf6f919367ce8961db0b01137265cec1ba435320befd9acb345af8d1135/Supplier_API_tester-2.2.4-py3-none-any.whl
+[2024-05-08 12:25:38] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [panorma]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 12:25:38] INFO root fetch - processPackages [h1parser]: New version: [0.2] Old Version: [0.1]
+[2024-05-08 12:25:38] INFO root fetch - processPackages [catalystwan]: New version: [0.33.5] Old Version: [0.33.4.dev5]
+[2024-05-08 12:25:38] INFO root fetch - processPackages [kedro-expectations]: Downloading https://files.pythonhosted.org/packages/68/2c/c0393766733e9f1de614e92fe44b426466b961195cb257214b633403969d/kedro-expectations-0.4.2.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [Supplier-API-tester]: Downloading https://files.pythonhosted.org/packages/a4/51/7acb825cdbf98fa0c16efe6e6a38e2cb6a9ee9be5ab82d53a99271c30334/Supplier_API_tester-2.2.5-py3-none-any.whl
+[2024-05-08 12:25:38] INFO root fetch - processPackages [panorma]: Downloading https://files.pythonhosted.org/packages/6a/6d/e2f4bb7794c7a09df3ebb9b5b87c34ad06b8e6259e8679119ef1b805fef6/panorma-0.1.0.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/11/64/17e2d702278000decc309bdeee2d4923ba9f667f121aa825c78461d75c87/catalystwan-0.33.4.dev5.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [h1parser]: Downloading https://files.pythonhosted.org/packages/03/d0/9a08e6e8f38ad4021d2e88de028788e1e0287aa1bf2f2ba1d2e0cdbbba40/h1parser-0.1.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [Supplier-API-tester]: executing diffoscope
+[2024-05-08 12:25:38] INFO root fetch - processPackages [Supplier-API-tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supplier_API_tester-2.2.4-py3-none-any.whl.zip tmp/Supplier_API_tester-2.2.5-py3-none-any.whl.zip --markdown 20240508/S/Supplier-API-tester/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-08 12:25:38] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-08 12:25:38] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240508/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 12:25:38] INFO root fetch - processPackages [kedro-expectations]: Downloading https://files.pythonhosted.org/packages/a3/59/db363180668472a5a29f04df02550360ebc22a62f5eb0a87feeff77acc2d/kedro_expectations-0.4.3.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [panorma]: Downloading https://files.pythonhosted.org/packages/85/96/4d5a4d1c9effa34f2508daf39c03404f549ae0cd792e5a2d91a6c6116bd9/panorma-0.1.1.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [h1parser]: Downloading https://files.pythonhosted.org/packages/31/c4/eaca68e1c688818689bb496d6e9f15d2866cbde4c7fc9cd79b22ae45d7bf/h1parser-0.2.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [kedro-expectations]: executing diffoscope
+[2024-05-08 12:25:38] INFO root fetch - processPackages [kedro-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-expectations-0.4.2.tar.gz tmp/kedro_expectations-0.4.3.tar.gz --markdown 20240508/k/kedro-expectations/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 12:25:38] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/86/72/37c51206877d0f49bb9e0e2d9131b0d95174423ec2a2f6eb2f893b13e41b/catalystwan-0.33.5.tar.gz
+[2024-05-08 12:25:38] INFO root fetch - processPackages [panorma]: executing diffoscope
+[2024-05-08 12:25:38] INFO root fetch - processPackages [panorma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panorma-0.1.0.tar.gz tmp/panorma-0.1.1.tar.gz --markdown 20240508/p/panorma/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 12:25:39] INFO root fetch - processPackages [h1parser]: executing diffoscope
+[2024-05-08 12:25:39] INFO root fetch - processPackages [h1parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h1parser-0.1.tar.gz tmp/h1parser-0.2.tar.gz --markdown 20240508/h/h1parser/0.1-0.2/README.md --exclude *.pyd
+[2024-05-08 12:25:39] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-08 12:25:39] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.4.dev5.tar.gz tmp/catalystwan-0.33.5.tar.gz --markdown 20240508/c/catalystwan/0.33.4.dev5-0.33.5/README.md --exclude *.pyd
+[2024-05-08 12:25:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-08 12:25:39] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier_API_tester-2.2.4-py3-none-any.whl.zip]
+[2024-05-08 12:25:39] INFO root fetch - processPackages [Supplier-API-tester]: Remove: archive file [/home/abi/fetcher/tmp/Supplier_API_tester-2.2.5-py3-none-any.whl.zip]
+[2024-05-08 12:25:39] INFO root fetch - main [MainThread]: End processing [Supplier-API-tester]: success
+[2024-05-08 12:25:39] INFO root fetch - processPackages [panorma]: Remove: archive file [/home/abi/fetcher/tmp/panorma-0.1.0.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - processPackages [panorma]: Remove: archive file [/home/abi/fetcher/tmp/panorma-0.1.1.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - main [MainThread]: End processing [panorma]: success
+[2024-05-08 12:25:39] INFO root fetch - processPackages [kedro-expectations]: Remove: archive file [/home/abi/fetcher/tmp/kedro-expectations-0.4.2.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - processPackages [kedro-expectations]: Remove: archive file [/home/abi/fetcher/tmp/kedro_expectations-0.4.3.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - main [MainThread]: End processing [kedro-expectations]: success
+[2024-05-08 12:25:39] INFO root fetch - processPackages [h1parser]: Remove: archive file [/home/abi/fetcher/tmp/h1parser-0.1.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - processPackages [h1parser]: Remove: archive file [/home/abi/fetcher/tmp/h1parser-0.2.tar.gz]
+[2024-05-08 12:25:39] INFO root fetch - main [MainThread]: End processing [h1parser]: success
+[2024-05-08 12:25:41] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.4.dev5.tar.gz]
+[2024-05-08 12:25:41] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.5.tar.gz]
+[2024-05-08 12:25:41] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-08 12:25:41] INFO root fetch - main [MainThread]: Store serial: [23111967]
