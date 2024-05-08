@@ -15516,3 +15516,81 @@
 [2024-05-08 10:40:07] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-9.0.0-py3-none-any.whl.zip]
 [2024-05-08 10:40:07] INFO root fetch - main [MainThread]: End processing [tala]: success
 [2024-05-08 10:40:07] INFO root fetch - main [MainThread]: Store serial: [23110701]
+[2024-05-08 10:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110701]
+[2024-05-08 10:42:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-bccr
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manhelp
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-tools
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdocfile
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galv
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nornir-infrahub
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goblin_cbm_runner
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python3-commons
+[2024-05-08 10:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py2docfx
+[2024-05-08 10:42:16] INFO root fetch - processPackages [jax-tools]: New version: [1.0.97] Old Version: [1.0.89]
+[2024-05-08 10:42:16] INFO root fetch - processPackages [manhelp]: New version: [0.1.32] Old Version: [0.1.31]
+[2024-05-08 10:42:16] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7rc1720171] Old Version: [0.1.7.dev1720172]
+[2024-05-08 10:42:17] INFO root fetch - processPackages [mdocfile]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 10:42:17] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/42/bb/880ff542a8104330fd135b29e3dfd25932c6e5e84de059ad2fe4e9ad70fe/jax-tools-1.0.89.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [nornir-infrahub]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-08 10:42:17] WARNING root fetch - processPackages [goblin_cbm_runner]: Skipping, unable to determine old version
+[2024-05-08 10:42:17] INFO root fetch - main [MainThread]: End processing [goblin_cbm_runner] error
+[2024-05-08 10:42:17] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.18.33]
+[2024-05-08 10:42:17] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.28]
+[2024-05-08 10:42:17] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/7f/40/39fe841a9b5c5fa087d5494e54ce5a580cbd4c88b114164433f6ecfaeed9/py2docfx-0.1.7.dev1720172-py3-none-any.whl
+[2024-05-08 10:42:17] INFO root fetch - processPackages [python3-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 10:42:17] INFO root fetch - processPackages [manhelp]: Downloading https://files.pythonhosted.org/packages/69/95/b2d14d25d5badf065d45a9501755745583b70e67747e08f28f019fb3ce8c/manhelp-0.1.31.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [mdocfile]: Downloading https://files.pythonhosted.org/packages/5a/ce/e0daaf5079043dd645ad32c978c13d9dbcc5c2a628d12510eb9b8470fd95/mdocfile-0.1.1.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [nornir-infrahub]: Downloading https://files.pythonhosted.org/packages/12/50/ce2c8aa3983467626945d02ebd8521751a821240fc99d9fa2b34480f0a01/nornir_infrahub-0.2.3.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/c2/b0/1c13e3f01cd85164abfb5f3222a6a04dbd76bb02cc2781eaa98ee8e6e53e/galv-2.1.28.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/89/6a/0bd9bd1b19443c7e7ecf207a02d0c54eb60dd547ac92967bcad2adeb397d/antchain_bccr-1.18.33.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/50/93/cb5f75f181ba4d806f0ff684054b3015087ed5e72a73dc8a002422ba6c74/python3-commons-0.3.8.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [jax-tools]: Downloading https://files.pythonhosted.org/packages/dd/07/1feb6cf6dba3d530f24b221e4f6e9f8139eca4bf8db844608dd9facfd42d/jax-tools-1.0.97.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/83/fe/c81504dde98516c8be1273c104724a48e96b6051f16be482f49520d4c3de/py2docfx-0.1.7rc1720171-py3-none-any.whl
+[2024-05-08 10:42:17] INFO root fetch - processPackages [jax-tools]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [jax-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-tools-1.0.89.tar.gz tmp/jax-tools-1.0.97.tar.gz --markdown 20240508/j/jax-tools/1.0.89-1.0.97/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7.dev1720172-py3-none-any.whl.zip tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip --markdown 20240508/p/py2docfx/0.1.7.dev1720172-0.1.7rc1720171/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [mdocfile]: Downloading https://files.pythonhosted.org/packages/90/f4/b476f80d6b2e1f78b971490f29981ef204247f56a93badf8f44e79bc33ea/mdocfile-0.1.2.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [nornir-infrahub]: Downloading https://files.pythonhosted.org/packages/e5/d1/6732b8dffe12e44e0a25234d8718a1228198bc8dda5360ee24823137a363/nornir_infrahub-0.3.0.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [mdocfile]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [mdocfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdocfile-0.1.1.tar.gz tmp/mdocfile-0.1.2.tar.gz --markdown 20240508/m/mdocfile/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/f9/f2/e69a2e8245c376216d859d5e8612d5e3a5ba8628cf6c9a4c9636860f6e56/python3-commons-0.3.9.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [manhelp]: Downloading https://files.pythonhosted.org/packages/e9/ab/8190dfd0fec2b4127a54163d66b9815464f078e822b4fc183b3a570c4ba1/manhelp-0.1.32.tar.gz
+[2024-05-08 10:42:17] INFO root fetch - processPackages [nornir-infrahub]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [nornir-infrahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_infrahub-0.2.3.tar.gz tmp/nornir_infrahub-0.3.0.tar.gz --markdown 20240508/n/nornir-infrahub/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.18.33.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20240508/a/antchain-bccr/1.18.33-1.8.15/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.28.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240508/g/galv/2.1.28-2.1.9/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [manhelp]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [manhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manhelp-0.1.31.tar.gz tmp/manhelp-0.1.32.tar.gz --markdown 20240508/m/manhelp/0.1.31-0.1.32/README.md --exclude *.pyd
+[2024-05-08 10:42:17] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2024-05-08 10:42:17] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.3.8.tar.gz tmp/python3-commons-0.3.9.tar.gz --markdown 20240508/p/python3-commons/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 10:42:18] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.89.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [nornir-infrahub]: Remove: archive file [/home/abi/fetcher/tmp/nornir_infrahub-0.2.3.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [nornir-infrahub]: Remove: archive file [/home/abi/fetcher/tmp/nornir_infrahub-0.3.0.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [nornir-infrahub]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [mdocfile]: Remove: archive file [/home/abi/fetcher/tmp/mdocfile-0.1.1.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [mdocfile]: Remove: archive file [/home/abi/fetcher/tmp/mdocfile-0.1.2.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [mdocfile]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.18.33.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720172-py3-none-any.whl.zip]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.3.8.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.3.9.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2024-05-08 10:42:18] INFO root fetch - processPackages [manhelp]: Remove: archive file [/home/abi/fetcher/tmp/manhelp-0.1.31.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - processPackages [manhelp]: Remove: archive file [/home/abi/fetcher/tmp/manhelp-0.1.32.tar.gz]
+[2024-05-08 10:42:18] INFO root fetch - main [MainThread]: End processing [manhelp]: success
+[2024-05-08 10:42:22] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.28.tar.gz]
+[2024-05-08 10:42:22] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-05-08 10:42:22] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-05-08 10:42:22] INFO root fetch - main [MainThread]: Store serial: [23110741]
