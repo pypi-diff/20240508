@@ -18031,3 +18031,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:58:36] INFO root fetch - processPackages [streamtracer]: Remove: archive file [/home/abi/fetcher/tmp/streamtracer-2.1.0.dev0-cp311-none-win_amd64.whl.zip]
 [2024-05-08 11:58:36] INFO root fetch - main [MainThread]: End processing [streamtracer]: success
 [2024-05-08 11:58:36] INFO root fetch - main [MainThread]: Store serial: [23111679]
+[2024-05-08 12:00:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111679]
+[2024-05-08 12:00:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 12:00:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litgpt
+[2024-05-08 12:00:45] INFO root fetch - processPackages [litgpt]: New version: [0.3.0] Old Version: [0.2.0.dev0]
+[2024-05-08 12:00:45] INFO root fetch - processPackages [litgpt]: Downloading https://files.pythonhosted.org/packages/16/f0/51d313a6abaec44e6dc9e71122d11f243952282d04a18f458a9a7ec5b585/litgpt-0.2.0.dev0.tar.gz
+[2024-05-08 12:00:45] INFO root fetch - processPackages [litgpt]: Downloading https://files.pythonhosted.org/packages/85/bc/91a7f20918239c6da9a2718f34275c1b33781604cb8b9ecd90e81f5efd46/litgpt-0.3.0.tar.gz
+[2024-05-08 12:00:46] INFO root fetch - processPackages [litgpt]: executing diffoscope
+[2024-05-08 12:00:46] INFO root fetch - processPackages [litgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litgpt-0.2.0.dev0.tar.gz tmp/litgpt-0.3.0.tar.gz --markdown 20240508/l/litgpt/0.2.0.dev0-0.3.0/README.md --exclude *.pyd
+[2024-05-08 12:00:47] INFO root fetch - processPackages [litgpt]: Remove: archive file [/home/abi/fetcher/tmp/litgpt-0.2.0.dev0.tar.gz]
+[2024-05-08 12:00:47] INFO root fetch - processPackages [litgpt]: Remove: archive file [/home/abi/fetcher/tmp/litgpt-0.3.0.tar.gz]
+[2024-05-08 12:00:47] INFO root fetch - main [MainThread]: End processing [litgpt]: success
+[2024-05-08 12:00:47] INFO root fetch - main [MainThread]: Store serial: [23111691]
