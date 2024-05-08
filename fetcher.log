@@ -10564,3 +10564,33 @@
 [2024-05-08 06:33:31] INFO root fetch - processPackages [anystore]: Remove: archive file [/home/abi/fetcher/tmp/anystore-0.1.3.tar.gz]
 [2024-05-08 06:33:31] INFO root fetch - main [MainThread]: End processing [anystore]: success
 [2024-05-08 06:33:31] INFO root fetch - main [MainThread]: Store serial: [23108269]
+[2024-05-08 06:35:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108269]
+[2024-05-08 06:35:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 06:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stoobly-agent
+[2024-05-08 06:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakefmt
+[2024-05-08 06:35:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: charzr-lib
+[2024-05-08 06:35:40] INFO root fetch - processPackages [charzr-lib]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-08 06:35:40] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/67/7f/749699a160330ac8975399890f2394f152b518496abc8bb74b1a7ec2867b/charzr_lib-1.0.9.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [snakefmt]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-08 06:35:40] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-08 06:35:40] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [snakefmt]: Downloading https://files.pythonhosted.org/packages/40/bd/86b3e22ada4ced9529739b6ec7004c3f5b3cadf31c83bb4ce3e9650b5a2e/snakefmt-0.8.5.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/4c/60/1c6ea64e88bd5fd15e7e9ddc4cd03fc7b762bf104bf27a10612d60beeb3e/charzr_lib-1.1.0.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:35:40] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.9.tar.gz tmp/charzr_lib-1.1.0.tar.gz --markdown 20240508/c/charzr-lib/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-08 06:35:40] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [snakefmt]: Downloading https://files.pythonhosted.org/packages/e1/ca/ddd0028b2c65850f0e12ed91356a0677221e76ae914fa34382b7336b33a3/snakefmt-0.9.0.tar.gz
+[2024-05-08 06:35:40] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-08 06:35:40] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240508/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-08 06:35:41] INFO root fetch - processPackages [snakefmt]: executing diffoscope
+[2024-05-08 06:35:41] INFO root fetch - processPackages [snakefmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakefmt-0.8.5.tar.gz tmp/snakefmt-0.9.0.tar.gz --markdown 20240508/s/snakefmt/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-08 06:35:41] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.9.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.0.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:35:41] INFO root fetch - processPackages [snakefmt]: Remove: archive file [/home/abi/fetcher/tmp/snakefmt-0.8.5.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - processPackages [snakefmt]: Remove: archive file [/home/abi/fetcher/tmp/snakefmt-0.9.0.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - main [MainThread]: End processing [snakefmt]: success
+[2024-05-08 06:35:41] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-08 06:35:41] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-08 06:35:41] INFO root fetch - main [MainThread]: Store serial: [23108279]
