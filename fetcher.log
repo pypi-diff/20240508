@@ -21880,3 +21880,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:32:25] INFO root fetch - processPackages [opennyai]: Remove: archive file [/home/abi/fetcher/tmp/opennyai-0.0.13.tar.gz]
 [2024-05-08 14:32:25] INFO root fetch - main [MainThread]: End processing [opennyai]: success
 [2024-05-08 14:32:25] INFO root fetch - main [MainThread]: Store serial: [23113284]
+[2024-05-08 14:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113284]
+[2024-05-08 14:34:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panel
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreria-telegram
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tezapi
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-version-remla
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anycrc
+[2024-05-08 14:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: activetigger
+[2024-05-08 14:34:34] INFO root fetch - processPackages [tezapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 14:34:34] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-08 14:34:34] WARNING root fetch - processPackages [lib-version-remla]: Skipping, unable to determine old version
+[2024-05-08 14:34:34] INFO root fetch - main [MainThread]: End processing [lib-version-remla] error
+[2024-05-08 14:34:34] INFO root fetch - processPackages [tezapi]: Downloading https://files.pythonhosted.org/packages/77/e2/379cb7fa6f4805f083983467e95f5a9ec11ce2b8357d9bbd7f95576b8a88/tezapi-0.0.2.tar.gz
+[2024-05-08 14:34:34] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-08 14:34:34] INFO root fetch - processPackages [panel]: New version: [1.5.0a1] Old Version: [1.4.3a1]
+[2024-05-08 14:34:34] WARNING root fetch - processPackages [libreria-telegram]: Skipping, unable to determine old version
+[2024-05-08 14:34:34] INFO root fetch - main [MainThread]: End processing [libreria-telegram] error
+[2024-05-08 14:34:34] INFO root fetch - processPackages [activetigger]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-08 14:34:34] INFO root fetch - processPackages [anycrc]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-08 14:34:35] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-08 14:34:35] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/e1/95/7e0f148b8a62dd4e0ea52af62a449e49e96ea7810063651e223640988ad2/panel-1.4.3a1.tar.gz
+[2024-05-08 14:34:35] INFO root fetch - processPackages [tezapi]: Downloading https://files.pythonhosted.org/packages/8d/1a/e5a55f88a1b4164c8a28ce4ee692f186d3dbca5ce2462fe0fdf44e335545/tezapi-0.0.3.tar.gz
+[2024-05-08 14:34:35] INFO root fetch - processPackages [activetigger]: Downloading https://files.pythonhosted.org/packages/d9/2d/7458b36d416bb2d24a24d98d5d51089becdc18afe0dcd91076b8e063acc3/activetigger-0.1.0.tar.gz
+[2024-05-08 14:34:35] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-08 14:34:35] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240508/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-08 14:34:35] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/11/82/c1e32d7638124d0f0a549265edefb4a25eef27ddc7b17a2c38ee1418c50c/anycrc-0.6.0.tar.gz
+[2024-05-08 14:34:35] INFO root fetch - processPackages [tezapi]: executing diffoscope
+[2024-05-08 14:34:35] INFO root fetch - processPackages [tezapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tezapi-0.0.2.tar.gz tmp/tezapi-0.0.3.tar.gz --markdown 20240508/t/tezapi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 14:34:35] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/22/29/383baa0be5dea2fc670ac9aeb56b6f970acfb705fcaaaa75da78670a878f/anycrc-0.6.1-cp312-cp312-macosx_11_0_arm64.whl
+[2024-05-08 14:34:35] INFO root fetch - processPackages [activetigger]: Downloading https://files.pythonhosted.org/packages/d5/fa/6f45c24154c97c33dd911a27acf8dc6e6e7a5ea7de9aad0b388e987bf7f4/activetigger-0.1.2-py2.py3-none-any.whl
+[2024-05-08 14:34:35] INFO root fetch - processPackages [tezapi]: Remove: archive file [/home/abi/fetcher/tmp/tezapi-0.0.2.tar.gz]
+[2024-05-08 14:34:35] INFO root fetch - processPackages [tezapi]: Remove: archive file [/home/abi/fetcher/tmp/tezapi-0.0.3.tar.gz]
+[2024-05-08 14:34:35] INFO root fetch - main [MainThread]: End processing [tezapi]: success
+[2024-05-08 14:34:35] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-08 14:34:35] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-08 14:34:35] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-08 14:34:36] INFO root fetch - processPackages [activetigger]: executing diffoscope
+[2024-05-08 14:34:36] INFO root fetch - processPackages [activetigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activetigger-0.1.0.tar.gz tmp/activetigger-0.1.2-py2.py3-none-any.whl.zip --markdown 20240508/a/activetigger/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-08 14:34:36] INFO root fetch - processPackages [anycrc]: executing diffoscope
+[2024-05-08 14:34:36] INFO root fetch - processPackages [anycrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycrc-0.6.0.tar.gz tmp/anycrc-0.6.1-cp312-cp312-macosx_11_0_arm64.whl.zip --markdown 20240508/a/anycrc/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-08 14:34:36] INFO root fetch - processPackages [activetigger]: Remove: archive file [/home/abi/fetcher/tmp/activetigger-0.1.0.tar.gz]
+[2024-05-08 14:34:36] INFO root fetch - processPackages [activetigger]: Remove: archive file [/home/abi/fetcher/tmp/activetigger-0.1.2-py2.py3-none-any.whl.zip]
+[2024-05-08 14:34:36] INFO root fetch - main [MainThread]: End processing [activetigger]: success
+[2024-05-08 14:34:36] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.6.0.tar.gz]
+[2024-05-08 14:34:36] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.6.1-cp312-cp312-macosx_11_0_arm64.whl.zip]
+[2024-05-08 14:34:36] INFO root fetch - main [MainThread]: End processing [anycrc]: success
+[2024-05-08 14:34:37] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38420336>=10485760
+[2024-05-08 14:34:37] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-05-08 14:34:37] INFO root fetch - main [MainThread]: Store serial: [23113337]
