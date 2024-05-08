@@ -22089,3 +22089,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:39:05] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.4.tar.gz]
 [2024-05-08 14:39:05] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-08 14:39:05] INFO root fetch - main [MainThread]: Store serial: [23113430]
+[2024-05-08 14:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113430]
+[2024-05-08 14:41:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlstm-torch
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: module-qc-database-tools
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparkle-stock
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forecastout
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schedula
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bia-integrator-api
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lib-version-team11
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2024-05-08 14:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: preinstallationz
+[2024-05-08 14:41:14] INFO root fetch - processPackages [schedula]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-05-08 14:41:14] WARNING root fetch - processPackages [xlstm-torch]: Skipping, unable to determine old version
+[2024-05-08 14:41:14] INFO root fetch - main [MainThread]: End processing [xlstm-torch] error
+[2024-05-08 14:41:14] WARNING root fetch - processPackages [lib-version-team11]: Skipping, unable to determine old version
+[2024-05-08 14:41:14] INFO root fetch - main [MainThread]: End processing [lib-version-team11] error
+[2024-05-08 14:41:14] INFO root fetch - processPackages [module-qc-database-tools]: New version: [2.2.8rc1] Old Version: [2.2.7]
+[2024-05-08 14:41:14] WARNING root fetch - processPackages [sparkle-stock]: Skipping, unable to determine old version
+[2024-05-08 14:41:14] INFO root fetch - main [MainThread]: End processing [sparkle-stock] error
+[2024-05-08 14:41:14] INFO root fetch - processPackages [bia-integrator-api]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-08 14:41:14] INFO root fetch - processPackages [forecastout]: New version: [0.2.8] Old Version: [0.1.0]
+[2024-05-08 14:41:14] WARNING root fetch - processPackages [preinstallationz]: Skipping, unable to determine old version
+[2024-05-08 14:41:14] INFO root fetch - main [MainThread]: End processing [preinstallationz] error
+[2024-05-08 14:41:14] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/7d/6e/96f90bb01e048a5da11b84706fbff5c53b77a4fbffe99e4df5a59e769903/schedula-1.5.7.tar.gz
+[2024-05-08 14:41:14] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-08 14:41:14] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/31/99/765491b4120b55b6459fea61a2d1f1d8b4f19b5f5c28dcea8b9f90315963/forecastout-0.1.0.tar.gz
+[2024-05-08 14:41:14] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/77/c5/f55bfe253000f930c184f2820e7a0caa9368f204476dea9cf6e5fdd5880d/module_qc_database_tools-2.2.7.tar.gz
+[2024-05-08 14:41:14] INFO root fetch - processPackages [bia-integrator-api]: Downloading https://files.pythonhosted.org/packages/19/af/d2e83cc13b28102a8ad1d09af5a4298d1ac34db4c16bd26fd2a44187ba56/bia_integrator_api-0.2.0.tar.gz
+[2024-05-08 14:41:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [forecastout]: Downloading https://files.pythonhosted.org/packages/76/93/81d147133495a4a91f9855f2a3545ccdea1871d2d76a16df795d0368aed4/forecastout-0.2.8.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [bia-integrator-api]: Downloading https://files.pythonhosted.org/packages/37/3b/2250463041a8fa913d7dfd7bc7824d5233727f1d35b3a186cf3e5a9f8f85/bia_integrator_api-0.3.0.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [forecastout]: executing diffoscope
+[2024-05-08 14:41:15] INFO root fetch - processPackages [forecastout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastout-0.1.0.tar.gz tmp/forecastout-0.2.8.tar.gz --markdown 20240508/f/forecastout/0.1.0-0.2.8/README.md --exclude *.pyd
+[2024-05-08 14:41:15] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/40/69/9260a43cfbc360e8b3563b8e087e4510d6ac29e8419298ce49e23e356b60/module_qc_database_tools-2.2.8rc1.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [bia-integrator-api]: executing diffoscope
+[2024-05-08 14:41:15] INFO root fetch - processPackages [bia-integrator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia_integrator_api-0.2.0.tar.gz tmp/bia_integrator_api-0.3.0.tar.gz --markdown 20240508/b/bia-integrator-api/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-08 14:41:15] INFO root fetch - processPackages [module-qc-database-tools]: executing diffoscope
+[2024-05-08 14:41:15] INFO root fetch - processPackages [module-qc-database-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_database_tools-2.2.7.tar.gz tmp/module_qc_database_tools-2.2.8rc1.tar.gz --markdown 20240508/m/module-qc-database-tools/2.2.7-2.2.8rc1/README.md --exclude *.pyd
+[2024-05-08 14:41:15] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-08 14:41:15] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240508/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-08 14:41:15] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/79/51/147b5c66af5ea63801353e6f3da13384e6fc994631514d6d77b502d9900e/schedula-1.5.8.tar.gz
+[2024-05-08 14:41:15] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.1.0.tar.gz]
+[2024-05-08 14:41:15] INFO root fetch - processPackages [forecastout]: Remove: archive file [/home/abi/fetcher/tmp/forecastout-0.2.8.tar.gz]
+[2024-05-08 14:41:15] INFO root fetch - main [MainThread]: End processing [forecastout]: success
+[2024-05-08 14:41:16] INFO root fetch - processPackages [module-qc-database-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_database_tools-2.2.7.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - processPackages [module-qc-database-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_database_tools-2.2.8rc1.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools]: success
+[2024-05-08 14:41:16] INFO root fetch - processPackages [schedula]: executing diffoscope
+[2024-05-08 14:41:16] INFO root fetch - processPackages [schedula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-1.5.7.tar.gz tmp/schedula-1.5.8.tar.gz --markdown 20240508/s/schedula/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-05-08 14:41:16] INFO root fetch - processPackages [bia-integrator-api]: Remove: archive file [/home/abi/fetcher/tmp/bia_integrator_api-0.2.0.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - processPackages [bia-integrator-api]: Remove: archive file [/home/abi/fetcher/tmp/bia_integrator_api-0.3.0.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - main [MainThread]: End processing [bia-integrator-api]: success
+[2024-05-08 14:41:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-08 14:41:16] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-08 14:41:18] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
+[2024-05-08 14:41:18] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.8.tar.gz]
+[2024-05-08 14:41:18] INFO root fetch - main [MainThread]: End processing [schedula]: success
+[2024-05-08 14:41:18] INFO root fetch - main [MainThread]: Store serial: [23113467]
