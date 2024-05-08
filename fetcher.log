@@ -14363,3 +14363,48 @@
 [2024-05-08 10:09:11] INFO root fetch - processPackages [alibabacloud-kms20160120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_kms20160120-2.2.0.tar.gz]
 [2024-05-08 10:09:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-kms20160120]: success
 [2024-05-08 10:09:11] INFO root fetch - main [MainThread]: Store serial: [23110247]
+[2024-05-08 10:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110247]
+[2024-05-08 10:11:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libconfigv1
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobb-vs
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-resource
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agt-server
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-suit-squad
+[2024-05-08 10:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cepack
+[2024-05-08 10:11:20] WARNING root fetch - processPackages [libconfigv1]: Skipping, unable to determine old version
+[2024-05-08 10:11:20] INFO root fetch - main [MainThread]: End processing [libconfigv1] error
+[2024-05-08 10:11:20] INFO root fetch - processPackages [agt-server]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-08 10:11:20] WARNING root fetch - processPackages [django-suit-squad]: Skipping, unable to determine old version
+[2024-05-08 10:11:20] INFO root fetch - main [MainThread]: End processing [django-suit-squad] error
+[2024-05-08 10:11:20] INFO root fetch - processPackages [biobb-vs]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-08 10:11:20] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/5f/7a/29177c9febf6765a4637abf8727583f46155fd7688424eed90d391ffbf48/agt_server-1.5.2.tar.gz
+[2024-05-08 10:11:20] INFO root fetch - processPackages [azure-mgmt-resource]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-05-08 10:11:20] INFO root fetch - processPackages [cepack]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 10:11:20] INFO root fetch - processPackages [biobb-vs]: Downloading https://files.pythonhosted.org/packages/28/aa/678f59813e73ed6e4bfee2e4578eed71e731bc878d656b50168233716cfd/biobb_vs-4.1.1.tar.gz
+[2024-05-08 10:11:20] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/a7/95/d579825c509242853233a7a65f0ee5cd2fcd4dfd4c24f7f723a8d91b6bba/azure-mgmt-resource-8.0.1.zip
+[2024-05-08 10:11:21] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/34/c7/178c15ec4d18aabdf6f42c143bb2330fd0dd4e42271d2b354e3e9c849c36/cepack-0.0.1.tar.gz
+[2024-05-08 10:11:21] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/db/d6/055776b31851c506de9f0a4e0e5fff220e6acd6d8f3fd46442992994ae12/agt_server-1.5.3.tar.gz
+[2024-05-08 10:11:21] INFO root fetch - processPackages [biobb-vs]: Downloading https://files.pythonhosted.org/packages/98/39/6d0baf2e6830de231098654a37dbb7c1de3554c5ba0d11339b4ef6fb14c1/biobb_vs-4.1.2.tar.gz
+[2024-05-08 10:11:21] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-08 10:11:21] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.5.2.tar.gz tmp/agt_server-1.5.3.tar.gz --markdown 20240508/a/agt-server/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-08 10:11:21] INFO root fetch - processPackages [biobb-vs]: executing diffoscope
+[2024-05-08 10:11:21] INFO root fetch - processPackages [biobb-vs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_vs-4.1.1.tar.gz tmp/biobb_vs-4.1.2.tar.gz --markdown 20240508/b/biobb-vs/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-08 10:11:21] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/40/8a/f18c836364270abb2187c56a0acf2f49b2fc0ffa7e9723b9458e2e3110d4/cepack-0.0.2.tar.gz
+[2024-05-08 10:11:21] INFO root fetch - processPackages [azure-mgmt-resource]: Downloading https://files.pythonhosted.org/packages/f7/27/f4ee7662fa0d5ac043d4e9daff5e8b0299a6a4f57d3b572a30da36e1b0e1/azure-mgmt-resource-9.0.0.zip
+[2024-05-08 10:11:21] INFO root fetch - processPackages [cepack]: executing diffoscope
+[2024-05-08 10:11:21] INFO root fetch - processPackages [cepack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cepack-0.0.1.tar.gz tmp/cepack-0.0.2.tar.gz --markdown 20240508/c/cepack/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:11:21] INFO root fetch - processPackages [azure-mgmt-resource]: executing diffoscope
+[2024-05-08 10:11:21] INFO root fetch - processPackages [azure-mgmt-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-resource-8.0.1.zip tmp/azure-mgmt-resource-9.0.0.zip --markdown 20240508/a/azure-mgmt-resource/8.0.1-9.0.0/README.md --exclude *.pyd
+[2024-05-08 10:11:22] INFO root fetch - processPackages [biobb-vs]: Remove: archive file [/home/abi/fetcher/tmp/biobb_vs-4.1.1.tar.gz]
+[2024-05-08 10:11:22] INFO root fetch - processPackages [biobb-vs]: Remove: archive file [/home/abi/fetcher/tmp/biobb_vs-4.1.2.tar.gz]
+[2024-05-08 10:11:22] INFO root fetch - main [MainThread]: End processing [biobb-vs]: success
+[2024-05-08 10:11:22] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.1.tar.gz]
+[2024-05-08 10:11:22] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.2.tar.gz]
+[2024-05-08 10:11:22] INFO root fetch - main [MainThread]: End processing [cepack]: success
+[2024-05-08 10:11:23] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.2.tar.gz]
+[2024-05-08 10:11:23] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.3.tar.gz]
+[2024-05-08 10:11:23] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-08 10:11:25] INFO root fetch - processPackages [azure-mgmt-resource]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-resource-8.0.1.zip]
+[2024-05-08 10:11:25] INFO root fetch - processPackages [azure-mgmt-resource]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-resource-9.0.0.zip]
+[2024-05-08 10:11:25] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resource]: success
+[2024-05-08 10:11:25] INFO root fetch - main [MainThread]: Store serial: [23110270]
