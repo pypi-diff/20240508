@@ -3056,3 +3056,44 @@
 [2024-05-08 02:46:53] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-08 02:46:53] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-08 02:46:53] INFO root fetch - main [MainThread]: Store serial: [23105594]
+[2024-05-08 02:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105594]
+[2024-05-08 02:49:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leap-data-management-utils
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dnngior
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autographerz
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfab
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siglost-utils
+[2024-05-08 02:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-commission-formula
+[2024-05-08 02:49:02] INFO root fetch - processPackages [odoo-addon-commission-formula]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.8]
+[2024-05-08 02:49:02] WARNING root fetch - processPackages [siglost-utils]: Skipping, unable to determine old version
+[2024-05-08 02:49:02] INFO root fetch - main [MainThread]: End processing [siglost-utils] error
+[2024-05-08 02:49:02] INFO root fetch - processPackages [leap-data-management-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:49:02] INFO root fetch - processPackages [dnngior]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 02:49:02] WARNING root fetch - processPackages [autographerz]: Skipping, unable to determine old version
+[2024-05-08 02:49:02] INFO root fetch - main [MainThread]: End processing [autographerz] error
+[2024-05-08 02:49:02] INFO root fetch - processPackages [mlfab]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 02:49:02] INFO root fetch - processPackages [leap-data-management-utils]: Downloading https://files.pythonhosted.org/packages/f9/37/a74f3a2a3a31b3cc0d49c0f70c3a7e5f176b5d4588c60f4168f335789071/leap_data_management_utils-0.0.8.tar.gz
+[2024-05-08 02:49:02] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/f1/47/5251bfabf4aa944b6bffde068873f188c11026090727b6ba30a3244b9354/odoo_addon_commission_formula-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-08 02:49:02] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/c4/72/85d3c3a95ee721e23153609f999bdf722318ecd5c35c5628d184be3053ac/mlfab-0.1.8.tar.gz
+[2024-05-08 02:49:02] INFO root fetch - processPackages [dnngior]: Downloading https://files.pythonhosted.org/packages/c5/b3/87aa2eee6854de7727b6009226d808a3a3023d40e62548e7267713edc21d/dnngior-0.0.3.tar.gz
+[2024-05-08 02:49:02] WARNING root fetch - processPackages [dnngior]: Skipping package: exceeds size limit 57733286>=10485760
+[2024-05-08 02:49:02] INFO root fetch - main [MainThread]: End processing [dnngior] error
+[2024-05-08 02:49:02] INFO root fetch - processPackages [leap-data-management-utils]: Downloading https://files.pythonhosted.org/packages/05/91/da0b65ddbe895fa43db778689a0495543b3d2fc1e82d1fa07028f3c8d962/leap_data_management_utils-0.0.9.tar.gz
+[2024-05-08 02:49:02] INFO root fetch - processPackages [mlfab]: Downloading https://files.pythonhosted.org/packages/0e/87/ef727427b8dfe81acffbb1f26533da2a70f85e7beb67451421ead578c9a1/mlfab-0.1.9.tar.gz
+[2024-05-08 02:49:02] INFO root fetch - processPackages [leap-data-management-utils]: executing diffoscope
+[2024-05-08 02:49:02] INFO root fetch - processPackages [leap-data-management-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_data_management_utils-0.0.8.tar.gz tmp/leap_data_management_utils-0.0.9.tar.gz --markdown 20240508/l/leap-data-management-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:49:02] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/94/e5/74a90fca2e3ccf992d693e898c05ce4e8683c11a95897527b847da5b6ef3/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-08 02:49:02] INFO root fetch - processPackages [mlfab]: executing diffoscope
+[2024-05-08 02:49:02] INFO root fetch - processPackages [mlfab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfab-0.1.8.tar.gz tmp/mlfab-0.1.9.tar.gz --markdown 20240508/m/mlfab/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 02:49:02] INFO root fetch - processPackages [odoo-addon-commission-formula]: executing diffoscope
+[2024-05-08 02:49:02] INFO root fetch - processPackages [odoo-addon-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission_formula-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-commission-formula/16.0.1.0.0.8-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-08 02:49:03] INFO root fetch - processPackages [leap-data-management-utils]: Remove: archive file [/home/abi/fetcher/tmp/leap_data_management_utils-0.0.8.tar.gz]
+[2024-05-08 02:49:03] INFO root fetch - processPackages [leap-data-management-utils]: Remove: archive file [/home/abi/fetcher/tmp/leap_data_management_utils-0.0.9.tar.gz]
+[2024-05-08 02:49:03] INFO root fetch - main [MainThread]: End processing [leap-data-management-utils]: success
+[2024-05-08 02:49:03] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-08 02:49:03] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-08 02:49:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission-formula]: success
+[2024-05-08 02:49:03] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.8.tar.gz]
+[2024-05-08 02:49:03] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
+[2024-05-08 02:49:03] INFO root fetch - main [MainThread]: End processing [mlfab]: success
+[2024-05-08 02:49:03] INFO root fetch - main [MainThread]: Store serial: [23105615]
