@@ -12561,3 +12561,57 @@
 [2024-05-08 08:54:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
 [2024-05-08 08:54:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
 [2024-05-08 08:54:45] INFO root fetch - main [MainThread]: Store serial: [23109273]
+[2024-05-08 08:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109273]
+[2024-05-08 08:56:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodsys
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icare-nlp
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wonder-diffusion-sdk
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-batch-regression
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etfba
+[2024-05-08 08:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-web-remember-tree-column-width
+[2024-05-08 08:56:54] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev2] Old Version: [0.0.6.dev1]
+[2024-05-08 08:56:54] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.1]
+[2024-05-08 08:56:54] INFO root fetch - processPackages [prodsys]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-08 08:56:54] INFO root fetch - processPackages [yplib]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-08 08:56:54] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 08:56:54] WARNING root fetch - processPackages [etfba]: Skipping, unable to determine old version
+[2024-05-08 08:56:54] INFO root fetch - main [MainThread]: End processing [etfba] error
+[2024-05-08 08:56:54] WARNING root fetch - processPackages [pytest-batch-regression]: Skipping, unable to determine old version
+[2024-05-08 08:56:54] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression] error
+[2024-05-08 08:56:54] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/43/c2/adcedab6a2a582d765b3c793aeef43c65104129ba0f1c4395f2b66c6945d/wonder-diffusion-sdk-0.0.6.dev1.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Downloading https://files.pythonhosted.org/packages/b6/ab/caded8bce967edfdcec9343e468ebff9e86f02c6369cdb7f1dcd68cdc04e/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-08 08:56:54] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/3a/14/07565d15ef8b91060c365b6c85165132a7e682e164f257c096de82e28e1a/prodsys-0.6.3.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/eb/78/caeaedc5eee19f26f3a1ba7efb3c7ecc368ff0ee50021316794301b5ee67/yplib-5.6.8.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/86/4d/e4db85ef87e46bddee6d4af464ef78d550cf8e8c33bac819ec1f8319f907/icare_nlp-0.0.3.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/b0/9e/213e18a99bc10b4252d6941e2c67a9c732dce43e17726d2a65212a6f411c/wonder-diffusion-sdk-0.0.6.dev2.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-08 08:56:54] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz --markdown 20240508/w/wonder-diffusion-sdk/0.0.6.dev1-0.0.6.dev2/README.md --exclude *.pyd
+[2024-05-08 08:56:54] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Downloading https://files.pythonhosted.org/packages/6c/b9/bd25c442befa01ea89a0e8e52e923f8b0d558ca7b79a0ebc20571de21108/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-08 08:56:54] INFO root fetch - processPackages [prodsys]: Downloading https://files.pythonhosted.org/packages/7d/d8/63dee99baa49f6dcb480c5d6922f855268975527d59205cee3f6fe2708cf/prodsys-0.6.4.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/74/f9/a83b3d713692f056a072d5af739443660890570f69c9d9f288d7445664b5/yplib-5.6.9.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/ff/da/bdbf5697a23937dcfab88d4febf6d2fc87cbeea12b639ba24171c234546d/icare_nlp-0.0.4.tar.gz
+[2024-05-08 08:56:54] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: executing diffoscope
+[2024-05-08 08:56:54] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-web-remember-tree-column-width/16.0.1.0.1.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-08 08:56:54] INFO root fetch - processPackages [prodsys]: executing diffoscope
+[2024-05-08 08:56:54] INFO root fetch - processPackages [prodsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodsys-0.6.3.tar.gz tmp/prodsys-0.6.4.tar.gz --markdown 20240508/p/prodsys/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-08 08:56:55] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-05-08 08:56:55] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.8.tar.gz tmp/yplib-5.6.9.tar.gz --markdown 20240508/y/yplib/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-08 08:56:55] INFO root fetch - processPackages [icare-nlp]: executing diffoscope
+[2024-05-08 08:56:55] INFO root fetch - processPackages [icare-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icare_nlp-0.0.3.tar.gz tmp/icare_nlp-0.0.4.tar.gz --markdown 20240508/i/icare-nlp/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 08:56:55] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev1.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev2.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-08 08:56:55] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.8.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.9.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-05-08 08:56:55] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.3.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.4.tar.gz]
+[2024-05-08 08:56:55] INFO root fetch - main [MainThread]: End processing [icare-nlp]: success
+[2024-05-08 08:56:56] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.3.tar.gz]
+[2024-05-08 08:56:56] INFO root fetch - processPackages [prodsys]: Remove: archive file [/home/abi/fetcher/tmp/prodsys-0.6.4.tar.gz]
+[2024-05-08 08:56:56] INFO root fetch - main [MainThread]: End processing [prodsys]: success
+[2024-05-08 08:56:56] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_remember_tree_column_width-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-08 08:56:56] INFO root fetch - processPackages [odoo-addon-web-remember-tree-column-width]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_remember_tree_column_width-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-08 08:56:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-remember-tree-column-width]: success
+[2024-05-08 08:56:56] INFO root fetch - main [MainThread]: Store serial: [23109296]
