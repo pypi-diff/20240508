@@ -2972,3 +2972,45 @@
 [2024-05-08 02:42:22] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-08 02:42:22] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-08 02:42:22] INFO root fetch - main [MainThread]: Store serial: [23105549]
+[2024-05-08 02:44:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105549]
+[2024-05-08 02:44:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 02:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2024-05-08 02:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rasterra
+[2024-05-08 02:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cockishnessz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utmos
+[2024-05-08 02:44:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfds-nightly
+[2024-05-08 02:44:32] INFO root fetch - processPackages [rasterra]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-08 02:44:32] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 02:44:32] INFO root fetch - processPackages [utmos]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-08 02:44:32] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405070044] Old Version: [4.9.4.dev202405060044]
+[2024-05-08 02:44:32] INFO root fetch - processPackages [rasterra]: Downloading https://files.pythonhosted.org/packages/08/23/4dae8f9def49a3ab24d06d494d8e9b11b03a375d6a29be77302f2c1ced1e/rasterra-0.5.5.tar.gz
+[2024-05-08 02:44:32] WARNING root fetch - processPackages [cockishnessz]: Skipping, unable to determine old version
+[2024-05-08 02:44:32] INFO root fetch - main [MainThread]: End processing [cockishnessz] error
+[2024-05-08 02:44:32] INFO root fetch - processPackages [utmos]: Downloading https://files.pythonhosted.org/packages/cc/5c/13d2e2c1b10f2a47ae1905208e6dffd46338b7d159dd0c34361e8f5ab5a2/utmos-1.1.8.tar.gz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/e7/f9/ee071a6adbe9d6116cb30ccb1c047ebcd46f3039f23d5ced0dc4abf08b21/tfds-nightly-4.9.4.dev202405060044.tar.gz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [utmos]: Downloading https://files.pythonhosted.org/packages/ae/a3/94283d11bb5928866ef04d7bfc2690928d14ec6715ed8c91c943f2203bfa/utmos-1.1.9.tar.gz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [rasterra]: Downloading https://files.pythonhosted.org/packages/04/e0/6b2b23d868020dca6a315a91aebc421d81708ba93bcd65341eb4fb7fff4b/rasterra-0.5.6.tar.gz
+[2024-05-08 02:44:32] INFO root fetch - processPackages [utmos]: executing diffoscope
+[2024-05-08 02:44:32] INFO root fetch - processPackages [utmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utmos-1.1.8.tar.gz tmp/utmos-1.1.9.tar.gz --markdown 20240508/u/utmos/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-08 02:44:33] INFO root fetch - processPackages [rasterra]: executing diffoscope
+[2024-05-08 02:44:33] INFO root fetch - processPackages [rasterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasterra-0.5.5.tar.gz tmp/rasterra-0.5.6.tar.gz --markdown 20240508/r/rasterra/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-08 02:44:33] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-08 02:44:33] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-08 02:44:33] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240508/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 02:44:33] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/2d/7e/150d8e5020f538e48ff7ca055dbfb30e2dc7c62826525ba3ceca1ffacacc/tfds-nightly-4.9.4.dev202405070044.tar.gz
+[2024-05-08 02:44:33] INFO root fetch - processPackages [rasterra]: Remove: archive file [/home/abi/fetcher/tmp/rasterra-0.5.5.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - processPackages [rasterra]: Remove: archive file [/home/abi/fetcher/tmp/rasterra-0.5.6.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - main [MainThread]: End processing [rasterra]: success
+[2024-05-08 02:44:33] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-08 02:44:33] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405060044.tar.gz tmp/tfds-nightly-4.9.4.dev202405070044.tar.gz --markdown 20240508/t/tfds-nightly/4.9.4.dev202405060044-4.9.4.dev202405070044/README.md --exclude *.pyd
+[2024-05-08 02:44:33] INFO root fetch - processPackages [utmos]: Remove: archive file [/home/abi/fetcher/tmp/utmos-1.1.8.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - processPackages [utmos]: Remove: archive file [/home/abi/fetcher/tmp/utmos-1.1.9.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - main [MainThread]: End processing [utmos]: success
+[2024-05-08 02:44:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-08 02:44:33] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-08 02:44:42] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405060044.tar.gz]
+[2024-05-08 02:44:42] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405070044.tar.gz]
+[2024-05-08 02:44:42] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-08 02:44:42] INFO root fetch - main [MainThread]: Store serial: [23105577]
