@@ -9300,3 +9300,36 @@
 [2024-05-08 05:21:34] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.3.tar.gz]
 [2024-05-08 05:21:34] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
 [2024-05-08 05:21:34] INFO root fetch - main [MainThread]: Store serial: [23107915]
+[2024-05-08 05:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107915]
+[2024-05-08 05:23:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xbotext
+[2024-05-08 05:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stopwordz
+[2024-05-08 05:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: publicsuffixlist
+[2024-05-08 05:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-05-08 05:23:43] INFO root fetch - processPackages [xbotext]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-08 05:23:43] WARNING root fetch - processPackages [stopwordz]: Skipping, unable to determine old version
+[2024-05-08 05:23:43] INFO root fetch - main [MainThread]: End processing [stopwordz] error
+[2024-05-08 05:23:43] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050703] Old Version: [3.3.3.dev2024050603]
+[2024-05-08 05:23:43] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/f1/77/878db9a0a0f13337b65162cde0233e99c1d05fe8736687f6bec24ea8bff3/xbotext-0.1.5.tar.gz
+[2024-05-08 05:23:43] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-08 05:23:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/20/9f/96a4fa8f4954572ea2262dca0b16b6b904b3d65524b5e82809d43ab20e2b/keras_nightly-3.3.3.dev2024050603.tar.gz
+[2024-05-08 05:23:43] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-05-08 05:23:43] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/1f/63/782d1e20a8ce7c2b62abdaa125eb6b2476e4f0d343f391341cb193d58175/xbotext-0.1.6.tar.gz
+[2024-05-08 05:23:44] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/0b/c5/02c317923f5d32c122f50b662d530fd383f30376a48e6cdd539dae5f6ef4/keras_nightly-3.3.3.dev2024050703.tar.gz
+[2024-05-08 05:23:44] INFO root fetch - processPackages [xbotext]: executing diffoscope
+[2024-05-08 05:23:44] INFO root fetch - processPackages [xbotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbotext-0.1.5.tar.gz tmp/xbotext-0.1.6.tar.gz --markdown 20240508/x/xbotext/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-08 05:23:44] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-05-08 05:23:44] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-08 05:23:44] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050603.tar.gz tmp/keras_nightly-3.3.3.dev2024050703.tar.gz --markdown 20240508/k/keras-nightly/3.3.3.dev2024050603-3.3.3.dev2024050703/README.md --exclude *.pyd
+[2024-05-08 05:23:44] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-05-08 05:23:44] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240508/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-08 05:23:44] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.5.tar.gz]
+[2024-05-08 05:23:44] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.6.tar.gz]
+[2024-05-08 05:23:44] INFO root fetch - main [MainThread]: End processing [xbotext]: success
+[2024-05-08 05:23:44] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-05-08 05:23:44] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-05-08 05:23:44] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-05-08 05:23:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050603.tar.gz]
+[2024-05-08 05:23:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050703.tar.gz]
+[2024-05-08 05:23:46] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-08 05:23:46] INFO root fetch - main [MainThread]: Store serial: [23107924]
