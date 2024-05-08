@@ -21350,3 +21350,35 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:07:45] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
 [2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
 [2024-05-08 14:07:45] INFO root fetch - main [MainThread]: Store serial: [23113030]
+[2024-05-08 14:09:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113030]
+[2024-05-08 14:09:55] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-08 14:11:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113031]
+[2024-05-08 14:12:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 14:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-05-08 14:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-27
+[2024-05-08 14:12:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-aedt-toolkits-common
+[2024-05-08 14:12:01] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-08 14:12:01] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-08 14:12:01] INFO root fetch - processPackages [cdk8s-plus-27]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-08 14:12:01] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/aa/61/7a407dbfb63469f9f682b1ed6ae3562c683f61bb290ea7cd8eea8b4f2a4c/torcheval-nightly-2024.5.6.tar.gz
+[2024-05-08 14:12:01] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/f3/5b/12c653aac546159f19e969d9e70564b76777fcda3d38650a96c276e827ec/cdk8s-plus-27-2.9.1.tar.gz
+[2024-05-08 14:12:01] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/62/a9/b3c02f082176c8c9006d6e7061bf8216fd034a7e08dcf004842ba0932d6e/ansys_aedt_toolkits_common-0.4.0.tar.gz
+[2024-05-08 14:12:01] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/b6/df/a6e089363145961856811998c6edea1ab97748af555063ac7e266b1f2679/torcheval_nightly-2024.5.7.tar.gz
+[2024-05-08 14:12:01] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-08 14:12:01] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.5.6.tar.gz tmp/torcheval_nightly-2024.5.7.tar.gz --markdown 20240508/t/torcheval-nightly/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-08 14:12:02] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/1f/d0/1f1703bd54ed2eee0424b4fb9044ed16c51e7fc4fad5945baa6fe94a751e/ansys_aedt_toolkits_common-0.4.1.tar.gz
+[2024-05-08 14:12:02] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/19/71/4d810c4d785e17dd4ccfd22a4cee47b50ae9d9d7c2dd6c8411ffb4ab983c/cdk8s-plus-27-2.9.2.tar.gz
+[2024-05-08 14:12:02] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: executing diffoscope
+[2024-05-08 14:12:02] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_aedt_toolkits_common-0.4.0.tar.gz tmp/ansys_aedt_toolkits_common-0.4.1.tar.gz --markdown 20240508/a/ansys-aedt-toolkits-common/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-08 14:12:02] INFO root fetch - processPackages [cdk8s-plus-27]: executing diffoscope
+[2024-05-08 14:12:02] INFO root fetch - processPackages [cdk8s-plus-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-27-2.9.1.tar.gz tmp/cdk8s-plus-27-2.9.2.tar.gz --markdown 20240508/c/cdk8s-plus-27/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-08 14:12:02] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.5.6.tar.gz]
+[2024-05-08 14:12:02] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.7.tar.gz]
+[2024-05-08 14:12:02] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-08 14:12:03] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.4.0.tar.gz]
+[2024-05-08 14:12:03] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.4.1.tar.gz]
+[2024-05-08 14:12:03] INFO root fetch - main [MainThread]: End processing [ansys-aedt-toolkits-common]: success
+[2024-05-08 14:12:11] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.9.1.tar.gz]
+[2024-05-08 14:12:11] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.9.2.tar.gz]
+[2024-05-08 14:12:11] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
+[2024-05-08 14:12:11] INFO root fetch - main [MainThread]: Store serial: [23113046]
