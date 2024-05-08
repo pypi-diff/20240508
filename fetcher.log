@@ -18348,3 +18348,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:12:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.7.dev9.tar.gz]
 [2024-05-08 12:12:16] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-05-08 12:12:16] INFO root fetch - main [MainThread]: Store serial: [23111806]
+[2024-05-08 12:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111806]
+[2024-05-08 12:14:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ModelMerge
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simnexus
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonexus
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: treasury-gov-pandas
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygeckocircuits2
+[2024-05-08 12:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fzf-bin
+[2024-05-08 12:14:25] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.3a0] Old Version: [0.0.3]
+[2024-05-08 12:14:25] INFO root fetch - processPackages [testplans]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-08 12:14:25] WARNING root fetch - processPackages [ModelMerge]: Skipping, unable to determine old version
+[2024-05-08 12:14:25] INFO root fetch - main [MainThread]: End processing [ModelMerge] error
+[2024-05-08 12:14:25] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/79/fa/1230a2946bb9ae3a61c55554c7bba3a623eecc14788d5c315701c178e4b2/testplans-0.2.6.tar.gz
+[2024-05-08 12:14:25] INFO root fetch - processPackages [pygeckocircuits2]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 12:14:25] INFO root fetch - processPackages [jsonexus]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-08 12:14:25] WARNING root fetch - processPackages [simnexus]: Skipping, unable to determine old version
+[2024-05-08 12:14:25] INFO root fetch - main [MainThread]: End processing [simnexus] error
+[2024-05-08 12:14:25] INFO root fetch - processPackages [fzf-bin]: New version: [0.52.0] Old Version: [0.51.0]
+[2024-05-08 12:14:26] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/5a/67/d29e4b787c57d2794d73a65ca308e5d37417817a5581bbc76834a6649bb7/treasury_gov_pandas-0.0.3.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/a5/88/37287bcef0865ee2bec66a1ff51acdbe38bb340e2e9ec4bd2b0abefda76f/testplans-0.2.7.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [jsonexus]: Downloading https://files.pythonhosted.org/packages/b5/50/48252c10380563b1e47d9876b2bc9eb82c9b5eb304bff875c766636a638a/jsonexus-1.0.2.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [pygeckocircuits2]: Downloading https://files.pythonhosted.org/packages/60/2f/78df62555dd449d358d8b9052dfcb86021a622b1128d58e1ca350beaa71c/pygeckocircuits2-0.0.1.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/01/6c/3167b0a8ef485cf1af8a4505b41947986506ebee206b24c1c68c5ad365e3/fzf_bin-0.51.0.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-08 12:14:26] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.6.tar.gz tmp/testplans-0.2.7.tar.gz --markdown 20240508/t/testplans/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-08 12:14:26] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/95/03/7576fa3e79abb886c6f381c7c488d84f84f65ea61d902292d839da65bac1/treasury_gov_pandas-0.0.3a0.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [jsonexus]: Downloading https://files.pythonhosted.org/packages/22/b2/330b0f05eabb93bb77db8e940793f791d77d39fa1ab1bab51200d55380a0/jsonexus-1.0.3.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [pygeckocircuits2]: Downloading https://files.pythonhosted.org/packages/2b/dd/fc5b7602083c0526dae5cee0eb385802cffcca1995cd5b05750ed7a884c0/pygeckocircuits2-0.0.2.tar.gz
+[2024-05-08 12:14:26] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 12:14:26] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.3.tar.gz tmp/treasury_gov_pandas-0.0.3a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.3-0.0.3a0/README.md --exclude *.pyd
+[2024-05-08 12:14:26] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/e9/24/e20a2aa4d63b476e061768674780699aa212733c69ffdd6671ac04802229/fzf_bin-0.52.0-py3-none-macosx_11_0_arm64.whl
+[2024-05-08 12:14:26] INFO root fetch - processPackages [jsonexus]: executing diffoscope
+[2024-05-08 12:14:26] INFO root fetch - processPackages [jsonexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonexus-1.0.2.tar.gz tmp/jsonexus-1.0.3.tar.gz --markdown 20240508/j/jsonexus/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-08 12:14:26] INFO root fetch - processPackages [pygeckocircuits2]: executing diffoscope
+[2024-05-08 12:14:26] INFO root fetch - processPackages [pygeckocircuits2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeckocircuits2-0.0.1.tar.gz tmp/pygeckocircuits2-0.0.2.tar.gz --markdown 20240508/p/pygeckocircuits2/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 12:14:27] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.6.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.7.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-08 12:14:27] INFO root fetch - processPackages [fzf-bin]: executing diffoscope
+[2024-05-08 12:14:27] INFO root fetch - processPackages [fzf-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fzf_bin-0.51.0.tar.gz tmp/fzf_bin-0.52.0-py3-none-macosx_11_0_arm64.whl.zip --markdown 20240508/f/fzf-bin/0.51.0-0.52.0/README.md --exclude *.pyd
+[2024-05-08 12:14:27] INFO root fetch - processPackages [pygeckocircuits2]: Remove: archive file [/home/abi/fetcher/tmp/pygeckocircuits2-0.0.1.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - processPackages [pygeckocircuits2]: Remove: archive file [/home/abi/fetcher/tmp/pygeckocircuits2-0.0.2.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [pygeckocircuits2]: success
+[2024-05-08 12:14:27] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.3.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.3a0.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 12:14:27] INFO root fetch - processPackages [jsonexus]: Remove: archive file [/home/abi/fetcher/tmp/jsonexus-1.0.2.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - processPackages [jsonexus]: Remove: archive file [/home/abi/fetcher/tmp/jsonexus-1.0.3.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [jsonexus]: success
+[2024-05-08 12:14:27] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.51.0.tar.gz]
+[2024-05-08 12:14:27] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.52.0-py3-none-macosx_11_0_arm64.whl.zip]
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: End processing [fzf-bin]: success
+[2024-05-08 12:14:27] INFO root fetch - main [MainThread]: Store serial: [23111831]
