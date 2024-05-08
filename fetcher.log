@@ -11100,3 +11100,15 @@
 [2024-05-08 07:19:07] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.4.0.tar.gz]
 [2024-05-08 07:19:07] INFO root fetch - main [MainThread]: End processing [lumibot]: success
 [2024-05-08 07:19:07] INFO root fetch - main [MainThread]: Store serial: [23108496]
+[2024-05-08 07:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108496]
+[2024-05-08 07:21:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 07:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-05-08 07:21:16] INFO root fetch - processPackages [BioSAK]: New version: [1.88.5] Old Version: [1.88.4]
+[2024-05-08 07:21:17] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/1a/92/08d4e5c08b84f4fa4e7c6f8c2912ba0eae2f5ab7ae0e1b1529794f1725ee/BioSAK-1.88.4.tar.gz
+[2024-05-08 07:21:17] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/30/03/ead997ae833a664783bff022603fceea324a5184ce49120e11a75e83026f/BioSAK-1.88.5.tar.gz
+[2024-05-08 07:21:17] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-08 07:21:17] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.4.tar.gz tmp/BioSAK-1.88.5.tar.gz --markdown 20240508/B/BioSAK/1.88.4-1.88.5/README.md --exclude *.pyd
+[2024-05-08 07:21:19] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.4.tar.gz]
+[2024-05-08 07:21:19] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.5.tar.gz]
+[2024-05-08 07:21:19] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-08 07:21:19] INFO root fetch - main [MainThread]: Store serial: [23108505]
