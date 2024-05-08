@@ -9222,3 +9222,42 @@
 [2024-05-08 05:17:02] INFO root fetch - processPackages [tart2ms]: Remove: archive file [/home/abi/fetcher/tmp/tart2ms-0.6.0b3.tar.gz]
 [2024-05-08 05:17:02] INFO root fetch - main [MainThread]: End processing [tart2ms]: success
 [2024-05-08 05:17:02] INFO root fetch - main [MainThread]: Store serial: [23107895]
+[2024-05-08 05:19:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107895]
+[2024-05-08 05:19:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xbotext
+[2024-05-08 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-toolkit
+[2024-05-08 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iturtle
+[2024-05-08 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NorrisUtils
+[2024-05-08 05:19:10] INFO root fetch - processPackages [xbotext]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-08 05:19:10] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 05:19:10] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-08 05:19:10] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [iturtle]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 05:19:10] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/c9/38/b7c59c69d037458c9105114fd7112403e4a00b3892a6bcf5ddca8cc5f1df/xbotext-0.1.4.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/26/8a/8cda68a5e472aeb663028f8c06c1d0745679c468a7a4721339bc4a8bff94/NorrisUtils-1.3.3.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/b9/c3/962fcaba915e2f9152ff118ec05f8cbad790853bc8ea9c5bdb5d0fb65081/iturtle-1.0.0-py2.py3-none-any.whl
+[2024-05-08 05:19:10] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/16/e1/a0a01956d4b3bc877b0b5260bd0926a74a64e39150c0747306717520b54a/NorrisUtils-1.4.0.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 05:19:10] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 05:19:10] INFO root fetch - processPackages [xbotext]: Downloading https://files.pythonhosted.org/packages/f1/77/878db9a0a0f13337b65162cde0233e99c1d05fe8736687f6bec24ea8bff3/xbotext-0.1.5.tar.gz
+[2024-05-08 05:19:10] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 05:19:10] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.3.3.tar.gz tmp/NorrisUtils-1.4.0.tar.gz --markdown 20240508/N/NorrisUtils/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-08 05:19:11] INFO root fetch - processPackages [xbotext]: executing diffoscope
+[2024-05-08 05:19:11] INFO root fetch - processPackages [xbotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbotext-0.1.4.tar.gz tmp/xbotext-0.1.5.tar.gz --markdown 20240508/x/xbotext/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-08 05:19:11] INFO root fetch - processPackages [iturtle]: Downloading https://files.pythonhosted.org/packages/7b/f1/54434c58931e56d0845b97e4452db34a4b5607a2858188d0969ffc31f32c/iturtle-1.0.1-py2.py3-none-any.whl
+[2024-05-08 05:19:11] INFO root fetch - processPackages [iturtle]: executing diffoscope
+[2024-05-08 05:19:11] INFO root fetch - processPackages [iturtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iturtle-1.0.0-py2.py3-none-any.whl.zip tmp/iturtle-1.0.1-py2.py3-none-any.whl.zip --markdown 20240508/i/iturtle/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 05:19:11] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 05:19:11] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.3.3.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.0.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 05:19:11] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.4.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.5.tar.gz]
+[2024-05-08 05:19:11] INFO root fetch - main [MainThread]: End processing [xbotext]: success
+[2024-05-08 05:19:20] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-1.0.0-py2.py3-none-any.whl.zip]
+[2024-05-08 05:19:20] INFO root fetch - processPackages [iturtle]: Remove: archive file [/home/abi/fetcher/tmp/iturtle-1.0.1-py2.py3-none-any.whl.zip]
+[2024-05-08 05:19:20] INFO root fetch - main [MainThread]: End processing [iturtle]: success
+[2024-05-08 05:19:20] INFO root fetch - main [MainThread]: Store serial: [23107904]
