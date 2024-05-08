@@ -17872,3 +17872,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:52:02] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
 [2024-05-08 11:52:02] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
 [2024-05-08 11:52:02] INFO root fetch - main [MainThread]: Store serial: [23111600]
+[2024-05-08 11:54:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111600]
+[2024-05-08 11:54:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aps-toolkit
+[2024-05-08 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automonisaur
+[2024-05-08 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyCFS
+[2024-05-08 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sgn
+[2024-05-08 11:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-travel
+[2024-05-08 11:54:10] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-08 11:54:10] INFO root fetch - processPackages [pyCFS]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-08 11:54:10] WARNING root fetch - processPackages [py-travel]: Skipping, unable to determine old version
+[2024-05-08 11:54:10] INFO root fetch - main [MainThread]: End processing [py-travel] error
+[2024-05-08 11:54:10] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/65/18/dcd1ebfb5586b1059e70a66b985153b966a737dfa21b07aa5a41f6ba11e8/aps-toolkit-0.6.0.tar.gz
+[2024-05-08 11:54:10] WARNING root fetch - processPackages [sgn]: Skipping, unable to determine old version
+[2024-05-08 11:54:10] INFO root fetch - main [MainThread]: End processing [sgn] error
+[2024-05-08 11:54:10] INFO root fetch - processPackages [automonisaur]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-08 11:54:11] INFO root fetch - processPackages [pyCFS]: Downloading https://files.pythonhosted.org/packages/38/f3/dcd97f7d0157493fc5ee5b9d361a1918a062bb40f0d73be92d661e69e322/pyCFS-0.0.5.tar.gz
+[2024-05-08 11:54:11] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/42/1d/4dc00f45a1946df8798777e0f5933ca8523ccb295cf8cdccabebf84014c3/automonisaur-0.5.1.tar.gz
+[2024-05-08 11:54:11] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/15/8f/e0c6e624b4cbeb8da2f3abb5f98d6d2fa37f05f1c031de6dc428272dabe1/aps-toolkit-0.6.1.tar.gz
+[2024-05-08 11:54:11] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-08 11:54:11] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.6.0.tar.gz tmp/aps-toolkit-0.6.1.tar.gz --markdown 20240508/a/aps-toolkit/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-08 11:54:11] INFO root fetch - processPackages [automonisaur]: Downloading https://files.pythonhosted.org/packages/ca/62/62b353a3812325477d40beb95c162664f506a88f63ec642f324fab4b1ccd/automonisaur-0.5.2.tar.gz
+[2024-05-08 11:54:11] INFO root fetch - processPackages [automonisaur]: executing diffoscope
+[2024-05-08 11:54:11] INFO root fetch - processPackages [automonisaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automonisaur-0.5.1.tar.gz tmp/automonisaur-0.5.2.tar.gz --markdown 20240508/a/automonisaur/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-08 11:54:12] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.0.tar.gz]
+[2024-05-08 11:54:12] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.1.tar.gz]
+[2024-05-08 11:54:12] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-08 11:54:12] INFO root fetch - processPackages [pyCFS]: Downloading https://files.pythonhosted.org/packages/2a/4e/b6c19be26e532fc83e82941238fc6958d6d792030ad2e68107487dcd83ad/pyCFS-0.0.6.tar.gz
+[2024-05-08 11:54:12] INFO root fetch - processPackages [pyCFS]: executing diffoscope
+[2024-05-08 11:54:12] INFO root fetch - processPackages [pyCFS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCFS-0.0.5.tar.gz tmp/pyCFS-0.0.6.tar.gz --markdown 20240508/p/pyCFS/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-08 11:54:12] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.1.tar.gz]
+[2024-05-08 11:54:12] INFO root fetch - processPackages [automonisaur]: Remove: archive file [/home/abi/fetcher/tmp/automonisaur-0.5.2.tar.gz]
+[2024-05-08 11:54:12] INFO root fetch - main [MainThread]: End processing [automonisaur]: success
+[2024-05-08 11:54:14] INFO root fetch - processPackages [pyCFS]: Remove: archive file [/home/abi/fetcher/tmp/pyCFS-0.0.5.tar.gz]
+[2024-05-08 11:54:14] INFO root fetch - processPackages [pyCFS]: Remove: archive file [/home/abi/fetcher/tmp/pyCFS-0.0.6.tar.gz]
+[2024-05-08 11:54:14] INFO root fetch - main [MainThread]: End processing [pyCFS]: success
+[2024-05-08 11:54:14] INFO root fetch - main [MainThread]: Store serial: [23111621]
