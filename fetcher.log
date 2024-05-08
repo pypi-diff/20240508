@@ -13982,3 +13982,60 @@
 [2024-05-08 09:55:56] INFO root fetch - processPackages [fortls]: Remove: archive file [/home/abi/fetcher/tmp/fortls-3.0.0rc5.tar.gz]
 [2024-05-08 09:55:56] INFO root fetch - main [MainThread]: End processing [fortls]: success
 [2024-05-08 09:55:56] INFO root fetch - main [MainThread]: Store serial: [23110084]
+[2024-05-08 09:57:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110084]
+[2024-05-08 09:58:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miner-ai-beta
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GnDocTrans
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HelloPyOnly
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RM-Tools
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2024-05-08 09:58:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-octostar-utils
+[2024-05-08 09:58:04] INFO root fetch - processPackages [GnDocTrans]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 09:58:04] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 09:58:04] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/8f/a0/8c62558f55efc50e24f1ab67743f3107edd982124ed960a7b6ab304242fd/GnDocTrans-0.0.1.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [RM-Tools]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-08 09:58:05] INFO root fetch - processPackages [streamlit-octostar-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 09:58:05] INFO root fetch - processPackages [HelloPyOnly]: New version: [0.1.24] Old Version: [0.1.23]
+[2024-05-08 09:58:05] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240508] Old Version: [2.17.0.dev20240507]
+[2024-05-08 09:58:05] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/0d/a0/8637f4dc025fafb7e7828ec177f4730ba458b7d47538bb273106679f18c0/rm_tools-1.4.3.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/35/7b/a8fa4ad4be0fcff4696dd71b540efa40cfab60bc1d033f2b5bd0f87d8cbf/GnDocTrans-0.0.2.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/5c/04/2518d363e3413a6c2391bb26e49702673436c694dd93211ccefa286f4300/HelloPyOnly-0.1.23.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [streamlit-octostar-utils]: Downloading https://files.pythonhosted.org/packages/7e/62/8f8afe0fefa6a847a9d28b52db1f9de46b2d511797c85d167287a062da80/streamlit_octostar_utils-0.0.1.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/af/78/363322f263da0b294bec3e8f8dc7809cf3f82359ce686e598207ed38b495/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 09:58:05] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [GnDocTrans]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [GnDocTrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GnDocTrans-0.0.1.tar.gz tmp/GnDocTrans-0.0.2.tar.gz --markdown 20240508/G/GnDocTrans/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 09:58:05] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 09:58:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/88/95/5dda21b3a7a244a221f53e9718a50282c5bc8494ced6d66d09e4b80ee991/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl
+[2024-05-08 09:58:05] INFO root fetch - processPackages [streamlit-octostar-utils]: Downloading https://files.pythonhosted.org/packages/28/2d/8d3c6317f9e2cb552e414d0c389db72e4a4f181cf44d058bc293d6524476/streamlit_octostar_utils-0.0.2.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/91/f6/6d3e5a93e3eef7f8225d4b8731454995ce889c235eded2ff13adc725f9cb/HelloPyOnly-0.1.24.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [HelloPyOnly]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [HelloPyOnly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HelloPyOnly-0.1.23.tar.gz tmp/HelloPyOnly-0.1.24.tar.gz --markdown 20240508/H/HelloPyOnly/0.1.23-0.1.24/README.md --exclude *.pyd
+[2024-05-08 09:58:05] INFO root fetch - processPackages [RM-Tools]: Downloading https://files.pythonhosted.org/packages/18/0e/1c063cbf7c5080f68398a4f4bc936fbe457e20471f209023ce8d1bc5a65f/rm_tools-1.4.4.tar.gz
+[2024-05-08 09:58:05] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip --markdown 20240508/t/tf-nightly/2.17.0.dev20240507-2.17.0.dev20240508/README.md --exclude *.pyd
+[2024-05-08 09:58:05] INFO root fetch - processPackages [streamlit-octostar-utils]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [streamlit-octostar-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_octostar_utils-0.0.1.tar.gz tmp/streamlit_octostar_utils-0.0.2.tar.gz --markdown 20240508/s/streamlit-octostar-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 09:58:05] INFO root fetch - processPackages [RM-Tools]: executing diffoscope
+[2024-05-08 09:58:05] INFO root fetch - processPackages [RM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rm_tools-1.4.3.tar.gz tmp/rm_tools-1.4.4.tar.gz --markdown 20240508/R/RM-Tools/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-08 09:58:06] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.1.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.2.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - main [MainThread]: End processing [GnDocTrans]: success
+[2024-05-08 09:58:06] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 09:58:06] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.23.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.24.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - main [MainThread]: End processing [HelloPyOnly]: success
+[2024-05-08 09:58:06] INFO root fetch - processPackages [streamlit-octostar-utils]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_octostar_utils-0.0.1.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - processPackages [streamlit-octostar-utils]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_octostar_utils-0.0.2.tar.gz]
+[2024-05-08 09:58:06] INFO root fetch - main [MainThread]: End processing [streamlit-octostar-utils]: success
+[2024-05-08 09:58:06] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 09:58:06] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 09:58:06] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-08 09:58:07] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/rm_tools-1.4.3.tar.gz]
+[2024-05-08 09:58:07] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/rm_tools-1.4.4.tar.gz]
+[2024-05-08 09:58:07] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
+[2024-05-08 09:58:07] INFO root fetch - main [MainThread]: Store serial: [23110105]
