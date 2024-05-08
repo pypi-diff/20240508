@@ -11220,3 +11220,9 @@
 [2024-05-08 07:28:47] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.1.tar.gz]
 [2024-05-08 07:28:47] INFO root fetch - main [MainThread]: End processing [fastcrud]: success
 [2024-05-08 07:28:47] INFO root fetch - main [MainThread]: Store serial: [23108544]
+[2024-05-08 07:30:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108544]
+[2024-05-08 07:30:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 07:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vis-analysis-torch
+[2024-05-08 07:30:56] WARNING root fetch - processPackages [vis-analysis-torch]: Skipping, unable to determine old version
+[2024-05-08 07:30:56] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch] error
+[2024-05-08 07:30:56] INFO root fetch - main [MainThread]: Store serial: [23108555]
