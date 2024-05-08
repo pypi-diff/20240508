@@ -23318,3 +23318,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:21:37] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
 [2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
 [2024-05-08 15:21:37] INFO root fetch - main [MainThread]: Store serial: [23114036]
+[2024-05-08 15:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114036]
+[2024-05-08 15:23:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-ts
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shapeaxi
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-db
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imodelsx
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xtgeo
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQtUIkit
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-models
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pipeline-telemetry
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codeforlife-portal
+[2024-05-08 15:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cfl-common
+[2024-05-08 15:23:46] INFO root fetch - processPackages [pypomes-db]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [shapeaxi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/c4/e3/2b22d64a8969174919fe75864046f43d2326e0374007e23b4e71e9e0c7ea/pypomes_db-0.5.4.tar.gz
+[2024-05-08 15:23:46] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-08 15:23:46] INFO root fetch - processPackages [core-models]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [polars-ts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [pipeline-telemetry]: New version: [1.0.0] Old Version: [0.9.4]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [imodelsx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/40/1a/d636b21100f68befaa91e3dd0d846e5abf0684098e10dbc217b3ffaa8390/PyQtUIkit-2.9.3.tar.gz
+[2024-05-08 15:23:46] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-08 15:23:46] INFO root fetch - processPackages [xtgeo]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-08 15:23:46] INFO root fetch - processPackages [shapeaxi]: Downloading https://files.pythonhosted.org/packages/50/6e/b404a816827813916ec512a0e349f82d453d1a45d6ab234b4e5f3832e424/shapeaxi-0.9.0.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/41/ae/bc26c91c5a3e657908608ab9e0f2d4a87db55402d4e9c7ace8694fb7fc37/polars_ts-0.0.8.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/15/ad/7f25d97bd2578e0b57b4848abd027ad28965556d819b74c709d392cf3d41/imodelsx-1.0.4.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/04/ff/267425775d3ed2d3bedc08b836e13f12982d2cd3c9c7918443a7471b1ef9/xtgeo-3.8.0-cp39-cp39-win_amd64.whl
+[2024-05-08 15:23:47] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/61/3b/9ee60b47fae286418ad374937c0a145048d88d7fe7875781d8a4bb1f2a45/core_models-0.4.6.tar.gz
+[2024-05-08 15:23:47] WARNING root fetch - processPackages [shapeaxi]: Skipping package: exceeds size limit 43987427>=10485760
+[2024-05-08 15:23:47] INFO root fetch - main [MainThread]: End processing [shapeaxi] error
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pipeline-telemetry]: Downloading https://files.pythonhosted.org/packages/90/10/85746b30463f8cba4aaf8aad0752827788bfd0e9dff25657d6ba13bbda10/pipeline-telemetry-0.9.4.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/77/a7/fd84170b88a9c30c0584d968a31620e6bd6d38ed6026eb8ebea44f3561b3/pypomes_db-0.5.5.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2e/47/9c7a845880448933cbadbbdb3aaa39eeee86fa65f22173af1bdc3833e09d/PyQtUIkit-2.9.4.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.5.4.tar.gz tmp/pypomes_db-0.5.5.tar.gz --markdown 20240508/p/pypomes-db/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240508/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/3d/00/6c67ba95ac3f8321ef4f02cdb1e25af40432c16ca5bed04d0532c90d499f/polars_ts-0.0.9.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/c2/6c/ddf808aa5fdbb19c2635e96a5f4ffa9f657bf5604733745f8fec8a6403f4/core_models-0.4.7.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pipeline-telemetry]: Downloading https://files.pythonhosted.org/packages/be/73/c3546462ffdf98f65ac881c59a9b6a8d98f3256910d3772365ef91ea5765/pipeline_telemetry-1.0.0.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/aa/47/1ab9f436a0328372b787b7329718cdfcc09c507d089d7aef5522744a8b25/xtgeo-3.9.0-cp39-cp39-win_amd64.whl
+[2024-05-08 15:23:47] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/55/66/ff1c4adf6519b1eb77980a6afd13b8a76b8f6b418005171eb4c1e54acb34/imodelsx-1.0.5.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.9.3.tar.gz tmp/PyQtUIkit-2.9.4.tar.gz --markdown 20240508/P/PyQtUIkit/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.4.6.tar.gz tmp/core_models-0.4.7.tar.gz --markdown 20240508/c/core-models/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pipeline-telemetry]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [pipeline-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-telemetry-0.9.4.tar.gz tmp/pipeline_telemetry-1.0.0.tar.gz --markdown 20240508/p/pipeline-telemetry/0.9.4-1.0.0/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-1.0.4.tar.gz tmp/imodelsx-1.0.5.tar.gz --markdown 20240508/i/imodelsx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-08 15:23:47] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-08 15:23:47] INFO root fetch - processPackages [xtgeo]: executing diffoscope
+[2024-05-08 15:23:47] INFO root fetch - processPackages [xtgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtgeo-3.8.0-cp39-cp39-win_amd64.whl.zip tmp/xtgeo-3.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240508/x/xtgeo/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-08 15:23:48] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.4.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.5.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-08 15:23:48] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-05-08 15:23:48] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.8.tar.gz tmp/polars_ts-0.0.9.tar.gz --markdown 20240508/p/polars-ts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 15:23:48] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-08 15:23:48] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-08 15:23:48] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240508/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-08 15:23:48] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.4.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.5.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2024-05-08 15:23:48] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.6.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.7.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2024-05-08 15:23:48] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.3.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
+[2024-05-08 15:23:48] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-08 15:23:49] INFO root fetch - processPackages [pipeline-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-telemetry-0.9.4.tar.gz]
+[2024-05-08 15:23:49] INFO root fetch - processPackages [pipeline-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_telemetry-1.0.0.tar.gz]
+[2024-05-08 15:23:49] INFO root fetch - main [MainThread]: End processing [pipeline-telemetry]: success
+[2024-05-08 15:23:49] INFO root fetch - processPackages [xtgeo]: Remove: archive file [/home/abi/fetcher/tmp/xtgeo-3.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 15:23:49] INFO root fetch - processPackages [xtgeo]: Remove: archive file [/home/abi/fetcher/tmp/xtgeo-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 15:23:49] INFO root fetch - main [MainThread]: End processing [xtgeo]: success
+[2024-05-08 15:23:49] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.8.tar.gz]
+[2024-05-08 15:23:49] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.9.tar.gz]
+[2024-05-08 15:23:49] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-05-08 15:23:50] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-08 15:23:50] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-08 15:23:50] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-08 15:23:50] INFO root fetch - main [MainThread]: Store serial: [23114085]
