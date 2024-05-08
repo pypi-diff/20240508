@@ -10079,3 +10079,42 @@
 [2024-05-08 05:52:14] INFO root fetch - processPackages [apollo-ai]: Remove: archive file [/home/abi/fetcher/tmp/apollo-ai-0.0.47.tar.gz]
 [2024-05-08 05:52:14] INFO root fetch - main [MainThread]: End processing [apollo-ai]: success
 [2024-05-08 05:52:14] INFO root fetch - main [MainThread]: Store serial: [23108126]
+[2024-05-08 05:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108126]
+[2024-05-08 05:54:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-vod
+[2024-05-08 05:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-toolkit
+[2024-05-08 05:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: civilpy
+[2024-05-08 05:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutrical
+[2024-05-08 05:54:22] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 05:54:22] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 05:54:22] INFO root fetch - processPackages [aliyun-python-sdk-vod]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-08 05:54:22] INFO root fetch - processPackages [civilpy]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-05-08 05:54:22] INFO root fetch - processPackages [nutrical]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 05:54:23] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [aliyun-python-sdk-vod]: Downloading https://files.pythonhosted.org/packages/b1/08/c1ce877adbabcec9521c5c3f794913ba0f9807020675d38813ff7acd4f3b/aliyun-python-sdk-vod-2.8.0.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/22/7a/bbadb82df87b2324244b520254a613db8a646388f5284eaffe07fc0ba68e/civilpy-0.0.80.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/5a/76/118378a2ecf76970b9ca27f0692e0289a022faa3edf9c52d8d1e9633765b/nutrical-0.0.3.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 05:54:23] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 05:54:23] INFO root fetch - processPackages [aliyun-python-sdk-vod]: Downloading https://files.pythonhosted.org/packages/74/23/d12aec413edc820b9cbcd97beffa20458bf66517208470ab5bc3c77032c4/aliyun-python-sdk-vod-2.9.0.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/61/aa/2da91f8a0bbc402ffd77fe9420647984d9d7baa2fdc25ab8467738b5ea5f/nutrical-0.0.4.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [aliyun-python-sdk-vod]: executing diffoscope
+[2024-05-08 05:54:23] INFO root fetch - processPackages [aliyun-python-sdk-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-vod-2.8.0.tar.gz tmp/aliyun-python-sdk-vod-2.9.0.tar.gz --markdown 20240508/a/aliyun-python-sdk-vod/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-08 05:54:23] INFO root fetch - processPackages [civilpy]: Downloading https://files.pythonhosted.org/packages/00/cb/a1fcb8da3092877c6ea3e851562518dedf953a82406e9777a0fb4c777b7e/civilpy-0.0.81.tar.gz
+[2024-05-08 05:54:23] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-08 05:54:23] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.3.tar.gz tmp/nutrical-0.0.4.tar.gz --markdown 20240508/n/nutrical/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 05:54:23] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2024-05-08 05:54:23] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.80.tar.gz tmp/civilpy-0.0.81.tar.gz --markdown 20240508/c/civilpy/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-05-08 05:54:23] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 05:54:23] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 05:54:23] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 05:54:24] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.3.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.4.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-08 05:54:24] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.80.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - processPackages [civilpy]: Remove: archive file [/home/abi/fetcher/tmp/civilpy-0.0.81.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2024-05-08 05:54:24] INFO root fetch - processPackages [aliyun-python-sdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vod-2.8.0.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - processPackages [aliyun-python-sdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vod-2.9.0.tar.gz]
+[2024-05-08 05:54:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vod]: success
+[2024-05-08 05:54:24] INFO root fetch - main [MainThread]: Store serial: [23108136]
