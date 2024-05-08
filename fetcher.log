@@ -11145,3 +11145,36 @@
 [2024-05-08 07:24:26] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
 [2024-05-08 07:24:26] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
 [2024-05-08 07:24:26] INFO root fetch - main [MainThread]: Store serial: [23108515]
+[2024-05-08 07:26:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108515]
+[2024-05-08 07:26:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 07:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commandex
+[2024-05-08 07:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-stage-only-confirmed
+[2024-05-08 07:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-storage-helper
+[2024-05-08 07:26:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2024-05-08 07:26:36] INFO root fetch - processPackages [fastapi-storage-helper]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 07:26:36] INFO root fetch - processPackages [fastapi-storage-helper]: Downloading https://files.pythonhosted.org/packages/61/af/2dd2b485eed67ae798455bd6944583bf507eb60650fb77c2190797c2a3fc/fastapi_storage_helper-0.0.4.tar.gz
+[2024-05-08 07:26:36] WARNING root fetch - processPackages [commandex]: Skipping, unable to determine old version
+[2024-05-08 07:26:36] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-08 07:26:36] INFO root fetch - main [MainThread]: End processing [commandex] error
+[2024-05-08 07:26:36] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-08 07:26:36] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: Downloading https://files.pythonhosted.org/packages/62/37/e5dfffa204069b3640bc8bcef819aa67b7ebccd43f91fb5cf6eba5ebfa49/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-08 07:26:36] INFO root fetch - processPackages [fastapi-storage-helper]: Downloading https://files.pythonhosted.org/packages/aa/b7/cecdbcab7d89be77a35fc1bf13d6edb12d038d87f5f15b72f5ec9eac1857/fastapi_storage_helper-0.0.5.tar.gz
+[2024-05-08 07:26:36] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/1e/62/09333aa1e78129687cf75a462a3a3a8a176c6b4e764f95d8cc48dd9049c8/pydolarvenezuela-1.5.4.tar.gz
+[2024-05-08 07:26:36] INFO root fetch - processPackages [fastapi-storage-helper]: executing diffoscope
+[2024-05-08 07:26:36] INFO root fetch - processPackages [fastapi-storage-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_storage_helper-0.0.4.tar.gz tmp/fastapi_storage_helper-0.0.5.tar.gz --markdown 20240508/f/fastapi-storage-helper/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 07:26:36] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: Downloading https://files.pythonhosted.org/packages/41/59/2ebdff9cc5b93e20577439f81c1ea7ee6db296938c03e46980ca2755a0d7/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-08 07:26:36] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: executing diffoscope
+[2024-05-08 07:26:36] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-partner-stage-only-confirmed/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-08 07:26:36] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/53/b0/640a60c4cfe1fd91e9b570b43145db39dfd831929f43a8b5120510b1d5af/pydolarvenezuela-1.5.5.tar.gz
+[2024-05-08 07:26:37] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-05-08 07:26:37] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.5.4.tar.gz tmp/pydolarvenezuela-1.5.5.tar.gz --markdown 20240508/p/pyDolarVenezuela/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-08 07:26:37] INFO root fetch - processPackages [fastapi-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storage_helper-0.0.4.tar.gz]
+[2024-05-08 07:26:37] INFO root fetch - processPackages [fastapi-storage-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_storage_helper-0.0.5.tar.gz]
+[2024-05-08 07:26:37] INFO root fetch - main [MainThread]: End processing [fastapi-storage-helper]: success
+[2024-05-08 07:26:37] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-08 07:26:37] INFO root fetch - processPackages [odoo-addon-partner-stage-only-confirmed]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_stage_only_confirmed-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-08 07:26:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-stage-only-confirmed]: success
+[2024-05-08 07:26:37] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.4.tar.gz]
+[2024-05-08 07:26:37] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.5.tar.gz]
+[2024-05-08 07:26:37] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-05-08 07:26:37] INFO root fetch - main [MainThread]: Store serial: [23108527]
