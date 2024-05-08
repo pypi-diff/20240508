@@ -13062,3 +13062,39 @@
 [2024-05-08 09:17:38] INFO root fetch - processPackages [dgl]: Remove: archive file [/home/abi/fetcher/tmp/dgl-2.2.0-cp39-cp39-macosx_11_0_x86_64.whl.zip]
 [2024-05-08 09:17:38] INFO root fetch - main [MainThread]: End processing [dgl]: success
 [2024-05-08 09:17:38] INFO root fetch - main [MainThread]: Store serial: [23109664]
+[2024-05-08 09:19:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109664]
+[2024-05-08 09:19:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-project-forecast-line-milestone
+[2024-05-08 09:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-batch-regression
+[2024-05-08 09:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcnodes-sklearn
+[2024-05-08 09:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-kafka-schemas
+[2024-05-08 09:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redondillaz
+[2024-05-08 09:19:47] INFO root fetch - processPackages [funcnodes-sklearn]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 09:19:47] INFO root fetch - processPackages [pytest-batch-regression]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 09:19:48] WARNING root fetch - processPackages [redondillaz]: Skipping, unable to determine old version
+[2024-05-08 09:19:48] INFO root fetch - main [MainThread]: End processing [redondillaz] error
+[2024-05-08 09:19:48] WARNING root fetch - processPackages [odoo14-addon-project-forecast-line-milestone]: Skipping, unable to determine old version
+[2024-05-08 09:19:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-forecast-line-milestone] error
+[2024-05-08 09:19:48] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.80]
+[2024-05-08 09:19:48] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/44/c0/b1d3a8ac4d8701c8603c84d10d0beda2d823119af9cffd940f8c04f1cdae/funcnodes_sklearn-0.1.0.tar.gz
+[2024-05-08 09:19:48] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/2c/73/dabe6f540aa4988d5afd67020ea5e10fcfabf90fcb4f99f0172af805aab5/pytest_batch_regression-0.1.0-py3-none-any.whl
+[2024-05-08 09:19:48] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/42/42/3291e3e2349a198cb52892a7c398d79c1e94309fd7828de21c78794a7690/sentry-kafka-schemas-0.1.80.tar.gz
+[2024-05-08 09:19:48] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/f4/c3/b7347b603f6a5a1c58488cbe7ca885dd591ef0b339b73935e49c0fdd877b/pytest_batch_regression-0.1.1.tar.gz
+[2024-05-08 09:19:48] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/bb/c2/fb337543f6ace0d7cbaac88875507ea974780d32f6d0d7c719b22023d3c0/funcnodes_sklearn-0.1.1.tar.gz
+[2024-05-08 09:19:48] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2024-05-08 09:19:48] INFO root fetch - processPackages [pytest-batch-regression]: executing diffoscope
+[2024-05-08 09:19:48] INFO root fetch - processPackages [pytest-batch-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_batch_regression-0.1.0-py3-none-any.whl.zip tmp/pytest_batch_regression-0.1.1.tar.gz --markdown 20240508/p/pytest-batch-regression/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 09:19:48] INFO root fetch - processPackages [funcnodes-sklearn]: executing diffoscope
+[2024-05-08 09:19:48] INFO root fetch - processPackages [funcnodes-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_sklearn-0.1.0.tar.gz tmp/funcnodes_sklearn-0.1.1.tar.gz --markdown 20240508/f/funcnodes-sklearn/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 09:19:48] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2024-05-08 09:19:48] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.80.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20240508/s/sentry-kafka-schemas/0.1.80-0.1.9/README.md --exclude *.pyd
+[2024-05-08 09:19:49] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.0-py3-none-any.whl.zip]
+[2024-05-08 09:19:49] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.1.tar.gz]
+[2024-05-08 09:19:49] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression]: success
+[2024-05-08 09:19:49] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.0.tar.gz]
+[2024-05-08 09:19:49] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.1.tar.gz]
+[2024-05-08 09:19:49] INFO root fetch - main [MainThread]: End processing [funcnodes-sklearn]: success
+[2024-05-08 09:19:49] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.80.tar.gz]
+[2024-05-08 09:19:49] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2024-05-08 09:19:49] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2024-05-08 09:19:49] INFO root fetch - main [MainThread]: Store serial: [23109682]
