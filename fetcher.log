@@ -14928,3 +14928,50 @@
 [2024-05-08 10:24:39] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 10:24:39] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 10:24:39] INFO root fetch - main [MainThread]: Store serial: [23110449]
+[2024-05-08 10:26:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110449]
+[2024-05-08 10:26:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ortools
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tool-mapi
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneople
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencf-core
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tool-mapi
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irisml-tasks-yolov9
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tezapi
+[2024-05-08 10:26:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-08 10:26:48] WARNING root fetch - processPackages [tool-mapi]: Skipping, unable to determine old version
+[2024-05-08 10:26:48] INFO root fetch - main [MainThread]: End processing [tool-mapi] error
+[2024-05-08 10:26:48] WARNING root fetch - processPackages [tool-mapi]: Skipping, unable to determine old version
+[2024-05-08 10:26:48] INFO root fetch - main [MainThread]: End processing [tool-mapi] error
+[2024-05-08 10:26:48] WARNING root fetch - processPackages [tezapi]: Skipping, unable to determine old version
+[2024-05-08 10:26:48] INFO root fetch - main [MainThread]: End processing [tezapi] error
+[2024-05-08 10:26:48] INFO root fetch - processPackages [pyneople]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-08 10:26:48] INFO root fetch - processPackages [ortools]: New version: [9.9.3963] Old Version: [9.8.3296]
+[2024-05-08 10:26:48] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/b2/9f/1bacd436a3f008d3f4a8c452a38d31db99482b1d3bb2de7b8fff1afe40a0/pyneople-0.3.2.tar.gz
+[2024-05-08 10:26:48] WARNING root fetch - processPackages [irisml-tasks-yolov9]: Skipping, unable to determine old version
+[2024-05-08 10:26:48] INFO root fetch - main [MainThread]: End processing [irisml-tasks-yolov9] error
+[2024-05-08 10:26:48] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1715156797] Old Version: [1.7.0.dev1714770469]
+[2024-05-08 10:26:48] INFO root fetch - processPackages [opencf-core]: New version: [0.3.0] Old Version: [0.2.1a1]
+[2024-05-08 10:26:48] INFO root fetch - processPackages [ortools]: Downloading https://files.pythonhosted.org/packages/fb/b8/3432b2c35d2e45832adbeb481023a8ef7289377a2d1beb0fda9847782cc9/ortools-9.8.3296-cp39-cp39-win_amd64.whl
+[2024-05-08 10:26:48] WARNING root fetch - processPackages [ortools]: Skipping package: exceeds size limit 101067771>=10485760
+[2024-05-08 10:26:48] INFO root fetch - main [MainThread]: End processing [ortools] error
+[2024-05-08 10:26:48] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/29/82/c9bddea31dfeb1d871868793d4394f3a75d472a38ff2de7877995a6d7ec3/opencf_core-0.2.1a1.tar.gz
+[2024-05-08 10:26:48] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/7b/76/f65d8b167a39cec422aa4c5175a0113544175309be068855310be1de1431/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz
+[2024-05-08 10:26:48] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/fe/8e/d1159b1be8a87acc3ad787451bcfe66f1428a94827ab74f17571a16678f0/pyneople-0.3.3.tar.gz
+[2024-05-08 10:26:48] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:26:48] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.2.tar.gz tmp/pyneople-0.3.3.tar.gz --markdown 20240508/p/pyneople/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-08 10:26:48] INFO root fetch - processPackages [opencf-core]: Downloading https://files.pythonhosted.org/packages/14/f5/8077a30e265aeddfd08583fc5aa9e96c0d4deaaafc63fb5be826bd18d134/opencf_core-0.3.0.tar.gz
+[2024-05-08 10:26:48] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/34/7c/bbf12eb7f8c117da76609e3ab41d5a035429bf8440a84059f19d7f5f4235/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz
+[2024-05-08 10:26:48] INFO root fetch - processPackages [opencf-core]: executing diffoscope
+[2024-05-08 10:26:48] INFO root fetch - processPackages [opencf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencf_core-0.2.1a1.tar.gz tmp/opencf_core-0.3.0.tar.gz --markdown 20240508/o/opencf-core/0.2.1a1-0.3.0/README.md --exclude *.pyd
+[2024-05-08 10:26:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-08 10:26:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz --markdown 20240508/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714770469-1.7.0.dev1715156797/README.md --exclude *.pyd
+[2024-05-08 10:26:49] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.2.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.3.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:26:49] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.2.1a1.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - processPackages [opencf-core]: Remove: archive file [/home/abi/fetcher/tmp/opencf_core-0.3.0.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - main [MainThread]: End processing [opencf-core]: success
+[2024-05-08 10:26:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz]
+[2024-05-08 10:26:49] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-08 10:26:49] INFO root fetch - main [MainThread]: Store serial: [23110501]
