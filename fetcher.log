@@ -7253,3 +7253,36 @@
 [2024-05-08 03:25:24] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
 [2024-05-08 03:25:24] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-08 03:25:24] INFO root fetch - main [MainThread]: Store serial: [23107069]
+[2024-05-08 03:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107069]
+[2024-05-08 03:27:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 03:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2024-05-08 03:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwml
+[2024-05-08 03:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-local
+[2024-05-08 03:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ssi-sale-canvas
+[2024-05-08 03:27:33] WARNING root fetch - processPackages [gwml]: Skipping, unable to determine old version
+[2024-05-08 03:27:33] INFO root fetch - main [MainThread]: End processing [gwml] error
+[2024-05-08 03:27:33] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 03:27:33] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 03:27:33] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-08 03:27:33] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.1]
+[2024-05-08 03:27:33] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-08 03:27:33] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-08 03:27:33] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Downloading https://files.pythonhosted.org/packages/2f/05/df5eee5ee524c7240178ea98b2542ac761defded6c728edbb37b088ea75f/odoo14_addon_ssi_sale_canvas-14.0.1.2.1-py3-none-any.whl
+[2024-05-08 03:27:33] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-08 03:27:33] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240508/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 03:27:34] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Downloading https://files.pythonhosted.org/packages/de/86/3e200804067fe1e94443072f5ad748f14415ecf7a58c9a9235af0a4f8e74/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl
+[2024-05-08 03:27:34] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-08 03:27:34] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: executing diffoscope
+[2024-05-08 03:27:34] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_sale_canvas-14.0.1.2.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-ssi-sale-canvas/14.0.1.2.1-14.0.1.3.0/README.md --exclude *.pyd
+[2024-05-08 03:27:34] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-08 03:27:34] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240508/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 03:27:34] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-08 03:27:34] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-08 03:27:34] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale_canvas-14.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-08 03:27:34] INFO root fetch - processPackages [odoo14-addon-ssi-sale-canvas]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sale_canvas-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-08 03:27:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-sale-canvas]: success
+[2024-05-08 03:27:35] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-08 03:27:35] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-08 03:27:35] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-08 03:27:35] INFO root fetch - main [MainThread]: Store serial: [23107126]
