@@ -22149,3 +22149,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:41:18] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.8.tar.gz]
 [2024-05-08 14:41:18] INFO root fetch - main [MainThread]: End processing [schedula]: success
 [2024-05-08 14:41:18] INFO root fetch - main [MainThread]: Store serial: [23113467]
+[2024-05-08 14:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113467]
+[2024-05-08 14:43:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudlib
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-kfp-task
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-version-remla
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reanxietyz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyodoo-connector
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamtracer
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinjafx
+[2024-05-08 14:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-llm
+[2024-05-08 14:43:27] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-05-08 14:43:27] WARNING root fetch - processPackages [pyodoo-connector]: Skipping, unable to determine old version
+[2024-05-08 14:43:27] INFO root fetch - main [MainThread]: End processing [pyodoo-connector] error
+[2024-05-08 14:43:27] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240507] Old Version: [2.5.0b20240506]
+[2024-05-08 14:43:27] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [streamtracer]: New version: [2.1.0rc1] Old Version: [2.0.1]
+[2024-05-08 14:43:27] INFO root fetch - processPackages [lib-version-remla]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-08 14:43:27] INFO root fetch - processPackages [simple-kfp-task]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 14:43:27] WARNING root fetch - processPackages [reanxietyz]: Skipping, unable to determine old version
+[2024-05-08 14:43:27] INFO root fetch - main [MainThread]: End processing [reanxietyz] error
+[2024-05-08 14:43:27] INFO root fetch - processPackages [jinjafx]: New version: [1.9.5] Old Version: [1.9.2]
+[2024-05-08 14:43:27] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/0f/75/6889ed60d8eae79a24c4286170814b478df03c7c344235c035eb21f3c16c/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl
+[2024-05-08 14:43:27] INFO root fetch - processPackages [streamtracer]: Downloading https://files.pythonhosted.org/packages/6d/4d/a645d94a36383068186e210fadb31672f72221d8211727eabcd5d41dc631/streamtracer-2.0.1.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/3b/6d/338b008fa5d25b96f6d3edbea71ea35ea80dffaef92f2f30bde42ca6999c/lib_version_remla-0.0.1.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [simple-kfp-task]: Downloading https://files.pythonhosted.org/packages/f4/57/44b0b8187041eb44a2c45e37d6028fba30bc0df46fc56ffddd3c07650578/simple_kfp_task-0.0.8.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/8c/ef/a913b01ddc5057869372b3ee2c19887721f59f66289a06bc02a85562bb6b/jinjafx-1.9.2.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-05-08 14:43:27] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240508/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-05-08 14:43:27] INFO root fetch - processPackages [simple-kfp-task]: Downloading https://files.pythonhosted.org/packages/a9/f7/a56e10434149b77cfccdb7ee64b8ad33e792a9dec37e160cf3399de69b46/simple_kfp_task-0.0.9.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [streamtracer]: Downloading https://files.pythonhosted.org/packages/88/df/de30cebc11a6edb7cea65cecbe7d6aa3b38346b38cad07c13434fd846b3b/streamtracer-2.1.0rc1.tar.gz
+[2024-05-08 14:43:27] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/0b/74/184b23ec882916360bf2089a9f70b5c9961f515a52fc6acfbee6ff555594/lib_version_remla-0.0.3.tar.gz
+[2024-05-08 14:43:28] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/9d/93/a58d8c1c590d0447ac2ef1886a57b2289e22503f6fae810cfa321e65fe2e/bigdl_llm-2.5.0b20240507-py3-none-win_amd64.whl
+[2024-05-08 14:43:28] INFO root fetch - processPackages [simple-kfp-task]: executing diffoscope
+[2024-05-08 14:43:28] INFO root fetch - processPackages [simple-kfp-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_kfp_task-0.0.8.tar.gz tmp/simple_kfp_task-0.0.9.tar.gz --markdown 20240508/s/simple-kfp-task/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 14:43:28] INFO root fetch - processPackages [lib-version-remla]: executing diffoscope
+[2024-05-08 14:43:28] INFO root fetch - processPackages [lib-version-remla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla-0.0.1.tar.gz tmp/lib_version_remla-0.0.3.tar.gz --markdown 20240508/l/lib-version-remla/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-08 14:43:28] INFO root fetch - processPackages [streamtracer]: executing diffoscope
+[2024-05-08 14:43:28] INFO root fetch - processPackages [streamtracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamtracer-2.0.1.tar.gz tmp/streamtracer-2.1.0rc1.tar.gz --markdown 20240508/s/streamtracer/2.0.1-2.1.0rc1/README.md --exclude *.pyd
+[2024-05-08 14:43:28] INFO root fetch - processPackages [jinjafx]: Downloading https://files.pythonhosted.org/packages/a5/27/2fffa807f4f77b0840a8b46246372c35430b21be959dd230da134d6bf3f0/jinjafx-1.9.5.tar.gz
+[2024-05-08 14:43:28] INFO root fetch - processPackages [jinjafx]: executing diffoscope
+[2024-05-08 14:43:28] INFO root fetch - processPackages [jinjafx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjafx-1.9.2.tar.gz tmp/jinjafx-1.9.5.tar.gz --markdown 20240508/j/jinjafx/1.9.2-1.9.5/README.md --exclude *.pyd
+[2024-05-08 14:43:28] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-05-08 14:43:28] INFO root fetch - processPackages [simple-kfp-task]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task-0.0.8.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - processPackages [simple-kfp-task]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task-0.0.9.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - main [MainThread]: End processing [simple-kfp-task]: success
+[2024-05-08 14:43:28] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.1.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.3.tar.gz]
+[2024-05-08 14:43:28] INFO root fetch - main [MainThread]: End processing [lib-version-remla]: success
+[2024-05-08 14:43:29] INFO root fetch - processPackages [streamtracer]: Remove: archive file [/home/abi/fetcher/tmp/streamtracer-2.0.1.tar.gz]
+[2024-05-08 14:43:29] INFO root fetch - processPackages [streamtracer]: Remove: archive file [/home/abi/fetcher/tmp/streamtracer-2.1.0rc1.tar.gz]
+[2024-05-08 14:43:29] INFO root fetch - main [MainThread]: End processing [streamtracer]: success
+[2024-05-08 14:43:29] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-08 14:43:29] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240507-py3-none-win_amd64.whl.zip --markdown 20240508/b/bigdl-llm/2.5.0b20240506-2.5.0b20240507/README.md --exclude *.pyd
+[2024-05-08 14:43:29] INFO root fetch - processPackages [jinjafx]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx-1.9.2.tar.gz]
+[2024-05-08 14:43:29] INFO root fetch - processPackages [jinjafx]: Remove: archive file [/home/abi/fetcher/tmp/jinjafx-1.9.5.tar.gz]
+[2024-05-08 14:43:29] INFO root fetch - main [MainThread]: End processing [jinjafx]: success
+[2024-05-08 14:43:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240506-py3-none-win_amd64.whl.zip]
+[2024-05-08 14:43:30] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240507-py3-none-win_amd64.whl.zip]
+[2024-05-08 14:43:30] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-08 14:43:30] INFO root fetch - main [MainThread]: Store serial: [23113515]
