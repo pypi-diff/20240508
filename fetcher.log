@@ -13710,3 +13710,78 @@
 [2024-05-08 09:44:57] INFO root fetch - processPackages [rushcards]: Remove: archive file [/home/abi/fetcher/tmp/rushcards-0.1.3.tar.gz]
 [2024-05-08 09:44:57] INFO root fetch - main [MainThread]: End processing [rushcards]: success
 [2024-05-08 09:44:57] INFO root fetch - main [MainThread]: Store serial: [23109960]
+[2024-05-08 09:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109960]
+[2024-05-08 09:47:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamaxi
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clappform-integrations
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydmt
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: subdivision-hole-filler
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-force-invoiced
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crud-repository
+[2024-05-08 09:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eurmlsdk
+[2024-05-08 09:47:05] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 09:47:05] INFO root fetch - processPackages [pydmt]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 09:47:05] INFO root fetch - processPackages [crud-repository]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 09:47:05] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.72] Old Version: [0.0.71]
+[2024-05-08 09:47:05] INFO root fetch - processPackages [clappform-integrations]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 09:47:06] INFO root fetch - processPackages [datamaxi]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 09:47:06] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [subdivision-hole-filler]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-08 09:47:06] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/00/59/db6c88a1053b4b14e4dcaf564ab18d041da0ad37b2061f0d8318a8b8cf5a/crud_repository-0.1.8.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.0.0.3]
+[2024-05-08 09:47:06] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/a6/3e/3a246f549de7956d153c96f6b59431962cae5ba828337271974de110fe2a/eurmlsdk-0.0.71.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/20/77/57c7ebb9ba32b318b442c9f31f596182611f8b9949b9a0800a0f3abecdb5/clappform-integrations-1.0.8.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/90/d0/4a9b7c76e70b0b2ed97f243e5439c1246e88995dbf72126376727a1b8f55/pydmt-0.3.8.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [datamaxi]: Downloading https://files.pythonhosted.org/packages/48/56/ede68512be10cef35cc60811d81c07ac45a86ccabc7c4454221c3950ab3a/datamaxi-0.1.0.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [crud-repository]: Downloading https://files.pythonhosted.org/packages/c1/24/1b24976cf46c9d8d53d8d5e060300f496dfe53e98f25887e5def5c3d80df/crud_repository-0.1.9.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/54/6a/413e72a618d7cad9fe2c477b58362f1944ff5ce53547a53e2de13693c61a/odoo_addon_sale_force_invoiced-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-08 09:47:06] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/6a/85/68aa96d497f57b824ed56b0c27b8c5e9ac94a9b9eeadf3637af978145969/subdivision_hole_filler-0.0.1.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/86/13/891db683d0baa5bba89fb711d20dfd94b6261de617f230b97a3249d425e3/eurmlsdk-0.0.72.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [clappform-integrations]: Downloading https://files.pythonhosted.org/packages/1b/87/d1bd22e550a438c726df88f986c9ca34f15cf630f0c0d3587eb3081d4339/clappform-integrations-1.0.9.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [crud-repository]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [crud-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crud_repository-0.1.8.tar.gz tmp/crud_repository-0.1.9.tar.gz --markdown 20240508/c/crud-repository/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [pydmt]: Downloading https://files.pythonhosted.org/packages/de/12/29caefaa8dd66e68e2a1419873d4e3b8ea2960a4b4ee1c70730da957ca00/pydmt-0.3.9.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.71.tar.gz tmp/eurmlsdk-0.0.72.tar.gz --markdown 20240508/e/eurmlsdk/0.0.71-0.0.72/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [clappform-integrations]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [clappform-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clappform-integrations-1.0.8.tar.gz tmp/clappform-integrations-1.0.9.tar.gz --markdown 20240508/c/clappform-integrations/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [datamaxi]: Downloading https://files.pythonhosted.org/packages/1c/5f/63600dbd9be47a0544a360013de1e81b73a13c2b98cb133a8ae260d05134/datamaxi-0.2.0.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [pydmt]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [pydmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmt-0.3.8.tar.gz tmp/pydmt-0.3.9.tar.gz --markdown 20240508/p/pydmt/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/9f/7d/937696340d0d191bde57085cdcb02b970250607089dbb6058a4b0f7a8290/subdivision_hole_filler-1.0.0.tar.gz
+[2024-05-08 09:47:06] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/2f/58/08b2089c8a6b86ea4c7c36c26314a2612ddb404d0da401fe4b954e4766d7/odoo_addon_sale_force_invoiced-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-08 09:47:06] INFO root fetch - processPackages [datamaxi]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [datamaxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaxi-0.1.0.tar.gz tmp/datamaxi-0.2.0.tar.gz --markdown 20240508/d/datamaxi/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-sale-force-invoiced/17.0.1.0.0.3-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-08 09:47:06] INFO root fetch - processPackages [subdivision-hole-filler]: executing diffoscope
+[2024-05-08 09:47:06] INFO root fetch - processPackages [subdivision-hole-filler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subdivision_hole_filler-0.0.1.tar.gz tmp/subdivision_hole_filler-1.0.0.tar.gz --markdown 20240508/s/subdivision-hole-filler/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-08 09:47:07] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.71.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.72.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-08 09:47:07] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.1.8.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - processPackages [crud-repository]: Remove: archive file [/home/abi/fetcher/tmp/crud_repository-0.1.9.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - main [MainThread]: End processing [crud-repository]: success
+[2024-05-08 09:47:07] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.8.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - processPackages [clappform-integrations]: Remove: archive file [/home/abi/fetcher/tmp/clappform-integrations-1.0.9.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - main [MainThread]: End processing [clappform-integrations]: success
+[2024-05-08 09:47:07] INFO root fetch - processPackages [pydmt]: Remove: archive file [/home/abi/fetcher/tmp/pydmt-0.3.8.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - processPackages [pydmt]: Remove: archive file [/home/abi/fetcher/tmp/pydmt-0.3.9.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - main [MainThread]: End processing [pydmt]: success
+[2024-05-08 09:47:07] INFO root fetch - processPackages [datamaxi]: Remove: archive file [/home/abi/fetcher/tmp/datamaxi-0.1.0.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - processPackages [datamaxi]: Remove: archive file [/home/abi/fetcher/tmp/datamaxi-0.2.0.tar.gz]
+[2024-05-08 09:47:07] INFO root fetch - main [MainThread]: End processing [datamaxi]: success
+[2024-05-08 09:47:08] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-0.0.1.tar.gz]
+[2024-05-08 09:47:08] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.0.tar.gz]
+[2024-05-08 09:47:08] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler]: success
+[2024-05-08 09:47:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 09:47:08] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 09:47:08] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 09:47:08] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-08 09:47:08] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-08 09:47:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-05-08 09:47:08] INFO root fetch - main [MainThread]: Store serial: [23109986]
