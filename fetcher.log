@@ -8028,3 +8028,60 @@
 [2024-05-08 04:06:42] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.9.tar.gz]
 [2024-05-08 04:06:42] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
 [2024-05-08 04:06:42] INFO root fetch - main [MainThread]: Store serial: [23107421]
+[2024-05-08 04:08:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107421]
+[2024-05-08 04:08:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-helm-templates
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mountaineer
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradingview-indicators
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launchflow
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cnmf
+[2024-05-08 04:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skerch
+[2024-05-08 04:08:50] INFO root fetch - processPackages [pytest-helm-templates]: New version: [0.0.1a7] Old Version: [0.0.1a6]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [cnmf]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev8] Old Version: [0.3.9.dev7]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/e5/3f/265fe5abd79352e52ef7c82f250b1fe8d8163fd9f825ab7d7713a3896417/pytest_helm_templates-0.0.1a6.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev4] Old Version: [0.5.0.dev3]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [skerch]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/77/cc/727c7a9699e5dbd35127dddd83393b0c1838d2e2dd92f24ed5a539a9a50b/cnmf-1.4.1.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [tradingview-indicators]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-05-08 04:08:50] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/48/58/dc4bcb9a1d74952a08d0cfc5e24c45d961d331cb7a4434c9059bab154c72/launchflow-0.3.9.dev7.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/10/84/e0d88e5c7ad76bbc991af44b274b65719bf8e16b658ad492328806140e9b/cnmf-1.5.0.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/e2/f9/f56aa61f78d1bb043c5083f0d3ad2d13bd8b5090a3a24104c92b581f145e/tradingview_indicators-0.3.7.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [skerch]: Downloading https://files.pythonhosted.org/packages/0a/40/92f77820c450d40f426d5b4712435c6fe7bacd21a82d2492853e3c168cde/skerch-0.6.1.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/23/cb/da100b31a8c6f511c601ba759000aa2c5cf075aea9a51179efa35fd6a2c6/mountaineer-0.5.0.dev3.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/8c/d2/f0544d4c3383370934bcc7b31fa0449e89fcfa2edeeac48bd86ada84b492/launchflow-0.3.9.dev8.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [pytest-helm-templates]: Downloading https://files.pythonhosted.org/packages/82/9e/7fcb3e81998e01ed90a3496976fc0baf013900e0da63eee8704c354121c1/pytest_helm_templates-0.0.1a7.tar.gz
+[2024-05-08 04:08:50] INFO root fetch - processPackages [cnmf]: executing diffoscope
+[2024-05-08 04:08:50] INFO root fetch - processPackages [cnmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnmf-1.4.1.tar.gz tmp/cnmf-1.5.0.tar.gz --markdown 20240508/c/cnmf/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-08 04:08:50] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-05-08 04:08:50] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev7.tar.gz tmp/launchflow-0.3.9.dev8.tar.gz --markdown 20240508/l/launchflow/0.3.9.dev7-0.3.9.dev8/README.md --exclude *.pyd
+[2024-05-08 04:08:50] INFO root fetch - processPackages [pytest-helm-templates]: executing diffoscope
+[2024-05-08 04:08:50] INFO root fetch - processPackages [pytest-helm-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_helm_templates-0.0.1a6.tar.gz tmp/pytest_helm_templates-0.0.1a7.tar.gz --markdown 20240508/p/pytest-helm-templates/0.0.1a6-0.0.1a7/README.md --exclude *.pyd
+[2024-05-08 04:08:51] INFO root fetch - processPackages [tradingview-indicators]: Downloading https://files.pythonhosted.org/packages/ce/f6/53647829fb507edc1f76dd4da20c208c38470f566bcb8dccbdcb4930b87a/tradingview_indicators-0.3.7.1.tar.gz
+[2024-05-08 04:08:51] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/09/b6/20dd4daa42681f6c0dedd72ea3f1239b5e4e8d7b45a8738311288d0800a6/mountaineer-0.5.0.dev4.tar.gz
+[2024-05-08 04:08:51] INFO root fetch - processPackages [tradingview-indicators]: executing diffoscope
+[2024-05-08 04:08:51] INFO root fetch - processPackages [tradingview-indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingview_indicators-0.3.7.tar.gz tmp/tradingview_indicators-0.3.7.1.tar.gz --markdown 20240508/t/tradingview-indicators/0.3.7-0.3.7.1/README.md --exclude *.pyd
+[2024-05-08 04:08:51] INFO root fetch - processPackages [skerch]: Downloading https://files.pythonhosted.org/packages/7f/a8/9a09f896c4904ac4a9e25b034c8138a9754000fd9772a47c4e474a8629f9/skerch-0.7.0.tar.gz
+[2024-05-08 04:08:51] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.4.1.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.5.0.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - main [MainThread]: End processing [cnmf]: success
+[2024-05-08 04:08:51] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest_helm_templates-0.0.1a6.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - processPackages [pytest-helm-templates]: Remove: archive file [/home/abi/fetcher/tmp/pytest_helm_templates-0.0.1a7.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - main [MainThread]: End processing [pytest-helm-templates]: success
+[2024-05-08 04:08:51] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev7.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev8.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-05-08 04:08:51] INFO root fetch - processPackages [skerch]: executing diffoscope
+[2024-05-08 04:08:51] INFO root fetch - processPackages [skerch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skerch-0.6.1.tar.gz tmp/skerch-0.7.0.tar.gz --markdown 20240508/s/skerch/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-08 04:08:51] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - processPackages [tradingview-indicators]: Remove: archive file [/home/abi/fetcher/tmp/tradingview_indicators-0.3.7.1.tar.gz]
+[2024-05-08 04:08:51] INFO root fetch - main [MainThread]: End processing [tradingview-indicators]: success
+[2024-05-08 04:08:51] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-05-08 04:08:51] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.5.0.dev3.tar.gz tmp/mountaineer-0.5.0.dev4.tar.gz --markdown 20240508/m/mountaineer/0.5.0.dev3-0.5.0.dev4/README.md --exclude *.pyd
+[2024-05-08 04:08:52] INFO root fetch - processPackages [skerch]: Remove: archive file [/home/abi/fetcher/tmp/skerch-0.6.1.tar.gz]
+[2024-05-08 04:08:52] INFO root fetch - processPackages [skerch]: Remove: archive file [/home/abi/fetcher/tmp/skerch-0.7.0.tar.gz]
+[2024-05-08 04:08:52] INFO root fetch - main [MainThread]: End processing [skerch]: success
+[2024-05-08 04:08:53] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev3.tar.gz]
+[2024-05-08 04:08:53] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev4.tar.gz]
+[2024-05-08 04:08:53] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-05-08 04:08:53] INFO root fetch - main [MainThread]: Store serial: [23107453]
