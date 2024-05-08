@@ -15089,3 +15089,99 @@
 [2024-05-08 10:29:05] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
 [2024-05-08 10:29:05] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2024-05-08 10:29:05] INFO root fetch - main [MainThread]: Store serial: [23110542]
+[2024-05-08 10:31:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110542]
+[2024-05-08 10:31:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenMine
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manhelp
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grasp_planning
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: delphai-fastapi
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsp-tools
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pldag
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tool-mapi
+[2024-05-08 10:31:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deker-local-adapters
+[2024-05-08 10:31:15] INFO root fetch - processPackages [grasp_planning]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-08 10:31:15] WARNING root fetch - processPackages [manhelp]: Skipping, unable to determine old version
+[2024-05-08 10:31:15] INFO root fetch - processPackages [manhelp]: Start processing: RFL.authentication
+[2024-05-08 10:31:15] INFO root fetch - processPackages [pldag]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-08 10:31:15] INFO root fetch - main [MainThread]: End processing [manhelp] error
+[2024-05-08 10:31:15] INFO root fetch - processPackages [dsp-tools]: New version: [7.2.0] Old Version: [7.1.3.post9]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240507160031] Old Version: [3.4.1.dev20240507152018]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [delphai-fastapi]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [GenMine]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/21/8d/1543e9bb0969995940a8234523684bfd741e1d1a9993dbd7b54cfe67b11f/grasp_planning-0.3.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [tool-mapi]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [deker-local-adapters]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d6/26/8247ac65ad1ecadbb398377f2c7abbd2109971322051d1187e59cdb8d7de/pldag-0.7.8.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [RFL.authentication]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:31:15] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/70/ba/aef844aa05f6dc8bc1a872bcb30dd2dbca710f1d7513c2193a89d9ec38db/localstack_core-3.4.1.dev20240507152018.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/0c/54/ffec597219d99424f5881f7fcd8bb883d73f8d8d95e008b656f14e02f951/dsp_tools-7.1.3.post9.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [deker-local-adapters]: Downloading https://files.pythonhosted.org/packages/90/a9/5c1d07973cb30a7f6215e5cff31a002c31e35dc4f4619e82c373a02aaa6c/deker_local_adapters-1.1.0.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/56/f0/2ca458a8a5d488be33085039a0897098be84f2707dd4411692d1c5494b1e/delphai_fastapi-3.0.2.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/a9/03/89fb5662af37ceac9410011497a10e71585d4a052f0fd7312b25901eeb4f/GenMine-1.0.8.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [tool-mapi]: Downloading https://files.pythonhosted.org/packages/d0/82/5189dbb13721e83a2bd8b9b1d137694b46b5cdcfb1480477f2136182099d/tool_mapi-4.0.0.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [RFL.authentication]: Downloading https://files.pythonhosted.org/packages/d3/ce/04a3f78fceb3d743ef9272edba26f01c35070ec953fe852e9df48ce7d85b/RFL.authentication-1.0.0.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/35/23/05567b736b0f553ce43dfcf837ddb25889b9d84a58726b8967c3463744f2/grasp_planning-0.3.1.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/86/aa/629c24d4c01db48698987686441d897097c15bc5c3b4796e6453531f1fb9/pldag-0.7.9.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-08 10:31:15] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.3.tar.gz tmp/grasp_planning-0.3.1.tar.gz --markdown 20240508/g/grasp_planning/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-08 10:31:15] INFO root fetch - processPackages [deker-local-adapters]: Downloading https://files.pythonhosted.org/packages/27/f6/af3406ecdd3a60039d0cb625658ffef816b236108973ea2ed0995f637202/deker_local_adapters-1.1.1.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/8d/7f/233f9cdac0f5cc815f48534c198e9bc224b5ec363958d99c0ec24d8a0db0/dsp_tools-7.2.0.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [GenMine]: Downloading https://files.pythonhosted.org/packages/ef/98/46ffb723f91ea4c410b10100980c262c32b879dc4971f36d84b28d0b492c/GenMine-1.0.9.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [tool-mapi]: Downloading https://files.pythonhosted.org/packages/a0/7c/011d50d59c2a5987a471c9aa6a8466fc977bdf59e5f30879ef022b88c0dd/tool_mapi-5.0.0.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-08 10:31:15] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.7.8.tar.gz tmp/pldag-0.7.9.tar.gz --markdown 20240508/p/pldag/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-08 10:31:15] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/e4/b6/49dafa607c794b0ac34dcd755a8c18300ae71761d986ba6eb87f425ac545/delphai_fastapi-3.0.3.tar.gz
+[2024-05-08 10:31:15] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/f0/3f4bc5c26f9f82674bc1683a989e2170e7cbbf1df7f1177e3e2aca02a990/localstack_core-3.4.1.dev20240507160031.tar.gz
+[2024-05-08 10:31:16] INFO root fetch - processPackages [deker-local-adapters]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [deker-local-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deker_local_adapters-1.1.0.tar.gz tmp/deker_local_adapters-1.1.1.tar.gz --markdown 20240508/d/deker-local-adapters/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [RFL.authentication]: Downloading https://files.pythonhosted.org/packages/7d/f1/207756ebf4d1bccf1f656cadcbcc6fa26f802eadb1bdfdde13f2089277be/rfl_authentication-1.0.1.tar.gz
+[2024-05-08 10:31:16] INFO root fetch - processPackages [tool-mapi]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [tool-mapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_mapi-4.0.0.tar.gz tmp/tool_mapi-5.0.0.tar.gz --markdown 20240508/t/tool-mapi/4.0.0-5.0.0/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240508/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.3.post9.tar.gz tmp/dsp_tools-7.2.0.tar.gz --markdown 20240508/d/dsp-tools/7.1.3.post9-7.2.0/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-3.0.2.tar.gz tmp/delphai_fastapi-3.0.3.tar.gz --markdown 20240508/d/delphai-fastapi/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [GenMine]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [GenMine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenMine-1.0.8.tar.gz tmp/GenMine-1.0.9.tar.gz --markdown 20240508/G/GenMine/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [RFL.authentication]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [RFL.authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RFL.authentication-1.0.0.tar.gz tmp/rfl_authentication-1.0.1.tar.gz --markdown 20240508/R/RFL.authentication/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-08 10:31:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240507152018.tar.gz tmp/localstack_core-3.4.1.dev20240507160031.tar.gz --markdown 20240508/l/localstack-core/3.4.1.dev20240507152018-3.4.1.dev20240507160031/README.md --exclude *.pyd
+[2024-05-08 10:31:16] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.tar.gz]
+[2024-05-08 10:31:16] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.1.tar.gz]
+[2024-05-08 10:31:16] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.8.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.7.9.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [deker-local-adapters]: Remove: archive file [/home/abi/fetcher/tmp/deker_local_adapters-1.1.0.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [deker-local-adapters]: Remove: archive file [/home/abi/fetcher/tmp/deker_local_adapters-1.1.1.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [deker-local-adapters]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [GenMine]: Remove: archive file [/home/abi/fetcher/tmp/GenMine-1.0.8.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [GenMine]: Remove: archive file [/home/abi/fetcher/tmp/GenMine-1.0.9.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [GenMine]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [RFL.authentication]: Remove: archive file [/home/abi/fetcher/tmp/RFL.authentication-1.0.0.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [RFL.authentication]: Remove: archive file [/home/abi/fetcher/tmp/rfl_authentication-1.0.1.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [RFL.authentication]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [tool-mapi]: Remove: archive file [/home/abi/fetcher/tmp/tool_mapi-4.0.0.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [tool-mapi]: Remove: archive file [/home/abi/fetcher/tmp/tool_mapi-5.0.0.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [tool-mapi]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.2.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.3.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-08 10:31:17] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post9.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.tar.gz]
+[2024-05-08 10:31:17] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-05-08 10:31:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507152018.tar.gz]
+[2024-05-08 10:31:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240507160031.tar.gz]
+[2024-05-08 10:31:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-08 10:31:20] INFO root fetch - main [MainThread]: Store serial: [23110572]
