@@ -10040,3 +10040,42 @@
 [2024-05-08 05:50:03] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
 [2024-05-08 05:50:03] INFO root fetch - main [MainThread]: End processing [bambooai]: success
 [2024-05-08 05:50:03] INFO root fetch - main [MainThread]: Store serial: [23108116]
+[2024-05-08 05:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108116]
+[2024-05-08 05:52:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sindapi
+[2024-05-08 05:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-toolkit
+[2024-05-08 05:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-llms-anyscale
+[2024-05-08 05:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apollo-ai
+[2024-05-08 05:52:12] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 05:52:12] INFO root fetch - processPackages [sindapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:52:12] INFO root fetch - processPackages [llama-index-llms-anyscale]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 05:52:12] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/a3/64/9be9eae342d536ab1b036d4a2f1c1e5f96a0572ca5355387627d208ab1d1/sindapi-0.0.8.tar.gz
+[2024-05-08 05:52:12] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 05:52:12] INFO root fetch - processPackages [apollo-ai]: New version: [0.0.47] Old Version: [0.0.46]
+[2024-05-08 05:52:12] INFO root fetch - processPackages [llama-index-llms-anyscale]: Downloading https://files.pythonhosted.org/packages/f3/ac/9d0f42d86e694d65a3634cb9266f52078a12747fcedfd1acb64109276479/llama_index_llms_anyscale-0.1.2.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/7d/a7/a389d78c747399fa425e39d89ba9fa6d384de97b624ca2e380160a06716f/sindapi-0.0.9.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [apollo-ai]: Downloading https://files.pythonhosted.org/packages/81/ae/42144292368f79b09208c753cddc8d780850ce631cc58979ed01ce53cc96/apollo-ai-0.0.46.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [sindapi]: executing diffoscope
+[2024-05-08 05:52:13] INFO root fetch - processPackages [sindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sindapi-0.0.8.tar.gz tmp/sindapi-0.0.9.tar.gz --markdown 20240508/s/sindapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:52:13] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 05:52:13] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 05:52:13] INFO root fetch - processPackages [llama-index-llms-anyscale]: Downloading https://files.pythonhosted.org/packages/57/39/b35df56fe658460ff62a4fe464fa231447a59ea4197dd9e5a52ec55492e3/llama_index_llms_anyscale-0.1.3.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [apollo-ai]: Downloading https://files.pythonhosted.org/packages/ca/72/0a5b0433cef5e42e15683cfc3d14977d9abe706867632c74807043223e73/apollo-ai-0.0.47.tar.gz
+[2024-05-08 05:52:13] INFO root fetch - processPackages [llama-index-llms-anyscale]: executing diffoscope
+[2024-05-08 05:52:13] INFO root fetch - processPackages [llama-index-llms-anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_anyscale-0.1.2.tar.gz tmp/llama_index_llms_anyscale-0.1.3.tar.gz --markdown 20240508/l/llama-index-llms-anyscale/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 05:52:13] INFO root fetch - processPackages [apollo-ai]: executing diffoscope
+[2024-05-08 05:52:13] INFO root fetch - processPackages [apollo-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-ai-0.0.46.tar.gz tmp/apollo-ai-0.0.47.tar.gz --markdown 20240508/a/apollo-ai/0.0.46-0.0.47/README.md --exclude *.pyd
+[2024-05-08 05:52:13] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 05:52:13] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 05:52:13] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 05:52:13] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.8.tar.gz]
+[2024-05-08 05:52:13] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.9.tar.gz]
+[2024-05-08 05:52:13] INFO root fetch - main [MainThread]: End processing [sindapi]: success
+[2024-05-08 05:52:14] INFO root fetch - processPackages [llama-index-llms-anyscale]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_anyscale-0.1.2.tar.gz]
+[2024-05-08 05:52:14] INFO root fetch - processPackages [llama-index-llms-anyscale]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_anyscale-0.1.3.tar.gz]
+[2024-05-08 05:52:14] INFO root fetch - main [MainThread]: End processing [llama-index-llms-anyscale]: success
+[2024-05-08 05:52:14] INFO root fetch - processPackages [apollo-ai]: Remove: archive file [/home/abi/fetcher/tmp/apollo-ai-0.0.46.tar.gz]
+[2024-05-08 05:52:14] INFO root fetch - processPackages [apollo-ai]: Remove: archive file [/home/abi/fetcher/tmp/apollo-ai-0.0.47.tar.gz]
+[2024-05-08 05:52:14] INFO root fetch - main [MainThread]: End processing [apollo-ai]: success
+[2024-05-08 05:52:14] INFO root fetch - main [MainThread]: Store serial: [23108126]
