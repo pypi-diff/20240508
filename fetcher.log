@@ -14868,3 +14868,63 @@
 [2024-05-08 10:22:27] INFO root fetch - processPackages [scoringrules]: Remove: archive file [/home/abi/fetcher/tmp/scoringrules-0.5.0.tar.gz]
 [2024-05-08 10:22:28] INFO root fetch - main [MainThread]: End processing [scoringrules]: success
 [2024-05-08 10:22:28] INFO root fetch - main [MainThread]: Store serial: [23110428]
+[2024-05-08 10:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110428]
+[2024-05-08 10:24:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneople
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selenium-authenticated-proxy
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpflib
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-transform-core-python
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phenomApis
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-transform-core-python
+[2024-05-08 10:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amos-api
+[2024-05-08 10:24:37] INFO root fetch - processPackages [amos-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [pyneople]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: New version: [1.7.0.dev1715156650] Old Version: [1.7.0.dev1715156646]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: New version: [1.7.0.dev1715156650] Old Version: [1.7.0.dev1715156646]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [selenium-authenticated-proxy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 10:24:37] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/56/93/d1f5688cdcd48e37f42261465941a41ba9ab360699269bd028ed10bf8684/pyneople-0.3.1.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/88/8d/7ca7e5276f4f263d4339efc43cf2c30ea80ad73e6a9b22218c4a871de4f5/amos_api-1.0.2.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/6d/30/38e7690d0149582e234a5ea3f6d887f566dd5d777aefd6eb7280210d0353/selenium_authenticated_proxy-1.1.0-py3-none-any.whl
+[2024-05-08 10:24:37] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-08 10:24:37] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/df/51/85150ba01114b9d2a1854e69a81ce2647233c5401691a149980a2972be4c/aissemble_foundation_transform_core_python-1.7.0.dev1715156646.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/df/51/85150ba01114b9d2a1854e69a81ce2647233c5401691a149980a2972be4c/aissemble_foundation_transform_core_python-1.7.0.dev1715156646.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/b2/9f/1bacd436a3f008d3f4a8c452a38d31db99482b1d3bb2de7b8fff1afe40a0/pyneople-0.3.2.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/78/1f/0fa072d880dda0277889d895140f34f018c8741ef167f991d6de5bf0cb88/amos_api-1.0.3.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/82/2e/7c59b06c1a3aa4cc7b45bc84a620b50574bdc50eafec3dd762e72b0977b7/selenium_authenticated_proxy-1.1.1-py3-none-any.whl
+[2024-05-08 10:24:37] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:24:37] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.1.tar.gz tmp/pyneople-0.3.2.tar.gz --markdown 20240508/p/pyneople/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-08 10:24:37] INFO root fetch - processPackages [amos-api]: executing diffoscope
+[2024-05-08 10:24:37] INFO root fetch - processPackages [amos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amos_api-1.0.2.tar.gz tmp/amos_api-1.0.3.tar.gz --markdown 20240508/a/amos-api/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-08 10:24:37] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 10:24:37] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:24:37] INFO root fetch - processPackages [selenium-authenticated-proxy]: executing diffoscope
+[2024-05-08 10:24:37] INFO root fetch - processPackages [selenium-authenticated-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip tmp/selenium_authenticated_proxy-1.1.1-py3-none-any.whl.zip --markdown 20240508/s/selenium-authenticated-proxy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/d4/46/e5f7c542e8f304ab1eb96557b362ff467f3ee0de5279c5fc03e86d29d448/aissemble_foundation_transform_core_python-1.7.0.dev1715156650.tar.gz
+[2024-05-08 10:24:37] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Downloading https://files.pythonhosted.org/packages/d4/46/e5f7c542e8f304ab1eb96557b362ff467f3ee0de5279c5fc03e86d29d448/aissemble_foundation_transform_core_python-1.7.0.dev1715156650.tar.gz
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: executing diffoscope
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: executing diffoscope
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156646.tar.gz tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156650.tar.gz --markdown 20240508/a/aissemble-foundation-transform-core-python/1.7.0.dev1715156646-1.7.0.dev1715156650/README.md --exclude *.pyd
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156646.tar.gz tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156650.tar.gz --markdown 20240508/a/aissemble-foundation-transform-core-python/1.7.0.dev1715156646-1.7.0.dev1715156650/README.md --exclude *.pyd
+[2024-05-08 10:24:38] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.1.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.2.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:24:38] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.2.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.3.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - main [MainThread]: End processing [amos-api]: success
+[2024-05-08 10:24:38] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip]
+[2024-05-08 10:24:38] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.1.1-py3-none-any.whl.zip]
+[2024-05-08 10:24:38] INFO root fetch - main [MainThread]: End processing [selenium-authenticated-proxy]: success
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156646.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - processPackages [aissemble-foundation-transform-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_transform_core_python-1.7.0.dev1715156650.tar.gz]
+[2024-05-08 10:24:38] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-transform-core-python]: success
+[2024-05-08 10:24:38] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-transform-core-python]: success
+[2024-05-08 10:24:39] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 10:24:39] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 10:24:39] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 10:24:39] INFO root fetch - main [MainThread]: Store serial: [23110449]
