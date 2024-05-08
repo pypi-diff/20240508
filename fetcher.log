@@ -16527,3 +16527,75 @@
 [2024-05-08 11:10:05] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
 [2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
 [2024-05-08 11:10:05] INFO root fetch - main [MainThread]: Store serial: [23111105]
+[2024-05-08 11:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111105]
+[2024-05-08 11:12:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mistralrs
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: destinelab
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistralrs-accelerate
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistralrs-cuda
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mistralrs-metal
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistralrs-mkl
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenium-authenticated-proxy
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bombcell
+[2024-05-08 11:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-08 11:12:14] INFO root fetch - processPackages [selenium-authenticated-proxy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 11:12:14] WARNING root fetch - processPackages [destinelab]: Skipping, unable to determine old version
+[2024-05-08 11:12:14] INFO root fetch - main [MainThread]: End processing [destinelab] error
+[2024-05-08 11:12:14] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/6d/30/38e7690d0149582e234a5ea3f6d887f566dd5d777aefd6eb7280210d0353/selenium_authenticated_proxy-1.1.0-py3-none-any.whl
+[2024-05-08 11:12:14] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 11:12:14] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 11:12:14] WARNING root fetch - processPackages [bombcell]: Skipping, unable to determine old version
+[2024-05-08 11:12:14] INFO root fetch - main [MainThread]: End processing [bombcell] error
+[2024-05-08 11:12:14] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 11:12:14] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1715159505] Old Version: [1.7.0.dev1714772934]
+[2024-05-08 11:12:14] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 11:12:14] INFO root fetch - processPackages [mistralrs]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/86/16/df9ba380414415265be73dd5c920a651149b7ee703e19bbedb7572670cb7/mistralrs_metal-0.1.3.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/b6/0f/bd0b08c5ca021c9bf91f84181ef8760ac024fb00e7e32ee9c7533f537f58/mistralrs_mkl-0.1.3.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/01/f2/624f8e634b090831d54646abe1333802c9f01e02aec2ace0efc1ae9df88a/mistralrs_accelerate-0.1.3.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/d3/91/439732f132881c7f57c1c260c0142a3a34364681e1535377301659acc28f/mistralrs_cuda-0.1.3.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/5f/a3/452f5135862b46eb0925677cfe37380022786d981f440efb2c210a7fa068/mistralrs-0.1.3.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/b6/7a/0ed190a82687f164d8f388d448fb2603bd5d4908b415e797db78330c9fc4/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [selenium-authenticated-proxy]: Downloading https://files.pythonhosted.org/packages/82/2e/7c59b06c1a3aa4cc7b45bc84a620b50574bdc50eafec3dd762e72b0977b7/selenium_authenticated_proxy-1.1.1-py3-none-any.whl
+[2024-05-08 11:12:15] INFO root fetch - processPackages [selenium-authenticated-proxy]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [selenium-authenticated-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip tmp/selenium_authenticated_proxy-1.1.1-py3-none-any.whl.zip --markdown 20240508/s/selenium-authenticated-proxy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/9f/9b/cdbb1bbdcca146c541dc568925ff9772072453983ab03e4e6a9a12235a9f/mistralrs_accelerate-0.1.4.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/f5/4e/05ae3ade47a1ff2e80e0fac728c2d2b571125afd5a1b7d65459a7a4cff74/mistralrs_metal-0.1.4.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/b8/a1/4ff931d35ad078ba9121424657730c1988e750b5f5111ab1df84b39d37d5/mistralrs_cuda-0.1.4.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/bd/aa/02d130f333d93d1dd99602bd8c1ab0ef352851ed4187e80b5e76851de6df/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/9b/72/11e51d98d997723848d7fc9e4073c88f450f83bb626c18154f4d57c45320/mistralrs-0.1.4.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/74/c2/fb9eab5092904a74aa5c613679078b669f3681cffef1e234db75108e7009/mistralrs_mkl-0.1.4.tar.gz
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.3.tar.gz tmp/mistralrs_accelerate-0.1.4.tar.gz --markdown 20240508/m/mistralrs-accelerate/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz --markdown 20240508/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714772934-1.7.0.dev1715159505/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.3.tar.gz tmp/mistralrs_metal-0.1.4.tar.gz --markdown 20240508/m/mistralrs-metal/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.3.tar.gz tmp/mistralrs-0.1.4.tar.gz --markdown 20240508/m/mistralrs/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.3.tar.gz tmp/mistralrs_cuda-0.1.4.tar.gz --markdown 20240508/m/mistralrs-cuda/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-05-08 11:12:15] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.3.tar.gz tmp/mistralrs_mkl-0.1.4.tar.gz --markdown 20240508/m/mistralrs-mkl/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 11:12:16] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.1.0-py3-none-any.whl.zip]
+[2024-05-08 11:12:16] INFO root fetch - processPackages [selenium-authenticated-proxy]: Remove: archive file [/home/abi/fetcher/tmp/selenium_authenticated_proxy-1.1.1-py3-none-any.whl.zip]
+[2024-05-08 11:12:16] INFO root fetch - main [MainThread]: End processing [selenium-authenticated-proxy]: success
+[2024-05-08 11:12:16] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz]
+[2024-05-08 11:12:16] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz]
+[2024-05-08 11:12:16] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.3.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.4.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.3.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.4.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.3.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.4.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.3.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.4.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.3.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.4.tar.gz]
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-08 11:12:17] INFO root fetch - main [MainThread]: Store serial: [23111132]
