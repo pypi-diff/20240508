@@ -10386,3 +10386,24 @@
 [2024-05-08 06:16:05] INFO root fetch - processPackages [mdhelper]: Remove: archive file [/home/abi/fetcher/tmp/mdhelper-1.0.0.tar.gz]
 [2024-05-08 06:16:05] INFO root fetch - main [MainThread]: End processing [mdhelper]: success
 [2024-05-08 06:16:05] INFO root fetch - main [MainThread]: Store serial: [23108203]
+[2024-05-08 06:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108203]
+[2024-05-08 06:18:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gocodeo
+[2024-05-08 06:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goldlink-client-python
+[2024-05-08 06:18:14] INFO root fetch - processPackages [goldlink-client-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 06:18:14] INFO root fetch - processPackages [gocodeo]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2024-05-08 06:18:15] INFO root fetch - processPackages [goldlink-client-python]: Downloading https://files.pythonhosted.org/packages/0c/68/a6b9119ceeb88e6583b89f9abe3f0c48a72fb94f42274da16cf6a25a3cd5/goldlink_client_python-0.0.2-py3-none-any.whl
+[2024-05-08 06:18:15] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/58/fe/59f55c4817be0ad865d7de440745ab36f969ae9d0e9d70a26a3729ad1214/gocodeo-0.0.9.1.tar.gz
+[2024-05-08 06:18:15] INFO root fetch - processPackages [gocodeo]: Downloading https://files.pythonhosted.org/packages/90/82/98bc6e0072c3649de6a72274bf2f6fb0787f9023e7444cbb6d040a464cbd/gocodeo-0.0.9.2.tar.gz
+[2024-05-08 06:18:15] INFO root fetch - processPackages [goldlink-client-python]: Downloading https://files.pythonhosted.org/packages/4b/30/1ffab87b917147afad475ffa096ff62477b69002a87698e58229576605bf/goldlink_client_python-0.0.3-py3-none-any.whl
+[2024-05-08 06:18:15] INFO root fetch - processPackages [gocodeo]: executing diffoscope
+[2024-05-08 06:18:15] INFO root fetch - processPackages [gocodeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gocodeo-0.0.9.1.tar.gz tmp/gocodeo-0.0.9.2.tar.gz --markdown 20240508/g/gocodeo/0.0.9.1-0.0.9.2/README.md --exclude *.pyd
+[2024-05-08 06:18:15] INFO root fetch - processPackages [goldlink-client-python]: executing diffoscope
+[2024-05-08 06:18:15] INFO root fetch - processPackages [goldlink-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldlink_client_python-0.0.2-py3-none-any.whl.zip tmp/goldlink_client_python-0.0.3-py3-none-any.whl.zip --markdown 20240508/g/goldlink-client-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 06:18:16] INFO root fetch - processPackages [goldlink-client-python]: Remove: archive file [/home/abi/fetcher/tmp/goldlink_client_python-0.0.2-py3-none-any.whl.zip]
+[2024-05-08 06:18:16] INFO root fetch - processPackages [goldlink-client-python]: Remove: archive file [/home/abi/fetcher/tmp/goldlink_client_python-0.0.3-py3-none-any.whl.zip]
+[2024-05-08 06:18:16] INFO root fetch - main [MainThread]: End processing [goldlink-client-python]: success
+[2024-05-08 06:18:16] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.1.tar.gz]
+[2024-05-08 06:18:16] INFO root fetch - processPackages [gocodeo]: Remove: archive file [/home/abi/fetcher/tmp/gocodeo-0.0.9.2.tar.gz]
+[2024-05-08 06:18:16] INFO root fetch - main [MainThread]: End processing [gocodeo]: success
+[2024-05-08 06:18:16] INFO root fetch - main [MainThread]: Store serial: [23108208]
