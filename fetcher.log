@@ -8834,3 +8834,24 @@
 [2024-05-08 04:52:56] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.2.tar.gz]
 [2024-05-08 04:52:56] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
 [2024-05-08 04:52:56] INFO root fetch - main [MainThread]: Store serial: [23107735]
+[2024-05-08 04:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107735]
+[2024-05-08 04:55:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 04:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iotest-grader
+[2024-05-08 04:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-fixed-discount
+[2024-05-08 04:55:04] INFO root fetch - processPackages [iotest-grader]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 04:55:04] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/53/78/fc9ed086081d7a6f9b491fecb9b7affc05e46cb0fe499fed67e317738c1f/iotest_grader-0.0.2.tar.gz
+[2024-05-08 04:55:04] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.9]
+[2024-05-08 04:55:04] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/52/d1/ff27a2746807c03dcbedb60063cc12763298f7e0ceffb82ef3b6ebc8fe81/iotest_grader-0.0.3.tar.gz
+[2024-05-08 04:55:04] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/1d/0b/d65861769ef09f81c1d2604c5ea756749e5e44085320be119e4430cfe010/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.9-py3-none-any.whl
+[2024-05-08 04:55:04] INFO root fetch - processPackages [iotest-grader]: executing diffoscope
+[2024-05-08 04:55:04] INFO root fetch - processPackages [iotest-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotest_grader-0.0.2.tar.gz tmp/iotest_grader-0.0.3.tar.gz --markdown 20240508/i/iotest-grader/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/5e/22/3e6e878bca332c9d79f031e1ff23da96df4013114f928e7f6e787b0ef8b5/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl
+[2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: executing diffoscope
+[2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-account-invoice-fixed-discount/17.0.1.0.0.9-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-08 04:55:05] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.2.tar.gz]
+[2024-05-08 04:55:05] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.3.tar.gz]
+[2024-05-08 04:55:05] INFO root fetch - main [MainThread]: End processing [iotest-grader]: success
+[2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-08 04:55:05] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 04:55:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
+[2024-05-08 04:55:05] INFO root fetch - main [MainThread]: Store serial: [23107740]
