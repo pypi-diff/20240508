@@ -7647,3 +7647,33 @@
 [2024-05-08 03:40:44] INFO root fetch - processPackages [xbotext]: Remove: archive file [/home/abi/fetcher/tmp/xbotext-0.1.4.tar.gz]
 [2024-05-08 03:40:44] INFO root fetch - main [MainThread]: End processing [xbotext]: success
 [2024-05-08 03:40:44] INFO root fetch - main [MainThread]: Store serial: [23107289]
+[2024-05-08 03:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107289]
+[2024-05-08 03:42:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 03:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circuitree
+[2024-05-08 03:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firstrade
+[2024-05-08 03:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heiwa4126.hello
+[2024-05-08 03:42:53] INFO root fetch - processPackages [circuitree]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 03:42:53] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2f/0d/b840d59066197229e3006500d03aa67ed4e12e719671d62e8423662f3bf0/circuitree-0.9.8.tar.gz
+[2024-05-08 03:42:53] INFO root fetch - processPackages [firstrade]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 03:42:53] INFO root fetch - processPackages [heiwa4126.hello]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 03:42:53] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/8c/5c/25af40ce22d5230154519a92010aecbe4b68c8b3810c9fe76d817439304d/circuitree-0.9.9.tar.gz
+[2024-05-08 03:42:53] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/71/3e/538756e5388b7f5c209b60aebd96a105c242924aa72be027ff082fe236aa/firstrade-0.0.8.tar.gz
+[2024-05-08 03:42:53] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/2d/6b/945e293e6cda2f31792ae4cebd321e87c119e7f9518ea7fd7e9a80893312/heiwa4126_hello-0.0.7.tar.gz
+[2024-05-08 03:42:53] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2024-05-08 03:42:53] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.9.8.tar.gz tmp/circuitree-0.9.9.tar.gz --markdown 20240508/c/circuitree/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 03:42:54] INFO root fetch - processPackages [heiwa4126.hello]: Downloading https://files.pythonhosted.org/packages/06/dd/b369a12bf74757160ce7b5ef4ff2673b108a7c31ef61c6366ec533bfcbb4/heiwa4126_hello-0.0.8.tar.gz
+[2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/26/46/8fbfa77e65e290a06b29caaa151d5d19eaf2060f9023a57d093852cedc29/firstrade-0.0.9.tar.gz
+[2024-05-08 03:42:54] INFO root fetch - processPackages [heiwa4126.hello]: executing diffoscope
+[2024-05-08 03:42:54] INFO root fetch - processPackages [heiwa4126.hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heiwa4126_hello-0.0.7.tar.gz tmp/heiwa4126_hello-0.0.8.tar.gz --markdown 20240508/h/heiwa4126.hello/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: executing diffoscope
+[2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firstrade-0.0.8.tar.gz tmp/firstrade-0.0.9.tar.gz --markdown 20240508/f/firstrade/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 03:42:54] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.8.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.9.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2024-05-08 03:42:54] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.7.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - processPackages [heiwa4126.hello]: Remove: archive file [/home/abi/fetcher/tmp/heiwa4126_hello-0.0.8.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - main [MainThread]: End processing [heiwa4126.hello]: success
+[2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.8.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.9.tar.gz]
+[2024-05-08 03:42:54] INFO root fetch - main [MainThread]: End processing [firstrade]: success
+[2024-05-08 03:42:54] INFO root fetch - main [MainThread]: Store serial: [23107295]
