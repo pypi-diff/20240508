@@ -21382,3 +21382,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:12:11] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.9.2.tar.gz]
 [2024-05-08 14:12:11] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
 [2024-05-08 14:12:11] INFO root fetch - main [MainThread]: Store serial: [23113046]
+[2024-05-08 14:14:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113046]
+[2024-05-08 14:14:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aibridge-test
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: besser-bot-framework
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resc-backend
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discordautochat
+[2024-05-08 14:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skilleter-thingy
+[2024-05-08 14:14:21] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240508.359] Old Version: [2.0.0.20240507.417]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [discordautochat]: New version: [1.4] Old Version: [1.3]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [resc-backend]: New version: [4.0.0] Old Version: [3.1.1]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [besser-bot-framework]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-08 14:14:21] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/56/da/1f745be0b2c5b36f77eafa7fd8b68d5ea0e72766c852bdcbbe6a457d9cbf/aibridge_test-0.3.4.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/0d/f5/df120a85e956a38d7a6ada24ac9c0b96943b8ec2d377a74690b83b05783d/mct-nightly-2.0.0.20240507.417.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [discordautochat]: Downloading https://files.pythonhosted.org/packages/1f/56/898158f27a93683e48fe131161eb6007c80938d3a05e205ea1cc0876b575/discordautochat-1.3-py3-none-any.whl
+[2024-05-08 14:14:21] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/9f/8c/853dc8166af4ca833edf830ab2d0610a79cef72c67d0f3b76cccf1f25ed0/resc_backend-3.1.1.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/80/72/eeecbe3eecf04b49502f712c913efaf00b8749d8955d7f870526f8d77d01/besser_bot_framework-1.2.0.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/30/1e/cec86087ed5581d5fbdcf69903b8810dcfbfaf3decd8331ebb28fd3d77e4/skilleter_thingy-0.0.28.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/dc/30/ee8bcbcf177d305838f3b9afe36571a079952b5a71522d7695689f495c5e/aibridge_test-0.3.5.tar.gz
+[2024-05-08 14:14:21] INFO root fetch - processPackages [discordautochat]: Downloading https://files.pythonhosted.org/packages/86/ca/7c7d273e494f954630367b000fc228f75af256472524be2c115ccba54478/discordautochat-1.4.tar.gz
+[2024-05-08 14:14:22] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/14/1e/6e1264e90a1095c8de72b810c6a6e519b36ac221b65789a7b664ba638e08/resc_backend-4.0.0.tar.gz
+[2024-05-08 14:14:22] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b7/cf/92a352affb6b2c1171e047f665ea3f43d762ef2b5e4b66c09e1fbc72ff3e/mct-nightly-2.0.0.20240508.359.tar.gz
+[2024-05-08 14:14:22] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/f5/35/2c844ac569ca2944ca48449880099e2f053b5ccfa0c5d7609d5644f67fc0/besser_bot_framework-1.2.1.tar.gz
+[2024-05-08 14:14:22] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/47/52/7ff245f08d3591b42ead50543d5a7166e90d56a0dd6ff81f6b8d4c61f037/skilleter_thingy-0.0.29.tar.gz
+[2024-05-08 14:14:22] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.4.tar.gz tmp/aibridge_test-0.3.5.tar.gz --markdown 20240508/a/aibridge-test/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-08 14:14:22] INFO root fetch - processPackages [discordautochat]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [discordautochat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordautochat-1.3-py3-none-any.whl.zip tmp/discordautochat-1.4.tar.gz --markdown 20240508/d/discordautochat/1.3-1.4/README.md --exclude *.pyd
+[2024-05-08 14:14:22] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.1.1.tar.gz tmp/resc_backend-4.0.0.tar.gz --markdown 20240508/r/resc-backend/3.1.1-4.0.0/README.md --exclude *.pyd
+[2024-05-08 14:14:22] INFO root fetch - processPackages [besser-bot-framework]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [besser-bot-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besser_bot_framework-1.2.0.tar.gz tmp/besser_bot_framework-1.2.1.tar.gz --markdown 20240508/b/besser-bot-framework/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-08 14:14:22] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240507.417.tar.gz tmp/mct-nightly-2.0.0.20240508.359.tar.gz --markdown 20240508/m/mct-nightly/2.0.0.20240507.417-2.0.0.20240508.359/README.md --exclude *.pyd
+[2024-05-08 14:14:22] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:14:22] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.28.tar.gz tmp/skilleter_thingy-0.0.29.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-05-08 14:14:23] INFO root fetch - processPackages [discordautochat]: Remove: archive file [/home/abi/fetcher/tmp/discordautochat-1.3-py3-none-any.whl.zip]
+[2024-05-08 14:14:23] INFO root fetch - processPackages [discordautochat]: Remove: archive file [/home/abi/fetcher/tmp/discordautochat-1.4.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - main [MainThread]: End processing [discordautochat]: success
+[2024-05-08 14:14:23] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.4.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.5.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-05-08 14:14:23] INFO root fetch - processPackages [besser-bot-framework]: Remove: archive file [/home/abi/fetcher/tmp/besser_bot_framework-1.2.0.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - processPackages [besser-bot-framework]: Remove: archive file [/home/abi/fetcher/tmp/besser_bot_framework-1.2.1.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - main [MainThread]: End processing [besser-bot-framework]: success
+[2024-05-08 14:14:23] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.1.1.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-4.0.0.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-08 14:14:23] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.28.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.29.tar.gz]
+[2024-05-08 14:14:23] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:14:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240507.417.tar.gz]
+[2024-05-08 14:14:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.359.tar.gz]
+[2024-05-08 14:14:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-08 14:14:24] INFO root fetch - main [MainThread]: Store serial: [23113065]
