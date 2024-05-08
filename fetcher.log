@@ -10365,3 +10365,24 @@
 [2024-05-08 06:13:54] INFO root fetch - processPackages [zeblok-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zeblok_sdk-1.1.1.tar.gz]
 [2024-05-08 06:13:54] INFO root fetch - main [MainThread]: End processing [zeblok-sdk]: success
 [2024-05-08 06:13:54] INFO root fetch - main [MainThread]: Store serial: [23108197]
+[2024-05-08 06:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108197]
+[2024-05-08 06:16:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotink
+[2024-05-08 06:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdhelper
+[2024-05-08 06:16:04] INFO root fetch - processPackages [plotink]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 06:16:04] INFO root fetch - processPackages [mdhelper]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-08 06:16:04] INFO root fetch - processPackages [mdhelper]: Downloading https://files.pythonhosted.org/packages/43/76/bfaa2bd8cce6b372722b20603e33952f7f3888b8836c1e727f86bf0e2025/mdhelper-0.0.2.tar.gz
+[2024-05-08 06:16:04] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/4e/04/2cea443d2487ae51bab6a0f7758cfe34cd09ba7d5b4de57bd4cb88acfcb8/plotink-1.8.0.tar.gz
+[2024-05-08 06:16:04] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/56/da/1d4eaf5374ef2e627db1ba4caadb259b7cf93ecc9474688f59b85c8a2a3a/plotink-1.9.0.tar.gz
+[2024-05-08 06:16:04] INFO root fetch - processPackages [plotink]: executing diffoscope
+[2024-05-08 06:16:04] INFO root fetch - processPackages [plotink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotink-1.8.0.tar.gz tmp/plotink-1.9.0.tar.gz --markdown 20240508/p/plotink/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 06:16:04] INFO root fetch - processPackages [mdhelper]: Downloading https://files.pythonhosted.org/packages/a7/bc/de01d072107fb86dbc363a539878016d9575f3aa743adb0dc6f44311affc/mdhelper-1.0.0.tar.gz
+[2024-05-08 06:16:04] INFO root fetch - processPackages [mdhelper]: executing diffoscope
+[2024-05-08 06:16:04] INFO root fetch - processPackages [mdhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdhelper-0.0.2.tar.gz tmp/mdhelper-1.0.0.tar.gz --markdown 20240508/m/mdhelper/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-08 06:16:05] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.8.0.tar.gz]
+[2024-05-08 06:16:05] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.9.0.tar.gz]
+[2024-05-08 06:16:05] INFO root fetch - main [MainThread]: End processing [plotink]: success
+[2024-05-08 06:16:05] INFO root fetch - processPackages [mdhelper]: Remove: archive file [/home/abi/fetcher/tmp/mdhelper-0.0.2.tar.gz]
+[2024-05-08 06:16:05] INFO root fetch - processPackages [mdhelper]: Remove: archive file [/home/abi/fetcher/tmp/mdhelper-1.0.0.tar.gz]
+[2024-05-08 06:16:05] INFO root fetch - main [MainThread]: End processing [mdhelper]: success
+[2024-05-08 06:16:05] INFO root fetch - main [MainThread]: Store serial: [23108203]
