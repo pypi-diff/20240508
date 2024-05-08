@@ -10493,3 +10493,42 @@
 [2024-05-08 06:24:50] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-05-08 06:24:50] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-05-08 06:24:50] INFO root fetch - main [MainThread]: Store serial: [23108249]
+[2024-05-08 06:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108249]
+[2024-05-08 06:26:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfvfs
+[2024-05-08 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-db
+[2024-05-08 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-dump-tool
+[2024-05-08 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-llama
+[2024-05-08 06:26:59] INFO root fetch - processPackages [pypomes-db]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-08 06:26:59] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/c6/34/44ba61da18e9693aa2737d15037c08073ce4655581fc63f87fa1d1507eea/pypomes_db-0.5.3.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [git-dump-tool]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 06:26:59] INFO root fetch - processPackages [dfvfs]: New version: [20240505] Old Version: [20240115]
+[2024-05-08 06:26:59] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 06:26:59] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [git-dump-tool]: Downloading https://files.pythonhosted.org/packages/e3/6c/715af88185ac96864d27a199f0d13e9e63a518610850dbbd5e9b96ca7b77/git-dump-tool-0.1.0.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [dfvfs]: Downloading https://files.pythonhosted.org/packages/df/35/97deea0ded724d6a255153337adf7e65c9a9c881d4cfa7e8469f776cb589/dfvfs-20240115.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/c4/e3/2b22d64a8969174919fe75864046f43d2326e0374007e23b4e71e9e0c7ea/pypomes_db-0.5.4.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-08 06:26:59] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.5.3.tar.gz tmp/pypomes_db-0.5.4.tar.gz --markdown 20240508/p/pypomes-db/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-08 06:26:59] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-08 06:26:59] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240508/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 06:26:59] INFO root fetch - processPackages [git-dump-tool]: Downloading https://files.pythonhosted.org/packages/09/6f/3f2ecd3f31cc482cd991eab9ba8b3816d06cb9abf65456e3b4f2c3d32716/git_dump_tool-0.1.1.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [dfvfs]: Downloading https://files.pythonhosted.org/packages/f2/6f/3fdae5566c50d4386668e9aefa68bc3461e6ef7eb1adf8d06f418f1682e3/dfvfs-20240505.tar.gz
+[2024-05-08 06:26:59] INFO root fetch - processPackages [git-dump-tool]: executing diffoscope
+[2024-05-08 06:26:59] INFO root fetch - processPackages [git-dump-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-dump-tool-0.1.0.tar.gz tmp/git_dump_tool-0.1.1.tar.gz --markdown 20240508/g/git-dump-tool/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 06:26:59] INFO root fetch - processPackages [dfvfs]: executing diffoscope
+[2024-05-08 06:26:59] INFO root fetch - processPackages [dfvfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfvfs-20240115.tar.gz tmp/dfvfs-20240505.tar.gz --markdown 20240508/d/dfvfs/20240115-20240505/README.md --exclude *.pyd
+[2024-05-08 06:27:00] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.3.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.4.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-08 06:27:00] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-08 06:27:00] INFO root fetch - processPackages [git-dump-tool]: Remove: archive file [/home/abi/fetcher/tmp/git-dump-tool-0.1.0.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - processPackages [git-dump-tool]: Remove: archive file [/home/abi/fetcher/tmp/git_dump_tool-0.1.1.tar.gz]
+[2024-05-08 06:27:00] INFO root fetch - main [MainThread]: End processing [git-dump-tool]: success
+[2024-05-08 06:27:02] INFO root fetch - processPackages [dfvfs]: Remove: archive file [/home/abi/fetcher/tmp/dfvfs-20240115.tar.gz]
+[2024-05-08 06:27:02] INFO root fetch - processPackages [dfvfs]: Remove: archive file [/home/abi/fetcher/tmp/dfvfs-20240505.tar.gz]
+[2024-05-08 06:27:02] INFO root fetch - main [MainThread]: End processing [dfvfs]: success
+[2024-05-08 06:27:02] INFO root fetch - main [MainThread]: Store serial: [23108260]
