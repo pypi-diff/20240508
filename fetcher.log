@@ -8573,3 +8573,45 @@
 [2024-05-08 04:37:34] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-08 04:37:34] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
 [2024-05-08 04:37:34] INFO root fetch - main [MainThread]: Store serial: [23107640]
+[2024-05-08 04:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107640]
+[2024-05-08 04:39:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visits
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: together
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-create
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: first-passage-percolation-sim
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ansar-create]: New version: [0.1.78] Old Version: [0.1.77]
+[2024-05-08 04:39:49] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/d2/1e/b10a7f5cc1fe8eca37c6bc82286367c54174f21498f9af63611d3011dc00/ansar_create-0.1.77.tar.gz
+[2024-05-08 04:39:49] INFO root fetch - processPackages [visits]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 04:39:49] WARNING root fetch - processPackages [first-passage-percolation-sim]: Skipping, unable to determine old version
+[2024-05-08 04:39:49] INFO root fetch - main [MainThread]: End processing [first-passage-percolation-sim] error
+[2024-05-08 04:39:49] INFO root fetch - processPackages [together]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-08 04:39:49] INFO root fetch - processPackages [owega]: New version: [5.6.3] Old Version: [5.6.2]
+[2024-05-08 04:39:50] INFO root fetch - processPackages [visits]: Downloading https://files.pythonhosted.org/packages/3a/73/f410984e8c45304d860a9a297349053280e07185abf4bc49c1a512a88e17/visits-0.0.2.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/5c/15/a0fe1db7dfe7082b98a730fefa9ed6a3f21e919d43cb83e1a7433ef6bfe5/together-1.1.4.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/70/df/54ce317362c30040f79379d774c9d25042da3a44a4321de11afd98ea61bf/owega-5.6.2.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/41/be/dcb8810ac37f09691bbd8612b6d14c83a66db2c1a8440c83f67fcc0ae29c/ansar_create-0.1.78.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-08 04:39:50] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.77.tar.gz tmp/ansar_create-0.1.78.tar.gz --markdown 20240508/a/ansar-create/0.1.77-0.1.78/README.md --exclude *.pyd
+[2024-05-08 04:39:50] INFO root fetch - processPackages [visits]: Downloading https://files.pythonhosted.org/packages/44/0f/b1549fcdf8ca2143565d4cdc5b8f2239363343b96860a93dc91ae3ea8e07/visits-0.0.3.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/18/fd/cd26573bdb40416f2f53ea68672d5f07f70dea93521aab410dfbbdc6cac0/together-1.1.5.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/f9/57/ccc2b013af5f9eb70fae9f3bbe4c5574d11fc319937e63f9997f2f67fe0b/owega-5.6.3.tar.gz
+[2024-05-08 04:39:50] INFO root fetch - processPackages [visits]: executing diffoscope
+[2024-05-08 04:39:50] INFO root fetch - processPackages [visits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visits-0.0.2.tar.gz tmp/visits-0.0.3.tar.gz --markdown 20240508/v/visits/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 04:39:50] INFO root fetch - processPackages [together]: executing diffoscope
+[2024-05-08 04:39:50] INFO root fetch - processPackages [together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together-1.1.4.tar.gz tmp/together-1.1.5.tar.gz --markdown 20240508/t/together/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-08 04:39:50] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-08 04:39:50] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.6.2.tar.gz tmp/owega-5.6.3.tar.gz --markdown 20240508/o/owega/5.6.2-5.6.3/README.md --exclude *.pyd
+[2024-05-08 04:39:51] INFO root fetch - processPackages [visits]: Remove: archive file [/home/abi/fetcher/tmp/visits-0.0.2.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - processPackages [visits]: Remove: archive file [/home/abi/fetcher/tmp/visits-0.0.3.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - main [MainThread]: End processing [visits]: success
+[2024-05-08 04:39:51] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.77.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.78.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-08 04:39:51] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.1.4.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.1.5.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - main [MainThread]: End processing [together]: success
+[2024-05-08 04:39:51] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.2.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.6.3.tar.gz]
+[2024-05-08 04:39:51] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-08 04:39:51] INFO root fetch - main [MainThread]: Store serial: [23107656]
