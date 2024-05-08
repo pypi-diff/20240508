@@ -14649,3 +14649,83 @@
 [2024-05-08 10:18:03] INFO root fetch - processPackages [pgvector-haystack]: Remove: archive file [/home/abi/fetcher/tmp/pgvector_haystack-0.2.0.tar.gz]
 [2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [pgvector-haystack]: success
 [2024-05-08 10:18:03] INFO root fetch - main [MainThread]: Store serial: [23110344]
+[2024-05-08 10:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110344]
+[2024-05-08 10:20:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manhelp
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecellulab
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sony-custom-layers-dev
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-messaging-python
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-messaging-python
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvdataloading
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fosslight-dependency
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fosslight-util
+[2024-05-08 10:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vnpy-btse
+[2024-05-08 10:20:12] INFO root fetch - processPackages [sony-custom-layers-dev]: New version: [0.2.0.dev8] Old Version: [0.2.0.dev7]
+[2024-05-08 10:20:12] WARNING root fetch - processPackages [manhelp]: Skipping, unable to determine old version
+[2024-05-08 10:20:12] INFO root fetch - processPackages [manhelp]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-08 10:20:12] INFO root fetch - main [MainThread]: End processing [manhelp] error
+[2024-05-08 10:20:12] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-08 10:20:12] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1715156319] Old Version: [1.7.0.dev1715156305]
+[2024-05-08 10:20:12] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1715156319] Old Version: [1.7.0.dev1715156305]
+[2024-05-08 10:20:12] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1715156397] Old Version: [1.7.0.dev1715156376]
+[2024-05-08 10:20:12] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1715156397] Old Version: [1.7.0.dev1715156376]
+[2024-05-08 10:20:12] WARNING root fetch - processPackages [cvdataloading]: Skipping, unable to determine old version
+[2024-05-08 10:20:12] INFO root fetch - processPackages [vnpy-btse]: New version: [2024.5.8] Old Version: [2024.5.7]
+[2024-05-08 10:20:12] INFO root fetch - main [MainThread]: End processing [cvdataloading] error
+[2024-05-08 10:20:12] INFO root fetch - processPackages [fosslight-dependency]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-05-08 10:20:12] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-08 10:20:13] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/79/a4/8570d3025f8639a6c3203d5eadfc4404112f32bd28555d0fd024ebbda84a/sony_custom_layers_dev-0.2.0.dev7-py3-none-any.whl
+[2024-05-08 10:20:13] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/61/a1ce6ea5aa22659b561718820448012d74becfa444804c7d103b0f6050f6/bluecellulab-2.6.8.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/a9/ad/af2a2a1cc5972596ff832920388c996065f87d0bccfa1a7d68f1c0040c87/aissemble_foundation_messaging_python-1.7.0.dev1715156305.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/a9/ad/af2a2a1cc5972596ff832920388c996065f87d0bccfa1a7d68f1c0040c87/aissemble_foundation_messaging_python-1.7.0.dev1715156305.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/05/da7c8923f1f2f1cf6ffa061496c04911779e5851a078893a7414f08aebd6/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/05/da7c8923f1f2f1cf6ffa061496c04911779e5851a078893a7414f08aebd6/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/0f/cc/9b5800a44012332c1de79449a5123f244debc77b18c831bd3f63f99c22fc/fosslight_dependency-3.9.3.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/d0/ca/3238ee41727edc3bd327f6beb7ef97f2d92d986227f3bf775259a3e223ae/fosslight_util-1.4.8.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [vnpy-btse]: Downloading https://files.pythonhosted.org/packages/5f/cc/942b781b4249771d5ef8d3e3c790b944767fe535de4dabe8e30bd7e423fc/vnpy_btse-2024.5.7.tar.gz
+[2024-05-08 10:20:13] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170589>=10485760
+[2024-05-08 10:20:13] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-08 10:20:13] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170589>=10485760
+[2024-05-08 10:20:13] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-08 10:20:13] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/9f/fb/1b2acf3afd656a608b5bfb208dafc28c81cec7d91225858d482ecdb138de/sony_custom_layers_dev-0.2.0.dev8-py3-none-any.whl
+[2024-05-08 10:20:13] INFO root fetch - processPackages [sony-custom-layers-dev]: executing diffoscope
+[2024-05-08 10:20:13] INFO root fetch - processPackages [sony-custom-layers-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sony_custom_layers_dev-0.2.0.dev7-py3-none-any.whl.zip tmp/sony_custom_layers_dev-0.2.0.dev8-py3-none-any.whl.zip --markdown 20240508/s/sony-custom-layers-dev/0.2.0.dev7-0.2.0.dev8/README.md --exclude *.pyd
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/ad/facbce8176ce5e884f55723c870de50f76c90770763d00990bfbbabaffef/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/ad/facbce8176ce5e884f55723c870de50f76c90770763d00990bfbbabaffef/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/3c/f4/aa9292066e9a85ba28b2759c1b524d77907a7b1ede994391902939bcf498/bluecellulab-2.6.9.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [fosslight-dependency]: Downloading https://files.pythonhosted.org/packages/64/a0/dd2dd62761eaf4233405b1b03d3de41c2a2bfee2ca24a27417a71ae0569d/fosslight_dependency-3.9.4.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [vnpy-btse]: Downloading https://files.pythonhosted.org/packages/c9/2f/bb2ea36fc7bd174b1403df72fc969c55f37d4802aa04a79b2087dd0cf8d7/vnpy_btse-2024.5.8.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz --markdown 20240508/a/aissemble-foundation-data-lineage-python/1.7.0.dev1715156376-1.7.0.dev1715156397/README.md --exclude *.pyd
+[2024-05-08 10:20:13] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz --markdown 20240508/a/aissemble-foundation-data-lineage-python/1.7.0.dev1715156376-1.7.0.dev1715156397/README.md --exclude *.pyd
+[2024-05-08 10:20:13] INFO root fetch - processPackages [fosslight-util]: Downloading https://files.pythonhosted.org/packages/2d/d2/e674ac0c05f462aeb548384d4b1f6351624dd534bb73301158868691826c/fosslight_util-1.4.9.tar.gz
+[2024-05-08 10:20:13] INFO root fetch - processPackages [vnpy-btse]: executing diffoscope
+[2024-05-08 10:20:13] INFO root fetch - processPackages [vnpy-btse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_btse-2024.5.7.tar.gz tmp/vnpy_btse-2024.5.8.tar.gz --markdown 20240508/v/vnpy-btse/2024.5.7-2024.5.8/README.md --exclude *.pyd
+[2024-05-08 10:20:13] INFO root fetch - processPackages [bluecellulab]: executing diffoscope
+[2024-05-08 10:20:13] INFO root fetch - processPackages [bluecellulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecellulab-2.6.8.tar.gz tmp/bluecellulab-2.6.9.tar.gz --markdown 20240508/b/bluecellulab/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-08 10:20:14] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2024-05-08 10:20:14] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20240508/f/fosslight-util/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-08 10:20:14] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev7-py3-none-any.whl.zip]
+[2024-05-08 10:20:14] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev8-py3-none-any.whl.zip]
+[2024-05-08 10:20:14] INFO root fetch - main [MainThread]: End processing [sony-custom-layers-dev]: success
+[2024-05-08 10:20:14] INFO root fetch - processPackages [fosslight-dependency]: executing diffoscope
+[2024-05-08 10:20:14] INFO root fetch - processPackages [fosslight-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_dependency-3.9.3.tar.gz tmp/fosslight_dependency-3.9.4.tar.gz --markdown 20240508/f/fosslight-dependency/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-05-08 10:20:14] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-08 10:20:14] INFO root fetch - processPackages [vnpy-btse]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_btse-2024.5.7.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - processPackages [vnpy-btse]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_btse-2024.5.8.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - main [MainThread]: End processing [vnpy-btse]: success
+[2024-05-08 10:20:14] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-08 10:20:14] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.8.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.9.tar.gz]
+[2024-05-08 10:20:14] INFO root fetch - main [MainThread]: End processing [bluecellulab]: success
+[2024-05-08 10:20:15] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.8.tar.gz]
+[2024-05-08 10:20:15] INFO root fetch - processPackages [fosslight-util]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_util-1.4.9.tar.gz]
+[2024-05-08 10:20:15] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2024-05-08 10:20:15] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.3.tar.gz]
+[2024-05-08 10:20:15] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.4.tar.gz]
+[2024-05-08 10:20:15] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
+[2024-05-08 10:20:15] INFO root fetch - main [MainThread]: Store serial: [23110380]
