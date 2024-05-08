@@ -18928,3 +18928,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:37:03] INFO root fetch - processPackages [lisflood-utilities]: Remove: archive file [/home/abi/fetcher/tmp/lisflood-utilities-0.9.tar.gz]
 [2024-05-08 12:37:03] INFO root fetch - main [MainThread]: End processing [lisflood-utilities]: success
 [2024-05-08 12:37:03] INFO root fetch - main [MainThread]: Store serial: [23112050]
+[2024-05-08 12:39:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112050]
+[2024-05-08 12:39:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 12:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-08 12:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-batch-regression
+[2024-05-08 12:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pseudovisium
+[2024-05-08 12:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-05-08 12:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymemgpt-nightly
+[2024-05-08 12:39:11] INFO root fetch - processPackages [pytest-batch-regression]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:39:11] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 12:39:11] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 12:39:11] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-08 12:39:11] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240507] Old Version: [1.0.0.dev20240506]
+[2024-05-08 12:39:11] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-08 12:39:11] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/e1/6b/03ae2f49f7f945203edfa498d02e7a1be916ffbb74167f89cb3f087cff84/pytest_batch_regression-0.1.2.tar.gz
+[2024-05-08 12:39:11] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 12:39:11] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-08 12:39:11] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/51/1e/6feb38a436da6de257cad0f364a6a0a67f6bd1630714efe72137bcf3b447/skypilot_nightly-1.0.0.dev20240506.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/c1/fe/9b3eeb6c5fbbe6a5a6c1a9568823c5eaeac8deb14b4147a729f26b300c73/pytest_batch_regression-0.1.3.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-08 12:39:12] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240508/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pytest-batch-regression]: executing diffoscope
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pytest-batch-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_batch_regression-0.1.2.tar.gz tmp/pytest_batch_regression-0.1.3.tar.gz --markdown 20240508/p/pytest-batch-regression/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:39:12] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/61/1a/481be8bc24c3bece159e108d7a8a789dba7792b03b5b898241d7747cf35c/skypilot_nightly-1.0.0.dev20240507.tar.gz
+[2024-05-08 12:39:12] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 12:39:12] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240508/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-08 12:39:12] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-08 12:39:12] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240506.tar.gz tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz --markdown 20240508/s/skypilot-nightly/1.0.0.dev20240506-1.0.0.dev20240507/README.md --exclude *.pyd
+[2024-05-08 12:39:12] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-08 12:39:12] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-08 12:39:12] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.2.tar.gz]
+[2024-05-08 12:39:12] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.3.tar.gz]
+[2024-05-08 12:39:12] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression]: success
+[2024-05-08 12:39:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 12:39:13] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 12:39:13] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 12:39:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-08 12:39:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-08 12:39:13] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-08 12:39:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240506.tar.gz]
+[2024-05-08 12:39:14] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz]
+[2024-05-08 12:39:14] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-08 12:39:14] INFO root fetch - main [MainThread]: Store serial: [23112066]
