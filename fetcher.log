@@ -12922,3 +12922,60 @@
 [2024-05-08 09:10:53] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a9-py3-none-any.whl.zip]
 [2024-05-08 09:10:53] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-05-08 09:10:53] INFO root fetch - main [MainThread]: Store serial: [23109552]
+[2024-05-08 09:13:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109552]
+[2024-05-08 09:13:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-wbs
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DesalSim
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-group-local
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Chrmnder-lib
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flamme
+[2024-05-08 09:13:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suql
+[2024-05-08 09:13:12] INFO root fetch - processPackages [DesalSim]: New version: [0.6] Old Version: [0.5]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/c2/76/d2bf49ff4e2cac5e04518b247e951df288eb51c30fac49f44fb4e4df8b89/desalsim-0.5.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [odoo-addon-project-wbs]: New version: [15.0.1.1.3] Old Version: [15.0.1.1.2]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [Chrmnder-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [flamme]: New version: [0.0.9] Old Version: [0.0.8a1]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [suql]: New version: [1.1.7a4] Old Version: [1.1.7a3]
+[2024-05-08 09:13:12] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [odoo-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/9e/c4/1423a69f0245cef4af02e6f19a4c0098a0c7e6aa24d59d54e1184afe1401/odoo_addon_project_wbs-15.0.1.1.2-py3-none-any.whl
+[2024-05-08 09:13:12] INFO root fetch - processPackages [Chrmnder-lib]: Downloading https://files.pythonhosted.org/packages/14/4b/00c14b0219750f2425b745f548831ec856c761f36d8c9aa1b7b4fa8a04d3/chrmnder_lib-1.0.0.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/7a/4c/b90240b322ea669b74d02c5ad5c9c27b47deace0be0386630c49c4b568f9/desalsim-0.6.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/82/a7/78b097dd39d2b564a47d15e8010ec96499b20fc8f3887469ebd5275302a9/flamme-0.0.8a1.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/a3/5f/98534634609a663adfba2082e61c73ad09d67ccb148333b35ab571137827/suql-1.1.7a3.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 09:13:12] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.5.tar.gz tmp/desalsim-0.6.tar.gz --markdown 20240508/D/DesalSim/0.5-0.6/README.md --exclude *.pyd
+[2024-05-08 09:13:12] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-08 09:13:12] INFO root fetch - processPackages [odoo-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/7f/77/e38c7095f90eff767e81feb2ad680c49ab75f5664de0cf333f3d2178de69/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl
+[2024-05-08 09:13:12] INFO root fetch - processPackages [Chrmnder-lib]: Downloading https://files.pythonhosted.org/packages/ea/32/ed00915c266a0a52552b11afe51f3296fec7c76ff9d6f724206bbf338c69/chrmnder_lib-1.0.1.tar.gz
+[2024-05-08 09:13:13] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-08 09:13:13] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240508/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:13:13] INFO root fetch - processPackages [flamme]: Downloading https://files.pythonhosted.org/packages/95/b9/67cd6cad72d4221f3d61e760b91b826e3165de0cf760406862c63ea1de01/flamme-0.0.9.tar.gz
+[2024-05-08 09:13:13] INFO root fetch - processPackages [Chrmnder-lib]: executing diffoscope
+[2024-05-08 09:13:13] INFO root fetch - processPackages [Chrmnder-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrmnder_lib-1.0.0.tar.gz tmp/chrmnder_lib-1.0.1.tar.gz --markdown 20240508/C/Chrmnder-lib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 09:13:13] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/77/8a/2adb63cbd80fef477ec701a5e24f9c59b49208fc17265235f354fe293c2e/suql-1.1.7a4-py3-none-any.whl
+[2024-05-08 09:13:13] INFO root fetch - processPackages [odoo-addon-project-wbs]: executing diffoscope
+[2024-05-08 09:13:13] INFO root fetch - processPackages [odoo-addon-project-wbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_wbs-15.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-project-wbs/15.0.1.1.2-15.0.1.1.3/README.md --exclude *.pyd
+[2024-05-08 09:13:13] INFO root fetch - processPackages [flamme]: executing diffoscope
+[2024-05-08 09:13:13] INFO root fetch - processPackages [flamme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamme-0.0.8a1.tar.gz tmp/flamme-0.0.9.tar.gz --markdown 20240508/f/flamme/0.0.8a1-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:13:13] INFO root fetch - processPackages [Chrmnder-lib]: Remove: archive file [/home/abi/fetcher/tmp/chrmnder_lib-1.0.0.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - processPackages [Chrmnder-lib]: Remove: archive file [/home/abi/fetcher/tmp/chrmnder_lib-1.0.1.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - main [MainThread]: End processing [Chrmnder-lib]: success
+[2024-05-08 09:13:13] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-05-08 09:13:13] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.7a3.tar.gz tmp/suql-1.1.7a4-py3-none-any.whl.zip --markdown 20240508/s/suql/1.1.7a3-1.1.7a4/README.md --exclude *.pyd
+[2024-05-08 09:13:13] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.5.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.6.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 09:13:13] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-08 09:13:13] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-08 09:13:13] INFO root fetch - processPackages [odoo-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_wbs-15.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-08 09:13:13] INFO root fetch - processPackages [odoo-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl.zip]
+[2024-05-08 09:13:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-wbs]: success
+[2024-05-08 09:13:14] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.8a1.tar.gz]
+[2024-05-08 09:13:14] INFO root fetch - processPackages [flamme]: Remove: archive file [/home/abi/fetcher/tmp/flamme-0.0.9.tar.gz]
+[2024-05-08 09:13:14] INFO root fetch - main [MainThread]: End processing [flamme]: success
+[2024-05-08 09:13:14] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a3.tar.gz]
+[2024-05-08 09:13:14] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a4-py3-none-any.whl.zip]
+[2024-05-08 09:13:14] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-05-08 09:13:14] INFO root fetch - main [MainThread]: Store serial: [23109605]
