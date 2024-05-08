@@ -15641,3 +15641,151 @@
 [2024-05-08 10:44:57] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.61.tar.gz]
 [2024-05-08 10:44:57] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-08 10:44:57] INFO root fetch - main [MainThread]: Store serial: [23110761]
+[2024-05-08 10:47:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110761]
+[2024-05-08 10:47:06] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grasp-planning
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramses_rf
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecv-python-development
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmtccmd
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grasp-planning
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yeref
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mytot
+[2024-05-08 10:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rqalpha
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/35/23/05567b736b0f553ce43dfcf837ddb25889b9d84a58726b8967c3463744f2/grasp_planning-0.3.1.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ramses_rf]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.60] Old Version: [0.0.59]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [mytot]: New version: [2024.5.968613] Old Version: [2024.5.963441]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tmtccmd]: New version: [8.0.1] Old Version: [8.0.0rc2]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [rqalpha]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/35/23/05567b736b0f553ce43dfcf837ddb25889b9d84a58726b8967c3463744f2/grasp_planning-0.3.1.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240508] Old Version: [2.17.0.dev20240507]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ramses_rf]: Downloading https://files.pythonhosted.org/packages/31/69/c22156a5d460fa779cb0e99aca5bd971823598d9ac7f5b9870c8eafecd6c/ramses-rf-0.9.7.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/14/8a/b36f38c90ef85fdb41399c2ba1ca3c2fe9aa61860a160c62b2872c3b0cba/ecv-python-development-0.0.59.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/80/37/0cdda8f03a0b48416fbc984c63bbb9cd5d8cebd3222360d47fd1b61a810c/rqalpha-5.3.8.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/98/3f/e127acf5224114792fab6e2f27a6867e950d56a31b501a485e3371364748/mytot-2024.5.963441-py3-none-any.whl
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/65/b7/41289a8c8d5150dd04a40d25a632ebbd8f98df4f45b07064685b64a7e94a/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/11/96/26729f4ccb23d112493d99fe5dfbd4f100242b03e3b509e42f5ed09c990a/tmtccmd-8.0.0rc2.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/50/8b/ef15966ef76086777fe32dace57bff6bc3ab3834271a21170865262b1761/grasp_planning-0.3.2.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/50/8b/ef15966ef76086777fe32dace57bff6bc3ab3834271a21170865262b1761/grasp_planning-0.3.2.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: executing diffoscope
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.3.1.tar.gz tmp/grasp_planning-0.3.2.tar.gz --markdown 20240508/g/grasp-planning/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: executing diffoscope
+[2024-05-08 10:47:07] INFO root fetch - processPackages [grasp-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.3.1.tar.gz tmp/grasp_planning-0.3.2.tar.gz --markdown 20240508/g/grasp-planning/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/79/54/fa0c5394d7c8b1b4096602ff72c8699958b09e3c1fe7530e84a0049b869d/ecv-python-development-0.0.60.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ramses_rf]: Downloading https://files.pythonhosted.org/packages/18/a0/43658a1a48c44814ae483b284e64e578be651b9ce5719baa7923bbc0be95/ramses-rf-0.9.8.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/06/cd/3ddd864aab868a0018a0c8d046877b44862bcf57e62dce7d6bc65faa18e5/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl
+[2024-05-08 10:47:07] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/55/85/376fe0afb50e2689dc7e0c0093cdd10bad2890b904b441c49ef276ce1ada/mytot-2024.5.968613-py3-none-any.whl
+[2024-05-08 10:47:07] INFO root fetch - processPackages [tmtccmd]: Downloading https://files.pythonhosted.org/packages/e5/99/28c48961ae316be9f27fc719759aba9590c9a5a495e91000eaa8c26da1af/tmtccmd-8.0.1.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/1b/9d/24a0356d52334999e5b0faf2d079b2d51bae106662c179cde04582c0f0ad/rqalpha-5.3.9.tar.gz
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-05-08 10:47:07] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.59.tar.gz tmp/ecv-python-development-0.0.60.tar.gz --markdown 20240508/e/ecv-python-development/0.0.59-0.0.60/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [mytot]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [mytot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytot-2024.5.963441-py3-none-any.whl.zip tmp/mytot-2024.5.968613-py3-none-any.whl.zip --markdown 20240508/m/mytot/2024.5.963441-2024.5.968613/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip --markdown 20240508/t/tf-nightly-cpu/2.17.0.dev20240507-2.17.0.dev20240508/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tmtccmd]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tmtccmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmtccmd-8.0.0rc2.tar.gz tmp/tmtccmd-8.0.1.tar.gz --markdown 20240508/t/tmtccmd/8.0.0rc2-8.0.1/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.3.8.tar.gz tmp/rqalpha-5.3.9.tar.gz --markdown 20240508/r/rqalpha/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-08 10:47:08] INFO root fetch - processPackages [ramses_rf]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [ramses_rf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramses-rf-0.9.7.tar.gz tmp/ramses-rf-0.9.8.tar.gz --markdown 20240508/r/ramses_rf/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.1.tar.gz]
+[2024-05-08 10:47:08] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.2.tar.gz]
+[2024-05-08 10:47:08] INFO root fetch - processPackages [grasp-planning]: Start processing: xzutils
+[2024-05-08 10:47:08] INFO root fetch - main [MainThread]: End processing [grasp-planning]: success
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-08 10:47:08] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240508/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-08 10:47:08] INFO root fetch - processPackages [xzutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 10:47:08] INFO root fetch - processPackages [grasp-planning]: Start processing: itk-dev-shared-components
+[2024-05-08 10:47:08] INFO root fetch - main [MainThread]: End processing [grasp-planning]: success
+[2024-05-08 10:47:09] INFO root fetch - processPackages [itk-dev-shared-components]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [xzutils]: Downloading https://files.pythonhosted.org/packages/1d/fe/63f1d8cd7c2dd68deac3fea09b9139e2d165f098b8cda8bb92f1c7c34498/xzutils-0.0.1.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.5.963441-py3-none-any.whl.zip]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.5.968613-py3-none-any.whl.zip]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [mytot]: Start processing: labnas
+[2024-05-08 10:47:09] INFO root fetch - main [MainThread]: End processing [mytot]: success
+[2024-05-08 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240507-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: detrain
+[2024-05-08 10:47:09] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-08 10:47:09] INFO root fetch - processPackages [labnas]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.59.tar.gz]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.60.tar.gz]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [ecv-python-development]: Start processing: policyengine-core
+[2024-05-08 10:47:09] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-05-08 10:47:09] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/ce/37/0dbd579ae92399e081a3a9a8e6aa804f5387c224b56370fd39bf01435db9/labnas-0.2.1.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [itk-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/62/72/361681f5e64e138a67ef23ff92fba85a3a861b59257c91d787d29e77458a/itk_dev_shared_components-2.1.1.tar.gz
+[2024-05-08 10:47:09] WARNING root fetch - processPackages [detrain]: Skipping, unable to determine old version
+[2024-05-08 10:47:09] INFO root fetch - processPackages [detrain]: Start processing: amos-api
+[2024-05-08 10:47:09] INFO root fetch - main [MainThread]: End processing [detrain] error
+[2024-05-08 10:47:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [yeref]: Start processing: grasp-planning
+[2024-05-08 10:47:09] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 10:47:09] INFO root fetch - processPackages [amos-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [xzutils]: Downloading https://files.pythonhosted.org/packages/15/d5/a6e7d26eeb1e626276951f2bb049942e647b3c12aded3ec3697d62e41904/xzutils-0.0.2.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [grasp-planning]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-08 10:47:09] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/78/1f/0fa072d880dda0277889d895140f34f018c8741ef167f991d6de5bf0cb88/amos_api-1.0.3.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/b5/fa/b40f8c782c22badd41ccefbdee32713a9eec1ee9d823967bbd1fae55c461/labnas-0.2.2.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [xzutils]: executing diffoscope
+[2024-05-08 10:47:09] INFO root fetch - processPackages [xzutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xzutils-0.0.1.tar.gz tmp/xzutils-0.0.2.tar.gz --markdown 20240508/x/xzutils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:47:09] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/5d/af/fe41e5208ea73fc7ae82db14bdb94b32d872a80d6c62288fc2036bd2ff9d/grasp_planning-0.4.1.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [labnas]: executing diffoscope
+[2024-05-08 10:47:09] INFO root fetch - processPackages [labnas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labnas-0.2.1.tar.gz tmp/labnas-0.2.2.tar.gz --markdown 20240508/l/labnas/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 10:47:09] INFO root fetch - processPackages [itk-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/f7/77/74580607ae15cdfca852fbf8bcef023c022620f7065548aa384e964cf095/itk_dev_shared_components-2.2.0.tar.gz
+[2024-05-08 10:47:09] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-05-08 10:47:10] INFO root fetch - processPackages [itk-dev-shared-components]: executing diffoscope
+[2024-05-08 10:47:10] INFO root fetch - processPackages [itk-dev-shared-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_dev_shared_components-2.1.1.tar.gz tmp/itk_dev_shared_components-2.2.0.tar.gz --markdown 20240508/i/itk-dev-shared-components/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-08 10:47:10] INFO root fetch - processPackages [amos-api]: Downloading https://files.pythonhosted.org/packages/21/98/d29162b18f1809df061ac87e300b474fe9cef19a6b8acef9644cc7975c2c/amos_api-1.0.4.tar.gz
+[2024-05-08 10:47:10] INFO root fetch - processPackages [ramses_rf]: Remove: archive file [/home/abi/fetcher/tmp/ramses-rf-0.9.7.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - processPackages [ramses_rf]: Remove: archive file [/home/abi/fetcher/tmp/ramses-rf-0.9.8.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - main [MainThread]: End processing [ramses_rf]: success
+[2024-05-08 10:47:10] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/28/a8/a48e82f1315529f959cd35b3fd3135342a806b5fb9e2bfa2e4e249f5801a/grasp_planning-0.4.2.tar.gz
+[2024-05-08 10:47:10] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-05-08 10:47:10] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240508/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-08 10:47:10] INFO root fetch - processPackages [amos-api]: executing diffoscope
+[2024-05-08 10:47:10] INFO root fetch - processPackages [amos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amos_api-1.0.3.tar.gz tmp/amos_api-1.0.4.tar.gz --markdown 20240508/a/amos-api/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 10:47:10] INFO root fetch - processPackages [grasp-planning]: executing diffoscope
+[2024-05-08 10:47:10] INFO root fetch - processPackages [grasp-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.4.1.tar.gz tmp/grasp_planning-0.4.2.tar.gz --markdown 20240508/g/grasp-planning/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-08 10:47:10] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-8.0.0rc2.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - processPackages [tmtccmd]: Remove: archive file [/home/abi/fetcher/tmp/tmtccmd-8.0.1.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - main [MainThread]: End processing [tmtccmd]: success
+[2024-05-08 10:47:10] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.8.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.9.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2024-05-08 10:47:10] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.1.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.2.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - main [MainThread]: End processing [labnas]: success
+[2024-05-08 10:47:10] INFO root fetch - processPackages [xzutils]: Remove: archive file [/home/abi/fetcher/tmp/xzutils-0.0.1.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - processPackages [xzutils]: Remove: archive file [/home/abi/fetcher/tmp/xzutils-0.0.2.tar.gz]
+[2024-05-08 10:47:10] INFO root fetch - main [MainThread]: End processing [xzutils]: success
+[2024-05-08 10:47:11] INFO root fetch - processPackages [itk-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/itk_dev_shared_components-2.1.1.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - processPackages [itk-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/itk_dev_shared_components-2.2.0.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - main [MainThread]: End processing [itk-dev-shared-components]: success
+[2024-05-08 10:47:11] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.4.1.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.4.2.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - main [MainThread]: End processing [grasp-planning]: success
+[2024-05-08 10:47:11] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.3.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - processPackages [amos-api]: Remove: archive file [/home/abi/fetcher/tmp/amos_api-1.0.4.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - main [MainThread]: End processing [amos-api]: success
+[2024-05-08 10:47:11] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-05-08 10:47:11] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-05-08 10:47:13] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-08 10:47:13] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-08 10:47:13] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-08 10:47:13] INFO root fetch - main [MainThread]: Store serial: [23110815]
