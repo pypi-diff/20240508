@@ -15980,3 +15980,78 @@
 [2024-05-08 10:53:51] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.5.tar.gz]
 [2024-05-08 10:53:51] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-08 10:53:51] INFO root fetch - main [MainThread]: Store serial: [23110880]
+[2024-05-08 10:55:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110880]
+[2024-05-08 10:56:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdetsyn
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wonder-diffusion-sdk
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EasIlastik
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roff
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneople
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rqsdk
+[2024-05-08 10:56:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client-v2
+[2024-05-08 10:56:00] INFO root fetch - processPackages [pyneople]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev4] Old Version: [0.0.6.dev3]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [mdetsyn]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/fe/8e/d1159b1be8a87acc3ad787451bcfe66f1428a94827ab74f17571a16678f0/pyneople-0.3.3.tar.gz
+[2024-05-08 10:56:00] INFO root fetch - processPackages [rqsdk]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [EasIlastik]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [roff]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 10:56:00] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/07/4f/7078aa3745e58090e99cf2903cfa6b522c5610be4bbb790eb3cd646068ca/wonder-diffusion-sdk-0.0.6.dev3.tar.gz
+[2024-05-08 10:56:00] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/0b/c2/0513329e83b0a2b35e6eacb267d0b2c51567379058d605b8201ce6bcc94a/mdetsyn-0.0.2.tar.gz
+[2024-05-08 10:56:00] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-08 10:56:00] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7b/1a/134d912d9139051fcd24cc22eb8a61974e77d7b4afbec6e5c161278e6722/rqsdk-1.5.8.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [EasIlastik]: Downloading https://files.pythonhosted.org/packages/bc/4d/526c9d39b164e670dfe6137d008e11f8ed4b94fdfc16822918750ee86537/EasIlastik-0.0.1.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [roff]: Downloading https://files.pythonhosted.org/packages/1f/bf/7390c1455ad2921c0c8c74979cf922c67b98d3a7583581ad4b50a5925af4/roff-0.4.2.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/9f/b4/9974e1b45ecce2ad449f3e799a8dfcc1ab3d4a378a7252c84312c17e93ea/mdetsyn-0.0.3.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/48/5d/7326bcb583f9dda8cf03ad8b11c9ef2acdcea1dcb2626b5643268148b019/pyneople-0.3.4.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/24/52/2a89e34424df7a33bf11f54d8cb6c1ad8500bb19dc12c0b37862e35983ea/wonder-diffusion-sdk-0.0.6.dev4.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [mdetsyn]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [mdetsyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdetsyn-0.0.2.tar.gz tmp/mdetsyn-0.0.3.tar.gz --markdown 20240508/m/mdetsyn/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.3.tar.gz tmp/pyneople-0.3.4.tar.gz --markdown 20240508/p/pyneople/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [roff]: Downloading https://files.pythonhosted.org/packages/1c/70/4252012f9a04b837a26e1239ec37de264df4cbb6fa151e75a005ee3752f1/roff-0.4.3.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev3.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev4.tar.gz --markdown 20240508/w/wonder-diffusion-sdk/0.0.6.dev3-0.0.6.dev4/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [EasIlastik]: Downloading https://files.pythonhosted.org/packages/ad/ec/ed2ee26746fc0b4373fa2668c5a5408c973e7a414f12ff3898b750e6611f/EasIlastik-0.0.2.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [roff]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [roff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roff-0.4.2.tar.gz tmp/roff-0.4.3.tar.gz --markdown 20240508/r/roff/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/01/62/a04c15c64689604d14c46f3bba08eb7dffc5d5fbab17ff20578d5c1fc8e1/rqsdk-1.5.9.tar.gz
+[2024-05-08 10:56:01] INFO root fetch - processPackages [EasIlastik]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [EasIlastik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasIlastik-0.0.1.tar.gz tmp/EasIlastik-0.0.2.tar.gz --markdown 20240508/E/EasIlastik/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:56:01] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2024-05-08 10:56:01] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.8.tar.gz tmp/rqsdk-1.5.9.tar.gz --markdown 20240508/r/rqsdk/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-08 10:56:02] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.2.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.3.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [mdetsyn]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.3.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.4.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev3.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev4.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [EasIlastik]: Remove: archive file [/home/abi/fetcher/tmp/EasIlastik-0.0.1.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [EasIlastik]: Remove: archive file [/home/abi/fetcher/tmp/EasIlastik-0.0.2.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [EasIlastik]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [roff]: Remove: archive file [/home/abi/fetcher/tmp/roff-0.4.2.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [roff]: Remove: archive file [/home/abi/fetcher/tmp/roff-0.4.3.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [roff]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.8.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.9.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2024-05-08 10:56:02] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-08 10:56:02] INFO root fetch - main [MainThread]: Store serial: [23110903]
