@@ -15594,3 +15594,50 @@
 [2024-05-08 10:42:22] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-05-08 10:42:22] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-05-08 10:42:22] INFO root fetch - main [MainThread]: Store serial: [23110741]
+[2024-05-08 10:44:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110741]
+[2024-05-08 10:44:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biomedisa
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossword-puzzle
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MainShortcuts
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kumparanian
+[2024-05-08 10:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-records-rest
+[2024-05-08 10:44:31] WARNING root fetch - processPackages [biomedisa]: Skipping, unable to determine old version
+[2024-05-08 10:44:31] INFO root fetch - main [MainThread]: End processing [biomedisa] error
+[2024-05-08 10:44:31] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.88] Old Version: [1.6.87]
+[2024-05-08 10:44:31] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.61] Old Version: [1.2.60]
+[2024-05-08 10:44:31] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-08 10:44:31] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc1] Old Version: [1.0.4]
+[2024-05-08 10:44:31] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/c9/d0/890ebfec4bcef5af1980cb39f308a940dbc94896380284b7537c5bfb1e74/crossword_puzzle-1.2.60.tar.gz
+[2024-05-08 10:44:31] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-08 10:44:31] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/de/75/b690cd36ec9afc9d7530576c4f3b526492a0a768095335fa4ddc753dfc13/mainshortcuts-1.6.87.tar.gz
+[2024-05-08 10:44:31] INFO root fetch - processPackages [invenio-records-rest]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-08 10:44:31] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-08 10:44:31] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-08 10:44:31] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/0d/c8/f424b1462689f7373c33e077ac9de6e4bc7aa96095b5b2781538cccbe5bd/kumparanian-1.0.4.tar.gz
+[2024-05-08 10:44:31] INFO root fetch - processPackages [invenio-records-rest]: Downloading https://files.pythonhosted.org/packages/23/ac/b675fbd806380e6036cfb271eef6ea06d90154a3ef4a458c6baea2920444/invenio-records-rest-2.4.0.tar.gz
+[2024-05-08 10:44:31] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/d8/c4/3e77f96fd30001fe3d6a28b45fec9fc69626f4a04e4aaf0e7f9cecd5d62b/mainshortcuts-1.6.88.tar.gz
+[2024-05-08 10:44:32] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/77/b1/014f8a787e4c7ec8c45a986224a66c9b51cdde2dcfe2b3819de1a71f2bb1/crossword_puzzle-1.2.61.tar.gz
+[2024-05-08 10:44:32] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-05-08 10:44:32] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.87.tar.gz tmp/mainshortcuts-1.6.88.tar.gz --markdown 20240508/M/MainShortcuts/1.6.87-1.6.88/README.md --exclude *.pyd
+[2024-05-08 10:44:32] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/d0/47/3e1e41e3da9012c41ff7f4bf20a57e49f2b53ea55b2d0c59210e9c1b1c1e/kumparanian-1.0.5rc1.tar.gz
+[2024-05-08 10:44:32] INFO root fetch - processPackages [invenio-records-rest]: Downloading https://files.pythonhosted.org/packages/94/8f/20315257741e554a1f278ce99305d2c7e8427206cb1ffbc2991fb41fdce3/invenio-records-rest-2.4.1.tar.gz
+[2024-05-08 10:44:32] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-08 10:44:32] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.4.tar.gz tmp/kumparanian-1.0.5rc1.tar.gz --markdown 20240508/k/kumparanian/1.0.4-1.0.5rc1/README.md --exclude *.pyd
+[2024-05-08 10:44:32] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-08 10:44:32] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.60.tar.gz tmp/crossword_puzzle-1.2.61.tar.gz --markdown 20240508/c/crossword-puzzle/1.2.60-1.2.61/README.md --exclude *.pyd
+[2024-05-08 10:44:32] INFO root fetch - processPackages [invenio-records-rest]: executing diffoscope
+[2024-05-08 10:44:32] INFO root fetch - processPackages [invenio-records-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-rest-2.4.0.tar.gz tmp/invenio-records-rest-2.4.1.tar.gz --markdown 20240508/i/invenio-records-rest/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-08 10:44:32] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.4.tar.gz]
+[2024-05-08 10:44:32] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc1.tar.gz]
+[2024-05-08 10:44:32] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-08 10:44:33] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.87.tar.gz]
+[2024-05-08 10:44:33] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.88.tar.gz]
+[2024-05-08 10:44:33] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-05-08 10:44:33] INFO root fetch - processPackages [invenio-records-rest]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-rest-2.4.0.tar.gz]
+[2024-05-08 10:44:33] INFO root fetch - processPackages [invenio-records-rest]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-rest-2.4.1.tar.gz]
+[2024-05-08 10:44:33] INFO root fetch - main [MainThread]: End processing [invenio-records-rest]: success
+[2024-05-08 10:44:57] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.60.tar.gz]
+[2024-05-08 10:44:57] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.61.tar.gz]
+[2024-05-08 10:44:57] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-08 10:44:57] INFO root fetch - main [MainThread]: Store serial: [23110761]
