@@ -11034,3 +11034,27 @@
 [2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.2.0.tar.gz]
 [2024-05-08 07:14:47] INFO root fetch - main [MainThread]: End processing [dq-check]: success
 [2024-05-08 07:14:47] INFO root fetch - main [MainThread]: Store serial: [23108464]
+[2024-05-08 07:16:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108464]
+[2024-05-08 07:16:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 07:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dwave-sona-core
+[2024-05-08 07:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepeval
+[2024-05-08 07:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcorepy
+[2024-05-08 07:16:56] WARNING root fetch - processPackages [zcorepy]: Skipping, unable to determine old version
+[2024-05-08 07:16:56] INFO root fetch - main [MainThread]: End processing [zcorepy] error
+[2024-05-08 07:16:56] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 07:16:56] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-08 07:16:56] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-08 07:16:56] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-08 07:16:56] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-08 07:16:56] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-08 07:16:56] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-08 07:16:56] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240508/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 07:16:57] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-08 07:16:57] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240508/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-08 07:16:57] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-08 07:16:57] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-08 07:16:57] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-08 07:16:57] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-08 07:16:57] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-08 07:16:57] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-08 07:16:57] INFO root fetch - main [MainThread]: Store serial: [23108476]
