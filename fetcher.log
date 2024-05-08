@@ -8151,3 +8151,78 @@
 [2024-05-08 04:11:04] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.9.0.tar.gz]
 [2024-05-08 04:11:04] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
 [2024-05-08 04:11:04] INFO root fetch - main [MainThread]: Store serial: [23107471]
+[2024-05-08 04:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107471]
+[2024-05-08 04:13:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: messages-local
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-tradier-client
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esphome
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anaplan-api
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monteprediction
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymetasnap
+[2024-05-08 04:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cocoon-data
+[2024-05-08 04:13:13] INFO root fetch - processPackages [messages-local]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240508] Old Version: [1.2.20240507]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [fast-tradier-client]: New version: [1.0] Old Version: [0.3.4]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [monteprediction]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [anaplan-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b1] Old Version: [2024.4.2]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [pymetasnap]: New version: [0.31.0] Old Version: [0.30.2]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 04:13:13] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/cf/68/8d9d1ca741ed09b513e5c0839a7b170575eb3435e4b5a4daf568e7f7214f/messages_local-0.0.49.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/c6/ed/39fe926406740324b33d8a9611d8a9df871498ab63b5c5413c9475f87e70/iam_actions-1.2.20240507.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/f2/ef/f0775e3d156a0f2576787edfd4f52c48587fe5aef49a1f2b34ac277dd278/monteprediction-1.0.6.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/81/db/044d0c027a09bed5a424c6d117ce6a544ff9b3d53902a162a79462c44f83/fast_tradier_client-0.3.4.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/19/58/d84f16439676f7866564cbd227240a8164237d2a0e4357af41ee9069c71d/anaplan-api-0.2.8.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/0c/01/bd5d36384ab173167cff2fc857ab43d65a8f214dfd348ced0c1b4ebb9b24/pymetasnap-0.30.2.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/d9/d6/6d8a264a78e9c5ab61135e9c939aa9f06b3eab8f6e7e887df15d6e2d72b2/esphome-2024.4.2.tar.gz
+[2024-05-08 04:13:13] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [fast-tradier-client]: Downloading https://files.pythonhosted.org/packages/72/65/c22a5ca441babf4f4124ebf93670b8292a4abe6710b8e3f0b21f85ebd1a5/fast_tradier_client-1.0.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/6b/dd/810f45051467596bf5826228b6435378f5c9cab9b65b6aa740b4bdc4c9da/messages_local-0.0.50.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/3c/08/cf06c2e0d5a681085bdb03818a393650419bcb3818302a68ec1ceea1f48a/iam_actions-1.2.20240508.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/47/4f/86453686ead3ecec8521548b11ce56440208ffaa95e4220d8d7f295ffde3/anaplan-api-0.2.9.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/66/03/805da842a37def1d45b6dd8f6dbd508c64e4d645b266c9fb525f48ec9167/monteprediction-1.0.7.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [fast-tradier-client]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [fast-tradier-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_tradier_client-0.3.4.tar.gz tmp/fast_tradier_client-1.0.tar.gz --markdown 20240508/f/fast-tradier-client/0.3.4-1.0/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/c7/b8/8f50b10a365db52ef5fa24ca3fb35bc6a91414346d171fb62de5c8edbae1/pymetasnap-0.31.0.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.49.tar.gz tmp/messages_local-0.0.50.tar.gz --markdown 20240508/m/messages-local/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/46/58/5aff723f900ce4565a2885235ce2fd37774eab8a86d0c39062bb1d981717/esphome-2024.5.0b1.tar.gz
+[2024-05-08 04:13:14] INFO root fetch - processPackages [anaplan-api]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [anaplan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan-api-0.2.8.tar.gz tmp/anaplan-api-0.2.9.tar.gz --markdown 20240508/a/anaplan-api/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240507.tar.gz tmp/iam_actions-1.2.20240508.tar.gz --markdown 20240508/i/iam-actions/1.2.20240507-1.2.20240508/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.6.tar.gz tmp/monteprediction-1.0.7.tar.gz --markdown 20240508/m/monteprediction/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240508/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [pymetasnap]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [pymetasnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetasnap-0.30.2.tar.gz tmp/pymetasnap-0.31.0.tar.gz --markdown 20240508/p/pymetasnap/0.30.2-0.31.0/README.md --exclude *.pyd
+[2024-05-08 04:13:14] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-08 04:13:14] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.4.2.tar.gz tmp/esphome-2024.5.0b1.tar.gz --markdown 20240508/e/esphome/2024.4.2-2024.5.0b1/README.md --exclude *.pyd
+[2024-05-08 04:13:15] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.49.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.50.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-08 04:13:15] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.6.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.7.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-05-08 04:13:15] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-0.3.4.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [fast-tradier-client]: Remove: archive file [/home/abi/fetcher/tmp/fast_tradier_client-1.0.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [fast-tradier-client]: success
+[2024-05-08 04:13:15] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.8.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.9.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [anaplan-api]: success
+[2024-05-08 04:13:15] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.2.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.31.0.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
+[2024-05-08 04:13:15] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-08 04:13:15] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-08 04:13:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240507.tar.gz]
+[2024-05-08 04:13:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240508.tar.gz]
+[2024-05-08 04:13:19] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-08 04:13:28] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.2.tar.gz]
+[2024-05-08 04:13:28] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b1.tar.gz]
+[2024-05-08 04:13:28] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-08 04:13:28] INFO root fetch - main [MainThread]: Store serial: [23107496]
