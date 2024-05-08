@@ -1,10 +1,10 @@
-# Comparing `tmp/qdtrader-0.0.2.tar.gz` & `tmp/qdtrader-0.0.3.tar.gz`
+# Comparing `tmp/Deepurify-2.3.2.tar.gz` & `tmp/Deepurify-2.3.3-py3-none-any.whl.zip`
 
 ## filetype from file(1)
 
 ```diff
 @@ -1 +1 @@
--gzip compressed data, was "qdtrader-0.0.2.tar", last modified: Tue May  7 05:39:41 2024, max compression
+-gzip compressed data, was "Deepurify-2.3.2.tar", last modified: Sat Apr 27 13:27:53 2024, max compression
 +Zip archive data, at least v2.0 to extract, compression method=deflate
 ```
 

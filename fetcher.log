@@ -9467,3 +9467,96 @@
 [2024-05-08 05:32:33] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.3-py3-none-any.whl.zip]
 [2024-05-08 05:32:33] INFO root fetch - main [MainThread]: End processing [qdtrader]: success
 [2024-05-08 05:32:33] INFO root fetch - main [MainThread]: Store serial: [23107963]
+[2024-05-08 05:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107963]
+[2024-05-08 05:34:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qdtrader
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-core
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qdsdk
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatch-rest-api
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dfa
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NorrisUtils
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dlc-run
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Deepurify
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ddmrp-history
+[2024-05-08 05:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-ddmrp-history
+[2024-05-08 05:34:41] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [qdtrader]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [qdsdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/d0/2c/cf7dc73472af0c45270ba0baa1c924ad359e62af6f45a3bc33dc0c0bfee4/NorrisUtils-1.4.1.tar.gz
+[2024-05-08 05:34:41] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: New version: [14.0.1.3.1.dev1] Old Version: [14.0.1.3.0]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [dlc-run]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [dfa]: New version: [4.7.0] Old Version: [4.6.4]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [Deepurify]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-05-08 05:34:41] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/76/e8/e537f0348138b8ee8b76bab7e5d42e2ffa016d6b666f3def357a343fef65/qdtrader-0.0.2.tar.gz
+[2024-05-08 05:34:41] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2024-05-08 05:34:41] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-05-08 05:34:41] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/33/d055b5b161cbccd9d8e8a3cb9b605d5e407ebd9b7c2898e8838f20833ff6/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/70/a8/80a91889dd8e9670e902a7f3316a2aabad24c573c712d979d7b70ba7982d/dlc_run-0.0.1.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dfa]: Downloading https://files.pythonhosted.org/packages/76/91/48c3be148dacb8b520f50e2cfa1c72da6a2899fb5fe781025885482f881e/dfa-4.6.4.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/aa/36/d4328d26d8f80663fbb4df928b6c7e3261be4d621d9b3a1f493f259fd242/Deepurify-2.3.2.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/80/21/1f811e2c9a7ed104ad1f0deb9f5c3e2efd7b8d70b22f78a1252da8de81fe/odoo14_addon_ddmrp_history-14.0.1.3.0-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdsdk]: Downloading https://files.pythonhosted.org/packages/5b/4c/750df7e0f0e9ad7cfd60d5a2e3b8a78127d2c5e92cd19404ca0ec7d271cf/qdsdk-0.0.4.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/e2/d7/b13a185ba157e9d233adaf2969b248b3cd3b7634aeaa1f0fd05b706d9acc/NorrisUtils-1.4.2.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdtrader]: Downloading https://files.pythonhosted.org/packages/da/79/8a2e291917a0523a6195186ae086a007e5cf62872fedd8248f0a4c8aed52/qdtrader-0.0.3-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dlc-run]: Downloading https://files.pythonhosted.org/packages/e4/31/ead90902227ff6116c56c97b50505f7c7fa1176a7eff66d2478b29959d78/dlc_run-0.0.2.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.1.tar.gz tmp/NorrisUtils-1.4.2.tar.gz --markdown 20240508/N/NorrisUtils/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/d0/4b/166c8a6d74a4fb22781dab982b27ce02b469e3ad34a6511097e3c33a51e9/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20240508/h/hatch-rest-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/18/ac/d33066206a2ff3757d8cea133c89ffbb1aa89a5cf4b6c95eda9f88f5d85a/Deepurify-2.3.3-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dfa]: Downloading https://files.pythonhosted.org/packages/2d/b6/2f246824e319bc9e75f915c50829a00697dfb4be17996139467f865dccde/dfa-4.7.0.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdtrader]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdtrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdtrader-0.0.2.tar.gz tmp/qdtrader-0.0.3.tar.gz --markdown 20240508/q/qdtrader/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/0e/25/d9431e30ca6c76ee6b945bdd5beb9c3e5642db11c03d03fadaee6952e848/odoo14_addon_ddmrp_history-14.0.1.3.1.dev1-py3-none-any.whl
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dlc-run]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dlc-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlc_run-0.0.1.tar.gz tmp/dlc_run-0.0.2.tar.gz --markdown 20240508/d/dlc-run/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240508/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-ddmrp-history/16.0.1.1.1-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdsdk]: Downloading https://files.pythonhosted.org/packages/74/6c/17e3a2538e6dc459d62db97df3485b508046b738c2050306a39f255e72ce/qdsdk-0.0.5.tar.gz
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dfa]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [dfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfa-4.6.4.tar.gz tmp/dfa-4.7.0.tar.gz --markdown 20240508/d/dfa/4.6.4-4.7.0/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_history-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_history-14.0.1.3.1.dev1-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-ddmrp-history/14.0.1.3.0-14.0.1.3.1.dev1/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [Deepurify]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [Deepurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deepurify-2.3.2.tar.gz tmp/Deepurify-2.3.3-py3-none-any.whl.zip --markdown 20240508/D/Deepurify/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdsdk]: executing diffoscope
+[2024-05-08 05:34:42] INFO root fetch - processPackages [qdsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdsdk-0.0.4.tar.gz tmp/qdsdk-0.0.5.tar.gz --markdown 20240508/q/qdsdk/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 05:34:43] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.1.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.2.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.2.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [qdtrader]: Remove: archive file [/home/abi/fetcher/tmp/qdtrader-0.0.3.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [qdtrader]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.1.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [dlc-run]: Remove: archive file [/home/abi/fetcher/tmp/dlc_run-0.0.2.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [dlc-run]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_history-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [odoo14-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_history-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-history]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-2.3.2.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-2.3.3-py3-none-any.whl.zip]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [Deepurify]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [dfa]: Remove: archive file [/home/abi/fetcher/tmp/dfa-4.6.4.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [dfa]: Remove: archive file [/home/abi/fetcher/tmp/dfa-4.7.0.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [dfa]: success
+[2024-05-08 05:34:43] INFO root fetch - processPackages [qdsdk]: Remove: archive file [/home/abi/fetcher/tmp/qdsdk-0.0.4.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - processPackages [qdsdk]: Remove: archive file [/home/abi/fetcher/tmp/qdsdk-0.0.5.tar.gz]
+[2024-05-08 05:34:43] INFO root fetch - main [MainThread]: End processing [qdsdk]: success
+[2024-05-08 05:34:44] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-05-08 05:34:44] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-05-08 05:34:44] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-05-08 05:34:44] INFO root fetch - main [MainThread]: Store serial: [23107989]
