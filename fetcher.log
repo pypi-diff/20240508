@@ -23506,3 +23506,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:26:04] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0rc0.tar.gz]
 [2024-05-08 15:26:04] INFO root fetch - main [MainThread]: End processing [zcorepy]: success
 [2024-05-08 15:26:04] INFO root fetch - main [MainThread]: Store serial: [23114121]
+[2024-05-08 15:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114121]
+[2024-05-08 15:28:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ya-business-api
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-version-remla
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SoccerNet
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Files.com
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparv-sbx-ocr-correction-viklofg-sweocr
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cruel
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imodelsx
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyyre
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lib-version-remla]: New version: [0.0.5b0] Old Version: [0.0.4]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lyyre]: New version: [2.5] Old Version: [2.4]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [imodelsx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [cruel]: New version: [1.0.1] Old Version: [0.0.11]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ya-business-api]: New version: [0.1.0rc1] Old Version: [0.1.0rc0]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [SoccerNet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/ec/eb/6f21204742cf99e56244e1dc76139094447387a01ad2017347ae602bb614/lib_version_remla-0.0.4.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/15/ad/7f25d97bd2578e0b57b4848abd027ad28965556d819b74c709d392cf3d41/imodelsx-1.0.4.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/e8/d6/9c2d2cc88666667982658f3f059b591164c8326c9a0397422877de17387b/lyyre-2.4.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [cruel]: Downloading https://files.pythonhosted.org/packages/c7/3d/d1faef71d756b853138b2ede32715bb000b830f77891b3f10cb12af2239a/cruel-0.0.11.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: Downloading https://files.pythonhosted.org/packages/8a/12/6fcbc9d0328cc2c5ff101e4392b1b163a7c8ea04253b11138d77827e4be1/sparv_sbx_ocr_correction_viklofg_sweocr-0.2.3.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [ya-business-api]: Downloading https://files.pythonhosted.org/packages/42/8b/5a29aabef0538b5f228978d782c7866e67747840e076b2b8283deba48f4d/ya_business_api-0.1.0rc0.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/04/da/cd4f5f04680eb54054e0812c6f40dc4eb99180ab175ecde103bc946d747c/SoccerNet-0.1.8.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/55/66/ff1c4adf6519b1eb77980a6afd13b8a76b8f6b418005171eb4c1e54acb34/imodelsx-1.0.5.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [cruel]: Downloading https://files.pythonhosted.org/packages/a5/46/58671357b97f39958210550218bd3ead0380444c544ac836b9466cfe6b59/cruel-1.0.1.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/40/88/57928bd1ad9e278fbaa9abf8352679e2fedbf62dd71788ad8648b046eda2/lyyre-2.5.tar.gz
+[2024-05-08 15:28:13] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/46/ae/ea92bcc1248d7c6d5cfb9fe0dc3646af07d120e21834d2d35a5ea11667a5/lib_version_remla-0.0.5b0.tar.gz
+[2024-05-08 15:28:14] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-05-08 15:28:14] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-1.0.4.tar.gz tmp/imodelsx-1.0.5.tar.gz --markdown 20240508/i/imodelsx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [cruel]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [cruel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruel-0.0.11.tar.gz tmp/cruel-1.0.1.tar.gz --markdown 20240508/c/cruel/0.0.11-1.0.1/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lyyre]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lyyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyre-2.4.tar.gz tmp/lyyre-2.5.tar.gz --markdown 20240508/l/lyyre/2.4-2.5/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lib-version-remla]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lib-version-remla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla-0.0.4.tar.gz tmp/lib_version_remla-0.0.5b0.tar.gz --markdown 20240508/l/lib-version-remla/0.0.4-0.0.5b0/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240508/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [ya-business-api]: Downloading https://files.pythonhosted.org/packages/e1/c4/7cfbaacff76318b1d72f266cf9c7467794f8e40b72d82d79af19197992fa/ya_business_api-0.1.0rc1.tar.gz
+[2024-05-08 15:28:14] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: Downloading https://files.pythonhosted.org/packages/c2/ca/b3e73bea56b2a55fb26239cbf0f49f7af48da1cbd2c50d0ab67890026e4a/sparv_sbx_ocr_correction_viklofg_sweocr-0.3.0.tar.gz
+[2024-05-08 15:28:14] INFO root fetch - processPackages [ya-business-api]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [ya-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ya_business_api-0.1.0rc0.tar.gz tmp/ya_business_api-0.1.0rc1.tar.gz --markdown 20240508/y/ya-business-api/0.1.0rc0-0.1.0rc1/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [SoccerNet]: Downloading https://files.pythonhosted.org/packages/9d/92/72c8d3ee24e644311d9496e6725f9fe9ffd8f9f02dc9b5949b48031da40e/SoccerNet-0.1.9.tar.gz
+[2024-05-08 15:28:14] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparv_sbx_ocr_correction_viklofg_sweocr-0.2.3.tar.gz tmp/sparv_sbx_ocr_correction_viklofg_sweocr-0.3.0.tar.gz --markdown 20240508/s/sparv-sbx-ocr-correction-viklofg-sweocr/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [SoccerNet]: executing diffoscope
+[2024-05-08 15:28:14] INFO root fetch - processPackages [SoccerNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoccerNet-0.1.8.tar.gz tmp/SoccerNet-0.1.9.tar.gz --markdown 20240508/S/SoccerNet/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 15:28:14] INFO root fetch - processPackages [cruel]: Remove: archive file [/home/abi/fetcher/tmp/cruel-0.0.11.tar.gz]
+[2024-05-08 15:28:14] INFO root fetch - processPackages [cruel]: Remove: archive file [/home/abi/fetcher/tmp/cruel-1.0.1.tar.gz]
+[2024-05-08 15:28:14] INFO root fetch - main [MainThread]: End processing [cruel]: success
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.4.tar.gz]
+[2024-05-08 15:28:14] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.5.tar.gz]
+[2024-05-08 15:28:14] INFO root fetch - main [MainThread]: End processing [lyyre]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.4.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.5b0.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [lib-version-remla]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.4.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-1.0.5.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [ya-business-api]: Remove: archive file [/home/abi/fetcher/tmp/ya_business_api-0.1.0rc0.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [ya-business-api]: Remove: archive file [/home/abi/fetcher/tmp/ya_business_api-0.1.0rc1.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [ya-business-api]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.8.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [SoccerNet]: Remove: archive file [/home/abi/fetcher/tmp/SoccerNet-0.1.9.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [SoccerNet]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-05-08 15:28:15] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: Remove: archive file [/home/abi/fetcher/tmp/sparv_sbx_ocr_correction_viklofg_sweocr-0.2.3.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - processPackages [sparv-sbx-ocr-correction-viklofg-sweocr]: Remove: archive file [/home/abi/fetcher/tmp/sparv_sbx_ocr_correction_viklofg_sweocr-0.3.0.tar.gz]
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: End processing [sparv-sbx-ocr-correction-viklofg-sweocr]: success
+[2024-05-08 15:28:15] INFO root fetch - main [MainThread]: Store serial: [23114144]
