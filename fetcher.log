@@ -11226,3 +11226,24 @@
 [2024-05-08 07:30:56] WARNING root fetch - processPackages [vis-analysis-torch]: Skipping, unable to determine old version
 [2024-05-08 07:30:56] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch] error
 [2024-05-08 07:30:56] INFO root fetch - main [MainThread]: Store serial: [23108555]
+[2024-05-08 07:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108555]
+[2024-05-08 07:33:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmesh
+[2024-05-08 07:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flict
+[2024-05-08 07:33:04] INFO root fetch - processPackages [appmesh]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-08 07:33:04] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/0e/e6/d45a6bf4f2f4cbbde523b4934c3c5bc96a7bf91f1c71545bdac670fdecb4/appmesh-0.9.4-py3-none-any.whl
+[2024-05-08 07:33:04] INFO root fetch - processPackages [flict]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-08 07:33:05] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/4e/76/90cc2b780c1c3fd6f5d3a39caa8a83a86ed0b7b652761939f5d2122113f5/flict-1.2.8.tar.gz
+[2024-05-08 07:33:05] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/27/76/e284953ab022c937daeff829453ba8803dfc25fe197ea2f324a8c8069154/appmesh-0.9.5-py3-none-any.whl
+[2024-05-08 07:33:05] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-08 07:33:05] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.9.4-py3-none-any.whl.zip tmp/appmesh-0.9.5-py3-none-any.whl.zip --markdown 20240508/a/appmesh/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-08 07:33:05] INFO root fetch - processPackages [flict]: Downloading https://files.pythonhosted.org/packages/a9/74/a78ab7cd955d94f49bc997961020013dfcdf67f0e94a2031f4c99bfd6b26/flict-1.2.9.tar.gz
+[2024-05-08 07:33:05] INFO root fetch - processPackages [flict]: executing diffoscope
+[2024-05-08 07:33:05] INFO root fetch - processPackages [flict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flict-1.2.8.tar.gz tmp/flict-1.2.9.tar.gz --markdown 20240508/f/flict/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-08 07:33:05] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.4-py3-none-any.whl.zip]
+[2024-05-08 07:33:05] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.9.5-py3-none-any.whl.zip]
+[2024-05-08 07:33:05] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-08 07:33:06] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.2.8.tar.gz]
+[2024-05-08 07:33:06] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.2.9.tar.gz]
+[2024-05-08 07:33:06] INFO root fetch - main [MainThread]: End processing [flict]: success
+[2024-05-08 07:33:06] INFO root fetch - main [MainThread]: Store serial: [23108560]
