@@ -2441,3 +2441,78 @@
 [2024-05-08 02:16:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-08 02:16:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-08 02:16:18] INFO root fetch - main [MainThread]: Store serial: [23105262]
+[2024-05-08 02:18:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105262]
+[2024-05-08 02:18:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.appsync-utils
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-budibase
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merakicat
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Way2DSSAT
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-08 02:18:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [lazysdk]: New version: [0.1.91] Old Version: [0.1.90]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [merakicat]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-08 02:18:26] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/3b/9d/662a835290a8d7d32e3e7a0130d7bd38cb4d161559a8a27193fa0715ef52/lazysdk-0.1.90.tar.gz
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-08 02:18:26] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-08 02:18:26] INFO root fetch - processPackages [merakicat]: Downloading https://files.pythonhosted.org/packages/25/ea/c54328381ba143b9cd7a1021c72dff911f7ec82d9a179c3a08ce545e9759/merakicat-0.2.5.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/16/86/b3cbbcfb1b74988fff82624cea189bce5300b38b72dd7e23f0680b96a95b/way2dssat-0.0.8.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-08 02:18:27] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/9c/ba/6bc5ce5ffd2575368c60da44f1c98e1e67888afa12967d0c9157cae0b0ea/lazysdk-0.1.91.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240508/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240508/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.90.tar.gz tmp/lazysdk-0.1.91.tar.gz --markdown 20240508/l/lazysdk/0.1.90-0.1.91/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/e5/5b/9178bb7bf8264a255e0e64f008ee60b2e5307cd6da212f8919500ffa2108/way2dssat-0.0.9.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [merakicat]: Downloading https://files.pythonhosted.org/packages/e8/51/e61240ba6b3da0fc374ff4bdab958f6e9de2ea9e6ec6b4be3b138b15c89c/merakicat-0.2.6.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.8.tar.gz tmp/way2dssat-0.0.9.tar.gz --markdown 20240508/W/Way2DSSAT/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240508/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [merakicat]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [merakicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merakicat-0.2.5.tar.gz tmp/merakicat-0.2.6.tar.gz --markdown 20240508/m/merakicat/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240508/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240508/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-08 02:18:27] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-08 02:18:27] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.90.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.91.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.8.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.9.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [merakicat]: Remove: archive file [/home/abi/fetcher/tmp/merakicat-0.2.5.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [merakicat]: Remove: archive file [/home/abi/fetcher/tmp/merakicat-0.2.6.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [merakicat]: success
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-08 02:18:28] INFO root fetch - main [MainThread]: Store serial: [23105285]
