@@ -18897,3 +18897,34 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:34:52] INFO root fetch - processPackages [trajectopy-core]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy_core-3.1.0.tar.gz]
 [2024-05-08 12:34:52] INFO root fetch - main [MainThread]: End processing [trajectopy-core]: success
 [2024-05-08 12:34:52] INFO root fetch - main [MainThread]: Store serial: [23112018]
+[2024-05-08 12:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112018]
+[2024-05-08 12:37:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stpyv8
+[2024-05-08 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: savant-rs
+[2024-05-08 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lisflood-utilities
+[2024-05-08 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trajectopy
+[2024-05-08 12:37:01] INFO root fetch - processPackages [trajectopy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-08 12:37:01] INFO root fetch - processPackages [lisflood-utilities]: New version: [0.9] Old Version: [0.8]
+[2024-05-08 12:37:01] INFO root fetch - processPackages [stpyv8]: New version: [12.4.254.15] Old Version: [12.4.254.14]
+[2024-05-08 12:37:01] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/82/d0/23476d8e67eca069fb092ed364aa715aa676a06ddd925465daae8ff4b207/trajectopy-2.0.8.tar.gz
+[2024-05-08 12:37:01] INFO root fetch - processPackages [lisflood-utilities]: Downloading https://files.pythonhosted.org/packages/b2/34/bf68eea851b37b57c44642ad19baebed25324f10515a5ccf7ea977c30ace/lisflood-utilities-0.8.tar.gz
+[2024-05-08 12:37:01] INFO root fetch - processPackages [stpyv8]: Downloading https://files.pythonhosted.org/packages/fb/55/4762e9dea4182956eca018cc46f08bf16096d3b0f7eb9fd62db8e2315727/stpyv8-12.4.254.14-cp39-cp39-win_amd64.whl
+[2024-05-08 12:37:01] INFO root fetch - processPackages [savant-rs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 12:37:01] INFO root fetch - processPackages [trajectopy]: Downloading https://files.pythonhosted.org/packages/9a/fb/132130c7befc16a384cd5c50581f59169dfa013047ceec669b5d898d7bd2/trajectopy-2.0.9.tar.gz
+[2024-05-08 12:37:01] WARNING root fetch - processPackages [stpyv8]: Skipping package: exceeds size limit 13022032>=10485760
+[2024-05-08 12:37:01] INFO root fetch - main [MainThread]: End processing [stpyv8] error
+[2024-05-08 12:37:02] INFO root fetch - processPackages [trajectopy]: executing diffoscope
+[2024-05-08 12:37:02] INFO root fetch - processPackages [trajectopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy-2.0.8.tar.gz tmp/trajectopy-2.0.9.tar.gz --markdown 20240508/t/trajectopy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-08 12:37:02] INFO root fetch - processPackages [lisflood-utilities]: Downloading https://files.pythonhosted.org/packages/5f/2c/bd1a084dc74a65967c1ce6b181f6cea7ab6d3fe27602b7e615c7997e5972/lisflood-utilities-0.9.tar.gz
+[2024-05-08 12:37:02] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/27/7d/692e2bab3a8d72896f5e9f191b48afa977af60164afe8bc141e4dc44d403/savant_rs-0.2.9-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 12:37:02] WARNING root fetch - processPackages [savant-rs]: Skipping package: exceeds size limit 13159013>=10485760
+[2024-05-08 12:37:02] INFO root fetch - main [MainThread]: End processing [savant-rs] error
+[2024-05-08 12:37:02] INFO root fetch - processPackages [lisflood-utilities]: executing diffoscope
+[2024-05-08 12:37:02] INFO root fetch - processPackages [lisflood-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisflood-utilities-0.8.tar.gz tmp/lisflood-utilities-0.9.tar.gz --markdown 20240508/l/lisflood-utilities/0.8-0.9/README.md --exclude *.pyd
+[2024-05-08 12:37:02] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.8.tar.gz]
+[2024-05-08 12:37:02] INFO root fetch - processPackages [trajectopy]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy-2.0.9.tar.gz]
+[2024-05-08 12:37:02] INFO root fetch - main [MainThread]: End processing [trajectopy]: success
+[2024-05-08 12:37:03] INFO root fetch - processPackages [lisflood-utilities]: Remove: archive file [/home/abi/fetcher/tmp/lisflood-utilities-0.8.tar.gz]
+[2024-05-08 12:37:03] INFO root fetch - processPackages [lisflood-utilities]: Remove: archive file [/home/abi/fetcher/tmp/lisflood-utilities-0.9.tar.gz]
+[2024-05-08 12:37:03] INFO root fetch - main [MainThread]: End processing [lisflood-utilities]: success
+[2024-05-08 12:37:03] INFO root fetch - main [MainThread]: Store serial: [23112050]
