@@ -12212,3 +12212,35 @@
 [2024-05-08 08:37:13] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 08:37:13] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 08:37:13] INFO root fetch - main [MainThread]: Store serial: [23109137]
+[2024-05-08 08:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109137]
+[2024-05-08 08:39:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markcli
+[2024-05-08 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netgen-mesher
+[2024-05-08 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ophyd-devices
+[2024-05-08 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmlingua-promptflow
+[2024-05-08 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biomedisa
+[2024-05-08 08:39:22] WARNING root fetch - processPackages [llmlingua-promptflow]: Skipping, unable to determine old version
+[2024-05-08 08:39:22] INFO root fetch - main [MainThread]: End processing [llmlingua-promptflow] error
+[2024-05-08 08:39:22] INFO root fetch - processPackages [ophyd-devices]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 08:39:22] WARNING root fetch - processPackages [biomedisa]: Skipping, unable to determine old version
+[2024-05-08 08:39:22] INFO root fetch - main [MainThread]: End processing [biomedisa] error
+[2024-05-08 08:39:22] INFO root fetch - processPackages [markcli]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 08:39:22] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post34.dev0] Old Version: [6.2.2403]
+[2024-05-08 08:39:22] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/2b/09/1e0a1fc236c9ce64bbf92f29458f9e672c21b97c776e5c9f5d5ae6e23d72/ophyd_devices-0.9.1.tar.gz
+[2024-05-08 08:39:22] INFO root fetch - processPackages [markcli]: Downloading https://files.pythonhosted.org/packages/f2/62/ddea14ebdfc0eb04ec67a6fb75227e167157e9f7405c61c8c106d7d910a6/markcli-0.1.3.tar.gz
+[2024-05-08 08:39:22] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/2a/42/0c6ea128a15d5276bc7e3505790287482b6aca2b1a6e0cdfc8b87f979422/netgen_mesher-6.2.2403-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 08:39:22] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 27948726>=10485760
+[2024-05-08 08:39:22] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 08:39:22] INFO root fetch - processPackages [markcli]: Downloading https://files.pythonhosted.org/packages/8a/da/641ada726e1271b20753eeab0bee6d673f6a840860bb9e996e78f933e339/markcli-0.1.4.tar.gz
+[2024-05-08 08:39:22] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/55/4e/d641ca498a4fba59915a76536e150eb26c82206c4314ac039e51ef8aeae8/ophyd_devices-0.9.2.tar.gz
+[2024-05-08 08:39:22] INFO root fetch - processPackages [markcli]: executing diffoscope
+[2024-05-08 08:39:22] INFO root fetch - processPackages [markcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markcli-0.1.3.tar.gz tmp/markcli-0.1.4.tar.gz --markdown 20240508/m/markcli/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 08:39:22] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-05-08 08:39:22] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-0.9.1.tar.gz tmp/ophyd_devices-0.9.2.tar.gz --markdown 20240508/o/ophyd-devices/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 08:39:23] INFO root fetch - processPackages [markcli]: Remove: archive file [/home/abi/fetcher/tmp/markcli-0.1.3.tar.gz]
+[2024-05-08 08:39:23] INFO root fetch - processPackages [markcli]: Remove: archive file [/home/abi/fetcher/tmp/markcli-0.1.4.tar.gz]
+[2024-05-08 08:39:23] INFO root fetch - main [MainThread]: End processing [markcli]: success
+[2024-05-08 08:39:23] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.1.tar.gz]
+[2024-05-08 08:39:23] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.2.tar.gz]
+[2024-05-08 08:39:23] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-05-08 08:39:23] INFO root fetch - main [MainThread]: Store serial: [23109157]
