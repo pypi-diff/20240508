@@ -16796,3 +16796,81 @@
 [2024-05-08 11:18:53] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-7.1.0-py3-none-any.whl.zip]
 [2024-05-08 11:18:53] INFO root fetch - main [MainThread]: End processing [odxtools]: success
 [2024-05-08 11:18:53] INFO root fetch - main [MainThread]: Store serial: [23111227]
+[2024-05-08 11:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111227]
+[2024-05-08 11:21:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipha-geo-solutions
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onestop-opensign
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-labs-remorph
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-account-product-run-fifo-hook
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-cost-price-avco-sync
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: literategit
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-labs-lsql
+[2024-05-08 11:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: babelfont
+[2024-05-08 11:21:02] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [literategit]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [databricks-labs-remorph]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [databricks-labs-lsql]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: New version: [15.0.1.0.3] Old Version: [15.0.1.0.2.3]
+[2024-05-08 11:21:02] WARNING root fetch - processPackages [onestop-opensign]: Skipping, unable to determine old version
+[2024-05-08 11:21:02] INFO root fetch - main [MainThread]: End processing [onestop-opensign] error
+[2024-05-08 11:21:02] INFO root fetch - processPackages [babelfont]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-05-08 11:21:02] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/64/2d/62b905eb3ae4ee0866c7db05abdb98bcff67f7ce7ef6e9b777d65032d383/aipha_geo_solutions-0.9.8.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [literategit]: Downloading https://files.pythonhosted.org/packages/81/f4/19a33cccbd2b0b2d2c1d00a09e706358b332735efe918a3233fd920d0f6b/literategit-0.4.6.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: Downloading https://files.pythonhosted.org/packages/6b/04/91841b06103885968c1a5a632018501f527fa95a07c82f30049cf75b44f1/odoo_addon_product_cost_price_avco_sync-15.0.1.0.2.3-py3-none-any.whl
+[2024-05-08 11:21:02] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/e8/7b/7deac4c980ac68318ca0ac6dbbc30b5e85577ad08905258f379e9388c36a/aipha_geo_solutions-0.9.9.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [databricks-labs-lsql]: Downloading https://files.pythonhosted.org/packages/87/d2/6a80669684ab1a4f01e2efe066190b5bc465c57d5cf5e3f2eb8ef6db3ceb/databricks_labs_lsql-0.4.2.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [databricks-labs-remorph]: Downloading https://files.pythonhosted.org/packages/b1/1d/b050c1aa7827842fcbf2e0db2d5fd76602e22518f22762945d8c9202acde/databricks_labs_remorph-0.1.6.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/0c/0a/ebfdd62a2fb6a8144ecc87112c6d25dcd09a340f3098a2759964c4b617db/babelfont-3.0.4.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: Downloading https://files.pythonhosted.org/packages/b8/70/6f07f833b1146a1178e7e3fe22cad3862685f587b0f5f93f3bb3686b1930/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-08 11:21:02] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:21:02] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2024-05-08 11:21:02] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.9.8.tar.gz tmp/aipha_geo_solutions-0.9.9.tar.gz --markdown 20240508/a/aipha-geo-solutions/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [literategit]: Downloading https://files.pythonhosted.org/packages/bd/1d/d8b406bb72174e3869c3d3242aec9ebd435a7b38cc9c4b0a34edd2bdf2b7/literategit-0.4.7.tar.gz
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-remorph]: Downloading https://files.pythonhosted.org/packages/a9/e9/be3836fd752789de37d27c92049bb591ed2f913a42205d8968c85d6c7ef3/databricks_labs_remorph-0.1.7.tar.gz
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-lsql]: Downloading https://files.pythonhosted.org/packages/d9/06/2fdb6de570d46bfa068845508725abbb58a0eebf857e4d1e6063b9c9853d/databricks_labs_lsql-0.4.3.tar.gz
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: Downloading https://files.pythonhosted.org/packages/10/33/29eab6c3b1a066a61fd0dce9997cb7d30949aadb77b742f7139ea8b958c4/odoo_addon_product_cost_price_avco_sync-15.0.1.0.3-py3-none-any.whl
+[2024-05-08 11:21:03] INFO root fetch - processPackages [babelfont]: Downloading https://files.pythonhosted.org/packages/22/df/ba115364d511b1eb9ea1808d7a7e89536f202c9585970750468849bf1ec2/babelfont-3.0.5.tar.gz
+[2024-05-08 11:21:03] INFO root fetch - processPackages [literategit]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [literategit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literategit-0.4.6.tar.gz tmp/literategit-0.4.7.tar.gz --markdown 20240508/l/literategit/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: Downloading https://files.pythonhosted.org/packages/b2/14/1a2fd546f10e84aee593fc0dd09fdd206c6bcb9f7e5f0e9c1368da4be0e2/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-remorph]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-remorph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_remorph-0.1.6.tar.gz tmp/databricks_labs_remorph-0.1.7.tar.gz --markdown 20240508/d/databricks-labs-remorph/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_cost_price_avco_sync-15.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_product_cost_price_avco_sync-15.0.1.0.3-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-product-cost-price-avco-sync/15.0.1.0.2.3-15.0.1.0.3/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-lsql]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [databricks-labs-lsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_lsql-0.4.2.tar.gz tmp/databricks_labs_lsql-0.4.3.tar.gz --markdown 20240508/d/databricks-labs-lsql/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-stock-account-product-run-fifo-hook/16.0.1.0.0.4-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [babelfont]: executing diffoscope
+[2024-05-08 11:21:03] INFO root fetch - processPackages [babelfont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelfont-3.0.4.tar.gz tmp/babelfont-3.0.5.tar.gz --markdown 20240508/b/babelfont/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-05-08 11:21:03] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.8.tar.gz]
+[2024-05-08 11:21:03] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.9.tar.gz]
+[2024-05-08 11:21:03] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2024-05-08 11:21:03] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:21:03] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:21:03] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:21:04] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-08 11:21:04] INFO root fetch - processPackages [odoo-addon-stock-account-product-run-fifo-hook]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_account_product_run_fifo_hook-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-08 11:21:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-account-product-run-fifo-hook]: success
+[2024-05-08 11:21:04] INFO root fetch - processPackages [literategit]: Remove: archive file [/home/abi/fetcher/tmp/literategit-0.4.6.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - processPackages [literategit]: Remove: archive file [/home/abi/fetcher/tmp/literategit-0.4.7.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - main [MainThread]: End processing [literategit]: success
+[2024-05-08 11:21:04] INFO root fetch - processPackages [databricks-labs-remorph]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_remorph-0.1.6.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - processPackages [databricks-labs-remorph]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_remorph-0.1.7.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - main [MainThread]: End processing [databricks-labs-remorph]: success
+[2024-05-08 11:21:04] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_price_avco_sync-15.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-08 11:21:04] INFO root fetch - processPackages [odoo-addon-product-cost-price-avco-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_price_avco_sync-15.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-08 11:21:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-cost-price-avco-sync]: success
+[2024-05-08 11:21:04] INFO root fetch - processPackages [databricks-labs-lsql]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_lsql-0.4.2.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - processPackages [databricks-labs-lsql]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_lsql-0.4.3.tar.gz]
+[2024-05-08 11:21:04] INFO root fetch - main [MainThread]: End processing [databricks-labs-lsql]: success
+[2024-05-08 11:21:05] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.4.tar.gz]
+[2024-05-08 11:21:05] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.5.tar.gz]
+[2024-05-08 11:21:05] INFO root fetch - main [MainThread]: End processing [babelfont]: success
+[2024-05-08 11:21:05] INFO root fetch - main [MainThread]: Store serial: [23111256]
