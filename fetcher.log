@@ -23174,3 +23174,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:17:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.8-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-08 15:17:09] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-08 15:17:09] INFO root fetch - main [MainThread]: Store serial: [23113933]
+[2024-05-08 15:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113933]
+[2024-05-08 15:19:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: confhub
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juice-segmentation
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nopecha
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aleph-message
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: insolver
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-micro
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TrialPy3
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flash-amr-tools
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syntho-cli
+[2024-05-08 15:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cruel
+[2024-05-08 15:19:24] WARNING root fetch - processPackages [confhub]: Skipping, unable to determine old version
+[2024-05-08 15:19:24] INFO root fetch - processPackages [confhub]: Start processing: bastet
+[2024-05-08 15:19:24] INFO root fetch - main [MainThread]: End processing [confhub] error
+[2024-05-08 15:19:24] INFO root fetch - processPackages [cruel]: New version: [1.0.1] Old Version: [0.0.1]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [nopecha]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 15:19:24] WARNING root fetch - processPackages [TrialPy3]: Skipping, unable to determine old version
+[2024-05-08 15:19:24] INFO root fetch - main [MainThread]: End processing [TrialPy3] error
+[2024-05-08 15:19:24] INFO root fetch - processPackages [juice-segmentation]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [insolver]: New version: [0.4.dev4] Old Version: [0.4.dev3]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [flash-amr-tools]: New version: [1.1.1] Old Version: [1.1.0a1]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [syntho-cli]: New version: [1.7.0b1] Old Version: [1.7.0a1]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [aleph-message]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [bastet]: New version: [0.1.1] Old Version: [0.1.0.dev1]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240507161559] Old Version: [0.dev20240503152239]
+[2024-05-08 15:19:24] INFO root fetch - processPackages [nopecha]: Downloading https://files.pythonhosted.org/packages/43/d4/23a002be19efa951356fa032dad7a3e1ba92365506d8deb08eded4df2b9b/nopecha-1.0.8.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [cruel]: Downloading https://files.pythonhosted.org/packages/eb/2a/1feac40818b78ac044dda88a6dea006595174ecad1b3b2cfef0a71336449/cruel-0.0.1.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [flash-amr-tools]: Downloading https://files.pythonhosted.org/packages/6c/1c/c98a7882ad58db8ae242661cf29d8dcdaad6a10a06be28bcc58a6169904a/flash_amr_tools-1.1.0a1.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [juice-segmentation]: Downloading https://files.pythonhosted.org/packages/86/fc/3d0e70ee0bfb08a3e1efb64ecefb769c72ba5aaf113cca8dfc2f7a97a860/juice_segmentation-0.6.6-py3-none-any.whl
+[2024-05-08 15:19:24] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/60/82/b3004cd0d86ee1bba9c62e162849c26d926afad5114d10328f55223af093/aleph-message-0.4.4.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [insolver]: Downloading https://files.pythonhosted.org/packages/47/99/499c4a1a0124e6f98165ebc1238e4f0a43890c33a524fc6f00a9eaf56dc6/insolver-0.4.dev3.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/c7/d6/d5c82d8b8cc9ff41896003094b7432b4887b61dd1c31d2a62cf2eab17fbf/tflite_micro-0.dev20240503152239-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-08 15:19:24] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/8c/7c/0665afa803e540419a7c718f8f3ccac8b41e400c51158c5194d774612d00/syntho-cli-1.7.0a1.tar.gz
+[2024-05-08 15:19:24] INFO root fetch - processPackages [bastet]: Downloading https://files.pythonhosted.org/packages/a0/9f/3fce51bbd543a4b8a0c4c110640ed893471065c8008c2c05333312fd18bd/bastet-0.1.0.dev1.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [flash-amr-tools]: Downloading https://files.pythonhosted.org/packages/79/23/077b7214b5c16800bd7b29a1a06e41cade199560e8000c5391026fd45bbc/flash_amr_tools-1.1.1.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [cruel]: Downloading https://files.pythonhosted.org/packages/a5/46/58671357b97f39958210550218bd3ead0380444c544ac836b9466cfe6b59/cruel-1.0.1.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/02/8f/622b186d4e7720642cd28c586e025c913ff985dfd196c2e1ecdc69872da2/aleph-message-0.4.5.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [nopecha]: Downloading https://files.pythonhosted.org/packages/4c/cc/0d6c53e14ef6909b4aa674bf7c91ec04fa6eca53e1c32944e9db0c76f4c9/nopecha-1.0.9.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [juice-segmentation]: Downloading https://files.pythonhosted.org/packages/d8/b9/1c3577bbee53a5d73e8b62dfd37938f38929d2fe80db9317e5f020368207/juice_segmentation-0.6.7-py3-none-any.whl
+[2024-05-08 15:19:25] INFO root fetch - processPackages [flash-amr-tools]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [flash-amr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_amr_tools-1.1.0a1.tar.gz tmp/flash_amr_tools-1.1.1.tar.gz --markdown 20240508/f/flash-amr-tools/1.1.0a1-1.1.1/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [cruel]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [cruel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruel-0.0.1.tar.gz tmp/cruel-1.0.1.tar.gz --markdown 20240508/c/cruel/0.0.1-1.0.1/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [bastet]: Downloading https://files.pythonhosted.org/packages/2c/1e/ddb196d116c7effb0d5ae9668560915fe0bd55315cda1079a58ee9862270/bastet-0.1.1.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/50/bc/9fd2524f28d43f059dbffc849baadb7333daebf58b221c2ed893a3e89821/tflite_micro-0.dev20240507161559-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-08 15:19:25] INFO root fetch - processPackages [insolver]: Downloading https://files.pythonhosted.org/packages/2c/51/94d7bac203242eeb3eda0258254ad5fa2f39d3c9016a667e9a6d17970794/insolver-0.4.dev4.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [aleph-message]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [aleph-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-message-0.4.4.tar.gz tmp/aleph-message-0.4.5.tar.gz --markdown 20240508/a/aleph-message/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [bastet]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [bastet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bastet-0.1.0.dev1.tar.gz tmp/bastet-0.1.1.tar.gz --markdown 20240508/b/bastet/0.1.0.dev1-0.1.1/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/c8/2d/b6a4b24e2103202ed59d324434746802cd30fb965ca3ca6b49e94abe4fb7/syntho-cli-1.7.0b1.tar.gz
+[2024-05-08 15:19:25] INFO root fetch - processPackages [nopecha]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [nopecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopecha-1.0.8.tar.gz tmp/nopecha-1.0.9.tar.gz --markdown 20240508/n/nopecha/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [juice-segmentation]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [juice-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juice_segmentation-0.6.6-py3-none-any.whl.zip tmp/juice_segmentation-0.6.7-py3-none-any.whl.zip --markdown 20240508/j/juice-segmentation/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [insolver]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [insolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insolver-0.4.dev3.tar.gz tmp/insolver-0.4.dev4.tar.gz --markdown 20240508/i/insolver/0.4.dev3-0.4.dev4/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240503152239-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240507161559-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240508/t/tflite-micro/0.dev20240503152239-0.dev20240507161559/README.md --exclude *.pyd
+[2024-05-08 15:19:25] INFO root fetch - processPackages [syntho-cli]: executing diffoscope
+[2024-05-08 15:19:25] INFO root fetch - processPackages [syntho-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntho-cli-1.7.0a1.tar.gz tmp/syntho-cli-1.7.0b1.tar.gz --markdown 20240508/s/syntho-cli/1.7.0a1-1.7.0b1/README.md --exclude *.pyd
+[2024-05-08 15:19:26] INFO root fetch - processPackages [cruel]: Remove: archive file [/home/abi/fetcher/tmp/cruel-0.0.1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [cruel]: Remove: archive file [/home/abi/fetcher/tmp/cruel-1.0.1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [cruel]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [aleph-message]: Remove: archive file [/home/abi/fetcher/tmp/aleph-message-0.4.4.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [aleph-message]: Remove: archive file [/home/abi/fetcher/tmp/aleph-message-0.4.5.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [aleph-message]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [bastet]: Remove: archive file [/home/abi/fetcher/tmp/bastet-0.1.0.dev1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [bastet]: Remove: archive file [/home/abi/fetcher/tmp/bastet-0.1.1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [bastet]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [nopecha]: Remove: archive file [/home/abi/fetcher/tmp/nopecha-1.0.8.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [nopecha]: Remove: archive file [/home/abi/fetcher/tmp/nopecha-1.0.9.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [nopecha]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [flash-amr-tools]: Remove: archive file [/home/abi/fetcher/tmp/flash_amr_tools-1.1.0a1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [flash-amr-tools]: Remove: archive file [/home/abi/fetcher/tmp/flash_amr_tools-1.1.1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [flash-amr-tools]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240503152239-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240507161559-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-08 15:19:26] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0a1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0b1.tar.gz]
+[2024-05-08 15:19:26] INFO root fetch - main [MainThread]: End processing [syntho-cli]: success
+[2024-05-08 15:19:27] INFO root fetch - processPackages [insolver]: Remove: archive file [/home/abi/fetcher/tmp/insolver-0.4.dev3.tar.gz]
+[2024-05-08 15:19:27] INFO root fetch - processPackages [insolver]: Remove: archive file [/home/abi/fetcher/tmp/insolver-0.4.dev4.tar.gz]
+[2024-05-08 15:19:27] INFO root fetch - main [MainThread]: End processing [insolver]: success
+[2024-05-08 15:19:27] INFO root fetch - processPackages [juice-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/juice_segmentation-0.6.6-py3-none-any.whl.zip]
+[2024-05-08 15:19:27] INFO root fetch - processPackages [juice-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/juice_segmentation-0.6.7-py3-none-any.whl.zip]
+[2024-05-08 15:19:27] INFO root fetch - main [MainThread]: End processing [juice-segmentation]: success
+[2024-05-08 15:19:27] INFO root fetch - main [MainThread]: Store serial: [23114016]
