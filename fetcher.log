@@ -2885,3 +2885,21 @@
 [2024-05-08 02:37:43] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
 [2024-05-08 02:37:43] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
 [2024-05-08 02:37:43] INFO root fetch - main [MainThread]: Store serial: [23105497]
+[2024-05-08 02:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105497]
+[2024-05-08 02:39:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 02:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: regretablez
+[2024-05-08 02:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: research-framework
+[2024-05-08 02:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auroris
+[2024-05-08 02:39:52] INFO root fetch - processPackages [research-framework]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-08 02:39:52] INFO root fetch - processPackages [research-framework]: Downloading https://files.pythonhosted.org/packages/7a/65/b1f07195ef504fd4f5e36f7c99917efe96440202713bc933c7bc93c40ca8/research_framework-0.2.4.tar.gz
+[2024-05-08 02:39:52] WARNING root fetch - processPackages [auroris]: Skipping, unable to determine old version
+[2024-05-08 02:39:52] INFO root fetch - main [MainThread]: End processing [auroris] error
+[2024-05-08 02:39:52] WARNING root fetch - processPackages [regretablez]: Skipping, unable to determine old version
+[2024-05-08 02:39:52] INFO root fetch - main [MainThread]: End processing [regretablez] error
+[2024-05-08 02:39:52] INFO root fetch - processPackages [research-framework]: Downloading https://files.pythonhosted.org/packages/a5/5c/755a7ef5ec5c1b5506bb84cbc7442989c7fa8ee521adae3731b579166f66/research_framework-0.2.5.tar.gz
+[2024-05-08 02:39:52] INFO root fetch - processPackages [research-framework]: executing diffoscope
+[2024-05-08 02:39:52] INFO root fetch - processPackages [research-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_framework-0.2.4.tar.gz tmp/research_framework-0.2.5.tar.gz --markdown 20240508/r/research-framework/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-08 02:39:53] INFO root fetch - processPackages [research-framework]: Remove: archive file [/home/abi/fetcher/tmp/research_framework-0.2.4.tar.gz]
+[2024-05-08 02:39:53] INFO root fetch - processPackages [research-framework]: Remove: archive file [/home/abi/fetcher/tmp/research_framework-0.2.5.tar.gz]
+[2024-05-08 02:39:53] INFO root fetch - main [MainThread]: End processing [research-framework]: success
+[2024-05-08 02:39:53] INFO root fetch - main [MainThread]: Store serial: [23105509]
