@@ -20704,3 +20704,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:38:46] INFO root fetch - processPackages [mercury]: Remove: archive file [/home/abi/fetcher/tmp/mercury-2.4.1.tar.gz]
 [2024-05-08 13:38:46] INFO root fetch - main [MainThread]: End processing [mercury]: success
 [2024-05-08 13:38:46] INFO root fetch - main [MainThread]: Store serial: [23112779]
+[2024-05-08 13:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112779]
+[2024-05-08 13:40:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcnodes-numpy
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ydf
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlalchemy-multilingual
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.56] Old Version: [0.1.55]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.7] Old Version: [2024.5.6]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240508104758] Old Version: [3.4.1.dev20240508084944]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ydf]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d9/8c/725a0ffb05f0ee977f3b0d5a92da8421d55b091782469b4bfdda79458a6e/torchserve_nightly-2024.5.6-py3-none-any.whl
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.8] Old Version: [2024.5.7]
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/47/80/9ead9b82da26709f4054db1b5bbca223c6fb27c51a13db3bcebbc6c1bded/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl
+[2024-05-08 13:40:55] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/c1/2b/ccdb2096d120334ec340fcd704c73b2be7e8ed33652ade691251f01cdf8a/funcnodes_numpy-0.1.55.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fb/f5/275a3cdc98097dec6fbe6c2fe30a37965a6a659599c47da613bc2503d82a/localstack_core-3.4.1.dev20240508084944.tar.gz
+[2024-05-08 13:40:55] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332942>=10485760
+[2024-05-08 13:40:55] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-08 13:40:55] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [ydf]: Downloading https://files.pythonhosted.org/packages/5b/af/e73cb3cfa216aaac86cb2d1eed9313e5d72a504c4146dfc7971a5805f90f/ydf-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/40/c7/1b7daee0540f5dfbff35ccf1a37e590f7bb40c74eb37c7122616f4be28da/torch_workflow_archiver_nightly-2024.5.7-py3-none-any.whl
+[2024-05-08 13:40:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/19/d8/20c295c1a97649f9ee3bd2a2f9e551a8b6151c0048de0ce4785060ff7320/funcnodes_numpy-0.1.56.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-08 13:40:55] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240508/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/0e/64/e817157b51eb7e736b059bbb1310f8ac0dd569620c4e9b314893752496f9/torch_model_archiver_nightly-2024.5.7-py3-none-any.whl
+[2024-05-08 13:40:55] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-05-08 13:40:55] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.55.tar.gz tmp/funcnodes_numpy-0.1.56.tar.gz --markdown 20240508/f/funcnodes-numpy/0.1.55-0.1.56/README.md --exclude *.pyd
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.7-py3-none-any.whl.zip --markdown 20240508/t/torch-model-archiver-nightly/2024.5.6-2024.5.7/README.md --exclude *.pyd
+[2024-05-08 13:40:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d1/af/868932c6212a6ee349e60ee2de0d6220384998b5bd1401827cb6e7e401d7/localstack_core-3.4.1.dev20240508104758.tar.gz
+[2024-05-08 13:40:55] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-08 13:40:56] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip --markdown 20240508/t/torch-workflow-archiver-nightly/2024.5.7-2024.5.8/README.md --exclude *.pyd
+[2024-05-08 13:40:56] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-08 13:40:56] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240508/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-08 13:40:56] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-08 13:40:56] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240508084944.tar.gz tmp/localstack_core-3.4.1.dev20240508104758.tar.gz --markdown 20240508/l/localstack-core/3.4.1.dev20240508084944-3.4.1.dev20240508104758/README.md --exclude *.pyd
+[2024-05-08 13:40:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-08 13:40:56] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-08 13:40:56] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.6-py3-none-any.whl.zip]
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.7-py3-none-any.whl.zip]
+[2024-05-08 13:40:56] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-08 13:40:56] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.55.tar.gz]
+[2024-05-08 13:40:56] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.56.tar.gz]
+[2024-05-08 13:40:56] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.7-py3-none-any.whl.zip]
+[2024-05-08 13:40:56] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-08 13:40:56] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-08 13:40:57] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-08 13:40:57] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-08 13:40:57] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-08 13:40:57] INFO root fetch - processPackages [ydf]: Downloading https://files.pythonhosted.org/packages/3a/69/cb662cd60c4a33dd163586f804a9b8b302ccb8ccc0a22b8a88fa398c3753/ydf-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 13:40:58] INFO root fetch - processPackages [ydf]: executing diffoscope
+[2024-05-08 13:40:58] INFO root fetch - processPackages [ydf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydf-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ydf-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240508/y/ydf/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 13:41:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508084944.tar.gz]
+[2024-05-08 13:41:00] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508104758.tar.gz]
+[2024-05-08 13:41:00] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-08 13:43:18] INFO root fetch - processPackages [ydf]: Remove: archive file [/home/abi/fetcher/tmp/ydf-0.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 13:43:18] INFO root fetch - processPackages [ydf]: Remove: archive file [/home/abi/fetcher/tmp/ydf-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 13:43:18] INFO root fetch - main [MainThread]: End processing [ydf]: success
+[2024-05-08 13:43:18] INFO root fetch - main [MainThread]: Store serial: [23112803]
