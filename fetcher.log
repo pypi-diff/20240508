@@ -21807,3 +21807,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:30:14] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-2.1.8.tar.gz]
 [2024-05-08 14:30:14] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
 [2024-05-08 14:30:14] INFO root fetch - main [MainThread]: Store serial: [23113240]
+[2024-05-08 14:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113240]
+[2024-05-08 14:32:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skilleter-thingy
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imseqvis
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poemai-utils
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liblaf-cook
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opennyai
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opencf
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raga-testing-platform
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-intel
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-intel
+[2024-05-08 14:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gianna
+[2024-05-08 14:32:23] INFO root fetch - processPackages [imseqvis]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.35] Old Version: [0.0.34]
+[2024-05-08 14:32:23] WARNING root fetch - processPackages [gianna]: Skipping, unable to determine old version
+[2024-05-08 14:32:23] INFO root fetch - main [MainThread]: End processing [gianna] error
+[2024-05-08 14:32:23] INFO root fetch - processPackages [opencf]: New version: [0.3.1a0] Old Version: [0.3.1]
+[2024-05-08 14:32:23] WARNING root fetch - processPackages [liblaf-cook]: Skipping, unable to determine old version
+[2024-05-08 14:32:23] INFO root fetch - main [MainThread]: End processing [liblaf-cook] error
+[2024-05-08 14:32:23] INFO root fetch - processPackages [opencf]: Downloading https://files.pythonhosted.org/packages/6f/f2/f961441904a4e37b163629449bdc07af629feb0e566da9d4bfca0bb84876/opencf-0.3.1.tar.gz
+[2024-05-08 14:32:23] INFO root fetch - processPackages [opennyai]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [poemai-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240508] Old Version: [2.17.0.dev20240507]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240508] Old Version: [2.17.0.dev20240507]
+[2024-05-08 14:32:23] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/a4/84/ab42340dc069493e73536dedb89d81a96be657e8207dbdb2dc4829724c2b/skilleter_thingy-0.0.34.tar.gz
+[2024-05-08 14:32:23] INFO root fetch - processPackages [imseqvis]: Downloading https://files.pythonhosted.org/packages/07/b2/e16a2920bf186bbc3d73c5b5120e01a75632ca8856361e6e77b533ca347d/imseqvis-0.2.3.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a3/52/963f6e21508a31d101552769a70b07a8fc562d350fc36a1c93472950205f/tf_nightly_intel-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opencf]: Downloading https://files.pythonhosted.org/packages/28/e3/3de13d07015f10ebf8c6fd3dfa010a8c30d5a9d196006690d09ef61b70b7/opencf-0.3.1a0.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a3/52/963f6e21508a31d101552769a70b07a8fc562d350fc36a1c93472950205f/tf_nightly_intel-2.17.0.dev20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 14:32:24] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/40/7d/bec73ed5647e5dce646f4df9b05a20febf61fa9e9bad73c908212112b83f/poemai-utils-0.0.8.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opennyai]: Downloading https://files.pythonhosted.org/packages/63/84/2007739e2f6027a461662e913dbfd60afca1f5cb59a6ce0187eba8674128/opennyai-0.0.12.tar.gz
+[2024-05-08 14:32:24] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213091759>=10485760
+[2024-05-08 14:32:24] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-08 14:32:24] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-05-08 14:32:24] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213091759>=10485760
+[2024-05-08 14:32:24] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-08 14:32:24] INFO root fetch - processPackages [imseqvis]: Downloading https://files.pythonhosted.org/packages/ed/e4/f3c1e0817751729fe6fa881d23081212e2e21083ff3562f7ed9a7fc502ba/imseqvis-0.2.4.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opencf]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opencf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencf-0.3.1.tar.gz tmp/opencf-0.3.1a0.tar.gz --markdown 20240508/o/opencf/0.3.1-0.3.1a0/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [imseqvis]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [imseqvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imseqvis-0.2.3.tar.gz tmp/imseqvis-0.2.4.tar.gz --markdown 20240508/i/imseqvis/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/e8/1e/0e29e2301791b02d42182f11f3ead44e3bd0fe04292bcbc0285ec0d3f823/skilleter_thingy-0.0.35.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.34.tar.gz tmp/skilleter_thingy-0.0.35.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.34-0.0.35/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opennyai]: Downloading https://files.pythonhosted.org/packages/ab/75/5a6a1f1a1d1f1ce748938c5cd8a817f1f7a0eb278f1b3b664ec03c8426e6/opennyai-0.0.13.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [poemai-utils]: Downloading https://files.pythonhosted.org/packages/f6/15/bc347c47a908ad17496455eaa95f3ff62e5d8cf8e7281a00685aa1daeef7/poemai-utils-0.0.9.tar.gz
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opennyai]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opennyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opennyai-0.0.12.tar.gz tmp/opennyai-0.0.13.tar.gz --markdown 20240508/o/opennyai/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240508/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [poemai-utils]: executing diffoscope
+[2024-05-08 14:32:24] INFO root fetch - processPackages [poemai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poemai-utils-0.0.8.tar.gz tmp/poemai-utils-0.0.9.tar.gz --markdown 20240508/p/poemai-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opencf]: Remove: archive file [/home/abi/fetcher/tmp/opencf-0.3.1.tar.gz]
+[2024-05-08 14:32:24] INFO root fetch - processPackages [opencf]: Remove: archive file [/home/abi/fetcher/tmp/opencf-0.3.1a0.tar.gz]
+[2024-05-08 14:32:24] INFO root fetch - main [MainThread]: End processing [opencf]: success
+[2024-05-08 14:32:24] INFO root fetch - processPackages [imseqvis]: Remove: archive file [/home/abi/fetcher/tmp/imseqvis-0.2.3.tar.gz]
+[2024-05-08 14:32:24] INFO root fetch - processPackages [imseqvis]: Remove: archive file [/home/abi/fetcher/tmp/imseqvis-0.2.4.tar.gz]
+[2024-05-08 14:32:24] INFO root fetch - main [MainThread]: End processing [imseqvis]: success
+[2024-05-08 14:32:25] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.34.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.35.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:32:25] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-05-08 14:32:25] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.8.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - processPackages [poemai-utils]: Remove: archive file [/home/abi/fetcher/tmp/poemai-utils-0.0.9.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - main [MainThread]: End processing [poemai-utils]: success
+[2024-05-08 14:32:25] INFO root fetch - processPackages [opennyai]: Remove: archive file [/home/abi/fetcher/tmp/opennyai-0.0.12.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - processPackages [opennyai]: Remove: archive file [/home/abi/fetcher/tmp/opennyai-0.0.13.tar.gz]
+[2024-05-08 14:32:25] INFO root fetch - main [MainThread]: End processing [opennyai]: success
+[2024-05-08 14:32:25] INFO root fetch - main [MainThread]: Store serial: [23113284]
