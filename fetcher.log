@@ -19023,3 +19023,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:41:25] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
 [2024-05-08 12:41:25] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
 [2024-05-08 12:41:25] INFO root fetch - main [MainThread]: Store serial: [23112086]
+[2024-05-08 12:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112086]
+[2024-05-08 12:43:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-httptesting
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omop
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safeheron-api-sdk-python
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-iris
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyes-common
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eyes-images
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyes-robotframework
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-selenium
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: core-universal
+[2024-05-08 12:43:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eyes-playwright
+[2024-05-08 12:43:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-robotframework]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-common]: New version: [5.27.7] Old Version: [5.27.6]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/ce/c2/428e252a3a150042a691ce3718c68092ca7682a675c9d60486de5545bf9a/safeheron_api_sdk_python-1.0.3.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [pytest-httptesting]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-images]: New version: [5.23.9] Old Version: [5.23.8]
+[2024-05-08 12:43:34] WARNING root fetch - processPackages [omop]: Skipping, unable to determine old version
+[2024-05-08 12:43:34] INFO root fetch - processPackages [omop]: Start processing: edx-enterprise
+[2024-05-08 12:43:34] INFO root fetch - main [MainThread]: End processing [omop] error
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-playwright]: New version: [5.25.7] Old Version: [5.25.6]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [core-universal]: New version: [4.9.1] Old Version: [4.8.0]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-selenium]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/8f/07/16bad5d6312d4ecba4288a79afb17dc3e13da50304c95beff7cdf51b2371/eyes_robotframework-5.8.1-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/ba/d9/e34a8bb194595f718c1a1d587cae1ded38aedf0e0f606a05b5b2ef9626d4/eyes_common-5.27.6-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [pytest-httptesting]: Downloading https://files.pythonhosted.org/packages/ad/86/5088fc785ce1bd61bd830e75206e935c8c1beae678d58ba560575a3370b7/pytest_httptesting-0.6.0.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/0e/bc/374be9797ee9d5b1dc7ac9c25b82eb794fe7aa4f501bed2b3e7552586b51/eyes_images-5.23.8-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/fd/df/0e5a8fb3dd2af98a55fa812ffe5542bbd496482fbd0daa338870f4f7e4af/core_universal-4.8.0-py2.py3-none-win_amd64.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/ce/26/457d40e82171dcfe45eda1b142a903be4aeb73e0295cf4cfb05aa6987ce4/eyes_selenium-5.8.0.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/fd/e6/e49dbd730753c9c80ad1691af571255fa3a8e5e7ffcc3a130023bc75770e/eyes_playwright-5.25.6-py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/69/34/989e57ba8bc5675838c5bbbac3ff54a9d780e54a8a0ab1d7c3a3e8130397/safeheron_api_sdk_python-1.0.4.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2024-05-08 12:43:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-08 12:43:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.0.3.tar.gz tmp/safeheron_api_sdk_python-1.0.4.tar.gz --markdown 20240508/s/safeheron-api-sdk-python/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/40/cd/befa1ed0e10992e7957c319d39d71b391cde687201b8f906018b7f1e3c20/eyes_robotframework-5.9.0-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2024-05-08 12:43:34] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20240508/s/sqlalchemy-iris/0.8.1b1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/38/21/f30445655987b0537647ec58d3602dd5f2959e6302b8b78852420c14f5b5/eyes_common-5.27.7-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/61/28/c8c1c84f56fa9fe191ac4ac4a2749e2e4dc8dbbe9774950fc72d27e2ca33/eyes_images-5.23.9-py2.py3-none-any.whl
+[2024-05-08 12:43:34] INFO root fetch - processPackages [pytest-httptesting]: Downloading https://files.pythonhosted.org/packages/8f/35/119774d1eeb07170751b73e21c99ce1982533ba18b1987b8884097f7ce2c/pytest_httptesting-0.7.0.tar.gz
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/94/46/bdd8b2f661c4edefb5da178809217d15b736cfd984b3eca1afe213575308/eyes_selenium-5.9.0-py2.py3-none-any.whl
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/67/f9/9cff1b0a6242481d89a85ae5bb7342b05dfb80255b8947510b68f31f125a/eyes_playwright-5.25.7-py3-none-any.whl
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-robotframework]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip --markdown 20240508/e/eyes-robotframework/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-05-08 12:43:35] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 37650350>=10485760
+[2024-05-08 12:43:35] INFO root fetch - processPackages [core-universal]: Start processing: funcnodes-numpy
+[2024-05-08 12:43:35] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-common]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_common-5.27.6-py2.py3-none-any.whl.zip tmp/eyes_common-5.27.7-py2.py3-none-any.whl.zip --markdown 20240508/e/eyes-common/5.27.6-5.27.7/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [pytest-httptesting]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [pytest-httptesting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_httptesting-0.6.0.tar.gz tmp/pytest_httptesting-0.7.0.tar.gz --markdown 20240508/p/pytest-httptesting/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-images]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_images-5.23.8-py2.py3-none-any.whl.zip tmp/eyes_images-5.23.9-py2.py3-none-any.whl.zip --markdown 20240508/e/eyes-images/5.23.8-5.23.9/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-selenium]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_selenium-5.8.0.tar.gz tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip --markdown 20240508/e/eyes-selenium/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-playwright]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [eyes-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_playwright-5.25.6-py3-none-any.whl.zip tmp/eyes_playwright-5.25.7-py3-none-any.whl.zip --markdown 20240508/e/eyes-playwright/5.25.6-5.25.7/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/ed/bd/b64f76474f413d8ad78d78fedbed822f3e94b8f7c868b2b5e56142180652/funcnodes_numpy-0.1.52.tar.gz
+[2024-05-08 12:43:35] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240508/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/65/9a/63799a2a5f99f343f27460c13a4a62ec5c1cf65cf6db798ef5dc9d4122db/funcnodes_numpy-0.1.53.tar.gz
+[2024-05-08 12:43:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.3.tar.gz]
+[2024-05-08 12:43:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.4.tar.gz]
+[2024-05-08 12:43:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Start processing: titandevice
+[2024-05-08 12:43:35] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-08 12:43:35] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-05-08 12:43:35] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.52.tar.gz tmp/funcnodes_numpy-0.1.53.tar.gz --markdown 20240508/f/funcnodes-numpy/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-08 12:43:35] INFO root fetch - processPackages [titandevice]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.8-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.9-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [eyes-images]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/14/48/cc3a791d53a021dec56fb86725270a3d5157617f1c719086a6a004057feb/titandevice-0.3.8.tar.gz
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [eyes-robotframework]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.8.0.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [eyes-selenium]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.6-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.7-py2.py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [eyes-common]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.6-py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.7-py3-none-any.whl.zip]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [eyes-playwright]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.52.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.53.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [titandevice]: Downloading https://files.pythonhosted.org/packages/d4/3f/4ed2ed04be61f5c6770bbf985fb86afe7cee1984aa25a5a94252294e8bee/titandevice-0.3.9.tar.gz
+[2024-05-08 12:43:36] INFO root fetch - processPackages [pytest-httptesting]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httptesting-0.6.0.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - processPackages [pytest-httptesting]: Remove: archive file [/home/abi/fetcher/tmp/pytest_httptesting-0.7.0.tar.gz]
+[2024-05-08 12:43:36] INFO root fetch - main [MainThread]: End processing [pytest-httptesting]: success
+[2024-05-08 12:43:36] INFO root fetch - processPackages [titandevice]: executing diffoscope
+[2024-05-08 12:43:36] INFO root fetch - processPackages [titandevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titandevice-0.3.8.tar.gz tmp/titandevice-0.3.9.tar.gz --markdown 20240508/t/titandevice/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 12:43:37] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.8.tar.gz]
+[2024-05-08 12:43:37] INFO root fetch - processPackages [titandevice]: Remove: archive file [/home/abi/fetcher/tmp/titandevice-0.3.9.tar.gz]
+[2024-05-08 12:43:37] INFO root fetch - main [MainThread]: End processing [titandevice]: success
+[2024-05-08 12:43:38] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-05-08 12:43:38] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-05-08 12:43:38] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-05-08 12:43:38] INFO root fetch - main [MainThread]: Store serial: [23112124]
