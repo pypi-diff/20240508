@@ -15379,3 +15379,77 @@
 [2024-05-08 10:35:44] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev81.tar.gz]
 [2024-05-08 10:35:44] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
 [2024-05-08 10:35:44] INFO root fetch - main [MainThread]: Store serial: [23110644]
+[2024-05-08 10:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110644]
+[2024-05-08 10:37:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MaaFw
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtdb
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: besser-bot-framework
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opperai
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eurmlsdk
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safe-eth-py
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlatom
+[2024-05-08 10:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: besser-bot-framework
+[2024-05-08 10:37:53] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 10:37:53] INFO root fetch - processPackages [xtdb]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-08 10:37:53] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.75] Old Version: [0.0.74]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [mlatom]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [MaaFw]: New version: [1.7.1] Old Version: [1.7.0b2]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [opperai]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-08 10:37:54] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/49/9b/5c640fe34eca2fa7153429fed45144405aee1386d6899630416f30f3d216/eurmlsdk-0.0.74.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/96/4c/7f1c1511eed79e05556a9834ad0752438f73e05435ad709d603d24e6520f/xtdb-0.6.1.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [MaaFw]: Downloading https://files.pythonhosted.org/packages/83/e4/1705f4169396eb72d4fca9c20e0943846cc6d94c2a81de24a0e49d7e69a0/MaaFw-1.7.0b2-py3-none-win_arm64.whl
+[2024-05-08 10:37:54] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/40/9c/66b5a083b9a5a63ecf534db3eb6489d602e882b1ee40d56d4d5467bbc7cf/opperai-0.5.2.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/94/99/c41c90ec77e411da8ba57b66eccc2c3042a7598ccb9555a9f6b080285a19/besser_bot_framework-1.1.0.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/94/99/c41c90ec77e411da8ba57b66eccc2c3042a7598ccb9555a9f6b080285a19/besser_bot_framework-1.1.0.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [mlatom]: Downloading https://files.pythonhosted.org/packages/b3/2d/fc860b30b021c1c5610105186233f87598cd22079e95ee555e1adf0447cc/mlatom-3.4.0.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 10:37:54] WARNING root fetch - processPackages [MaaFw]: Skipping package: exceeds size limit 11965844>=10485760
+[2024-05-08 10:37:54] INFO root fetch - main [MainThread]: End processing [MaaFw] error
+[2024-05-08 10:37:54] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/f2/66/e6a923a47c2df776e987bf64ec0156e58948dbb14fcc024e8e94e5d0a5a1/eurmlsdk-0.0.75.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [xtdb]: Downloading https://files.pythonhosted.org/packages/db/e0/93743e36a6003ebadb5366040c29b4a61dafb1253d22412ee78fa59d2f26/xtdb-0.6.2.tar.gz
+[2024-05-08 10:37:54] WARNING root fetch - processPackages [mlatom]: Skipping package: exceeds size limit 51236173>=10485760
+[2024-05-08 10:37:54] INFO root fetch - main [MainThread]: End processing [mlatom] error
+[2024-05-08 10:37:54] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 10:37:54] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.74.tar.gz tmp/eurmlsdk-0.0.75.tar.gz --markdown 20240508/e/eurmlsdk/0.0.74-0.0.75/README.md --exclude *.pyd
+[2024-05-08 10:37:54] INFO root fetch - processPackages [xtdb]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [xtdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtdb-0.6.1.tar.gz tmp/xtdb-0.6.2.tar.gz --markdown 20240508/x/xtdb/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-08 10:37:54] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/c5/53/565450550f7d02560589c702731300fac0041c3e48deae0a471b95d2244a/opperai-0.5.3.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/80/72/eeecbe3eecf04b49502f712c913efaf00b8749d8955d7f870526f8d77d01/besser_bot_framework-1.2.0.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: Downloading https://files.pythonhosted.org/packages/80/72/eeecbe3eecf04b49502f712c913efaf00b8749d8955d7f870526f8d77d01/besser_bot_framework-1.2.0.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [opperai]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [opperai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opperai-0.5.2.tar.gz tmp/opperai-0.5.3.tar.gz --markdown 20240508/o/opperai/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-08 10:37:54] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besser_bot_framework-1.1.0.tar.gz tmp/besser_bot_framework-1.2.0.tar.gz --markdown 20240508/b/besser-bot-framework/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: executing diffoscope
+[2024-05-08 10:37:54] INFO root fetch - processPackages [besser-bot-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besser_bot_framework-1.1.0.tar.gz tmp/besser_bot_framework-1.2.0.tar.gz --markdown 20240508/b/besser-bot-framework/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-08 10:37:55] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-05-08 10:37:55] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240508/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-05-08 10:37:55] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.74.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.75.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-08 10:37:55] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.1.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - processPackages [xtdb]: Remove: archive file [/home/abi/fetcher/tmp/xtdb-0.6.2.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [xtdb]: success
+[2024-05-08 10:37:55] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 10:37:55] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.5.2.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.5.3.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [opperai]: success
+[2024-05-08 10:37:55] INFO root fetch - processPackages [besser-bot-framework]: Remove: archive file [/home/abi/fetcher/tmp/besser_bot_framework-1.1.0.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - processPackages [besser-bot-framework]: Remove: archive file [/home/abi/fetcher/tmp/besser_bot_framework-1.2.0.tar.gz]
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [besser-bot-framework]: success
+[2024-05-08 10:37:55] INFO root fetch - main [MainThread]: End processing [besser-bot-framework]: success
+[2024-05-08 10:37:56] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-05-08 10:37:56] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-05-08 10:37:56] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-05-08 10:37:56] INFO root fetch - main [MainThread]: Store serial: [23110673]
