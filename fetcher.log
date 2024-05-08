@@ -8085,3 +8085,69 @@
 [2024-05-08 04:08:53] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev4.tar.gz]
 [2024-05-08 04:08:53] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
 [2024-05-08 04:08:53] INFO root fetch - main [MainThread]: Store serial: [23107453]
+[2024-05-08 04:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107453]
+[2024-05-08 04:11:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sievedata
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: location-local
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dkist-processing-visp
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-create
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: media-parser
+[2024-05-08 04:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quasi-utils
+[2024-05-08 04:11:02] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [ansar-create]: New version: [0.1.77] Old Version: [0.1.76]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [media-parser]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [dkist-processing-visp]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [sievedata]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/c3/ab/9e11bebb0608f466ff31147a3da766d6bdb2bb7f1bee5695eefa4fce5400/cvprocessor-0.0.19.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/4d/0f/af5a821b925c7266d568bc2d120a84efdccb4697d2f7d6ef4ef1a852f07a/media_parser-2.0.0.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [quasi-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 04:11:02] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/8b/30/4fe328a05df8d1d2b428175bec196d2b7498708a346070e04bd73fd4d6f3/ansar-create-0.1.76.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/27/a8/d1a59f956cf90274abcfbd283a6ece1ceba1a2b912d6bb21b2cc3346a0a4/dkist_processing_visp-2.8.2.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [sievedata]: Downloading https://files.pythonhosted.org/packages/77/95/81d873c48eab504969a2f4a4f592d75ea9d000bd3befca5ad2ca00168f0c/sievedata-1.0.8-py3-none-any.whl
+[2024-05-08 04:11:02] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/9e/e5/9f95eabc27ba8a43e68f1d1d6a638b133173b1ac6e2ef58d76dd754b9d60/quasi_utils-0.1.8.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/35/0a/2ae4fdc8cbb7dbd46539c0c35349c659d267fa71fa563b303fa307baebcf/media_parser-2.0.1.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/a1/6a/39e7f6e0804b2d2276829ef2517607ac4754fc0daa300b80e189ec23b063/cvprocessor-0.0.20.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/d2/1e/b10a7f5cc1fe8eca37c6bc82286367c54174f21498f9af63611d3011dc00/ansar_create-0.1.77.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 04:11:02] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.19.tar.gz tmp/cvprocessor-0.0.20.tar.gz --markdown 20240508/c/cvprocessor/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-05-08 04:11:02] INFO root fetch - processPackages [media-parser]: executing diffoscope
+[2024-05-08 04:11:02] INFO root fetch - processPackages [media-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_parser-2.0.0.tar.gz tmp/media_parser-2.0.1.tar.gz --markdown 20240508/m/media-parser/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-08 04:11:02] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-08 04:11:02] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-create-0.1.76.tar.gz tmp/ansar_create-0.1.77.tar.gz --markdown 20240508/a/ansar-create/0.1.76-0.1.77/README.md --exclude *.pyd
+[2024-05-08 04:11:02] INFO root fetch - processPackages [sievedata]: Downloading https://files.pythonhosted.org/packages/8a/81/20861347ef8b1783e03c20206a281854cb818fc401a040f544a1fe0b6f35/sievedata-1.0.9-py3-none-any.whl
+[2024-05-08 04:11:02] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/83/a9/29917aa3429c6c45fe10c486e529150e543d167462c617b427e6babe0efe/quasi_utils-0.1.9.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-08 04:11:02] INFO root fetch - processPackages [sievedata]: executing diffoscope
+[2024-05-08 04:11:02] INFO root fetch - processPackages [sievedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sievedata-1.0.8-py3-none-any.whl.zip tmp/sievedata-1.0.9-py3-none-any.whl.zip --markdown 20240508/s/sievedata/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 04:11:03] INFO root fetch - processPackages [quasi-utils]: executing diffoscope
+[2024-05-08 04:11:03] INFO root fetch - processPackages [quasi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasi_utils-0.1.8.tar.gz tmp/quasi_utils-0.1.9.tar.gz --markdown 20240508/q/quasi-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 04:11:03] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-08 04:11:03] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240508/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 04:11:03] INFO root fetch - processPackages [dkist-processing-visp]: Downloading https://files.pythonhosted.org/packages/48/94/b0dab1802e552438079561ae20c8a24ae49b117f677e155bed01917b5348/dkist_processing_visp-2.9.0.tar.gz
+[2024-05-08 04:11:03] INFO root fetch - processPackages [dkist-processing-visp]: executing diffoscope
+[2024-05-08 04:11:03] INFO root fetch - processPackages [dkist-processing-visp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_visp-2.8.2.tar.gz tmp/dkist_processing_visp-2.9.0.tar.gz --markdown 20240508/d/dkist-processing-visp/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-08 04:11:03] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.19.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.20.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 04:11:03] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.0.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.1.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [media-parser]: success
+[2024-05-08 04:11:03] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.76.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.77.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-08 04:11:03] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.8.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.9.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [quasi-utils]: success
+[2024-05-08 04:11:03] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-08 04:11:03] INFO root fetch - processPackages [sievedata]: Remove: archive file [/home/abi/fetcher/tmp/sievedata-1.0.8-py3-none-any.whl.zip]
+[2024-05-08 04:11:03] INFO root fetch - processPackages [sievedata]: Remove: archive file [/home/abi/fetcher/tmp/sievedata-1.0.9-py3-none-any.whl.zip]
+[2024-05-08 04:11:03] INFO root fetch - main [MainThread]: End processing [sievedata]: success
+[2024-05-08 04:11:04] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.8.2.tar.gz]
+[2024-05-08 04:11:04] INFO root fetch - processPackages [dkist-processing-visp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_visp-2.9.0.tar.gz]
+[2024-05-08 04:11:04] INFO root fetch - main [MainThread]: End processing [dkist-processing-visp]: success
+[2024-05-08 04:11:04] INFO root fetch - main [MainThread]: Store serial: [23107471]
