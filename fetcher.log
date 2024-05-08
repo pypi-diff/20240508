@@ -8750,3 +8750,36 @@
 [2024-05-08 04:48:35] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-08 04:48:35] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-08 04:48:35] INFO root fetch - main [MainThread]: Store serial: [23107703]
+[2024-05-08 04:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107703]
+[2024-05-08 04:50:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 04:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basewhat
+[2024-05-08 04:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miner-ai-beta
+[2024-05-08 04:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogenstudio
+[2024-05-08 04:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: first-passage-percolation-sim
+[2024-05-08 04:50:44] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 04:50:44] WARNING root fetch - processPackages [first-passage-percolation-sim]: Skipping, unable to determine old version
+[2024-05-08 04:50:44] INFO root fetch - main [MainThread]: End processing [first-passage-percolation-sim] error
+[2024-05-08 04:50:44] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc4]
+[2024-05-08 04:50:44] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b7/f4/b1645006817c41e1e9d5228483dcbf5da62012903061b33b36dca2ff4931/autogenstudio-0.0.56rc4.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [basewhat]: New version: [1.1] Old Version: [1.0.4]
+[2024-05-08 04:50:44] INFO root fetch - processPackages [basewhat]: Downloading https://files.pythonhosted.org/packages/bd/6d/039743eb0eb1fc87e0a6f5390defda5da1ffce1f9c88a094b7c265c21d93/basewhat-1.0.4.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 04:50:44] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 04:50:44] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-05-08 04:50:44] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc4.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240508/a/autogenstudio/0.0.56rc4-0.0.9a0/README.md --exclude *.pyd
+[2024-05-08 04:50:44] INFO root fetch - processPackages [basewhat]: Downloading https://files.pythonhosted.org/packages/8a/af/cab831962761c4275910723eb84fe865e20be55559a6fdb02bdac8c0a492/basewhat-1.1.tar.gz
+[2024-05-08 04:50:44] INFO root fetch - processPackages [basewhat]: executing diffoscope
+[2024-05-08 04:50:44] INFO root fetch - processPackages [basewhat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basewhat-1.0.4.tar.gz tmp/basewhat-1.1.tar.gz --markdown 20240508/b/basewhat/1.0.4-1.1/README.md --exclude *.pyd
+[2024-05-08 04:50:45] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 04:50:45] INFO root fetch - processPackages [basewhat]: Remove: archive file [/home/abi/fetcher/tmp/basewhat-1.0.4.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - processPackages [basewhat]: Remove: archive file [/home/abi/fetcher/tmp/basewhat-1.1.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - main [MainThread]: End processing [basewhat]: success
+[2024-05-08 04:50:45] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc4.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-05-08 04:50:45] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-05-08 04:50:45] INFO root fetch - main [MainThread]: Store serial: [23107715]
