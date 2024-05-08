@@ -15929,3 +15929,54 @@
 [2024-05-08 10:51:39] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508082921.tar.gz]
 [2024-05-08 10:51:39] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-08 10:51:39] INFO root fetch - main [MainThread]: Store serial: [23110861]
+[2024-05-08 10:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110861]
+[2024-05-08 10:53:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juice-segmentation
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: analysta-index
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarcharts
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-telegram-broadcast
+[2024-05-08 10:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-report-to-printer
+[2024-05-08 10:53:48] INFO root fetch - processPackages [sarcharts]: New version: [0.0.1.dev81] Old Version: [0.0.1.dev79]
+[2024-05-08 10:53:48] INFO root fetch - processPackages [python-telegram-broadcast]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-08 10:53:48] INFO root fetch - processPackages [qwak-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-08 10:53:48] WARNING root fetch - processPackages [juice-segmentation]: Skipping, unable to determine old version
+[2024-05-08 10:53:48] INFO root fetch - main [MainThread]: End processing [juice-segmentation] error
+[2024-05-08 10:53:48] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/fb/55/6e0090ca897df5452f692bc2de1bd3b56905d5b70da54cc3f986e2bfb733/sarcharts-0.0.1.dev79.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 10:53:48] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/8e/ca/59b3d1632b3f1385fd440b5f409ec5e4b05aba98c97138dbaf9fb564a950/python_telegram_broadcast-0.9.4.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.3]
+[2024-05-08 10:53:48] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/3d/73/2048ef78d86adb6695bb9353a24ab725e6e130c301a7db8a65523797c953/qwak_core-0.4.4.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/fb/bc/6aada717c303f26a94ecd94ab69c028ba61470a3ab835249d7842c0bba26/odoo_addon_base_report_to_printer-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-08 10:53:48] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/c6/f3/358795bc0a9521ab8e868c82df02a13e61ca36276a6cab94b1933795848d/sarcharts-0.0.1.dev81.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/89/ac/9c8b01e5faf1e88e6c31bfec782c443ecb1dd7356126c4ac2c6714a9349a/qwak_core-0.4.5.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [python-telegram-broadcast]: Downloading https://files.pythonhosted.org/packages/6c/26/bf6e553ac8e8419f1ce632197d26e5c9cbdfb979bd311984c74e9aa81d96/python_telegram_broadcast-0.9.5.tar.gz
+[2024-05-08 10:53:48] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-08 10:53:48] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.0.1.dev79.tar.gz tmp/sarcharts-0.0.1.dev81.tar.gz --markdown 20240508/s/sarcharts/0.0.1.dev79-0.0.1.dev81/README.md --exclude *.pyd
+[2024-05-08 10:53:48] INFO root fetch - processPackages [python-telegram-broadcast]: executing diffoscope
+[2024-05-08 10:53:48] INFO root fetch - processPackages [python-telegram-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_telegram_broadcast-0.9.4.tar.gz tmp/python_telegram_broadcast-0.9.5.tar.gz --markdown 20240508/p/python-telegram-broadcast/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-08 10:53:49] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-08 10:53:49] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.4.tar.gz tmp/qwak_core-0.4.5.tar.gz --markdown 20240508/q/qwak-core/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-08 10:53:49] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-05-08 10:53:49] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/96/47/24f62ba0eb3d12ff72351ebe217ee0840af2d857b9e99cef76e0a64de1da/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl
+[2024-05-08 10:53:49] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-05-08 10:53:49] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240508/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 10:53:49] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: executing diffoscope
+[2024-05-08 10:53:49] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_report_to_printer-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-base-report-to-printer/17.0.1.0.0.3-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:53:49] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.4.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - processPackages [python-telegram-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/python_telegram_broadcast-0.9.5.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - main [MainThread]: End processing [python-telegram-broadcast]: success
+[2024-05-08 10:53:49] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev79.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev81.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-08 10:53:49] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-05-08 10:53:49] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-05-08 10:53:50] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-08 10:53:50] INFO root fetch - processPackages [odoo-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_printer-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 10:53:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-printer]: success
+[2024-05-08 10:53:51] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.4.tar.gz]
+[2024-05-08 10:53:51] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.5.tar.gz]
+[2024-05-08 10:53:51] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-08 10:53:51] INFO root fetch - main [MainThread]: Store serial: [23110880]
