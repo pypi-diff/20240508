@@ -21460,3 +21460,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:16:36] INFO root fetch - processPackages [legend-pydataobj]: Remove: archive file [/home/abi/fetcher/tmp/legend_pydataobj-1.7.0.tar.gz]
 [2024-05-08 14:16:36] INFO root fetch - main [MainThread]: End processing [legend-pydataobj]: success
 [2024-05-08 14:16:36] INFO root fetch - main [MainThread]: Store serial: [23113076]
+[2024-05-08 14:18:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113076]
+[2024-05-08 14:18:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RViT
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aibridge-test
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testplans
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telq
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ICONCLASS
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opensourceleg
+[2024-05-08 14:18:44] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/dc/30/ee8bcbcf177d305838f3b9afe36571a079952b5a71522d7695689f495c5e/aibridge_test-0.3.5.tar.gz
+[2024-05-08 14:18:44] INFO root fetch - processPackages [telq]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-08 14:18:44] WARNING root fetch - processPackages [RViT]: Skipping, unable to determine old version
+[2024-05-08 14:18:44] INFO root fetch - main [MainThread]: End processing [RViT] error
+[2024-05-08 14:18:44] INFO root fetch - processPackages [ICONCLASS]: New version: [0.9] Old Version: [0.7]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-08 14:18:44] INFO root fetch - processPackages [opensourceleg]: New version: [3.2.0] Old Version: [2.2.0]
+[2024-05-08 14:18:44] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/e1/06/c63c1408474cf32fdcdb0addffd7ad2223e5573634be576d0b19ee270b9e/telq-1.3.0.tar.gz
+[2024-05-08 14:18:44] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/96/06/b4361fdc783a309c057c0b0b7bc94c01209e7af2f7f03bcd32683912a8f5/ICONCLASS-0.7.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/18/29/83a3a3f70a02876dd3f462bdead39f4664db9f997f830fb2ba8ca29f8e1a/opensourceleg-2.2.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/c6/18/fa9998a6156d197c6660dd56fa3db57cbd0135c203369db6fb65f20cf597/aibridge_test-0.3.6.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.5.tar.gz tmp/aibridge_test-0.3.6.tar.gz --markdown 20240508/a/aibridge-test/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240508/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/bd/6e/3d28566fa2f683dc7e99a524bedcb37121799a8e720e8e4435b9bdaef0ec/ICONCLASS-0.9.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [telq]: Downloading https://files.pythonhosted.org/packages/c2/3f/a511872d81abd47efe5b0d34a79ade61a73ff31c30e7cc0ca9b5ee17d655/telq-1.3.1.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/e8/d5/92ccda0c8a9251ad2ba95cf357c36a58fe00271c780748ad1e5432b3121c/opensourceleg-3.2.0.tar.gz
+[2024-05-08 14:18:45] INFO root fetch - processPackages [telq]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [telq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telq-1.3.0.tar.gz tmp/telq-1.3.1.tar.gz --markdown 20240508/t/telq/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240508/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240508/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [ICONCLASS]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [ICONCLASS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICONCLASS-0.7.tar.gz tmp/ICONCLASS-0.9.tar.gz --markdown 20240508/I/ICONCLASS/0.7-0.9/README.md --exclude *.pyd
+[2024-05-08 14:18:45] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2024-05-08 14:18:45] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-2.2.0.tar.gz tmp/opensourceleg-3.2.0.tar.gz --markdown 20240508/o/opensourceleg/2.2.0-3.2.0/README.md --exclude *.pyd
+[2024-05-08 14:18:46] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-08 14:18:46] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-1.3.0.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [telq]: Remove: archive file [/home/abi/fetcher/tmp/telq-1.3.1.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [telq]: success
+[2024-05-08 14:18:46] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.5.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.6.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-05-08 14:18:46] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-08 14:18:46] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.7.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.9.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [ICONCLASS]: success
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-08 14:18:46] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-2.2.0.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-3.2.0.tar.gz]
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2024-05-08 14:18:46] INFO root fetch - main [MainThread]: Store serial: [23113099]
