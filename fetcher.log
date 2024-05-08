@@ -8951,3 +8951,27 @@
 [2024-05-08 05:01:39] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_csgo_case_simulator-1.1.5.tar.gz]
 [2024-05-08 05:01:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
 [2024-05-08 05:01:39] INFO root fetch - main [MainThread]: Store serial: [23107771]
+[2024-05-08 05:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107771]
+[2024-05-08 05:03:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 05:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hedge-intel
+[2024-05-08 05:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordcel
+[2024-05-08 05:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cengal-light
+[2024-05-08 05:03:48] INFO root fetch - processPackages [wordcel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:03:48] WARNING root fetch - processPackages [hedge-intel]: Skipping, unable to determine old version
+[2024-05-08 05:03:48] INFO root fetch - main [MainThread]: End processing [hedge-intel] error
+[2024-05-08 05:03:48] INFO root fetch - processPackages [cengal-light]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-05-08 05:03:48] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/de/6a/e20de61c60d2f9d0be02b7b6a3e81f596583bf03b6334188bec22828fe06/wordcel-0.0.8.tar.gz
+[2024-05-08 05:03:48] INFO root fetch - processPackages [cengal-light]: Downloading https://files.pythonhosted.org/packages/06/34/5f077a718affddb4dd7f5ee50463b57bd5e9bbf640c82b877565f5e2c7cc/cengal_light-4.3.1.tar.gz
+[2024-05-08 05:03:48] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/37/1b/efd0defcf1365657dd7be37fbd0f2c7a68355263d8b1d3f65b1ecf9e001c/wordcel-0.0.9.tar.gz
+[2024-05-08 05:03:49] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2024-05-08 05:03:49] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.8.tar.gz tmp/wordcel-0.0.9.tar.gz --markdown 20240508/w/wordcel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:03:49] INFO root fetch - processPackages [cengal-light]: Downloading https://files.pythonhosted.org/packages/63/00/78ba1d21cbb7679fb11dae179782f2e96678ca7b9dba9128ff7d9262a6da/cengal_light-4.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 05:03:49] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.8.tar.gz]
+[2024-05-08 05:03:49] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.9.tar.gz]
+[2024-05-08 05:03:49] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2024-05-08 05:03:52] INFO root fetch - processPackages [cengal-light]: executing diffoscope
+[2024-05-08 05:03:52] INFO root fetch - processPackages [cengal-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal_light-4.3.1.tar.gz tmp/cengal_light-4.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240508/c/cengal-light/4.3.1-4.4.0/README.md --exclude *.pyd
+[2024-05-08 05:03:54] INFO root fetch - processPackages [cengal-light]: Remove: archive file [/home/abi/fetcher/tmp/cengal_light-4.3.1.tar.gz]
+[2024-05-08 05:03:54] INFO root fetch - processPackages [cengal-light]: Remove: archive file [/home/abi/fetcher/tmp/cengal_light-4.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 05:03:54] INFO root fetch - main [MainThread]: End processing [cengal-light]: success
+[2024-05-08 05:03:54] INFO root fetch - main [MainThread]: Store serial: [23107781]
