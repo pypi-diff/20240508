@@ -12792,3 +12792,55 @@
 [2024-05-08 09:05:48] INFO root fetch - processPackages [domainlab]: Remove: archive file [/home/abi/fetcher/tmp/domainlab-0.6.3.tar.gz]
 [2024-05-08 09:05:48] INFO root fetch - main [MainThread]: End processing [domainlab]: success
 [2024-05-08 09:05:48] INFO root fetch - main [MainThread]: Store serial: [23109370]
+[2024-05-08 09:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109370]
+[2024-05-08 09:07:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zjbbintest
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycfutils
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: space-breakdown-method
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrtcm
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinjected
+[2024-05-08 09:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: space-breakdown-method
+[2024-05-08 09:07:56] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 09:07:56] WARNING root fetch - processPackages [zjbbintest]: Skipping, unable to determine old version
+[2024-05-08 09:07:56] INFO root fetch - main [MainThread]: End processing [zjbbintest] error
+[2024-05-08 09:07:56] INFO root fetch - processPackages [pinjected]: New version: [0.2.52] Old Version: [0.2.51]
+[2024-05-08 09:07:56] INFO root fetch - processPackages [space-breakdown-method]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 09:07:56] INFO root fetch - processPackages [space-breakdown-method]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 09:07:56] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-08 09:07:56] WARNING root fetch - processPackages [pycfutils]: Skipping, unable to determine old version
+[2024-05-08 09:07:56] INFO root fetch - main [MainThread]: End processing [pycfutils] error
+[2024-05-08 09:07:56] INFO root fetch - processPackages [pyrtcm]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 09:07:56] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/92/62/cf85488720036c92ff8cef5f4ff81f60be2fb836da061703ddfe14f5deea/pinjected-0.2.51.tar.gz
+[2024-05-08 09:07:56] INFO root fetch - processPackages [space-breakdown-method]: Downloading https://files.pythonhosted.org/packages/2b/fd/d29629ccccf923584ca1070697a8dcae55fe226b24858ed855a195ca27ec/space-breakdown-method-0.0.1.tar.gz
+[2024-05-08 09:07:56] INFO root fetch - processPackages [space-breakdown-method]: Downloading https://files.pythonhosted.org/packages/2b/fd/d29629ccccf923584ca1070697a8dcae55fe226b24858ed855a195ca27ec/space-breakdown-method-0.0.1.tar.gz
+[2024-05-08 09:07:56] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-08 09:07:56] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/31/99/5670aa585fc8494bd7872b8886fcbc3efcc4facb36a7669d07029ee3068f/pyrtcm-1.0.8-py3-none-any.whl
+[2024-05-08 09:07:57] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-08 09:07:57] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240508/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/92/0f/0240137b1b6d379fcb9be7e3bcc853ab005a0a2b3cace0d8b3e4bdf1e7fa/pinjected-0.2.52.tar.gz
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.51.tar.gz tmp/pinjected-0.2.52.tar.gz --markdown 20240508/p/pinjected/0.2.51-0.2.52/README.md --exclude *.pyd
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: Downloading https://files.pythonhosted.org/packages/88/c3/55af74c1c1f0f1548acc6de8f70db9d34643da56dff54540771b829d8380/space-breakdown-method-0.0.2.tar.gz
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: Downloading https://files.pythonhosted.org/packages/88/c3/55af74c1c1f0f1548acc6de8f70db9d34643da56dff54540771b829d8380/space-breakdown-method-0.0.2.tar.gz
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/75/a3/d3d2fccb0b3397f1b27d3035ccbde12211afd92137575a7ef063b6651593/pyrtcm-1.0.9.tar.gz
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: executing diffoscope
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-breakdown-method-0.0.1.tar.gz tmp/space-breakdown-method-0.0.2.tar.gz --markdown 20240508/s/space-breakdown-method/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: executing diffoscope
+[2024-05-08 09:07:57] INFO root fetch - processPackages [space-breakdown-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-breakdown-method-0.0.1.tar.gz tmp/space-breakdown-method-0.0.2.tar.gz --markdown 20240508/s/space-breakdown-method/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pyrtcm]: executing diffoscope
+[2024-05-08 09:07:57] INFO root fetch - processPackages [pyrtcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtcm-1.0.8-py3-none-any.whl.zip tmp/pyrtcm-1.0.9.tar.gz --markdown 20240508/p/pyrtcm/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 09:07:57] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-08 09:07:57] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-08 09:07:57] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-08 09:07:58] INFO root fetch - processPackages [space-breakdown-method]: Remove: archive file [/home/abi/fetcher/tmp/space-breakdown-method-0.0.1.tar.gz]
+[2024-05-08 09:07:58] INFO root fetch - processPackages [space-breakdown-method]: Remove: archive file [/home/abi/fetcher/tmp/space-breakdown-method-0.0.2.tar.gz]
+[2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [space-breakdown-method]: success
+[2024-05-08 09:07:58] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.51.tar.gz]
+[2024-05-08 09:07:58] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.52.tar.gz]
+[2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-08 09:07:58] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.8-py3-none-any.whl.zip]
+[2024-05-08 09:07:58] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.9.tar.gz]
+[2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
+[2024-05-08 09:07:58] INFO root fetch - main [MainThread]: End processing [space-breakdown-method]: success
+[2024-05-08 09:07:58] INFO root fetch - main [MainThread]: Store serial: [23109447]
