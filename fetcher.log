@@ -7286,3 +7286,54 @@
 [2024-05-08 03:27:35] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
 [2024-05-08 03:27:35] INFO root fetch - main [MainThread]: End processing [oebuild]: success
 [2024-05-08 03:27:35] INFO root fetch - main [MainThread]: Store serial: [23107126]
+[2024-05-08 03:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107126]
+[2024-05-08 03:29:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dialog-workflow-local
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokemonutils
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poongheez
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whatsapp-message-vonage-local
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-08 03:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uv
+[2024-05-08 03:29:43] INFO root fetch - processPackages [pokemonutils]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-08 03:29:43] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 03:29:43] WARNING root fetch - processPackages [poongheez]: Skipping, unable to determine old version
+[2024-05-08 03:29:43] INFO root fetch - main [MainThread]: End processing [poongheez] error
+[2024-05-08 03:29:43] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 03:29:43] INFO root fetch - processPackages [whatsapp-message-vonage-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 03:29:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715130976] Old Version: [0.0.21a1715042208]
+[2024-05-08 03:29:43] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-05-08 03:29:43] INFO root fetch - processPackages [pokemonutils]: Downloading https://files.pythonhosted.org/packages/6c/d8/260c28f8450fd74cd6f6210d8fb72fc7407a94fe155c92d880fee656f0ae/pokemonutils-0.5.0.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Downloading https://files.pythonhosted.org/packages/24/45/4d8a5c84a5939dadc5ad07d86769dfaa1b8ff1fad5c6489ff30372f3fe4f/whatsapp-message-vonage-local-0.0.8.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/d7/1b/685106e77cf65c8cf8b6d89352922054ce5d7b8980732c303e96ea9deb86/dialog_workflow_local-0.0.98.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/86/80/d3246a76935d04dfb92505307560a59266d9e7329e1215024df13d73eae7/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pokemonutils]: Downloading https://files.pythonhosted.org/packages/6c/f9/be7a3f8c29dec55cbd755c5ee6a343a4185e9869acfce2052a1452cd7fa6/pokemonutils-0.5.1.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pokemonutils]: executing diffoscope
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pokemonutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokemonutils-0.5.0.tar.gz tmp/pokemonutils-0.5.1.tar.gz --markdown 20240508/p/pokemonutils/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-08 03:29:44] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/c3/6c26db02b10e70c46d216b7b8ce442c6d7069761960f4589837162999b2a/dialog_workflow_local-0.0.99.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9c/38/6736bffca807ea8e018e986ccf5bf07c8e98f0a24ff1ab60f548a24bc2c2/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-05-08 03:29:44] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240508/u/uv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 03:29:44] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Downloading https://files.pythonhosted.org/packages/42/c1/2af3ca96319512ef7cd9326f0810f35374810c7dfd021802de26745318ac/whatsapp-message-vonage-local-0.0.9.tar.gz
+[2024-05-08 03:29:44] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-05-08 03:29:44] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_workflow_local-0.0.98.tar.gz tmp/dialog_workflow_local-0.0.99.tar.gz --markdown 20240508/d/dialog-workflow-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-08 03:29:44] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz --markdown 20240508/p/pulumi-kubernetes-the-hard-way/0.0.21a1715042208-0.0.21a1715130976/README.md --exclude *.pyd
+[2024-05-08 03:29:44] INFO root fetch - processPackages [whatsapp-message-vonage-local]: executing diffoscope
+[2024-05-08 03:29:44] INFO root fetch - processPackages [whatsapp-message-vonage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-message-vonage-local-0.0.8.tar.gz tmp/whatsapp-message-vonage-local-0.0.9.tar.gz --markdown 20240508/w/whatsapp-message-vonage-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 03:29:45] INFO root fetch - processPackages [pokemonutils]: Remove: archive file [/home/abi/fetcher/tmp/pokemonutils-0.5.0.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - processPackages [pokemonutils]: Remove: archive file [/home/abi/fetcher/tmp/pokemonutils-0.5.1.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - main [MainThread]: End processing [pokemonutils]: success
+[2024-05-08 03:29:45] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.98.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.99.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-05-08 03:29:45] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-message-vonage-local-0.0.8.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-message-vonage-local-0.0.9.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - main [MainThread]: End processing [whatsapp-message-vonage-local]: success
+[2024-05-08 03:29:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz]
+[2024-05-08 03:29:45] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-08 03:29:46] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-05-08 03:29:46] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-05-08 03:29:46] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-05-08 03:29:46] INFO root fetch - main [MainThread]: Store serial: [23107142]
