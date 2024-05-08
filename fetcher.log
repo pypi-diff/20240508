@@ -19627,3 +19627,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 13:05:26] INFO root fetch - processPackages [readfish]: Remove: archive file [/home/abi/fetcher/tmp/readfish-2024.1.0.tar.gz]
 [2024-05-08 13:05:26] INFO root fetch - main [MainThread]: End processing [readfish]: success
 [2024-05-08 13:05:26] INFO root fetch - main [MainThread]: Store serial: [23112366]
+[2024-05-08 13:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112366]
+[2024-05-08 13:07:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-ansible
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysu
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionty
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc-report
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syntrac-opentelemetry-instrumentation-langchain
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtealeaves
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenomApis
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syntrac-sdk
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splashlab
+[2024-05-08 13:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acceldata-sdk
+[2024-05-08 13:07:36] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [mkdocs-ansible]: New version: [24.3.1] Old Version: [24.3.0]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [pysu]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 13:07:36] WARNING root fetch - processPackages [cc-report]: Skipping, unable to determine old version
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [cc-report]: Start processing: ood_detectors
+[2024-05-08 13:07:36] INFO root fetch - main [MainThread]: End processing [cc-report] error
+[2024-05-08 13:07:36] INFO root fetch - processPackages [acceldata-sdk]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [splashlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:07:36] INFO root fetch - processPackages [mkdocs-ansible]: Downloading https://files.pythonhosted.org/packages/dc/ef/93510793f59f6148cdd6357bd8cc9f567b7edb4f19918779582e20b527fd/mkdocs-ansible-24.3.0.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/44/9e/671e0acbf8fbae0535e59a85e8c99915c360e34c403d2343092e5be9aa53/syntrac_sdk-0.0.5.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/a7/17/12527452faf9b77bea115cf2703bb3a2c77b9a9758886864a15bab94f612/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/33/76/f6fc357a6fa2dd32ce2c064ed1c15e7ec6be3e0580ac1a62b5b10a029e2c/qtealeaves-1.1.2.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [pysu]: Downloading https://files.pythonhosted.org/packages/9e/98/f5eb34be834922c2faab3eb45c5031d77065c18adeb2ce994b4d45615d2f/pysu-1.0.0.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/05/30/e7dddcf82b9c638bbf0768975eddfbc7fdc618932e24530ddad2143013dd/acceldata_sdk-3.3.0.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/f4/61/daec8b865651d30336f3f746e1a3498d0da73cda961bcd9f0183cff84477/splashlab-0.0.8.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 13:07:36] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:07:36] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/e1/e3/70cf81275f1cec44498a82dfed92b0b7ad8253faf188321a2808666558eb/acceldata_sdk-3.4.0.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [mkdocs-ansible]: Downloading https://files.pythonhosted.org/packages/a0/93/1554b82c78b0e5a81923336cb5e84ad6433100f052601fcb26cfba24b2ed/mkdocs_ansible-24.3.1.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/6c/74/eec3b8e539d399c66a46561560229dcf8bafb1d712ada15ca9b9c2a27aa1/syntrac_sdk-0.0.6.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/c3/58/739f234cf6ddf7da44f4313e01875e59fec0335da4a0721af8659d8a43eb/syntrac_opentelemetry_instrumentation_langchain-0.0.3.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/77/ec/2608c5bae18854b26dbad44a6158ed55a0202163e276a74afb95381acac9/splashlab-0.0.9.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [pysu]: Downloading https://files.pythonhosted.org/packages/24/99/ecac65ffcc82e4aeab5afd4075ff658feaca451a400768bcfdd8152ea91b/pysu-1.0.1.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-08 13:07:36] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240508/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:07:36] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2024-05-08 13:07:36] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/cd/c9/db7f834756a9239506661a5102824cd2cf59b2de9c95a3f5b78bef00cd88/qtealeaves-1.1.3.tar.gz
+[2024-05-08 13:07:37] INFO root fetch - processPackages [acceldata-sdk]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [acceldata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_sdk-3.3.0.tar.gz tmp/acceldata_sdk-3.4.0.tar.gz --markdown 20240508/a/acceldata-sdk/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [mkdocs-ansible]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [mkdocs-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ansible-24.3.0.tar.gz tmp/mkdocs_ansible-24.3.1.tar.gz --markdown 20240508/m/mkdocs-ansible/24.3.0-24.3.1/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.3.tar.gz --markdown 20240508/s/syntrac-opentelemetry-instrumentation-langchain/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.5.tar.gz tmp/syntrac_sdk-0.0.6.tar.gz --markdown 20240508/s/syntrac-sdk/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [pysu]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [pysu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysu-1.0.0.tar.gz tmp/pysu-1.0.1.tar.gz --markdown 20240508/p/pysu/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [splashlab]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [splashlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splashlab-0.0.8.tar.gz tmp/splashlab-0.0.9.tar.gz --markdown 20240508/s/splashlab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.2.tar.gz tmp/qtealeaves-1.1.3.tar.gz --markdown 20240508/q/qtealeaves/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-08 13:07:37] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2024-05-08 13:07:37] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20240508/b/bionty/0.9.0-0.9.0rc1/README.md --exclude *.pyd
+[2024-05-08 13:07:38] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [ood_detectors]: Start processing: bailo
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.3.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-langchain]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.3.0.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.4.0.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [acceldata-sdk]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [bailo]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [mkdocs-ansible]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ansible-24.3.0.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [mkdocs-ansible]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ansible-24.3.1.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [mkdocs-ansible]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [pysu]: Remove: archive file [/home/abi/fetcher/tmp/pysu-1.0.0.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [pysu]: Remove: archive file [/home/abi/fetcher/tmp/pysu-1.0.1.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [pysu]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.5.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.6.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [bailo]: Downloading https://files.pythonhosted.org/packages/9f/5b/988938387bc31b505ff102003fe784d23786d97eb6038bba076b14eb5c0c/bailo-2.1.2.tar.gz
+[2024-05-08 13:07:38] INFO root fetch - processPackages [splashlab]: Remove: archive file [/home/abi/fetcher/tmp/splashlab-0.0.8.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [splashlab]: Remove: archive file [/home/abi/fetcher/tmp/splashlab-0.0.9.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [splashlab]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 13:07:38] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2024-05-08 13:07:38] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2024-05-08 13:07:39] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.2.tar.gz]
+[2024-05-08 13:07:39] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.3.tar.gz]
+[2024-05-08 13:07:39] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: Downloading https://files.pythonhosted.org/packages/6b/98/efd15bf13dccc4a6b07b4228ea8ad8da95b7d64c8588d4c26f4a47fd6bde/bailo-2.2.0.tar.gz
+[2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: executing diffoscope
+[2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bailo-2.1.2.tar.gz tmp/bailo-2.2.0.tar.gz --markdown 20240508/b/bailo/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: Remove: archive file [/home/abi/fetcher/tmp/bailo-2.1.2.tar.gz]
+[2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: Remove: archive file [/home/abi/fetcher/tmp/bailo-2.2.0.tar.gz]
+[2024-05-08 13:07:39] INFO root fetch - main [MainThread]: End processing [bailo]: success
+[2024-05-08 13:07:39] INFO root fetch - main [MainThread]: Store serial: [23112404]
