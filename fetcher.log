@@ -20015,3 +20015,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:16:25] INFO root fetch - processPackages [sayari]: Remove: archive file [/home/abi/fetcher/tmp/sayari-0.0.82.tar.gz]
 [2024-05-08 13:16:25] INFO root fetch - main [MainThread]: End processing [sayari]: success
 [2024-05-08 13:16:25] INFO root fetch - main [MainThread]: Store serial: [23112524]
+[2024-05-08 13:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112524]
+[2024-05-08 13:18:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safeheron-api-sdk-python
+[2024-05-08 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clean-ioc
+[2024-05-08 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-05-08 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygazpar
+[2024-05-08 13:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phenomApis
+[2024-05-08 13:18:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-08 13:18:34] INFO root fetch - processPackages [pygazpar]: New version: [1.3.0a9] Old Version: [1.3.0a6]
+[2024-05-08 13:18:34] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:18:34] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7rc1720171] Old Version: [0.1.7.dev1720363]
+[2024-05-08 13:18:34] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/09/a1/832ec4b0cbe53961e53aef30be973f2677d8294bbedcc72a96d47630ec9a/safeheron_api_sdk_python-1.0.5.tar.gz
+[2024-05-08 13:18:34] INFO root fetch - processPackages [pygazpar]: Downloading https://files.pythonhosted.org/packages/ce/78/12ed7a31b919760c06984806b24af7dcb5696bac8748e6d1bd03d86c1943/pygazpar-1.3.0a6.tar.gz
+[2024-05-08 13:18:34] INFO root fetch - processPackages [clean-ioc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 13:18:34] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 13:18:34] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/06/08/bfbc61eb53e61553245c5490430e4206ab6bf92c7799ac5e19cc624b797a/py2docfx-0.1.7.dev1720363-py3-none-any.whl
+[2024-05-08 13:18:35] INFO root fetch - processPackages [pygazpar]: Downloading https://files.pythonhosted.org/packages/01/04/6fd4ccf7607cc445e1efc28f48888b978528beb4848d98588490b3170dd8/pygazpar-1.3.0a9.tar.gz
+[2024-05-08 13:18:35] INFO root fetch - processPackages [clean-ioc]: Downloading https://files.pythonhosted.org/packages/f8/b6/dd20b69e11921f325325e755981550049744ba5715cd58ac7ef090b555b7/clean_ioc-0.8.0.tar.gz
+[2024-05-08 13:18:35] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 13:18:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/84/60/c59bff26a398ad9bc9225cf4521bc283eb374201d7abd8bae2e34add25e8/safeheron_api_sdk_python-1.0.6.tar.gz
+[2024-05-08 13:18:35] INFO root fetch - processPackages [pygazpar]: executing diffoscope
+[2024-05-08 13:18:35] INFO root fetch - processPackages [pygazpar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygazpar-1.3.0a6.tar.gz tmp/pygazpar-1.3.0a9.tar.gz --markdown 20240508/p/pygazpar/1.3.0a6-1.3.0a9/README.md --exclude *.pyd
+[2024-05-08 13:18:35] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 13:18:35] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:18:35] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/83/fe/c81504dde98516c8be1273c104724a48e96b6051f16be482f49520d4c3de/py2docfx-0.1.7rc1720171-py3-none-any.whl
+[2024-05-08 13:18:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-08 13:18:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.0.5.tar.gz tmp/safeheron_api_sdk_python-1.0.6.tar.gz --markdown 20240508/s/safeheron-api-sdk-python/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-08 13:18:35] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-08 13:18:35] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7.dev1720363-py3-none-any.whl.zip tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip --markdown 20240508/p/py2docfx/0.1.7.dev1720363-0.1.7rc1720171/README.md --exclude *.pyd
+[2024-05-08 13:18:35] INFO root fetch - processPackages [clean-ioc]: Downloading https://files.pythonhosted.org/packages/49/73/af097963822d7aba7823d75fa776982ac94f514bafbe3f3676a32dead272/clean_ioc-0.9.0.tar.gz
+[2024-05-08 13:18:35] INFO root fetch - processPackages [clean-ioc]: executing diffoscope
+[2024-05-08 13:18:35] INFO root fetch - processPackages [clean-ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_ioc-0.8.0.tar.gz tmp/clean_ioc-0.9.0.tar.gz --markdown 20240508/c/clean-ioc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 13:18:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.5.tar.gz]
+[2024-05-08 13:18:35] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.6.tar.gz]
+[2024-05-08 13:18:35] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-08 13:18:35] INFO root fetch - processPackages [pygazpar]: Remove: archive file [/home/abi/fetcher/tmp/pygazpar-1.3.0a6.tar.gz]
+[2024-05-08 13:18:35] INFO root fetch - processPackages [pygazpar]: Remove: archive file [/home/abi/fetcher/tmp/pygazpar-1.3.0a9.tar.gz]
+[2024-05-08 13:18:35] INFO root fetch - main [MainThread]: End processing [pygazpar]: success
+[2024-05-08 13:18:36] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720363-py3-none-any.whl.zip]
+[2024-05-08 13:18:36] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip]
+[2024-05-08 13:18:36] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-08 13:18:36] INFO root fetch - processPackages [clean-ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-0.8.0.tar.gz]
+[2024-05-08 13:18:36] INFO root fetch - processPackages [clean-ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-0.9.0.tar.gz]
+[2024-05-08 13:18:36] INFO root fetch - main [MainThread]: End processing [clean-ioc]: success
+[2024-05-08 13:18:36] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 13:18:36] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 13:18:36] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 13:18:36] INFO root fetch - main [MainThread]: Store serial: [23112538]
