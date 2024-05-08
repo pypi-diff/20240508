@@ -9137,3 +9137,24 @@
 [2024-05-08 05:12:37] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-1.1.6.tar.gz]
 [2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
 [2024-05-08 05:12:37] INFO root fetch - main [MainThread]: Store serial: [23107872]
+[2024-05-08 05:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107872]
+[2024-05-08 05:14:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 05:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-commission
+[2024-05-08 05:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recce-nightly
+[2024-05-08 05:14:46] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-05-08 05:14:46] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.5]
+[2024-05-08 05:14:46] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-05-08 05:14:46] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/75/1f/bf1cb0eb36159b0ad122b37fb99fe773c4d66b32f18fc0dc99b9d8382223/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-08 05:14:46] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-05-08 05:14:46] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-05-08 05:14:46] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240508/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/README.md --exclude *.pyd
+[2024-05-08 05:14:46] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/a0/5a/eafdadbf3d1c75f597305e1e69e3d98043551676df0394508cfbaa90e77b/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-08 05:14:46] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-05-08 05:14:46] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-commission/17.0.1.0.0.5-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-08 05:14:47] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-08 05:14:47] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-08 05:14:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-05-08 05:14:48] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-05-08 05:14:48] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-05-08 05:14:48] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-05-08 05:14:48] INFO root fetch - main [MainThread]: Store serial: [23107877]
