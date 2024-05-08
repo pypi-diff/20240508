@@ -7111,3 +7111,33 @@
 [2024-05-08 03:18:53] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405070127.tar.gz]
 [2024-05-08 03:18:53] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-05-08 03:18:53] INFO root fetch - main [MainThread]: Store serial: [23106854]
+[2024-05-08 03:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23106854]
+[2024-05-08 03:21:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 03:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spleenseg
+[2024-05-08 03:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hospitalpy
+[2024-05-08 03:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: circuitree
+[2024-05-08 03:21:02] INFO root fetch - processPackages [spleenseg]: New version: [1.2.44] Old Version: [1.2.42]
+[2024-05-08 03:21:02] INFO root fetch - processPackages [hospitalpy]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-05-08 03:21:02] INFO root fetch - processPackages [circuitree]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 03:21:02] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/36/7f/67e57d19f290202193c4bafe94e7c96e8f7471f35543b8bf75712d389cfa/spleenseg-1.2.42.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/2f/0d/b840d59066197229e3006500d03aa67ed4e12e719671d62e8423662f3bf0/circuitree-0.9.8.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/55/b0/b1eb7db7952cdd15b444dc865c924a876c1741c78277caab9dd017616792/hospitalpy-0.1.25.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/76/2f/1468a23218fe4f140a082d15f774f3f440da52f54f84aecca7557d9a8a8b/spleenseg-1.2.44.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [circuitree]: Downloading https://files.pythonhosted.org/packages/8c/5c/25af40ce22d5230154519a92010aecbe4b68c8b3810c9fe76d817439304d/circuitree-0.9.9.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-05-08 03:21:02] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.42.tar.gz tmp/spleenseg-1.2.44.tar.gz --markdown 20240508/s/spleenseg/1.2.42-1.2.44/README.md --exclude *.pyd
+[2024-05-08 03:21:02] INFO root fetch - processPackages [hospitalpy]: Downloading https://files.pythonhosted.org/packages/cc/b9/88ce15ff4c8c2b4ceef51345c21331b137516111b00e789c10842ec232bf/hospitalpy-0.1.26.tar.gz
+[2024-05-08 03:21:02] INFO root fetch - processPackages [circuitree]: executing diffoscope
+[2024-05-08 03:21:02] INFO root fetch - processPackages [circuitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitree-0.9.8.tar.gz tmp/circuitree-0.9.9.tar.gz --markdown 20240508/c/circuitree/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 03:21:02] INFO root fetch - processPackages [hospitalpy]: executing diffoscope
+[2024-05-08 03:21:02] INFO root fetch - processPackages [hospitalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hospitalpy-0.1.25.tar.gz tmp/hospitalpy-0.1.26.tar.gz --markdown 20240508/h/hospitalpy/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-05-08 03:21:03] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.42.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.44.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-05-08 03:21:03] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.8.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - processPackages [circuitree]: Remove: archive file [/home/abi/fetcher/tmp/circuitree-0.9.9.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - main [MainThread]: End processing [circuitree]: success
+[2024-05-08 03:21:03] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.25.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - processPackages [hospitalpy]: Remove: archive file [/home/abi/fetcher/tmp/hospitalpy-0.1.26.tar.gz]
+[2024-05-08 03:21:03] INFO root fetch - main [MainThread]: End processing [hospitalpy]: success
+[2024-05-08 03:21:03] INFO root fetch - main [MainThread]: Store serial: [23106918]
