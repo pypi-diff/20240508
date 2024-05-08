@@ -23085,3 +23085,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:12:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.7.tar.gz]
 [2024-05-08 15:12:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-08 15:12:07] INFO root fetch - main [MainThread]: Store serial: [23113883]
+[2024-05-08 15:14:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113883]
+[2024-05-08 15:14:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 15:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: realtime-operator
+[2024-05-08 15:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2024-05-08 15:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NatanStanek
+[2024-05-08 15:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hosted-flasks
+[2024-05-08 15:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exasol-toolbox
+[2024-05-08 15:14:16] WARNING root fetch - processPackages [NatanStanek]: Skipping, unable to determine old version
+[2024-05-08 15:14:16] INFO root fetch - main [MainThread]: End processing [NatanStanek] error
+[2024-05-08 15:14:16] INFO root fetch - processPackages [exasol-toolbox]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 15:14:16] INFO root fetch - processPackages [hosted-flasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 15:14:16] INFO root fetch - processPackages [realtime-operator]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-08 15:14:16] INFO root fetch - processPackages [python-roborock]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-08 15:14:17] INFO root fetch - processPackages [realtime-operator]: Downloading https://files.pythonhosted.org/packages/5f/be/5d4e7a58abd41f3da5b3ecc38f1aa2dfbf7a9e9937802a3a88460caf6262/realtime_operator-0.2.6.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/dd/94/fc4a8cb061c85206415ca97da3193ef77c0b37504b7df2f79c8f84e3a6e8/python_roborock-2.0.0.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [hosted-flasks]: Downloading https://files.pythonhosted.org/packages/bc/65/5108717931a420fb96b102f6da4057efb107a74d0d40adda579d214697bd/hosted-flasks-0.0.8.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/2e/eb/bd4143bec8479f23fd69b39a5770d21f1b1157e569082d151a26481ba2e3/exasol_toolbox-0.8.0.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [realtime-operator]: Downloading https://files.pythonhosted.org/packages/18/88/32c08019e7020e3e54bcaadd2ece0974b1bdb444c25464c1f6bef663290d/realtime_operator-0.2.7.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [exasol-toolbox]: Downloading https://files.pythonhosted.org/packages/ee/68/823061ed5af0888aa233e71bfb2d162de2ec6850af8ea1b2919eca60ea70/exasol_toolbox-0.9.0.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [realtime-operator]: executing diffoscope
+[2024-05-08 15:14:17] INFO root fetch - processPackages [realtime-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realtime_operator-0.2.6.tar.gz tmp/realtime_operator-0.2.7.tar.gz --markdown 20240508/r/realtime-operator/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-08 15:14:17] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/d8/30/b0f7468c0c4cfb54f3914542da2499d1b42fcad969c2c30e4065de0f0934/python_roborock-2.1.0.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [hosted-flasks]: Downloading https://files.pythonhosted.org/packages/15/9e/ee28d32e5080af2012c33bc6cc84c0302c4b561620b03155e1a4b43776f9/hosted-flasks-0.0.9.tar.gz
+[2024-05-08 15:14:17] INFO root fetch - processPackages [exasol-toolbox]: executing diffoscope
+[2024-05-08 15:14:17] INFO root fetch - processPackages [exasol-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_toolbox-0.8.0.tar.gz tmp/exasol_toolbox-0.9.0.tar.gz --markdown 20240508/e/exasol-toolbox/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 15:14:17] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2024-05-08 15:14:17] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-2.0.0.tar.gz tmp/python_roborock-2.1.0.tar.gz --markdown 20240508/p/python-roborock/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-08 15:14:17] INFO root fetch - processPackages [hosted-flasks]: executing diffoscope
+[2024-05-08 15:14:17] INFO root fetch - processPackages [hosted-flasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hosted-flasks-0.0.8.tar.gz tmp/hosted-flasks-0.0.9.tar.gz --markdown 20240508/h/hosted-flasks/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 15:14:18] INFO root fetch - processPackages [realtime-operator]: Remove: archive file [/home/abi/fetcher/tmp/realtime_operator-0.2.6.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - processPackages [realtime-operator]: Remove: archive file [/home/abi/fetcher/tmp/realtime_operator-0.2.7.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - main [MainThread]: End processing [realtime-operator]: success
+[2024-05-08 15:14:18] INFO root fetch - processPackages [hosted-flasks]: Remove: archive file [/home/abi/fetcher/tmp/hosted-flasks-0.0.8.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - processPackages [hosted-flasks]: Remove: archive file [/home/abi/fetcher/tmp/hosted-flasks-0.0.9.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - main [MainThread]: End processing [hosted-flasks]: success
+[2024-05-08 15:14:18] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-2.0.0.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-2.1.0.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2024-05-08 15:14:18] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.8.0.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - processPackages [exasol-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/exasol_toolbox-0.9.0.tar.gz]
+[2024-05-08 15:14:18] INFO root fetch - main [MainThread]: End processing [exasol-toolbox]: success
+[2024-05-08 15:14:18] INFO root fetch - main [MainThread]: Store serial: [23113907]
