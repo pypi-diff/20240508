@@ -10639,3 +10639,54 @@
 [2024-05-08 06:42:11] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.0.1.tar.gz]
 [2024-05-08 06:42:11] INFO root fetch - main [MainThread]: End processing [nadl]: success
 [2024-05-08 06:42:11] INFO root fetch - main [MainThread]: Store serial: [23108291]
+[2024-05-08 06:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108291]
+[2024-05-08 06:44:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartauthen
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kellyapi
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-experimental
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcnodes-numpy
+[2024-05-08 06:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cabinet
+[2024-05-08 06:44:20] INFO root fetch - processPackages [kellyapi]: New version: [0.0.2.4] Old Version: [0.0.2.3]
+[2024-05-08 06:44:20] INFO root fetch - processPackages [charzr-lib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 06:44:20] INFO root fetch - processPackages [langchain-experimental]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 06:44:20] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.53] Old Version: [0.1.52]
+[2024-05-08 06:44:20] WARNING root fetch - processPackages [smartauthen]: Skipping, unable to determine old version
+[2024-05-08 06:44:20] INFO root fetch - main [MainThread]: End processing [smartauthen] error
+[2024-05-08 06:44:20] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/4c/60/1c6ea64e88bd5fd15e7e9ddc4cd03fc7b762bf104bf27a10612d60beeb3e/charzr_lib-1.1.0.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [kellyapi]: Downloading https://files.pythonhosted.org/packages/09/c9/99f1712a17a686defca9940e4d7861a300eb59b211a7fed3f24cba89cd6c/kellyapi-0.0.2.3.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [cabinet]: New version: [2024.5.7.1] Old Version: [2024.4.29.3]
+[2024-05-08 06:44:20] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/70/22/a4c157ecf8ec1ca0521d60f2e0efb9895206295af068db4773bbf7ecc7e6/langchain_experimental-0.0.8.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/ed/bd/b64f76474f413d8ad78d78fedbed822f3e94b8f7c868b2b5e56142180652/funcnodes_numpy-0.1.52.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [kellyapi]: Downloading https://files.pythonhosted.org/packages/5b/29/58c3eca701667a2ff6cf76882a84b559e8789db51090b31082c9f956a8f1/kellyapi-0.0.2.4.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/4f/4f/1952a528f9848ac367bf21623e06ede8d82c20c9e76200fc5c915c7ad46c/cabinet-2024.4.29.3.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/78/0a/9225086aa21672dca03aaf8022994552338e48aff9816fcca30cfb687e83/charzr_lib-1.1.1.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [kellyapi]: executing diffoscope
+[2024-05-08 06:44:20] INFO root fetch - processPackages [kellyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kellyapi-0.0.2.3.tar.gz tmp/kellyapi-0.0.2.4.tar.gz --markdown 20240508/k/kellyapi/0.0.2.3-0.0.2.4/README.md --exclude *.pyd
+[2024-05-08 06:44:20] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:44:20] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.1.0.tar.gz tmp/charzr_lib-1.1.1.tar.gz --markdown 20240508/c/charzr-lib/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 06:44:20] INFO root fetch - processPackages [langchain-experimental]: Downloading https://files.pythonhosted.org/packages/ed/84/a2ae9bbf7653023950d01099435044e66cc5d0f2435cca33d6e39597c6e0/langchain_experimental-0.0.9.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/65/9a/63799a2a5f99f343f27460c13a4a62ec5c1cf65cf6db798ef5dc9d4122db/funcnodes_numpy-0.1.53.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-05-08 06:44:20] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.52.tar.gz tmp/funcnodes_numpy-0.1.53.tar.gz --markdown 20240508/f/funcnodes-numpy/0.1.52-0.1.53/README.md --exclude *.pyd
+[2024-05-08 06:44:20] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/8c/3a/40844357de4ff855e2a9483bd4cda34b0df4400f21b5084a02372dffbc0b/cabinet-2024.5.7.1.tar.gz
+[2024-05-08 06:44:20] INFO root fetch - processPackages [langchain-experimental]: executing diffoscope
+[2024-05-08 06:44:20] INFO root fetch - processPackages [langchain-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_experimental-0.0.8.tar.gz tmp/langchain_experimental-0.0.9.tar.gz --markdown 20240508/l/langchain-experimental/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 06:44:21] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2024-05-08 06:44:21] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2024.4.29.3.tar.gz tmp/cabinet-2024.5.7.1.tar.gz --markdown 20240508/c/cabinet/2024.4.29.3-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-08 06:44:21] INFO root fetch - processPackages [kellyapi]: Remove: archive file [/home/abi/fetcher/tmp/kellyapi-0.0.2.3.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - processPackages [kellyapi]: Remove: archive file [/home/abi/fetcher/tmp/kellyapi-0.0.2.4.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [kellyapi]: success
+[2024-05-08 06:44:21] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.0.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.1.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:44:21] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.52.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.53.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-05-08 06:44:21] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.8.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - processPackages [langchain-experimental]: Remove: archive file [/home/abi/fetcher/tmp/langchain_experimental-0.0.9.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [langchain-experimental]: success
+[2024-05-08 06:44:21] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.29.3.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.5.7.1.tar.gz]
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2024-05-08 06:44:21] INFO root fetch - main [MainThread]: Store serial: [23108320]
