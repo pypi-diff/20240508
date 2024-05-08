@@ -22831,3 +22831,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:05:26] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
 [2024-05-08 15:05:26] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
 [2024-05-08 15:05:26] INFO root fetch - main [MainThread]: Store serial: [23113786]
+[2024-05-08 15:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113786]
+[2024-05-08 15:07:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-yeedu-operator
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepcave
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocatari
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticsearch-pii-redacter
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eea.api.dataconnector
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kid-ppg
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DesalSim
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NatanStanek
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ocatari]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 15:07:35] INFO root fetch - processPackages [airflow-yeedu-operator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 15:07:35] INFO root fetch - processPackages [DesalSim]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-08 15:07:35] INFO root fetch - processPackages [deepcave]: New version: [1.2] Old Version: [1.1.3]
+[2024-05-08 15:07:35] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-08 15:07:35] WARNING root fetch - processPackages [NatanStanek]: Skipping, unable to determine old version
+[2024-05-08 15:07:35] INFO root fetch - main [MainThread]: End processing [NatanStanek] error
+[2024-05-08 15:07:35] INFO root fetch - processPackages [elasticsearch-pii-redacter]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-08 15:07:35] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/f8/5d/5a1a69017e86f29518b6e091d97073d22085c468f464161e70d50cae949a/ocatari-1.0.7.tar.gz
+[2024-05-08 15:07:35] INFO root fetch - processPackages [eea.api.dataconnector]: New version: [9.0] Old Version: [8.5]
+[2024-05-08 15:07:35] WARNING root fetch - processPackages [kid-ppg]: Skipping, unable to determine old version
+[2024-05-08 15:07:35] INFO root fetch - main [MainThread]: End processing [kid-ppg] error
+[2024-05-08 15:07:35] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-08 15:07:35] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/80/8f/9968afb5472a320998dee622c502cf62ed86f5f9d125ce7f137fee8e177f/airflow-yeedu-operator-1.0.8.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [deepcave]: Downloading https://files.pythonhosted.org/packages/e7/fc/d9378a6622d8077715edb1a07ba4f0434974fdfd3e6602fe3ca23f8992c0/deepcave-1.1.3.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Downloading https://files.pythonhosted.org/packages/0c/b9/9ec2da213f5161e781ce8d94a58d09f39abb732f9d0a546a1b4ddc005678/elasticsearch_pii_redacter-1.9.1.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/31/2b/c978cbf21b4e0bdd39ece48de25e40a6cd0d97148634aa2b120dd8c43a72/desalsim-1.0.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [eea.api.dataconnector]: Downloading https://files.pythonhosted.org/packages/f5/ba/708367a95bffb9aaa493b7a5e1bfea697c76c65a23efa7e4ec9714f0d679/eea.api.dataconnector-8.5.zip
+[2024-05-08 15:07:36] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/7d/df/dfd470e1ae06c04b8c208acfb0196566b759ecc4e9ff4ad4966c976b9b57/ocatari-1.0.8.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240508/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/14/2e/01a5f1457c6bc383beb14de928fc4afc1863a7cb7c239645729c6ecc71e1/airflow_yeedu_operator-1.0.9-py3-none-any.whl
+[2024-05-08 15:07:36] INFO root fetch - processPackages [ocatari]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [ocatari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocatari-1.0.7.tar.gz tmp/ocatari-1.0.8.tar.gz --markdown 20240508/o/ocatari/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/2c/e6/037127f9e7f7accbad6c07e5e01325914b05dad2c757b297b08db5546948/desalsim-1.0.1.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Downloading https://files.pythonhosted.org/packages/8e/1d/1f35c0bb87dc669a3be5e4aa22c751346f75e3a7f7b552f3fb4138c9127b/elasticsearch_pii_redacter-1.9.2.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [deepcave]: Downloading https://files.pythonhosted.org/packages/f6/9c/d7046ab0afddcd6676d46ba03a45564ff58c8e660117b65ef47ccdb31fcf/deepcave-1.2.tar.gz
+[2024-05-08 15:07:36] INFO root fetch - processPackages [airflow-yeedu-operator]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [airflow-yeedu-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-yeedu-operator-1.0.8.tar.gz tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip --markdown 20240508/a/airflow-yeedu-operator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [eea.api.dataconnector]: Downloading https://files.pythonhosted.org/packages/13/4c/1a8bf8fd6f92d0798fcd6df8943cd9d93ff2c2c195a3e02fa3703ca2c489/eea.api.dataconnector-9.0.zip
+[2024-05-08 15:07:36] INFO root fetch - processPackages [deepcave]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [deepcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcave-1.1.3.tar.gz tmp/deepcave-1.2.tar.gz --markdown 20240508/d/deepcave/1.1.3-1.2/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-1.0.tar.gz tmp/desalsim-1.0.1.tar.gz --markdown 20240508/D/DesalSim/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [elasticsearch-pii-redacter]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [elasticsearch-pii-redacter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_pii_redacter-1.9.1.tar.gz tmp/elasticsearch_pii_redacter-1.9.2.tar.gz --markdown 20240508/e/elasticsearch-pii-redacter/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-08 15:07:36] INFO root fetch - processPackages [eea.api.dataconnector]: executing diffoscope
+[2024-05-08 15:07:36] INFO root fetch - processPackages [eea.api.dataconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.api.dataconnector-8.5.zip tmp/eea.api.dataconnector-9.0.zip --markdown 20240508/e/eea.api.dataconnector/8.5-9.0/README.md --exclude *.pyd
+[2024-05-08 15:07:37] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-08 15:07:37] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.8.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow_yeedu_operator-1.0.9-py3-none-any.whl.zip]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [airflow-yeedu-operator]: success
+[2024-05-08 15:07:37] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_pii_redacter-1.9.1.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_pii_redacter-1.9.2.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [elasticsearch-pii-redacter]: success
+[2024-05-08 15:07:37] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-1.0.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-1.0.1.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 15:07:37] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.7.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.8.tar.gz]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [ocatari]: success
+[2024-05-08 15:07:37] INFO root fetch - processPackages [eea.api.dataconnector]: Remove: archive file [/home/abi/fetcher/tmp/eea.api.dataconnector-8.5.zip]
+[2024-05-08 15:07:37] INFO root fetch - processPackages [eea.api.dataconnector]: Remove: archive file [/home/abi/fetcher/tmp/eea.api.dataconnector-9.0.zip]
+[2024-05-08 15:07:37] INFO root fetch - main [MainThread]: End processing [eea.api.dataconnector]: success
+[2024-05-08 15:07:38] INFO root fetch - processPackages [deepcave]: Remove: archive file [/home/abi/fetcher/tmp/deepcave-1.1.3.tar.gz]
+[2024-05-08 15:07:38] INFO root fetch - processPackages [deepcave]: Remove: archive file [/home/abi/fetcher/tmp/deepcave-1.2.tar.gz]
+[2024-05-08 15:07:38] INFO root fetch - main [MainThread]: End processing [deepcave]: success
+[2024-05-08 15:07:38] INFO root fetch - main [MainThread]: Store serial: [23113815]
