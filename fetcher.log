@@ -10726,3 +10726,42 @@
 [2024-05-08 06:48:45] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.2.0rc1.tar.gz]
 [2024-05-08 06:48:45] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2024-05-08 06:48:45] INFO root fetch - main [MainThread]: Store serial: [23108336]
+[2024-05-08 06:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108336]
+[2024-05-08 06:50:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 06:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langgraph-sdk
+[2024-05-08 06:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langgraph-cli
+[2024-05-08 06:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-08 06:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frappe-bench
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-08 06:50:54] INFO root fetch - processPackages [frappe-bench]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/b3/50/02e8fc6d74aa64c09a80c6ec6e7bbd2674ad693b4d71e2f6e73cbb0287fd/langgraph_cli-0.1.6.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/95/27/8bd7b3a46c26862ae3af617ee4c82e7ea911a563a870bd0784b3d64a3188/langgraph_sdk-0.1.1.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [frappe-bench]: Downloading https://files.pythonhosted.org/packages/a3/c0/d29890df30f1111e97412108ab266da8504b89d62f74a2f2d9a9dc59ada9/frappe_bench-5.8.1-py2.py3-none-any.whl
+[2024-05-08 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/42/aa/78e77a133ec34588f75bd24cca669ed1d57328389ee26243883632518de4/langgraph_sdk-0.1.2.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-cli]: Downloading https://files.pythonhosted.org/packages/99/cf/4281efa085a3e2c89115111539afb7ada035047120fdfeaf41fce39facde/langgraph_cli-0.1.7.tar.gz
+[2024-05-08 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-08 06:50:54] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240508/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-sdk]: executing diffoscope
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_sdk-0.1.1.tar.gz tmp/langgraph_sdk-0.1.2.tar.gz --markdown 20240508/l/langgraph-sdk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-cli]: executing diffoscope
+[2024-05-08 06:50:54] INFO root fetch - processPackages [langgraph-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_cli-0.1.6.tar.gz tmp/langgraph_cli-0.1.7.tar.gz --markdown 20240508/l/langgraph-cli/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-08 06:50:54] INFO root fetch - processPackages [frappe-bench]: Downloading https://files.pythonhosted.org/packages/68/35/6fbd58cfcc6fab1af0f4f1ed42d8c47ff7f295994923b1f2e0a4bc7f262a/frappe_bench-5.9.0-py2.py3-none-any.whl
+[2024-05-08 06:50:55] INFO root fetch - processPackages [frappe-bench]: executing diffoscope
+[2024-05-08 06:50:55] INFO root fetch - processPackages [frappe-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frappe_bench-5.8.1-py2.py3-none-any.whl.zip tmp/frappe_bench-5.9.0-py2.py3-none-any.whl.zip --markdown 20240508/f/frappe-bench/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-05-08 06:50:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-08 06:50:55] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.6.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - processPackages [langgraph-cli]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_cli-0.1.7.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - main [MainThread]: End processing [langgraph-cli]: success
+[2024-05-08 06:50:55] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.1.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.2.tar.gz]
+[2024-05-08 06:50:55] INFO root fetch - main [MainThread]: End processing [langgraph-sdk]: success
+[2024-05-08 06:50:56] INFO root fetch - processPackages [frappe-bench]: Remove: archive file [/home/abi/fetcher/tmp/frappe_bench-5.8.1-py2.py3-none-any.whl.zip]
+[2024-05-08 06:50:56] INFO root fetch - processPackages [frappe-bench]: Remove: archive file [/home/abi/fetcher/tmp/frappe_bench-5.9.0-py2.py3-none-any.whl.zip]
+[2024-05-08 06:50:56] INFO root fetch - main [MainThread]: End processing [frappe-bench]: success
+[2024-05-08 06:50:56] INFO root fetch - main [MainThread]: Store serial: [23108348]
