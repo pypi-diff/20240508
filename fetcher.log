@@ -9005,3 +9005,39 @@
 [2024-05-08 05:06:05] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.5.tar.gz]
 [2024-05-08 05:06:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
 [2024-05-08 05:06:05] INFO root fetch - main [MainThread]: Store serial: [23107800]
+[2024-05-08 05:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107800]
+[2024-05-08 05:08:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 05:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profile-user-local
+[2024-05-08 05:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nashypy
+[2024-05-08 05:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildz
+[2024-05-08 05:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: charzr-lib
+[2024-05-08 05:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hedge-intell
+[2024-05-08 05:08:14] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-08 05:08:14] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/d5/6d/c14da10a7b2df0fa00e46cbb9cfd25da669536a02b6ae31dd739fa7a418b/charzr_lib-1.0.2.tar.gz
+[2024-05-08 05:08:14] INFO root fetch - processPackages [profile-user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:08:14] WARNING root fetch - processPackages [nashypy]: Skipping, unable to determine old version
+[2024-05-08 05:08:14] INFO root fetch - main [MainThread]: End processing [nashypy] error
+[2024-05-08 05:08:14] INFO root fetch - processPackages [buildz]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-08 05:08:14] WARNING root fetch - processPackages [hedge-intell]: Skipping, unable to determine old version
+[2024-05-08 05:08:14] INFO root fetch - main [MainThread]: End processing [hedge-intell] error
+[2024-05-08 05:08:14] INFO root fetch - processPackages [profile-user-local]: Downloading https://files.pythonhosted.org/packages/c6/3b/9caa6b7cabe52225820726960f7ef8bd9f30200f99c6bf5141ce7673db3a/profile-user-local-0.0.8.tar.gz
+[2024-05-08 05:08:14] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/71/cc/7eb51044d2bb1fdd7c150cd9fe1c9dc657693d99896ca14d3120e8c57983/buildz-0.5.3.tar.gz
+[2024-05-08 05:08:14] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/fc/df/36665dd2bbb215742f6f16ab69fca3df0ecc761187949bda247bbba0b020/charzr_lib-1.0.3.tar.gz
+[2024-05-08 05:08:14] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 05:08:14] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.2.tar.gz tmp/charzr_lib-1.0.3.tar.gz --markdown 20240508/c/charzr-lib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-08 05:08:15] INFO root fetch - processPackages [profile-user-local]: Downloading https://files.pythonhosted.org/packages/af/09/2f7d46ace362895ba935b39d4a84719510693d083df027835af4700e873e/profile-user-local-0.0.9.tar.gz
+[2024-05-08 05:08:15] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/8f/a5/3b3cb384c7f8aa7a2cb9f159caec7e675adf699bd5fb0f36e7606e59b643/buildz-0.5.4.tar.gz
+[2024-05-08 05:08:15] INFO root fetch - processPackages [profile-user-local]: executing diffoscope
+[2024-05-08 05:08:15] INFO root fetch - processPackages [profile-user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-user-local-0.0.8.tar.gz tmp/profile-user-local-0.0.9.tar.gz --markdown 20240508/p/profile-user-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:08:15] INFO root fetch - processPackages [buildz]: executing diffoscope
+[2024-05-08 05:08:15] INFO root fetch - processPackages [buildz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildz-0.5.3.tar.gz tmp/buildz-0.5.4.tar.gz --markdown 20240508/b/buildz/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-08 05:08:15] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.2.tar.gz]
+[2024-05-08 05:08:15] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.3.tar.gz]
+[2024-05-08 05:08:15] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 05:08:15] INFO root fetch - processPackages [profile-user-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-user-local-0.0.8.tar.gz]
+[2024-05-08 05:08:15] INFO root fetch - processPackages [profile-user-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-user-local-0.0.9.tar.gz]
+[2024-05-08 05:08:15] INFO root fetch - main [MainThread]: End processing [profile-user-local]: success
+[2024-05-08 05:08:16] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.5.3.tar.gz]
+[2024-05-08 05:08:16] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.5.4.tar.gz]
+[2024-05-08 05:08:16] INFO root fetch - main [MainThread]: End processing [buildz]: success
+[2024-05-08 05:08:16] INFO root fetch - main [MainThread]: Store serial: [23107821]
