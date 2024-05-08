@@ -10606,3 +10606,24 @@
 [2024-05-08 06:37:51] INFO root fetch - processPackages [kellyapi]: Remove: archive file [/home/abi/fetcher/tmp/kellyapi-0.0.2.4.tar.gz]
 [2024-05-08 06:37:51] INFO root fetch - main [MainThread]: End processing [kellyapi]: success
 [2024-05-08 06:37:51] INFO root fetch - main [MainThread]: Store serial: [23108282]
+[2024-05-08 06:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108282]
+[2024-05-08 06:39:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ehdtd
+[2024-05-08 06:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unione
+[2024-05-08 06:40:00] INFO root fetch - processPackages [unione]: New version: [0.5] Old Version: [0.4]
+[2024-05-08 06:40:00] INFO root fetch - processPackages [ehdtd]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 06:40:00] INFO root fetch - processPackages [ehdtd]: Downloading https://files.pythonhosted.org/packages/56/99/698cd469f5f10df07f33d8c139f1509507e0539b6b52740dd317755ad158/ehdtd-0.2.0.tar.gz
+[2024-05-08 06:40:00] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/8a/bd/49f7ec75a358e791bd042139c6d4f67f4df2aaa2381123f6cb987ef12979/unione-0.4.tar.gz
+[2024-05-08 06:40:00] INFO root fetch - processPackages [ehdtd]: Downloading https://files.pythonhosted.org/packages/05/32/059830a42347fdb0fd727d41340a8b4ec73426f07a6a767c01b740598784/ehdtd-0.2.1.tar.gz
+[2024-05-08 06:40:00] INFO root fetch - processPackages [ehdtd]: executing diffoscope
+[2024-05-08 06:40:00] INFO root fetch - processPackages [ehdtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdtd-0.2.0.tar.gz tmp/ehdtd-0.2.1.tar.gz --markdown 20240508/e/ehdtd/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 06:40:00] INFO root fetch - processPackages [unione]: Downloading https://files.pythonhosted.org/packages/04/0e/018a256bb6bce0324175f7a69c671b302ade666c6642da29eaf3b52f335f/unione-0.5.tar.gz
+[2024-05-08 06:40:00] INFO root fetch - processPackages [unione]: executing diffoscope
+[2024-05-08 06:40:00] INFO root fetch - processPackages [unione]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unione-0.4.tar.gz tmp/unione-0.5.tar.gz --markdown 20240508/u/unione/0.4-0.5/README.md --exclude *.pyd
+[2024-05-08 06:40:01] INFO root fetch - processPackages [ehdtd]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd-0.2.0.tar.gz]
+[2024-05-08 06:40:01] INFO root fetch - processPackages [ehdtd]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd-0.2.1.tar.gz]
+[2024-05-08 06:40:01] INFO root fetch - main [MainThread]: End processing [ehdtd]: success
+[2024-05-08 06:40:01] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.4.tar.gz]
+[2024-05-08 06:40:01] INFO root fetch - processPackages [unione]: Remove: archive file [/home/abi/fetcher/tmp/unione-0.5.tar.gz]
+[2024-05-08 06:40:01] INFO root fetch - main [MainThread]: End processing [unione]: success
+[2024-05-08 06:40:01] INFO root fetch - main [MainThread]: Store serial: [23108288]
