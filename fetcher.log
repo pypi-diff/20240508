@@ -11334,3 +11334,78 @@
 [2024-05-08 07:41:51] INFO root fetch - processPackages [rally]: Remove: archive file [/home/abi/fetcher/tmp/rally-4.1.0.tar.gz]
 [2024-05-08 07:41:51] INFO root fetch - main [MainThread]: End processing [rally]: success
 [2024-05-08 07:41:51] INFO root fetch - main [MainThread]: Store serial: [23108590]
+[2024-05-08 07:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108590]
+[2024-05-08 07:43:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-node-parser-relational-dashscope-custom
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vis-analysis-torch
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulse-coupled-nn
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensor-maximum-entropy
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: corrected-fisher-randomization
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hrin-msb
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-duckdb
+[2024-05-08 07:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lfg-llama
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 07:44:00] INFO root fetch - processPackages [pulse-coupled-nn]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 07:44:00] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-08 07:44:00] WARNING root fetch - processPackages [llama-index-node-parser-relational-dashscope-custom]: Skipping, unable to determine old version
+[2024-05-08 07:44:00] INFO root fetch - main [MainThread]: End processing [llama-index-node-parser-relational-dashscope-custom] error
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [pulse-coupled-nn]: Downloading https://files.pythonhosted.org/packages/e9/3a/0910f50b9270aa8496543be4468803839a51252c469b2c5bb30bf8a8755c/pulse_coupled_nn-0.0.4.tar.gz
+[2024-05-08 07:44:00] WARNING root fetch - processPackages [tensor-maximum-entropy]: Skipping, unable to determine old version
+[2024-05-08 07:44:00] INFO root fetch - main [MainThread]: End processing [tensor-maximum-entropy] error
+[2024-05-08 07:44:00] INFO root fetch - processPackages [vis-analysis-torch]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-08 07:44:00] WARNING root fetch - processPackages [corrected-fisher-randomization]: Skipping, unable to determine old version
+[2024-05-08 07:44:00] INFO root fetch - main [MainThread]: End processing [corrected-fisher-randomization] error
+[2024-05-08 07:44:00] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.96] Old Version: [0.2.95]
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lfg-llama]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-08 07:44:00] INFO root fetch - processPackages [dbt-duckdb]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/e5/90/5efa5606be04db93988985585258c0fcc2cca1cbde54937619546c5ef879/vis_analysis_torch-0.3.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/31/b1/dd3777662333170582961127704a2d7dc005071f617e066c586ed61b1068/hrin_msb-0.2.95.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240508/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 07:44:00] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/8f/72/ab4d6967cfa3919aaa88916a26f648ebe5dad989e2b110d86044983ad186/lfg_llama-1.3.0.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/4e/2e/2c6212db3b6b97552e7b3a6b41178a8f5c9d2ce4f4ffffca11dde56cab86/dbt_duckdb-1.7.4.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [pulse-coupled-nn]: Downloading https://files.pythonhosted.org/packages/37/e5/913bc990b685e208f6d4aa6299f99c57d0443275681b6fd479d136226ab5/pulse_coupled_nn-0.0.5.tar.gz
+[2024-05-08 07:44:00] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-08 07:44:00] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240508/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-08 07:44:00] INFO root fetch - processPackages [pulse-coupled-nn]: executing diffoscope
+[2024-05-08 07:44:00] INFO root fetch - processPackages [pulse-coupled-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulse_coupled_nn-0.0.4.tar.gz tmp/pulse_coupled_nn-0.0.5.tar.gz --markdown 20240508/p/pulse-coupled-nn/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 07:44:00] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/70/fd/5416a32cd2f0c97ed55bab393ded4c27aa2ce2b15124629b71c3c93b3397/vis_analysis_torch-0.3.1.tar.gz
+[2024-05-08 07:44:01] INFO root fetch - processPackages [dbt-duckdb]: Downloading https://files.pythonhosted.org/packages/fa/b3/0d37f2a4772a67f553f9da9277093414e332f3cd63aaeec60d2876d9cdeb/dbt_duckdb-1.7.5.tar.gz
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/61/79/1ed9f44ca426ec328eb2080bd9b6e8592ec7dcb57c125072a47a179ff9fc/lfg_llama-1.3.1.tar.gz
+[2024-05-08 07:44:01] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/1f/2d/ccd5c531fd8be7190c85ce3e2fec07dedb4421f4d64c742936d5f8bda0da/hrin_msb-0.2.96.tar.gz
+[2024-05-08 07:44:01] INFO root fetch - processPackages [vis-analysis-torch]: executing diffoscope
+[2024-05-08 07:44:01] INFO root fetch - processPackages [vis-analysis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis_analysis_torch-0.3.tar.gz tmp/vis_analysis_torch-0.3.1.tar.gz --markdown 20240508/v/vis-analysis-torch/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-08 07:44:01] INFO root fetch - processPackages [dbt-duckdb]: executing diffoscope
+[2024-05-08 07:44:01] INFO root fetch - processPackages [dbt-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_duckdb-1.7.4.tar.gz tmp/dbt_duckdb-1.7.5.tar.gz --markdown 20240508/d/dbt-duckdb/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.3.0.tar.gz tmp/lfg_llama-1.3.1.tar.gz --markdown 20240508/l/lfg-llama/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-08 07:44:01] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-08 07:44:01] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2024-05-08 07:44:01] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.95.tar.gz tmp/hrin_msb-0.2.96.tar.gz --markdown 20240508/h/hrin-msb/0.2.95-0.2.96/README.md --exclude *.pyd
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-08 07:44:01] INFO root fetch - processPackages [pulse-coupled-nn]: Remove: archive file [/home/abi/fetcher/tmp/pulse_coupled_nn-0.0.4.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - processPackages [pulse-coupled-nn]: Remove: archive file [/home/abi/fetcher/tmp/pulse_coupled_nn-0.0.5.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - main [MainThread]: End processing [pulse-coupled-nn]: success
+[2024-05-08 07:44:01] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.3.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.3.1.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch]: success
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.3.0.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.3.1.tar.gz]
+[2024-05-08 07:44:01] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-08 07:44:02] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.7.4.tar.gz]
+[2024-05-08 07:44:02] INFO root fetch - processPackages [dbt-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_duckdb-1.7.5.tar.gz]
+[2024-05-08 07:44:02] INFO root fetch - main [MainThread]: End processing [dbt-duckdb]: success
+[2024-05-08 07:44:02] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.95.tar.gz]
+[2024-05-08 07:44:02] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.96.tar.gz]
+[2024-05-08 07:44:02] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2024-05-08 07:44:02] INFO root fetch - main [MainThread]: Store serial: [23108623]
