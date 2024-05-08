@@ -11635,3 +11635,30 @@
 [2024-05-08 07:59:47] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.9.tar.gz]
 [2024-05-08 07:59:47] INFO root fetch - main [MainThread]: End processing [pcffont]: success
 [2024-05-08 07:59:47] INFO root fetch - main [MainThread]: Store serial: [23108744]
+[2024-05-08 08:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108744]
+[2024-05-08 08:01:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: depthcharge-ms
+[2024-05-08 08:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoMLApp
+[2024-05-08 08:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spike-cluster-score
+[2024-05-08 08:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radient
+[2024-05-08 08:01:55] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.67] Old Version: [0.1.66]
+[2024-05-08 08:01:56] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/83/ef/5c1544c3fa1e7e7009f90a47a6804b8a649d873525961fdaa163cde32ba2/automlapp-0.1.66.tar.gz
+[2024-05-08 08:01:56] WARNING root fetch - processPackages [radient]: Skipping, unable to determine old version
+[2024-05-08 08:01:56] INFO root fetch - main [MainThread]: End processing [radient] error
+[2024-05-08 08:01:56] INFO root fetch - processPackages [depthcharge-ms]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-08 08:01:56] WARNING root fetch - processPackages [spike-cluster-score]: Skipping, unable to determine old version
+[2024-05-08 08:01:56] INFO root fetch - main [MainThread]: End processing [spike-cluster-score] error
+[2024-05-08 08:01:56] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/e5/5d/e7695fae8f2979e9b8b1479705b13bcdd6bd4b422fcf1dbc3d66f47f5dcd/depthcharge_ms-0.4.5.tar.gz
+[2024-05-08 08:01:56] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/dc/c6/6dcdd6d81a2ca5dfa3759183b99519cf6482f7451391e81986f1cc529685/automlapp-0.1.67.tar.gz
+[2024-05-08 08:01:56] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-08 08:01:56] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.66.tar.gz tmp/automlapp-0.1.67.tar.gz --markdown 20240508/A/AutoMLApp/0.1.66-0.1.67/README.md --exclude *.pyd
+[2024-05-08 08:01:56] INFO root fetch - processPackages [depthcharge-ms]: Downloading https://files.pythonhosted.org/packages/5d/9a/3a43f87209f30ee5cee78b197b442e53ad859db66837a86bcbd1b953e2d3/depthcharge_ms-0.4.6.tar.gz
+[2024-05-08 08:01:56] INFO root fetch - processPackages [depthcharge-ms]: executing diffoscope
+[2024-05-08 08:01:56] INFO root fetch - processPackages [depthcharge-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depthcharge_ms-0.4.5.tar.gz tmp/depthcharge_ms-0.4.6.tar.gz --markdown 20240508/d/depthcharge-ms/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-08 08:01:57] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.66.tar.gz]
+[2024-05-08 08:01:57] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.67.tar.gz]
+[2024-05-08 08:01:57] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-08 08:01:57] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.5.tar.gz]
+[2024-05-08 08:01:57] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.6.tar.gz]
+[2024-05-08 08:01:57] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
+[2024-05-08 08:01:57] INFO root fetch - main [MainThread]: Store serial: [23108760]
