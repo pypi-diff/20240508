@@ -19351,3 +19351,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:54:30] INFO root fetch - processPackages [tree-sitter-talon]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_talon-3.1.1.tar.gz]
 [2024-05-08 12:54:30] INFO root fetch - main [MainThread]: End processing [tree-sitter-talon]: success
 [2024-05-08 12:54:30] INFO root fetch - main [MainThread]: Store serial: [23112249]
+[2024-05-08 12:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112249]
+[2024-05-08 12:56:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 12:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ode-style
+[2024-05-08 12:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-docs-theme
+[2024-05-08 12:56:38] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-08 12:56:39] INFO root fetch - processPackages [ode-style]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 12:56:39] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2024-05-08 12:56:39] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/13/95/6200fad5efa9a51ee7962a74bfdbb4cc54976da260e85093e738198fc705/ode-style-0.0.2.tar.gz
+[2024-05-08 12:56:39] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2024-05-08 12:56:39] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/08/47/4bec726abf55662968d4d289b76d0e318d9b15dcfb7c40c2c64e95b215b0/ode_style-0.0.3.tar.gz
+[2024-05-08 12:56:39] INFO root fetch - processPackages [ode-style]: executing diffoscope
+[2024-05-08 12:56:39] INFO root fetch - processPackages [ode-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ode-style-0.0.2.tar.gz tmp/ode_style-0.0.3.tar.gz --markdown 20240508/o/ode-style/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 12:56:39] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2024-05-08 12:56:39] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20240508/c/crate-docs-theme/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-08 12:56:40] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode-style-0.0.2.tar.gz]
+[2024-05-08 12:56:40] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode_style-0.0.3.tar.gz]
+[2024-05-08 12:56:40] INFO root fetch - main [MainThread]: End processing [ode-style]: success
+[2024-05-08 12:56:40] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2024-05-08 12:56:40] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2024-05-08 12:56:40] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2024-05-08 12:56:40] INFO root fetch - main [MainThread]: Store serial: [23112272]
