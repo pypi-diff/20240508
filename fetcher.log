@@ -20125,3 +20125,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:20:47] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.1.0a1715162059.tar.gz]
 [2024-05-08 13:20:47] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
 [2024-05-08 13:20:47] INFO root fetch - main [MainThread]: Store serial: [23112559]
+[2024-05-08 13:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112559]
+[2024-05-08 13:22:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocatari
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenomApis
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optrabot
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eurmlsdk
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtlpymetrics
+[2024-05-08 13:22:56] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.76] Old Version: [0.0.75]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [optrabot]: New version: [0.9.2a0] Old Version: [0.9.1a0]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ocatari]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [dtlpymetrics]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240508] Old Version: [2.5.0b20240507]
+[2024-05-08 13:22:56] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/f2/66/e6a923a47c2df776e987bf64ec0156e58948dbb14fcc024e8e94e5d0a5a1/eurmlsdk-0.0.75.tar.gz
+[2024-05-08 13:22:56] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/bb/20/8be2bef5dcc4746f6ed3dfa9fc3e764a99b44c7ec54f764977de41f439d3/optrabot-0.9.1a0.tar.gz
+[2024-05-08 13:22:56] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 13:22:56] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/b3/e7/68d4abb78572467b9e681bc91b88e32c161dd529be8f65260d373856b1f7/ocatari-1.0.6.tar.gz
+[2024-05-08 13:22:57] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/03/3a/7c18136025a205decca918d7c7c066f1a3758935950b24efcb292c3717bc/bigdl_core_xe-2.5.0b20240507-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-08 13:22:57] INFO root fetch - processPackages [dtlpymetrics]: Downloading https://files.pythonhosted.org/packages/4b/d5/50d5f33df8151e24a2267cade546c53f07df9aa07697ef6df960fbb6cf81/dtlpymetrics-1.0.98-py3-none-any.whl
+[2024-05-08 13:22:57] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/88/4e/f5662bfe16c0c255f7c701260e4ee891597ad30253d2d113b9d4c66b662b/optrabot-0.9.2a0.tar.gz
+[2024-05-08 13:22:57] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 13:22:57] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/95/96/60c535495842484d378be9a74d61e77c745b068c4c354d8b816a95fe981e/eurmlsdk-0.0.76.tar.gz
+[2024-05-08 13:22:57] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105667977>=10485760
+[2024-05-08 13:22:57] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-08 13:22:57] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-05-08 13:22:57] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.9.1a0.tar.gz tmp/optrabot-0.9.2a0.tar.gz --markdown 20240508/o/optrabot/0.9.1a0-0.9.2a0/README.md --exclude *.pyd
+[2024-05-08 13:22:57] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 13:22:57] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:22:57] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/f8/5d/5a1a69017e86f29518b6e091d97073d22085c468f464161e70d50cae949a/ocatari-1.0.7.tar.gz
+[2024-05-08 13:22:57] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-08 13:22:57] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.75.tar.gz tmp/eurmlsdk-0.0.76.tar.gz --markdown 20240508/e/eurmlsdk/0.0.75-0.0.76/README.md --exclude *.pyd
+[2024-05-08 13:22:57] INFO root fetch - processPackages [dtlpymetrics]: Downloading https://files.pythonhosted.org/packages/ee/98/d9a90cfa98962263d54498aad3fe68cfe86e7fb4718de227e36d4af1636e/dtlpymetrics-1.0.99-py3-none-any.whl
+[2024-05-08 13:22:57] INFO root fetch - processPackages [ocatari]: executing diffoscope
+[2024-05-08 13:22:57] INFO root fetch - processPackages [ocatari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocatari-1.0.6.tar.gz tmp/ocatari-1.0.7.tar.gz --markdown 20240508/o/ocatari/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 13:22:57] INFO root fetch - processPackages [dtlpymetrics]: executing diffoscope
+[2024-05-08 13:22:57] INFO root fetch - processPackages [dtlpymetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpymetrics-1.0.98-py3-none-any.whl.zip tmp/dtlpymetrics-1.0.99-py3-none-any.whl.zip --markdown 20240508/d/dtlpymetrics/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-08 13:22:58] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.75.tar.gz]
+[2024-05-08 13:22:58] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.76.tar.gz]
+[2024-05-08 13:22:58] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-08 13:22:58] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.1a0.tar.gz]
+[2024-05-08 13:22:58] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.2a0.tar.gz]
+[2024-05-08 13:22:58] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-05-08 13:22:58] INFO root fetch - processPackages [dtlpymetrics]: Remove: archive file [/home/abi/fetcher/tmp/dtlpymetrics-1.0.98-py3-none-any.whl.zip]
+[2024-05-08 13:22:58] INFO root fetch - processPackages [dtlpymetrics]: Remove: archive file [/home/abi/fetcher/tmp/dtlpymetrics-1.0.99-py3-none-any.whl.zip]
+[2024-05-08 13:22:58] INFO root fetch - main [MainThread]: End processing [dtlpymetrics]: success
+[2024-05-08 13:22:59] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.6.tar.gz]
+[2024-05-08 13:22:59] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-1.0.7.tar.gz]
+[2024-05-08 13:22:59] INFO root fetch - main [MainThread]: End processing [ocatari]: success
+[2024-05-08 13:22:59] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 13:22:59] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 13:22:59] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 13:22:59] INFO root fetch - main [MainThread]: Store serial: [23112574]
