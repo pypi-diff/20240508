@@ -7843,3 +7843,45 @@
 [2024-05-08 03:53:45] WARNING root fetch - processPackages [spyder-index]: Skipping, unable to determine old version
 [2024-05-08 03:53:45] INFO root fetch - main [MainThread]: End processing [spyder-index] error
 [2024-05-08 03:53:45] INFO root fetch - main [MainThread]: Store serial: [23107355]
+[2024-05-08 03:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107355]
+[2024-05-08 03:55:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 03:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feather-tools
+[2024-05-08 03:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: media-parser
+[2024-05-08 03:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: disko
+[2024-05-08 03:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REVHubInterface
+[2024-05-08 03:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-quality-validation-pydeequ
+[2024-05-08 03:55:54] INFO root fetch - processPackages [data-quality-validation-pydeequ]: New version: [0.9] Old Version: [0.8]
+[2024-05-08 03:55:54] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.2.dev6] Old Version: [1.3.2.dev5]
+[2024-05-08 03:55:54] WARNING root fetch - processPackages [feather-tools]: Skipping, unable to determine old version
+[2024-05-08 03:55:54] INFO root fetch - main [MainThread]: End processing [feather-tools] error
+[2024-05-08 03:55:54] INFO root fetch - processPackages [media-parser]: New version: [2.0.0] Old Version: [1.1.4]
+[2024-05-08 03:55:54] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/c9/8d/f877b48ecc6eb450f2deab088809088ebe2b6de38f1aad44c68fb0f16627/revhubinterface-1.3.2.dev5.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [disko]: New version: [0.9.6b2] Old Version: [0.9.5b4]
+[2024-05-08 03:55:54] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/5e/c5/dd94e0076d0c027fba69adf9826b2b948713d5faeb26e3a08347d378a764/data-quality-validation-pydeequ-0.8.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Downloading https://files.pythonhosted.org/packages/c8/1c/e2d50a8d95003ee16804922c06f70df0224198443917a06772100fb485d7/data-quality-validation-pydeequ-0.9.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/be/3d/a5d8c61f7ae7b5ae14f63ff4411b7ecd6da23fb8ae51091c5056ac3405be/media_parser-1.1.4.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [disko]: Downloading https://files.pythonhosted.org/packages/e6/5d/8fe8dc6431fff549cdb932e715600f718759b8a94b0de0a1d28190698d13/disko-0.9.5b4.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [data-quality-validation-pydeequ]: executing diffoscope
+[2024-05-08 03:55:54] INFO root fetch - processPackages [data-quality-validation-pydeequ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-quality-validation-pydeequ-0.8.tar.gz tmp/data-quality-validation-pydeequ-0.9.tar.gz --markdown 20240508/d/data-quality-validation-pydeequ/0.8-0.9/README.md --exclude *.pyd
+[2024-05-08 03:55:54] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/17/a8/727ee31f6d6197ab57b31ae006428d162efe6e5b9a2a38bd805787539e4e/revhubinterface-1.3.2.dev6.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-08 03:55:54] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.2.dev5.tar.gz tmp/revhubinterface-1.3.2.dev6.tar.gz --markdown 20240508/R/REVHubInterface/1.3.2.dev5-1.3.2.dev6/README.md --exclude *.pyd
+[2024-05-08 03:55:54] INFO root fetch - processPackages [disko]: Downloading https://files.pythonhosted.org/packages/aa/21/189262ab036159fd29e320769a01cd2959fab9a76048d0c44e2be650a4a6/disko-0.9.6b2.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/4d/0f/af5a821b925c7266d568bc2d120a84efdccb4697d2f7d6ef4ef1a852f07a/media_parser-2.0.0.tar.gz
+[2024-05-08 03:55:54] INFO root fetch - processPackages [disko]: executing diffoscope
+[2024-05-08 03:55:54] INFO root fetch - processPackages [disko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disko-0.9.5b4.tar.gz tmp/disko-0.9.6b2.tar.gz --markdown 20240508/d/disko/0.9.5b4-0.9.6b2/README.md --exclude *.pyd
+[2024-05-08 03:55:54] INFO root fetch - processPackages [media-parser]: executing diffoscope
+[2024-05-08 03:55:54] INFO root fetch - processPackages [media-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_parser-1.1.4.tar.gz tmp/media_parser-2.0.0.tar.gz --markdown 20240508/m/media-parser/1.1.4-2.0.0/README.md --exclude *.pyd
+[2024-05-08 03:55:55] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.8.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - processPackages [data-quality-validation-pydeequ]: Remove: archive file [/home/abi/fetcher/tmp/data-quality-validation-pydeequ-0.9.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - main [MainThread]: End processing [data-quality-validation-pydeequ]: success
+[2024-05-08 03:55:55] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev5.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev6.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-08 03:55:55] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-1.1.4.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.0.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - main [MainThread]: End processing [media-parser]: success
+[2024-05-08 03:55:55] INFO root fetch - processPackages [disko]: Remove: archive file [/home/abi/fetcher/tmp/disko-0.9.5b4.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - processPackages [disko]: Remove: archive file [/home/abi/fetcher/tmp/disko-0.9.6b2.tar.gz]
+[2024-05-08 03:55:55] INFO root fetch - main [MainThread]: End processing [disko]: success
+[2024-05-08 03:55:55] INFO root fetch - main [MainThread]: Store serial: [23107374]
