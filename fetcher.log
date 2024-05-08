@@ -11873,3 +11873,39 @@
 [2024-05-08 08:17:19] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240507.tar.gz]
 [2024-05-08 08:17:19] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-08 08:17:19] INFO root fetch - main [MainThread]: Store serial: [23108895]
+[2024-05-08 08:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108895]
+[2024-05-08 08:19:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 08:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-08 08:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qh3
+[2024-05-08 08:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttq
+[2024-05-08 08:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neuropathicalz
+[2024-05-08 08:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-mass-editing
+[2024-05-08 08:19:37] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.84]
+[2024-05-08 08:19:37] WARNING root fetch - processPackages [ttq]: Skipping, unable to determine old version
+[2024-05-08 08:19:37] INFO root fetch - main [MainThread]: End processing [ttq] error
+[2024-05-08 08:19:37] INFO root fetch - processPackages [odoo14-addon-mass-editing]: New version: [14.0.1.1.5.dev5] Old Version: [14.0.1.1.5.dev4]
+[2024-05-08 08:19:37] WARNING root fetch - processPackages [neuropathicalz]: Skipping, unable to determine old version
+[2024-05-08 08:19:37] INFO root fetch - main [MainThread]: End processing [neuropathicalz] error
+[2024-05-08 08:19:37] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/e0/8f/409ac23123bc9d20e1ff48276d7d7fbeecd447d5b397d4b9d76577553f0e/checkov-3.2.84.tar.gz
+[2024-05-08 08:19:37] INFO root fetch - processPackages [qh3]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 08:19:37] INFO root fetch - processPackages [odoo14-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/9a/38/56fb03f81acd1c12f83dfdaa125e08a7747843e37c0147abeaee908bb3cc/odoo14_addon_mass_editing-14.0.1.1.5.dev4-py3-none-any.whl
+[2024-05-08 08:19:38] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/e1/2e/55bf71d327ee8b6c6eb5b114d89d894f473ac2b7839e7d2983202f9f1e64/qh3-1.0.6.tar.gz
+[2024-05-08 08:19:38] INFO root fetch - processPackages [odoo14-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/73/0c/7e571396ee07d656cdc285b92a33563a11f7e2723f1b1ef3faf6c3fe4c70/odoo14_addon_mass_editing-14.0.1.1.5.dev5-py3-none-any.whl
+[2024-05-08 08:19:38] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-08 08:19:38] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/e8/90/7e421a93f9f075394d40f423dc9ecf4043b5da0cf139d9000aa5e2071aca/qh3-1.0.7-pp37-pypy37_pp73-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl
+[2024-05-08 08:19:38] INFO root fetch - processPackages [odoo14-addon-mass-editing]: executing diffoscope
+[2024-05-08 08:19:38] INFO root fetch - processPackages [odoo14-addon-mass-editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mass_editing-14.0.1.1.5.dev4-py3-none-any.whl.zip tmp/odoo14_addon_mass_editing-14.0.1.1.5.dev5-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-mass-editing/14.0.1.1.5.dev4-14.0.1.1.5.dev5/README.md --exclude *.pyd
+[2024-05-08 08:19:38] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-08 08:19:38] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.84.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240508/c/checkov/3.2.84-3.2.9/README.md --exclude *.pyd
+[2024-05-08 08:19:39] INFO root fetch - processPackages [odoo14-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mass_editing-14.0.1.1.5.dev4-py3-none-any.whl.zip]
+[2024-05-08 08:19:39] INFO root fetch - processPackages [odoo14-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mass_editing-14.0.1.1.5.dev5-py3-none-any.whl.zip]
+[2024-05-08 08:19:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mass-editing]: success
+[2024-05-08 08:19:42] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2024-05-08 08:19:42] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-1.0.6.tar.gz tmp/qh3-1.0.7-pp37-pypy37_pp73-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.zip --markdown 20240508/q/qh3/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 08:19:43] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.6.tar.gz]
+[2024-05-08 08:19:43] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.7-pp37-pypy37_pp73-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.zip]
+[2024-05-08 08:19:43] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2024-05-08 08:19:47] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.84.tar.gz]
+[2024-05-08 08:19:47] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-08 08:19:47] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-08 08:19:47] INFO root fetch - main [MainThread]: Store serial: [23108950]
