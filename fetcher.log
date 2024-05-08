@@ -20429,3 +20429,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:29:52] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-08 13:29:52] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-08 13:29:52] INFO root fetch - main [MainThread]: Store serial: [23112674]
+[2024-05-08 13:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112674]
+[2024-05-08 13:32:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygazpar
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecellulab
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bashgptZ
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-batch-regression
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ory-client
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aibridge-test
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FastRAMQPI
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-discount-display-amount
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: safeheron-api-sdk-python
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funcnodes-numpy
+[2024-05-08 13:32:02] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [pytest-batch-regression]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [bluecellulab]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [pygazpar]: New version: [1.3.0a9] Old Version: [1.3.0a6]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.1] Old Version: [7.3.0]
+[2024-05-08 13:32:02] WARNING root fetch - processPackages [bashgptZ]: Skipping, unable to determine old version
+[2024-05-08 13:32:02] INFO root fetch - main [MainThread]: End processing [bashgptZ] error
+[2024-05-08 13:32:02] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/65/9a/63799a2a5f99f343f27460c13a4a62ec5c1cf65cf6db798ef5dc9d4122db/funcnodes_numpy-0.1.53.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ory-client]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-08 13:32:02] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/6a/61/a1ce6ea5aa22659b561718820448012d74becfa444804c7d103b0f6050f6/bluecellulab-2.6.8.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/c1/fe/9b3eeb6c5fbbe6a5a6c1a9568823c5eaeac8deb14b4147a729f26b300c73/pytest_batch_regression-0.1.3.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/54/69/687e439a1c58da2b1a3ac24d2355ac33879d5be55478c10487402c976950/safeheron_api_sdk_python-1.0.7.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [pygazpar]: Downloading https://files.pythonhosted.org/packages/ce/78/12ed7a31b919760c06984806b24af7dcb5696bac8748e6d1bd03d86c1943/pygazpar-1.3.0a6.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/58/31/a7d8683200e3ed06529abe745663cb53ad22d27ea986e0c867b300c34304/fastramqpi-7.3.0.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/45/00/2d97b3d97fac0c7ccb9bc597d1ad42f37c172856f7a7a9ce783806f8a007/ory-client-1.8.1.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/56/da/1f745be0b2c5b36f77eafa7fd8b68d5ea0e72766c852bdcbbe6a457d9cbf/aibridge_test-0.3.4.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/1e/c8/aeb2234f099f8e57f8d14856fd8784b5b6f7f2dd3c474a2b2cb25c128072/odoo_addon_sale_discount_display_amount-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-08 13:32:02] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/3c/f4/aa9292066e9a85ba28b2759c1b524d77907a7b1ede994391902939bcf498/bluecellulab-2.6.9.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/81/37/fa4a533c24247173c17fbcd1e090c65225813152848e9ccc6ab8ed984312/funcnodes_numpy-0.1.54.tar.gz
+[2024-05-08 13:32:02] INFO root fetch - processPackages [pygazpar]: Downloading https://files.pythonhosted.org/packages/01/04/6fd4ccf7607cc445e1efc28f48888b978528beb4848d98588490b3170dd8/pygazpar-1.3.0a9.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/b3/29/8331160d3ad12ca90caf0ee0a3befdc99ca2df5f6799e2a8f7591631e92c/pytest_batch_regression-0.1.4.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/79/f6/d11416f9083c1944395cf6e67068367412107943f65dba4ae6b5db369b14/safeheron_api_sdk_python-1.0.8.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.53.tar.gz tmp/funcnodes_numpy-0.1.54.tar.gz --markdown 20240508/f/funcnodes-numpy/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [pytest-batch-regression]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [pytest-batch-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_batch_regression-0.1.3.tar.gz tmp/pytest_batch_regression-0.1.4.tar.gz --markdown 20240508/p/pytest-batch-regression/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.0.7.tar.gz tmp/safeheron_api_sdk_python-1.0.8.tar.gz --markdown 20240508/s/safeheron-api-sdk-python/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [pygazpar]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [pygazpar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygazpar-1.3.0a6.tar.gz tmp/pygazpar-1.3.0a9.tar.gz --markdown 20240508/p/pygazpar/1.3.0a6-1.3.0a9/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/31/81/21aaf47b2ba2addf4463cf117fae47ddae44ec2a5b5acb039fbe92b9e39c/fastramqpi-7.3.1.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [bluecellulab]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [bluecellulab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecellulab-2.6.8.tar.gz tmp/bluecellulab-2.6.9.tar.gz --markdown 20240508/b/bluecellulab/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/94/3c/fefa3861264fb61d138d5137f7c22512b19dff9606674340554ae1ee0e4c/odoo_addon_sale_discount_display_amount-16.0.1.1.0-py3-none-any.whl
+[2024-05-08 13:32:03] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/dc/30/ee8bcbcf177d305838f3b9afe36571a079952b5a71522d7695689f495c5e/aibridge_test-0.3.5.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/e1/43/2ecfc52fbcac47dd657a6b56a3c092e2baaada9a600ebbdba6b60a20a9b5/ory-client-1.9.0.tar.gz
+[2024-05-08 13:32:03] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.3.0.tar.gz tmp/fastramqpi-7.3.1.tar.gz --markdown 20240508/F/FastRAMQPI/7.3.0-7.3.1/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_discount_display_amount-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-sale-discount-display-amount/16.0.1.0.0.5-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.4.tar.gz tmp/aibridge_test-0.3.5.tar.gz --markdown 20240508/a/aibridge-test/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-08 13:32:03] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2024-05-08 13:32:03] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.8.1.tar.gz tmp/ory-client-1.9.0.tar.gz --markdown 20240508/o/ory-client/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-08 13:32:04] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.53.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.54.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.3.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.4.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.7.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.8.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [pygazpar]: Remove: archive file [/home/abi/fetcher/tmp/pygazpar-1.3.0a6.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [pygazpar]: Remove: archive file [/home/abi/fetcher/tmp/pygazpar-1.3.0a9.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [pygazpar]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.0.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.1.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.8.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [bluecellulab]: Remove: archive file [/home/abi/fetcher/tmp/bluecellulab-2.6.9.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [bluecellulab]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.4.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.5.tar.gz]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-05-08 13:32:04] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_discount_display_amount-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-08 13:32:04] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-08 13:32:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-discount-display-amount]: success
+[2024-05-08 13:32:10] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.8.1.tar.gz]
+[2024-05-08 13:32:10] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.9.0.tar.gz]
+[2024-05-08 13:32:10] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2024-05-08 13:32:10] INFO root fetch - main [MainThread]: Store serial: [23112714]
