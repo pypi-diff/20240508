@@ -8382,3 +8382,51 @@
 [2024-05-08 04:24:24] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.9.0.dev0.tar.gz]
 [2024-05-08 04:24:24] INFO root fetch - main [MainThread]: End processing [llm-foundry]: success
 [2024-05-08 04:24:24] INFO root fetch - main [MainThread]: Store serial: [23107559]
+[2024-05-08 04:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107559]
+[2024-05-08 04:26:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiZero
+[2024-05-08 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-mountaineer-app
+[2024-05-08 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azcp-wrapper
+[2024-05-08 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monteprediction
+[2024-05-08 04:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapework
+[2024-05-08 04:26:32] INFO root fetch - processPackages [aiZero]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-05-08 04:26:32] INFO root fetch - processPackages [monteprediction]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-08 04:26:32] INFO root fetch - processPackages [scrapework]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-08 04:26:32] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev4] Old Version: [0.5.0.dev3]
+[2024-05-08 04:26:32] INFO root fetch - processPackages [azcp-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 04:26:32] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/f7/b8/67dad162a5deadd4d3d72ac29010682c3f8f39cbaeb6dda2585b0e44f74d/aiZero-0.0.1a1.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/f2/ef/f0775e3d156a0f2576787edfd4f52c48587fe5aef49a1f2b34ac277dd278/monteprediction-1.0.6.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/64/20/2abba0181df17e6f4e0319d7766f8608441a739571e12420d7ea424fb505/scrapework-0.5.2.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [azcp-wrapper]: Downloading https://files.pythonhosted.org/packages/a8/66/3a5b10a5961028cb7b46c5a39ae032a23779961cafb44dda8fa66b1d7c1b/azcp_wrapper-0.0.2.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/66/03/805da842a37def1d45b6dd8f6dbd508c64e4d645b266c9fb525f48ec9167/monteprediction-1.0.7.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/5a/ca/4d8b5a7cc5fe6e5ec97fe610f1db7060314dfb9c14f44094c22ed83f655e/create_mountaineer_app-0.5.0.dev3.tar.gz
+[2024-05-08 04:26:32] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/1b/60/d7ffa8f9d859417a745633ef163fd755a42267aa024073c5c7a69b474061/scrapework-0.5.3.tar.gz
+[2024-05-08 04:26:33] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-05-08 04:26:33] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.6.tar.gz tmp/monteprediction-1.0.7.tar.gz --markdown 20240508/m/monteprediction/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-08 04:26:33] INFO root fetch - processPackages [scrapework]: executing diffoscope
+[2024-05-08 04:26:33] INFO root fetch - processPackages [scrapework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapework-0.5.2.tar.gz tmp/scrapework-0.5.3.tar.gz --markdown 20240508/s/scrapework/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-08 04:26:33] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/bd/08/d9080b1d1020f2ca8c9805debd6afe7459de913447aed327053cb79c1c04/aiZero-0.0.1a2.tar.gz
+[2024-05-08 04:26:33] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/04/a5/11006710251fe3184715cb291516992e2d1a725699c9f6aff8c845b0444e/create_mountaineer_app-0.5.0.dev4.tar.gz
+[2024-05-08 04:26:33] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-08 04:26:33] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.1a1.tar.gz tmp/aiZero-0.0.1a2.tar.gz --markdown 20240508/a/aiZero/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-05-08 04:26:33] INFO root fetch - processPackages [azcp-wrapper]: Downloading https://files.pythonhosted.org/packages/bc/75/f96849edb4872bb3eb5b82323adb18a810bd80c146334556604511691b21/azcp_wrapper-0.0.3.tar.gz
+[2024-05-08 04:26:33] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-08 04:26:33] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev3.tar.gz tmp/create_mountaineer_app-0.5.0.dev4.tar.gz --markdown 20240508/c/create-mountaineer-app/0.5.0.dev3-0.5.0.dev4/README.md --exclude *.pyd
+[2024-05-08 04:26:33] INFO root fetch - processPackages [azcp-wrapper]: executing diffoscope
+[2024-05-08 04:26:33] INFO root fetch - processPackages [azcp-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azcp_wrapper-0.0.2.tar.gz tmp/azcp_wrapper-0.0.3.tar.gz --markdown 20240508/a/azcp-wrapper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 04:26:33] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.6.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.7.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-05-08 04:26:33] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.5.2.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.5.3.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - main [MainThread]: End processing [scrapework]: success
+[2024-05-08 04:26:33] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a1.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a2.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-08 04:26:33] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev3.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev4.tar.gz]
+[2024-05-08 04:26:33] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-08 04:26:34] INFO root fetch - processPackages [azcp-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/azcp_wrapper-0.0.2.tar.gz]
+[2024-05-08 04:26:34] INFO root fetch - processPackages [azcp-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/azcp_wrapper-0.0.3.tar.gz]
+[2024-05-08 04:26:34] INFO root fetch - main [MainThread]: End processing [azcp-wrapper]: success
+[2024-05-08 04:26:34] INFO root fetch - main [MainThread]: Store serial: [23107576]
