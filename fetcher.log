@@ -8975,3 +8975,33 @@
 [2024-05-08 05:03:54] INFO root fetch - processPackages [cengal-light]: Remove: archive file [/home/abi/fetcher/tmp/cengal_light-4.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-08 05:03:54] INFO root fetch - main [MainThread]: End processing [cengal-light]: success
 [2024-05-08 05:03:54] INFO root fetch - main [MainThread]: Store serial: [23107781]
+[2024-05-08 05:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107781]
+[2024-05-08 05:06:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 05:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-with-ai-agents
+[2024-05-08 05:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamdal-protos
+[2024-05-08 05:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-statement-import-txt-xlsx
+[2024-05-08 05:06:03] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: New version: [14.0.3.2.0] Old Version: [14.0.3.1.1.dev5]
+[2024-05-08 05:06:03] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: Downloading https://files.pythonhosted.org/packages/52/49/dacb57b578fc6181f11abb896dea46d0860b7404eda351c607b57803e4ae/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.1.1.dev5-py3-none-any.whl
+[2024-05-08 05:06:03] INFO root fetch - processPackages [streamdal-protos]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 05:06:03] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-08 05:06:03] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/17/70/11b1fb2f26c0c6ac757a116634c32a5aa69de0b1c307c355e302b00fbe36/nonebot_plugin_with_ai_agents-0.1.4.tar.gz
+[2024-05-08 05:06:03] INFO root fetch - processPackages [streamdal-protos]: Downloading https://files.pythonhosted.org/packages/9a/85/875a0cc63e8eaf03e7f69179dd43e59be5de746f533facf0e93f83fe7733/streamdal-protos-0.1.8.tar.gz
+[2024-05-08 05:06:04] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: Downloading https://files.pythonhosted.org/packages/dd/58/f77d3d623ec1f00e99291795f6bc0ac78b8f56cb486e6bbf39d94bc61e81/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.2.0-py3-none-any.whl
+[2024-05-08 05:06:04] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/3b/6d/21b7496434e55fc49442d4d8f97c65fa7ee6d734cfb9a21819f2f4c82b96/nonebot_plugin_with_ai_agents-0.1.5.tar.gz
+[2024-05-08 05:06:04] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: executing diffoscope
+[2024-05-08 05:06:04] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.2.0-py3-none-any.whl.zip --markdown 20240508/o/odoo14-addon-account-statement-import-txt-xlsx/14.0.3.1.1.dev5-14.0.3.2.0/README.md --exclude *.pyd
+[2024-05-08 05:06:04] INFO root fetch - processPackages [streamdal-protos]: Downloading https://files.pythonhosted.org/packages/ff/9a/d64c17f9a456cd7f5e0c324fea4495da769fdfd48b5f1db3436a44190bfa/streamdal-protos-0.1.9.tar.gz
+[2024-05-08 05:06:04] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: executing diffoscope
+[2024-05-08 05:06:04] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_with_ai_agents-0.1.4.tar.gz tmp/nonebot_plugin_with_ai_agents-0.1.5.tar.gz --markdown 20240508/n/nonebot-plugin-with-ai-agents/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-08 05:06:04] INFO root fetch - processPackages [streamdal-protos]: executing diffoscope
+[2024-05-08 05:06:04] INFO root fetch - processPackages [streamdal-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdal-protos-0.1.8.tar.gz tmp/streamdal-protos-0.1.9.tar.gz --markdown 20240508/s/streamdal-protos/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 05:06:05] INFO root fetch - processPackages [streamdal-protos]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-protos-0.1.8.tar.gz]
+[2024-05-08 05:06:05] INFO root fetch - processPackages [streamdal-protos]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-protos-0.1.9.tar.gz]
+[2024-05-08 05:06:05] INFO root fetch - main [MainThread]: End processing [streamdal-protos]: success
+[2024-05-08 05:06:05] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.1.1.dev5-py3-none-any.whl.zip]
+[2024-05-08 05:06:05] INFO root fetch - processPackages [odoo14-addon-account-statement-import-txt-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import_txt_xlsx-14.0.3.2.0-py3-none-any.whl.zip]
+[2024-05-08 05:06:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-statement-import-txt-xlsx]: success
+[2024-05-08 05:06:05] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.4.tar.gz]
+[2024-05-08 05:06:05] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.5.tar.gz]
+[2024-05-08 05:06:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
+[2024-05-08 05:06:05] INFO root fetch - main [MainThread]: Store serial: [23107800]
