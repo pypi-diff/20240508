@@ -7956,3 +7956,60 @@
 [2024-05-08 04:02:21] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.2.tar.gz]
 [2024-05-08 04:02:21] INFO root fetch - main [MainThread]: End processing [langgraph-sdk]: success
 [2024-05-08 04:02:21] INFO root fetch - main [MainThread]: Store serial: [23107397]
+[2024-05-08 04:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107397]
+[2024-05-08 04:04:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: media-parser
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: highlight-io
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiZero
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dkist-processing-test
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agt-server
+[2024-05-08 04:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dkist-processing-vbi
+[2024-05-08 04:04:30] INFO root fetch - processPackages [agt-server]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [aiZero]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [media-parser]: New version: [2.0.0] Old Version: [1.1.4]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [dkist-processing-test]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [highlight-io]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/be/3d/a5d8c61f7ae7b5ae14f63ff4411b7ecd6da23fb8ae51091c5056ac3405be/media_parser-1.1.4.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [dkist-processing-vbi]: New version: [1.9.0rc1] Old Version: [1.8.9rc1]
+[2024-05-08 04:04:30] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/20/ee/599daba281ddd0f0f0f4cc802f05d843b755e552030aafb8adb8fa87829b/agt_server-1.5.0.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/1e/19/dd4a0125b91e9e49f79e54ed0a5bddba12d6d53619d6e379e97cec933df4/aiZero-0.0.1a0.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/9b/23/313208e984f1f69cf1d5a57d83ea045c2c75b6bbe6217438aea3429bbb64/dkist-processing-test-1.9.8.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/a4/d9/86a167cb132a3d1a7a5d1c48cbb2da30002ad00aa8b40dd9fb2d882d7bb2/highlight_io-0.8.0.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/4d/0f/af5a821b925c7266d568bc2d120a84efdccb4697d2f7d6ef4ef1a852f07a/media_parser-2.0.0.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/64/9f/5db2755371bda3ae6053b4603a7fa172cae85fed34d58fa20e103a55f9b8/dkist_processing_vbi-1.8.9rc1.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [media-parser]: executing diffoscope
+[2024-05-08 04:04:30] INFO root fetch - processPackages [media-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_parser-1.1.4.tar.gz tmp/media_parser-2.0.0.tar.gz --markdown 20240508/m/media-parser/1.1.4-2.0.0/README.md --exclude *.pyd
+[2024-05-08 04:04:30] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/f1/57/bcc26638d3aedbeb169be25825b72a6aa4890083ab02aeac10410ed4ff41/agt_server-1.5.1.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-08 04:04:30] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.5.0.tar.gz tmp/agt_server-1.5.1.tar.gz --markdown 20240508/a/agt-server/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-08 04:04:30] INFO root fetch - processPackages [dkist-processing-vbi]: Downloading https://files.pythonhosted.org/packages/78/4a/5588eb16dbff9ffdc185792ec296f4d8ca630898e4be7fb9b03f5e2515c6/dkist_processing_vbi-1.9.0rc1.tar.gz
+[2024-05-08 04:04:30] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/5e/77/027631bb2480d6f6714fc27e602bf1c0d937990ed576b1ae6f95c797368c/highlight_io-0.8.1.tar.gz
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-test]: Downloading https://files.pythonhosted.org/packages/06/32/b6d516328652fe461998db030584e4b356d7d650f8bdc5430649c7292072/dkist-processing-test-1.9.9.tar.gz
+[2024-05-08 04:04:31] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/f7/b8/67dad162a5deadd4d3d72ac29010682c3f8f39cbaeb6dda2585b0e44f74d/aiZero-0.0.1a1.tar.gz
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-vbi]: executing diffoscope
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-vbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_vbi-1.8.9rc1.tar.gz tmp/dkist_processing_vbi-1.9.0rc1.tar.gz --markdown 20240508/d/dkist-processing-vbi/1.8.9rc1-1.9.0rc1/README.md --exclude *.pyd
+[2024-05-08 04:04:31] INFO root fetch - processPackages [highlight-io]: executing diffoscope
+[2024-05-08 04:04:31] INFO root fetch - processPackages [highlight-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highlight_io-0.8.0.tar.gz tmp/highlight_io-0.8.1.tar.gz --markdown 20240508/h/highlight-io/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-test]: executing diffoscope
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-test-1.9.8.tar.gz tmp/dkist-processing-test-1.9.9.tar.gz --markdown 20240508/d/dkist-processing-test/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-08 04:04:31] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-08 04:04:31] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.1a0.tar.gz tmp/aiZero-0.0.1a1.tar.gz --markdown 20240508/a/aiZero/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-05-08 04:04:31] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-1.1.4.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.0.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - main [MainThread]: End processing [media-parser]: success
+[2024-05-08 04:04:31] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.8.0.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.8.1.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - main [MainThread]: End processing [highlight-io]: success
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.8.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-test]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-test-1.9.9.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - main [MainThread]: End processing [dkist-processing-test]: success
+[2024-05-08 04:04:31] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a0.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a1.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.8.9rc1.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - processPackages [dkist-processing-vbi]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_vbi-1.9.0rc1.tar.gz]
+[2024-05-08 04:04:31] INFO root fetch - main [MainThread]: End processing [dkist-processing-vbi]: success
+[2024-05-08 04:04:32] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.0.tar.gz]
+[2024-05-08 04:04:32] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.1.tar.gz]
+[2024-05-08 04:04:32] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-08 04:04:32] INFO root fetch - main [MainThread]: Store serial: [23107413]
