@@ -9560,3 +9560,24 @@
 [2024-05-08 05:34:44] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-05-08 05:34:44] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-05-08 05:34:44] INFO root fetch - main [MainThread]: Store serial: [23107989]
+[2024-05-08 05:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107989]
+[2024-05-08 05:36:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 05:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quasi-utils
+[2024-05-08 05:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp-history
+[2024-05-08 05:36:53] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1]
+[2024-05-08 05:36:53] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/33/d055b5b161cbccd9d8e8a3cb9b605d5e407ebd9b7c2898e8838f20833ff6/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl
+[2024-05-08 05:36:53] INFO root fetch - processPackages [quasi-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 05:36:53] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/d0/4b/166c8a6d74a4fb22781dab982b27ce02b469e3ad34a6511097e3c33a51e9/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/9e/e5/9f95eabc27ba8a43e68f1d1d6a638b133173b1ac6e2ef58d76dd754b9d60/quasi_utils-0.1.8.tar.gz
+[2024-05-08 05:36:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-08 05:36:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-ddmrp-history/16.0.1.1.1-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/83/a9/29917aa3429c6c45fe10c486e529150e543d167462c617b427e6babe0efe/quasi_utils-0.1.9.tar.gz
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: executing diffoscope
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasi_utils-0.1.8.tar.gz tmp/quasi_utils-0.1.9.tar.gz --markdown 20240508/q/quasi-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 05:36:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-08 05:36:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-08 05:36:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.8.tar.gz]
+[2024-05-08 05:36:54] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.9.tar.gz]
+[2024-05-08 05:36:54] INFO root fetch - main [MainThread]: End processing [quasi-utils]: success
+[2024-05-08 05:36:54] INFO root fetch - main [MainThread]: Store serial: [23107994]
