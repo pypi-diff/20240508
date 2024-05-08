@@ -23656,3 +23656,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:30:28] INFO root fetch - processPackages [redis]: Remove: archive file [/home/abi/fetcher/tmp/redis-5.1.0b4.tar.gz]
 [2024-05-08 15:30:28] INFO root fetch - main [MainThread]: End processing [redis]: success
 [2024-05-08 15:30:28] INFO root fetch - main [MainThread]: Store serial: [23114187]
+[2024-05-08 15:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114187]
+[2024-05-08 15:32:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liveflask
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: albifyz
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-plugin-lambda-build
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-score
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BrazilFiscalReport
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agptools
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sapx
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-version-remla
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncmodels
+[2024-05-08 15:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: swarmtube
+[2024-05-08 15:32:37] INFO root fetch - processPackages [liveflask]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [BrazilFiscalReport]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [lib-version-remla]: New version: [0.0.5b0] Old Version: [0.0.4]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [sapx]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/d5/27/a0645265c94bcd379d53799b4b69067389e5e17778700378d3472b98f0ed/liveflask-1.0.7.tar.gz
+[2024-05-08 15:32:37] WARNING root fetch - processPackages [albifyz]: Skipping, unable to determine old version
+[2024-05-08 15:32:37] INFO root fetch - main [MainThread]: End processing [albifyz] error
+[2024-05-08 15:32:37] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/ec/eb/6f21204742cf99e56244e1dc76139094447387a01ad2017347ae602bb614/lib_version_remla-0.0.4.tar.gz
+[2024-05-08 15:32:37] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 15:32:37] WARNING root fetch - processPackages [dbt-score]: Skipping, unable to determine old version
+[2024-05-08 15:32:37] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/ef/9b/a1719db07b55d193ddfbf38b431467a3a53f73728954a5c7e8a223b97890/sapx-0.2.6.tar.gz
+[2024-05-08 15:32:37] INFO root fetch - main [MainThread]: End processing [dbt-score] error
+[2024-05-08 15:32:37] INFO root fetch - processPackages [swarmtube]: New version: [0.1.34] Old Version: [0.1.32]
+[2024-05-08 15:32:37] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/3a/b6/b5c08893e2d3cef7c7f1fa0192ca1b8c942c0024f5695fd5b3a9770e5217/BrazilFiscalReport-0.2.1.tar.gz
+[2024-05-08 15:32:37] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/eb/ab/f4e3f4400e87286b9ebf22e7b43d490e9ea8096ce4ff77f57ffd3563ee13/poetry_plugin_lambda_build-0.4.1.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/f4/2f/d8941ccd6968cacd189c6353b367ed579a0d9f96fcfadb92c51d882cf86b/liveflask-1.0.8.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/46/ae/ea92bcc1248d7c6d5cfb9fe0dc3646af07d120e21834d2d35a5ea11667a5/lib_version_remla-0.0.5b0.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/ae/64/d13ed9e2e139e9f62ac37eb400dfff81ee1ab64262ecf13ce05f602bdcbf/swarmtube-0.1.32-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/1c/b4/c5cdd5e81a44d4763cff3f175fd66d70c4660d3354788b0cc2fec3902eae/sapx-0.2.8.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [lib-version-remla]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [lib-version-remla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla-0.0.4.tar.gz tmp/lib_version_remla-0.0.5b0.tar.gz --markdown 20240508/l/lib-version-remla/0.0.4-0.0.5b0/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.7.tar.gz tmp/liveflask-1.0.8.tar.gz --markdown 20240508/l/liveflask/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.2.6.tar.gz tmp/sapx-0.2.8.tar.gz --markdown 20240508/s/sapx/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/db/28/b20f28d47f5a7a02796bab20e21879c027ac3467bc06bae2958479f044a7/brazilfiscalreport-0.3.1.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/54/e7/21d710df404ee2319785b8e12b38abcadb5b42e53c9a188f969e0b6255fe/poetry_plugin_lambda_build-0.5.0.tar.gz
+[2024-05-08 15:32:38] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [BrazilFiscalReport]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [BrazilFiscalReport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BrazilFiscalReport-0.2.1.tar.gz tmp/brazilfiscalreport-0.3.1.tar.gz --markdown 20240508/B/BrazilFiscalReport/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.4.1.tar.gz tmp/poetry_plugin_lambda_build-0.5.0.tar.gz --markdown 20240508/p/poetry-plugin-lambda-build/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/33/f8/b0a5bafd08ab3aaefc33ea13d496dfb5226275b970c1f4dbf72a967e4c31/swarmtube-0.1.34-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-08 15:32:38] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240508/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240508/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 15:32:38] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-08 15:32:38] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.32-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.34-py2.py3-none-any.whl.zip --markdown 20240508/s/swarmtube/0.1.32-0.1.34/README.md --exclude *.pyd
+[2024-05-08 15:32:39] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.4.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.5b0.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [lib-version-remla]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.6.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.8.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/BrazilFiscalReport-0.2.1.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/brazilfiscalreport-0.3.1.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [BrazilFiscalReport]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.4.1.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.0.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.7.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.8.tar.gz]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-08 15:32:39] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.32-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.34-py2.py3-none-any.whl.zip]
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-08 15:32:39] INFO root fetch - main [MainThread]: Store serial: [23114223]
