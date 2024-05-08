@@ -12125,3 +12125,42 @@
 [2024-05-08 08:30:40] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.1.0.tar.gz]
 [2024-05-08 08:30:40] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
 [2024-05-08 08:30:40] INFO root fetch - main [MainThread]: Store serial: [23109094]
+[2024-05-08 08:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109094]
+[2024-05-08 08:32:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danling
+[2024-05-08 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-extractor-utils
+[2024-05-08 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-bybit
+[2024-05-08 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osmx
+[2024-05-08 08:32:49] INFO root fetch - processPackages [danling]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 08:32:49] INFO root fetch - processPackages [trio-bybit]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-08 08:32:49] INFO root fetch - processPackages [osmx]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 08:32:49] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [7.1.4] Old Version: [7.1.3]
+[2024-05-08 08:32:49] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/74/37/4a69afc0ffafd5dfa22bb4f61a29bb070e44619f1af724045ba027e87b7f/trio_bybit-0.1.7.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/95/40/0e23c2ec37f5ffedc1734e8c3908529137dd7ad02d0f27f7f8a0e28e911b/danling-0.3.3.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/00/6c/b72f2b4e7c9fb77f7b10faa0018844c7c4557a5cc5ffe6bb13deec7a0392/cognite_extractor_utils-7.1.3.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [osmx]: Downloading https://files.pythonhosted.org/packages/a5/e7/98d7696d2432e23d438b7897ff695a937110d1e8b782b9d0400e7e2287c7/osmx-0.0.4.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/66/ea/7f24a140ebdfe30d5e67177c59004e01d636dbb4f0adeb6def82868e3e0a/trio_bybit-0.2.0.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [osmx]: Downloading https://files.pythonhosted.org/packages/3e/ca/079124525d8ce075ba4b34428f9ac495431978771a9f88ae052dea63e8e2/osmx-0.0.5.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/85/d8/7c19cefa0a51d8d1a939e2eeb7b3a425b8bc6f6ba1e268c5eae1d6e29434/cognite_extractor_utils-7.1.4.tar.gz
+[2024-05-08 08:32:49] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-05-08 08:32:49] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.7.tar.gz tmp/trio_bybit-0.2.0.tar.gz --markdown 20240508/t/trio-bybit/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-08 08:32:49] INFO root fetch - processPackages [osmx]: executing diffoscope
+[2024-05-08 08:32:49] INFO root fetch - processPackages [osmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmx-0.0.4.tar.gz tmp/osmx-0.0.5.tar.gz --markdown 20240508/o/osmx/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 08:32:50] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2024-05-08 08:32:50] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-7.1.3.tar.gz tmp/cognite_extractor_utils-7.1.4.tar.gz --markdown 20240508/c/cognite-extractor-utils/7.1.3-7.1.4/README.md --exclude *.pyd
+[2024-05-08 08:32:50] INFO root fetch - processPackages [osmx]: Remove: archive file [/home/abi/fetcher/tmp/osmx-0.0.4.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - processPackages [osmx]: Remove: archive file [/home/abi/fetcher/tmp/osmx-0.0.5.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - main [MainThread]: End processing [osmx]: success
+[2024-05-08 08:32:50] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/64/8e/5500cfcb1dd62a95d72522bd0a3d4ef2ece9a8cb3d078e3c473760acdce4/danling-0.3.4.tar.gz
+[2024-05-08 08:32:50] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.7.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.0.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-05-08 08:32:50] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.1.3.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.1.4.tar.gz]
+[2024-05-08 08:32:50] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2024-05-08 08:32:51] INFO root fetch - processPackages [danling]: executing diffoscope
+[2024-05-08 08:32:51] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.3.3.tar.gz tmp/danling-0.3.4.tar.gz --markdown 20240508/d/danling/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 08:32:52] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.3.tar.gz]
+[2024-05-08 08:32:52] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.4.tar.gz]
+[2024-05-08 08:32:52] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2024-05-08 08:32:52] INFO root fetch - main [MainThread]: Store serial: [23109107]
