@@ -18651,3 +18651,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:21:10] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.4.0.tar.gz]
 [2024-05-08 12:21:10] INFO root fetch - main [MainThread]: End processing [kolla]: success
 [2024-05-08 12:21:10] INFO root fetch - main [MainThread]: Store serial: [23111934]
+[2024-05-08 12:23:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111934]
+[2024-05-08 12:23:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prowler
+[2024-05-08 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prowler-cloud
+[2024-05-08 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netgen-mesher
+[2024-05-08 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odd-dbt
+[2024-05-08 12:23:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vlppy
+[2024-05-08 12:23:19] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post36.dev0] Old Version: [6.2.2403.post35.dev0]
+[2024-05-08 12:23:19] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/04/3e/8854f356074b07ad8696d3d3c41a1e8abf7ca4e89e86146ab74190f2d48b/netgen_mesher-6.2.2403.post35.dev0-cp312-cp312-win_amd64.whl
+[2024-05-08 12:23:19] INFO root fetch - processPackages [prowler-cloud]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-08 12:23:19] INFO root fetch - processPackages [vlppy]: New version: [0.1.16] Old Version: [0.1.15]
+[2024-05-08 12:23:19] INFO root fetch - processPackages [prowler]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-05-08 12:23:19] INFO root fetch - processPackages [odd-dbt]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 12:23:19] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20379393>=10485760
+[2024-05-08 12:23:19] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 12:23:19] INFO root fetch - processPackages [vlppy]: Downloading https://files.pythonhosted.org/packages/63/20/42a647404acc3fe147a8a639d514a946ec98de7cf29fb5d04c76328b68f8/vlppy-0.1.15.tar.gz
+[2024-05-08 12:23:19] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/12/d1/92243380f3e56e54d6aac68f3961bdc26d9904bce3385258dc002ffaea37/prowler-4.0.1.tar.gz
+[2024-05-08 12:23:19] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/3b/ef/001b0fb3105cba8ae4ac4944b2e9f217182fb614b0501630baa9289fae33/odd_dbt-0.2.8.tar.gz
+[2024-05-08 12:23:19] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/71/30/ebe8700b29ae95de014d31d0569bcfe7238623b4e04a8553613f00ae4cb5/prowler_cloud-4.0.1.tar.gz
+[2024-05-08 12:23:19] INFO root fetch - processPackages [odd-dbt]: Downloading https://files.pythonhosted.org/packages/55/12/4d41b103deccc9c7e40728b268d632f8c02c2320ce50af82c892f9d10a72/odd_dbt-0.2.9.tar.gz
+[2024-05-08 12:23:19] INFO root fetch - processPackages [vlppy]: Downloading https://files.pythonhosted.org/packages/2e/ca/1dec4ce82fa60f44d91853e25466bc3487a181a224d1c7e77740c67af29d/vlppy-0.1.16.tar.gz
+[2024-05-08 12:23:20] INFO root fetch - processPackages [odd-dbt]: executing diffoscope
+[2024-05-08 12:23:20] INFO root fetch - processPackages [odd-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_dbt-0.2.8.tar.gz tmp/odd_dbt-0.2.9.tar.gz --markdown 20240508/o/odd-dbt/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/ee/13/5bb93cd8f4213e2a8f57ede055635bd26c503d20cd42969d9c6b5765b418/prowler_cloud-4.1.0.tar.gz
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/df/f2/26e6bb76ee58a2340be041c67a80b46de62fb925e09d58bd766bdee1b788/prowler-4.1.0.tar.gz
+[2024-05-08 12:23:20] INFO root fetch - processPackages [vlppy]: executing diffoscope
+[2024-05-08 12:23:20] INFO root fetch - processPackages [vlppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlppy-0.1.15.tar.gz tmp/vlppy-0.1.16.tar.gz --markdown 20240508/v/vlppy/0.1.15-0.1.16/README.md --exclude *.pyd
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-4.0.1.tar.gz tmp/prowler-4.1.0.tar.gz --markdown 20240508/p/prowler/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-05-08 12:23:20] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-4.0.1.tar.gz tmp/prowler_cloud-4.1.0.tar.gz --markdown 20240508/p/prowler-cloud/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-05-08 12:23:21] INFO root fetch - processPackages [vlppy]: Remove: archive file [/home/abi/fetcher/tmp/vlppy-0.1.15.tar.gz]
+[2024-05-08 12:23:21] INFO root fetch - processPackages [vlppy]: Remove: archive file [/home/abi/fetcher/tmp/vlppy-0.1.16.tar.gz]
+[2024-05-08 12:23:21] INFO root fetch - main [MainThread]: End processing [vlppy]: success
+[2024-05-08 12:23:21] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.2.8.tar.gz]
+[2024-05-08 12:23:21] INFO root fetch - processPackages [odd-dbt]: Remove: archive file [/home/abi/fetcher/tmp/odd_dbt-0.2.9.tar.gz]
+[2024-05-08 12:23:21] INFO root fetch - main [MainThread]: End processing [odd-dbt]: success
+[2024-05-08 12:23:29] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.1.tar.gz]
+[2024-05-08 12:23:29] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.1.0.tar.gz]
+[2024-05-08 12:23:29] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-05-08 12:23:29] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
+[2024-05-08 12:23:29] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.1.0.tar.gz]
+[2024-05-08 12:23:29] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-05-08 12:23:29] INFO root fetch - main [MainThread]: Store serial: [23111948]
