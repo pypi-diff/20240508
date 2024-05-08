@@ -13098,3 +13098,75 @@
 [2024-05-08 09:19:49] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
 [2024-05-08 09:19:49] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
 [2024-05-08 09:19:49] INFO root fetch - main [MainThread]: Store serial: [23109682]
+[2024-05-08 09:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109682]
+[2024-05-08 09:21:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: merlin-sdk
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: merlin-pyfunc-server
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: merlin-batch-predictor
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subdivision-hole-filler
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudstructs
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pychute
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planemo
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiohtt-api
+[2024-05-08 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotframework-xlibrary
+[2024-05-08 09:21:59] WARNING root fetch - processPackages [subdivision-hole-filler]: Skipping, unable to determine old version
+[2024-05-08 09:21:59] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler] error
+[2024-05-08 09:21:59] INFO root fetch - processPackages [pychute]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.7] Old Version: [11.0.6]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.42.0rc2] Old Version: [0.42.0rc1]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.42.0rc2] Old Version: [0.42.0rc1]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [cloudstructs]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [pychute]: Downloading https://files.pythonhosted.org/packages/9e/c9/a882931536211dba99c00f5c5b2cbcb0e1018a0289bafe526c15397d4548/pychute-0.0.4.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/41/5f/412ee8bfef09c72bd5600d301f3acafef146773d7e985523296460c61817/robotframework-xlibrary-11.0.6.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-05-08 09:21:59] INFO root fetch - processPackages [planemo]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-08 09:21:59] WARNING root fetch - processPackages [aiohtt-api]: Skipping, unable to determine old version
+[2024-05-08 09:21:59] INFO root fetch - main [MainThread]: End processing [aiohtt-api] error
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/58/03/7654ca5be054a656185fb9068305e414b37d57d708b517662152994688f9/merlin-batch-predictor-0.42.0rc1.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/6d/47/b9b44b60af692a5b3ca0c52ed638d69a9c7634eb19391b6ec584d19ec17c/merlin-pyfunc-server-0.42.0rc1.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/04/b2/742da2bc425f9c04c04eea061de8977cf5a32f3810fc20c9ebac8900c6d4/cloudstructs-0.9.5.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [planemo]: Downloading https://files.pythonhosted.org/packages/7d/9d/55755cc509d82c968284021fc2fc28dab42307c355b487475988d74b50b3/planemo-0.8.4.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/87/7b/8cb94a1d6acd8f7d2ce3c9772cc80c343bfbb87b9bb6f968c1d41df6b5d7/robotframework-xlibrary-11.0.7.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [pychute]: Downloading https://files.pythonhosted.org/packages/1d/c5/17497678a834f563b0abc7971ba7dbdccb35160bdecad650ce759aafaaa5/pychute-0.0.5.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-05-08 09:21:59] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.6.tar.gz tmp/robotframework-xlibrary-11.0.7.tar.gz --markdown 20240508/r/robotframework-xlibrary/11.0.6-11.0.7/README.md --exclude *.pyd
+[2024-05-08 09:21:59] INFO root fetch - processPackages [pychute]: executing diffoscope
+[2024-05-08 09:21:59] INFO root fetch - processPackages [pychute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychute-0.0.4.tar.gz tmp/pychute-0.0.5.tar.gz --markdown 20240508/p/pychute/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/9d/3d/5228e95a40691ccab9a5f3437234bef1030300288ba1fd4fe38137d23754/merlin-pyfunc-server-0.42.0rc2.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/75/47/7aad3077a66e2377da6e26a1ff6d1d213f1cba8eedcff62aed2257cc06ea/merlin-batch-predictor-0.42.0rc2.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.42.0rc1.tar.gz tmp/merlin-batch-predictor-0.42.0rc2.tar.gz --markdown 20240508/m/merlin-batch-predictor/0.42.0rc1-0.42.0rc2/README.md --exclude *.pyd
+[2024-05-08 09:21:59] INFO root fetch - processPackages [planemo]: Downloading https://files.pythonhosted.org/packages/b1/07/04a5103818970757811006e38a5bd44dd6d6f66ec4fa269acd659c570077/planemo-0.9.0.tar.gz
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-05-08 09:21:59] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.42.0rc1.tar.gz tmp/merlin-pyfunc-server-0.42.0rc2.tar.gz --markdown 20240508/m/merlin-pyfunc-server/0.42.0rc1-0.42.0rc2/README.md --exclude *.pyd
+[2024-05-08 09:22:00] INFO root fetch - processPackages [planemo]: executing diffoscope
+[2024-05-08 09:22:00] INFO root fetch - processPackages [planemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planemo-0.8.4.tar.gz tmp/planemo-0.9.0.tar.gz --markdown 20240508/p/planemo/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-08 09:22:00] INFO root fetch - processPackages [cloudstructs]: Downloading https://files.pythonhosted.org/packages/f3/b3/a3fa8b978172278d2486d8fd27405c6445ead2c3e1d5c7067ce1872255eb/cloudstructs-0.9.6.tar.gz
+[2024-05-08 09:22:00] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.6.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.7.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-05-08 09:22:00] INFO root fetch - processPackages [pychute]: Remove: archive file [/home/abi/fetcher/tmp/pychute-0.0.4.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - processPackages [pychute]: Remove: archive file [/home/abi/fetcher/tmp/pychute-0.0.5.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - main [MainThread]: End processing [pychute]: success
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.42.0rc1.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.42.0rc2.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-05-08 09:22:00] INFO root fetch - processPackages [cloudstructs]: executing diffoscope
+[2024-05-08 09:22:00] INFO root fetch - processPackages [cloudstructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudstructs-0.9.5.tar.gz tmp/cloudstructs-0.9.6.tar.gz --markdown 20240508/c/cloudstructs/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.42.0rc1.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.42.0rc2.tar.gz]
+[2024-05-08 09:22:00] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-05-08 09:22:00] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240508/m/merlin-sdk/0.9.0.dev0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 09:22:01] INFO root fetch - processPackages [planemo]: Remove: archive file [/home/abi/fetcher/tmp/planemo-0.8.4.tar.gz]
+[2024-05-08 09:22:01] INFO root fetch - processPackages [planemo]: Remove: archive file [/home/abi/fetcher/tmp/planemo-0.9.0.tar.gz]
+[2024-05-08 09:22:01] INFO root fetch - main [MainThread]: End processing [planemo]: success
+[2024-05-08 09:22:01] INFO root fetch - processPackages [cloudstructs]: Remove: archive file [/home/abi/fetcher/tmp/cloudstructs-0.9.5.tar.gz]
+[2024-05-08 09:22:01] INFO root fetch - processPackages [cloudstructs]: Remove: archive file [/home/abi/fetcher/tmp/cloudstructs-0.9.6.tar.gz]
+[2024-05-08 09:22:01] INFO root fetch - main [MainThread]: End processing [cloudstructs]: success
+[2024-05-08 09:22:02] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-05-08 09:22:02] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-05-08 09:22:02] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-05-08 09:22:02] INFO root fetch - main [MainThread]: Store serial: [23109708]
