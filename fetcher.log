@@ -7728,3 +7728,24 @@
 [2024-05-08 03:45:05] INFO root fetch - processPackages [llm-foundry]: Remove: archive file [/home/abi/fetcher/tmp/llm-foundry-0.9.0.dev0.tar.gz]
 [2024-05-08 03:45:05] INFO root fetch - main [MainThread]: End processing [llm-foundry]: success
 [2024-05-08 03:45:05] INFO root fetch - main [MainThread]: Store serial: [23107314]
+[2024-05-08 03:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107314]
+[2024-05-08 03:47:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 03:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drakaina
+[2024-05-08 03:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firstrade
+[2024-05-08 03:47:14] INFO root fetch - processPackages [firstrade]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 03:47:14] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/71/3e/538756e5388b7f5c209b60aebd96a105c242924aa72be027ff082fe236aa/firstrade-0.0.8.tar.gz
+[2024-05-08 03:47:14] INFO root fetch - processPackages [drakaina]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-08 03:47:14] INFO root fetch - processPackages [firstrade]: Downloading https://files.pythonhosted.org/packages/26/46/8fbfa77e65e290a06b29caaa151d5d19eaf2060f9023a57d093852cedc29/firstrade-0.0.9.tar.gz
+[2024-05-08 03:47:14] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/b5/24/149035a68946bad4483b9bbf7743e78afe60236c998ba814d854b6e71bde/drakaina-0.7.3.tar.gz
+[2024-05-08 03:47:15] INFO root fetch - processPackages [firstrade]: executing diffoscope
+[2024-05-08 03:47:15] INFO root fetch - processPackages [firstrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firstrade-0.0.8.tar.gz tmp/firstrade-0.0.9.tar.gz --markdown 20240508/f/firstrade/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 03:47:15] INFO root fetch - processPackages [drakaina]: Downloading https://files.pythonhosted.org/packages/a5/66/d3282d3ccb31b8d74f0f6e3ea4a6e515fb2a2a2a7a4dc11d15e6287293f0/drakaina-0.7.4.tar.gz
+[2024-05-08 03:47:15] INFO root fetch - processPackages [drakaina]: executing diffoscope
+[2024-05-08 03:47:15] INFO root fetch - processPackages [drakaina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakaina-0.7.3.tar.gz tmp/drakaina-0.7.4.tar.gz --markdown 20240508/d/drakaina/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-08 03:47:15] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.8.tar.gz]
+[2024-05-08 03:47:15] INFO root fetch - processPackages [firstrade]: Remove: archive file [/home/abi/fetcher/tmp/firstrade-0.0.9.tar.gz]
+[2024-05-08 03:47:15] INFO root fetch - main [MainThread]: End processing [firstrade]: success
+[2024-05-08 03:47:15] INFO root fetch - processPackages [drakaina]: Remove: archive file [/home/abi/fetcher/tmp/drakaina-0.7.3.tar.gz]
+[2024-05-08 03:47:15] INFO root fetch - processPackages [drakaina]: Remove: archive file [/home/abi/fetcher/tmp/drakaina-0.7.4.tar.gz]
+[2024-05-08 03:47:15] INFO root fetch - main [MainThread]: End processing [drakaina]: success
+[2024-05-08 03:47:15] INFO root fetch - main [MainThread]: Store serial: [23107320]
