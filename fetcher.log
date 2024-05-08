@@ -7012,3 +7012,48 @@
 [2024-05-08 03:12:22] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz]
 [2024-05-08 03:12:22] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wellarchitected]: success
 [2024-05-08 03:12:22] INFO root fetch - main [MainThread]: Store serial: [23106645]
+[2024-05-08 03:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23106645]
+[2024-05-08 03:14:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-wellarchitected
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-chime-sdk-identity
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-local
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dabstersz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-genai
+[2024-05-08 03:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pineapple-cli
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-08 03:14:31] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 03:14:31] INFO root fetch - processPackages [databricks-genai]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-05-08 03:14:31] WARNING root fetch - processPackages [pineapple-cli]: Skipping, unable to determine old version
+[2024-05-08 03:14:31] INFO root fetch - main [MainThread]: End processing [pineapple-cli] error
+[2024-05-08 03:14:31] WARNING root fetch - processPackages [dabstersz]: Skipping, unable to determine old version
+[2024-05-08 03:14:31] INFO root fetch - main [MainThread]: End processing [dabstersz] error
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Downloading https://files.pythonhosted.org/packages/62/41/5df1f485e11088fb8b477414ae4dde093dad0be8116b35a88cded9ff4e11/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-08 03:14:31] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/62/c4/99c3657950f3b46bca19749708e4b4919b75c46e0983cfd45d903a10d4c6/databricks-genai-0.0.9.tar.gz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: Downloading https://files.pythonhosted.org/packages/9f/4d/b9fd087541196cd82292e59012e75da854aa607db8cad4fd64b801503f8b/botocore-a-la-carte-chime-sdk-identity-1.34.98.tar.gz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Downloading https://files.pythonhosted.org/packages/0f/0d/e139ba4f8e29c160d532bcf965dd4075e344dc408dc7d9e380e650e0999f/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: executing diffoscope
+[2024-05-08 03:14:31] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz --markdown 20240508/b/botocore-a-la-carte-wellarchitected/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-08 03:14:32] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/97/e0/8600fd3df29df2757d324cc18ec8e64909e9ca00d6c330302b0cb3a5b33f/databricks_genai-1.0.0.tar.gz
+[2024-05-08 03:14:32] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: Downloading https://files.pythonhosted.org/packages/af/24/fb693cea0f0202e08bbbaa394fae647be3dcc03002d2245fe5930449e15d/botocore-a-la-carte-chime-sdk-identity-1.34.99.tar.gz
+[2024-05-08 03:14:32] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-08 03:14:32] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: executing diffoscope
+[2024-05-08 03:14:32] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-chime-sdk-identity-1.34.98.tar.gz tmp/botocore-a-la-carte-chime-sdk-identity-1.34.99.tar.gz --markdown 20240508/b/botocore-a-la-carte-chime-sdk-identity/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-08 03:14:32] INFO root fetch - processPackages [databricks-genai]: executing diffoscope
+[2024-05-08 03:14:32] INFO root fetch - processPackages [databricks-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-genai-0.0.9.tar.gz tmp/databricks_genai-1.0.0.tar.gz --markdown 20240508/d/databricks-genai/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-05-08 03:14:32] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-08 03:14:32] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240508/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 03:14:32] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wellarchitected]: success
+[2024-05-08 03:14:32] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-08 03:14:32] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks-genai-0.0.9.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.0.tar.gz]
+[2024-05-08 03:14:32] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
+[2024-05-08 03:14:33] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-identity-1.34.98.tar.gz]
+[2024-05-08 03:14:33] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-identity]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-identity-1.34.99.tar.gz]
+[2024-05-08 03:14:33] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-chime-sdk-identity]: success
+[2024-05-08 03:14:33] INFO root fetch - main [MainThread]: Store serial: [23106725]
