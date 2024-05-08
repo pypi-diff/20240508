@@ -14504,3 +14504,148 @@
 [2024-05-08 10:15:50] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-05-08 10:15:50] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-05-08 10:15:50] INFO root fetch - main [MainThread]: Store serial: [23110297]
+[2024-05-08 10:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110297]
+[2024-05-08 10:17:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-th-gov-purchase-guarantee
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vis-analysis-torch
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-core-python
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indi-pylibcamera
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-foundation-core-python
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zzd-cli
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymochow
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycfutils
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterhub-forwardbasespawner
+[2024-05-08 10:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grasp-planning
+[2024-05-08 10:17:59] INFO root fetch - processPackages [vis-analysis-torch]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/40/39/f487b080b1e1fe74d69337d9951ff0a1ceb7257c569851680e7341ad8292/vis_analysis_torch-0.4.0.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [pycfutils]: New version: [2024.5.8.post1] Old Version: [2024.5.8]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [indi-pylibcamera]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Downloading https://files.pythonhosted.org/packages/24/6a/6eb78a2b9aa643285b93cff9d8486aacb73fe0881a76eb759754cbd52e07/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl
+[2024-05-08 10:17:59] INFO root fetch - processPackages [grasp-planning]: New version: [0.2] Old Version: [0.1]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1715156174] Old Version: [1.7.0.dev1715156166]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [pymochow]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [zzd-cli]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1715156174] Old Version: [1.7.0.dev1715156166]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 10:17:59] INFO root fetch - processPackages [pymochow]: Downloading https://files.pythonhosted.org/packages/e9/a1/acac7c7d8f9e958208be7f072936a1c6c6a5a4aa60db95bf5374162ae7f2/pymochow-1.1.4.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/fe/db/6fc1bf62d6b3a364cb89f3d16d8b1a9ef9171599fc7d48e100b7a4f13774/pycfutils-2024.5.8.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/b4/12/bd386d4797a9da05ed8f3538e6e053f1e974e4b59ff257c10439dce277d9/indi_pylibcamera-2.6.2.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/b9/53/d70caafbd3ce1d409f96591711c46e74e5fa71b1d21c444680dd44dd3492/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/b9/53/d70caafbd3ce1d409f96591711c46e74e5fa71b1d21c444680dd44dd3492/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [zzd-cli]: Downloading https://files.pythonhosted.org/packages/0a/3b/1ebd2da2fdf1406d7e60842f3d17a3fe846584505b835b20a3221c7ce665/zzd-cli-0.2.0.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/d1/98/c4e282887d1dcb3b9a9a30f8729cad84ac859ba715a5cc9b6d30f7824579/grasp_planning-0.1.tar.gz
+[2024-05-08 10:17:59] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Downloading https://files.pythonhosted.org/packages/a2/fb/0fed0673660f358116523fc2e1220c516d6554651624fcd565d8f1a99e0e/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl
+[2024-05-08 10:17:59] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Downloading https://files.pythonhosted.org/packages/63/4f/f9b2d496decaf16aa6bf6546185128a810a0899a4382eb99679414878314/jupyterhub_forwardbasespawner-1.0.0.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [vis-analysis-torch]: Downloading https://files.pythonhosted.org/packages/75/24/0549d61cb4a1641cb32a13a9163ff57de1a8a3247fc3aaa704eba2dd0266/vis_analysis_torch-0.4.1.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-l10n-th-gov-purchase-guarantee/15.0.1.1.1-15.0.1.1.2/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [vis-analysis-torch]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [vis-analysis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vis_analysis_torch-0.4.0.tar.gz tmp/vis_analysis_torch-0.4.1.tar.gz --markdown 20240508/v/vis-analysis-torch/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/ac/7e/62c33bc463ec3e7a737d82c7e012e5498d4439bdbff6bd460b85989a9c51/pycfutils-2024.5.8.post1.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pymochow]: Downloading https://files.pythonhosted.org/packages/34/5a/3995abb651dfeabb3bdb3b9f36fe201441f9e4e5f8bcf8c90eb71621a27c/pymochow-1.1.5.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [indi-pylibcamera]: Downloading https://files.pythonhosted.org/packages/c2/6b/a8c8c4f5b39ddc24a4e81aea53d924faec67c0d5fe92a1ee6695941a7a22/indi_pylibcamera-2.6.3.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/2c/56/823d92f6765fac67700e56384bb596978cca655d4fd57a73aa37543cb27b/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/2c/56/823d92f6765fac67700e56384bb596978cca655d4fd57a73aa37543cb27b/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [grasp-planning]: Downloading https://files.pythonhosted.org/packages/8f/2d/1a8f4901454b386b68b455395ef18483a0117e19e7f2d72a957575d0a313/grasp_planning-0.2.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [zzd-cli]: Downloading https://files.pythonhosted.org/packages/74/f5/715e3103e0e7113719693127666c154ace07cc9a4baa488ff9188bcabb26/zzd-cli-0.3.0.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pycfutils]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pycfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycfutils-2024.5.8.tar.gz tmp/pycfutils-2024.5.8.post1.tar.gz --markdown 20240508/p/pycfutils/2024.5.8-2024.5.8.post1/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Downloading https://files.pythonhosted.org/packages/37/33/b19cf109c41a8553e63f4e94587030cd961141837433d9779984aeb3deed/jupyterhub_forwardbasespawner-1.0.1.tar.gz
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz --markdown 20240508/a/aissemble-foundation-core-python/1.7.0.dev1715156166-1.7.0.dev1715156174/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pymochow]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [pymochow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymochow-1.1.4.tar.gz tmp/pymochow-1.1.5.tar.gz --markdown 20240508/p/pymochow/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz --markdown 20240508/a/aissemble-foundation-core-python/1.7.0.dev1715156166-1.7.0.dev1715156174/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [indi-pylibcamera]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [indi-pylibcamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indi_pylibcamera-2.6.2.tar.gz tmp/indi_pylibcamera-2.6.3.tar.gz --markdown 20240508/i/indi-pylibcamera/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [grasp-planning]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [grasp-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.1.tar.gz tmp/grasp_planning-0.2.tar.gz --markdown 20240508/g/grasp-planning/0.1-0.2/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [zzd-cli]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [zzd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzd-cli-0.2.0.tar.gz tmp/zzd-cli-0.3.0.tar.gz --markdown 20240508/z/zzd-cli/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-08 10:18:00] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: executing diffoscope
+[2024-05-08 10:18:00] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub_forwardbasespawner-1.0.0.tar.gz tmp/jupyterhub_forwardbasespawner-1.0.1.tar.gz --markdown 20240508/j/jupyterhub-forwardbasespawner/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 10:18:01] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.0.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [vis-analysis-torch]: Remove: archive file [/home/abi/fetcher/tmp/vis_analysis_torch-0.4.1.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [vis-analysis-torch]: Start processing: increff-runner
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [increff-runner]: New version: [4.0] Old Version: [3.2.2]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_th_gov_purchase_guarantee-15.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [odoo-addon-l10n-th-gov-purchase-guarantee]: Start processing: user-external-local
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-th-gov-purchase-guarantee]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [user-external-local]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/42/57/e6db7862b99a209428ea103588c4a73b73d20702a8d57a4539e678c6c0fe/user_external_local-0.0.40.tar.gz
+[2024-05-08 10:18:01] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/ac/9d/941fa4ecb6d9364b3aec8af53ce039a905358a07a21805cc367ead82d48e/increff_runner-3.2.2-py3-none-any.whl
+[2024-05-08 10:18:01] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.1.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [grasp-planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.2.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [grasp-planning]: Start processing: crewai-clean
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [grasp-planning]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [pymochow]: Remove: archive file [/home/abi/fetcher/tmp/pymochow-1.1.4.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [pymochow]: Remove: archive file [/home/abi/fetcher/tmp/pymochow-1.1.5.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [pymochow]: Start processing: autochat
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [pymochow]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [crewai-clean]: New version: [0.30.0rc5] Old Version: [0.22.5]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [zzd-cli]: Remove: archive file [/home/abi/fetcher/tmp/zzd-cli-0.2.0.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [zzd-cli]: Remove: archive file [/home/abi/fetcher/tmp/zzd-cli-0.3.0.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [zzd-cli]: Start processing: funcnodes-sklearn
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [zzd-cli]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_forwardbasespawner-1.0.0.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_forwardbasespawner-1.0.1.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Start processing: pgvector-haystack
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [jupyterhub-forwardbasespawner]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [crewai-clean]: Downloading https://files.pythonhosted.org/packages/6f/36/eaa3186cbf50a5aa9f67a0a3fd70aa5eeefca0d84dc450fda90dd7627154/crewai_clean-0.22.5.tar.gz
+[2024-05-08 10:18:01] INFO root fetch - processPackages [funcnodes-sklearn]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.2.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - processPackages [indi-pylibcamera]: Remove: archive file [/home/abi/fetcher/tmp/indi_pylibcamera-2.6.3.tar.gz]
+[2024-05-08 10:18:01] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera]: success
+[2024-05-08 10:18:01] INFO root fetch - processPackages [user-external-local]: Downloading https://files.pythonhosted.org/packages/92/71/41a5a8a55d5ba83e26b6c65c6c689b0dcbe1e3e8b25d6305b10ce6722bf6/user_external_local-0.0.41.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/df/28/62f2e9d0c7aa801824ad1275f0cf5829711cfe5d7f56f3c8a5c4d3b5361a/increff_runner-4.0-py3-none-any.whl
+[2024-05-08 10:18:02] INFO root fetch - processPackages [autochat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 10:18:02] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-08 10:18:02] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/33/d3/4ef147edc7dd87b9a32daeb88a39a5dac57294229f092281d937fb2d997c/funcnodes_sklearn-0.1.2.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pgvector-haystack]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.8.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.8.post1.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - main [MainThread]: End processing [pycfutils]: success
+[2024-05-08 10:18:02] INFO root fetch - processPackages [user-external-local]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_external_local-0.0.40.tar.gz tmp/user_external_local-0.0.41.tar.gz --markdown 20240508/u/user-external-local/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-05-08 10:18:02] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.2.2-py3-none-any.whl.zip tmp/increff_runner-4.0-py3-none-any.whl.zip --markdown 20240508/i/increff-runner/3.2.2-4.0/README.md --exclude *.pyd
+[2024-05-08 10:18:02] INFO root fetch - processPackages [crewai-clean]: Downloading https://files.pythonhosted.org/packages/b1/0e/1b9310e96adca6264ec6722af35e0ab86284c381323d6b4e07ce3fb0f305/crewai_clean-0.30.0rc5.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [autochat]: Downloading https://files.pythonhosted.org/packages/71/76/4a2ec672875b5b1aa991a487426feab6c26052dae90988ecf2b5b7c24331/autochat-0.1.8.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pgvector-haystack]: Downloading https://files.pythonhosted.org/packages/28/ac/d2629c461bcd08d02d4f4565afbe4e79674fe92b726c9f1f2dd9ebdc8a93/pgvector_haystack-0.1.0.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [crewai-clean]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [crewai-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_clean-0.22.5.tar.gz tmp/crewai_clean-0.30.0rc5.tar.gz --markdown 20240508/c/crewai-clean/0.22.5-0.30.0rc5/README.md --exclude *.pyd
+[2024-05-08 10:18:02] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/c4/55/24d84d519af6bd0732f704161678feac581eadb0d105ce21f497b04f79ca/funcnodes_sklearn-0.1.3.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [funcnodes-sklearn]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [funcnodes-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_sklearn-0.1.2.tar.gz tmp/funcnodes_sklearn-0.1.3.tar.gz --markdown 20240508/f/funcnodes-sklearn/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 10:18:02] INFO root fetch - processPackages [autochat]: Downloading https://files.pythonhosted.org/packages/31/5e/a63e47185c8792b1c68c398f0458853519a9eaaf590f34b56cb69678bbc5/autochat-0.1.9.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pgvector-haystack]: Downloading https://files.pythonhosted.org/packages/32/9a/22e9c8e178b9081a578137f55e97f47d88a11fd4ebc8d788f8efbbdcebb8/pgvector_haystack-0.2.0.tar.gz
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pgvector-haystack]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [pgvector-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgvector_haystack-0.1.0.tar.gz tmp/pgvector_haystack-0.2.0.tar.gz --markdown 20240508/p/pgvector-haystack/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 10:18:02] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.40.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - processPackages [user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/user_external_local-0.0.41.tar.gz]
+[2024-05-08 10:18:02] INFO root fetch - main [MainThread]: End processing [user-external-local]: success
+[2024-05-08 10:18:02] INFO root fetch - processPackages [autochat]: executing diffoscope
+[2024-05-08 10:18:02] INFO root fetch - processPackages [autochat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autochat-0.1.8.tar.gz tmp/autochat-0.1.9.tar.gz --markdown 20240508/a/autochat/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 10:18:03] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.2.2-py3-none-any.whl.zip]
+[2024-05-08 10:18:03] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.0-py3-none-any.whl.zip]
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-08 10:18:03] INFO root fetch - processPackages [crewai-clean]: Remove: archive file [/home/abi/fetcher/tmp/crewai_clean-0.22.5.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - processPackages [crewai-clean]: Remove: archive file [/home/abi/fetcher/tmp/crewai_clean-0.30.0rc5.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [crewai-clean]: success
+[2024-05-08 10:18:03] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.2.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.3.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [funcnodes-sklearn]: success
+[2024-05-08 10:18:03] INFO root fetch - processPackages [autochat]: Remove: archive file [/home/abi/fetcher/tmp/autochat-0.1.8.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - processPackages [autochat]: Remove: archive file [/home/abi/fetcher/tmp/autochat-0.1.9.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [autochat]: success
+[2024-05-08 10:18:03] INFO root fetch - processPackages [pgvector-haystack]: Remove: archive file [/home/abi/fetcher/tmp/pgvector_haystack-0.1.0.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - processPackages [pgvector-haystack]: Remove: archive file [/home/abi/fetcher/tmp/pgvector_haystack-0.2.0.tar.gz]
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: End processing [pgvector-haystack]: success
+[2024-05-08 10:18:03] INFO root fetch - main [MainThread]: Store serial: [23110344]
