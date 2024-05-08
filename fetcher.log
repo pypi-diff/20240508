@@ -8271,3 +8271,27 @@
 [2024-05-08 04:15:39] INFO root fetch - processPackages [webcomix]: Remove: archive file [/home/abi/fetcher/tmp/webcomix-3.9.0.tar.gz]
 [2024-05-08 04:15:39] INFO root fetch - main [MainThread]: End processing [webcomix]: success
 [2024-05-08 04:15:39] INFO root fetch - main [MainThread]: Store serial: [23107516]
+[2024-05-08 04:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107516]
+[2024-05-08 04:17:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 04:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zep-cloud
+[2024-05-08 04:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogenstudio
+[2024-05-08 04:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapework
+[2024-05-08 04:17:48] WARNING root fetch - processPackages [zep-cloud]: Skipping, unable to determine old version
+[2024-05-08 04:17:48] INFO root fetch - main [MainThread]: End processing [zep-cloud] error
+[2024-05-08 04:17:48] INFO root fetch - processPackages [scrapework]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-08 04:17:48] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc4]
+[2024-05-08 04:17:48] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b7/f4/b1645006817c41e1e9d5228483dcbf5da62012903061b33b36dca2ff4931/autogenstudio-0.0.56rc4.tar.gz
+[2024-05-08 04:17:48] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/64/20/2abba0181df17e6f4e0319d7766f8608441a739571e12420d7ea424fb505/scrapework-0.5.2.tar.gz
+[2024-05-08 04:17:48] INFO root fetch - processPackages [scrapework]: Downloading https://files.pythonhosted.org/packages/1b/60/d7ffa8f9d859417a745633ef163fd755a42267aa024073c5c7a69b474061/scrapework-0.5.3.tar.gz
+[2024-05-08 04:17:49] INFO root fetch - processPackages [scrapework]: executing diffoscope
+[2024-05-08 04:17:49] INFO root fetch - processPackages [scrapework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapework-0.5.2.tar.gz tmp/scrapework-0.5.3.tar.gz --markdown 20240508/s/scrapework/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc4.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240508/a/autogenstudio/0.0.56rc4-0.0.9a0/README.md --exclude *.pyd
+[2024-05-08 04:17:49] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.5.2.tar.gz]
+[2024-05-08 04:17:49] INFO root fetch - processPackages [scrapework]: Remove: archive file [/home/abi/fetcher/tmp/scrapework-0.5.3.tar.gz]
+[2024-05-08 04:17:49] INFO root fetch - main [MainThread]: End processing [scrapework]: success
+[2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc4.tar.gz]
+[2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-05-08 04:17:49] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-05-08 04:17:49] INFO root fetch - main [MainThread]: Store serial: [23107528]
