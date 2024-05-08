@@ -2083,3 +2083,45 @@
 [2024-05-08 01:58:45] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
 [2024-05-08 01:58:45] INFO root fetch - main [MainThread]: End processing [langsmith]: success
 [2024-05-08 01:58:45] INFO root fetch - main [MainThread]: Store serial: [23105121]
+[2024-05-08 02:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105121]
+[2024-05-08 02:00:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 02:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ls-cred-storage
+[2024-05-08 02:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ls-packers
+[2024-05-08 02:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llvm-ir-dataset-utils
+[2024-05-08 02:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hugg
+[2024-05-08 02:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crowbar-package-manager
+[2024-05-08 02:00:55] INFO root fetch - processPackages [hugg]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-packers]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-08 02:00:55] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/66/98/b67c4c5d337077f74e3b116e16d29706a838dd54248a307a093b3593b1a6/hugg-0.2.8.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [crowbar-package-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-cred-storage]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 02:00:55] WARNING root fetch - processPackages [llvm-ir-dataset-utils]: Skipping, unable to determine old version
+[2024-05-08 02:00:55] INFO root fetch - main [MainThread]: End processing [llvm-ir-dataset-utils] error
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/b5/a0/6c7c462b8f0b42a2213bfffae99ddebafcfc802db1aa494dffd7f978bf0b/ls_packers-0.5.0.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/63/97/4cb1d2617c5619e7148f9ac7c4a014fba249dc920ead6cc4d17a0b3b8359/crowbar_package_manager-0.1.8.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/d2/db/cfc438f7e28272326198460cf858bcaa4dcd6866b0d9d11e9f3493291bec/ls_cred_storage-0.1.2.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/37/c2/1b1f3210179bf3beb2309731997d30c875ef76e3070fbb2a0128fe3c31d1/hugg-0.2.9.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2024-05-08 02:00:55] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.2.8.tar.gz tmp/hugg-0.2.9.tar.gz --markdown 20240508/h/hugg/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/8d/4c/19501b84616c92e7dc27d797089cb0e82ea9ff458342804758e6a0d678b3/ls_packers-0.5.1.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-cred-storage]: Downloading https://files.pythonhosted.org/packages/3d/66/1cbfc31cfd581ca45958a96be4e48003ad288b57b64cc97b03d9222d9b1d/ls_cred_storage-0.1.3.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [crowbar-package-manager]: Downloading https://files.pythonhosted.org/packages/59/37/0dd70904f55a40f9d1306d5e4dbb6c73e7e18f7120c236406426245e1b93/crowbar_package_manager-0.1.9.tar.gz
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-cred-storage]: executing diffoscope
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-cred-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_cred_storage-0.1.2.tar.gz tmp/ls_cred_storage-0.1.3.tar.gz --markdown 20240508/l/ls-cred-storage/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-packers]: executing diffoscope
+[2024-05-08 02:00:55] INFO root fetch - processPackages [ls-packers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_packers-0.5.0.tar.gz tmp/ls_packers-0.5.1.tar.gz --markdown 20240508/l/ls-packers/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-08 02:00:55] INFO root fetch - processPackages [crowbar-package-manager]: executing diffoscope
+[2024-05-08 02:00:55] INFO root fetch - processPackages [crowbar-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowbar_package_manager-0.1.8.tar.gz tmp/crowbar_package_manager-0.1.9.tar.gz --markdown 20240508/c/crowbar-package-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 02:00:56] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.8.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.9.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2024-05-08 02:00:56] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.8.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - processPackages [crowbar-package-manager]: Remove: archive file [/home/abi/fetcher/tmp/crowbar_package_manager-0.1.9.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - main [MainThread]: End processing [crowbar-package-manager]: success
+[2024-05-08 02:00:56] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.2.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - processPackages [ls-cred-storage]: Remove: archive file [/home/abi/fetcher/tmp/ls_cred_storage-0.1.3.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - main [MainThread]: End processing [ls-cred-storage]: success
+[2024-05-08 02:00:56] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.0.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.1.tar.gz]
+[2024-05-08 02:00:56] INFO root fetch - main [MainThread]: End processing [ls-packers]: success
+[2024-05-08 02:00:56] INFO root fetch - main [MainThread]: Store serial: [23105138]
