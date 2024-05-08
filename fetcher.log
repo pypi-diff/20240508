@@ -11602,3 +11602,36 @@
 [2024-05-08 07:57:36] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.0.tar.gz]
 [2024-05-08 07:57:36] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
 [2024-05-08 07:57:36] INFO root fetch - main [MainThread]: Store serial: [23108727]
+[2024-05-08 07:59:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108727]
+[2024-05-08 07:59:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoThemeGenerator
+[2024-05-08 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcffont
+[2024-05-08 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indiminishablez
+[2024-05-08 07:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itrm
+[2024-05-08 07:59:44] INFO root fetch - processPackages [pcffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 07:59:44] INFO root fetch - processPackages [itrm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 07:59:44] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 07:59:44] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/84/3f/b5e7fc6009ce0354b4675373a4bc5c42de75d53bfa65722db25d842c05de/itrm-0.1.8.tar.gz
+[2024-05-08 07:59:44] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/92/35/03862ad6dd7b59fd56a2b6550361d86db7575145d828ac85b1bfa29d722d/pcffont-0.0.8.tar.gz
+[2024-05-08 07:59:44] WARNING root fetch - processPackages [indiminishablez]: Skipping, unable to determine old version
+[2024-05-08 07:59:44] INFO root fetch - main [MainThread]: End processing [indiminishablez] error
+[2024-05-08 07:59:45] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/69/12/97e758c368295d5fcc9d827c2313cbf65ed4d709df264132af2ff182e48c/autothemegenerator-0.0.6.tar.gz
+[2024-05-08 07:59:45] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/35/d9/2923458248fefadc46291ec0e8d452d1a4bb64cfaee00db5b884895e3ecc/itrm-0.1.9.tar.gz
+[2024-05-08 07:59:45] INFO root fetch - processPackages [itrm]: executing diffoscope
+[2024-05-08 07:59:45] INFO root fetch - processPackages [itrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itrm-0.1.8.tar.gz tmp/itrm-0.1.9.tar.gz --markdown 20240508/i/itrm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 07:59:45] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/c1/59/06138ec86bcb5f424f0cc275a3d4a440ee2eaeccab8a55ecafc1326854b2/autothemegenerator-0.0.7.tar.gz
+[2024-05-08 07:59:45] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/08/90/f677a97a0181cfbd1bb052e4335dcf5b6ff3c0fab5241bccdbb2ddb6b339/pcffont-0.0.9.tar.gz
+[2024-05-08 07:59:45] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-08 07:59:45] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.0.6.tar.gz tmp/autothemegenerator-0.0.7.tar.gz --markdown 20240508/A/AutoThemeGenerator/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 07:59:45] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-05-08 07:59:45] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.8.tar.gz tmp/pcffont-0.0.9.tar.gz --markdown 20240508/p/pcffont/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 07:59:45] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.8.tar.gz]
+[2024-05-08 07:59:45] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.1.9.tar.gz]
+[2024-05-08 07:59:45] INFO root fetch - main [MainThread]: End processing [itrm]: success
+[2024-05-08 07:59:46] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.6.tar.gz]
+[2024-05-08 07:59:46] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.7.tar.gz]
+[2024-05-08 07:59:46] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-08 07:59:47] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.8.tar.gz]
+[2024-05-08 07:59:47] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.9.tar.gz]
+[2024-05-08 07:59:47] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-05-08 07:59:47] INFO root fetch - main [MainThread]: Store serial: [23108744]
