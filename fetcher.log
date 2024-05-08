@@ -19732,3 +19732,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 13:07:39] INFO root fetch - processPackages [bailo]: Remove: archive file [/home/abi/fetcher/tmp/bailo-2.2.0.tar.gz]
 [2024-05-08 13:07:39] INFO root fetch - main [MainThread]: End processing [bailo]: success
 [2024-05-08 13:07:39] INFO root fetch - main [MainThread]: Store serial: [23112404]
+[2024-05-08 13:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112404]
+[2024-05-08 13:09:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytantan
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acceldata-airflow-sdk
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gianna
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coretex
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databricks-labs-blueprint
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: felt-python
+[2024-05-08 13:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picodi
+[2024-05-08 13:09:49] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 13:09:49] INFO root fetch - processPackages [databricks-labs-blueprint]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-08 13:09:49] WARNING root fetch - processPackages [gianna]: Skipping, unable to determine old version
+[2024-05-08 13:09:49] INFO root fetch - main [MainThread]: End processing [gianna] error
+[2024-05-08 13:09:49] INFO root fetch - processPackages [acceldata-airflow-sdk]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-08 13:09:49] WARNING root fetch - processPackages [felt-python]: Skipping, unable to determine old version
+[2024-05-08 13:09:49] INFO root fetch - main [MainThread]: End processing [felt-python] error
+[2024-05-08 13:09:49] WARNING root fetch - processPackages [pytantan]: Skipping, unable to determine old version
+[2024-05-08 13:09:49] INFO root fetch - processPackages [picodi]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 13:09:49] INFO root fetch - main [MainThread]: End processing [pytantan] error
+[2024-05-08 13:09:49] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-05-08 13:09:49] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/35/96/87fb86d755fcce92d7f71d7bfa8fe1b77421f2eda685ee52f772929e0703/picodi-0.4.2.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [databricks-labs-blueprint]: Downloading https://files.pythonhosted.org/packages/16/88/e3a1d5de06ac55af4c5f19775af6a544501928a326ad0df63f63fbb8346e/databricks_labs_blueprint-0.4.4.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/04/36/cc09b030ff60abe737569ed73141663bb1349566cbdb6b64b518a65dc831/acceldata_airflow_sdk-3.3.0.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 13:09:49] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 13:09:49] INFO root fetch - processPackages [picodi]: Downloading https://files.pythonhosted.org/packages/b5/f7/770c029cc0af04b553bcc3d0f72e7408c48e39e619e75af48e988dfa889e/picodi-0.4.3.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [databricks-labs-blueprint]: Downloading https://files.pythonhosted.org/packages/b3/55/bd52ca19dc93f174ca7c9d22676e3ae4f2f057048dab9f9404437435c23b/databricks_labs_blueprint-0.5.0.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/96/d7/52f1c0c01fb1ebdb02f9652f672d294f736f0a2fb5415174cba4a575ca4e/acceldata_airflow_sdk-3.4.0.tar.gz
+[2024-05-08 13:09:49] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-05-08 13:09:49] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240508/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-05-08 13:09:49] INFO root fetch - processPackages [picodi]: executing diffoscope
+[2024-05-08 13:09:49] INFO root fetch - processPackages [picodi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picodi-0.4.2.tar.gz tmp/picodi-0.4.3.tar.gz --markdown 20240508/p/picodi/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 13:09:49] INFO root fetch - processPackages [databricks-labs-blueprint]: executing diffoscope
+[2024-05-08 13:09:49] INFO root fetch - processPackages [databricks-labs-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_blueprint-0.4.4.tar.gz tmp/databricks_labs_blueprint-0.5.0.tar.gz --markdown 20240508/d/databricks-labs-blueprint/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-08 13:09:50] INFO root fetch - processPackages [acceldata-airflow-sdk]: executing diffoscope
+[2024-05-08 13:09:50] INFO root fetch - processPackages [acceldata-airflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_airflow_sdk-3.3.0.tar.gz tmp/acceldata_airflow_sdk-3.4.0.tar.gz --markdown 20240508/a/acceldata-airflow-sdk/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-08 13:09:50] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 13:09:50] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.4.2.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - processPackages [picodi]: Remove: archive file [/home/abi/fetcher/tmp/picodi-0.4.3.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - main [MainThread]: End processing [picodi]: success
+[2024-05-08 13:09:50] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-3.3.0.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-3.4.0.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - main [MainThread]: End processing [acceldata-airflow-sdk]: success
+[2024-05-08 13:09:50] INFO root fetch - processPackages [databricks-labs-blueprint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_blueprint-0.4.4.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - processPackages [databricks-labs-blueprint]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_blueprint-0.5.0.tar.gz]
+[2024-05-08 13:09:50] INFO root fetch - main [MainThread]: End processing [databricks-labs-blueprint]: success
+[2024-05-08 13:09:51] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-05-08 13:09:51] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-05-08 13:09:51] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-05-08 13:09:51] INFO root fetch - main [MainThread]: Store serial: [23112471]
