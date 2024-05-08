@@ -18755,3 +18755,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:25:41] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.5.tar.gz]
 [2024-05-08 12:25:41] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-08 12:25:41] INFO root fetch - main [MainThread]: Store serial: [23111967]
+[2024-05-08 12:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111967]
+[2024-05-08 12:27:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneople
+[2024-05-08 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hagrid
+[2024-05-08 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-batch-regression
+[2024-05-08 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Garfield
+[2024-05-08 12:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-standardized-response
+[2024-05-08 12:27:50] INFO root fetch - processPackages [Garfield]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 12:27:50] INFO root fetch - processPackages [drf-standardized-response]: New version: [1.1.0] Old Version: [1]
+[2024-05-08 12:27:50] INFO root fetch - processPackages [pytest-batch-regression]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:27:50] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 12:27:50] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/f4/c3/b7347b603f6a5a1c58488cbe7ca885dd591ef0b339b73935e49c0fdd877b/pytest_batch_regression-0.1.1.tar.gz
+[2024-05-08 12:27:50] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 12:27:50] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/34/16/eaabdece2ae4e03c2a9728111dd3d9bd1251df5e18e8345c0e8d55effffb/drf_standardized_response-1.tar.gz
+[2024-05-08 12:27:50] INFO root fetch - processPackages [hagrid]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-08 12:27:50] INFO root fetch - processPackages [Garfield]: Downloading https://files.pythonhosted.org/packages/a5/ef/d2b3a0e5f4e9baf7cac8dc0ba9808b1c08c74ac6974d6ec4c51ab5500ca8/Garfield-0.1.0.tar.gz
+[2024-05-08 12:27:50] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/71/5c/7118f88cf946d0a75ccbfe7faf329364c6aa329c75e795f5321774437057/hagrid-0.3.98.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/ad/f3/b3b74e3f2fe673e56a0a3b137f3f6fdd72e8c2d5205ab8fcc3baa85bf4ca/drf_standardized_response-1.1.0.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pytest-batch-regression]: Downloading https://files.pythonhosted.org/packages/e1/6b/03ae2f49f7f945203edfa498d02e7a1be916ffbb74167f89cb3f087cff84/pytest_batch_regression-0.1.2.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 12:27:51] INFO root fetch - processPackages [drf-standardized-response]: executing diffoscope
+[2024-05-08 12:27:51] INFO root fetch - processPackages [drf-standardized-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_standardized_response-1.tar.gz tmp/drf_standardized_response-1.1.0.tar.gz --markdown 20240508/d/drf-standardized-response/1-1.1.0/README.md --exclude *.pyd
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pytest-batch-regression]: executing diffoscope
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pytest-batch-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_batch_regression-0.1.1.tar.gz tmp/pytest_batch_regression-0.1.2.tar.gz --markdown 20240508/p/pytest-batch-regression/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:27:51] INFO root fetch - processPackages [Garfield]: Downloading https://files.pythonhosted.org/packages/42/6c/4404a9649736c1fde0ce540ab9ea0b580822c510151faf9df5e64219c22d/Garfield-0.1.1.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/cd/59/f6d437913eeba7d4d9bb51ed14ede91b80dcb983f21bbafb63e54e220055/hagrid-0.3.99.tar.gz
+[2024-05-08 12:27:51] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2024-05-08 12:27:51] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.98.tar.gz tmp/hagrid-0.3.99.tar.gz --markdown 20240508/h/hagrid/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-08 12:27:51] INFO root fetch - processPackages [Garfield]: executing diffoscope
+[2024-05-08 12:27:51] INFO root fetch - processPackages [Garfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Garfield-0.1.0.tar.gz tmp/Garfield-0.1.1.tar.gz --markdown 20240508/G/Garfield/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 12:27:51] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.1.0.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.1.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - processPackages [pytest-batch-regression]: Remove: archive file [/home/abi/fetcher/tmp/pytest_batch_regression-0.1.2.tar.gz]
+[2024-05-08 12:27:51] INFO root fetch - main [MainThread]: End processing [pytest-batch-regression]: success
+[2024-05-08 12:27:52] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.98.tar.gz]
+[2024-05-08 12:27:52] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.99.tar.gz]
+[2024-05-08 12:27:52] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2024-05-08 12:27:52] INFO root fetch - processPackages [Garfield]: Remove: archive file [/home/abi/fetcher/tmp/Garfield-0.1.0.tar.gz]
+[2024-05-08 12:27:52] INFO root fetch - processPackages [Garfield]: Remove: archive file [/home/abi/fetcher/tmp/Garfield-0.1.1.tar.gz]
+[2024-05-08 12:27:52] INFO root fetch - main [MainThread]: End processing [Garfield]: success
+[2024-05-08 12:27:52] INFO root fetch - main [MainThread]: Store serial: [23111980]
