@@ -9333,3 +9333,42 @@
 [2024-05-08 05:23:46] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050703.tar.gz]
 [2024-05-08 05:23:46] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-08 05:23:46] INFO root fetch - main [MainThread]: Store serial: [23107924]
+[2024-05-08 05:25:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107924]
+[2024-05-08 05:25:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyldk
+[2024-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GnDocTrans
+[2024-05-08 05:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oakvar
+[2024-05-08 05:25:54] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050803] Old Version: [3.3.3.dev2024050703]
+[2024-05-08 05:25:55] INFO root fetch - processPackages [pyldk]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-08 05:25:55] INFO root fetch - processPackages [GnDocTrans]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-08 05:25:55] INFO root fetch - processPackages [oakvar]: New version: [2.9.99] Old Version: [2.9.98]
+[2024-05-08 05:25:55] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/0b/c5/02c317923f5d32c122f50b662d530fd383f30376a48e6cdd539dae5f6ef4/keras_nightly-3.3.3.dev2024050703.tar.gz
+[2024-05-08 05:25:55] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/8f/a0/8c62558f55efc50e24f1ab67743f3107edd982124ed960a7b6ab304242fd/GnDocTrans-0.0.1.tar.gz
+[2024-05-08 05:25:55] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/a3/ce/6968cab51f4cb7b955287af8ac7062bbc3d7ecfca4110e778aca096983b8/oakvar-2.9.98.tar.gz
+[2024-05-08 05:25:55] INFO root fetch - processPackages [pyldk]: Downloading https://files.pythonhosted.org/packages/e0/35/9d43555f8b2e3be92e497cd49d713b63c2f680edaaf154e8f600cb60f72e/pyldk-1.1.4-py3-none-win_amd64.whl
+[2024-05-08 05:25:55] INFO root fetch - processPackages [GnDocTrans]: Downloading https://files.pythonhosted.org/packages/35/7b/a8fa4ad4be0fcff4696dd71b540efa40cfab60bc1d033f2b5bd0f87d8cbf/GnDocTrans-0.0.2.tar.gz
+[2024-05-08 05:25:55] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/d5/d6/47268d6d44517d2a6db71c789bcb8e30ce47b9e711ec8a516d11ca04e516/keras_nightly-3.3.3.dev2024050803.tar.gz
+[2024-05-08 05:25:55] INFO root fetch - processPackages [GnDocTrans]: executing diffoscope
+[2024-05-08 05:25:55] INFO root fetch - processPackages [GnDocTrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GnDocTrans-0.0.1.tar.gz tmp/GnDocTrans-0.0.2.tar.gz --markdown 20240508/G/GnDocTrans/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-08 05:25:55] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-08 05:25:55] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050703.tar.gz tmp/keras_nightly-3.3.3.dev2024050803.tar.gz --markdown 20240508/k/keras-nightly/3.3.3.dev2024050703-3.3.3.dev2024050803/README.md --exclude *.pyd
+[2024-05-08 05:25:56] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.1.tar.gz]
+[2024-05-08 05:25:56] INFO root fetch - processPackages [GnDocTrans]: Remove: archive file [/home/abi/fetcher/tmp/GnDocTrans-0.0.2.tar.gz]
+[2024-05-08 05:25:56] INFO root fetch - main [MainThread]: End processing [GnDocTrans]: success
+[2024-05-08 05:25:56] INFO root fetch - processPackages [pyldk]: Downloading https://files.pythonhosted.org/packages/35/4e/50d513fd2ba34e2e2f10f1d72925d6e48adc92f23de9417008657e371822/pyldk-1.1.5-py3-none-win_amd64.whl
+[2024-05-08 05:25:56] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/cf/2a/de8e0ae3bf287725294b151b3a458f4350c6be98fc7b2c5896e98a2a82a5/oakvar-2.9.99.tar.gz
+[2024-05-08 05:25:57] INFO root fetch - processPackages [pyldk]: executing diffoscope
+[2024-05-08 05:25:57] INFO root fetch - processPackages [pyldk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyldk-1.1.4-py3-none-win_amd64.whl.zip tmp/pyldk-1.1.5-py3-none-win_amd64.whl.zip --markdown 20240508/p/pyldk/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-08 05:25:57] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050703.tar.gz]
+[2024-05-08 05:25:57] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050803.tar.gz]
+[2024-05-08 05:25:58] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-08 05:25:58] INFO root fetch - processPackages [pyldk]: Remove: archive file [/home/abi/fetcher/tmp/pyldk-1.1.4-py3-none-win_amd64.whl.zip]
+[2024-05-08 05:25:58] INFO root fetch - processPackages [pyldk]: Remove: archive file [/home/abi/fetcher/tmp/pyldk-1.1.5-py3-none-win_amd64.whl.zip]
+[2024-05-08 05:25:58] INFO root fetch - main [MainThread]: End processing [pyldk]: success
+[2024-05-08 05:25:58] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-05-08 05:25:58] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.98.tar.gz tmp/oakvar-2.9.99.tar.gz --markdown 20240508/o/oakvar/2.9.98-2.9.99/README.md --exclude *.pyd
+[2024-05-08 05:26:00] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.98.tar.gz]
+[2024-05-08 05:26:00] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.99.tar.gz]
+[2024-05-08 05:26:00] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-05-08 05:26:00] INFO root fetch - main [MainThread]: Store serial: [23107937]
