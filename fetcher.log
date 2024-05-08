@@ -11178,3 +11178,45 @@
 [2024-05-08 07:26:37] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.5.tar.gz]
 [2024-05-08 07:26:37] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
 [2024-05-08 07:26:37] INFO root fetch - main [MainThread]: Store serial: [23108527]
+[2024-05-08 07:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108527]
+[2024-05-08 07:28:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 07:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-08 07:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dq-check
+[2024-05-08 07:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastcrud
+[2024-05-08 07:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radioplayer-dataclasses
+[2024-05-08 07:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NetHyTech-MCV
+[2024-05-08 07:28:46] INFO root fetch - processPackages [dq-check]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 07:28:46] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.8.0] Old Version: [2024.5.7.1]
+[2024-05-08 07:28:46] INFO root fetch - processPackages [radioplayer-dataclasses]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-08 07:28:46] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/0c/74/dd172da10b4b3ca41b6ac8908d418634c19efdda1df081df9e9725749975/dq_check-0.1.0.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [fastcrud]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 07:28:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ce/3a/6cade54920b03d84b21f947a84cfc3f7531433e53b6f08362be4f5ddcca8/crazy_thursday-2024.5.7.1.tar.gz
+[2024-05-08 07:28:46] WARNING root fetch - processPackages [NetHyTech-MCV]: Skipping, unable to determine old version
+[2024-05-08 07:28:46] INFO root fetch - main [MainThread]: End processing [NetHyTech-MCV] error
+[2024-05-08 07:28:46] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/91/2c/663f46f67354c57ab93815d279d0a24b474cc5cbd2e055062810a8a40fd5/radioplayer_dataclasses-0.5.9.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/65/03/d3b58e3d09797960d244fdabca85b359227ca6d0d05233e56f8dbbfe3da9/fastcrud-0.9.0.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/ce/62/7c31bbf4ed7c59bf41012ce2503a66d2d1eeaef32f45746b9b2a0d805c3e/dq_check-0.2.0.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/a0/37c78eaaf3062b9feddfea5807b146ae986ad897fc3a26c2208ae1cf7a9a/crazy_thursday-2024.5.8.0.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [dq-check]: executing diffoscope
+[2024-05-08 07:28:46] INFO root fetch - processPackages [dq-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq_check-0.1.0.tar.gz tmp/dq_check-0.2.0.tar.gz --markdown 20240508/d/dq-check/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 07:28:46] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-08 07:28:46] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.7.1.tar.gz tmp/crazy_thursday-2024.5.8.0.tar.gz --markdown 20240508/c/crazy-thursday/2024.5.7.1-2024.5.8.0/README.md --exclude *.pyd
+[2024-05-08 07:28:46] INFO root fetch - processPackages [radioplayer-dataclasses]: Downloading https://files.pythonhosted.org/packages/95/55/f7137a15bf57c9efcff81a73b8da92a3d39bc94751ae81554c62e9429d7a/radioplayer_dataclasses-0.6.0.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [fastcrud]: Downloading https://files.pythonhosted.org/packages/80/99/b99c854973c7d58e5e1d5cd75f589a743aba43155a64950e3f4812a61db8/fastcrud-0.9.1.tar.gz
+[2024-05-08 07:28:46] INFO root fetch - processPackages [radioplayer-dataclasses]: executing diffoscope
+[2024-05-08 07:28:46] INFO root fetch - processPackages [radioplayer-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radioplayer_dataclasses-0.5.9.tar.gz tmp/radioplayer_dataclasses-0.6.0.tar.gz --markdown 20240508/r/radioplayer-dataclasses/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-08 07:28:46] INFO root fetch - processPackages [fastcrud]: executing diffoscope
+[2024-05-08 07:28:46] INFO root fetch - processPackages [fastcrud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcrud-0.9.0.tar.gz tmp/fastcrud-0.9.1.tar.gz --markdown 20240508/f/fastcrud/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-08 07:28:47] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.1.0.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.2.0.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - main [MainThread]: End processing [dq-check]: success
+[2024-05-08 07:28:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.7.1.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.8.0.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-08 07:28:47] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.5.9.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - processPackages [radioplayer-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/radioplayer_dataclasses-0.6.0.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - main [MainThread]: End processing [radioplayer-dataclasses]: success
+[2024-05-08 07:28:47] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.0.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - processPackages [fastcrud]: Remove: archive file [/home/abi/fetcher/tmp/fastcrud-0.9.1.tar.gz]
+[2024-05-08 07:28:47] INFO root fetch - main [MainThread]: End processing [fastcrud]: success
+[2024-05-08 07:28:47] INFO root fetch - main [MainThread]: Store serial: [23108544]
