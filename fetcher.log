@@ -17443,3 +17443,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:34:21] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
 [2024-05-08 11:34:21] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
 [2024-05-08 11:34:21] INFO root fetch - main [MainThread]: Store serial: [23111457]
+[2024-05-08 11:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111457]
+[2024-05-08 11:36:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 11:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migoapiclient
+[2024-05-08 11:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msa-toolbox
+[2024-05-08 11:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgini
+[2024-05-08 11:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fspec
+[2024-05-08 11:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ood_detectors
+[2024-05-08 11:36:30] INFO root fetch - processPackages [msa-toolbox]: New version: [1.0.2] Old Version: [0.0.2]
+[2024-05-08 11:36:30] WARNING root fetch - processPackages [fspec]: Skipping, unable to determine old version
+[2024-05-08 11:36:30] INFO root fetch - main [MainThread]: End processing [fspec] error
+[2024-05-08 11:36:30] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 11:36:30] INFO root fetch - processPackages [migoapiclient]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-08 11:36:30] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-08 11:36:30] INFO root fetch - processPackages [msa-toolbox]: Downloading https://files.pythonhosted.org/packages/66/b9/46d2352961fc57e8848e6f76c9bde66b39a9ff7084069ef411e9aaaf5953/msa_toolbox-0.0.2.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/25/74/d35c802f007c89d7511cb02c4d3cec8e93493403ead29ee8f4435b70e317/migoapiclient-1.2.0.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/12/82/33ce59f648b13e467a837f7c3fa40798f2c5d480420682b5927c39bf0e83/ood_detectors-0.0.7.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [msa-toolbox]: Downloading https://files.pythonhosted.org/packages/87/22/465163f32b3d3c281cc852c8aad34b064f5a92007151b6be33e42f34011d/msa_toolbox-1.0.2.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/6d/71/fb7d13b262f05021bbd57c2caaf51b937d353f9b1ac8236e7dc8438a9b07/migoapiclient-1.2.1.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [msa-toolbox]: executing diffoscope
+[2024-05-08 11:36:30] INFO root fetch - processPackages [msa-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msa_toolbox-0.0.2.tar.gz tmp/msa_toolbox-1.0.2.tar.gz --markdown 20240508/m/msa-toolbox/0.0.2-1.0.2/README.md --exclude *.pyd
+[2024-05-08 11:36:30] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-05-08 11:36:30] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.2.0.tar.gz tmp/migoapiclient-1.2.1.tar.gz --markdown 20240508/m/migoapiclient/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-08 11:36:30] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-08 11:36:30] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-08 11:36:31] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-08 11:36:31] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240508/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-08 11:36:31] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-08 11:36:31] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.7.tar.gz tmp/ood_detectors-0.0.8.tar.gz --markdown 20240508/o/ood_detectors/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 11:36:31] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.0.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.2.1.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-05-08 11:36:31] INFO root fetch - processPackages [msa-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/msa_toolbox-0.0.2.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - processPackages [msa-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/msa_toolbox-1.0.2.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - main [MainThread]: End processing [msa-toolbox]: success
+[2024-05-08 11:36:31] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.7.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-08 11:36:31] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-08 11:36:32] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-08 11:36:32] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-08 11:36:32] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-08 11:36:32] INFO root fetch - main [MainThread]: Store serial: [23111469]
