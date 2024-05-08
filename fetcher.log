@@ -22963,3 +22963,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:09:53] INFO root fetch - processPackages [FreeTAKServer]: Remove: archive file [/home/abi/fetcher/tmp/freetakserver-2.2.0.1.tar.gz]
 [2024-05-08 15:09:53] INFO root fetch - main [MainThread]: End processing [FreeTAKServer]: success
 [2024-05-08 15:09:53] INFO root fetch - main [MainThread]: Store serial: [23113838]
+[2024-05-08 15:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113838]
+[2024-05-08 15:12:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc-report
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ionbench
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-core
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler-client
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qBitrr2
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextnanopy
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pbx-cloud-utils
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-ipython-client
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bec-lib
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-server
+[2024-05-08 15:12:02] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev4] Old Version: [3.1.0.dev3]
+[2024-05-08 15:12:02] WARNING root fetch - processPackages [cc-report]: Skipping, unable to determine old version
+[2024-05-08 15:12:02] INFO root fetch - processPackages [cc-report]: Start processing: rosys
+[2024-05-08 15:12:02] INFO root fetch - main [MainThread]: End processing [cc-report] error
+[2024-05-08 15:12:02] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [nextnanopy]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [qwak-core]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [ionbench]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.2.0a8] Old Version: [1.2.0a7]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/43/fb/2a39b11c92c91266d6c6c5107acb317438cb839d0795d222d916476c4ce8/fiddler-client-3.1.0.dev3.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/84/7a/7c6a859d986da1919c0e46ccd4ad158ae434034b1ceb7800889556c6dfd4/qbitrr2-4.5.8.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [rosys]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 15:12:02] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/96/61/11df7f52fc6a1551718bffcf41850cf1c5511539b40093d1be51aee7ec50/qwak_core-0.4.6.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-05-08 15:12:02] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/44/8a/92ade515407a79977d982bb7c12de0151fd99edae718fae11960e97e17a2/nextnanopy-0.1.7.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [ionbench]: Downloading https://files.pythonhosted.org/packages/8a/66/cbda2998b0ca6739a64337a5154fca874cf37fe5aa4e4fc2cb1c1a9398fa/ionbench-0.4.3.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/15/8a/5af5b9dfd0cd6cf5b3cdecb167782f2d1155303871a3119c8ba4d3b5d7f9/pbx_cloud_utils-1.2.0a7-py3-none-any.whl
+[2024-05-08 15:12:03] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/da/e2/de3c3136e9459a73cd513ecf6313cb5ead44c7fbc3666139e19ec61abe6a/rosys-0.9.8.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/60/b3/5b053f1e8c914c8df8ba56516273e7ae252ab092078e32ba2c6e9d623a85/qbitrr2-4.5.9.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/1b/92/05ec7172d30ff7c8af143a434de46b92b4fe525aaf8df5fb76c0a8ffc89c/fiddler_client-3.1.0.dev4.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.8.tar.gz tmp/qbitrr2-4.5.9.tar.gz --markdown 20240508/q/qBitrr2/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev3.tar.gz tmp/fiddler_client-3.1.0.dev4.tar.gz --markdown 20240508/f/fiddler-client/3.1.0.dev3-3.1.0.dev4/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240508/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/81/20/4ed7b7fe6916cd7c5bd944cd50c15873ba25994b6bba0def2a61c6bc6d76/qwak_core-0.4.7.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [nextnanopy]: Downloading https://files.pythonhosted.org/packages/7a/bd/6fd4c68a8b82b7bad3a13b40b7c4f5e1ef3f1052a041a9c488f6abe2eb97/nextnanopy-0.1.9.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240508/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240508/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/c9/74/9196e6069fba63d8779401bdbffb0a40d7f596f837cf7912faa4f520a093/pbx_cloud_utils-1.2.0a8-py3-none-any.whl
+[2024-05-08 15:12:03] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/ad/c1/cbeaa843e8e3af0ad4a37e2c1c8228dd0aa120e41743431f65ab0704ca64/rosys-0.9.9.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [ionbench]: Downloading https://files.pythonhosted.org/packages/8c/fc/33e39a9ec69b402844b270590565eeb2119251e6edc248f7bb0376da6a90/ionbench-0.5.0.tar.gz
+[2024-05-08 15:12:03] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.2.0a7-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip --markdown 20240508/p/pbx-cloud-utils/1.2.0a7-1.2.0a8/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.6.tar.gz tmp/qwak_core-0.4.7.tar.gz --markdown 20240508/q/qwak-core/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [nextnanopy]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [nextnanopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextnanopy-0.1.7.tar.gz tmp/nextnanopy-0.1.9.tar.gz --markdown 20240508/n/nextnanopy/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [rosys]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [rosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosys-0.9.8.tar.gz tmp/rosys-0.9.9.tar.gz --markdown 20240508/r/rosys/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 15:12:03] INFO root fetch - processPackages [ionbench]: executing diffoscope
+[2024-05-08 15:12:03] INFO root fetch - processPackages [ionbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ionbench-0.4.3.tar.gz tmp/ionbench-0.5.0.tar.gz --markdown 20240508/i/ionbench/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-08 15:12:04] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a7-py3-none-any.whl.zip]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [pbx-cloud-utils]: Start processing: pytest-bec-e2e
+[2024-05-08 15:12:04] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-05-08 15:12:04] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [bec-ipython-client]: Start processing: lyyddmsg
+[2024-05-08 15:12:04] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-08 15:12:04] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.8.tar.gz]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.9.tar.gz]
+[2024-05-08 15:12:04] INFO root fetch - processPackages [qBitrr2]: Start processing: gianna
+[2024-05-08 15:12:04] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.7.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [nextnanopy]: Remove: archive file [/home/abi/fetcher/tmp/nextnanopy-0.1.9.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [nextnanopy]: Start processing: ngsolve
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [nextnanopy]: success
+[2024-05-08 15:12:05] WARNING root fetch - processPackages [gianna]: Skipping, unable to determine old version
+[2024-05-08 15:12:05] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [gianna] error
+[2024-05-08 15:12:05] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [lyyddmsg]: New version: [1.2] Old Version: [1.1]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403.post4.dev0] Old Version: [6.2.2403]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-05-08 15:12:05] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev3.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.1.0.dev4.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.9.8.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.9.9.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [rosys]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [lyyddmsg]: Downloading https://files.pythonhosted.org/packages/82/c2/9c04c3e31d7ee3b217e39d8ee21df822d2d546a183c9f878815e0b6301a3/lyyddmsg-1.1.tar.gz
+[2024-05-08 15:12:05] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/62/2f/6c5e493f7b3fc6d3849d6d55a1ab9b467dab8490b3eda5c86b3c18bd1d82/ngsolve-6.2.2403-cp39-cp39-win_amd64.whl
+[2024-05-08 15:12:05] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-05-08 15:12:05] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-08 15:12:05] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240508/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-08 15:12:05] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 12677558>=10485760
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-08 15:12:05] INFO root fetch - processPackages [lyyddmsg]: Downloading https://files.pythonhosted.org/packages/09/e9/78467aff5a886ed5eddbf8151f30be297af9ea7a044ca435c6d3ee119da6/lyyddmsg-1.2.tar.gz
+[2024-05-08 15:12:05] INFO root fetch - processPackages [ionbench]: Remove: archive file [/home/abi/fetcher/tmp/ionbench-0.4.3.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - processPackages [ionbench]: Remove: archive file [/home/abi/fetcher/tmp/ionbench-0.5.0.tar.gz]
+[2024-05-08 15:12:05] INFO root fetch - main [MainThread]: End processing [ionbench]: success
+[2024-05-08 15:12:05] INFO root fetch - processPackages [lyyddmsg]: executing diffoscope
+[2024-05-08 15:12:05] INFO root fetch - processPackages [lyyddmsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyddmsg-1.1.tar.gz tmp/lyyddmsg-1.2.tar.gz --markdown 20240508/l/lyyddmsg/1.1-1.2/README.md --exclude *.pyd
+[2024-05-08 15:12:06] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-05-08 15:12:06] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-05-08 15:12:06] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-08 15:12:06] INFO root fetch - processPackages [lyyddmsg]: Remove: archive file [/home/abi/fetcher/tmp/lyyddmsg-1.1.tar.gz]
+[2024-05-08 15:12:06] INFO root fetch - processPackages [lyyddmsg]: Remove: archive file [/home/abi/fetcher/tmp/lyyddmsg-1.2.tar.gz]
+[2024-05-08 15:12:06] INFO root fetch - main [MainThread]: End processing [lyyddmsg]: success
+[2024-05-08 15:12:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.6.tar.gz]
+[2024-05-08 15:12:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.7.tar.gz]
+[2024-05-08 15:12:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-08 15:12:07] INFO root fetch - main [MainThread]: Store serial: [23113883]
