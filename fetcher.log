@@ -11017,3 +11017,20 @@
 [2024-05-08 07:10:33] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
 [2024-05-08 07:10:33] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-05-08 07:10:33] INFO root fetch - main [MainThread]: Store serial: [23108456]
+[2024-05-08 07:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108456]
+[2024-05-08 07:12:41] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-08 07:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108456]
+[2024-05-08 07:14:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dq-check
+[2024-05-08 07:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vis-analysis-torch
+[2024-05-08 07:14:46] INFO root fetch - processPackages [dq-check]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 07:14:46] WARNING root fetch - processPackages [vis-analysis-torch]: Skipping, unable to determine old version
+[2024-05-08 07:14:46] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch] error
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/0c/74/dd172da10b4b3ca41b6ac8908d418634c19efdda1df081df9e9725749975/dq_check-0.1.0.tar.gz
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/ce/62/7c31bbf4ed7c59bf41012ce2503a66d2d1eeaef32f45746b9b2a0d805c3e/dq_check-0.2.0.tar.gz
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: executing diffoscope
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq_check-0.1.0.tar.gz tmp/dq_check-0.2.0.tar.gz --markdown 20240508/d/dq-check/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.1.0.tar.gz]
+[2024-05-08 07:14:47] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.2.0.tar.gz]
+[2024-05-08 07:14:47] INFO root fetch - main [MainThread]: End processing [dq-check]: success
+[2024-05-08 07:14:47] INFO root fetch - main [MainThread]: Store serial: [23108464]
