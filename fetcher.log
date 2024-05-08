@@ -21439,3 +21439,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:14:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.359.tar.gz]
 [2024-05-08 14:14:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-08 14:14:24] INFO root fetch - main [MainThread]: Store serial: [23113065]
+[2024-05-08 14:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113065]
+[2024-05-08 14:16:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 14:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: legend-pydataobj
+[2024-05-08 14:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-multilingual
+[2024-05-08 14:16:34] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 14:16:34] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-08 14:16:34] INFO root fetch - processPackages [legend-pydataobj]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-05-08 14:16:34] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/25/8f/eb7266ab21894b90f6d739b9b6ed3eee7cc2480cc236057527ea00751a22/legend_pydataobj-1.6.2.tar.gz
+[2024-05-08 14:16:34] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-08 14:16:34] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-08 14:16:34] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240508/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 14:16:35] INFO root fetch - processPackages [legend-pydataobj]: Downloading https://files.pythonhosted.org/packages/80/dc/a3a5acd9801ccdca55763bda3aef524c82e67b621b47fc021630c2130dec/legend_pydataobj-1.7.0.tar.gz
+[2024-05-08 14:16:35] INFO root fetch - processPackages [legend-pydataobj]: executing diffoscope
+[2024-05-08 14:16:35] INFO root fetch - processPackages [legend-pydataobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_pydataobj-1.6.2.tar.gz tmp/legend_pydataobj-1.7.0.tar.gz --markdown 20240508/l/legend-pydataobj/1.6.2-1.7.0/README.md --exclude *.pyd
+[2024-05-08 14:16:35] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-08 14:16:35] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-08 14:16:35] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-08 14:16:36] INFO root fetch - processPackages [legend-pydataobj]: Remove: archive file [/home/abi/fetcher/tmp/legend_pydataobj-1.6.2.tar.gz]
+[2024-05-08 14:16:36] INFO root fetch - processPackages [legend-pydataobj]: Remove: archive file [/home/abi/fetcher/tmp/legend_pydataobj-1.7.0.tar.gz]
+[2024-05-08 14:16:36] INFO root fetch - main [MainThread]: End processing [legend-pydataobj]: success
+[2024-05-08 14:16:36] INFO root fetch - main [MainThread]: Store serial: [23113076]
