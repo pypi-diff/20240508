@@ -16302,3 +16302,168 @@
 [2024-05-08 11:04:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.2.tar.gz]
 [2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
 [2024-05-08 11:04:48] INFO root fetch - main [MainThread]: Store serial: [23111007]
+[2024-05-08 11:06:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111007]
+[2024-05-08 11:06:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.tabular
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sindapi
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: efel
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-queue-job
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.multimodal
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eclean-kernel
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evidently
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.timeseries
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grassmanntn
+[2024-05-08 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon
+[2024-05-08 11:06:57] INFO root fetch - processPackages [sindapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.2] Old Version: [17.0.1.0.1]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [evidently]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [eclean-kernel]: New version: [2.99.8] Old Version: [2.99.7]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/a3/64/9be9eae342d536ab1b036d4a2f1c1e5f96a0572ca5355387627d208ab1d1/sindapi-0.0.8.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [grassmanntn]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a2/e7/956869863ff5cfd3812496bbe3500bd3220f41f5097652b5c6a500fa2071/autogluon.tabular-1.1.1b20240506.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/1e/99/06f145c7c7a03ff950231be4acbf5bf6731b3362b0f75f0ff0c2061c52e3/autogluon.multimodal-1.1.1b20240506.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/3e/af/78ee76ddf2b512211340a116c44b11c7a326e2633eff5cccd26350cb7661/autogluon-1.1.1b20240506.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/a8/84/f04bbc9292434936bced5f8abefaced3dc6057e65a577635526d42d4ae8d/evidently-0.4.8.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/0f/bf/522e5c69e399ce4aad7aba6398a78861ca3f32e779fad4c4d87923610690/autogluon.timeseries-1.1.1b20240506.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/84/30/ac5eddfa51abdc224951b3846cf5959667a622c2de949ee3af164abf55bb/grassmanntn-1.4.0.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [eclean-kernel]: Downloading https://files.pythonhosted.org/packages/01/2f/b2ac6800149b1a7dc82a74438ab5450775a5ab90485b3856fe96ee478b9f/eclean_kernel-2.99.7.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [sindapi]: Downloading https://files.pythonhosted.org/packages/7d/a7/a389d78c747399fa425e39d89ba9fa6d384de97b624ca2e380160a06716f/sindapi-0.0.9.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/aa/e6/ca274399249f8d63050ba046151d467a3d71fef263b98984deb05a4eec8a/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/c2/b1/313c3830425007b125f0c2404caf32b5b6c0d819e3fb3cbbf30ee6c21df5/autogluon.tabular-1.1.1b20240507.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/bb/ab/2cf502d50b8ab2612d4ccb7b95ac6bc024942798672861ffa47965e7afb6/autogluon-1.1.1b20240507.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [sindapi]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [sindapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sindapi-0.0.8.tar.gz tmp/sindapi-0.0.9.tar.gz --markdown 20240508/s/sindapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/6d/47/9b61e4fff436511a671a4df3155206bc2d26c1accafb92d5e40ba0a5175a/autogluon.multimodal-1.1.1b20240507.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-queue-job/17.0.1.0.1-17.0.1.0.2/README.md --exclude *.pyd
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240506.tar.gz tmp/autogluon.tabular-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon.tabular/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240506.tar.gz tmp/autogluon-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:06:58] INFO root fetch - processPackages [eclean-kernel]: Downloading https://files.pythonhosted.org/packages/96/c3/b0a9f7a65687970b452d790a262308b5101a490cb324bbfed94fbf888b2f/eclean_kernel-2.99.8.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/93/1e/0999bcee42493f6eb02077d04e060985bd80b257c896d19e8d9df9bdfda9/autogluon.timeseries-1.1.1b20240507.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/4d/8a/a3b74a513c97377837790bf11a8c72806ab15bfaed3b5dd551eaedfbbe07/grassmanntn-1.4.1.tar.gz
+[2024-05-08 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240506.tar.gz tmp/autogluon.multimodal-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon.multimodal/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:06:58] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-08 11:06:58] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240508/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-08 11:06:59] INFO root fetch - processPackages [eclean-kernel]: executing diffoscope
+[2024-05-08 11:06:59] INFO root fetch - processPackages [eclean-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclean_kernel-2.99.7.tar.gz tmp/eclean_kernel-2.99.8.tar.gz --markdown 20240508/e/eclean-kernel/2.99.7-2.99.8/README.md --exclude *.pyd
+[2024-05-08 11:06:59] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-08 11:06:59] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240506.tar.gz tmp/autogluon.timeseries-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon.timeseries/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:06:59] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2024-05-08 11:06:59] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.4.0.tar.gz tmp/grassmanntn-1.4.1.tar.gz --markdown 20240508/g/grassmanntn/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-08 11:06:59] INFO root fetch - processPackages [evidently]: Downloading https://files.pythonhosted.org/packages/34/78/ea88fc8fef84cca22abdaf6523318e796cf529d4f76692d12a6259c5b7c9/evidently-0.4.9.tar.gz
+[2024-05-08 11:06:59] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.8.tar.gz]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [sindapi]: Remove: archive file [/home/abi/fetcher/tmp/sindapi-0.0.9.tar.gz]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [sindapi]: Start processing: pyneople
+[2024-05-08 11:06:59] INFO root fetch - main [MainThread]: End processing [sindapi]: success
+[2024-05-08 11:06:59] INFO root fetch - processPackages [pyneople]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [evidently]: executing diffoscope
+[2024-05-08 11:06:59] INFO root fetch - processPackages [evidently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evidently-0.4.8.tar.gz tmp/evidently-0.4.9.tar.gz --markdown 20240508/e/evidently/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-08 11:06:59] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/24/30/1b1df8b310d857cc8838cbf935e42ee36342a0016a2887e05133fe7f0a11/pyneople-0.3.5.tar.gz
+[2024-05-08 11:06:59] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240506.tar.gz]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240507.tar.gz]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [autogluon]: Start processing: yeref
+[2024-05-08 11:06:59] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-08 11:06:59] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:06:59] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-queue-job]: Start processing: odoo-addon-base-bank-from-iban
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [eclean-kernel]: Remove: archive file [/home/abi/fetcher/tmp/eclean_kernel-2.99.7.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [eclean-kernel]: Remove: archive file [/home/abi/fetcher/tmp/eclean_kernel-2.99.8.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [eclean-kernel]: Start processing: ls-packers
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [eclean-kernel]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/14/ad/ce133a36a23f1c1036ce52cb949b895924206f7d696874ddf18936abdd0e/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-08 11:07:00] INFO root fetch - processPackages [ls-packers]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.4.0.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.4.1.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [grassmanntn]: Start processing: sony-custom-layers
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [efel]: Start processing: RNApolis
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/b5/a0/6c7c462b8f0b42a2213bfffae99ddebafcfc802db1aa494dffd7f978bf0b/ls_packers-0.5.0.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240506.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240507.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.tabular]: Start processing: opencv-pattern
+[2024-05-08 11:07:00] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [sony-custom-layers]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/2c/61/cd8aa55960d5b08dd84721c9a34b540831b33762350f9f12a11d8c1efc8e/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl
+[2024-05-08 11:07:00] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/6c/08/886d2d6a094f83ce0846185ffc6de868d3ec46079364b7476cbb47e61d77/pyneople-0.3.6.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240506.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240507.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: aioworldline
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240506.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240507.tar.gz]
+[2024-05-08 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-08 11:07:00] INFO root fetch - processPackages [RNApolis]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [opencv-pattern]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:07:00] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: executing diffoscope
+[2024-05-08 11:07:00] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-base-bank-from-iban/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-08 11:07:00] INFO root fetch - processPackages [ls-packers]: Downloading https://files.pythonhosted.org/packages/8d/4c/19501b84616c92e7dc27d797089cb0e82ea9ff458342804758e6a0d678b3/ls_packers-0.5.1.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 11:07:00] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.5.tar.gz tmp/pyneople-0.3.6.tar.gz --markdown 20240508/p/pyneople/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-08 11:07:00] INFO root fetch - processPackages [aioworldline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 11:07:00] INFO root fetch - processPackages [sony-custom-layers]: Downloading https://files.pythonhosted.org/packages/a4/a5/f803ca0bb5ddc492931af8718d1abed78bc9790f3e68334b3a2126ef1817/sony_custom_layers-0.1.1-py3-none-any.whl
+[2024-05-08 11:07:00] INFO root fetch - processPackages [ls-packers]: executing diffoscope
+[2024-05-08 11:07:00] INFO root fetch - processPackages [ls-packers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls_packers-0.5.0.tar.gz tmp/ls_packers-0.5.1.tar.gz --markdown 20240508/l/ls-packers/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-08 11:07:00] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/8b/07/59024f378677ab90f67742d2afbff1823fa99db6eb91f456409d7feed884/RNApolis-0.3.8.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [opencv-pattern]: Downloading https://files.pythonhosted.org/packages/39/af/25b7e43a3788f894277fc7a10a54b6acff4eb1b054cf9e41b7044f4c9188/opencv_pattern-0.1.0.tar.gz
+[2024-05-08 11:07:00] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/aa/c8/10a1bcb5f7b94e2bd51e1c2de08a230b803232c5a49d1fb2d118c506712c/aioworldline-0.1.8.tar.gz
+[2024-05-08 11:07:01] INFO root fetch - processPackages [sony-custom-layers]: Downloading https://files.pythonhosted.org/packages/43/03/021a00c0470b147581ca3eb30a6fec2fa74d08ce676538e9c8a55a2082b6/sony_custom_layers-0.2.0-py3-none-any.whl
+[2024-05-08 11:07:01] INFO root fetch - processPackages [opencv-pattern]: Downloading https://files.pythonhosted.org/packages/10/dc/97b3191388c1509eba6447dd957abe675883bb96157d52ac3e80781d7740/opencv_pattern-0.1.1.tar.gz
+[2024-05-08 11:07:01] INFO root fetch - processPackages [sony-custom-layers]: executing diffoscope
+[2024-05-08 11:07:01] INFO root fetch - processPackages [sony-custom-layers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sony_custom_layers-0.1.1-py3-none-any.whl.zip tmp/sony_custom_layers-0.2.0-py3-none-any.whl.zip --markdown 20240508/s/sony-custom-layers/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-08 11:07:01] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/37/1d/86d06a54825b41e9d273c6832b525d6a5847b3288f6703656a2a1cd622f2/RNApolis-0.3.9.tar.gz
+[2024-05-08 11:07:01] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/f7/e9/9b537eab38ee7b44020d1e21de4e3276255267958251b98cf9a1ffc20c6a/aioworldline-0.1.9.tar.gz
+[2024-05-08 11:07:01] INFO root fetch - processPackages [opencv-pattern]: executing diffoscope
+[2024-05-08 11:07:01] INFO root fetch - processPackages [opencv-pattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_pattern-0.1.0.tar.gz tmp/opencv_pattern-0.1.1.tar.gz --markdown 20240508/o/opencv-pattern/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 11:07:01] INFO root fetch - processPackages [RNApolis]: executing diffoscope
+[2024-05-08 11:07:01] INFO root fetch - processPackages [RNApolis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RNApolis-0.3.8.tar.gz tmp/RNApolis-0.3.9.tar.gz --markdown 20240508/R/RNApolis/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-08 11:07:01] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-08 11:07:01] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 11:07:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-bank-from-iban]: success
+[2024-05-08 11:07:01] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.0.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - processPackages [ls-packers]: Remove: archive file [/home/abi/fetcher/tmp/ls_packers-0.5.1.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - main [MainThread]: End processing [ls-packers]: success
+[2024-05-08 11:07:01] INFO root fetch - processPackages [aioworldline]: executing diffoscope
+[2024-05-08 11:07:01] INFO root fetch - processPackages [aioworldline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworldline-0.1.8.tar.gz tmp/aioworldline-0.1.9.tar.gz --markdown 20240508/a/aioworldline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 11:07:01] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:07:01] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.5.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.6.tar.gz]
+[2024-05-08 11:07:01] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 11:07:01] INFO root fetch - processPackages [sony-custom-layers]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers-0.1.1-py3-none-any.whl.zip]
+[2024-05-08 11:07:01] INFO root fetch - processPackages [sony-custom-layers]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers-0.2.0-py3-none-any.whl.zip]
+[2024-05-08 11:07:01] INFO root fetch - main [MainThread]: End processing [sony-custom-layers]: success
+[2024-05-08 11:07:02] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.1.8.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.1.9.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - main [MainThread]: End processing [aioworldline]: success
+[2024-05-08 11:07:02] INFO root fetch - processPackages [opencv-pattern]: Remove: archive file [/home/abi/fetcher/tmp/opencv_pattern-0.1.0.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - processPackages [opencv-pattern]: Remove: archive file [/home/abi/fetcher/tmp/opencv_pattern-0.1.1.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - main [MainThread]: End processing [opencv-pattern]: success
+[2024-05-08 11:07:02] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.8.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.9.tar.gz]
+[2024-05-08 11:07:02] INFO root fetch - main [MainThread]: End processing [RNApolis]: success
+[2024-05-08 11:07:54] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.8.tar.gz]
+[2024-05-08 11:07:54] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
+[2024-05-08 11:07:54] INFO root fetch - main [MainThread]: End processing [evidently]: success
+[2024-05-08 11:07:54] INFO root fetch - main [MainThread]: Store serial: [23111078]
