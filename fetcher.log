@@ -10287,3 +10287,51 @@
 [2024-05-08 06:09:31] INFO root fetch - processPackages [okahu-observability]: Remove: archive file [/home/abi/fetcher/tmp/okahu_observability-0.0.3.tar.gz]
 [2024-05-08 06:09:31] INFO root fetch - main [MainThread]: End processing [okahu-observability]: success
 [2024-05-08 06:09:31] INFO root fetch - main [MainThread]: Store serial: [23108178]
+[2024-05-08 06:11:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108178]
+[2024-05-08 06:11:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uac-cli
+[2024-05-08 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uac-api
+[2024-05-08 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-tabler-icons
+[2024-05-08 06:11:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pqsdk
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-api]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-08 06:11:40] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-08 06:11:40] INFO root fetch - processPackages [pqsdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/63/16/77ba9351580bcc9f3e9e78d2b4f1b01bc4000ba63860420fafcb0deb0922/uac-api-0.4.1.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/99/7e/a66dfc0891bc15662e169fc8c70fe6b76f40d98d21bda7b4d5d74d396325/pqsdk-0.0.6.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/4f/4a/8bcb865f7c15a1866de54fef2045992fd9ff106975f17da5eefc59bc9b71/charzr_lib-1.0.5.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-cli]: Downloading https://files.pythonhosted.org/packages/c0/5c/1d54aef306bfe84abb842cadca15497f637636f61b993f21487011ed9916/uac-cli-0.2.1.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [flask-tabler-icons]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/d0/03/d32244926f987c5267299c618251e88ce6bee4484d3271350dc5a2e70b1b/uac-api-0.4.2.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-cli]: Downloading https://files.pythonhosted.org/packages/df/c4/f8402e2fe574ff8f44c631d4288fd836664accb4e48b3ef7bc8d8ac36476/uac-cli-0.2.2.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/06/b0/1b22944bd6173c65db8398e3430f4d07a63d2e6d8ce4fc952db251e87b3e/flask_tabler_icons-3.2.0.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/6d/f8/b95774c8b60df2b54a0e35390895e945e26417b7588227da6bf53a48e65c/pqsdk-0.0.7.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/80/ff/5aebc0745c1f2ae93142df2235e754dd63b6734d577fc0d4de2560fe8549/charzr_lib-1.0.6.tar.gz
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-cli]: executing diffoscope
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-cli-0.2.1.tar.gz tmp/uac-cli-0.2.2.tar.gz --markdown 20240508/u/uac-cli/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-05-08 06:11:40] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.4.1.tar.gz tmp/uac-api-0.4.2.tar.gz --markdown 20240508/u/uac-api/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-08 06:11:40] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-08 06:11:40] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.6.tar.gz tmp/pqsdk-0.0.7.tar.gz --markdown 20240508/p/pqsdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 06:11:40] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:11:40] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.5.tar.gz tmp/charzr_lib-1.0.6.tar.gz --markdown 20240508/c/charzr-lib/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-08 06:11:40] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/27/ae/442f65fd6f209a393fc48bff2aa4a51c4d4f9829ddaa158a640d7a17a1fe/flask_tabler_icons-3.3.0.tar.gz
+[2024-05-08 06:11:41] INFO root fetch - processPackages [flask-tabler-icons]: executing diffoscope
+[2024-05-08 06:11:41] INFO root fetch - processPackages [flask-tabler-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_tabler_icons-3.2.0.tar.gz tmp/flask_tabler_icons-3.3.0.tar.gz --markdown 20240508/f/flask-tabler-icons/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-08 06:11:41] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.5.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.6.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:11:41] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.6.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.7.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-08 06:11:41] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.1.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.2.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-05-08 06:11:41] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.1.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.2.tar.gz]
+[2024-05-08 06:11:41] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
+[2024-05-08 06:11:43] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.2.0.tar.gz]
+[2024-05-08 06:11:43] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.3.0.tar.gz]
+[2024-05-08 06:11:43] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
+[2024-05-08 06:11:43] INFO root fetch - main [MainThread]: Store serial: [23108190]
