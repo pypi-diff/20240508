@@ -9080,3 +9080,60 @@
 [2024-05-08 05:10:27] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.3.tar.gz]
 [2024-05-08 05:10:27] INFO root fetch - main [MainThread]: End processing [oxenai]: success
 [2024-05-08 05:10:27] INFO root fetch - main [MainThread]: Store serial: [23107852]
+[2024-05-08 05:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107852]
+[2024-05-08 05:12:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgegap-database
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ADattribution
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iotest-grader
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrowDB
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baysalt-christmas
+[2024-05-08 05:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvprocessor
+[2024-05-08 05:12:35] INFO root fetch - processPackages [iotest-grader]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 05:12:35] INFO root fetch - processPackages [edgegap-database]: New version: [1.7.0] Old Version: [1.6.7]
+[2024-05-08 05:12:35] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-08 05:12:36] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/7c/45/bca3a6719d4a4f1c328b6d67d1282a3b60f7ac55cd993a8d34125a6ec13f/iotest_grader-0.0.4.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [sparrowDB]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-08 05:12:36] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/17/ae/b8ab14417ca98efbb94d6c6526097624cf7835d824a222f3affb41a9c615/edgegap_database-1.6.7.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [ADattribution]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 05:12:36] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/a7/b7/abe78a123072ce8e9e2b4973c6569f965db7b54f88017a3d71362ac77c84/cvprocessor-0.0.22.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [baysalt-christmas]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-08 05:12:36] INFO root fetch - processPackages [sparrowDB]: Downloading https://files.pythonhosted.org/packages/16/97/efc39a1b14133a67a0e0470bcb4a88f0bd74187da4543c788e9469dc35ad/sparrowDB-0.1.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [ADattribution]: Downloading https://files.pythonhosted.org/packages/76/99/28d5d2f4b72f4a6f473b21b59fd58c74e80c83d294785ff2750ccfae8e30/ADattribution-0.0.8.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/00/6e/013408ebce1b60b58d54342251f605db6345be76cc11d11c5e8e5ceaeefe/baysalt_christmas-1.1.5.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/70/4e/cefff872763aafc0087b067a37f2c02769445ef89a3b615ba8a2adfb68d7/iotest_grader-0.0.5.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/c4/88/fcfbfa9ca11db41e75504365bc6d826222764811c12eeed762e863fbf295/edgegap_database-1.7.0.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/90/8a/95849459863e4c712d6ce890a9ee1a4954176a746e224bd7b44ddd28d30f/cvprocessor-0.0.23.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [iotest-grader]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [iotest-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotest_grader-0.0.4.tar.gz tmp/iotest_grader-0.0.5.tar.gz --markdown 20240508/i/iotest-grader/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 05:12:36] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [edgegap-database]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.22.tar.gz tmp/cvprocessor-0.0.23.tar.gz --markdown 20240508/c/cvprocessor/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-08 05:12:36] INFO root fetch - processPackages [edgegap-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_database-1.6.7.tar.gz tmp/edgegap_database-1.7.0.tar.gz --markdown 20240508/e/edgegap-database/1.6.7-1.7.0/README.md --exclude *.pyd
+[2024-05-08 05:12:36] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/1c/e9/5f568030242ff9ac048fa3d5eef43ff78076f1c63521e57a7c0079b906ff/baysalt_christmas-1.1.6.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [ADattribution]: Downloading https://files.pythonhosted.org/packages/0f/0b/fb459a3cdbcbdaff6fa18963675abb69d17e24c3a8366880126f2a9e0c0a/ADattribution-0.0.9.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [sparrowDB]: Downloading https://files.pythonhosted.org/packages/11/07/4768b032e49859800a0ecf0dd97022a979a52bdb5488b38c062cb7ffb8a4/sparrowDB-0.1.1.tar.gz
+[2024-05-08 05:12:36] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [sparrowDB]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [sparrowDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowDB-0.1.tar.gz tmp/sparrowDB-0.1.1.tar.gz --markdown 20240508/s/sparrowDB/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-08 05:12:36] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-1.1.5.tar.gz tmp/baysalt_christmas-1.1.6.tar.gz --markdown 20240508/b/baysalt-christmas/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-08 05:12:36] INFO root fetch - processPackages [ADattribution]: executing diffoscope
+[2024-05-08 05:12:36] INFO root fetch - processPackages [ADattribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ADattribution-0.0.8.tar.gz tmp/ADattribution-0.0.9.tar.gz --markdown 20240508/A/ADattribution/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:12:37] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.6.7.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.7.0.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [edgegap-database]: success
+[2024-05-08 05:12:37] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.4.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.5.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [iotest-grader]: success
+[2024-05-08 05:12:37] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.22.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.23.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-08 05:12:37] INFO root fetch - processPackages [ADattribution]: Remove: archive file [/home/abi/fetcher/tmp/ADattribution-0.0.8.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [ADattribution]: Remove: archive file [/home/abi/fetcher/tmp/ADattribution-0.0.9.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [ADattribution]: success
+[2024-05-08 05:12:37] INFO root fetch - processPackages [sparrowDB]: Remove: archive file [/home/abi/fetcher/tmp/sparrowDB-0.1.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [sparrowDB]: Remove: archive file [/home/abi/fetcher/tmp/sparrowDB-0.1.1.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [sparrowDB]: success
+[2024-05-08 05:12:37] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-1.1.5.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-1.1.6.tar.gz]
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2024-05-08 05:12:37] INFO root fetch - main [MainThread]: Store serial: [23107872]
