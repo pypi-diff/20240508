@@ -16752,3 +16752,47 @@
 [2024-05-08 11:16:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-08 11:16:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-08 11:16:42] INFO root fetch - main [MainThread]: Store serial: [23111217]
+[2024-05-08 11:18:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111217]
+[2024-05-08 11:18:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wonder-diffusion-sdk
+[2024-05-08 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudpy-org
+[2024-05-08 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odxtools
+[2024-05-08 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simo
+[2024-05-08 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aipha-geo-solutions
+[2024-05-08 11:18:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.6.dev5] Old Version: [0.0.6.dev4]
+[2024-05-08 11:18:51] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-08 11:18:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/24/52/2a89e34424df7a33bf11f54d8cb6c1ad8500bb19dc12c0b37862e35983ea/wonder-diffusion-sdk-0.0.6.dev4.tar.gz
+[2024-05-08 11:18:51] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-08 11:18:51] INFO root fetch - processPackages [cloudpy-org]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-08 11:18:51] INFO root fetch - processPackages [odxtools]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-05-08 11:18:51] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-08 11:18:51] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-08 11:18:51] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:18:51] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/2a/37/a55cdff7478115049a7e0ab08d0ce179324e9b526e1593d910921784f8d8/cloudpy_org-1.5.2.tar.gz
+[2024-05-08 11:18:51] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/8d/2a/55619392991efe0a66c2f0b5da51f6c73adf350db3068dd1ffa10b183fee/odxtools-7.0.0-py3-none-any.whl
+[2024-05-08 11:18:51] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/64/2d/62b905eb3ae4ee0866c7db05abdb98bcff67f7ce7ef6e9b777d65032d383/aipha_geo_solutions-0.9.8.tar.gz
+[2024-05-08 11:18:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/07/e6/8460e3fc19665064b30286e483f6002d3f03342e6854f6d51b35421caa58/wonder-diffusion-sdk-0.0.6.dev5.tar.gz
+[2024-05-08 11:18:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-05-08 11:18:51] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.6.dev4.tar.gz tmp/wonder-diffusion-sdk-0.0.6.dev5.tar.gz --markdown 20240508/w/wonder-diffusion-sdk/0.0.6.dev4-0.0.6.dev5/README.md --exclude *.pyd
+[2024-05-08 11:18:52] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/7b/89/9fa2935bff0dab31f6d91b8fc5f0a9781c41806135c9e36885e859fbad61/cloudpy_org-1.5.3.tar.gz
+[2024-05-08 11:18:52] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/49/8a/e863b27781eeef00078cc1204aa31c75b1a4719529680491c2cf7e5e591b/odxtools-7.1.0-py3-none-any.whl
+[2024-05-08 11:18:52] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/e8/7b/7deac4c980ac68318ca0ac6dbbc30b5e85577ad08905258f379e9388c36a/aipha_geo_solutions-0.9.9.tar.gz
+[2024-05-08 11:18:52] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2024-05-08 11:18:52] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.5.2.tar.gz tmp/cloudpy_org-1.5.3.tar.gz --markdown 20240508/c/cloudpy-org/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-08 11:18:52] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2024-05-08 11:18:52] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-7.0.0-py3-none-any.whl.zip tmp/odxtools-7.1.0-py3-none-any.whl.zip --markdown 20240508/o/odxtools/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-05-08 11:18:52] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2024-05-08 11:18:52] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.9.8.tar.gz tmp/aipha_geo_solutions-0.9.9.tar.gz --markdown 20240508/a/aipha-geo-solutions/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:18:52] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev4.tar.gz]
+[2024-05-08 11:18:52] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.6.dev5.tar.gz]
+[2024-05-08 11:18:52] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-05-08 11:18:52] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.2.tar.gz]
+[2024-05-08 11:18:52] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.5.3.tar.gz]
+[2024-05-08 11:18:52] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2024-05-08 11:18:53] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.8.tar.gz]
+[2024-05-08 11:18:53] INFO root fetch - processPackages [aipha-geo-solutions]: Remove: archive file [/home/abi/fetcher/tmp/aipha_geo_solutions-0.9.9.tar.gz]
+[2024-05-08 11:18:53] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2024-05-08 11:18:53] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-7.0.0-py3-none-any.whl.zip]
+[2024-05-08 11:18:53] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-7.1.0-py3-none-any.whl.zip]
+[2024-05-08 11:18:53] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2024-05-08 11:18:53] INFO root fetch - main [MainThread]: Store serial: [23111227]
