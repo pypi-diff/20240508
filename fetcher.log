@@ -14181,3 +14181,99 @@
 [2024-05-08 10:04:43] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.5.tar.gz]
 [2024-05-08 10:04:43] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-08 10:04:43] INFO root fetch - main [MainThread]: Store serial: [23110163]
+[2024-05-08 10:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110163]
+[2024-05-08 10:06:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdetsyn
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decoutilities
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-kfp-task-stub
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibm-aigov-facts-client
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: profile-profile-local
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MaaDebugger
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai4s
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: destine-lab
+[2024-05-08 10:06:52] WARNING root fetch - processPackages [simple-kfp-task-stub]: Skipping, unable to determine old version
+[2024-05-08 10:06:52] INFO root fetch - processPackages [simple-kfp-task-stub]: Start processing: InterProcessPyObjects
+[2024-05-08 10:06:52] INFO root fetch - main [MainThread]: End processing [simple-kfp-task-stub] error
+[2024-05-08 10:06:52] INFO root fetch - processPackages [profile-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:06:52] WARNING root fetch - processPackages [destine-lab]: Skipping, unable to determine old version
+[2024-05-08 10:06:52] INFO root fetch - processPackages [destine-lab]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-08 10:06:52] INFO root fetch - main [MainThread]: End processing [destine-lab] error
+[2024-05-08 10:06:52] INFO root fetch - processPackages [MaaDebugger]: New version: [1.1.0b1] Old Version: [1.0.0]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-05-08 10:06:52] WARNING root fetch - processPackages [ai4s]: Skipping, unable to determine old version
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ai4s]: Start processing: pylutron
+[2024-05-08 10:06:52] INFO root fetch - main [MainThread]: End processing [ai4s] error
+[2024-05-08 10:06:52] INFO root fetch - processPackages [mdetsyn]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [profile-profile-local]: Downloading https://files.pythonhosted.org/packages/90/bb/24aa5eb58527604743feadc2680f830ef33de354683adc2a4f81243abea9/profile-profile-local-0.0.8.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [decoutilities]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.71] Old Version: [1.0.70]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.38.0.dev20240507] Old Version: [1.38.0.dev20240503]
+[2024-05-08 10:06:52] WARNING root fetch - processPackages [InterProcessPyObjects]: Skipping, unable to determine old version
+[2024-05-08 10:06:52] INFO root fetch - main [MainThread]: End processing [InterProcessPyObjects] error
+[2024-05-08 10:06:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.38.0.dev20240507] Old Version: [1.38.0.dev20240503]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/ca/b0/bc55b6c102b74a77001475c4b32513a8cd8c4bae731950681521bd807e12/maadebugger-1.0.0.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [pylutron]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 10:06:52] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/0b/c2/0513329e83b0a2b35e6eacb267d0b2c51567379058d605b8201ce6bcc94a/mdetsyn-0.0.2.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/71/d4/c81ec41832f62b10e9fcab036c3f68035cf58e21193376b11d9182144ce5/decoutilities-0.2.2.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/50/de/adad82538a0d56a3cedaa830e24db039121bd99bd757738fc9e4ca1f4766/ibm_aigov_facts_client-1.0.70-py3-none-any.whl
+[2024-05-08 10:06:52] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/42/9e/8dd501e93dfa56b5aaf449e5fb261f10d6049db5090d20384ac38658ee05/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/87/34/63f1d57eabb6ab6aa33396ed32d8b0f8a44cdc0c923aa793faa6abd38ddc/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [profile-profile-local]: Downloading https://files.pythonhosted.org/packages/62/0c/584703d0fa2d3bbfe3af2a09acd2b0c5250320eaeec37a48e025bc51b7c6/profile-profile-local-0.0.9.tar.gz
+[2024-05-08 10:06:52] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/cc/e8/21076c0d20be969b0e886981249da8335cf9f2f0cc43d082f4fc1c86bfc5/maadebugger-1.1.0b1.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [pylutron]: Downloading https://files.pythonhosted.org/packages/2c/9f/7db8c7a6ab139853861d0450631afe7ed7c380807f77dfbb97632c73bdd6/pylutron-0.2.8.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [profile-profile-local]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [profile-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-profile-local-0.0.8.tar.gz tmp/profile-profile-local-0.0.9.tar.gz --markdown 20240508/p/profile-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [MaaDebugger]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [MaaDebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadebugger-1.0.0.tar.gz tmp/maadebugger-1.1.0b1.tar.gz --markdown 20240508/M/MaaDebugger/1.0.0-1.1.0b1/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/9f/b4/9974e1b45ecce2ad449f3e799a8dfcc1ab3d4a378a7252c84312c17e93ea/mdetsyn-0.0.3.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/5e/4b/dff243bfaf3f3559e5c5876978d1e6c4429b3593ec8f47500b57fb698957/decoutilities-0.2.3.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/00/27/6443453e045eb91b7dbfb82d507d7aafc373daf805b63e061735492f429b/ibm_aigov_facts_client-1.0.71-py3-none-any.whl
+[2024-05-08 10:06:53] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [mdetsyn]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [mdetsyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdetsyn-0.0.2.tar.gz tmp/mdetsyn-0.0.3.tar.gz --markdown 20240508/m/mdetsyn/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/95/bf/58fd4b364b1db28993819037acf99704d4fa25f882cab0c898a11a6ff055/nvidia_dali_nightly_cuda110-1.38.0.dev20240507.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/76/70/52a044a9d5657e6ca899c1e1f0f387a16a40e07b8aba1544fdf355e368c3/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240507.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.2.tar.gz tmp/decoutilities-0.2.3.tar.gz --markdown 20240508/d/decoutilities/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.70-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.71-py3-none-any.whl.zip --markdown 20240508/i/ibm-aigov-facts-client/1.0.70-1.0.71/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240507.tar.gz --markdown 20240508/n/nvidia-dali-tf-plugin-nightly-cuda110/1.38.0.dev20240503-1.38.0.dev20240507/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [pylutron]: Downloading https://files.pythonhosted.org/packages/2d/a1/1a3a463a4ec69d103a52e020194204d33b7d7abf675a3a366ca6c585b883/pylutron-0.2.9.tar.gz
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240507.tar.gz --markdown 20240508/n/nvidia-dali-nightly-cuda110/1.38.0.dev20240503-1.38.0.dev20240507/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240508/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-05-08 10:06:53] INFO root fetch - processPackages [pylutron]: executing diffoscope
+[2024-05-08 10:06:53] INFO root fetch - processPackages [pylutron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylutron-0.2.8.tar.gz tmp/pylutron-0.2.9.tar.gz --markdown 20240508/p/pylutron/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 10:06:54] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.0.0.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.1.0b1.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [MaaDebugger]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [profile-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-profile-local-0.0.8.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [profile-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-profile-local-0.0.9.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [profile-profile-local]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.2.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.3.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [mdetsyn]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240503.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240507.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.2.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.3.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240503.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240507.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [pylutron]: Remove: archive file [/home/abi/fetcher/tmp/pylutron-0.2.8.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [pylutron]: Remove: archive file [/home/abi/fetcher/tmp/pylutron-0.2.9.tar.gz]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [pylutron]: success
+[2024-05-08 10:06:54] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.70-py3-none-any.whl.zip]
+[2024-05-08 10:06:54] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.71-py3-none-any.whl.zip]
+[2024-05-08 10:06:54] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2024-05-08 10:06:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-05-08 10:06:59] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-05-08 10:06:59] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-05-08 10:06:59] INFO root fetch - main [MainThread]: Store serial: [23110214]
