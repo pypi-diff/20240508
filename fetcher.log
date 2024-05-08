@@ -20567,3 +20567,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:34:22] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.4.0.tar.gz]
 [2024-05-08 13:34:22] INFO root fetch - main [MainThread]: End processing [asposeslidescloud]: success
 [2024-05-08 13:34:22] INFO root fetch - main [MainThread]: Store serial: [23112735]
+[2024-05-08 13:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112735]
+[2024-05-08 13:36:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotrain-advanced
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raga-llm-eval
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shareyourcloning-linkml
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daemonflux
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneople
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcnodes-numpy
+[2024-05-08 13:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bidfx-api
+[2024-05-08 13:36:31] INFO root fetch - processPackages [shareyourcloning-linkml]: New version: [0.1.3a0] Old Version: [0.1.2a0]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [funcnodes-numpy]: New version: [0.1.55] Old Version: [0.1.54]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.81]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/44/a6/4507f5e218ed1f37f2c595a40b3cb01c133e9f0e6f7d3a75cb691c60248d/shareyourcloning_linkml-0.1.2a0.tar.gz
+[2024-05-08 13:36:31] INFO root fetch - processPackages [daemonflux]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [bidfx-api]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.1b1] Old Version: [2.1.0b9]
+[2024-05-08 13:36:31] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/81/37/fa4a533c24247173c17fbcd1e090c65225813152848e9ccc6ab8ed984312/funcnodes_numpy-0.1.54.tar.gz
+[2024-05-08 13:36:31] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 13:36:31] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/eb/99/760eab12d6cb40b4323504a78af304ac304d78309c1d35e80427c986627e/autotrain-advanced-0.7.81.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/57/9d/9a7cb6c34f52015cde57216ba440944c3dd6a434ba822955e15ad40f5c37/daemonflux-0.8.0.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/f3/66/ebaca2cb771c21e70689b9f6b9e46d65ac93a1d837edf9277c498cf607e0/raga_llm_eval-2.1.0b9.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [bidfx-api]: Downloading https://files.pythonhosted.org/packages/cb/9a/dd07e7a937cd37b309d1794256147fc7e3c2a11ad1a33ec28fd286adf350/bidfx-api-1.1.1.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/5d/a4/1328ce00709e2e0cae1062883143810b7ad2f84819e22af5807ba93a8f77/shareyourcloning_linkml-0.1.3a0.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [funcnodes-numpy]: Downloading https://files.pythonhosted.org/packages/c1/2b/ccdb2096d120334ec340fcd704c73b2be7e8ed33652ade691251f01cdf8a/funcnodes_numpy-0.1.55.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 13:36:32] INFO root fetch - processPackages [shareyourcloning-linkml]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [shareyourcloning-linkml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareyourcloning_linkml-0.1.2a0.tar.gz tmp/shareyourcloning_linkml-0.1.3a0.tar.gz --markdown 20240508/s/shareyourcloning-linkml/0.1.2a0-0.1.3a0/README.md --exclude *.pyd
+[2024-05-08 13:36:32] INFO root fetch - processPackages [funcnodes-numpy]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [funcnodes-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_numpy-0.1.54.tar.gz tmp/funcnodes_numpy-0.1.55.tar.gz --markdown 20240508/f/funcnodes-numpy/0.1.54-0.1.55/README.md --exclude *.pyd
+[2024-05-08 13:36:32] INFO root fetch - processPackages [daemonflux]: Downloading https://files.pythonhosted.org/packages/3f/7a/033a46428bcdd26dea60656837dae2c85d832e6eb8324e39fe4e0d31f552/daemonflux-0.8.1.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.81.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240508/a/autotrain-advanced/0.7.81-0.7.9/README.md --exclude *.pyd
+[2024-05-08 13:36:32] INFO root fetch - processPackages [daemonflux]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [daemonflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daemonflux-0.8.0.tar.gz tmp/daemonflux-0.8.1.tar.gz --markdown 20240508/d/daemonflux/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-08 13:36:32] INFO root fetch - processPackages [bidfx-api]: Downloading https://files.pythonhosted.org/packages/84/92/27642ea0d8aeda419bcf11339f6eb948f29c7796dd95cf61fc9729eeb19d/bidfx-api-1.1.2.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/8d/e4/a9e8ad5135f042c85c6e0804dae27a1b474c0556903d072a905760b0e51c/raga_llm_eval-2.1.1b1.tar.gz
+[2024-05-08 13:36:32] INFO root fetch - processPackages [bidfx-api]: executing diffoscope
+[2024-05-08 13:36:32] INFO root fetch - processPackages [bidfx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bidfx-api-1.1.1.tar.gz tmp/bidfx-api-1.1.2.tar.gz --markdown 20240508/b/bidfx-api/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-08 13:36:33] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 13:36:33] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-05-08 13:36:33] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b9.tar.gz tmp/raga_llm_eval-2.1.1b1.tar.gz --markdown 20240508/r/raga-llm-eval/2.1.0b9-2.1.1b1/README.md --exclude *.pyd
+[2024-05-08 13:36:33] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.54.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [funcnodes-numpy]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_numpy-0.1.55.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [funcnodes-numpy]: success
+[2024-05-08 13:36:33] INFO root fetch - processPackages [daemonflux]: Remove: archive file [/home/abi/fetcher/tmp/daemonflux-0.8.0.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [daemonflux]: Remove: archive file [/home/abi/fetcher/tmp/daemonflux-0.8.1.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [daemonflux]: success
+[2024-05-08 13:36:33] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.2a0.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.3a0.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [shareyourcloning-linkml]: success
+[2024-05-08 13:36:33] INFO root fetch - processPackages [bidfx-api]: Remove: archive file [/home/abi/fetcher/tmp/bidfx-api-1.1.1.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [bidfx-api]: Remove: archive file [/home/abi/fetcher/tmp/bidfx-api-1.1.2.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [bidfx-api]: success
+[2024-05-08 13:36:33] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.81.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-05-08 13:36:33] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-08 13:36:34] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b9.tar.gz]
+[2024-05-08 13:36:34] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.1b1.tar.gz]
+[2024-05-08 13:36:34] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-05-08 13:36:34] INFO root fetch - main [MainThread]: Store serial: [23112758]
