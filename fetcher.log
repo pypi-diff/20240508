@@ -14039,3 +14039,49 @@
 [2024-05-08 09:58:07] INFO root fetch - processPackages [RM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/rm_tools-1.4.4.tar.gz]
 [2024-05-08 09:58:07] INFO root fetch - main [MainThread]: End processing [RM-Tools]: success
 [2024-05-08 09:58:07] INFO root fetch - main [MainThread]: Store serial: [23110105]
+[2024-05-08 10:00:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110105]
+[2024-05-08 10:00:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 10:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miner-ai-beta
+[2024-05-08 10:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naneos-devices
+[2024-05-08 10:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agt-server
+[2024-05-08 10:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miner-ai-beta
+[2024-05-08 10:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yid-langchain-extensions
+[2024-05-08 10:00:15] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 10:00:15] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 10:00:15] INFO root fetch - processPackages [naneos-devices]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 10:00:15] INFO root fetch - processPackages [agt-server]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/08/35/e27ffaada065cf297981eb7367c0d87743327ddbe5f9a4a4a58adb0eec09/naneos_devices-1.0.8.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/f1/57/bcc26638d3aedbeb169be25825b72a6aa4890083ab02aeac10410ed4ff41/agt_server-1.5.1.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [yid-langchain-extensions]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/2e/11/a6e2ba14a2561fd9b9d966675ce7ce4104efe2145491b765d0c3b8ce139b/naneos_devices-1.0.9.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/3b/ad/5a14d2e0db79c4c9e25625b1b4d6b4abf5e8bf7fb0bb06ba3461611b3181/yid_langchain_extensions-0.4.8.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 10:00:16] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 10:00:16] INFO root fetch - processPackages [agt-server]: Downloading https://files.pythonhosted.org/packages/5f/7a/29177c9febf6765a4637abf8727583f46155fd7688424eed90d391ffbf48/agt_server-1.5.2.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2024-05-08 10:00:16] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos_devices-1.0.8.tar.gz tmp/naneos_devices-1.0.9.tar.gz --markdown 20240508/n/naneos-devices/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 10:00:16] INFO root fetch - processPackages [agt-server]: executing diffoscope
+[2024-05-08 10:00:16] INFO root fetch - processPackages [agt-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agt_server-1.5.1.tar.gz tmp/agt_server-1.5.2.tar.gz --markdown 20240508/a/agt-server/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-08 10:00:16] INFO root fetch - processPackages [yid-langchain-extensions]: Downloading https://files.pythonhosted.org/packages/72/ba/67d200561c62c1dbd583ac75ded2fb95737bee8f62900d9aaf0aeda17ef8/yid_langchain_extensions-0.4.9.tar.gz
+[2024-05-08 10:00:16] INFO root fetch - processPackages [yid-langchain-extensions]: executing diffoscope
+[2024-05-08 10:00:16] INFO root fetch - processPackages [yid-langchain-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yid_langchain_extensions-0.4.8.tar.gz tmp/yid_langchain_extensions-0.4.9.tar.gz --markdown 20240508/y/yid-langchain-extensions/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-08 10:00:17] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 10:00:17] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 10:00:17] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.8.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-1.0.9.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2024-05-08 10:00:17] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.8.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - processPackages [yid-langchain-extensions]: Remove: archive file [/home/abi/fetcher/tmp/yid_langchain_extensions-0.4.9.tar.gz]
+[2024-05-08 10:00:17] INFO root fetch - main [MainThread]: End processing [yid-langchain-extensions]: success
+[2024-05-08 10:00:18] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.1.tar.gz]
+[2024-05-08 10:00:18] INFO root fetch - processPackages [agt-server]: Remove: archive file [/home/abi/fetcher/tmp/agt_server-1.5.2.tar.gz]
+[2024-05-08 10:00:18] INFO root fetch - main [MainThread]: End processing [agt-server]: success
+[2024-05-08 10:00:18] INFO root fetch - main [MainThread]: Store serial: [23110122]
