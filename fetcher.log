@@ -21034,3 +21034,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:50:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.6.tar.gz]
 [2024-05-08 13:50:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-08 13:50:16] INFO root fetch - main [MainThread]: Store serial: [23112904]
+[2024-05-08 13:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112904]
+[2024-05-08 13:52:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 13:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxllib
+[2024-05-08 13:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-fedit
+[2024-05-08 13:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saenopy
+[2024-05-08 13:52:26] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.5rc1] Old Version: [1.5.4rc9]
+[2024-05-08 13:52:26] INFO root fetch - processPackages [saenopy]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-08 13:52:26] INFO root fetch - processPackages [pyxllib]: New version: [0.3.96] Old Version: [0.3.95]
+[2024-05-08 13:52:26] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/a3/84/2cd6bfbae7e69eb7c9b3f825cd0ae1163110740ba8f5784e613b6ae3b5e6/wagtail_fedit-1.5.4rc9.tar.gz
+[2024-05-08 13:52:26] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/51/e3/f50d5f10b3294e49030f638baae4720d168ef6c77c7123d791061d166793/saenopy-1.0.2.tar.gz
+[2024-05-08 13:52:26] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/be/8c/6158ea8b958e0fa8608d28bc0bef2d9c046c84ffdca46bc3986c0c6b0843/wagtail_fedit-1.5.5rc1.tar.gz
+[2024-05-08 13:52:26] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/e7/3c/17e7db64b3f76320bbf38868555e1b764c703a512c991724477530a4d563/pyxllib-0.3.95.tar.gz
+[2024-05-08 13:52:26] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-08 13:52:26] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.4rc9.tar.gz tmp/wagtail_fedit-1.5.5rc1.tar.gz --markdown 20240508/w/wagtail-fedit/1.5.4rc9-1.5.5rc1/README.md --exclude *.pyd
+[2024-05-08 13:52:27] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/28/6c/845f9d401f8fc52b82d4e4d79b9fc6d67497c441d4a1b3ac886e243aea4e/pyxllib-0.3.96.tar.gz
+[2024-05-08 13:52:27] INFO root fetch - processPackages [saenopy]: Downloading https://files.pythonhosted.org/packages/90/ac/efeca31b7b6f48ad9dc553fc65e8a18481a54abb476179c3f4020627726a/saenopy-1.0.4.tar.gz
+[2024-05-08 13:52:27] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2024-05-08 13:52:27] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.95.tar.gz tmp/pyxllib-0.3.96.tar.gz --markdown 20240508/p/pyxllib/0.3.95-0.3.96/README.md --exclude *.pyd
+[2024-05-08 13:52:28] INFO root fetch - processPackages [saenopy]: executing diffoscope
+[2024-05-08 13:52:28] INFO root fetch - processPackages [saenopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saenopy-1.0.2.tar.gz tmp/saenopy-1.0.4.tar.gz --markdown 20240508/s/saenopy/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-08 13:52:28] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.4rc9.tar.gz]
+[2024-05-08 13:52:28] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc1.tar.gz]
+[2024-05-08 13:52:28] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-08 13:52:29] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.95.tar.gz]
+[2024-05-08 13:52:29] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
+[2024-05-08 13:52:29] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2024-05-08 13:52:29] INFO root fetch - processPackages [saenopy]: Remove: archive file [/home/abi/fetcher/tmp/saenopy-1.0.2.tar.gz]
+[2024-05-08 13:52:29] INFO root fetch - processPackages [saenopy]: Remove: archive file [/home/abi/fetcher/tmp/saenopy-1.0.4.tar.gz]
+[2024-05-08 13:52:29] INFO root fetch - main [MainThread]: End processing [saenopy]: success
+[2024-05-08 13:52:29] INFO root fetch - main [MainThread]: Store serial: [23112913]
