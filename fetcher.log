@@ -2802,3 +2802,33 @@
 [2024-05-08 02:33:23] INFO root fetch - processPackages [coop]: Remove: archive file [/home/abi/fetcher/tmp/coop-6.0.0.tar.gz]
 [2024-05-08 02:33:23] INFO root fetch - main [MainThread]: End processing [coop]: success
 [2024-05-08 02:33:23] INFO root fetch - main [MainThread]: Store serial: [23105461]
+[2024-05-08 02:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105461]
+[2024-05-08 02:35:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 02:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hugg
+[2024-05-08 02:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipxu
+[2024-05-08 02:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: star-local
+[2024-05-08 02:35:32] INFO root fetch - processPackages [hugg]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 02:35:32] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/66/98/b67c4c5d337077f74e3b116e16d29706a838dd54248a307a093b3593b1a6/hugg-0.2.8.tar.gz
+[2024-05-08 02:35:32] INFO root fetch - processPackages [star-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:35:32] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-05-08 02:35:32] INFO root fetch - processPackages [star-local]: Downloading https://files.pythonhosted.org/packages/b0/1d/d940e1f228d8d71b8197c9d4414d40a8d6098e977a1c1dae8e6e4a5c16dc/star-local-0.0.8.tar.gz
+[2024-05-08 02:35:32] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-05-08 02:35:32] INFO root fetch - processPackages [hugg]: Downloading https://files.pythonhosted.org/packages/37/c2/1b1f3210179bf3beb2309731997d30c875ef76e3070fbb2a0128fe3c31d1/hugg-0.2.9.tar.gz
+[2024-05-08 02:35:32] INFO root fetch - processPackages [hugg]: executing diffoscope
+[2024-05-08 02:35:32] INFO root fetch - processPackages [hugg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugg-0.2.8.tar.gz tmp/hugg-0.2.9.tar.gz --markdown 20240508/h/hugg/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 02:35:32] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-05-08 02:35:32] INFO root fetch - processPackages [star-local]: Downloading https://files.pythonhosted.org/packages/33/f1/3df0bb23426c31aab1ad2fafd7664b2f60ee5a77f787ac71b31e5bfa3cc3/star-local-0.0.9.tar.gz
+[2024-05-08 02:35:33] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-05-08 02:35:33] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240508/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-05-08 02:35:33] INFO root fetch - processPackages [star-local]: executing diffoscope
+[2024-05-08 02:35:33] INFO root fetch - processPackages [star-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/star-local-0.0.8.tar.gz tmp/star-local-0.0.9.tar.gz --markdown 20240508/s/star-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:35:33] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.8.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - processPackages [hugg]: Remove: archive file [/home/abi/fetcher/tmp/hugg-0.2.9.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - main [MainThread]: End processing [hugg]: success
+[2024-05-08 02:35:33] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-05-08 02:35:33] INFO root fetch - processPackages [star-local]: Remove: archive file [/home/abi/fetcher/tmp/star-local-0.0.8.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - processPackages [star-local]: Remove: archive file [/home/abi/fetcher/tmp/star-local-0.0.9.tar.gz]
+[2024-05-08 02:35:33] INFO root fetch - main [MainThread]: End processing [star-local]: success
+[2024-05-08 02:35:33] INFO root fetch - main [MainThread]: Store serial: [23105473]
