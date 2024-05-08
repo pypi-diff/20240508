@@ -8295,3 +8295,33 @@
 [2024-05-08 04:17:49] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
 [2024-05-08 04:17:49] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
 [2024-05-08 04:17:49] INFO root fetch - main [MainThread]: Store serial: [23107528]
+[2024-05-08 04:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107528]
+[2024-05-08 04:19:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: movie-downloader
+[2024-05-08 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toomanycells
+[2024-05-08 04:19:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-mse20190531
+[2024-05-08 04:19:58] INFO root fetch - processPackages [alibabacloud-mse20190531]: New version: [6.6.1] Old Version: [6.6.0]
+[2024-05-08 04:19:58] INFO root fetch - processPackages [movie-downloader]: New version: [0.2.5] Old Version: [0.1.7]
+[2024-05-08 04:19:58] INFO root fetch - processPackages [toomanycells]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 04:19:58] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/66/2c/c3757e1bb83448709f13739b578d93dfed297cb8e190a6362b6f20eec5e8/alibabacloud_mse20190531-6.6.0.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/ca/81/f70f552915ba4290240281e89c77a53bf1f92da1924436d856b6c2021228/toomanycells-1.0.8.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [movie-downloader]: Downloading https://files.pythonhosted.org/packages/bb/98/76539e3e555aace90b599e7bb136ef9a20bb74fa8c424dfa7ae69c36f9b4/movie-downloader-0.1.7.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [alibabacloud-mse20190531]: Downloading https://files.pythonhosted.org/packages/b3/b6/c7e393bc463f666d00d814889fbceb8433b5249c4e1a06691db3772452cc/alibabacloud_mse20190531-6.6.1.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [alibabacloud-mse20190531]: executing diffoscope
+[2024-05-08 04:19:59] INFO root fetch - processPackages [alibabacloud-mse20190531]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_mse20190531-6.6.0.tar.gz tmp/alibabacloud_mse20190531-6.6.1.tar.gz --markdown 20240508/a/alibabacloud-mse20190531/6.6.0-6.6.1/README.md --exclude *.pyd
+[2024-05-08 04:19:59] INFO root fetch - processPackages [movie-downloader]: Downloading https://files.pythonhosted.org/packages/73/f9/42e93bdaa6754f001b4d1234b07e116a8a97aef56f405b860950690cdee6/movie-downloader-0.2.5.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [movie-downloader]: executing diffoscope
+[2024-05-08 04:19:59] INFO root fetch - processPackages [movie-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-downloader-0.1.7.tar.gz tmp/movie-downloader-0.2.5.tar.gz --markdown 20240508/m/movie-downloader/0.1.7-0.2.5/README.md --exclude *.pyd
+[2024-05-08 04:19:59] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/93/e9/abb2d1e3c266cf33e3928261abaf14d2ffadeb4092939f1284586f323858/toomanycells-1.0.9.tar.gz
+[2024-05-08 04:19:59] INFO root fetch - processPackages [toomanycells]: executing diffoscope
+[2024-05-08 04:19:59] INFO root fetch - processPackages [toomanycells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toomanycells-1.0.8.tar.gz tmp/toomanycells-1.0.9.tar.gz --markdown 20240508/t/toomanycells/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 04:20:00] INFO root fetch - processPackages [movie-downloader]: Remove: archive file [/home/abi/fetcher/tmp/movie-downloader-0.1.7.tar.gz]
+[2024-05-08 04:20:00] INFO root fetch - processPackages [movie-downloader]: Remove: archive file [/home/abi/fetcher/tmp/movie-downloader-0.2.5.tar.gz]
+[2024-05-08 04:20:00] INFO root fetch - main [MainThread]: End processing [movie-downloader]: success
+[2024-05-08 04:20:00] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.8.tar.gz]
+[2024-05-08 04:20:00] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
+[2024-05-08 04:20:00] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
+[2024-05-08 04:20:01] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.6.0.tar.gz]
+[2024-05-08 04:20:01] INFO root fetch - processPackages [alibabacloud-mse20190531]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_mse20190531-6.6.1.tar.gz]
+[2024-05-08 04:20:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-mse20190531]: success
+[2024-05-08 04:20:01] INFO root fetch - main [MainThread]: Store serial: [23107536]
