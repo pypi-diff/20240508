@@ -11058,3 +11058,45 @@
 [2024-05-08 07:16:57] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
 [2024-05-08 07:16:57] INFO root fetch - main [MainThread]: End processing [deepeval]: success
 [2024-05-08 07:16:57] INFO root fetch - main [MainThread]: Store serial: [23108476]
+[2024-05-08 07:19:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108476]
+[2024-05-08 07:19:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 07:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-lists
+[2024-05-08 07:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: charzr-lib
+[2024-05-08 07:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lumibot
+[2024-05-08 07:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ghkit
+[2024-05-08 07:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidpe-rift-pipe
+[2024-05-08 07:19:06] INFO root fetch - processPackages [charzr-lib]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-08 07:19:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-08 07:19:06] INFO root fetch - processPackages [netbox-lists]: New version: [4.0.0] Old Version: [3.1.1]
+[2024-05-08 07:19:06] WARNING root fetch - processPackages [ghkit]: Skipping, unable to determine old version
+[2024-05-08 07:19:06] INFO root fetch - main [MainThread]: End processing [ghkit] error
+[2024-05-08 07:19:06] INFO root fetch - processPackages [lumibot]: New version: [3.4.0] Old Version: [3.3.7]
+[2024-05-08 07:19:06] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/e7/dd/f0e554767be0ddd0dfae5a479a7ed747d11bf726e9ce65e83a1768aee7a4/charzr_lib-1.1.3.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [netbox-lists]: Downloading https://files.pythonhosted.org/packages/c2/cb/255b6a7c53c5966add4b5cf7906fd687bb36a073590fe0c411b62f968f7b/netbox_lists-3.1.1.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/6e/69/af1a4370aea31134e84b7cbb6f980590f7b3f706b86a725602e2f6422df3/lumibot-3.3.7.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/ed/f8/18e5604e4e81f9f8de4af8276003b2cc6dcc5bcd8323de891b50cf04f7bd/charzr_lib-1.1.4.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 07:19:06] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.1.3.tar.gz tmp/charzr_lib-1.1.4.tar.gz --markdown 20240508/c/charzr-lib/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-08 07:19:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-08 07:19:06] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240508/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-08 07:19:06] INFO root fetch - processPackages [netbox-lists]: Downloading https://files.pythonhosted.org/packages/54/b5/bde74d009f8d38d86614292689bb2f3788099544fae2de0f2e7ab09efbfe/netbox_lists-4.0.0.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/03/64/7596fa25805fb0292f85827eb20b2c2f8d0b84efed2b584843581717db3b/lumibot-3.4.0.tar.gz
+[2024-05-08 07:19:06] INFO root fetch - processPackages [netbox-lists]: executing diffoscope
+[2024-05-08 07:19:06] INFO root fetch - processPackages [netbox-lists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_lists-3.1.1.tar.gz tmp/netbox_lists-4.0.0.tar.gz --markdown 20240508/n/netbox-lists/3.1.1-4.0.0/README.md --exclude *.pyd
+[2024-05-08 07:19:06] INFO root fetch - processPackages [lumibot]: executing diffoscope
+[2024-05-08 07:19:06] INFO root fetch - processPackages [lumibot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumibot-3.3.7.tar.gz tmp/lumibot-3.4.0.tar.gz --markdown 20240508/l/lumibot/3.3.7-3.4.0/README.md --exclude *.pyd
+[2024-05-08 07:19:07] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.3.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.1.4.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 07:19:07] INFO root fetch - processPackages [netbox-lists]: Remove: archive file [/home/abi/fetcher/tmp/netbox_lists-3.1.1.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - processPackages [netbox-lists]: Remove: archive file [/home/abi/fetcher/tmp/netbox_lists-4.0.0.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - main [MainThread]: End processing [netbox-lists]: success
+[2024-05-08 07:19:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-08 07:19:07] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.3.7.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - processPackages [lumibot]: Remove: archive file [/home/abi/fetcher/tmp/lumibot-3.4.0.tar.gz]
+[2024-05-08 07:19:07] INFO root fetch - main [MainThread]: End processing [lumibot]: success
+[2024-05-08 07:19:07] INFO root fetch - main [MainThread]: Store serial: [23108496]
