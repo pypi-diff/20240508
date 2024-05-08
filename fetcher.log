@@ -17581,3 +17581,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:40:54] INFO root fetch - processPackages [pyaerocom]: Remove: archive file [/home/abi/fetcher/tmp/pyaerocom-0.8.0rc4.tar.gz]
 [2024-05-08 11:40:54] INFO root fetch - main [MainThread]: End processing [pyaerocom]: success
 [2024-05-08 11:40:54] INFO root fetch - main [MainThread]: Store serial: [23111500]
+[2024-05-08 11:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111500]
+[2024-05-08 11:43:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypa-make-easy
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ptal-api
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbrc-bx
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MinVectorDB
+[2024-05-08 11:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-08 11:43:02] INFO root fetch - processPackages [bbrc-bx]: New version: [0.5.4.post1] Old Version: [0.5.4]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [MinVectorDB]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [bbrc-bx]: Downloading https://files.pythonhosted.org/packages/6d/63/c1fe111ab26156b7fe447999ca9083efe1f4f66b4841d1d2a6dd56d05daa/bbrc-bx-0.5.4.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [pypa-make-easy]: New version: [0.3] Old Version: [0.2]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [ptal-api]: New version: [1.0.0a7] Old Version: [1.0.0a6]
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/43/67/57c0d952f0bb1f1ded3abcea146543e4b05f6c6d802b5bf92f7bf0073261/minvectordb-0.3.2.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [pypa-make-easy]: Downloading https://files.pythonhosted.org/packages/2f/69/83d171f2cd7e4c537f483e83f890a3d689c943874a76321c08d99b471b98/pypa_make_easy-0.2.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/0a/83/2b8eca9d7e7b4fe25ab2acd38e5c8329bb4a30733f6d75ab82dd7386cdac/ptal_api-1.0.0a6.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/d3/82/18e144b143ae82d52d5a02f39d04b1bf658c8e95aa0f37fab66363586849/minvectordb-0.3.3.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [pypa-make-easy]: Downloading https://files.pythonhosted.org/packages/79/4a/8e2fc5746eab53e7df104f2cdf0db310799c2b470b2c488cf2b1e82e7c5e/pypa_make_easy-0.3.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/75/7e/77f3cb9ca68cd4cc30ede00546bee6263fb97d7ed1b9c48caf81471e166b/ptal_api-1.0.0a7.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-05-08 11:43:03] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.3.2.tar.gz tmp/minvectordb-0.3.3.tar.gz --markdown 20240508/M/MinVectorDB/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-08 11:43:03] INFO root fetch - processPackages [bbrc-bx]: Downloading https://files.pythonhosted.org/packages/21/45/e7adc6f4e0e6170e6dca1273747158f31c76243c411807e048e95a4e7bee/bbrc-bx-0.5.4.post1.tar.gz
+[2024-05-08 11:43:03] INFO root fetch - processPackages [pypa-make-easy]: executing diffoscope
+[2024-05-08 11:43:03] INFO root fetch - processPackages [pypa-make-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypa_make_easy-0.2.tar.gz tmp/pypa_make_easy-0.3.tar.gz --markdown 20240508/p/pypa-make-easy/0.2-0.3/README.md --exclude *.pyd
+[2024-05-08 11:43:03] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2024-05-08 11:43:03] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-1.0.0a6.tar.gz tmp/ptal_api-1.0.0a7.tar.gz --markdown 20240508/p/ptal-api/1.0.0a6-1.0.0a7/README.md --exclude *.pyd
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:43:03] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:43:04] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:43:04] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:43:04] INFO root fetch - processPackages [pypa-make-easy]: Remove: archive file [/home/abi/fetcher/tmp/pypa_make_easy-0.2.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - processPackages [pypa-make-easy]: Remove: archive file [/home/abi/fetcher/tmp/pypa_make_easy-0.3.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - main [MainThread]: End processing [pypa-make-easy]: success
+[2024-05-08 11:43:04] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.2.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.3.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-05-08 11:43:04] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:43:04] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-1.0.0a6.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-1.0.0a7.tar.gz]
+[2024-05-08 11:43:04] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2024-05-08 11:43:05] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:43:05] INFO root fetch - processPackages [bbrc-bx]: executing diffoscope
+[2024-05-08 11:43:05] INFO root fetch - processPackages [bbrc-bx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrc-bx-0.5.4.tar.gz tmp/bbrc-bx-0.5.4.post1.tar.gz --markdown 20240508/b/bbrc-bx/0.5.4-0.5.4.post1/README.md --exclude *.pyd
+[2024-05-08 11:43:06] INFO root fetch - processPackages [bbrc-bx]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-bx-0.5.4.tar.gz]
+[2024-05-08 11:43:06] INFO root fetch - processPackages [bbrc-bx]: Remove: archive file [/home/abi/fetcher/tmp/bbrc-bx-0.5.4.post1.tar.gz]
+[2024-05-08 11:43:06] INFO root fetch - main [MainThread]: End processing [bbrc-bx]: success
+[2024-05-08 11:43:06] INFO root fetch - main [MainThread]: Store serial: [23111518]
