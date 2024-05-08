@@ -19450,3 +19450,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:58:52] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a2.tar.gz]
 [2024-05-08 12:58:52] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration-ui]: success
 [2024-05-08 12:58:52] INFO root fetch - main [MainThread]: Store serial: [23112303]
+[2024-05-08 13:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112303]
+[2024-05-08 13:01:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NJFU
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adm-boundary-manager
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paita
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-sync-roles
+[2024-05-08 13:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filchatter
+[2024-05-08 13:01:01] INFO root fetch - processPackages [NJFU]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 13:01:01] WARNING root fetch - processPackages [pg-sync-roles]: Skipping, unable to determine old version
+[2024-05-08 13:01:01] INFO root fetch - main [MainThread]: End processing [pg-sync-roles] error
+[2024-05-08 13:01:01] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-05-08 13:01:02] INFO root fetch - processPackages [adm-boundary-manager]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 13:01:02] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/a2/63/8860df9e6963982bf7a7574677847496c229661cd0f55976b8225532aba8/NJFU-0.0.2.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-08 13:01:02] INFO root fetch - processPackages [paita]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 13:01:02] INFO root fetch - processPackages [filchatter]: New version: [1.8] Old Version: [1.7]
+[2024-05-08 13:01:02] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [adm-boundary-manager]: Downloading https://files.pythonhosted.org/packages/62/e6/47e7e546cb35a1e19f442cd8bf637ca4421c31d8454474176e284fd74848/adm-boundary-manager-0.1.0.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [paita]: Downloading https://files.pythonhosted.org/packages/88/8c/85b64d7ee891e5e249bb7990fac57237de07fe905df9083eed14019e1554/paita-0.1.8.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/77/0f/7eab589b4e893add4779101f2f396421277d463a7f4212b6643729574ab8/filchatter-1.7.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [NJFU]: Downloading https://files.pythonhosted.org/packages/e7/ab/fc0df0c40c6cf816f9069aabb7b92a1a60a6bf2ddffb0a73e6b115fb52ad/NJFU-0.0.3.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [NJFU]: executing diffoscope
+[2024-05-08 13:01:02] INFO root fetch - processPackages [NJFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NJFU-0.0.2.tar.gz tmp/NJFU-0.0.3.tar.gz --markdown 20240508/N/NJFU/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 13:01:02] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-05-08 13:01:02] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240508/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-05-08 13:01:02] INFO root fetch - processPackages [filchatter]: Downloading https://files.pythonhosted.org/packages/57/5a/bda6744381c4800b5188acc9047fa97393047d7876ffedff4057f14e115a/filchatter-1.8.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [adm-boundary-manager]: Downloading https://files.pythonhosted.org/packages/5b/01/9c1fa059dc154d6cba2ce450c77d0639c68469ed38cf41a4a53790ac086a/adm_boundary_manager-0.2.0.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [paita]: Downloading https://files.pythonhosted.org/packages/c0/0e/fdc8d4a8733165ffe2656dc844332f7e8122c36f1f7fd3a1aeab708e62e3/paita-0.1.9.tar.gz
+[2024-05-08 13:01:02] INFO root fetch - processPackages [adm-boundary-manager]: executing diffoscope
+[2024-05-08 13:01:02] INFO root fetch - processPackages [adm-boundary-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adm-boundary-manager-0.1.0.tar.gz tmp/adm_boundary_manager-0.2.0.tar.gz --markdown 20240508/a/adm-boundary-manager/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 13:01:02] INFO root fetch - processPackages [filchatter]: executing diffoscope
+[2024-05-08 13:01:02] INFO root fetch - processPackages [filchatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filchatter-1.7.tar.gz tmp/filchatter-1.8.tar.gz --markdown 20240508/f/filchatter/1.7-1.8/README.md --exclude *.pyd
+[2024-05-08 13:01:02] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-08 13:01:02] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240508/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-08 13:01:03] INFO root fetch - processPackages [paita]: executing diffoscope
+[2024-05-08 13:01:03] INFO root fetch - processPackages [paita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paita-0.1.8.tar.gz tmp/paita-0.1.9.tar.gz --markdown 20240508/p/paita/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 13:01:03] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.2.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [NJFU]: Remove: archive file [/home/abi/fetcher/tmp/NJFU-0.0.3.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [NJFU]: success
+[2024-05-08 13:01:03] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.7.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [filchatter]: Remove: archive file [/home/abi/fetcher/tmp/filchatter-1.8.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [filchatter]: success
+[2024-05-08 13:01:03] INFO root fetch - processPackages [adm-boundary-manager]: Remove: archive file [/home/abi/fetcher/tmp/adm-boundary-manager-0.1.0.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [adm-boundary-manager]: Remove: archive file [/home/abi/fetcher/tmp/adm_boundary_manager-0.2.0.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [adm-boundary-manager]: success
+[2024-05-08 13:01:03] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-08 13:01:03] INFO root fetch - processPackages [paita]: Remove: archive file [/home/abi/fetcher/tmp/paita-0.1.8.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [paita]: Remove: archive file [/home/abi/fetcher/tmp/paita-0.1.9.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [paita]: success
+[2024-05-08 13:01:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-05-08 13:01:03] INFO root fetch - main [MainThread]: Store serial: [23112324]
