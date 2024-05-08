@@ -13435,3 +13435,95 @@
 [2024-05-08 09:35:10] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-3.9.0.tar.gz]
 [2024-05-08 09:35:10] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
 [2024-05-08 09:35:10] INFO root fetch - main [MainThread]: Store serial: [23109825]
+[2024-05-08 09:37:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109825]
+[2024-05-08 09:37:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxd
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpflib
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbs-builder
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adb-connector-python
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-modelopt
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: subdivision-hole-filler
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DesalSim
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ramodels
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mns-common
+[2024-05-08 09:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funcnodes-sklearn
+[2024-05-08 09:37:19] INFO root fetch - processPackages [DesalSim]: New version: [0.7.1] Old Version: [0.7]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [funcnodes-sklearn]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [mns-common]: New version: [1.0.8.2] Old Version: [1.0.8.1]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [nvidia-modelopt]: New version: [0.11.2] Old Version: [0.11.1]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gpflib]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pxd]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/bb/c2/fb337543f6ace0d7cbaac88875507ea974780d32f6d0d7c719b22023d3c0/funcnodes_sklearn-0.1.1.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/1f/a1/aee8fa7d81a65399d5c34acdfad0e7ac5b560610656c3cd1af7fcfcdf2a8/desalsim-0.7.tar.gz
+[2024-05-08 09:37:19] WARNING root fetch - processPackages [subdivision-hole-filler]: Skipping, unable to determine old version
+[2024-05-08 09:37:19] INFO root fetch - processPackages [subdivision-hole-filler]: Start processing: gym-pusht
+[2024-05-08 09:37:19] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler] error
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pbs-builder]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [adb-connector-python]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gym-pusht]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gpflib]: Downloading https://files.pythonhosted.org/packages/4b/d5/38b1c9277b1ebea3f7c7e9094d59b043b805859223c9731c55db6135dce8/gpflib-1.1.7.tar.gz
+[2024-05-08 09:37:19] WARNING root fetch - processPackages [gpflib]: Skipping package: exceeds size limit 25115236>=10485760
+[2024-05-08 09:37:19] INFO root fetch - main [MainThread]: End processing [gpflib] error
+[2024-05-08 09:37:19] INFO root fetch - processPackages [nvidia-modelopt]: Downloading https://files.pythonhosted.org/packages/dd/fa/4b12b63b3eef9a59ddcf77821f2767dfc6c82d496eb5f178be3beef15c07/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/00/95/646d26a0e272ea2e7b538488763af353b6d75f87150f0909cb95e867f092/gym_pusht-0.1.1.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pxd]: Downloading https://files.pythonhosted.org/packages/af/e8/dc69b3fbd1df51890b576e8aaa527e4a8592377a988011169dc2559d8f6f/pxd-0.6.1-py3-none-any.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/2c/df/506382c51303827a02307842b8cc1597c9eae7be4e00f028c2940e04a4e4/mns_common-1.0.8.1.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/ef/0a/4cc096d15ba5545c53e5766270687dc23c0925c31e7f6f504e48b2d717aa/adb_connector_python-1.1.8-py3-none-any.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/41/e2/27d128b49e2a3d52f571a124cb1cf33ffd9438caeea882f4c34cdad88730/pbs_builder-0.4.7.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/bc/35/9ca596667f14b6cd4c518685a2d89108fe6a62f2545bf40eebd8f7e4027e/desalsim-0.7.1.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [funcnodes-sklearn]: Downloading https://files.pythonhosted.org/packages/33/d3/4ef147edc7dd87b9a32daeb88a39a5dac57294229f092281d937fb2d997c/funcnodes_sklearn-0.1.2.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gym-pusht]: Downloading https://files.pythonhosted.org/packages/c7/e0/864a7bcfd0361e6de1725d3cba7b34d7359e71e5f8652008526dc37dd732/gym_pusht-0.1.2.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/ea/40/a10528b614c856470b7103346fc6e944a9d90a972b8b30f60defbf8e1a9e/adb_connector_python-1.1.9-py3-none-any.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [nvidia-modelopt]: Downloading https://files.pythonhosted.org/packages/e5/4d/a3377c34951b9fb7665037e0b7b0e0bafba4ca864b512d81c490498fdf0b/nvidia_modelopt-0.11.2-cp310-cp310-manylinux_2_28_x86_64.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 09:37:19] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.7.tar.gz tmp/desalsim-0.7.1.tar.gz --markdown 20240508/D/DesalSim/0.7-0.7.1/README.md --exclude *.pyd
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gym-pusht]: executing diffoscope
+[2024-05-08 09:37:19] INFO root fetch - processPackages [gym-pusht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym_pusht-0.1.1.tar.gz tmp/gym_pusht-0.1.2.tar.gz --markdown 20240508/g/gym-pusht/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 09:37:19] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [funcnodes-sklearn]: executing diffoscope
+[2024-05-08 09:37:19] INFO root fetch - processPackages [funcnodes-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_sklearn-0.1.1.tar.gz tmp/funcnodes_sklearn-0.1.2.tar.gz --markdown 20240508/f/funcnodes-sklearn/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pxd]: Downloading https://files.pythonhosted.org/packages/72/5d/ec56c6408c14ac1b22d2eb9200401fa778dbf5d90ffa7ff97126f2a8f3a2/pxd-0.7.0-py3-none-any.whl
+[2024-05-08 09:37:19] INFO root fetch - processPackages [pbs-builder]: Downloading https://files.pythonhosted.org/packages/b6/ca/2323af4f33248962bd29ccac9f8f81ff19011b952c7d20117b0076914c90/pbs_builder-0.4.8.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/4c/df/69e77d0a6160b045f6cae0c23a712037b5e4acdec35164fdf8c8c436b466/mns_common-1.0.8.2.tar.gz
+[2024-05-08 09:37:19] INFO root fetch - processPackages [adb-connector-python]: executing diffoscope
+[2024-05-08 09:37:19] INFO root fetch - processPackages [adb-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb_connector_python-1.1.8-py3-none-any.whl.zip tmp/adb_connector_python-1.1.9-py3-none-any.whl.zip --markdown 20240508/a/adb-connector-python/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-08 09:37:19] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-08 09:37:19] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240508/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-08 09:37:20] INFO root fetch - processPackages [pbs-builder]: executing diffoscope
+[2024-05-08 09:37:20] INFO root fetch - processPackages [pbs-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbs_builder-0.4.7.tar.gz tmp/pbs_builder-0.4.8.tar.gz --markdown 20240508/p/pbs-builder/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-08 09:37:20] INFO root fetch - processPackages [pxd]: executing diffoscope
+[2024-05-08 09:37:20] INFO root fetch - processPackages [pxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxd-0.6.1-py3-none-any.whl.zip tmp/pxd-0.7.0-py3-none-any.whl.zip --markdown 20240508/p/pxd/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-08 09:37:20] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-08 09:37:20] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.8.1.tar.gz tmp/mns_common-1.0.8.2.tar.gz --markdown 20240508/m/mns-common/1.0.8.1-1.0.8.2/README.md --exclude *.pyd
+[2024-05-08 09:37:20] INFO root fetch - processPackages [nvidia-modelopt]: executing diffoscope
+[2024-05-08 09:37:20] INFO root fetch - processPackages [nvidia-modelopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl.zip tmp/nvidia_modelopt-0.11.2-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20240508/n/nvidia-modelopt/0.11.1-0.11.2/README.md --exclude *.pyd
+[2024-05-08 09:37:20] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.1.8-py3-none-any.whl.zip]
+[2024-05-08 09:37:20] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.1.9-py3-none-any.whl.zip]
+[2024-05-08 09:37:20] INFO root fetch - main [MainThread]: End processing [adb-connector-python]: success
+[2024-05-08 09:37:20] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.1.tar.gz]
+[2024-05-08 09:37:20] INFO root fetch - processPackages [gym-pusht]: Remove: archive file [/home/abi/fetcher/tmp/gym_pusht-0.1.2.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [gym-pusht]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.4.7.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [pbs-builder]: Remove: archive file [/home/abi/fetcher/tmp/pbs_builder-0.4.8.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [pbs-builder]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.1.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.1.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [funcnodes-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_sklearn-0.1.2.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [funcnodes-sklearn]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.1.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.8.2.tar.gz]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-08 09:37:21] INFO root fetch - processPackages [pxd]: Remove: archive file [/home/abi/fetcher/tmp/pxd-0.6.1-py3-none-any.whl.zip]
+[2024-05-08 09:37:21] INFO root fetch - processPackages [pxd]: Remove: archive file [/home/abi/fetcher/tmp/pxd-0.7.0-py3-none-any.whl.zip]
+[2024-05-08 09:37:21] INFO root fetch - main [MainThread]: End processing [pxd]: success
+[2024-05-08 09:37:22] INFO root fetch - processPackages [nvidia-modelopt]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modelopt-0.11.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 09:37:22] INFO root fetch - processPackages [nvidia-modelopt]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_modelopt-0.11.2-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2024-05-08 09:37:22] INFO root fetch - main [MainThread]: End processing [nvidia-modelopt]: success
+[2024-05-08 09:37:22] INFO root fetch - main [MainThread]: Store serial: [23109854]
