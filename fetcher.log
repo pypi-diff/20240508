@@ -11112,3 +11112,36 @@
 [2024-05-08 07:21:19] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.5.tar.gz]
 [2024-05-08 07:21:19] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-05-08 07:21:19] INFO root fetch - main [MainThread]: Store serial: [23108505]
+[2024-05-08 07:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108505]
+[2024-05-08 07:23:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 07:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vis-analysis-torch
+[2024-05-08 07:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendapi
+[2024-05-08 07:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-label
+[2024-05-08 07:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yowasp-yosys
+[2024-05-08 07:23:27] INFO root fetch - processPackages [opendapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 07:23:27] INFO root fetch - processPackages [opendapi]: Downloading https://files.pythonhosted.org/packages/37/5c/1daefc1bce500d4c846a1c9ee6030c5bf84f34df99d382584a461a457f50/opendapi-0.0.8.tar.gz
+[2024-05-08 07:23:28] INFO root fetch - processPackages [odoo-addon-partner-label]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-05-08 07:23:28] WARNING root fetch - processPackages [vis-analysis-torch]: Skipping, unable to determine old version
+[2024-05-08 07:23:28] INFO root fetch - main [MainThread]: End processing [vis-analysis-torch] error
+[2024-05-08 07:23:28] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2024-05-08 07:23:28] INFO root fetch - processPackages [opendapi]: Downloading https://files.pythonhosted.org/packages/54/fa/961500c1ba0cf70172b79141ad960643e863d48ab5a257dfa30f8f2afe01/opendapi-0.0.9.tar.gz
+[2024-05-08 07:23:28] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2024-05-08 07:23:28] INFO root fetch - processPackages [odoo-addon-partner-label]: Downloading https://files.pythonhosted.org/packages/6a/1a/8fa16d0ffc1a65f6f969574a1195a3dd62e4e1d627b250023cc9b6f84ad1/odoo_addon_partner_label-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-08 07:23:28] INFO root fetch - processPackages [opendapi]: executing diffoscope
+[2024-05-08 07:23:28] INFO root fetch - processPackages [opendapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendapi-0.0.8.tar.gz tmp/opendapi-0.0.9.tar.gz --markdown 20240508/o/opendapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 07:23:28] INFO root fetch - processPackages [odoo-addon-partner-label]: Downloading https://files.pythonhosted.org/packages/82/68/2c6aae8218e1dbe9238af048294cc790b1ee4421ea3c0e7728ccb7b951e2/odoo_addon_partner_label-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-08 07:23:28] INFO root fetch - processPackages [odoo-addon-partner-label]: executing diffoscope
+[2024-05-08 07:23:28] INFO root fetch - processPackages [odoo-addon-partner-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_label-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_partner_label-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-partner-label/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-08 07:23:29] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2024-05-08 07:23:29] INFO root fetch - processPackages [opendapi]: Remove: archive file [/home/abi/fetcher/tmp/opendapi-0.0.8.tar.gz]
+[2024-05-08 07:23:29] INFO root fetch - processPackages [opendapi]: Remove: archive file [/home/abi/fetcher/tmp/opendapi-0.0.9.tar.gz]
+[2024-05-08 07:23:29] INFO root fetch - main [MainThread]: End processing [opendapi]: success
+[2024-05-08 07:23:29] INFO root fetch - processPackages [odoo-addon-partner-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_label-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-08 07:23:29] INFO root fetch - processPackages [odoo-addon-partner-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_label-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-08 07:23:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-label]: success
+[2024-05-08 07:23:29] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2024-05-08 07:23:29] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20240508/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/README.md --exclude *.pyd
+[2024-05-08 07:24:26] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2024-05-08 07:24:26] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2024-05-08 07:24:26] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2024-05-08 07:24:26] INFO root fetch - main [MainThread]: Store serial: [23108515]
