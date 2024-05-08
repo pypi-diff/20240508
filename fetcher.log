@@ -21527,3 +21527,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:18:46] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-3.2.0.tar.gz]
 [2024-05-08 14:18:46] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
 [2024-05-08 14:18:46] INFO root fetch - main [MainThread]: Store serial: [23113099]
+[2024-05-08 14:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113099]
+[2024-05-08 14:20:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensourceleg
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-28
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-grafana
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CryDBkit
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gtfs-parser
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-29
+[2024-05-08 14:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bashgptZ
+[2024-05-08 14:20:55] INFO root fetch - processPackages [opensourceleg]: New version: [3.2.0] Old Version: [2.2.0]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [gtfs-parser]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [bashgptZ]: New version: [1.0] Old Version: [0.1]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240508.359] Old Version: [2.0.0.20240508.121320]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/18/29/83a3a3f70a02876dd3f462bdead39f4664db9f997f830fb2ba8ca29f8e1a/opensourceleg-2.2.0.tar.gz
+[2024-05-08 14:20:55] WARNING root fetch - processPackages [CryDBkit]: Skipping, unable to determine old version
+[2024-05-08 14:20:55] INFO root fetch - main [MainThread]: End processing [CryDBkit] error
+[2024-05-08 14:20:55] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-08 14:20:55] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/f7/e2/730bb4ebc51b275df56002f35c2e39ee9714c5350e632571cb3341b25e94/gtfs_parser-0.1.4.tar.gz
+[2024-05-08 14:20:55] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-08 14:20:56] INFO root fetch - processPackages [bashgptZ]: Downloading https://files.pythonhosted.org/packages/2f/16/2c6d79a7f82924d22f42376e716ace4475503d571cea9767076144de8e37/bashgptz-0.1.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/28/71/13e3f2fb8eb4d326312105ec6616a2c86c231d7f795bc636ed157339a1ce/mct-nightly-2.0.0.20240508.121320.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/04/48/ed26b51bcc0082331534b26eada1a51b0b8976c457fa2d1bcb6c003c4680/cdk8s-plus-29-2.3.1.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [gtfs-parser]: Downloading https://files.pythonhosted.org/packages/59/6e/b6872c0428eecd15ac5978f483745b3e057b8459d60e22a8372396657a4d/gtfs_parser-0.2.0.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/91/de/1cc2033968299850af073b3b5ba556ae0243ab38e3e90e43d86986e82696/cdk8s-plus-28-2.3.1.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [opensourceleg]: Downloading https://files.pythonhosted.org/packages/e8/d5/92ccda0c8a9251ad2ba95cf357c36a58fe00271c780748ad1e5432b3121c/opensourceleg-3.2.0.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [gtfs-parser]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [gtfs-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_parser-0.1.4.tar.gz tmp/gtfs_parser-0.2.0.tar.gz --markdown 20240508/g/gtfs-parser/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b7/cf/92a352affb6b2c1171e047f665ea3f43d762ef2b5e4b66c09e1fbc72ff3e/mct-nightly-2.0.0.20240508.359.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [opensourceleg]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [opensourceleg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensourceleg-2.2.0.tar.gz tmp/opensourceleg-3.2.0.tar.gz --markdown 20240508/o/opensourceleg/2.2.0-3.2.0/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [bashgptZ]: Downloading https://files.pythonhosted.org/packages/d3/9f/3af4ebc4f68c1e4f034a340b54f1b31277b825d178057ff7b34a4522ec86/bashgptz-1.0.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [bashgptZ]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [bashgptZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bashgptz-0.1.tar.gz tmp/bashgptz-1.0.tar.gz --markdown 20240508/b/bashgptZ/0.1-1.0/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240508.121320.tar.gz tmp/mct-nightly-2.0.0.20240508.359.tar.gz --markdown 20240508/m/mct-nightly/2.0.0.20240508.121320-2.0.0.20240508.359/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/4e/5d/d448205dc5495199c8b61c3dc3dcda0e7ba60405eb68f960dd66224a1b75/cdk8s-plus-29-2.3.2.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/01/5c/4e759808a395b7494408f0e81c9b157761f00d2082586635f455eb9752d8/cdk8s-plus-28-2.3.2.tar.gz
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20240508/c/cdk8s-grafana/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.3.1.tar.gz tmp/cdk8s-plus-29-2.3.2.tar.gz --markdown 20240508/c/cdk8s-plus-29/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-08 14:20:56] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.3.1.tar.gz tmp/cdk8s-plus-28-2.3.2.tar.gz --markdown 20240508/c/cdk8s-plus-28/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-08 14:20:57] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.1.4.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - processPackages [gtfs-parser]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_parser-0.2.0.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - main [MainThread]: End processing [gtfs-parser]: success
+[2024-05-08 14:20:57] INFO root fetch - processPackages [bashgptZ]: Remove: archive file [/home/abi/fetcher/tmp/bashgptz-0.1.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - processPackages [bashgptZ]: Remove: archive file [/home/abi/fetcher/tmp/bashgptz-1.0.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - main [MainThread]: End processing [bashgptZ]: success
+[2024-05-08 14:20:57] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-2.2.0.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - processPackages [opensourceleg]: Remove: archive file [/home/abi/fetcher/tmp/opensourceleg-3.2.0.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - main [MainThread]: End processing [opensourceleg]: success
+[2024-05-08 14:20:57] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2024-05-08 14:20:57] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2024-05-08 14:20:58] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.1.tar.gz]
+[2024-05-08 14:20:58] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.2.tar.gz]
+[2024-05-08 14:20:58] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-05-08 14:20:58] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.1.tar.gz]
+[2024-05-08 14:20:58] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.2.tar.gz]
+[2024-05-08 14:20:58] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-05-08 14:20:59] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.121320.tar.gz]
+[2024-05-08 14:20:59] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.359.tar.gz]
+[2024-05-08 14:20:59] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-08 14:20:59] INFO root fetch - main [MainThread]: Store serial: [23113125]
