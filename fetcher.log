@@ -22343,3 +22343,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:50:05] INFO root fetch - processPackages [kube-compose]: Remove: archive file [/home/abi/fetcher/tmp/kube_compose-0.2.0.tar.gz]
 [2024-05-08 14:50:05] INFO root fetch - main [MainThread]: End processing [kube-compose]: success
 [2024-05-08 14:50:05] INFO root fetch - main [MainThread]: Store serial: [23113583]
+[2024-05-08 14:52:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113583]
+[2024-05-08 14:52:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 14:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suskabot
+[2024-05-08 14:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rank-torrent-name
+[2024-05-08 14:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-version-remla
+[2024-05-08 14:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DNA-SE
+[2024-05-08 14:52:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skilleter-thingy
+[2024-05-08 14:52:14] INFO root fetch - processPackages [suskabot]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-08 14:52:14] INFO root fetch - processPackages [lib-version-remla]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-08 14:52:14] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.37] Old Version: [0.0.36]
+[2024-05-08 14:52:14] WARNING root fetch - processPackages [DNA-SE]: Skipping, unable to determine old version
+[2024-05-08 14:52:14] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/3b/6d/338b008fa5d25b96f6d3edbea71ea35ea80dffaef92f2f30bde42ca6999c/lib_version_remla-0.0.1.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - main [MainThread]: End processing [DNA-SE] error
+[2024-05-08 14:52:14] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/b5/e4/16a508f5589ab824ff74af3e4d5c66c5c6ad135fd7deff1822ce99e8164b/suskabot-0.1.5.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [rank-torrent-name]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 14:52:14] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/cd/61/8334f796a2f90bbaa001de540e575feda5cc79a9f6079b229b15f79df01d/skilleter_thingy-0.0.36.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/55/6a/185494bfe23e8a2c4c83c4cf90c8435e7a3836c0c6ded4db899834e269a9/rank_torrent_name-0.2.8.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [lib-version-remla]: Downloading https://files.pythonhosted.org/packages/0b/74/184b23ec882916360bf2089a9f70b5c9961f515a52fc6acfbee6ff555594/lib_version_remla-0.0.3.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/ae/03/ddece12f09f3dde6e3aa43d2bae9ed6f173fe035864e652138d7f612d6cd/suskabot-0.2.0.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/01/64/99465f6e4db248a415faf81cbbf3159446a2f02657c5d836d2b048230773/skilleter_thingy-0.0.37.tar.gz
+[2024-05-08 14:52:14] INFO root fetch - processPackages [lib-version-remla]: executing diffoscope
+[2024-05-08 14:52:14] INFO root fetch - processPackages [lib-version-remla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_remla-0.0.1.tar.gz tmp/lib_version_remla-0.0.3.tar.gz --markdown 20240508/l/lib-version-remla/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-08 14:52:14] INFO root fetch - processPackages [suskabot]: executing diffoscope
+[2024-05-08 14:52:14] INFO root fetch - processPackages [suskabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suskabot-0.1.5.tar.gz tmp/suskabot-0.2.0.tar.gz --markdown 20240508/s/suskabot/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-08 14:52:14] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-08 14:52:14] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.36.tar.gz tmp/skilleter_thingy-0.0.37.tar.gz --markdown 20240508/s/skilleter-thingy/0.0.36-0.0.37/README.md --exclude *.pyd
+[2024-05-08 14:52:15] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/58/da/9bd788cb38b6ae67089397a2537549bc66b4fe0b60be0af6bea97b30ab99/rank_torrent_name-0.2.9.tar.gz
+[2024-05-08 14:52:15] INFO root fetch - processPackages [rank-torrent-name]: executing diffoscope
+[2024-05-08 14:52:15] INFO root fetch - processPackages [rank-torrent-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rank_torrent_name-0.2.8.tar.gz tmp/rank_torrent_name-0.2.9.tar.gz --markdown 20240508/r/rank-torrent-name/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 14:52:15] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.1.tar.gz]
+[2024-05-08 14:52:15] INFO root fetch - processPackages [lib-version-remla]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_remla-0.0.3.tar.gz]
+[2024-05-08 14:52:15] INFO root fetch - main [MainThread]: End processing [lib-version-remla]: success
+[2024-05-08 14:52:15] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.1.5.tar.gz]
+[2024-05-08 14:52:15] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.0.tar.gz]
+[2024-05-08 14:52:15] INFO root fetch - main [MainThread]: End processing [suskabot]: success
+[2024-05-08 14:52:16] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.36.tar.gz]
+[2024-05-08 14:52:16] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.37.tar.gz]
+[2024-05-08 14:52:16] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-08 14:52:16] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.8.tar.gz]
+[2024-05-08 14:52:16] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.9.tar.gz]
+[2024-05-08 14:52:16] INFO root fetch - main [MainThread]: End processing [rank-torrent-name]: success
+[2024-05-08 14:52:16] INFO root fetch - main [MainThread]: Store serial: [23113602]
