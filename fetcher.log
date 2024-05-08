@@ -18868,3 +18868,32 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:32:41] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-05-08 12:32:41] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-05-08 12:32:41] INFO root fetch - main [MainThread]: Store serial: [23112002]
+[2024-05-08 12:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112002]
+[2024-05-08 12:34:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datalibro-backend
+[2024-05-08 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trajectopy-core
+[2024-05-08 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: savant-plugin-sample
+[2024-05-08 12:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain-elasticsearch
+[2024-05-08 12:34:50] INFO root fetch - processPackages [datalibro-backend]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-08 12:34:50] INFO root fetch - processPackages [trajectopy-core]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-05-08 12:34:51] WARNING root fetch - processPackages [gigachain-elasticsearch]: Skipping, unable to determine old version
+[2024-05-08 12:34:51] INFO root fetch - main [MainThread]: End processing [gigachain-elasticsearch] error
+[2024-05-08 12:34:51] INFO root fetch - processPackages [savant-plugin-sample]: New version: [0.2.29] Old Version: [0.2.28]
+[2024-05-08 12:34:51] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/ed/c0/cfca82889d1a99d9f298a7418c86b08687001c6d9c2ce5d405057ff7fb4e/datalibro_backend-1.1.4.tar.gz
+[2024-05-08 12:34:51] INFO root fetch - processPackages [trajectopy-core]: Downloading https://files.pythonhosted.org/packages/bc/4c/d9c86c50b378cdabf145f84165213089d40a63099cf331959a27cd638ed3/trajectopy_core-3.0.1.tar.gz
+[2024-05-08 12:34:51] INFO root fetch - processPackages [savant-plugin-sample]: Downloading https://files.pythonhosted.org/packages/ac/69/5d895bab533023964c1f68289c99cd1b246b431fc9b5587953dc5b526e25/savant_plugin_sample-0.2.28-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 12:34:51] WARNING root fetch - processPackages [savant-plugin-sample]: Skipping package: exceeds size limit 13005225>=10485760
+[2024-05-08 12:34:51] INFO root fetch - main [MainThread]: End processing [savant-plugin-sample] error
+[2024-05-08 12:34:51] INFO root fetch - processPackages [datalibro-backend]: Downloading https://files.pythonhosted.org/packages/9c/09/4528dbbd4d683667a6f48430e3174ae347c5f328bc415b0ef0d9e94b4ed2/datalibro_backend-1.1.5.tar.gz
+[2024-05-08 12:34:51] INFO root fetch - processPackages [datalibro-backend]: executing diffoscope
+[2024-05-08 12:34:51] INFO root fetch - processPackages [datalibro-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalibro_backend-1.1.4.tar.gz tmp/datalibro_backend-1.1.5.tar.gz --markdown 20240508/d/datalibro-backend/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-08 12:34:51] INFO root fetch - processPackages [trajectopy-core]: Downloading https://files.pythonhosted.org/packages/aa/13/b9caabbd5b0b0b434095dfb73ed8bae1a936c6a8c98028f8b374f79c51ec/trajectopy_core-3.1.0.tar.gz
+[2024-05-08 12:34:51] INFO root fetch - processPackages [trajectopy-core]: executing diffoscope
+[2024-05-08 12:34:51] INFO root fetch - processPackages [trajectopy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajectopy_core-3.0.1.tar.gz tmp/trajectopy_core-3.1.0.tar.gz --markdown 20240508/t/trajectopy-core/3.0.1-3.1.0/README.md --exclude *.pyd
+[2024-05-08 12:34:52] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.4.tar.gz]
+[2024-05-08 12:34:52] INFO root fetch - processPackages [datalibro-backend]: Remove: archive file [/home/abi/fetcher/tmp/datalibro_backend-1.1.5.tar.gz]
+[2024-05-08 12:34:52] INFO root fetch - main [MainThread]: End processing [datalibro-backend]: success
+[2024-05-08 12:34:52] INFO root fetch - processPackages [trajectopy-core]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy_core-3.0.1.tar.gz]
+[2024-05-08 12:34:52] INFO root fetch - processPackages [trajectopy-core]: Remove: archive file [/home/abi/fetcher/tmp/trajectopy_core-3.1.0.tar.gz]
+[2024-05-08 12:34:52] INFO root fetch - main [MainThread]: End processing [trajectopy-core]: success
+[2024-05-08 12:34:52] INFO root fetch - main [MainThread]: Store serial: [23112018]
