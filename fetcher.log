@@ -18163,3 +18163,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:05:26] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.9.1.tar.gz]
 [2024-05-08 12:05:26] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
 [2024-05-08 12:05:26] INFO root fetch - main [MainThread]: Store serial: [23111747]
+[2024-05-08 12:07:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111747]
+[2024-05-08 12:07:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyright
+[2024-05-08 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-klaviyo
+[2024-05-08 12:07:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-keras-nightly
+[2024-05-08 12:07:34] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050709] Old Version: [2.17.0.dev2024050609]
+[2024-05-08 12:07:34] INFO root fetch - processPackages [airbyte-source-klaviyo]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-08 12:07:34] INFO root fetch - processPackages [pyright]: New version: [1.1.362] Old Version: [1.1.361]
+[2024-05-08 12:07:35] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/e9/cf/a9008ef0f4eb7ed0e0122ba67a031a8e71b48bf4bc01468d4ee1528e271e/tf_keras_nightly-2.17.0.dev2024050609.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [airbyte-source-klaviyo]: Downloading https://files.pythonhosted.org/packages/20/0f/37e9c0ca5c8b76c872450dfc3116ee5ba2d4c7d257562bbf902ba74b9deb/airbyte_source_klaviyo-2.6.0.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/42/65/21f87b9c6bc1e45583e66c155ba81d36c6685847395e604711059d7701b1/pyright-1.1.361.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d5/36/327472a9984e2b82cb4e80492f95965aa46da9c9696f968aa754e35a2a61/pyright-1.1.362.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [airbyte-source-klaviyo]: Downloading https://files.pythonhosted.org/packages/69/2c/57ca77d4e6e01c09b73fd71b5e192d0ded548ebff66167fd7d4f82461ba2/airbyte_source_klaviyo-2.6.1.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-05-08 12:07:35] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.361.tar.gz tmp/pyright-1.1.362.tar.gz --markdown 20240508/p/pyright/1.1.361-1.1.362/README.md --exclude *.pyd
+[2024-05-08 12:07:35] INFO root fetch - processPackages [airbyte-source-klaviyo]: executing diffoscope
+[2024-05-08 12:07:35] INFO root fetch - processPackages [airbyte-source-klaviyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_klaviyo-2.6.0.tar.gz tmp/airbyte_source_klaviyo-2.6.1.tar.gz --markdown 20240508/a/airbyte-source-klaviyo/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-08 12:07:35] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/78/83/f982410f4b694357e55f560499baa10240fc09b7680a408f13330b88885e/tf_keras_nightly-2.17.0.dev2024050709.tar.gz
+[2024-05-08 12:07:35] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-08 12:07:35] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024050609.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050709.tar.gz --markdown 20240508/t/tf-keras-nightly/2.17.0.dev2024050609-2.17.0.dev2024050709/README.md --exclude *.pyd
+[2024-05-08 12:07:36] INFO root fetch - processPackages [airbyte-source-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_klaviyo-2.6.0.tar.gz]
+[2024-05-08 12:07:36] INFO root fetch - processPackages [airbyte-source-klaviyo]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_klaviyo-2.6.1.tar.gz]
+[2024-05-08 12:07:36] INFO root fetch - main [MainThread]: End processing [airbyte-source-klaviyo]: success
+[2024-05-08 12:07:36] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.361.tar.gz]
+[2024-05-08 12:07:36] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.362.tar.gz]
+[2024-05-08 12:07:36] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-05-08 12:07:38] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050609.tar.gz]
+[2024-05-08 12:07:38] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050709.tar.gz]
+[2024-05-08 12:07:38] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-08 12:07:38] INFO root fetch - main [MainThread]: Store serial: [23111756]
