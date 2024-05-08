@@ -16599,3 +16599,90 @@
 [2024-05-08 11:12:17] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.4.tar.gz]
 [2024-05-08 11:12:17] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
 [2024-05-08 11:12:17] INFO root fetch - main [MainThread]: Store serial: [23111132]
+[2024-05-08 11:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111132]
+[2024-05-08 11:14:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: STMGraph
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kcli
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysideapi
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OiRunner
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aps-toolkit
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hrbdataproject
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sarcharts
+[2024-05-08 11:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyAgrum
+[2024-05-08 11:14:26] INFO root fetch - processPackages [hrbdataproject]: New version: [2.3] Old Version: [2.2]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [sarcharts]: New version: [0.0.1.dev83] Old Version: [0.0.1.dev81]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1715159505] Old Version: [1.7.0.dev1714772934]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [OiRunner]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [kcli]: New version: [99.0.202405071430] Old Version: [99.0.202405070556]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [pysideapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/68/da/b6e13c54a790e71e1987f15a27f0c1be80a43ac1b535c66186cab86db2a9/aps-toolkit-0.5.9.tar.gz
+[2024-05-08 11:14:26] WARNING root fetch - processPackages [STMGraph]: Skipping, unable to determine old version
+[2024-05-08 11:14:26] INFO root fetch - main [MainThread]: End processing [STMGraph] error
+[2024-05-08 11:14:26] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/c6/f3/358795bc0a9521ab8e868c82df02a13e61ca36276a6cab94b1933795848d/sarcharts-0.0.1.dev81.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [pyAgrum]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-05-08 11:14:26] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/b6/7a/0ed190a82687f164d8f388d448fb2603bd5d4908b415e797db78330c9fc4/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/8c/68/71d93ae23c3fd90d476a3c8ab687659fd175e87f321c904668fe1e3bfdfd/hrbdataproject-2.2.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9b/3a/aeb97671c1c395d2e53fad5eb9297ad1e3c71b8f09b510969124ffa240a5/kcli-99.0.202405070556.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/54/99/b0770d486535561f4f5e4f2446cd46cafecb54946813733437073d664f95/OiRunner-0.0.2.tar.gz
+[2024-05-08 11:14:26] INFO root fetch - processPackages [pysideapi]: Downloading https://files.pythonhosted.org/packages/e5/02/3efda27cbd5c6269f79129b6832972afc905269394ea7e93ea5572925880/pysideapi-0.0.4.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [pyAgrum]: Downloading https://files.pythonhosted.org/packages/3b/c0/cd1801733a1f3a13552ef030f9cee81e69ef5ecce511a483143d7d1f0dbe/pyAgrum-1.8.3-cp39-cp39-win_amd64.whl
+[2024-05-08 11:14:27] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/09/5e/ef0f60d9f875b1f592932974f674d56a9cdc79d7597d4b04b89ab9efce87/hrbdataproject-2.3.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/bd/aa/02d130f333d93d1dd99602bd8c1ab0ef352851ed4187e80b5e76851de6df/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/65/18/dcd1ebfb5586b1059e70a66b985153b966a737dfa21b07aa5a41f6ba11e8/aps-toolkit-0.6.0.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/1f/58/2846e48a95fc28a3c49619db5f18d96e0ed17b2f2cb95ecd0572dd4e219b/oirunner-0.0.4.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/23/4f/f72e6e1319af47803b32c4470b62d37ee5869dd4ebf4b812737ebb293d31/sarcharts-0.0.1.dev83.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [hrbdataproject]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [hrbdataproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbdataproject-2.2.tar.gz tmp/hrbdataproject-2.3.tar.gz --markdown 20240508/h/hrbdataproject/2.2-2.3/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz --markdown 20240508/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1714772934-1.7.0.dev1715159505/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [pysideapi]: Downloading https://files.pythonhosted.org/packages/41/9b/29cd9738e531e6b2434554fde7cb481f9bb5335f7a1176c1bc5dcc92ab33/pysideapi-0.0.5.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.5.9.tar.gz tmp/aps-toolkit-0.6.0.tar.gz --markdown 20240508/a/aps-toolkit/0.5.9-0.6.0/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [OiRunner]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [OiRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OiRunner-0.0.2.tar.gz tmp/oirunner-0.0.4.tar.gz --markdown 20240508/O/OiRunner/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.0.1.dev81.tar.gz tmp/sarcharts-0.0.1.dev83.tar.gz --markdown 20240508/s/sarcharts/0.0.1.dev81-0.0.1.dev83/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/27/c4/6399b85224a377f978e952b77180b9febdb1c6401467de0d2d003c059c65/kcli-99.0.202405071430.tar.gz
+[2024-05-08 11:14:27] INFO root fetch - processPackages [pysideapi]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [pysideapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysideapi-0.0.4.tar.gz tmp/pysideapi-0.0.5.tar.gz --markdown 20240508/p/pysideapi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 11:14:27] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-08 11:14:27] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405070556.tar.gz tmp/kcli-99.0.202405071430.tar.gz --markdown 20240508/k/kcli/99.0.202405070556-99.0.202405071430/README.md --exclude *.pyd
+[2024-05-08 11:14:28] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.2.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.3.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [hrbdataproject]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1714772934.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715159505.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [pysideapi]: Remove: archive file [/home/abi/fetcher/tmp/pysideapi-0.0.4.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [pysideapi]: Remove: archive file [/home/abi/fetcher/tmp/pysideapi-0.0.5.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [pysideapi]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/OiRunner-0.0.2.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/oirunner-0.0.4.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [OiRunner]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.9.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.0.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-08 11:14:28] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev81.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev83.tar.gz]
+[2024-05-08 11:14:28] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-08 11:14:29] INFO root fetch - processPackages [pyAgrum]: Downloading https://files.pythonhosted.org/packages/ac/65/a6d2f515980adfc34b791b928c6bdc0b9a9fc744dca9ad9a1efa0b6000db/pyAgrum-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-08 11:14:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405070556.tar.gz]
+[2024-05-08 11:14:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405071430.tar.gz]
+[2024-05-08 11:14:30] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-08 11:14:30] INFO root fetch - processPackages [pyAgrum]: executing diffoscope
+[2024-05-08 11:14:30] INFO root fetch - processPackages [pyAgrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum-1.8.3-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240508/p/pyAgrum/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-05-08 11:14:31] INFO root fetch - processPackages [pyAgrum]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum-1.8.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 11:14:31] INFO root fetch - processPackages [pyAgrum]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 11:14:31] INFO root fetch - main [MainThread]: End processing [pyAgrum]: success
+[2024-05-08 11:14:31] INFO root fetch - main [MainThread]: Store serial: [23111184]
