@@ -7562,3 +7562,42 @@
 [2024-05-08 03:34:12] INFO root fetch - processPackages [toga-core]: Remove: archive file [/home/abi/fetcher/tmp/toga_core-0.4.4.tar.gz]
 [2024-05-08 03:34:12] INFO root fetch - main [MainThread]: End processing [toga-core]: success
 [2024-05-08 03:34:12] INFO root fetch - main [MainThread]: Store serial: [23107232]
+[2024-05-08 03:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107232]
+[2024-05-08 03:36:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 03:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-08 03:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pd-extras
+[2024-05-08 03:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctidb
+[2024-05-08 03:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyAgrum-nightly
+[2024-05-08 03:36:21] INFO root fetch - processPackages [pd-extras]: New version: [6.1.0] Old Version: [6.0.4]
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ctidb]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ansar-create]: New version: [0.1.77] Old Version: [0.1.76]
+[2024-05-08 03:36:21] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/b2/19/0a184416501e6da00e72b5939999ad9badb5211ad49ac97d2cd452d36275/pd_extras-6.0.4.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/42/78/e4fb1362a901babbfdf5db8b1180c09265601bf55cedc675ff341ff4370b/ctidb-1.1.8.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/8b/30/4fe328a05df8d1d2b428175bec196d2b7498708a346070e04bd73fd4d6f3/ansar-create-0.1.76.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [pd-extras]: Downloading https://files.pythonhosted.org/packages/84/a4/054c831876de6fa5a9eabbd068f46f4bbed193ed5e8bad6c143a5e084713/pd_extras-6.1.0.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/d2/1e/b10a7f5cc1fe8eca37c6bc82286367c54174f21498f9af63611d3011dc00/ansar_create-0.1.77.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/6d/b1/1fbd1aad7ad645bfb5a0bb144397f640c1e2e8ae66989c7b0e27ad811e41/ctidb-1.1.9.tar.gz
+[2024-05-08 03:36:21] INFO root fetch - processPackages [pd-extras]: executing diffoscope
+[2024-05-08 03:36:21] INFO root fetch - processPackages [pd-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pd_extras-6.0.4.tar.gz tmp/pd_extras-6.1.0.tar.gz --markdown 20240508/p/pd-extras/6.0.4-6.1.0/README.md --exclude *.pyd
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-08 03:36:21] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-create-0.1.76.tar.gz tmp/ansar_create-0.1.77.tar.gz --markdown 20240508/a/ansar-create/0.1.76-0.1.77/README.md --exclude *.pyd
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ctidb]: executing diffoscope
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ctidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctidb-1.1.8.tar.gz tmp/ctidb-1.1.9.tar.gz --markdown 20240508/c/ctidb/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-08 03:36:22] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.0.4.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - processPackages [pd-extras]: Remove: archive file [/home/abi/fetcher/tmp/pd_extras-6.1.0.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - main [MainThread]: End processing [pd-extras]: success
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-1.1.8.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-1.1.9.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - main [MainThread]: End processing [ctidb]: success
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar-create-0.1.76.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.77.tar.gz]
+[2024-05-08 03:36:22] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-08 03:36:23] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-08 03:36:23] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240508/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 03:36:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 03:36:24] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-08 03:36:24] INFO root fetch - main [MainThread]: Store serial: [23107248]
