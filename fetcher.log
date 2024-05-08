@@ -20516,3 +20516,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:32:10] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.9.0.tar.gz]
 [2024-05-08 13:32:10] INFO root fetch - main [MainThread]: End processing [ory-client]: success
 [2024-05-08 13:32:10] INFO root fetch - main [MainThread]: Store serial: [23112714]
+[2024-05-08 13:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112714]
+[2024-05-08 13:34:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbis-exc-manager
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asposeslidescloud
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qBitrr2
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speedtab
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-version-remla
+[2024-05-08 13:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-fedit
+[2024-05-08 13:34:19] INFO root fetch - processPackages [qBitrr2]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-08 13:34:19] INFO root fetch - processPackages [dbis-exc-manager]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-08 13:34:19] WARNING root fetch - processPackages [lib-version-remla]: Skipping, unable to determine old version
+[2024-05-08 13:34:19] INFO root fetch - main [MainThread]: End processing [lib-version-remla] error
+[2024-05-08 13:34:19] INFO root fetch - processPackages [asposeslidescloud]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-05-08 13:34:19] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.9] Old Version: [0.2.1.8]
+[2024-05-08 13:34:19] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/84/7a/7c6a859d986da1919c0e46ccd4ad158ae434034b1ceb7800889556c6dfd4/qbitrr2-4.5.8.tar.gz
+[2024-05-08 13:34:19] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.5rc1] Old Version: [1.5.4rc9]
+[2024-05-08 13:34:19] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/b5/c4/accc875e11508d95eed1fd6d36d6b1cedf1c586f7a9eee00bdc86ae0d43d/dbis-exc-manager-1.0.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/f7/90/94820ac30a8b17a1577543675c6797de8c0ae81622550bfe23c83cc3c7ea/asposeslidescloud-24.3.0.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [qBitrr2]: Downloading https://files.pythonhosted.org/packages/60/b3/5b053f1e8c914c8df8ba56516273e7ae252ab092078e32ba2c6e9d623a85/qbitrr2-4.5.9.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/95/89/337ab3474e46ad5b59ff59ce16b37d2be2e44179da95fbcd70c01baa4688/speedtab-0.2.1.8.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/a3/84/2cd6bfbae7e69eb7c9b3f825cd0ae1163110740ba8f5784e613b6ae3b5e6/wagtail_fedit-1.5.4rc9.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [qBitrr2]: executing diffoscope
+[2024-05-08 13:34:20] INFO root fetch - processPackages [qBitrr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbitrr2-4.5.8.tar.gz tmp/qbitrr2-4.5.9.tar.gz --markdown 20240508/q/qBitrr2/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-08 13:34:20] INFO root fetch - processPackages [asposeslidescloud]: Downloading https://files.pythonhosted.org/packages/74/2c/5d6ede845422a76a1db6d673802ecf6dbc8aaeabc71ad1ca4b5d20200511/asposeslidescloud-24.4.0.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/be/8c/6158ea8b958e0fa8608d28bc0bef2d9c046c84ffdca46bc3986c0c6b0843/wagtail_fedit-1.5.5rc1.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [dbis-exc-manager]: Downloading https://files.pythonhosted.org/packages/22/e8/0ce8ad2f183e8344609a69864f5dc91e2ce4b16417fb2afdfc5881733be9/dbis_exc_manager-1.0.1.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f0/58/587cc691da0423e547e6961926996118297d48068f8088a154d8992c2fe1/speedtab-0.2.1.9.tar.gz
+[2024-05-08 13:34:20] INFO root fetch - processPackages [asposeslidescloud]: executing diffoscope
+[2024-05-08 13:34:20] INFO root fetch - processPackages [asposeslidescloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asposeslidescloud-24.3.0.tar.gz tmp/asposeslidescloud-24.4.0.tar.gz --markdown 20240508/a/asposeslidescloud/24.3.0-24.4.0/README.md --exclude *.pyd
+[2024-05-08 13:34:20] INFO root fetch - processPackages [dbis-exc-manager]: executing diffoscope
+[2024-05-08 13:34:20] INFO root fetch - processPackages [dbis-exc-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-exc-manager-1.0.tar.gz tmp/dbis_exc_manager-1.0.1.tar.gz --markdown 20240508/d/dbis-exc-manager/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 13:34:20] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-05-08 13:34:20] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.8.tar.gz tmp/speedtab-0.2.1.9.tar.gz --markdown 20240508/s/speedtab/0.2.1.8-0.2.1.9/README.md --exclude *.pyd
+[2024-05-08 13:34:20] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-05-08 13:34:20] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.4rc9.tar.gz tmp/wagtail_fedit-1.5.5rc1.tar.gz --markdown 20240508/w/wagtail-fedit/1.5.4rc9-1.5.5rc1/README.md --exclude *.pyd
+[2024-05-08 13:34:20] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.8.tar.gz]
+[2024-05-08 13:34:20] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.9.tar.gz]
+[2024-05-08 13:34:20] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
+[2024-05-08 13:34:21] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis-exc-manager-1.0.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - processPackages [dbis-exc-manager]: Remove: archive file [/home/abi/fetcher/tmp/dbis_exc_manager-1.0.1.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - main [MainThread]: End processing [dbis-exc-manager]: success
+[2024-05-08 13:34:21] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.8.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.9.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-05-08 13:34:21] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.4rc9.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.5rc1.tar.gz]
+[2024-05-08 13:34:21] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-05-08 13:34:22] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.3.0.tar.gz]
+[2024-05-08 13:34:22] INFO root fetch - processPackages [asposeslidescloud]: Remove: archive file [/home/abi/fetcher/tmp/asposeslidescloud-24.4.0.tar.gz]
+[2024-05-08 13:34:22] INFO root fetch - main [MainThread]: End processing [asposeslidescloud]: success
+[2024-05-08 13:34:22] INFO root fetch - main [MainThread]: Store serial: [23112735]
