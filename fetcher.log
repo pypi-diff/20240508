@@ -11695,3 +11695,51 @@
 [2024-05-08 08:04:07] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-08 08:04:07] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-08 08:04:07] INFO root fetch - main [MainThread]: Store serial: [23108774]
+[2024-05-08 08:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108774]
+[2024-05-08 08:06:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 08:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-05-08 08:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatshow-toolbox
+[2024-05-08 08:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoThemeGenerator
+[2024-05-08 08:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytoniq-core
+[2024-05-08 08:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whatshow-phy-mod-otfs
+[2024-05-08 08:06:16] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 08:06:16] INFO root fetch - processPackages [pytoniq-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-toolbox]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-08 08:06:16] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-08 08:06:16] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/c1/59/06138ec86bcb5f424f0cc275a3d4a440ee2eaeccab8a55ecafc1326854b2/autothemegenerator-0.0.7.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/5d/9f/b091d947da74cbaf578468014c8a5bb29ce23f7e39b696ec99afd9380046/whatshow_phy_mod_otfs-2.1.1.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/80/fd/17719a7a0ccfcc5482b7463af901ba6d3e4f1874aae61f884fe75c3bbdb6/pytoniq-core-0.1.8.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-toolbox]: Downloading https://files.pythonhosted.org/packages/f9/5d/202b19044db38a56ef9d8e623e7c09c390fa293449ea54459ae140b4acb0/whatshow_toolbox-1.0.7.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/3a/40/f1ce3feccfa13072090a675ed4bbe7b7cf8d75f2f2a4cfef13b35c40a901/whatshow_phy_mod_otfs-2.1.2.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/1d/c6/2c8daf13fd29ba3b0b2065bf051f422b9e3733d408a6c5931f651d3aa033/pytoniq-core-0.1.9.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/1a/15/8aa76540528712f59d4ea5d95667eb5ede9c97dd3c546900cadbd8b5f963/autothemegenerator-0.0.8.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-toolbox]: Downloading https://files.pythonhosted.org/packages/cb/89/ad9eb5b476be4824fbb5b68df7e0bd07b90b0e4b3e5ce45a8c44d217a378/whatshow_toolbox-1.0.8.tar.gz
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: executing diffoscope
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_phy_mod_otfs-2.1.1.tar.gz tmp/whatshow_phy_mod_otfs-2.1.2.tar.gz --markdown 20240508/w/whatshow-phy-mod-otfs/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-08 08:06:16] INFO root fetch - processPackages [pytoniq-core]: executing diffoscope
+[2024-05-08 08:06:16] INFO root fetch - processPackages [pytoniq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-core-0.1.8.tar.gz tmp/pytoniq-core-0.1.9.tar.gz --markdown 20240508/p/pytoniq-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-toolbox]: executing diffoscope
+[2024-05-08 08:06:16] INFO root fetch - processPackages [whatshow-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_toolbox-1.0.7.tar.gz tmp/whatshow_toolbox-1.0.8.tar.gz --markdown 20240508/w/whatshow-toolbox/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 08:06:16] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-08 08:06:16] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240508/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-08 08:06:16] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-08 08:06:16] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.0.7.tar.gz tmp/autothemegenerator-0.0.8.tar.gz --markdown 20240508/A/AutoThemeGenerator/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 08:06:17] INFO root fetch - processPackages [whatshow-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_toolbox-1.0.7.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - processPackages [whatshow-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_toolbox-1.0.8.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [whatshow-toolbox]: success
+[2024-05-08 08:06:17] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.1.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.2.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [whatshow-phy-mod-otfs]: success
+[2024-05-08 08:06:17] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.7.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.8.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-08 08:06:17] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.8.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
+[2024-05-08 08:06:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-08 08:06:17] INFO root fetch - main [MainThread]: Store serial: [23108789]
