@@ -10118,3 +10118,42 @@
 [2024-05-08 05:54:24] INFO root fetch - processPackages [aliyun-python-sdk-vod]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-vod-2.9.0.tar.gz]
 [2024-05-08 05:54:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-vod]: success
 [2024-05-08 05:54:24] INFO root fetch - main [MainThread]: Store serial: [23108136]
+[2024-05-08 05:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108136]
+[2024-05-08 05:56:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anylearn
+[2024-05-08 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-05-08 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-05-08 05:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cnmf
+[2024-05-08 05:56:33] INFO root fetch - processPackages [cnmf]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-08 05:56:33] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/32/64/ff5ae7f475eb3c87b9c7277aa75f5899b867129ee3fb7d7164799f141e2e/cnmf-1.5.1.tar.gz
+[2024-05-08 05:56:33] INFO root fetch - processPackages [anylearn]: New version: [0.20.3rc2] Old Version: [0.20.3rc1]
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-08 05:56:33] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/cc/53/03b92d86e92ef57bc1d7ae33842be95a69ac1a8cc866143450c7c08813d7/anylearn-0.20.3rc1.tar.gz
+[2024-05-08 05:56:33] INFO root fetch - processPackages [cnmf]: Downloading https://files.pythonhosted.org/packages/7f/a8/89bc2b79c5967a46252816c5895b40154b69e9f3a4cdba684c6cf7dbed5e/cnmf-1.5.2.tar.gz
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-08 05:56:33] INFO root fetch - processPackages [cnmf]: executing diffoscope
+[2024-05-08 05:56:33] INFO root fetch - processPackages [cnmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnmf-1.5.1.tar.gz tmp/cnmf-1.5.2.tar.gz --markdown 20240508/c/cnmf/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240508/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-08 05:56:33] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/19/bf/7530b61d6111b5c09aebaab0ad439a4ca05dcac58e9b04c4c21c04e739fd/anylearn-0.20.3rc2.tar.gz
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-08 05:56:33] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240508/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-08 05:56:33] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2024-05-08 05:56:33] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.20.3rc1.tar.gz tmp/anylearn-0.20.3rc2.tar.gz --markdown 20240508/a/anylearn/0.20.3rc1-0.20.3rc2/README.md --exclude *.pyd
+[2024-05-08 05:56:34] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.5.1.tar.gz]
+[2024-05-08 05:56:34] INFO root fetch - processPackages [cnmf]: Remove: archive file [/home/abi/fetcher/tmp/cnmf-1.5.2.tar.gz]
+[2024-05-08 05:56:34] INFO root fetch - main [MainThread]: End processing [cnmf]: success
+[2024-05-08 05:56:34] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-08 05:56:34] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-08 05:56:34] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-08 05:56:34] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.3rc1.tar.gz]
+[2024-05-08 05:56:34] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.3rc2.tar.gz]
+[2024-05-08 05:56:34] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2024-05-08 05:56:35] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-08 05:56:35] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-08 05:56:35] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-08 05:56:35] INFO root fetch - main [MainThread]: Store serial: [23108146]
