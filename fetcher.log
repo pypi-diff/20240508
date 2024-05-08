@@ -8927,3 +8927,27 @@
 [2024-05-08 04:59:27] INFO root fetch - processPackages [cpbox]: Remove: archive file [/home/abi/fetcher/tmp/cpbox-1.5.9.tar.gz]
 [2024-05-08 04:59:27] INFO root fetch - main [MainThread]: End processing [cpbox]: success
 [2024-05-08 04:59:27] INFO root fetch - main [MainThread]: Store serial: [23107763]
+[2024-05-08 05:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107763]
+[2024-05-08 05:01:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-csgo-case-simulator
+[2024-05-08 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotest-grader
+[2024-05-08 05:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptvm
+[2024-05-08 05:01:36] WARNING root fetch - processPackages [gptvm]: Skipping, unable to determine old version
+[2024-05-08 05:01:36] INFO root fetch - processPackages [iotest-grader]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 05:01:36] INFO root fetch - main [MainThread]: End processing [gptvm] error
+[2024-05-08 05:01:36] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/52/d1/ff27a2746807c03dcbedb60063cc12763298f7e0ceffb82ef3b6ebc8fe81/iotest_grader-0.0.3.tar.gz
+[2024-05-08 05:01:36] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-08 05:01:36] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/74/a5/a6a05f37b4398a6c8d590091e217745c671e4aa3fa2ce12cf4c0be24d791/nonebot_plugin_csgo_case_simulator-1.1.4.tar.gz
+[2024-05-08 05:01:36] INFO root fetch - processPackages [iotest-grader]: Downloading https://files.pythonhosted.org/packages/7c/45/bca3a6719d4a4f1c328b6d67d1282a3b60f7ac55cd993a8d34125a6ec13f/iotest_grader-0.0.4.tar.gz
+[2024-05-08 05:01:36] INFO root fetch - processPackages [iotest-grader]: executing diffoscope
+[2024-05-08 05:01:36] INFO root fetch - processPackages [iotest-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotest_grader-0.0.3.tar.gz tmp/iotest_grader-0.0.4.tar.gz --markdown 20240508/i/iotest-grader/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 05:01:37] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.3.tar.gz]
+[2024-05-08 05:01:37] INFO root fetch - processPackages [iotest-grader]: Remove: archive file [/home/abi/fetcher/tmp/iotest_grader-0.0.4.tar.gz]
+[2024-05-08 05:01:37] INFO root fetch - main [MainThread]: End processing [iotest-grader]: success
+[2024-05-08 05:01:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Downloading https://files.pythonhosted.org/packages/b5/c1/bc80d968ec87984f79e2f79356135a20956b187ae163a4d50819ef57680d/nonebot_plugin_csgo_case_simulator-1.1.5.tar.gz
+[2024-05-08 05:01:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: executing diffoscope
+[2024-05-08 05:01:37] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_csgo_case_simulator-1.1.4.tar.gz tmp/nonebot_plugin_csgo_case_simulator-1.1.5.tar.gz --markdown 20240508/n/nonebot-plugin-csgo-case-simulator/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-08 05:01:39] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_csgo_case_simulator-1.1.4.tar.gz]
+[2024-05-08 05:01:39] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_csgo_case_simulator-1.1.5.tar.gz]
+[2024-05-08 05:01:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
+[2024-05-08 05:01:39] INFO root fetch - main [MainThread]: Store serial: [23107771]
