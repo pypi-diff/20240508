@@ -21302,3 +21302,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:05:35] INFO root fetch - processPackages [batou-ext]: Remove: archive file [/home/abi/fetcher/tmp/batou_ext-2.4.8.tar.gz]
 [2024-05-08 14:05:35] INFO root fetch - main [MainThread]: End processing [batou-ext]: success
 [2024-05-08 14:05:35] INFO root fetch - main [MainThread]: Store serial: [23113015]
+[2024-05-08 14:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113015]
+[2024-05-08 14:07:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xbooster
+[2024-05-08 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inuits-python-logging-loki
+[2024-05-08 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discorudo
+[2024-05-08 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-jenkins
+[2024-05-08 14:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypi-attestation-models
+[2024-05-08 14:07:44] INFO root fetch - processPackages [xbooster]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-08 14:07:44] INFO root fetch - processPackages [inuits-python-logging-loki]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-08 14:07:44] INFO root fetch - processPackages [pypi-attestation-models]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-05-08 14:07:44] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/28/94/8732b186280f9709c49892ad238a279be9948aab3e1d19078484f629ae15/xbooster-0.2.1.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-08 14:07:44] INFO root fetch - processPackages [discorudo]: New version: [1.3] Old Version: [1.2]
+[2024-05-08 14:07:44] INFO root fetch - processPackages [pypi-attestation-models]: Downloading https://files.pythonhosted.org/packages/f6/1d/991603a7371182cc27f499e4f825896813f488906e3b758c807543136ca2/pypi_attestation_models-0.0.1rc1.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/db/f2/be7f325c17f55655c279ed0d6c376f5058b755c84b8665a8b2c5aa1a5914/inuits_python_logging_loki-1.2.1.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [xbooster]: Downloading https://files.pythonhosted.org/packages/36/9e/51a4d6227c213f683260af3436c8a731cd97d24a8bdb240da57ce0551cee/xbooster-0.2.3.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [discorudo]: Downloading https://files.pythonhosted.org/packages/8d/48/488bb25049289cb0c2990053157a8c2f0a9155350ff253d6bab6a0dce02d/discorudo-1.2.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [xbooster]: executing diffoscope
+[2024-05-08 14:07:44] INFO root fetch - processPackages [xbooster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xbooster-0.2.1.tar.gz tmp/xbooster-0.2.3.tar.gz --markdown 20240508/x/xbooster/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-08 14:07:44] INFO root fetch - processPackages [pypi-attestation-models]: Downloading https://files.pythonhosted.org/packages/a3/86/dcf545ca3addf8940f127be2c36df48851befda59f0b7e55791617ae5e31/pypi_attestation_models-0.0.1rc2.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2024-05-08 14:07:44] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/4a/e3/33cec648843bc13afe54f7fab1cf169a09d310b0391a36d809efea1e7390/inuits_python_logging_loki-1.3.0.tar.gz
+[2024-05-08 14:07:45] INFO root fetch - processPackages [discorudo]: Downloading https://files.pythonhosted.org/packages/31/3e/0017b79dbda13118c8574f4fa1e3c909b949110b657de977540bdcd70d0b/discorudo-1.3.tar.gz
+[2024-05-08 14:07:45] INFO root fetch - processPackages [pypi-attestation-models]: executing diffoscope
+[2024-05-08 14:07:45] INFO root fetch - processPackages [pypi-attestation-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi_attestation_models-0.0.1rc1.tar.gz tmp/pypi_attestation_models-0.0.1rc2.tar.gz --markdown 20240508/p/pypi-attestation-models/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-05-08 14:07:45] INFO root fetch - processPackages [inuits-python-logging-loki]: executing diffoscope
+[2024-05-08 14:07:45] INFO root fetch - processPackages [inuits-python-logging-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits_python_logging_loki-1.2.1.tar.gz tmp/inuits_python_logging_loki-1.3.0.tar.gz --markdown 20240508/i/inuits-python-logging-loki/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-08 14:07:45] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2024-05-08 14:07:45] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20240508/c/cdk8s-jenkins/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-08 14:07:45] INFO root fetch - processPackages [discorudo]: executing diffoscope
+[2024-05-08 14:07:45] INFO root fetch - processPackages [discorudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discorudo-1.2.tar.gz tmp/discorudo-1.3.tar.gz --markdown 20240508/d/discorudo/1.2-1.3/README.md --exclude *.pyd
+[2024-05-08 14:07:45] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.1.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - processPackages [xbooster]: Remove: archive file [/home/abi/fetcher/tmp/xbooster-0.2.3.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [xbooster]: success
+[2024-05-08 14:07:45] INFO root fetch - processPackages [pypi-attestation-models]: Remove: archive file [/home/abi/fetcher/tmp/pypi_attestation_models-0.0.1rc1.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - processPackages [pypi-attestation-models]: Remove: archive file [/home/abi/fetcher/tmp/pypi_attestation_models-0.0.1rc2.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [pypi-attestation-models]: success
+[2024-05-08 14:07:45] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.2.1.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.3.0.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [inuits-python-logging-loki]: success
+[2024-05-08 14:07:45] INFO root fetch - processPackages [discorudo]: Remove: archive file [/home/abi/fetcher/tmp/discorudo-1.2.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - processPackages [discorudo]: Remove: archive file [/home/abi/fetcher/tmp/discorudo-1.3.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [discorudo]: success
+[2024-05-08 14:07:45] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2024-05-08 14:07:45] INFO root fetch - main [MainThread]: Store serial: [23113030]
