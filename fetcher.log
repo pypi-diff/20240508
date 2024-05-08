@@ -19510,3 +19510,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 13:01:03] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
 [2024-05-08 13:01:03] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2024-05-08 13:01:03] INFO root fetch - main [MainThread]: Store serial: [23112324]
+[2024-05-08 13:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112324]
+[2024-05-08 13:03:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepeval
+[2024-05-08 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XGRCpy
+[2024-05-08 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygenuz
+[2024-05-08 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2024-05-08 13:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storyblok-assets-cleanup
+[2024-05-08 13:03:12] INFO root fetch - processPackages [pygenuz]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-05-08 13:03:12] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-08 13:03:12] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 13:03:12] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-08 13:03:12] INFO root fetch - processPackages [XGRCpy]: New version: [0.5.0] Old Version: [0.1.0]
+[2024-05-08 13:03:12] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/1e/7c/bd187e6e798a28c99efabd3655c19745a64313b69931dedc8042b7ed56d7/pygenuz-0.2.6.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [storyblok-assets-cleanup]: New version: [0.0.1.dev6] Old Version: [0.0.1]
+[2024-05-08 13:03:13] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [XGRCpy]: Downloading https://files.pythonhosted.org/packages/51/58/4d9e88a508fb5d924f71b4fab7055c54289870b1314a025fadb9ca0450ab/XGRCpy-0.1.0.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [storyblok-assets-cleanup]: Downloading https://files.pythonhosted.org/packages/b2/d9/695712d93982e79995b24ee7f725458affdcb66f58385f79a75dd63291b6/storyblok-assets-cleanup-0.0.1.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/8d/e6/d71c5d9a7929b6fb292ef2d230382a9042652ed891dd6a9b46b037335042/pygenuz-0.2.8.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-08 13:03:13] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240508/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-08 13:03:13] INFO root fetch - processPackages [pygenuz]: executing diffoscope
+[2024-05-08 13:03:13] INFO root fetch - processPackages [pygenuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenuz-0.2.6.tar.gz tmp/pygenuz-0.2.8.tar.gz --markdown 20240508/p/pygenuz/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-05-08 13:03:13] INFO root fetch - processPackages [XGRCpy]: Downloading https://files.pythonhosted.org/packages/f6/57/0f69dfcff15ca6db3c6dc4dafa136405cb3b7f908b864f90a6e58e8f5009/XGRCpy-0.5.0.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-08 13:03:13] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240508/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 13:03:13] INFO root fetch - processPackages [XGRCpy]: executing diffoscope
+[2024-05-08 13:03:13] INFO root fetch - processPackages [XGRCpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XGRCpy-0.1.0.tar.gz tmp/XGRCpy-0.5.0.tar.gz --markdown 20240508/X/XGRCpy/0.1.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 13:03:13] INFO root fetch - processPackages [storyblok-assets-cleanup]: Downloading https://files.pythonhosted.org/packages/4c/ff/0fe3c906f55d924414b25cbe0c998115acce7f25a079da85435b267dde0e/storyblok-assets-cleanup-0.0.1.dev6.tar.gz
+[2024-05-08 13:03:13] INFO root fetch - processPackages [storyblok-assets-cleanup]: executing diffoscope
+[2024-05-08 13:03:13] INFO root fetch - processPackages [storyblok-assets-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storyblok-assets-cleanup-0.0.1.tar.gz tmp/storyblok-assets-cleanup-0.0.1.dev6.tar.gz --markdown 20240508/s/storyblok-assets-cleanup/0.0.1-0.0.1.dev6/README.md --exclude *.pyd
+[2024-05-08 13:03:14] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.6.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.8.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [pygenuz]: success
+[2024-05-08 13:03:14] INFO root fetch - processPackages [XGRCpy]: Remove: archive file [/home/abi/fetcher/tmp/XGRCpy-0.1.0.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [XGRCpy]: Remove: archive file [/home/abi/fetcher/tmp/XGRCpy-0.5.0.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [XGRCpy]: success
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-08 13:03:14] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-08 13:03:14] INFO root fetch - processPackages [storyblok-assets-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/storyblok-assets-cleanup-0.0.1.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - processPackages [storyblok-assets-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/storyblok-assets-cleanup-0.0.1.dev6.tar.gz]
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: End processing [storyblok-assets-cleanup]: success
+[2024-05-08 13:03:14] INFO root fetch - main [MainThread]: Store serial: [23112342]
