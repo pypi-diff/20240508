@@ -12648,3 +12648,33 @@
 [2024-05-08 08:59:07] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.5.9.tar.gz]
 [2024-05-08 08:59:07] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
 [2024-05-08 08:59:07] INFO root fetch - main [MainThread]: Store serial: [23109311]
+[2024-05-08 09:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109311]
+[2024-05-08 09:01:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 09:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagbag
+[2024-05-08 09:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-grid
+[2024-05-08 09:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsp-tools
+[2024-05-08 09:01:16] INFO root fetch - processPackages [dsp-tools]: New version: [7.1.3.post9] Old Version: [7.1.3.post7]
+[2024-05-08 09:01:16] INFO root fetch - processPackages [bagbag]: New version: [0.66.9] Old Version: [0.66.8]
+[2024-05-08 09:01:16] INFO root fetch - processPackages [gradio-grid]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 09:01:16] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/12/ec/6321f2f867f7f9c9700c40f152820960ac3ad1c4acbca1dddb86f9a7cdeb/dsp_tools-7.1.3.post7.tar.gz
+[2024-05-08 09:01:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/0e/fa/409ace3b7fa82c9f017a244fbc09e43e62f71a9e83c54a7946320de1be12/bagbag-0.66.8.tar.gz
+[2024-05-08 09:01:16] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/0c/54/ffec597219d99424f5881f7fcd8bb883d73f8d8d95e008b656f14e02f951/dsp_tools-7.1.3.post9.tar.gz
+[2024-05-08 09:01:16] INFO root fetch - processPackages [gradio-grid]: Downloading https://files.pythonhosted.org/packages/8f/86/39fbbc42386386d0f779ea22743070a962753b04509282d982b22ea7e46b/gradio_grid-1.0.1.tar.gz
+[2024-05-08 09:01:16] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/30/88/4174562d809cf055fbb96d6fff38c6df8b57994d197c2860eb3ef08fc813/bagbag-0.66.9.tar.gz
+[2024-05-08 09:01:16] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-05-08 09:01:16] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.1.3.post7.tar.gz tmp/dsp_tools-7.1.3.post9.tar.gz --markdown 20240508/d/dsp-tools/7.1.3.post7-7.1.3.post9/README.md --exclude *.pyd
+[2024-05-08 09:01:16] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-08 09:01:16] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.66.8.tar.gz tmp/bagbag-0.66.9.tar.gz --markdown 20240508/b/bagbag/0.66.8-0.66.9/README.md --exclude *.pyd
+[2024-05-08 09:01:16] INFO root fetch - processPackages [gradio-grid]: Downloading https://files.pythonhosted.org/packages/81/4c/1400b3061a9ffebc5d3ed95f27375a1f93f24ced87ed8f943ab6e64c9b4c/gradio_grid-1.0.2-py3-none-any.whl
+[2024-05-08 09:01:17] INFO root fetch - processPackages [gradio-grid]: executing diffoscope
+[2024-05-08 09:01:17] INFO root fetch - processPackages [gradio-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_grid-1.0.1.tar.gz tmp/gradio_grid-1.0.2-py3-none-any.whl.zip --markdown 20240508/g/gradio-grid/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 09:01:17] INFO root fetch - processPackages [gradio-grid]: Remove: archive file [/home/abi/fetcher/tmp/gradio_grid-1.0.1.tar.gz]
+[2024-05-08 09:01:17] INFO root fetch - processPackages [gradio-grid]: Remove: archive file [/home/abi/fetcher/tmp/gradio_grid-1.0.2-py3-none-any.whl.zip]
+[2024-05-08 09:01:17] INFO root fetch - main [MainThread]: End processing [gradio-grid]: success
+[2024-05-08 09:01:18] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post7.tar.gz]
+[2024-05-08 09:01:18] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.1.3.post9.tar.gz]
+[2024-05-08 09:01:18] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-05-08 09:01:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.8.tar.gz]
+[2024-05-08 09:01:18] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
+[2024-05-08 09:01:18] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-08 09:01:18] INFO root fetch - main [MainThread]: Store serial: [23109323]
