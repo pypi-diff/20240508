@@ -16227,3 +16227,78 @@
 [2024-05-08 11:02:37] INFO root fetch - processPackages [mobspy]: Remove: archive file [/home/abi/fetcher/tmp/mobspy-2.4.1.tar.gz]
 [2024-05-08 11:02:37] INFO root fetch - main [MainThread]: End processing [mobspy]: success
 [2024-05-08 11:02:37] INFO root fetch - main [MainThread]: Store serial: [23110985]
+[2024-05-08 11:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110985]
+[2024-05-08 11:04:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dblcsgen
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opsramp-analytics-utils
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-bank-from-iban
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upgini
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.common
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.core
+[2024-05-08 11:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-05-08 11:04:46] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240507] Old Version: [1.1.1b20240506]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.5.2] Old Version: [3.5.1]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/ca/3e/47a0f8b9ca25854df49e88bba571e36f71e8ec9e542b692e0a882d3c0659/dblcsgen-0.2.4.tar.gz
+[2024-05-08 11:04:46] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240508] Old Version: [1.1.1b20240507]
+[2024-05-08 11:04:46] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/31/d6/13e048671ac1502991ceef780fa83ab169c553ca72aa197d872c61d9887d/autogluon.features-1.1.1b20240506.tar.gz
+[2024-05-08 11:04:46] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:04:46] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/83/38/9c1772f0a95d53cbc9af7a347a8a0b5de211f2cfe7a4fa1225f5e701a7df/autogluon.common-1.1.1b20240506.tar.gz
+[2024-05-08 11:04:46] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/14/ad/ce133a36a23f1c1036ce52cb949b895924206f7d696874ddf18936abdd0e/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-08 11:04:46] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/36/ef/162a362bb9f36434caa8e5876f220c1b009c5983cfea353cba8a09044ba8/opsramp-analytics-utils-3.5.1.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b9/77/117510fa637ea53bc43f1ce283c333669bbbd7612c9665d94af707df1d6d/autogluon.core-1.1.1b20240507.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/4d/5a/7ac1129e55d217a184bedb2053317291276ee4c7b1b6cd85fed60182bb8a/dblcsgen-0.2.5.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/27/b3/0458bb86764fd10cd7e5f8250492a473b3d175b994d4857e0eea7834da86/autogluon.common-1.1.1b20240507.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.4.tar.gz tmp/dblcsgen-0.2.5.tar.gz --markdown 20240508/d/dblcsgen/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/2c/61/cd8aa55960d5b08dd84721c9a34b540831b33762350f9f12a11d8c1efc8e/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/4d/0c/04aeb3e9b9abb1a873132ddd7ed5142b2831cc6b12cae03854134486f26d/autogluon.features-1.1.1b20240507.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240506.tar.gz tmp/autogluon.common-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon.common/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/3e/b2/7b5171ba6f07a17bc38464265a784aac29b32f2ac5e25dad252186585f8d/autogluon.core-1.1.1b20240508.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-base-bank-from-iban/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/16/46/502a29cd460f4cd104faead5c071072691e04f0e6d3c25184d216a5a2382/opsramp-analytics-utils-3.5.2.tar.gz
+[2024-05-08 11:04:47] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240508/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240506.tar.gz tmp/autogluon.features-1.1.1b20240507.tar.gz --markdown 20240508/a/autogluon.features/1.1.1b20240506-1.1.1b20240507/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240507.tar.gz tmp/autogluon.core-1.1.1b20240508.tar.gz --markdown 20240508/a/autogluon.core/1.1.1b20240507-1.1.1b20240508/README.md --exclude *.pyd
+[2024-05-08 11:04:47] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2024-05-08 11:04:47] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.5.1.tar.gz tmp/opsramp-analytics-utils-3.5.2.tar.gz --markdown 20240508/o/opsramp-analytics-utils/3.5.1-3.5.2/README.md --exclude *.pyd
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240506.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240507.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_bank_from_iban-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-bank-from-iban]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240506.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240507.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.4.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.5.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240507.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240508.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-08 11:04:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.1.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.2.tar.gz]
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2024-05-08 11:04:48] INFO root fetch - main [MainThread]: Store serial: [23111007]
