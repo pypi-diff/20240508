@@ -10984,3 +10984,24 @@
 [2024-05-08 07:06:13] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.9.tar.gz]
 [2024-05-08 07:06:13] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-08 07:06:13] INFO root fetch - main [MainThread]: Store serial: [23108446]
+[2024-05-08 07:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108446]
+[2024-05-08 07:08:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulse-coupled-nn
+[2024-05-08 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jageocoder
+[2024-05-08 07:08:22] INFO root fetch - processPackages [pulse-coupled-nn]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-08 07:08:22] INFO root fetch - processPackages [pulse-coupled-nn]: Downloading https://files.pythonhosted.org/packages/bc/d0/3504c9e1bdc7952a85f1e4403c16df8c8839fb836c14875a08abbc003f0a/pulse_coupled_nn-0.0.2.tar.gz
+[2024-05-08 07:08:22] INFO root fetch - processPackages [jageocoder]: New version: [2.1.6] Old Version: [2.1.5.post1]
+[2024-05-08 07:08:22] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/c5/b7/31e295c0b90289e4fdf7c534b9fe7d90e97dd953f797163a9bdc2a00e8fd/jageocoder-2.1.5.post1.tar.gz
+[2024-05-08 07:08:22] INFO root fetch - processPackages [pulse-coupled-nn]: Downloading https://files.pythonhosted.org/packages/e9/3a/0910f50b9270aa8496543be4468803839a51252c469b2c5bb30bf8a8755c/pulse_coupled_nn-0.0.4.tar.gz
+[2024-05-08 07:08:22] INFO root fetch - processPackages [pulse-coupled-nn]: executing diffoscope
+[2024-05-08 07:08:22] INFO root fetch - processPackages [pulse-coupled-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulse_coupled_nn-0.0.2.tar.gz tmp/pulse_coupled_nn-0.0.4.tar.gz --markdown 20240508/p/pulse-coupled-nn/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-08 07:08:22] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/03/19/b7017acb32a5cd36fb8b6821575a123dcab50af4e4b28b86090fb7932b13/jageocoder-2.1.6.tar.gz
+[2024-05-08 07:08:22] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2024-05-08 07:08:22] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.1.5.post1.tar.gz tmp/jageocoder-2.1.6.tar.gz --markdown 20240508/j/jageocoder/2.1.5.post1-2.1.6/README.md --exclude *.pyd
+[2024-05-08 07:08:23] INFO root fetch - processPackages [pulse-coupled-nn]: Remove: archive file [/home/abi/fetcher/tmp/pulse_coupled_nn-0.0.2.tar.gz]
+[2024-05-08 07:08:23] INFO root fetch - processPackages [pulse-coupled-nn]: Remove: archive file [/home/abi/fetcher/tmp/pulse_coupled_nn-0.0.4.tar.gz]
+[2024-05-08 07:08:23] INFO root fetch - main [MainThread]: End processing [pulse-coupled-nn]: success
+[2024-05-08 07:08:23] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.5.post1.tar.gz]
+[2024-05-08 07:08:23] INFO root fetch - processPackages [jageocoder]: Remove: archive file [/home/abi/fetcher/tmp/jageocoder-2.1.6.tar.gz]
+[2024-05-08 07:08:23] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2024-05-08 07:08:23] INFO root fetch - main [MainThread]: Store serial: [23108452]
