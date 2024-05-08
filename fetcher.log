@@ -7337,3 +7337,69 @@
 [2024-05-08 03:29:46] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
 [2024-05-08 03:29:46] INFO root fetch - main [MainThread]: End processing [uv]: success
 [2024-05-08 03:29:46] INFO root fetch - main [MainThread]: Store serial: [23107142]
+[2024-05-08 03:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107142]
+[2024-05-08 03:31:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uv
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dkist-processing-common
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: variable-local
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tach
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-rest-api
+[2024-05-08 03:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PypiInstruments
+[2024-05-08 03:31:55] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 03:31:55] INFO root fetch - processPackages [variable-local]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-05-08 03:31:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715130976] Old Version: [0.0.21a1715042208]
+[2024-05-08 03:31:55] INFO root fetch - processPackages [PypiInstruments]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 03:31:55] INFO root fetch - processPackages [tach]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-08 03:31:56] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 03:31:56] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/b8/1d35add17d542c81724b68cd64c5a5ace0748ad9097dce324cbe0d9fc0ea/variable_local-0.0.95.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [dkist-processing-common]: New version: [6.2.2] Old Version: [6.2.1rc2]
+[2024-05-08 03:31:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/86/80/d3246a76935d04dfb92505307560a59266d9e7329e1215024df13d73eae7/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/39/6a/919eac779212970e8d30861d8bdc8f06daa275323a6edeb179d233afd84d/PypiInstruments-1.0.3.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/e1/ca/3f445f7edd511dc2a5ffe66f3c25fb81aa603c88cd791e07bf1071cea637/tach-0.1.7.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/9f/bd/019ce8996797e489bbd72328c45a987e6ddccf20c80c6e1aac2b09112ee5/dkist-processing-common-6.2.1rc2.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/ee/3b/7e5911d73bb1085cfbba189048a88bf0d52e2bccc355eadc26b6792b2fcf/variable_local-0.0.96.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9c/38/6736bffca807ea8e018e986ccf5bf07c8e98f0a24ff1ab60f548a24bc2c2/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.95.tar.gz tmp/variable_local-0.0.96.tar.gz --markdown 20240508/v/variable-local/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-05-08 03:31:56] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz --markdown 20240508/p/pulumi-kubernetes-the-hard-way/0.0.21a1715042208-0.0.21a1715130976/README.md --exclude *.pyd
+[2024-05-08 03:31:56] INFO root fetch - processPackages [PypiInstruments]: Downloading https://files.pythonhosted.org/packages/59/fd/53389d2dd2b7c6a2857196159787d4bbc75b1792092517a12e444874fa0a/PypiInstruments-1.0.4.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/81/14/f2e88843295ba0f49dafacaa30e46682c67ae322813b2fcc7a04b192e7a7/tach-0.1.8.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240508/u/uv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 03:31:56] INFO root fetch - processPackages [dkist-processing-common]: Downloading https://files.pythonhosted.org/packages/98/31/27a783e23c1a6973692eeaee2c9a947c94257f463285ed3edfa8694b48bd/dkist-processing-common-6.2.2.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [PypiInstruments]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [PypiInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PypiInstruments-1.0.3.tar.gz tmp/PypiInstruments-1.0.4.tar.gz --markdown 20240508/P/PypiInstruments/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 03:31:56] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.1.7.tar.gz tmp/tach-0.1.8.tar.gz --markdown 20240508/t/tach/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-08 03:31:56] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2024-05-08 03:31:56] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2024-05-08 03:31:56] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-6.2.1rc2.tar.gz tmp/dkist-processing-common-6.2.2.tar.gz --markdown 20240508/d/dkist-processing-common/6.2.1rc2-6.2.2/README.md --exclude *.pyd
+[2024-05-08 03:31:57] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.95.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.96.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-08 03:31:57] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2024-05-08 03:31:57] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20240508/h/hatch-rest-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 03:31:57] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.3.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - processPackages [PypiInstruments]: Remove: archive file [/home/abi/fetcher/tmp/PypiInstruments-1.0.4.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - main [MainThread]: End processing [PypiInstruments]: success
+[2024-05-08 03:31:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715042208.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130976.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-08 03:31:57] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2024-05-08 03:31:57] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.7.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.8.tar.gz]
+[2024-05-08 03:31:57] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-08 03:31:58] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-6.2.1rc2.tar.gz]
+[2024-05-08 03:31:58] INFO root fetch - processPackages [dkist-processing-common]: Remove: archive file [/home/abi/fetcher/tmp/dkist-processing-common-6.2.2.tar.gz]
+[2024-05-08 03:31:58] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2024-05-08 03:31:59] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-05-08 03:31:59] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-05-08 03:31:59] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-05-08 03:31:59] INFO root fetch - main [MainThread]: Store serial: [23107177]
