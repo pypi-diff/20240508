@@ -16874,3 +16874,72 @@
 [2024-05-08 11:21:05] INFO root fetch - processPackages [babelfont]: Remove: archive file [/home/abi/fetcher/tmp/babelfont-3.0.5.tar.gz]
 [2024-05-08 11:21:05] INFO root fetch - main [MainThread]: End processing [babelfont]: success
 [2024-05-08 11:21:05] INFO root fetch - main [MainThread]: Store serial: [23111256]
+[2024-05-08 11:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111256]
+[2024-05-08 11:23:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrbdataproject
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareyourcloning-linkml
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labnas
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zitools
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyneople
+[2024-05-08 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sapx
+[2024-05-08 11:23:14] INFO root fetch - processPackages [hrbdataproject]: New version: [2.4] Old Version: [2.3]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [labnas]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/09/5e/ef0f60d9f875b1f592932974f674d56a9cdc79d7597d4b04b89ab9efce87/hrbdataproject-2.3.tar.gz
+[2024-05-08 11:23:14] WARNING root fetch - processPackages [zitools]: Skipping, unable to determine old version
+[2024-05-08 11:23:14] INFO root fetch - main [MainThread]: End processing [zitools] error
+[2024-05-08 11:23:14] INFO root fetch - processPackages [shareyourcloning-linkml]: New version: [0.1.3a0] Old Version: [0.1.2a0]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [sapx]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/b5/fa/b40f8c782c22badd41ccefbdee32713a9eec1ee9d823967bbd1fae55c461/labnas-0.2.2.tar.gz
+[2024-05-08 11:23:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-08 11:23:14] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 11:23:14] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/44/a6/4507f5e218ed1f37f2c595a40b3cb01c133e9f0e6f7d3a75cb691c60248d/shareyourcloning_linkml-0.1.2a0.tar.gz
+[2024-05-08 11:23:14] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/ef/9b/a1719db07b55d193ddfbf38b431467a3a53f73728954a5c7e8a223b97890/sapx-0.2.6.tar.gz
+[2024-05-08 11:23:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [hrbdataproject]: Downloading https://files.pythonhosted.org/packages/41/1e/172f0f2f812318207ab0baeb47b67d7f081f3214d4f0e4f5d21508efa0bb/hrbdataproject-2.4.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [labnas]: Downloading https://files.pythonhosted.org/packages/39/ae/9816eebbf81d850310480f1bef238ba3e75405edcc451d9aa63b2b12ca77/labnas-0.2.3.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [hrbdataproject]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [hrbdataproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrbdataproject-2.3.tar.gz tmp/hrbdataproject-2.4.tar.gz --markdown 20240508/h/hrbdataproject/2.3-2.4/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [labnas]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [labnas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labnas-0.2.2.tar.gz tmp/labnas-0.2.3.tar.gz --markdown 20240508/l/labnas/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/5d/a4/1328ce00709e2e0cae1062883143810b7ad2f84819e22af5807ba93a8f77/shareyourcloning_linkml-0.1.3a0.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [sapx]: Downloading https://files.pythonhosted.org/packages/1c/b4/c5cdd5e81a44d4763cff3f175fd66d70c4660d3354788b0cc2fec3902eae/sapx-0.2.8.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-08 11:23:15] INFO root fetch - processPackages [shareyourcloning-linkml]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [shareyourcloning-linkml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareyourcloning_linkml-0.1.2a0.tar.gz tmp/shareyourcloning_linkml-0.1.3a0.tar.gz --markdown 20240508/s/shareyourcloning-linkml/0.1.2a0-0.1.3a0/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [sapx]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [sapx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapx-0.2.6.tar.gz tmp/sapx-0.2.8.tar.gz --markdown 20240508/s/sapx/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-08 11:23:15] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240508/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-08 11:23:15] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.2.tar.gz]
+[2024-05-08 11:23:15] INFO root fetch - processPackages [labnas]: Remove: archive file [/home/abi/fetcher/tmp/labnas-0.2.3.tar.gz]
+[2024-05-08 11:23:15] INFO root fetch - main [MainThread]: End processing [labnas]: success
+[2024-05-08 11:23:15] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.3.tar.gz]
+[2024-05-08 11:23:15] INFO root fetch - processPackages [hrbdataproject]: Remove: archive file [/home/abi/fetcher/tmp/hrbdataproject-2.4.tar.gz]
+[2024-05-08 11:23:15] INFO root fetch - main [MainThread]: End processing [hrbdataproject]: success
+[2024-05-08 11:23:16] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 11:23:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-08 11:23:16] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.6.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - processPackages [sapx]: Remove: archive file [/home/abi/fetcher/tmp/sapx-0.2.8.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - main [MainThread]: End processing [sapx]: success
+[2024-05-08 11:23:16] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-08 11:23:16] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.2a0.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.3a0.tar.gz]
+[2024-05-08 11:23:16] INFO root fetch - main [MainThread]: End processing [shareyourcloning-linkml]: success
+[2024-05-08 11:23:16] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-08 11:23:16] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240508/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-08 11:23:18] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-08 11:23:18] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-08 11:23:18] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-08 11:23:18] INFO root fetch - main [MainThread]: Store serial: [23111282]
