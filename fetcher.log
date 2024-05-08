@@ -13286,3 +13286,45 @@
 [2024-05-08 09:26:26] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 09:26:26] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 09:26:26] INFO root fetch - main [MainThread]: Store serial: [23109751]
+[2024-05-08 09:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109751]
+[2024-05-08 09:28:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oligo-designer-toolsuite-ai-filters
+[2024-05-08 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskwarrior_flow
+[2024-05-08 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinjected
+[2024-05-08 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutrical
+[2024-05-08 09:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DesalSim
+[2024-05-08 09:28:34] INFO root fetch - processPackages [DesalSim]: New version: [0.7] Old Version: [0.6]
+[2024-05-08 09:28:34] INFO root fetch - processPackages [pinjected]: New version: [0.2.54] Old Version: [0.2.53]
+[2024-05-08 09:28:34] INFO root fetch - processPackages [nutrical]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-08 09:28:34] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/7a/4c/b90240b322ea669b74d02c5ad5c9c27b47deace0be0386630c49c4b568f9/desalsim-0.6.tar.gz
+[2024-05-08 09:28:34] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/c6/f4/94a79e1ab7042db41e21df447a09e483a26821c1605acb193f7c329b5e09/pinjected-0.2.53.tar.gz
+[2024-05-08 09:28:34] INFO root fetch - processPackages [taskwarrior_flow]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-08 09:28:34] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/61/aa/2da91f8a0bbc402ffd77fe9420647984d9d7baa2fdc25ab8467738b5ea5f/nutrical-0.0.4.tar.gz
+[2024-05-08 09:28:34] WARNING root fetch - processPackages [oligo-designer-toolsuite-ai-filters]: Skipping, unable to determine old version
+[2024-05-08 09:28:34] INFO root fetch - main [MainThread]: End processing [oligo-designer-toolsuite-ai-filters] error
+[2024-05-08 09:28:35] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/20/99/34d20432602ced0a58301b4ec1b64ac59f54781e02a4f85e53e0c3b3afd4/taskwarrior_flow-0.3.0.tar.gz
+[2024-05-08 09:28:35] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/95/a4/e8b2977dbe7b66f9ccd7487829c01e27b4aa2da8d37f145403135a212a81/nutrical-0.0.5.tar.gz
+[2024-05-08 09:28:35] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/6a/e3/68b241fa538cd9115a53f9555f230956313734a84b720256f282403ea1ce/pinjected-0.2.54.tar.gz
+[2024-05-08 09:28:35] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/1f/a1/aee8fa7d81a65399d5c34acdfad0e7ac5b560610656c3cd1af7fcfcdf2a8/desalsim-0.7.tar.gz
+[2024-05-08 09:28:35] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-08 09:28:35] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.4.tar.gz tmp/nutrical-0.0.5.tar.gz --markdown 20240508/n/nutrical/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-08 09:28:35] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-08 09:28:35] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.53.tar.gz tmp/pinjected-0.2.54.tar.gz --markdown 20240508/p/pinjected/0.2.53-0.2.54/README.md --exclude *.pyd
+[2024-05-08 09:28:35] INFO root fetch - processPackages [taskwarrior_flow]: Downloading https://files.pythonhosted.org/packages/64/1e/af3917da0d11edd2dd8d801bb896151a81247c5e42980dce6a8734f85084/taskwarrior_flow-0.3.1.tar.gz
+[2024-05-08 09:28:35] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 09:28:35] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.6.tar.gz tmp/desalsim-0.7.tar.gz --markdown 20240508/D/DesalSim/0.6-0.7/README.md --exclude *.pyd
+[2024-05-08 09:28:35] INFO root fetch - processPackages [taskwarrior_flow]: executing diffoscope
+[2024-05-08 09:28:35] INFO root fetch - processPackages [taskwarrior_flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskwarrior_flow-0.3.0.tar.gz tmp/taskwarrior_flow-0.3.1.tar.gz --markdown 20240508/t/taskwarrior_flow/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-08 09:28:36] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.4.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.5.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-08 09:28:36] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.3.0.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - processPackages [taskwarrior_flow]: Remove: archive file [/home/abi/fetcher/tmp/taskwarrior_flow-0.3.1.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - main [MainThread]: End processing [taskwarrior_flow]: success
+[2024-05-08 09:28:36] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.53.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.54.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-08 09:28:36] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.6.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.tar.gz]
+[2024-05-08 09:28:36] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 09:28:36] INFO root fetch - main [MainThread]: Store serial: [23109768]
