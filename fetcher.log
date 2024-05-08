@@ -19133,3 +19133,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:43:38] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-05-08 12:43:38] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-05-08 12:43:38] INFO root fetch - main [MainThread]: Store serial: [23112124]
+[2024-05-08 12:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112124]
+[2024-05-08 12:45:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkpipelineframework
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syndirella
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miautawn-auto-validate-by-history
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Spider-ToolsBox
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildenv
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mrchef
+[2024-05-08 12:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testplans
+[2024-05-08 12:45:47] INFO root fetch - processPackages [Spider-ToolsBox]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-08 12:45:47] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-08 12:45:47] INFO root fetch - processPackages [testplans]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-08 12:45:47] INFO root fetch - processPackages [buildenv]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-08 12:45:47] WARNING root fetch - processPackages [syndirella]: Skipping, unable to determine old version
+[2024-05-08 12:45:47] INFO root fetch - main [MainThread]: End processing [syndirella] error
+[2024-05-08 12:45:47] INFO root fetch - processPackages [sparkpipelineframework]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-08 12:45:47] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/60/bd/26586c6e749607c01041ccb376f2785134de4b0e42bcb9d40eb602df68a3/Spider_ToolsBox-0.0.5.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [mrchef]: New version: [0.8.1] Old Version: [0.7.0]
+[2024-05-08 12:45:47] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/a5/88/37287bcef0865ee2bec66a1ff51acdbe38bb340e2e9ec4bd2b0abefda76f/testplans-0.2.7.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: Downloading https://files.pythonhosted.org/packages/98/e1/b27dd297995ce3b941f6b16fe765e98b1c8069ee5a99c3d965b92845e9b8/miautawn_auto_validate_by_history-0.1.0.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/4a/24/db5b24084e6d72e7e20ba2f6c6f9ed26f014c9a46a8eb9f0202b6c97c059/sparkpipelineframework-2.0.8.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [buildenv]: Downloading https://files.pythonhosted.org/packages/e9/fc/39a945b13409be2f8dc3e313b18b4972e2a8ad4ccbce77756404594437fc/buildenv-1.5.1.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/18/cb/01161c2854273198d4b3f1a558d8f76ab30dcda8cc8dafa529327f71a24d/mrchef-0.7.0.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/75/c2/2c21ec730d0b3042ba78acd78823c0860f538d70351cc2bc04ddee11df4c/Spider_ToolsBox-0.0.6.tar.gz
+[2024-05-08 12:45:47] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-08 12:45:47] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.7.tar.gz tmp/testplans-0.2.8.tar.gz --markdown 20240508/t/testplans/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-08 12:45:47] INFO root fetch - processPackages [Spider-ToolsBox]: executing diffoscope
+[2024-05-08 12:45:47] INFO root fetch - processPackages [Spider-ToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_ToolsBox-0.0.5.tar.gz tmp/Spider_ToolsBox-0.0.6.tar.gz --markdown 20240508/S/Spider-ToolsBox/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-08 12:45:47] INFO root fetch - processPackages [buildenv]: Downloading https://files.pythonhosted.org/packages/7d/60/8657071a12e7d2b3f470776881609c5a03444f99bb6313a48bcd5e70c427/buildenv-1.5.2-py3-none-any.whl
+[2024-05-08 12:45:48] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: Downloading https://files.pythonhosted.org/packages/27/47/2b73d72f8e01ac1f2a746de0942006b6e0c694b9ba189137d38ae51d53ef/miautawn_auto_validate_by_history-0.1.1.tar.gz
+[2024-05-08 12:45:48] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/cd/26/28286b2b98e444bd3ef46a0e8a3e370f9d4ce4798c088170e0083e8dbbaa/sparkpipelineframework-2.0.9.tar.gz
+[2024-05-08 12:45:48] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: executing diffoscope
+[2024-05-08 12:45:48] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miautawn_auto_validate_by_history-0.1.0.tar.gz tmp/miautawn_auto_validate_by_history-0.1.1.tar.gz --markdown 20240508/m/miautawn-auto-validate-by-history/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-08 12:45:48] INFO root fetch - processPackages [mrchef]: Downloading https://files.pythonhosted.org/packages/71/84/ce16363369be382c9723f48c2abf94ca02834a5c9870a02a08ce6a278493/mrchef-0.8.1.tar.gz
+[2024-05-08 12:45:48] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2024-05-08 12:45:48] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-2.0.8.tar.gz tmp/sparkpipelineframework-2.0.9.tar.gz --markdown 20240508/s/sparkpipelineframework/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-08 12:45:48] INFO root fetch - processPackages [buildenv]: executing diffoscope
+[2024-05-08 12:45:48] INFO root fetch - processPackages [buildenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildenv-1.5.1.tar.gz tmp/buildenv-1.5.2-py3-none-any.whl.zip --markdown 20240508/b/buildenv/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-08 12:45:48] INFO root fetch - processPackages [mrchef]: executing diffoscope
+[2024-05-08 12:45:48] INFO root fetch - processPackages [mrchef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrchef-0.7.0.tar.gz tmp/mrchef-0.8.1.tar.gz --markdown 20240508/m/mrchef/0.7.0-0.8.1/README.md --exclude *.pyd
+[2024-05-08 12:45:48] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.5.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.6.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - main [MainThread]: End processing [Spider-ToolsBox]: success
+[2024-05-08 12:45:48] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.7.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-08 12:45:48] INFO root fetch - processPackages [buildenv]: Remove: archive file [/home/abi/fetcher/tmp/buildenv-1.5.1.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - processPackages [buildenv]: Remove: archive file [/home/abi/fetcher/tmp/buildenv-1.5.2-py3-none-any.whl.zip]
+[2024-05-08 12:45:48] INFO root fetch - main [MainThread]: End processing [buildenv]: success
+[2024-05-08 12:45:48] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.7.0.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - processPackages [mrchef]: Remove: archive file [/home/abi/fetcher/tmp/mrchef-0.8.1.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - main [MainThread]: End processing [mrchef]: success
+[2024-05-08 12:45:48] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: Remove: archive file [/home/abi/fetcher/tmp/miautawn_auto_validate_by_history-0.1.0.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - processPackages [miautawn-auto-validate-by-history]: Remove: archive file [/home/abi/fetcher/tmp/miautawn_auto_validate_by_history-0.1.1.tar.gz]
+[2024-05-08 12:45:48] INFO root fetch - main [MainThread]: End processing [miautawn-auto-validate-by-history]: success
+[2024-05-08 12:45:49] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.8.tar.gz]
+[2024-05-08 12:45:49] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
+[2024-05-08 12:45:49] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2024-05-08 12:45:49] INFO root fetch - main [MainThread]: Store serial: [23112156]
