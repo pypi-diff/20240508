@@ -12173,3 +12173,42 @@
 [2024-05-08 08:35:01] WARNING root fetch - processPackages [rlextra]: Skipping, unable to determine old version
 [2024-05-08 08:35:01] INFO root fetch - main [MainThread]: End processing [rlextra] error
 [2024-05-08 08:35:01] INFO root fetch - main [MainThread]: Store serial: [23109123]
+[2024-05-08 08:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109123]
+[2024-05-08 08:37:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-fleet
+[2024-05-08 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenomApis
+[2024-05-08 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dltrain
+[2024-05-08 08:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-repair
+[2024-05-08 08:37:11] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 08:37:11] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-08 08:37:11] INFO root fetch - processPackages [open-fleet]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 08:37:11] INFO root fetch - processPackages [dltrain]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 08:37:11] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/48/ff/0489def51dfafef87655152d18077c936a10430296ab2db2d0fe29c8d8de/open_fleet-0.0.3.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [dltrain]: Downloading https://files.pythonhosted.org/packages/4f/af/72013c329a8add9bdbda608b1fe10b31635e9a7a0596823e9dc9b6060460/dltrain-0.1.1.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 08:37:11] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 08:37:11] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-08 08:37:11] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240508/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 08:37:11] INFO root fetch - processPackages [dltrain]: Downloading https://files.pythonhosted.org/packages/48/c1/5abf097412a4cae54c23c282ed369a566f414f4f0fe33650c9b827dba236/dltrain-0.1.2.tar.gz
+[2024-05-08 08:37:11] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/16/e4/1d0394a734de6354b65a3441e138342ac6c0544442fd14a0be7708916147/open_fleet-0.0.4.tar.gz
+[2024-05-08 08:37:12] INFO root fetch - processPackages [open-fleet]: executing diffoscope
+[2024-05-08 08:37:12] INFO root fetch - processPackages [open-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_fleet-0.0.3.tar.gz tmp/open_fleet-0.0.4.tar.gz --markdown 20240508/o/open-fleet/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 08:37:12] INFO root fetch - processPackages [dltrain]: executing diffoscope
+[2024-05-08 08:37:12] INFO root fetch - processPackages [dltrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dltrain-0.1.1.tar.gz tmp/dltrain-0.1.2.tar.gz --markdown 20240508/d/dltrain/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 08:37:12] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-08 08:37:12] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.3.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.4.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - main [MainThread]: End processing [open-fleet]: success
+[2024-05-08 08:37:12] INFO root fetch - processPackages [dltrain]: Remove: archive file [/home/abi/fetcher/tmp/dltrain-0.1.1.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - processPackages [dltrain]: Remove: archive file [/home/abi/fetcher/tmp/dltrain-0.1.2.tar.gz]
+[2024-05-08 08:37:12] INFO root fetch - main [MainThread]: End processing [dltrain]: success
+[2024-05-08 08:37:13] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 08:37:13] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 08:37:13] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 08:37:13] INFO root fetch - main [MainThread]: Store serial: [23109137]
