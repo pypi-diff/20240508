@@ -2258,3 +2258,42 @@
 [2024-05-08 02:07:32] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
 [2024-05-08 02:07:32] INFO root fetch - main [MainThread]: End processing [anthropic]: success
 [2024-05-08 02:07:32] INFO root fetch - main [MainThread]: Store serial: [23105190]
+[2024-05-08 02:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105190]
+[2024-05-08 02:09:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 02:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multilearn
+[2024-05-08 02:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tickforge_client
+[2024-05-08 02:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-nightly
+[2024-05-08 02:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2024-05-08 02:09:41] INFO root fetch - processPackages [multilearn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 02:09:41] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240507.post1056] Old Version: [1.5.0.20240506.post1056]
+[2024-05-08 02:09:41] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405070009] Old Version: [4.1.7.dev202405060009]
+[2024-05-08 02:09:41] INFO root fetch - processPackages [multilearn]: Downloading https://files.pythonhosted.org/packages/f6/26/85497bba4dd8022980d7ed7cf5e1b29be16c01cf56d331500f6f59f91a9a/multilearn-0.0.3.tar.gz
+[2024-05-08 02:09:41] INFO root fetch - processPackages [tickforge_client]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-08 02:09:41] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/24/94/4e276d1efff9e90d8ad8e2aa40ae0dbee164393766047ca19487c58cc87b/mct-quantizers-nightly-1.5.0.20240506.post1056.tar.gz
+[2024-05-08 02:09:41] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/03/c8/b22838775c2ad159ca8d26d69c4a186a05a153580a936880c8931d2ff42f/openbb_nightly-4.1.7.dev202405060009.tar.gz
+[2024-05-08 02:09:41] INFO root fetch - processPackages [tickforge_client]: Downloading https://files.pythonhosted.org/packages/78/de/19338cd7fbb0082c76f97583e715c1616f6f9cd729d1a7c7229d799885f9/tickforge_client-1.3.0.tar.gz
+[2024-05-08 02:09:41] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/40/27/7efebbd9222b7dcca160832e1a3545b353fce925cd3df33b24880d47ed85/mct-quantizers-nightly-1.5.0.20240507.post1056.tar.gz
+[2024-05-08 02:09:42] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-08 02:09:42] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240506.post1056.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240507.post1056.tar.gz --markdown 20240508/m/mct-quantizers-nightly/1.5.0.20240506.post1056-1.5.0.20240507.post1056/README.md --exclude *.pyd
+[2024-05-08 02:09:42] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/d4/e9/53e393b37a81d64f977ed51986c32c9322846da0b60b075bb72ce6476aef/openbb_nightly-4.1.7.dev202405070009.tar.gz
+[2024-05-08 02:09:42] INFO root fetch - processPackages [tickforge_client]: Downloading https://files.pythonhosted.org/packages/23/2c/dc83c992501e63d5a087f544c28884c06767e390cdcba9d6c235ad38e119/tickforge_client-1.4.0.tar.gz
+[2024-05-08 02:09:42] INFO root fetch - processPackages [multilearn]: Downloading https://files.pythonhosted.org/packages/0d/cf/c81d56d04ea68de6c1cd6fee56407ba2f756484ffb72327ee71354b31dc3/multilearn-0.0.4.tar.gz
+[2024-05-08 02:09:42] INFO root fetch - processPackages [tickforge_client]: executing diffoscope
+[2024-05-08 02:09:42] INFO root fetch - processPackages [tickforge_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickforge_client-1.3.0.tar.gz tmp/tickforge_client-1.4.0.tar.gz --markdown 20240508/t/tickforge_client/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-08 02:09:42] INFO root fetch - processPackages [multilearn]: executing diffoscope
+[2024-05-08 02:09:42] INFO root fetch - processPackages [multilearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multilearn-0.0.3.tar.gz tmp/multilearn-0.0.4.tar.gz --markdown 20240508/m/multilearn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 02:09:42] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240506.post1056.tar.gz]
+[2024-05-08 02:09:42] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240507.post1056.tar.gz]
+[2024-05-08 02:09:42] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-08 02:09:42] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-08 02:09:42] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405060009.tar.gz tmp/openbb_nightly-4.1.7.dev202405070009.tar.gz --markdown 20240508/o/openbb-nightly/4.1.7.dev202405060009-4.1.7.dev202405070009/README.md --exclude *.pyd
+[2024-05-08 02:09:42] INFO root fetch - processPackages [tickforge_client]: Remove: archive file [/home/abi/fetcher/tmp/tickforge_client-1.3.0.tar.gz]
+[2024-05-08 02:09:42] INFO root fetch - processPackages [tickforge_client]: Remove: archive file [/home/abi/fetcher/tmp/tickforge_client-1.4.0.tar.gz]
+[2024-05-08 02:09:42] INFO root fetch - main [MainThread]: End processing [tickforge_client]: success
+[2024-05-08 02:09:43] INFO root fetch - processPackages [multilearn]: Remove: archive file [/home/abi/fetcher/tmp/multilearn-0.0.3.tar.gz]
+[2024-05-08 02:09:43] INFO root fetch - processPackages [multilearn]: Remove: archive file [/home/abi/fetcher/tmp/multilearn-0.0.4.tar.gz]
+[2024-05-08 02:09:43] INFO root fetch - main [MainThread]: End processing [multilearn]: success
+[2024-05-08 02:09:45] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405060009.tar.gz]
+[2024-05-08 02:09:45] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405070009.tar.gz]
+[2024-05-08 02:09:45] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-08 02:09:45] INFO root fetch - main [MainThread]: Store serial: [23105211]
