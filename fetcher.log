@@ -23264,3 +23264,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:19:27] INFO root fetch - processPackages [juice-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/juice_segmentation-0.6.7-py3-none-any.whl.zip]
 [2024-05-08 15:19:27] INFO root fetch - main [MainThread]: End processing [juice-segmentation]: success
 [2024-05-08 15:19:27] INFO root fetch - main [MainThread]: Store serial: [23114016]
+[2024-05-08 15:21:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23114016]
+[2024-05-08 15:21:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyyre
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: camphoryz
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdn-research-environment
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai2-kit
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkle-stock
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lib-version-team11
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2024-05-08 15:21:35] WARNING root fetch - processPackages [lib-version-team11]: Skipping, unable to determine old version
+[2024-05-08 15:21:35] INFO root fetch - main [MainThread]: End processing [lib-version-team11] error
+[2024-05-08 15:21:35] INFO root fetch - processPackages [sparkle-stock]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 15:21:35] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.7a1]
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 15:21:35] INFO root fetch - processPackages [python-roborock]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-08 15:21:35] WARNING root fetch - processPackages [camphoryz]: Skipping, unable to determine old version
+[2024-05-08 15:21:35] INFO root fetch - main [MainThread]: End processing [camphoryz] error
+[2024-05-08 15:21:35] INFO root fetch - processPackages [lyyre]: New version: [2.4] Old Version: [2.3]
+[2024-05-08 15:21:35] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-08 15:21:35] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/6c/d8/4d11f750c8054f83304022066e7d53fc24268b0a4ccc05fe66dfa7403bc5/hdn-research-environment-3.0.7a1.tar.gz
+[2024-05-08 15:21:35] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/dd/94/fc4a8cb061c85206415ca97da3193ef77c0b37504b7df2f79c8f84e3a6e8/python_roborock-2.0.0.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [sparkle-stock]: Downloading https://files.pythonhosted.org/packages/ff/20/53ed2d38b34e87e26a7a36f11c1960971b45a0779cada2a7fd987d828cea/sparkle_stock-1.0.0-py3-none-any.whl
+[2024-05-08 15:21:36] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/fa/a0/96391cddf6dac27ed7021d1e320dc71860d6c148244b55f6f57566877c59/lyyre-2.3.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/d8/30/b0f7468c0c4cfb54f3914542da2499d1b42fcad969c2c30e4065de0f0934/python_roborock-2.1.0.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-05-08 15:21:36] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.7a1.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240508/h/hdn-research-environment/3.0.7a1-3.0.7rc0/README.md --exclude *.pyd
+[2024-05-08 15:21:36] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2024-05-08 15:21:36] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-2.0.0.tar.gz tmp/python_roborock-2.1.0.tar.gz --markdown 20240508/p/python-roborock/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-08 15:21:36] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-08 15:21:36] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240508/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 15:21:36] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/e8/d6/9c2d2cc88666667982658f3f059b591164c8326c9a0397422877de17387b/lyyre-2.4.tar.gz
+[2024-05-08 15:21:36] INFO root fetch - processPackages [sparkle-stock]: Downloading https://files.pythonhosted.org/packages/55/e8/0528ee88f9eea7ad64def05784b4015732b29e4065495f4c42a1d06d2d97/sparkle_stock-1.0.1-py3-none-any.whl
+[2024-05-08 15:21:36] INFO root fetch - processPackages [lyyre]: executing diffoscope
+[2024-05-08 15:21:36] INFO root fetch - processPackages [lyyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyre-2.3.tar.gz tmp/lyyre-2.4.tar.gz --markdown 20240508/l/lyyre/2.3-2.4/README.md --exclude *.pyd
+[2024-05-08 15:21:36] INFO root fetch - processPackages [sparkle-stock]: executing diffoscope
+[2024-05-08 15:21:36] INFO root fetch - processPackages [sparkle-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkle_stock-1.0.0-py3-none-any.whl.zip tmp/sparkle_stock-1.0.1-py3-none-any.whl.zip --markdown 20240508/s/sparkle-stock/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 15:21:37] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-2.0.0.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-2.1.0.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2024-05-08 15:21:37] INFO root fetch - processPackages [sparkle-stock]: Remove: archive file [/home/abi/fetcher/tmp/sparkle_stock-1.0.0-py3-none-any.whl.zip]
+[2024-05-08 15:21:37] INFO root fetch - processPackages [sparkle-stock]: Remove: archive file [/home/abi/fetcher/tmp/sparkle_stock-1.0.1-py3-none-any.whl.zip]
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [sparkle-stock]: success
+[2024-05-08 15:21:37] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-08 15:21:37] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.3.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.4.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [lyyre]: success
+[2024-05-08 15:21:37] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7a1.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-05-08 15:21:37] INFO root fetch - main [MainThread]: Store serial: [23114036]
