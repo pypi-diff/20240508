@@ -20239,3 +20239,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:25:24] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.1.tar.gz]
 [2024-05-08 13:25:24] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2024-05-08 13:25:24] INFO root fetch - main [MainThread]: Store serial: [23112600]
+[2024-05-08 13:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112600]
+[2024-05-08 13:27:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upgini
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tilearn-llm
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ridge-utils
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clear-skies
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phenomApis
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finnish-name-generator
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fedn
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: optrabot
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volare
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: specifipy
+[2024-05-08 13:27:34] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [optrabot]: New version: [0.9.2a1] Old Version: [0.9.2a0]
+[2024-05-08 13:27:34] WARNING root fetch - processPackages [ridge-utils]: Skipping, unable to determine old version
+[2024-05-08 13:27:34] INFO root fetch - processPackages [ridge-utils]: Start processing: zoltraak
+[2024-05-08 13:27:34] INFO root fetch - main [MainThread]: End processing [ridge-utils] error
+[2024-05-08 13:27:34] INFO root fetch - processPackages [tilearn-llm]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [specifipy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [volare]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [finnish-name-generator]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/88/4e/f5662bfe16c0c255f7c701260e4ee891597ad30253d2d113b9d4c66b662b/optrabot-0.9.2a0.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [fedn]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 13:27:34] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/37/77/23d03448d46b41448adc8ec2c2af31640dbcff5eb0363774cfc91fc14f1c/tilearn_llm-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 13:27:34] INFO root fetch - processPackages [specifipy]: Downloading https://files.pythonhosted.org/packages/ff/06/216bcd67855c2da7aab3b05c1b0af0c4bcba2dedac82aa89206b89954fbc/specifipy-0.3.0.tar.gz
+[2024-05-08 13:27:34] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 15252856>=10485760
+[2024-05-08 13:27:34] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-05-08 13:27:34] INFO root fetch - processPackages [finnish-name-generator]: Downloading https://files.pythonhosted.org/packages/97/07/b125bbc19839d61f2d2204d76cd7135866fd8b59f35c0b1b11fa6ec902aa/finnish_name_generator-0.2.0.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/a8/5f/ba19e9f0c65f8565afd4a4a4e5cf3db5acdd78484b791767f4d09b59c9e9/volare-0.9.1.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/de/8b/015d6cf2973630cf58fb4d7bfbf32a15a6e45001eb0162418615381bdb9e/fedn-0.9.1.tar.gz
+[2024-05-08 13:27:34] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/b3/02/a5735b31a093befd6442e7ff14d252f1900f48c79f09f414abd0c014c65a/optrabot-0.9.2a1.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240508/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.9.2a0.tar.gz tmp/optrabot-0.9.2a1.tar.gz --markdown 20240508/o/optrabot/0.9.2a0-0.9.2a1/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [specifipy]: Downloading https://files.pythonhosted.org/packages/6a/22/7b108c3ab8245893c012a11bdf77f7218144364bf9cce129be0b169dbc2c/specifipy-0.3.1.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [finnish-name-generator]: Downloading https://files.pythonhosted.org/packages/73/70/946b779fa76176c4c3f24ba3b67463c79bec542b97c554ad66126cdcac2b/finnish_name_generator-0.2.1.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240508/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/b5/b0/7b5bf8afbd1b1c88729998d9bda3c45bbd4c98e77876bbf4d2c9f28c734a/fedn-0.9.2.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/b3/9f/87ba3083af20eec4fea0ca2fe58b14ecb87ad0b6ce735db7a9e20d090423/volare-0.9.2.tar.gz
+[2024-05-08 13:27:35] INFO root fetch - processPackages [finnish-name-generator]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [finnish-name-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finnish_name_generator-0.2.0.tar.gz tmp/finnish_name_generator-0.2.1.tar.gz --markdown 20240508/f/finnish-name-generator/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [specifipy]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [specifipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specifipy-0.3.0.tar.gz tmp/specifipy-0.3.1.tar.gz --markdown 20240508/s/specifipy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [volare]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [volare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volare-0.9.1.tar.gz tmp/volare-0.9.2.tar.gz --markdown 20240508/v/volare/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20240508/c/clear-skies/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 13:27:35] INFO root fetch - processPackages [fedn]: executing diffoscope
+[2024-05-08 13:27:35] INFO root fetch - processPackages [fedn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedn-0.9.1.tar.gz tmp/fedn-0.9.2.tar.gz --markdown 20240508/f/fedn/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-08 13:27:36] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.2a0.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.2a1.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [specifipy]: Remove: archive file [/home/abi/fetcher/tmp/specifipy-0.3.0.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [specifipy]: Remove: archive file [/home/abi/fetcher/tmp/specifipy-0.3.1.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [specifipy]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.1.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [volare]: Remove: archive file [/home/abi/fetcher/tmp/volare-0.9.2.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [volare]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [finnish-name-generator]: Remove: archive file [/home/abi/fetcher/tmp/finnish_name_generator-0.2.0.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [finnish-name-generator]: Remove: archive file [/home/abi/fetcher/tmp/finnish_name_generator-0.2.1.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [finnish-name-generator]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 13:27:36] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2024-05-08 13:27:36] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2024-05-08 13:27:37] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.1.tar.gz]
+[2024-05-08 13:27:37] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.2.tar.gz]
+[2024-05-08 13:27:37] INFO root fetch - main [MainThread]: End processing [fedn]: success
+[2024-05-08 13:27:37] INFO root fetch - main [MainThread]: Store serial: [23112634]
