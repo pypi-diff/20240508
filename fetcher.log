@@ -19246,3 +19246,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:48:00] INFO root fetch - processPackages [qBitrr2]: Remove: archive file [/home/abi/fetcher/tmp/qbitrr2-4.5.9.tar.gz]
 [2024-05-08 12:48:00] INFO root fetch - main [MainThread]: End processing [qBitrr2]: success
 [2024-05-08 12:48:00] INFO root fetch - main [MainThread]: Store serial: [23112180]
+[2024-05-08 12:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112180]
+[2024-05-08 12:50:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netgen-mesher
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ch9329
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mns-scheduler
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy_gui_jupyter
+[2024-05-08 12:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: media-parser
+[2024-05-08 12:50:09] INFO root fetch - processPackages [media-parser]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-08 12:50:09] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.4.2] Old Version: [1.0.4.0]
+[2024-05-08 12:50:09] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240508084944] Old Version: [3.4.1.dev20240508082921]
+[2024-05-08 12:50:09] INFO root fetch - processPackages [ch9329]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 12:50:09] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/dc/86/29f1c4e55d3b524bd6e5fc598e64fc928e84aada70da4a0dbaa76dcb86d1/media_parser-2.0.2.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/98/5f/89f9692596de9ae799553c11134c8f5071719b2ec22b5b0c7c7538c7f4e3/mns-scheduler-1.0.4.0.tar.gz
+[2024-05-08 12:50:09] WARNING root fetch - processPackages [easy_gui_jupyter]: Skipping, unable to determine old version
+[2024-05-08 12:50:09] INFO root fetch - main [MainThread]: End processing [easy_gui_jupyter] error
+[2024-05-08 12:50:09] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post39.dev0] Old Version: [6.2.2403.post37.dev0]
+[2024-05-08 12:50:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/bb/c4/0653468d309ce27805ba36b91aebd2f517013cbd8e05da462fe9f7aa2e28/localstack_core-3.4.1.dev20240508082921.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [ch9329]: Downloading https://files.pythonhosted.org/packages/3b/88/06a68472b7a1e913b7da927e210f53f8a1169f4ea4f65ff3af9091ac840a/ch9329-1.0.8.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/4e/e9/22f8dc3e7c24592d735510284affc361c34a785dff121b3effb65d46156b/netgen_mesher-6.2.2403.post37.dev0-cp312-cp312-win_amd64.whl
+[2024-05-08 12:50:09] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20552956>=10485760
+[2024-05-08 12:50:09] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 12:50:09] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/a7/ca/55e7fe4d0f6ca25350689df9eacbd8b1cc215a4ca72b3e3bbb3052bb5e25/mns-scheduler-1.0.4.2.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fb/f5/275a3cdc98097dec6fbe6c2fe30a37965a6a659599c47da613bc2503d82a/localstack_core-3.4.1.dev20240508084944.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [ch9329]: Downloading https://files.pythonhosted.org/packages/24/95/f7c4c74ef7fbef5f4e178e1da73e02ec8a04504aa4c39682d086643ad078/ch9329-1.0.9.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-08 12:50:09] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.4.0.tar.gz tmp/mns-scheduler-1.0.4.2.tar.gz --markdown 20240508/m/mns-scheduler/1.0.4.0-1.0.4.2/README.md --exclude *.pyd
+[2024-05-08 12:50:09] INFO root fetch - processPackages [media-parser]: Downloading https://files.pythonhosted.org/packages/58/98/0112f6e869004bb42b8f5a8106421d0543234a89b984248f00a6b18576cd/media_parser-2.0.3.tar.gz
+[2024-05-08 12:50:09] INFO root fetch - processPackages [ch9329]: executing diffoscope
+[2024-05-08 12:50:09] INFO root fetch - processPackages [ch9329]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ch9329-1.0.8.tar.gz tmp/ch9329-1.0.9.tar.gz --markdown 20240508/c/ch9329/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 12:50:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-08 12:50:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240508082921.tar.gz tmp/localstack_core-3.4.1.dev20240508084944.tar.gz --markdown 20240508/l/localstack-core/3.4.1.dev20240508082921-3.4.1.dev20240508084944/README.md --exclude *.pyd
+[2024-05-08 12:50:09] INFO root fetch - processPackages [media-parser]: executing diffoscope
+[2024-05-08 12:50:09] INFO root fetch - processPackages [media-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_parser-2.0.2.tar.gz tmp/media_parser-2.0.3.tar.gz --markdown 20240508/m/media-parser/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-08 12:50:10] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.0.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.2.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-08 12:50:10] INFO root fetch - processPackages [ch9329]: Remove: archive file [/home/abi/fetcher/tmp/ch9329-1.0.8.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - processPackages [ch9329]: Remove: archive file [/home/abi/fetcher/tmp/ch9329-1.0.9.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - main [MainThread]: End processing [ch9329]: success
+[2024-05-08 12:50:10] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.2.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - processPackages [media-parser]: Remove: archive file [/home/abi/fetcher/tmp/media_parser-2.0.3.tar.gz]
+[2024-05-08 12:50:10] INFO root fetch - main [MainThread]: End processing [media-parser]: success
+[2024-05-08 12:50:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508082921.tar.gz]
+[2024-05-08 12:50:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240508084944.tar.gz]
+[2024-05-08 12:50:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-08 12:50:13] INFO root fetch - main [MainThread]: Store serial: [23112199]
