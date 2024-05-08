@@ -10532,3 +10532,15 @@
 [2024-05-08 06:27:02] INFO root fetch - processPackages [dfvfs]: Remove: archive file [/home/abi/fetcher/tmp/dfvfs-20240505.tar.gz]
 [2024-05-08 06:27:02] INFO root fetch - main [MainThread]: End processing [dfvfs]: success
 [2024-05-08 06:27:02] INFO root fetch - main [MainThread]: Store serial: [23108260]
+[2024-05-08 06:29:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108260]
+[2024-05-08 06:29:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-08 06:29:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charzr-lib
+[2024-05-08 06:29:11] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 06:29:11] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/41/76/e3425f138d16cccf4155a4dbe2b39dd1a100eb3fa1b1951899eebc8dedd6/charzr_lib-1.0.8.tar.gz
+[2024-05-08 06:29:11] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/67/7f/749699a160330ac8975399890f2394f152b518496abc8bb74b1a7ec2867b/charzr_lib-1.0.9.tar.gz
+[2024-05-08 06:29:11] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:29:11] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.8.tar.gz tmp/charzr_lib-1.0.9.tar.gz --markdown 20240508/c/charzr-lib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 06:29:12] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.8.tar.gz]
+[2024-05-08 06:29:12] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.9.tar.gz]
+[2024-05-08 06:29:12] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:29:12] INFO root fetch - main [MainThread]: Store serial: [23108263]
