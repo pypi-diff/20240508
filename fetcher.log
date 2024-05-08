@@ -2217,3 +2217,44 @@
 [2024-05-08 02:05:22] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240507.417.tar.gz]
 [2024-05-08 02:05:22] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-08 02:05:22] INFO root fetch - main [MainThread]: Store serial: [23105168]
+[2024-05-08 02:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105168]
+[2024-05-08 02:07:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pokemon-utils
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anthropic
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmticket
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-py
+[2024-05-08 02:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libTWLPy
+[2024-05-08 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240507] Old Version: [0.0.8.dev20240506]
+[2024-05-08 02:07:31] INFO root fetch - processPackages [anthropic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-08 02:07:31] WARNING root fetch - processPackages [pokemon-utils]: Skipping, unable to determine old version
+[2024-05-08 02:07:31] INFO root fetch - main [MainThread]: End processing [pokemon-utils] error
+[2024-05-08 02:07:31] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 02:07:31] WARNING root fetch - processPackages [libTWLPy]: Skipping, unable to determine old version
+[2024-05-08 02:07:31] INFO root fetch - main [MainThread]: End processing [libTWLPy] error
+[2024-05-08 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/5f/55/554c17d285a69af9e163bc733e8c69f848f5f97fd47bd9a6a61e4757a83a/jaxutils-nightly-0.0.8.dev20240506.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-05-08 02:07:31] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/95/76/ce6f1faa47cb76a278b61588f3906ebb4262e4da0bc73814e414587db819/tmticket-0.2.1.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/41/dcf60daedd5b67efd47c8798679c797fe6150fea55287dc207c8d59c19b2/anthropic-0.8.1.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/b3/2e/55b2d5305edd34d78a2168489f250c2b6b20a5d66267fabb294ce81f3c92/jaxutils-nightly-0.0.8.dev20240507.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-08 02:07:31] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240506.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240507.tar.gz --markdown 20240508/j/jaxutils-nightly/0.0.8.dev20240506-0.0.8.dev20240507/README.md --exclude *.pyd
+[2024-05-08 02:07:31] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/25/20/cfba3d21f5057796d49ebf34e8046705348996a464bdd06b9c3678d9ae70/anthropic-0.9.0.tar.gz
+[2024-05-08 02:07:31] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-08 02:07:31] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.1.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240508/t/tmticket/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 02:07:31] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-05-08 02:07:31] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-05-08 02:07:31] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2024-05-08 02:07:31] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.8.1.tar.gz tmp/anthropic-0.9.0.tar.gz --markdown 20240508/a/anthropic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-08 02:07:32] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240506.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240507.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-08 02:07:32] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.1.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-08 02:07:32] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.8.1.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
+[2024-05-08 02:07:32] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2024-05-08 02:07:32] INFO root fetch - main [MainThread]: Store serial: [23105190]
