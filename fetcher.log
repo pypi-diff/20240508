@@ -22259,3 +22259,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 14:45:41] INFO root fetch - processPackages [omero-dropbox]: Remove: archive file [/home/abi/fetcher/tmp/omero-dropbox-5.7.0.tar.gz]
 [2024-05-08 14:45:41] INFO root fetch - main [MainThread]: End processing [omero-dropbox]: success
 [2024-05-08 14:45:41] INFO root fetch - main [MainThread]: Store serial: [23113536]
+[2024-05-08 14:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113536]
+[2024-05-08 14:47:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DesalSim
+[2024-05-08 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreria-telegram
+[2024-05-08 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bia-explorer
+[2024-05-08 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vitriolic
+[2024-05-08 14:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-rest-framework-proxy-iara
+[2024-05-08 14:47:50] INFO root fetch - processPackages [DesalSim]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-08 14:47:50] WARNING root fetch - processPackages [libreria-telegram]: Skipping, unable to determine old version
+[2024-05-08 14:47:50] INFO root fetch - main [MainThread]: End processing [libreria-telegram] error
+[2024-05-08 14:47:50] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/a3/ae/774f3713fc2e6f574d8c7d8db5d1f3adfb4caece17514c435a4e4f69ce96/desalsim-0.7.2.tar.gz
+[2024-05-08 14:47:50] INFO root fetch - processPackages [bia-explorer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 14:47:50] WARNING root fetch - processPackages [django-rest-framework-proxy-iara]: Skipping, unable to determine old version
+[2024-05-08 14:47:50] INFO root fetch - main [MainThread]: End processing [django-rest-framework-proxy-iara] error
+[2024-05-08 14:47:50] INFO root fetch - processPackages [vitriolic]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-08 14:47:50] INFO root fetch - processPackages [bia-explorer]: Downloading https://files.pythonhosted.org/packages/d1/63/fac2113aacdf333da2057bb5c7b31e992bb6a2acbdd47300383f1d519254/bia_explorer-0.1.3.tar.gz
+[2024-05-08 14:47:50] INFO root fetch - processPackages [vitriolic]: Downloading https://files.pythonhosted.org/packages/81/b8/9acfff88bceff8cd92e055eaa951b6a0784347cdb044f615413b1f829432/vitriolic-3.3.8.tar.gz
+[2024-05-08 14:47:50] INFO root fetch - processPackages [DesalSim]: Downloading https://files.pythonhosted.org/packages/58/cf/6e179f2ecc201eb83c1a45538c5e94bdc037697ad7d25b134c16d9189e35/desalsim-0.7.3.tar.gz
+[2024-05-08 14:47:50] INFO root fetch - processPackages [DesalSim]: executing diffoscope
+[2024-05-08 14:47:50] INFO root fetch - processPackages [DesalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desalsim-0.7.2.tar.gz tmp/desalsim-0.7.3.tar.gz --markdown 20240508/D/DesalSim/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-08 14:47:50] INFO root fetch - processPackages [bia-explorer]: Downloading https://files.pythonhosted.org/packages/9b/ac/a66483c8ea5186ba77f20f231040b579564558bd9e9d51fb01b0976554e9/bia_explorer-0.1.4.tar.gz
+[2024-05-08 14:47:50] INFO root fetch - processPackages [bia-explorer]: executing diffoscope
+[2024-05-08 14:47:50] INFO root fetch - processPackages [bia-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bia_explorer-0.1.3.tar.gz tmp/bia_explorer-0.1.4.tar.gz --markdown 20240508/b/bia-explorer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 14:47:50] INFO root fetch - processPackages [vitriolic]: Downloading https://files.pythonhosted.org/packages/6c/7d/03f484d4d2194c9f9fcef1675ffb773978d7735c2d3e6708532d70eba67f/vitriolic-3.3.9.tar.gz
+[2024-05-08 14:47:51] INFO root fetch - processPackages [vitriolic]: executing diffoscope
+[2024-05-08 14:47:51] INFO root fetch - processPackages [vitriolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitriolic-3.3.8.tar.gz tmp/vitriolic-3.3.9.tar.gz --markdown 20240508/v/vitriolic/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-08 14:47:51] INFO root fetch - processPackages [bia-explorer]: Remove: archive file [/home/abi/fetcher/tmp/bia_explorer-0.1.3.tar.gz]
+[2024-05-08 14:47:51] INFO root fetch - processPackages [bia-explorer]: Remove: archive file [/home/abi/fetcher/tmp/bia_explorer-0.1.4.tar.gz]
+[2024-05-08 14:47:51] INFO root fetch - main [MainThread]: End processing [bia-explorer]: success
+[2024-05-08 14:47:51] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.2.tar.gz]
+[2024-05-08 14:47:51] INFO root fetch - processPackages [DesalSim]: Remove: archive file [/home/abi/fetcher/tmp/desalsim-0.7.3.tar.gz]
+[2024-05-08 14:47:51] INFO root fetch - main [MainThread]: End processing [DesalSim]: success
+[2024-05-08 14:47:54] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.8.tar.gz]
+[2024-05-08 14:47:54] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.9.tar.gz]
+[2024-05-08 14:47:54] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
+[2024-05-08 14:47:54] INFO root fetch - main [MainThread]: Store serial: [23113558]
