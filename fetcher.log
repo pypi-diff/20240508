@@ -11662,3 +11662,36 @@
 [2024-05-08 08:01:57] INFO root fetch - processPackages [depthcharge-ms]: Remove: archive file [/home/abi/fetcher/tmp/depthcharge_ms-0.4.6.tar.gz]
 [2024-05-08 08:01:57] INFO root fetch - main [MainThread]: End processing [depthcharge-ms]: success
 [2024-05-08 08:01:57] INFO root fetch - main [MainThread]: Store serial: [23108760]
+[2024-05-08 08:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108760]
+[2024-05-08 08:04:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 08:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoMLApp
+[2024-05-08 08:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dycw-utilities
+[2024-05-08 08:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rabbitproofz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoThemeGenerator
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.68] Old Version: [0.1.67]
+[2024-05-08 08:04:06] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/69/12/97e758c368295d5fcc9d827c2313cbf65ed4d709df264132af2ff182e48c/autothemegenerator-0.0.6.tar.gz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/dc/c6/6dcdd6d81a2ca5dfa3759183b99519cf6482f7451391e81986f1cc529685/automlapp-0.1.67.tar.gz
+[2024-05-08 08:04:06] WARNING root fetch - processPackages [rabbitproofz]: Skipping, unable to determine old version
+[2024-05-08 08:04:06] INFO root fetch - main [MainThread]: End processing [rabbitproofz] error
+[2024-05-08 08:04:06] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/c1/59/06138ec86bcb5f424f0cc275a3d4a440ee2eaeccab8a55ecafc1326854b2/autothemegenerator-0.0.7.tar.gz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/f4/6e/6cd53b4386084e24e95e08b6bf63b3d68041d6d98085019ba3b2187aec7e/automlapp-0.1.68.tar.gz
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.0.6.tar.gz tmp/autothemegenerator-0.0.7.tar.gz --markdown 20240508/A/AutoThemeGenerator/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 08:04:06] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-08 08:04:06] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240508/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-08 08:04:06] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.67.tar.gz tmp/automlapp-0.1.68.tar.gz --markdown 20240508/A/AutoMLApp/0.1.67-0.1.68/README.md --exclude *.pyd
+[2024-05-08 08:04:07] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.6.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.7.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-08 08:04:07] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.67.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.68.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-08 08:04:07] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-08 08:04:07] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-08 08:04:07] INFO root fetch - main [MainThread]: Store serial: [23108774]
