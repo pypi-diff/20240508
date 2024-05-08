@@ -9800,3 +9800,69 @@
 [2024-05-08 05:39:08] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_carrier_account_environment-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-05-08 05:39:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-carrier-account-environment]: success
 [2024-05-08 05:39:08] INFO root fetch - main [MainThread]: Store serial: [23108043]
+[2024-05-08 05:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108043]
+[2024-05-08 05:41:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misleep
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genomeshader
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NorrisUtils
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms-auto-classification
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moobius
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-donation
+[2024-05-08 05:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-donation-direct-debit
+[2024-05-08 05:41:17] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [NorrisUtils]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/f4/fc/0654730a6eee7968d511f8371c87ddc4b531eba148192f8a79bffd2724c7/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/e2/d7/b13a185ba157e9d233adaf2969b248b3cd3b7634aeaa1f0fd05b706d9acc/NorrisUtils-1.4.2.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [moobius]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/c2/f4/b04e9745dd8b473c0bf59b06f20d79047f086575a87955d27852e2fdb605/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/c0/a3/82fd9edbf54ac1d6252add581bbf38a303d1df84cbf28401e4543cb43f4c/moobius-1.2.0.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/fb/68/b1977fc7117d94b8dfa8d17d0e8459681ccf17b49dd28b059497dfd62b7a/odoo_addon_donation-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [NorrisUtils]: Downloading https://files.pythonhosted.org/packages/0f/ae/305790c9da557a54b2f0cdea7908721a10dabdbde4082557754fd5309a23/NorrisUtils-1.4.3.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-dms-auto-classification/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-08 05:41:18] INFO root fetch - processPackages [NorrisUtils]: executing diffoscope
+[2024-05-08 05:41:18] INFO root fetch - processPackages [NorrisUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorrisUtils-1.4.2.tar.gz tmp/NorrisUtils-1.4.3.tar.gz --markdown 20240508/N/NorrisUtils/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-08 05:41:18] INFO root fetch - processPackages [moobius]: Downloading https://files.pythonhosted.org/packages/35/62/c8f1f8642469c1477e9a0f8ce102b8793b1cbe705c31a1eac44df82823b1/moobius-1.2.1.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/cf/db/1c896722ce7588b609d588d62b991a950f1cfbc8c129f673c1736c8dd851/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-05-08 05:41:18] INFO root fetch - processPackages [moobius]: executing diffoscope
+[2024-05-08 05:41:18] INFO root fetch - processPackages [moobius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moobius-1.2.0.tar.gz tmp/moobius-1.2.1.tar.gz --markdown 20240508/m/moobius/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/38/8c/30db4882e14c0bac352c85b4520d6a308e5911668a38b83772a3b6e7cf9c/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-08 05:41:18] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-05-08 05:41:18] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240508/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: executing diffoscope
+[2024-05-08 05:41:18] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-donation-direct-debit/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation]: executing diffoscope
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240508/o/odoo-addon-donation/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240508/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.2.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [NorrisUtils]: Remove: archive file [/home/abi/fetcher/tmp/NorrisUtils-1.4.3.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [NorrisUtils]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-direct-debit]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.2.0.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [moobius]: Remove: archive file [/home/abi/fetcher/tmp/moobius-1.2.1.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [moobius]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [odoo-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation]: success
+[2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-08 05:41:19] INFO root fetch - main [MainThread]: Store serial: [23108062]
