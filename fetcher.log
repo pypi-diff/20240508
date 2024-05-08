@@ -10458,3 +10458,38 @@
 [2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.5.0.tar.gz]
 [2024-05-08 06:22:37] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
 [2024-05-08 06:22:37] INFO root fetch - main [MainThread]: Store serial: [23108232]
+[2024-05-08 06:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108232]
+[2024-05-08 06:24:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 06:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bihyung
+[2024-05-08 06:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lotgi
+[2024-05-08 06:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-template-generator
+[2024-05-08 06:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: charzr-lib
+[2024-05-08 06:24:46] INFO root fetch - processPackages [charzr-lib]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 06:24:46] INFO root fetch - processPackages [lotgi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-08 06:24:46] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/d5/da/18bc2717c6c1db4df3426f48a0280ccbd8099231551e7f6a870be1861e61/charzr_lib-1.0.7.tar.gz
+[2024-05-08 06:24:46] INFO root fetch - processPackages [lotgi]: Downloading https://files.pythonhosted.org/packages/58/97/28c21d34a2bc2c05498b9fb72ba7bf4e8809b6818e54b4baecdbce3902e3/lotgi-0.0.6.tar.gz
+[2024-05-08 06:24:46] INFO root fetch - processPackages [bihyung]: New version: [0.3.3] Old Version: [0.3.1a0]
+[2024-05-08 06:24:46] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-08 06:24:47] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/bf/53/eb302c61c35a65f17ede7951799e368ca02f6ede391e4f40a5fa64300689/bihyung-0.3.1a0-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 06:24:47] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-05-08 06:24:47] WARNING root fetch - processPackages [bihyung]: Skipping package: exceeds size limit 16383583>=10485760
+[2024-05-08 06:24:47] INFO root fetch - main [MainThread]: End processing [bihyung] error
+[2024-05-08 06:24:47] INFO root fetch - processPackages [lotgi]: Downloading https://files.pythonhosted.org/packages/66/ee/93d435cf6af0b01d3425dacc5d453d97a03f06f4c35fc17f51d058096156/lotgi-0.0.7.tar.gz
+[2024-05-08 06:24:47] INFO root fetch - processPackages [charzr-lib]: Downloading https://files.pythonhosted.org/packages/41/76/e3425f138d16cccf4155a4dbe2b39dd1a100eb3fa1b1951899eebc8dedd6/charzr_lib-1.0.8.tar.gz
+[2024-05-08 06:24:47] INFO root fetch - processPackages [lotgi]: executing diffoscope
+[2024-05-08 06:24:47] INFO root fetch - processPackages [lotgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lotgi-0.0.6.tar.gz tmp/lotgi-0.0.7.tar.gz --markdown 20240508/l/lotgi/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-08 06:24:47] INFO root fetch - processPackages [charzr-lib]: executing diffoscope
+[2024-05-08 06:24:47] INFO root fetch - processPackages [charzr-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charzr_lib-1.0.7.tar.gz tmp/charzr_lib-1.0.8.tar.gz --markdown 20240508/c/charzr-lib/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 06:24:47] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.7.tar.gz]
+[2024-05-08 06:24:47] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.8.tar.gz]
+[2024-05-08 06:24:47] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
+[2024-05-08 06:24:47] INFO root fetch - processPackages [lotgi]: Remove: archive file [/home/abi/fetcher/tmp/lotgi-0.0.6.tar.gz]
+[2024-05-08 06:24:47] INFO root fetch - processPackages [lotgi]: Remove: archive file [/home/abi/fetcher/tmp/lotgi-0.0.7.tar.gz]
+[2024-05-08 06:24:47] INFO root fetch - main [MainThread]: End processing [lotgi]: success
+[2024-05-08 06:24:48] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-05-08 06:24:49] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-05-08 06:24:49] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240508/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-08 06:24:50] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-05-08 06:24:50] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-05-08 06:24:50] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-05-08 06:24:50] INFO root fetch - main [MainThread]: Store serial: [23108249]
