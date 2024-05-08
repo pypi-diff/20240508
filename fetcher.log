@@ -8897,3 +8897,33 @@
 [2024-05-08 04:57:17] INFO root fetch - processPackages [coldp]: Remove: archive file [/home/abi/fetcher/tmp/coldp-2024.5.2.tar.gz]
 [2024-05-08 04:57:17] INFO root fetch - main [MainThread]: End processing [coldp]: success
 [2024-05-08 04:57:17] INFO root fetch - main [MainThread]: Store serial: [23107755]
+[2024-05-08 04:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107755]
+[2024-05-08 04:59:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 04:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpbox
+[2024-05-08 04:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartlink-local
+[2024-05-08 04:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: facebook-graphql-scraper
+[2024-05-08 04:59:26] INFO root fetch - processPackages [cpbox]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-08 04:59:26] INFO root fetch - processPackages [facebook-graphql-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 04:59:26] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:59:26] INFO root fetch - processPackages [cpbox]: Downloading https://files.pythonhosted.org/packages/75/45/6ef0840c825ee7eb4ee3c2a9dee66074c07fb51beb612a5fff2307522d68/cpbox-1.5.8.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/63/65/b9182a2bb13e6bca8338ae2f8cea4b6be56b5415ac8aa5b99100f128bc69/facebook-graphql-scraper-1.0.8.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [facebook-graphql-scraper]: Downloading https://files.pythonhosted.org/packages/91/87/a083548367267365df79392089dc7627bb7066387b829f6fa7154c3b724a/facebook-graphql-scraper-1.0.9.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [cpbox]: Downloading https://files.pythonhosted.org/packages/41/1f/22d862402c9d4ab0eb4bc5ae216b82bff08b3fecf249b4f1b564e7a92a4f/cpbox-1.5.9.tar.gz
+[2024-05-08 04:59:26] INFO root fetch - processPackages [facebook-graphql-scraper]: executing diffoscope
+[2024-05-08 04:59:26] INFO root fetch - processPackages [facebook-graphql-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facebook-graphql-scraper-1.0.8.tar.gz tmp/facebook-graphql-scraper-1.0.9.tar.gz --markdown 20240508/f/facebook-graphql-scraper/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 04:59:27] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-08 04:59:27] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240508/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:59:27] INFO root fetch - processPackages [cpbox]: executing diffoscope
+[2024-05-08 04:59:27] INFO root fetch - processPackages [cpbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpbox-1.5.8.tar.gz tmp/cpbox-1.5.9.tar.gz --markdown 20240508/c/cpbox/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-08 04:59:27] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-08 04:59:27] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.8.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - processPackages [facebook-graphql-scraper]: Remove: archive file [/home/abi/fetcher/tmp/facebook-graphql-scraper-1.0.9.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - main [MainThread]: End processing [facebook-graphql-scraper]: success
+[2024-05-08 04:59:27] INFO root fetch - processPackages [cpbox]: Remove: archive file [/home/abi/fetcher/tmp/cpbox-1.5.8.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - processPackages [cpbox]: Remove: archive file [/home/abi/fetcher/tmp/cpbox-1.5.9.tar.gz]
+[2024-05-08 04:59:27] INFO root fetch - main [MainThread]: End processing [cpbox]: success
+[2024-05-08 04:59:27] INFO root fetch - main [MainThread]: Store serial: [23107763]
