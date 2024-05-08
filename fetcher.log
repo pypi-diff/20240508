@@ -12108,3 +12108,20 @@
 [2024-05-08 08:28:31] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 08:28:31] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 08:28:31] INFO root fetch - main [MainThread]: Store serial: [23109087]
+[2024-05-08 08:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109087]
+[2024-05-08 08:30:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 08:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netgen-mesher
+[2024-05-08 08:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoThemeGenerator
+[2024-05-08 08:30:39] INFO root fetch - processPackages [AutoThemeGenerator]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-08 08:30:39] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2402.post79.dev0] Old Version: [6.2.2402.post48.dev0]
+[2024-05-08 08:30:39] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/d9/8b/dd472d96d2df44068ec1276f140c7136c44af7cb0e2288a8967316dc3639/autothemegenerator-0.0.9.tar.gz
+[2024-05-08 08:30:39] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/50/02/cbac7de50b6605253cf99ed9aa698aa0fa68c4cbe85d17b28956c2a6819e/netgen_mesher-6.2.2402.post48.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 08:30:39] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20242104>=10485760
+[2024-05-08 08:30:39] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 08:30:39] INFO root fetch - processPackages [AutoThemeGenerator]: Downloading https://files.pythonhosted.org/packages/69/73/40e8f1fe8b5751a13c595bed6795e21ecf25b9948bca1340f64efc34a8a8/autothemegenerator-0.1.0.tar.gz
+[2024-05-08 08:30:40] INFO root fetch - processPackages [AutoThemeGenerator]: executing diffoscope
+[2024-05-08 08:30:40] INFO root fetch - processPackages [AutoThemeGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autothemegenerator-0.0.9.tar.gz tmp/autothemegenerator-0.1.0.tar.gz --markdown 20240508/A/AutoThemeGenerator/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-08 08:30:40] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.0.9.tar.gz]
+[2024-05-08 08:30:40] INFO root fetch - processPackages [AutoThemeGenerator]: Remove: archive file [/home/abi/fetcher/tmp/autothemegenerator-0.1.0.tar.gz]
+[2024-05-08 08:30:40] INFO root fetch - main [MainThread]: End processing [AutoThemeGenerator]: success
+[2024-05-08 08:30:40] INFO root fetch - main [MainThread]: Store serial: [23109094]
