@@ -2551,3 +2551,72 @@
 [2024-05-08 02:20:38] INFO root fetch - processPackages [not-again-ai]: Remove: archive file [/home/abi/fetcher/tmp/not_again_ai-0.8.0.tar.gz]
 [2024-05-08 02:20:38] INFO root fetch - main [MainThread]: End processing [not-again-ai]: success
 [2024-05-08 02:20:38] INFO root fetch - main [MainThread]: Store serial: [23105305]
+[2024-05-08 02:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105305]
+[2024-05-08 02:22:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmdiary
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emunium
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trieve-py-client
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Explicit
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rcquant-sdk
+[2024-05-08 02:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spikeweedz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [emunium]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [emunium]: Downloading https://files.pythonhosted.org/packages/f3/fc/924256c6d9fa61892342de0284bc3ab1138f7df679dc6d5b28ece3acbe25/emunium-1.5.0.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [mmdiary]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-08 02:22:47] WARNING root fetch - processPackages [spikeweedz]: Skipping, unable to determine old version
+[2024-05-08 02:22:47] INFO root fetch - main [MainThread]: End processing [spikeweedz] error
+[2024-05-08 02:22:47] INFO root fetch - processPackages [trieve-py-client]: New version: [0.8.0] Old Version: [0.7.6]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.7.6rc1] Old Version: [4.7.6]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [emunium]: Downloading https://files.pythonhosted.org/packages/21/61/ba9464dd03bab0755a862e83ab12864b2c9cb1ab9ce205956291d2543f85/emunium-2.0.0.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/44/9d/229573ec23c8310eff418bbaa6a31142bc413e0711be6285783ec64a3567/Geode_Explicit-4.7.6-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-08 02:22:47] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/21/4b/d68a68ef86a00d3a7c0d87a85583eaa22ccff2753c490a51284953f95df7/trieve_py_client-0.7.6-py3-none-any.whl
+[2024-05-08 02:22:47] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [mmdiary]: Downloading https://files.pythonhosted.org/packages/6a/08/4a18b20f78e68210b5a377223bb14b875cc2627680902aa8c4e360d8c712/mmdiary-0.1.1.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [emunium]: executing diffoscope
+[2024-05-08 02:22:47] INFO root fetch - processPackages [emunium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emunium-1.5.0.tar.gz tmp/emunium-2.0.0.tar.gz --markdown 20240508/e/emunium/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-08 02:22:47] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-08 02:22:47] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240508/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-08 02:22:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240508/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-08 02:22:48] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/6c/a8/b36056236a57032a6e20e415b353797ec6795144dd2538d2db72b14da51e/trieve_py_client-0.8.0-py3-none-any.whl
+[2024-05-08 02:22:48] INFO root fetch - processPackages [mmdiary]: Downloading https://files.pythonhosted.org/packages/a6/03/e72bf6e3ade8896fea2c5998ed970023416664fb4250aaf1883bd9b5aea3/mmdiary-0.2.0.tar.gz
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-08 02:22:48] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/a6/cf/49fe911b08a5545e444a132e48a11971485f4f18a4721f51e824477e006f/Geode_Explicit-4.7.6rc1-cp39-cp39-win_amd64.whl
+[2024-05-08 02:22:48] INFO root fetch - processPackages [mmdiary]: executing diffoscope
+[2024-05-08 02:22:48] INFO root fetch - processPackages [mmdiary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmdiary-0.1.1.tar.gz tmp/mmdiary-0.2.0.tar.gz --markdown 20240508/m/mmdiary/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-08 02:22:48] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-05-08 02:22:48] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.7.6-py3-none-any.whl.zip tmp/trieve_py_client-0.8.0-py3-none-any.whl.zip --markdown 20240508/t/trieve-py-client/0.7.6-0.8.0/README.md --exclude *.pyd
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240508/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-08 02:22:48] INFO root fetch - processPackages [emunium]: Remove: archive file [/home/abi/fetcher/tmp/emunium-1.5.0.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - processPackages [emunium]: Remove: archive file [/home/abi/fetcher/tmp/emunium-2.0.0.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - main [MainThread]: End processing [emunium]: success
+[2024-05-08 02:22:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-08 02:22:48] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-05-08 02:22:48] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.7.6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Explicit-4.7.6rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240508/G/Geode-Explicit/4.7.6-4.7.6rc1/README.md --exclude *.pyd
+[2024-05-08 02:22:48] INFO root fetch - processPackages [mmdiary]: Remove: archive file [/home/abi/fetcher/tmp/mmdiary-0.1.1.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - processPackages [mmdiary]: Remove: archive file [/home/abi/fetcher/tmp/mmdiary-0.2.0.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - main [MainThread]: End processing [mmdiary]: success
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-08 02:22:48] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-08 02:22:49] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.6-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-08 02:22:49] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.7.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 02:22:49] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-05-08 02:22:49] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.7.6-py3-none-any.whl.zip]
+[2024-05-08 02:22:49] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.0-py3-none-any.whl.zip]
+[2024-05-08 02:22:49] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-05-08 02:22:49] INFO root fetch - main [MainThread]: Store serial: [23105332]
