@@ -20918,3 +20918,119 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:48:02] INFO root fetch - processPackages [eea.facetednavigation]: Remove: archive file [/home/abi/fetcher/tmp/eea.facetednavigation-9.9.zip]
 [2024-05-08 13:48:02] INFO root fetch - main [MainThread]: End processing [eea.facetednavigation]: success
 [2024-05-08 13:48:02] INFO root fetch - main [MainThread]: Store serial: [23112858]
+[2024-05-08 13:50:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112858]
+[2024-05-08 13:50:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngsolve
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scs-analysis
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-multilingual
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatyan
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ProjectEngine
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scs-core
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DLMS-SPODES-client
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finch-tensor
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2024-05-08 13:50:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervisely
+[2024-05-08 13:50:12] INFO root fetch - processPackages [sqlalchemy-multilingual]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403] Old Version: [6.2.2402.post57.dev0]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [qwak-core]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [hatyan]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [scs-core]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [scs-analysis]: New version: [3.8.8] Old Version: [3.8.7]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ProjectEngine]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/8e/31/a2eccb1781ac437879021cc38e0b6755729b6230cf3eff32f3b5450be1fb/sqlalchemy_multilingual-0.0.8.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/3e/dd/8f28f603c96e59c9db4c20980ce2ce7e31e128e543e1588b4f97628a4918/ngsolve-6.2.2402.post57.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 13:50:12] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/89/ac/9c8b01e5faf1e88e6c31bfec782c443ecb1dd7356126c4ac2c6714a9349a/qwak_core-0.4.5.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-05-08 13:50:12] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 12679793>=10485760
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ngsolve]: Start processing: syndirella
+[2024-05-08 13:50:12] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-08 13:50:12] INFO root fetch - processPackages [hatyan]: Downloading https://files.pythonhosted.org/packages/34/af/ff1cf9027994e4989e1687cfeaff3349b4ee6fc83c3971a000860ccb1a1a/hatyan-2.7.0.tar.gz
+[2024-05-08 13:50:12] WARNING root fetch - processPackages [syndirella]: Skipping, unable to determine old version
+[2024-05-08 13:50:12] INFO root fetch - processPackages [syndirella]: Start processing: pyneople
+[2024-05-08 13:50:12] INFO root fetch - main [MainThread]: End processing [syndirella] error
+[2024-05-08 13:50:12] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/58/05/50911c18440d71c926923f263c6e3fb0a031afb8d5f1874f1e7b7d64c687/scs_analysis-3.8.7.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/16/0f/cfe27fc1c173550fcd053816dea81df44643bae2859d7c1edf0cce125741/scs-core-3.9.4.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ProjectEngine]: Downloading https://files.pythonhosted.org/packages/d9/8c/efaebfc6a1f916ca4e6e7ba992d0c3fb3ad2d99ffbbd2e0e1ad200517bfa/projectengine-0.2.1.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 13:50:12] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [sqlalchemy-multilingual]: Downloading https://files.pythonhosted.org/packages/dc/7d/be6c16a550c5939096799423b2de572214c24e8be021356c9f3eeafaa4f3/sqlalchemy_multilingual-0.0.9.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-08 13:50:12] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240508/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 13:50:12] INFO root fetch - processPackages [sqlalchemy-multilingual]: executing diffoscope
+[2024-05-08 13:50:12] INFO root fetch - processPackages [sqlalchemy-multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_multilingual-0.0.8.tar.gz tmp/sqlalchemy_multilingual-0.0.9.tar.gz --markdown 20240508/s/sqlalchemy-multilingual/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 13:50:12] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/4f/472aa1bb34fcd9b88d1e6b5a48a4b6785f2c83c28e2f5d199233c734da4a/DLMS_SPODES_client-0.8.9.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/96/61/11df7f52fc6a1551718bffcf41850cf1c5511539b40093d1be51aee7ec50/qwak_core-0.4.6.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [ProjectEngine]: Downloading https://files.pythonhosted.org/packages/d5/dd/43e0e873a3c4e8f1b1c27ac95264215d48760e4c9d07f0ca6c662f28b91e/projectengine-0.2.2.tar.gz
+[2024-05-08 13:50:12] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/37/7f/d5e881e34675785f876de523357e2c4caff116df20fc9d47d9023762d2ac/scs_analysis-3.8.8.tar.gz
+[2024-05-08 13:50:13] INFO root fetch - processPackages [hatyan]: Downloading https://files.pythonhosted.org/packages/06/27/31fd6f26eebd8963b57836d659253a5078c93a617109046b3a961bfda602/hatyan-2.8.0.tar.gz
+[2024-05-08 13:50:13] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/57/af/3987873caff8cb82812e00ed94241928f47c7c6cb52e25c3163689be282c/scs-core-3.9.5.tar.gz
+[2024-05-08 13:50:13] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 13:50:13] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240508/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.8.tar.gz tmp/DLMS_SPODES_client-0.8.9.tar.gz --markdown 20240508/D/DLMS-SPODES-client/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [ProjectEngine]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [ProjectEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectengine-0.2.1.tar.gz tmp/projectengine-0.2.2.tar.gz --markdown 20240508/P/ProjectEngine/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.5.tar.gz tmp/qwak_core-0.4.6.tar.gz --markdown 20240508/q/qwak-core/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs_analysis-3.8.7.tar.gz tmp/scs_analysis-3.8.8.tar.gz --markdown 20240508/s/scs-analysis/3.8.7-3.8.8/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [hatyan]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [hatyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatyan-2.7.0.tar.gz tmp/hatyan-2.8.0.tar.gz --markdown 20240508/h/hatyan/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-3.9.4.tar.gz tmp/scs-core-3.9.5.tar.gz --markdown 20240508/s/scs-core/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 13:50:13] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 13:50:13] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.8.tar.gz]
+[2024-05-08 13:50:13] INFO root fetch - processPackages [sqlalchemy-multilingual]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_multilingual-0.0.9.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [sqlalchemy-multilingual]: Start processing: hotsos
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [sqlalchemy-multilingual]: success
+[2024-05-08 13:50:14] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [finch-tensor]: Start processing: COBY
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-05-08 13:50:14] WARNING root fetch - processPackages [COBY]: Skipping, unable to determine old version
+[2024-05-08 13:50:14] INFO root fetch - processPackages [COBY]: Start processing: simnexus
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [COBY] error
+[2024-05-08 13:50:14] WARNING root fetch - processPackages [simnexus]: Skipping, unable to determine old version
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [simnexus] error
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-05-08 13:50:14] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 13:50:14] INFO root fetch - processPackages [ProjectEngine]: Remove: archive file [/home/abi/fetcher/tmp/projectengine-0.2.1.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [ProjectEngine]: Remove: archive file [/home/abi/fetcher/tmp/projectengine-0.2.2.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [ProjectEngine]: success
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240508/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hatyan]: Remove: archive file [/home/abi/fetcher/tmp/hatyan-2.7.0.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [hatyan]: Remove: archive file [/home/abi/fetcher/tmp/hatyan-2.8.0.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [hatyan]: success
+[2024-05-08 13:50:14] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.9.tar.gz]
+[2024-05-08 13:50:14] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-05-08 13:50:15] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.7.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs_analysis-3.8.8.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-05-08 13:50:15] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-05-08 13:50:15] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.4.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
+[2024-05-08 13:50:15] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2024-05-08 13:50:16] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-05-08 13:50:16] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-05-08 13:50:16] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-08 13:50:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.5.tar.gz]
+[2024-05-08 13:50:16] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.6.tar.gz]
+[2024-05-08 13:50:16] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-08 13:50:16] INFO root fetch - main [MainThread]: Store serial: [23112904]
