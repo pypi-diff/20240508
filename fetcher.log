@@ -13230,3 +13230,59 @@
 [2024-05-08 09:24:15] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-08 09:24:15] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-08 09:24:15] INFO root fetch - main [MainThread]: Store serial: [23109729]
+[2024-05-08 09:26:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109729]
+[2024-05-08 09:26:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uitestrunner-syberos
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th-influx-sdk
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cryptonets-python-sdk
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-forecast-line-deadline
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazy-type-hint
+[2024-05-08 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinjected
+[2024-05-08 09:26:24] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-08 09:26:24] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 09:26:24] INFO root fetch - processPackages [pinjected]: New version: [0.2.53] Old Version: [0.2.52]
+[2024-05-08 09:26:24] WARNING root fetch - processPackages [odoo-addon-project-forecast-line-deadline]: Skipping, unable to determine old version
+[2024-05-08 09:26:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-forecast-line-deadline] error
+[2024-05-08 09:26:24] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/a5/5c/bd860f533b87f78e7c75dca657fe8793bf512943b2abf315f82b75d2dcf2/uitestrunner_syberos-2.3.1.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [cryptonets-python-sdk]: New version: [1.3.0] Old Version: [1.2.4]
+[2024-05-08 09:26:24] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-08 09:26:24] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-08 09:26:24] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/92/0f/0240137b1b6d379fcb9be7e3bcc853ab005a0a2b3cace0d8b3e4bdf1e7fa/pinjected-0.2.52.tar.gz
+[2024-05-08 09:26:24] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 61923798>=10485760
+[2024-05-08 09:26:24] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-05-08 09:26:24] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/7f/57/e8ce6dd89fd724a8629e8daf85165ad303bbb5da67329b7a81680bc21b43/th-influx-sdk-1.0.7.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/5c/97/7c6a5850dfd0da76f74a15f3c6490b6ba948836b8b23f0c17a56d8363c76/cryptonets_python_sdk-1.2.4.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/cd/9e/c038b67292fff67dfd91b45a7a3c665a47d3753265b880ac8f260e7c066d/lazy_type_hint-2.2.2.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/c6/f4/94a79e1ab7042db41e21df447a09e483a26821c1605acb193f7c329b5e09/pinjected-0.2.53.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-08 09:26:24] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240508/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:26:24] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-08 09:26:24] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.52.tar.gz tmp/pinjected-0.2.53.tar.gz --markdown 20240508/p/pinjected/0.2.52-0.2.53/README.md --exclude *.pyd
+[2024-05-08 09:26:24] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/1b/b8/c5978f2c9305927aff7f9b913fd202d7ca4d5c2f360ef3af6349d73de024/th-influx-sdk-1.0.8.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [cryptonets-python-sdk]: Downloading https://files.pythonhosted.org/packages/6e/5c/46edee17097b90d8c7cb668e7c762fc1233a2a5f5827fb4cabcc75146525/cryptonets_python_sdk-1.3.0.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/c3/52/ea88e429eda12107dc4a67ed3819d12689df3d93b11a7ae897b27ab922fb/lazy_type_hint-2.2.3.tar.gz
+[2024-05-08 09:26:24] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-05-08 09:26:24] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.7.tar.gz tmp/th-influx-sdk-1.0.8.tar.gz --markdown 20240508/t/th-influx-sdk/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-08 09:26:24] INFO root fetch - processPackages [cryptonets-python-sdk]: executing diffoscope
+[2024-05-08 09:26:24] INFO root fetch - processPackages [cryptonets-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptonets_python_sdk-1.2.4.tar.gz tmp/cryptonets_python_sdk-1.3.0.tar.gz --markdown 20240508/c/cryptonets-python-sdk/1.2.4-1.3.0/README.md --exclude *.pyd
+[2024-05-08 09:26:25] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-05-08 09:26:25] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.2.2.tar.gz tmp/lazy_type_hint-2.2.3.tar.gz --markdown 20240508/l/lazy-type-hint/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-08 09:26:25] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.52.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.53.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-08 09:26:25] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.2.4.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - processPackages [cryptonets-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cryptonets_python_sdk-1.3.0.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - main [MainThread]: End processing [cryptonets-python-sdk]: success
+[2024-05-08 09:26:25] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.2.2.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.2.3.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-05-08 09:26:25] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.7.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.8.tar.gz]
+[2024-05-08 09:26:25] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-05-08 09:26:26] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-08 09:26:26] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-08 09:26:26] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-08 09:26:26] INFO root fetch - main [MainThread]: Store serial: [23109751]
