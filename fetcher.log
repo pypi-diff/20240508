@@ -22804,3 +22804,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 15:03:15] WARNING root fetch - processPackages [hyperspy]: Skipping package: exceeds size limit 25545687>=10485760
 [2024-05-08 15:03:15] INFO root fetch - main [MainThread]: End processing [hyperspy] error
 [2024-05-08 15:03:15] INFO root fetch - main [MainThread]: Store serial: [23113772]
+[2024-05-08 15:05:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23113772]
+[2024-05-08 15:05:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-08 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdn-research-environment
+[2024-05-08 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nightingalejsonadapter
+[2024-05-08 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epoophoronz
+[2024-05-08 15:05:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyminufit
+[2024-05-08 15:05:25] INFO root fetch - processPackages [nightingalejsonadapter]: New version: [2.7.0] Old Version: [2.4.0]
+[2024-05-08 15:05:25] INFO root fetch - processPackages [nightingalejsonadapter]: Downloading https://files.pythonhosted.org/packages/9d/56/2235938f54b219f3e35421f94f2967a769af7f3df1c3c821a7c24ae988a2/nightingalejsonadapter-2.4.0.tar.gz
+[2024-05-08 15:05:25] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.7a1]
+[2024-05-08 15:05:25] WARNING root fetch - processPackages [pyminufit]: Skipping, unable to determine old version
+[2024-05-08 15:05:25] INFO root fetch - main [MainThread]: End processing [pyminufit] error
+[2024-05-08 15:05:25] WARNING root fetch - processPackages [epoophoronz]: Skipping, unable to determine old version
+[2024-05-08 15:05:25] INFO root fetch - main [MainThread]: End processing [epoophoronz] error
+[2024-05-08 15:05:25] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/6c/d8/4d11f750c8054f83304022066e7d53fc24268b0a4ccc05fe66dfa7403bc5/hdn-research-environment-3.0.7a1.tar.gz
+[2024-05-08 15:05:25] INFO root fetch - processPackages [nightingalejsonadapter]: Downloading https://files.pythonhosted.org/packages/24/e6/1f2205207876b7a06c937f76b638452233ed87458661a15670e71f13f53a/nightingalejsonadapter-2.7.0.tar.gz
+[2024-05-08 15:05:25] INFO root fetch - processPackages [nightingalejsonadapter]: executing diffoscope
+[2024-05-08 15:05:25] INFO root fetch - processPackages [nightingalejsonadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nightingalejsonadapter-2.4.0.tar.gz tmp/nightingalejsonadapter-2.7.0.tar.gz --markdown 20240508/n/nightingalejsonadapter/2.4.0-2.7.0/README.md --exclude *.pyd
+[2024-05-08 15:05:25] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-05-08 15:05:26] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-05-08 15:05:26] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.7a1.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240508/h/hdn-research-environment/3.0.7a1-3.0.7rc0/README.md --exclude *.pyd
+[2024-05-08 15:05:26] INFO root fetch - processPackages [nightingalejsonadapter]: Remove: archive file [/home/abi/fetcher/tmp/nightingalejsonadapter-2.4.0.tar.gz]
+[2024-05-08 15:05:26] INFO root fetch - processPackages [nightingalejsonadapter]: Remove: archive file [/home/abi/fetcher/tmp/nightingalejsonadapter-2.7.0.tar.gz]
+[2024-05-08 15:05:26] INFO root fetch - main [MainThread]: End processing [nightingalejsonadapter]: success
+[2024-05-08 15:05:26] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7a1.tar.gz]
+[2024-05-08 15:05:26] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-05-08 15:05:26] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-05-08 15:05:26] INFO root fetch - main [MainThread]: Store serial: [23113786]
