@@ -17485,3 +17485,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:36:32] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
 [2024-05-08 11:36:32] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2024-05-08 11:36:32] INFO root fetch - main [MainThread]: Store serial: [23111469]
+[2024-05-08 11:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111469]
+[2024-05-08 11:38:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ood_detectors
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneople
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flopyrw
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biosmoother
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmk-python
+[2024-05-08 11:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jax-control-algorithms
+[2024-05-08 11:38:41] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [pyneople]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [nmk-python]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [flopyrw]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [jax-control-algorithms]: New version: [0.6.3] Old Version: [0.5.2]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [biosmoother]: New version: [1.5.1] Old Version: [1.3.3]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/12/82/33ce59f648b13e467a837f7c3fa40798f2c5d480420682b5927c39bf0e83/ood_detectors-0.0.7.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/d5/90/919ecd6fbe99799fda73dabc1ea535bb79f86be9b6ed8c61b6310bedc135/pyneople-0.3.7.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 11:38:41] INFO root fetch - processPackages [nmk-python]: Downloading https://files.pythonhosted.org/packages/4e/b8/91f94205d50ffe0c567c24e3d02e5e9f6a7b61dd55ed04ee08e19005f296/nmk-python-0.8.3.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [flopyrw]: Downloading https://files.pythonhosted.org/packages/5c/85/d1593f132976ffc82c3b000651d8ef47834e954880a4d28c0631df9c50df/flopyrw-1.0.0.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [jax-control-algorithms]: Downloading https://files.pythonhosted.org/packages/d7/ae/5723e93b395084197efeb639c3042ef15dea84692e0304c14f163b7a67dd/jax_control_algorithms-0.5.2.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [biosmoother]: Downloading https://files.pythonhosted.org/packages/5b/3c/f0b4d8896ec277e1b61c052a42672b16626a1596c5888d65f2750da13c75/biosmoother-1.3.3-py3-none-any.whl
+[2024-05-08 11:38:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/ba/39/56b0a143b318bb7d533a591880c956e95a38a22da23877704e33aee301a5/pyneople-0.3.9.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.3.7.tar.gz tmp/pyneople-0.3.9.tar.gz --markdown 20240508/p/pyneople/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.7.tar.gz tmp/ood_detectors-0.0.8.tar.gz --markdown 20240508/o/ood_detectors/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [flopyrw]: Downloading https://files.pythonhosted.org/packages/52/44/29d7644ca7c30135c0f386aa7252822265a057758d3d5e5d54559bdaeb85/flopyrw-1.0.1.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [biosmoother]: Downloading https://files.pythonhosted.org/packages/4b/e3/ab566db7c620f90e723a7c26ea3161cf338554c72e06e952e427fb15c2b4/biosmoother-1.5.1-py3-none-any.whl
+[2024-05-08 11:38:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [nmk-python]: Downloading https://files.pythonhosted.org/packages/7a/a7/f5811827f140eb7104bccd57d1e9378ce3e9e7bb3fd3e1f4ff4bcbdfbfed/nmk-python-0.9.0.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [jax-control-algorithms]: Downloading https://files.pythonhosted.org/packages/d4/02/29651b2e767d33813f34a396fd9989b3c98e63f8621579d91479453c53d2/jax_control_algorithms-0.6.3.tar.gz
+[2024-05-08 11:38:41] INFO root fetch - processPackages [flopyrw]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [flopyrw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flopyrw-1.0.0.tar.gz tmp/flopyrw-1.0.1.tar.gz --markdown 20240508/f/flopyrw/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [jax-control-algorithms]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [jax-control-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_control_algorithms-0.5.2.tar.gz tmp/jax_control_algorithms-0.6.3.tar.gz --markdown 20240508/j/jax-control-algorithms/0.5.2-0.6.3/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [nmk-python]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [nmk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmk-python-0.8.3.tar.gz tmp/nmk-python-0.9.0.tar.gz --markdown 20240508/n/nmk-python/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [biosmoother]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 11:38:41] INFO root fetch - processPackages [biosmoother]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosmoother-1.3.3-py3-none-any.whl.zip tmp/biosmoother-1.5.1-py3-none-any.whl.zip --markdown 20240508/b/biosmoother/1.3.3-1.5.1/README.md --exclude *.pyd
+[2024-05-08 11:38:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 11:38:42] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.7.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.3.9.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-05-08 11:38:42] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.7.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-08 11:38:42] INFO root fetch - processPackages [flopyrw]: Remove: archive file [/home/abi/fetcher/tmp/flopyrw-1.0.0.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [flopyrw]: Remove: archive file [/home/abi/fetcher/tmp/flopyrw-1.0.1.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [flopyrw]: success
+[2024-05-08 11:38:42] INFO root fetch - processPackages [jax-control-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/jax_control_algorithms-0.5.2.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [jax-control-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/jax_control_algorithms-0.6.3.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [jax-control-algorithms]: success
+[2024-05-08 11:38:42] INFO root fetch - processPackages [biosmoother]: Remove: archive file [/home/abi/fetcher/tmp/biosmoother-1.3.3-py3-none-any.whl.zip]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [biosmoother]: Remove: archive file [/home/abi/fetcher/tmp/biosmoother-1.5.1-py3-none-any.whl.zip]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [biosmoother]: success
+[2024-05-08 11:38:42] INFO root fetch - processPackages [nmk-python]: Remove: archive file [/home/abi/fetcher/tmp/nmk-python-0.8.3.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - processPackages [nmk-python]: Remove: archive file [/home/abi/fetcher/tmp/nmk-python-0.9.0.tar.gz]
+[2024-05-08 11:38:42] INFO root fetch - main [MainThread]: End processing [nmk-python]: success
+[2024-05-08 11:38:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 11:38:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 11:38:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 11:38:43] INFO root fetch - main [MainThread]: Store serial: [23111489]
