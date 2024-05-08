@@ -15453,3 +15453,66 @@
 [2024-05-08 10:37:56] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
 [2024-05-08 10:37:56] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
 [2024-05-08 10:37:56] INFO root fetch - main [MainThread]: Store serial: [23110673]
+[2024-05-08 10:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110673]
+[2024-05-08 10:40:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: milvus-lite
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tala
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FileFly
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-kfp-task-stub
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synfras
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-08 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OiRunner
+[2024-05-08 10:40:05] INFO root fetch - processPackages [simple-kfp-task-stub]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 10:40:05] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:40:05] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 10:40:05] WARNING root fetch - processPackages [milvus-lite]: Skipping, unable to determine old version
+[2024-05-08 10:40:05] INFO root fetch - main [MainThread]: End processing [milvus-lite] error
+[2024-05-08 10:40:05] INFO root fetch - processPackages [synfras]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-08 10:40:05] WARNING root fetch - processPackages [FileFly]: Skipping, unable to determine old version
+[2024-05-08 10:40:05] INFO root fetch - main [MainThread]: End processing [FileFly] error
+[2024-05-08 10:40:05] INFO root fetch - processPackages [simple-kfp-task-stub]: Downloading https://files.pythonhosted.org/packages/28/b7/7cc032cb2eb67cc2202bc086cc6c9d1aeb9c9d6d7713307308123a3ca136/simple_kfp_task_stub-0.0.2.tar.gz
+[2024-05-08 10:40:05] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-08 10:40:05] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-08 10:40:05] INFO root fetch - processPackages [OiRunner]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-05-08 10:40:05] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-08 10:40:05] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2024-05-08 10:40:05] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/1d/7a/f9094fffdb788cf82ddf1af9a928458e25c422544deb8f885c616bc5bcca/oirunner-0.0.0.tar.gz
+[2024-05-08 10:40:05] INFO root fetch - processPackages [synfras]: Downloading https://files.pythonhosted.org/packages/c9/6b/77292436d56ebb97ff322a457274d7e92795daacd58fe11dc14f02c29858/synfras-0.2.0.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [simple-kfp-task-stub]: Downloading https://files.pythonhosted.org/packages/ab/b5/66b9a2d5e16ad15907f319e7d58293852500bc1272ccf744ee6a467a0b1b/simple_kfp_task_stub-0.0.3.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240508/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240508/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [simple-kfp-task-stub]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [simple-kfp-task-stub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_kfp_task_stub-0.0.2.tar.gz tmp/simple_kfp_task_stub-0.0.3.tar.gz --markdown 20240508/s/simple-kfp-task-stub/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [synfras]: Downloading https://files.pythonhosted.org/packages/0a/17/cf8af4922b9cc0ea2d537ebeec44965402b5145dd1af4c106eead05186ff/synfras-0.3.0.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2024-05-08 10:40:06] INFO root fetch - processPackages [OiRunner]: Downloading https://files.pythonhosted.org/packages/54/99/b0770d486535561f4f5e4f2446cd46cafecb54946813733437073d664f95/OiRunner-0.0.2.tar.gz
+[2024-05-08 10:40:06] INFO root fetch - processPackages [synfras]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [synfras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synfras-0.2.0.tar.gz tmp/synfras-0.3.0.tar.gz --markdown 20240508/s/synfras/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [OiRunner]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [OiRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oirunner-0.0.0.tar.gz tmp/OiRunner-0.0.2.tar.gz --markdown 20240508/O/OiRunner/0.0.0-0.0.2/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [tala]: executing diffoscope
+[2024-05-08 10:40:06] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20240508/t/tala/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-08 10:40:06] INFO root fetch - processPackages [simple-kfp-task-stub]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task_stub-0.0.2.tar.gz]
+[2024-05-08 10:40:06] INFO root fetch - processPackages [simple-kfp-task-stub]: Remove: archive file [/home/abi/fetcher/tmp/simple_kfp_task_stub-0.0.3.tar.gz]
+[2024-05-08 10:40:06] INFO root fetch - main [MainThread]: End processing [simple-kfp-task-stub]: success
+[2024-05-08 10:40:06] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-08 10:40:06] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-08 10:40:06] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-08 10:40:07] INFO root fetch - processPackages [synfras]: Remove: archive file [/home/abi/fetcher/tmp/synfras-0.2.0.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - processPackages [synfras]: Remove: archive file [/home/abi/fetcher/tmp/synfras-0.3.0.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - main [MainThread]: End processing [synfras]: success
+[2024-05-08 10:40:07] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-08 10:40:07] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/oirunner-0.0.0.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - processPackages [OiRunner]: Remove: archive file [/home/abi/fetcher/tmp/OiRunner-0.0.2.tar.gz]
+[2024-05-08 10:40:07] INFO root fetch - main [MainThread]: End processing [OiRunner]: success
+[2024-05-08 10:40:07] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-8.0.0-py3-none-any.whl.zip]
+[2024-05-08 10:40:07] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-9.0.0-py3-none-any.whl.zip]
+[2024-05-08 10:40:07] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2024-05-08 10:40:07] INFO root fetch - main [MainThread]: Store serial: [23110701]
