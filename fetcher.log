@@ -11271,3 +11271,24 @@
 [2024-05-08 07:35:16] INFO root fetch - processPackages [python-ironicclient]: Remove: archive file [/home/abi/fetcher/tmp/python-ironicclient-5.6.0.tar.gz]
 [2024-05-08 07:35:16] INFO root fetch - main [MainThread]: End processing [python-ironicclient]: success
 [2024-05-08 07:35:16] INFO root fetch - main [MainThread]: Store serial: [23108572]
+[2024-05-08 07:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108572]
+[2024-05-08 07:37:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 07:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uac-api
+[2024-05-08 07:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uac-cli
+[2024-05-08 07:37:25] INFO root fetch - processPackages [uac-api]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-08 07:37:25] INFO root fetch - processPackages [uac-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-08 07:37:25] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/d0/03/d32244926f987c5267299c618251e88ce6bee4484d3271350dc5a2e70b1b/uac-api-0.4.2.tar.gz
+[2024-05-08 07:37:25] INFO root fetch - processPackages [uac-cli]: Downloading https://files.pythonhosted.org/packages/61/a1/35662bf2e982b35e0b7451b8604637089eb851b390a2f99e5ae9689184c0/uac-cli-0.2.3.tar.gz
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: Downloading https://files.pythonhosted.org/packages/5a/1f/b222368a2215301f7faa8eb9b6bd3ca46310baf5a767399283a8679cf7b5/uac-cli-0.2.4.tar.gz
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-api]: Downloading https://files.pythonhosted.org/packages/93/69/91b657d8704c5452e2e09c78dd9aaab7549ecd6bf9444f15003463e0632a/uac-api-0.4.3.tar.gz
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: executing diffoscope
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-cli-0.2.3.tar.gz tmp/uac-cli-0.2.4.tar.gz --markdown 20240508/u/uac-cli/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-api]: executing diffoscope
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uac-api-0.4.2.tar.gz tmp/uac-api-0.4.3.tar.gz --markdown 20240508/u/uac-api/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.2.tar.gz]
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-api]: Remove: archive file [/home/abi/fetcher/tmp/uac-api-0.4.3.tar.gz]
+[2024-05-08 07:37:26] INFO root fetch - main [MainThread]: End processing [uac-api]: success
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.3.tar.gz]
+[2024-05-08 07:37:26] INFO root fetch - processPackages [uac-cli]: Remove: archive file [/home/abi/fetcher/tmp/uac-cli-0.2.4.tar.gz]
+[2024-05-08 07:37:26] INFO root fetch - main [MainThread]: End processing [uac-cli]: success
+[2024-05-08 07:37:26] INFO root fetch - main [MainThread]: Store serial: [23108579]
