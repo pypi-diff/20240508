@@ -2411,3 +2411,33 @@
 [2024-05-08 02:14:08] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240507.tar.gz]
 [2024-05-08 02:14:08] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-08 02:14:08] INFO root fetch - main [MainThread]: Store serial: [23105253]
+[2024-05-08 02:16:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105253]
+[2024-05-08 02:16:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 02:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-08 02:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-05-08 02:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-08 02:16:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240508/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240508/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240508/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-08 02:16:17] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-08 02:16:17] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-08 02:16:17] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-08 02:16:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-08 02:16:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-08 02:16:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-08 02:16:18] INFO root fetch - main [MainThread]: Store serial: [23105262]
