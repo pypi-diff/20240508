@@ -14975,3 +14975,117 @@
 [2024-05-08 10:26:49] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz]
 [2024-05-08 10:26:49] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
 [2024-05-08 10:26:49] INFO root fetch - main [MainThread]: Store serial: [23110501]
+[2024-05-08 10:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110501]
+[2024-05-08 10:28:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tool-mapi
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-foundation-drift-detection-client-python
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnpy-rest
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissemble-foundation-model-training-api
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commandpack
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tpu-mlir
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-model-training-api
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grasp_planning
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eurmlsdk
+[2024-05-08 10:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiondata
+[2024-05-08 10:28:59] INFO root fetch - processPackages [grasp_planning]: New version: [0.3] Old Version: [0.2]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.74] Old Version: [0.0.73]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: New version: [1.7.0.dev1715156797] Old Version: [1.7.0.dev1714770469]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tool-mapi]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [vnpy-rest]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/7b/76/f65d8b167a39cec422aa4c5175a0113544175309be068855310be1de1431/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1715156845] Old Version: [1.7.0.dev1715156825]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: New version: [1.7.0.dev1715156845] Old Version: [1.7.0.dev1715156825]
+[2024-05-08 10:28:59] WARNING root fetch - processPackages [commandpack]: Skipping, unable to determine old version
+[2024-05-08 10:28:59] INFO root fetch - processPackages [commandpack]: Start processing: aissemble-foundation-versioning-service
+[2024-05-08 10:28:59] INFO root fetch - main [MainThread]: End processing [commandpack] error
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tpu-mlir]: New version: [1.7] Old Version: [1.6b0]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aiondata]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/8f/2d/1a8f4901454b386b68b455395ef18483a0117e19e7f2d72a957575d0a313/grasp_planning-0.2.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/1f/7a/06033a80ee2bb98246e1bed1e71e6dd9186497c50527780a6cc895cf3b50/eurmlsdk-0.0.73.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tool-mapi]: Downloading https://files.pythonhosted.org/packages/79/ff/8696918c1f4c24a9f57f3bf3a69f868e4d50a94647448fb7c31d7f2c3989/tool_mapi-2.0.0.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [vnpy-rest]: Downloading https://files.pythonhosted.org/packages/99/7b/0bfd21ec3ef8bd129bd3646d2865b2b67d742d8200569fd443cc13eec9f3/vnpy_rest-1.0.8.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/95/16/3202ca9a0daa2b211660969d75e80b0301bc674e409927ce9ac059569d0d/aissemble_foundation_model_training_api-1.7.0.dev1715156825.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/95/16/3202ca9a0daa2b211660969d75e80b0301bc674e409927ce9ac059569d0d/aissemble_foundation_model_training_api-1.7.0.dev1715156825.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1715156893] Old Version: [1.7.0.dev1715156866]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tpu-mlir]: Downloading https://files.pythonhosted.org/packages/8f/35/eac227d3f6769aee06579d7fd98c7e68d80d735d668add5a78f349916b79/tpu_mlir-1.6b0.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aiondata]: Downloading https://files.pythonhosted.org/packages/31/f4/b7d2ec3e43b34ecbe99238f1245ddc081aa6778a985a21874526a6f36929/aiondata-0.4.3.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Downloading https://files.pythonhosted.org/packages/34/7c/bbf12eb7f8c117da76609e3ab41d5a035429bf8440a84059f19d7f5f4235/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/21/8d/1543e9bb0969995940a8234523684bfd741e1d1a9993dbd7b54cfe67b11f/grasp_planning-0.3.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/41/5d/44708ce691c7661aaf72067c9c7556a7975f35c870818a1b030abde8605d/aissemble_foundation_versioning_service-1.7.0.dev1715156866.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tool-mapi]: Downloading https://files.pythonhosted.org/packages/4c/c4/72a8056d66e809ef8f9408757d9afb36e1cd41e9578b49daebf0e5fb787f/tool_mapi-3.0.0.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz --markdown 20240508/a/aissemble-foundation-drift-detection-client-python/1.7.0.dev1714770469-1.7.0.dev1715156797/README.md --exclude *.pyd
+[2024-05-08 10:28:59] WARNING root fetch - processPackages [tpu-mlir]: Skipping package: exceeds size limit 134127244>=10485760
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tpu-mlir]: Start processing: aissemble-foundation-versioning-service
+[2024-05-08 10:28:59] INFO root fetch - main [MainThread]: End processing [tpu-mlir] error
+[2024-05-08 10:28:59] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.2.tar.gz tmp/grasp_planning-0.3.tar.gz --markdown 20240508/g/grasp_planning/0.2-0.3/README.md --exclude *.pyd
+[2024-05-08 10:28:59] INFO root fetch - processPackages [vnpy-rest]: Downloading https://files.pythonhosted.org/packages/40/32/7d60dabe2ca0c8ecda0ca5573fc121496cbdbcafe9e294dd245ca12bf080/vnpy_rest-1.0.9.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: New version: [1.7.0.dev1715156893] Old Version: [1.7.0.dev1715156866]
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tool-mapi]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [tool-mapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_mapi-2.0.0.tar.gz tmp/tool_mapi-3.0.0.tar.gz --markdown 20240508/t/tool-mapi/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-08 10:28:59] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/49/9b/5c640fe34eca2fa7153429fed45144405aee1386d6899630416f30f3d216/eurmlsdk-0.0.74.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/16/64/e548975752bf0e292e04e73956e30d165d504c1937d027947b5b0327ba98/aissemble_foundation_model_training_api-1.7.0.dev1715156845.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Downloading https://files.pythonhosted.org/packages/16/64/e548975752bf0e292e04e73956e30d165d504c1937d027947b5b0327ba98/aissemble_foundation_model_training_api-1.7.0.dev1715156845.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aiondata]: Downloading https://files.pythonhosted.org/packages/a5/cc/4b800b5b6d5fa876f89422ec8361176f81dbe846c9ee16dbf233190cd2d9/aiondata-0.4.4.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [vnpy-rest]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [vnpy-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_rest-1.0.8.tar.gz tmp/vnpy_rest-1.0.9.tar.gz --markdown 20240508/v/vnpy-rest/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 10:28:59] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.73.tar.gz tmp/eurmlsdk-0.0.74.tar.gz --markdown 20240508/e/eurmlsdk/0.0.73-0.0.74/README.md --exclude *.pyd
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156825.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156845.tar.gz --markdown 20240508/a/aissemble-foundation-model-training-api/1.7.0.dev1715156825-1.7.0.dev1715156845/README.md --exclude *.pyd
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/eb/3e/e9c9a01dee3b79049fc89f491dcb6020c6a8e938736066bc0aac1392ebaa/aissemble_foundation_versioning_service-1.7.0.dev1715156893.tar.gz
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: executing diffoscope
+[2024-05-08 10:28:59] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156825.tar.gz tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156845.tar.gz --markdown 20240508/a/aissemble-foundation-model-training-api/1.7.0.dev1715156825-1.7.0.dev1715156845/README.md --exclude *.pyd
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Downloading https://files.pythonhosted.org/packages/eb/3e/e9c9a01dee3b79049fc89f491dcb6020c6a8e938736066bc0aac1392ebaa/aissemble_foundation_versioning_service-1.7.0.dev1715156893.tar.gz
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aiondata]: executing diffoscope
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aiondata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiondata-0.4.3.tar.gz tmp/aiondata-0.4.4.tar.gz --markdown 20240508/a/aiondata/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156866.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156893.tar.gz --markdown 20240508/a/aissemble-foundation-versioning-service/1.7.0.dev1715156866-1.7.0.dev1715156893/README.md --exclude *.pyd
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: executing diffoscope
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156866.tar.gz tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156893.tar.gz --markdown 20240508/a/aissemble-foundation-versioning-service/1.7.0.dev1715156866-1.7.0.dev1715156893/README.md --exclude *.pyd
+[2024-05-08 10:29:00] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.2.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.3.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [grasp_planning]: Start processing: elody
+[2024-05-08 10:29:00] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-08 10:29:00] INFO root fetch - processPackages [tool-mapi]: Remove: archive file [/home/abi/fetcher/tmp/tool_mapi-2.0.0.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [tool-mapi]: Remove: archive file [/home/abi/fetcher/tmp/tool_mapi-3.0.0.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [tool-mapi]: Start processing: pdm
+[2024-05-08 10:29:00] INFO root fetch - main [MainThread]: End processing [tool-mapi]: success
+[2024-05-08 10:29:00] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1714770469.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - processPackages [aissemble-foundation-drift-detection-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_drift_detection_client_python-1.7.0.dev1715156797.tar.gz]
+[2024-05-08 10:29:00] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-drift-detection-client-python]: success
+[2024-05-08 10:29:00] INFO root fetch - processPackages [pdm]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156825.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aissemble-foundation-model-training-api]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_training_api-1.7.0.dev1715156845.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-08 10:29:01] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-08 10:29:01] INFO root fetch - processPackages [vnpy-rest]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rest-1.0.8.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [vnpy-rest]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_rest-1.0.9.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [vnpy-rest]: success
+[2024-05-08 10:29:01] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.73.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.74.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-08 10:29:01] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/0c/1a/5475da7e816fa32e8a94e4df657d8ccb44643257d1d0c307e8e6d420a583/pdm-2.9.2.tar.gz
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aiondata]: Remove: archive file [/home/abi/fetcher/tmp/aiondata-0.4.3.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aiondata]: Remove: archive file [/home/abi/fetcher/tmp/aiondata-0.4.4.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [aiondata]: success
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156866.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - processPackages [aissemble-foundation-versioning-service]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_versioning_service-1.7.0.dev1715156893.tar.gz]
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-versioning-service]: success
+[2024-05-08 10:29:01] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-training-api]: success
+[2024-05-08 10:29:01] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-08 10:29:01] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-08 10:29:01] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240508/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 10:29:02] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-08 10:29:02] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-08 10:29:02] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-08 10:29:03] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/58/fd/b081937c283502be42efdf7ae4d7c7f8014c57bd74dbc7f9b629f44d22a2/pdm-2.9.3.tar.gz
+[2024-05-08 10:29:04] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2024-05-08 10:29:04] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.9.2.tar.gz tmp/pdm-2.9.3.tar.gz --markdown 20240508/p/pdm/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-05-08 10:29:05] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.2.tar.gz]
+[2024-05-08 10:29:05] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
+[2024-05-08 10:29:05] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2024-05-08 10:29:05] INFO root fetch - main [MainThread]: Store serial: [23110542]
