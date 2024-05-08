@@ -13170,3 +13170,63 @@
 [2024-05-08 09:22:02] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2024-05-08 09:22:02] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2024-05-08 09:22:02] INFO root fetch - main [MainThread]: Store serial: [23109708]
+[2024-05-08 09:24:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109708]
+[2024-05-08 09:24:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-xlibrary
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-group-local
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PepperPepper
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locust
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenodo-get
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heteropodaz
+[2024-05-08 09:24:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-toolkit
+[2024-05-08 09:24:11] INFO root fetch - processPackages [robotframework-xlibrary]: New version: [11.0.8] Old Version: [11.0.7]
+[2024-05-08 09:24:11] INFO root fetch - processPackages [zenodo-get]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-08 09:24:11] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 09:24:11] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-08 09:24:11] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-08 09:24:11] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-08 09:24:11] WARNING root fetch - processPackages [heteropodaz]: Skipping, unable to determine old version
+[2024-05-08 09:24:11] INFO root fetch - main [MainThread]: End processing [heteropodaz] error
+[2024-05-08 09:24:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/87/7b/8cb94a1d6acd8f7d2ce3c9772cc80c343bfbb87b9bb6f968c1d41df6b5d7/robotframework-xlibrary-11.0.7.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [zenodo-get]: Downloading https://files.pythonhosted.org/packages/72/36/af92f915f649dd08b6e35afb099306061e225ff29ddb3d7c37250855b79c/zenodo_get-1.5.1.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [zenodo-get]: Downloading https://files.pythonhosted.org/packages/40/de/53fc4550a3ff0007ce54ed6205ad34b8a36eb1a9046f0ca88a98da9adb39/zenodo_get-1.6.0.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [robotframework-xlibrary]: Downloading https://files.pythonhosted.org/packages/5b/eb/0419c5ee6c523afcb77d61667a19e99d6a17243466adff0580259edf9ecd/robotframework-xlibrary-11.0.8.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [zenodo-get]: executing diffoscope
+[2024-05-08 09:24:11] INFO root fetch - processPackages [zenodo-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenodo_get-1.5.1.tar.gz tmp/zenodo_get-1.6.0.tar.gz --markdown 20240508/z/zenodo-get/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-08 09:24:11] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-05-08 09:24:11] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240508/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-08 09:24:11] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-08 09:24:11] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240508/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:24:11] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-08 09:24:11] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-08 09:24:11] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240508/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-08 09:24:11] INFO root fetch - processPackages [robotframework-xlibrary]: executing diffoscope
+[2024-05-08 09:24:11] INFO root fetch - processPackages [robotframework-xlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-xlibrary-11.0.7.tar.gz tmp/robotframework-xlibrary-11.0.8.tar.gz --markdown 20240508/r/robotframework-xlibrary/11.0.7-11.0.8/README.md --exclude *.pyd
+[2024-05-08 09:24:12] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-05-08 09:24:12] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-08 09:24:12] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-08 09:24:12] INFO root fetch - processPackages [zenodo-get]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_get-1.5.1.tar.gz]
+[2024-05-08 09:24:12] INFO root fetch - processPackages [zenodo-get]: Remove: archive file [/home/abi/fetcher/tmp/zenodo_get-1.6.0.tar.gz]
+[2024-05-08 09:24:13] INFO root fetch - main [MainThread]: End processing [zenodo-get]: success
+[2024-05-08 09:24:13] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.7.tar.gz]
+[2024-05-08 09:24:13] INFO root fetch - processPackages [robotframework-xlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-xlibrary-11.0.8.tar.gz]
+[2024-05-08 09:24:13] INFO root fetch - main [MainThread]: End processing [robotframework-xlibrary]: success
+[2024-05-08 09:24:13] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-08 09:24:13] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240508/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-08 09:24:15] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-08 09:24:15] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-08 09:24:15] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-08 09:24:15] INFO root fetch - main [MainThread]: Store serial: [23109729]
