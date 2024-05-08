@@ -18585,3 +18585,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:18:56] INFO root fetch - processPackages [kolla-ansible]: Remove: archive file [/home/abi/fetcher/tmp/kolla-ansible-9.3.2.tar.gz]
 [2024-05-08 12:18:56] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
 [2024-05-08 12:18:56] INFO root fetch - main [MainThread]: Store serial: [23111901]
+[2024-05-08 12:21:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111901]
+[2024-05-08 12:21:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-sip2
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdetsyn
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf2-bfgs
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pg-sync-roles
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safeheron-api-sdk-python
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolla
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaiju-scheduler
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smooth-logger
+[2024-05-08 12:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aihorde
+[2024-05-08 12:21:06] INFO root fetch - processPackages [invenio-sip2]: New version: [0.6.23] Old Version: [0.6.22]
+[2024-05-08 12:21:06] WARNING root fetch - processPackages [aihorde]: Skipping, unable to determine old version
+[2024-05-08 12:21:06] INFO root fetch - processPackages [mdetsyn]: New version: [0.0.4.post1] Old Version: [0.0.4]
+[2024-05-08 12:21:06] INFO root fetch - main [MainThread]: End processing [aihorde] error
+[2024-05-08 12:21:06] WARNING root fetch - processPackages [pg-sync-roles]: Skipping, unable to determine old version
+[2024-05-08 12:21:06] INFO root fetch - main [MainThread]: End processing [pg-sync-roles] error
+[2024-05-08 12:21:06] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-08 12:21:06] WARNING root fetch - processPackages [tf2-bfgs]: Skipping, unable to determine old version
+[2024-05-08 12:21:06] INFO root fetch - main [MainThread]: End processing [tf2-bfgs] error
+[2024-05-08 12:21:06] INFO root fetch - processPackages [smooth-logger]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-08 12:21:06] INFO root fetch - processPackages [kaiju-scheduler]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 12:21:06] INFO root fetch - processPackages [kolla]: New version: [9.4.0] Old Version: [9.3.1]
+[2024-05-08 12:21:06] INFO root fetch - processPackages [invenio-sip2]: Downloading https://files.pythonhosted.org/packages/8c/b7/bd63d1a4a430adcf2de49768ec196cb49a06c4a6a4a5ada87b025ab0e8b8/invenio_sip2-0.6.22.tar.gz
+[2024-05-08 12:21:06] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/b3/2b/11868ba806a256eb40aa1440d1dff67d705c3b779086fff7b06c3121a56c/mdetsyn-0.0.4.tar.gz
+[2024-05-08 12:21:06] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/ed/f2/0b495cb3baa32e7c25e4fbfc9c3ed5f00d7225995480446ebfd73ec29ab4/smooth_logger-1.0.1.tar.gz
+[2024-05-08 12:21:06] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/ce/c2/428e252a3a150042a691ce3718c68092ca7682a675c9d60486de5545bf9a/safeheron_api_sdk_python-1.0.3.tar.gz
+[2024-05-08 12:21:06] INFO root fetch - processPackages [kaiju-scheduler]: Downloading https://files.pythonhosted.org/packages/e9/38/571be99cb7ecb84b1d635b631f8b4c617d8a0b00266b730262c03a9f31d5/kaiju_scheduler-0.1.3-py3-none-any.whl
+[2024-05-08 12:21:06] INFO root fetch - processPackages [kolla]: Downloading https://files.pythonhosted.org/packages/95/27/2be7526802dd8e08ba492d4890a72435f519d95467c00f927f66019069b7/kolla-9.3.1.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [invenio-sip2]: Downloading https://files.pythonhosted.org/packages/bc/c5/a22db8e28d98c1b5e2dad69585f1068d49bea8812c77a8a1084358c0f69b/invenio_sip2-0.6.23.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [mdetsyn]: Downloading https://files.pythonhosted.org/packages/9f/32/476c13ae6cfa7f4ff177017839ee604bc1fe6ca011e8ca9def7a974bc8a6/mdetsyn-0.0.4.post1.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/69/34/989e57ba8bc5675838c5bbbac3ff54a9d780e54a8a0ab1d7c3a3e8130397/safeheron_api_sdk_python-1.0.4.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [smooth-logger]: Downloading https://files.pythonhosted.org/packages/d2/d1/6cff85541b44478e6e6347036a2b8fe495233fbd47fceb1d08c439ae8b50/smooth_logger-1.0.2.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [invenio-sip2]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [invenio-sip2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio_sip2-0.6.22.tar.gz tmp/invenio_sip2-0.6.23.tar.gz --markdown 20240508/i/invenio-sip2/0.6.22-0.6.23/README.md --exclude *.pyd
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kaiju-scheduler]: Downloading https://files.pythonhosted.org/packages/2c/c6/0b72532a35bf34ff394c0e6fe7674d78b8eca8ae6a01a33a7241b139b4a4/kaiju_scheduler-0.1.4-py3-none-any.whl
+[2024-05-08 12:21:07] INFO root fetch - processPackages [mdetsyn]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [mdetsyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdetsyn-0.0.4.tar.gz tmp/mdetsyn-0.0.4.post1.tar.gz --markdown 20240508/m/mdetsyn/0.0.4-0.0.4.post1/README.md --exclude *.pyd
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kaiju-scheduler]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kaiju-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_scheduler-0.1.3-py3-none-any.whl.zip tmp/kaiju_scheduler-0.1.4-py3-none-any.whl.zip --markdown 20240508/k/kaiju-scheduler/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 12:21:07] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.0.3.tar.gz tmp/safeheron_api_sdk_python-1.0.4.tar.gz --markdown 20240508/s/safeheron-api-sdk-python/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-08 12:21:07] INFO root fetch - processPackages [smooth-logger]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [smooth-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smooth_logger-1.0.1.tar.gz tmp/smooth_logger-1.0.2.tar.gz --markdown 20240508/s/smooth-logger/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kolla]: Downloading https://files.pythonhosted.org/packages/3e/f0/0d68ae92b4a18c707c86b1dd350e693e02aa2a48be68340853cf98cb53f2/kolla-9.4.0.tar.gz
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kolla]: executing diffoscope
+[2024-05-08 12:21:07] INFO root fetch - processPackages [kolla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-9.3.1.tar.gz tmp/kolla-9.4.0.tar.gz --markdown 20240508/k/kolla/9.3.1-9.4.0/README.md --exclude *.pyd
+[2024-05-08 12:21:08] INFO root fetch - processPackages [kaiju-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_scheduler-0.1.3-py3-none-any.whl.zip]
+[2024-05-08 12:21:08] INFO root fetch - processPackages [kaiju-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_scheduler-0.1.4-py3-none-any.whl.zip]
+[2024-05-08 12:21:08] INFO root fetch - main [MainThread]: End processing [kaiju-scheduler]: success
+[2024-05-08 12:21:08] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.3.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.4.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-08 12:21:08] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.4.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - processPackages [mdetsyn]: Remove: archive file [/home/abi/fetcher/tmp/mdetsyn-0.0.4.post1.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - main [MainThread]: End processing [mdetsyn]: success
+[2024-05-08 12:21:08] INFO root fetch - processPackages [invenio-sip2]: Remove: archive file [/home/abi/fetcher/tmp/invenio_sip2-0.6.22.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - processPackages [invenio-sip2]: Remove: archive file [/home/abi/fetcher/tmp/invenio_sip2-0.6.23.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - main [MainThread]: End processing [invenio-sip2]: success
+[2024-05-08 12:21:08] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-1.0.1.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - processPackages [smooth-logger]: Remove: archive file [/home/abi/fetcher/tmp/smooth_logger-1.0.2.tar.gz]
+[2024-05-08 12:21:08] INFO root fetch - main [MainThread]: End processing [smooth-logger]: success
+[2024-05-08 12:21:10] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.3.1.tar.gz]
+[2024-05-08 12:21:10] INFO root fetch - processPackages [kolla]: Remove: archive file [/home/abi/fetcher/tmp/kolla-9.4.0.tar.gz]
+[2024-05-08 12:21:10] INFO root fetch - main [MainThread]: End processing [kolla]: success
+[2024-05-08 12:21:10] INFO root fetch - main [MainThread]: Store serial: [23111934]
