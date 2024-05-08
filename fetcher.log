@@ -10936,3 +10936,51 @@
 [2024-05-08 07:04:02] INFO root fetch - processPackages [v2-samplesheet-maker]: Remove: archive file [/home/abi/fetcher/tmp/v2_samplesheet_maker-4.2.4.post20240508150053.tar.gz]
 [2024-05-08 07:04:02] INFO root fetch - main [MainThread]: End processing [v2-samplesheet-maker]: success
 [2024-05-08 07:04:02] INFO root fetch - main [MainThread]: Store serial: [23108430]
+[2024-05-08 07:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108430]
+[2024-05-08 07:06:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nutrical
+[2024-05-08 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fudstop
+[2024-05-08 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recoverable-async-task
+[2024-05-08 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dycw-utilities
+[2024-05-08 07:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2024-05-08 07:06:10] INFO root fetch - processPackages [nutrical]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-08 07:06:10] INFO root fetch - processPackages [recoverable-async-task]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-08 07:06:11] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240507] Old Version: [0.1.2.dev20240506]
+[2024-05-08 07:06:11] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-08 07:06:11] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/5a/76/118378a2ecf76970b9ca27f0692e0289a022faa3edf9c52d8d1e9633765b/nutrical-0.0.3.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [fudstop]: New version: [2.5.9] Old Version: [2.5.7]
+[2024-05-08 07:06:11] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f6/5e/c328c63b3872b3d3dcf1c2a90217ec45a896183950031b6bf9493a2350e1/rapid_pe-0.1.2.dev20240506.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/0f/58/45021af3f1ba829d9e271d38bb0f47a5189de9497cef941fa2624bf0f11c/recoverable_async_task-0.1.4.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [nutrical]: Downloading https://files.pythonhosted.org/packages/61/aa/2da91f8a0bbc402ffd77fe9420647984d9d7baa2fdc25ab8467738b5ea5f/nutrical-0.0.4.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/43/7b/fcc4044bf37aacbd46f74df35adbbc7e2ff7b00274b5ba8c43dc7dc86a9c/fudstop-2.5.7.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [nutrical]: executing diffoscope
+[2024-05-08 07:06:11] INFO root fetch - processPackages [nutrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutrical-0.0.3.tar.gz tmp/nutrical-0.0.4.tar.gz --markdown 20240508/n/nutrical/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-08 07:06:11] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/78/9f/35b028b3951c91d85b94132d3d2e4547c50460b926b61d15092342de4d40/rapid_pe-0.1.2.dev20240507.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/5a/7d/1e697fc9ab55381d9aefc1c4a1c163adfade4dadf1f9795b5e133320ca50/recoverable_async_task-0.1.5.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-08 07:06:11] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240508/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-08 07:06:11] INFO root fetch - processPackages [recoverable-async-task]: executing diffoscope
+[2024-05-08 07:06:11] INFO root fetch - processPackages [recoverable-async-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recoverable_async_task-0.1.4.tar.gz tmp/recoverable_async_task-0.1.5.tar.gz --markdown 20240508/r/recoverable-async-task/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-08 07:06:11] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-08 07:06:11] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240506.tar.gz tmp/rapid_pe-0.1.2.dev20240507.tar.gz --markdown 20240508/r/rapid-pe/0.1.2.dev20240506-0.1.2.dev20240507/README.md --exclude *.pyd
+[2024-05-08 07:06:11] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/f8/37/0ccff10ee8e477d59f3154091c7a8b91fd0d4c03bbd20df48739aee09d84/fudstop-2.5.9.tar.gz
+[2024-05-08 07:06:11] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-08 07:06:11] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.7.tar.gz tmp/fudstop-2.5.9.tar.gz --markdown 20240508/f/fudstop/2.5.7-2.5.9/README.md --exclude *.pyd
+[2024-05-08 07:06:12] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.3.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - processPackages [nutrical]: Remove: archive file [/home/abi/fetcher/tmp/nutrical-0.0.4.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - main [MainThread]: End processing [nutrical]: success
+[2024-05-08 07:06:12] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.4.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.5.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - main [MainThread]: End processing [recoverable-async-task]: success
+[2024-05-08 07:06:12] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240506.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240507.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-08 07:06:12] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-08 07:06:12] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-08 07:06:13] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.7.tar.gz]
+[2024-05-08 07:06:13] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.9.tar.gz]
+[2024-05-08 07:06:13] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-08 07:06:13] INFO root fetch - main [MainThread]: Store serial: [23108446]
