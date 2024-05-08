@@ -19372,3 +19372,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:56:40] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
 [2024-05-08 12:56:40] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2024-05-08 12:56:40] INFO root fetch - main [MainThread]: Store serial: [23112272]
+[2024-05-08 12:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112272]
+[2024-05-08 12:58:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-server-ydoc
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treat-sim
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-collaboration-ui
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleworkspace
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-docprovider
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safeheron-api-sdk-python
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-collaboration
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytroll-watchers
+[2024-05-08 12:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygenuz
+[2024-05-08 12:58:49] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [pygenuz]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-08 12:58:49] WARNING root fetch - processPackages [pytroll-watchers]: Skipping, unable to determine old version
+[2024-05-08 12:58:49] INFO root fetch - main [MainThread]: End processing [pytroll-watchers] error
+[2024-05-08 12:58:49] INFO root fetch - processPackages [jupyter-docprovider]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [jupyter-collaboration-ui]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [jupyter-server-ydoc]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [jupyter-collaboration]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [simpleworkspace]: New version: [1.2.194] Old Version: [1.2.192]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [treat-sim]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-08 12:58:49] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/69/34/989e57ba8bc5675838c5bbbac3ff54a9d780e54a8a0ab1d7c3a3e8130397/safeheron_api_sdk_python-1.0.4.tar.gz
+[2024-05-08 12:58:49] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/91/11/bba015b8dfd23b75b7c54b2db702b158b117a00052da127d5c0f6b7fee84/pygenuz-0.2.5.tar.gz
+[2024-05-08 12:58:49] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/54/49/b69d7e3d82749a6640218581d5de182f587840b84c7268b4a370a5cea24f/jupyter_server_ydoc-1.0.0a1.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration-ui]: Downloading https://files.pythonhosted.org/packages/e5/60/0b970ba48004c1764d2a000bb2522af2d38de250ad2de0280e1992f64803/jupyter_collaboration_ui-1.0.0a1.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/3d/6b/ce5e1e3955dc5e280d60ea7d699390694bd1222124b36c62fce7fbd55370/jupyter_collaboration-3.0.0a1.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-docprovider]: Downloading https://files.pythonhosted.org/packages/92/a3/6379e927c5b0e12efb8c1d6ebd69fc2996aed12f06d007339804647a39f2/jupyter_docprovider-1.0.0a1.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [treat-sim]: Downloading https://files.pythonhosted.org/packages/1b/dc/7a0b4c8ba5bebc2d04eb9819695cbba77c864fdb30e0f7e3046f01adc8a4/treat_sim-1.1.1.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/3b/8b/03940d8dd509f1b16d5ef85a4e75f366f99ae6be823e189680b1631e66da/simpleworkspace-1.2.192.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [pygenuz]: Downloading https://files.pythonhosted.org/packages/1e/7c/bd187e6e798a28c99efabd3655c19745a64313b69931dedc8042b7ed56d7/pygenuz-0.2.6.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/09/a1/832ec4b0cbe53961e53aef30be973f2677d8294bbedcc72a96d47630ec9a/safeheron_api_sdk_python-1.0.5.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [pygenuz]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [pygenuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygenuz-0.2.5.tar.gz tmp/pygenuz-0.2.6.tar.gz --markdown 20240508/p/pygenuz/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/c1/03/bc2e4cf6a119ae509bbc2a2b3fe9bbf5a539a5a8e7ab2ecc05ddca7b1f9e/jupyter_server_ydoc-1.0.0a2.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.0.4.tar.gz tmp/safeheron_api_sdk_python-1.0.5.tar.gz --markdown 20240508/s/safeheron-api-sdk-python/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration-ui]: Downloading https://files.pythonhosted.org/packages/73/c3/189a26ac41239b31de76e7682895d39359352d41b10d2efe538f37aa6c56/jupyter_collaboration_ui-1.0.0a2.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/4e/45/2e0204a888f95af930bb87d818ec61b272ac3619222899b7a1b9a195917a/jupyter_collaboration-3.0.0a2.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-docprovider]: Downloading https://files.pythonhosted.org/packages/39/80/64c84b4477acc6c1ae464daadc91b169538976767237d9c000f55d73d54b/jupyter_docprovider-1.0.0a2.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/e2/76/15503b186b17e8014ff2286b1968d3cb63e6e91820d64bc5e9656eb46cad/simpleworkspace-1.2.194.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-server-ydoc]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-server-ydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_ydoc-1.0.0a1.tar.gz tmp/jupyter_server_ydoc-1.0.0a2.tar.gz --markdown 20240508/j/jupyter-server-ydoc/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration-ui]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration_ui-1.0.0a1.tar.gz tmp/jupyter_collaboration_ui-1.0.0a2.tar.gz --markdown 20240508/j/jupyter-collaboration-ui/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-docprovider]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-docprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_docprovider-1.0.0a1.tar.gz tmp/jupyter_docprovider-1.0.0a2.tar.gz --markdown 20240508/j/jupyter-docprovider/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [treat-sim]: Downloading https://files.pythonhosted.org/packages/60/28/56587e5d922400a52027e0790ce144b14b3a0694e55fe5047a6c309c4277/treat_sim-1.2.0.tar.gz
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [jupyter-collaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration-3.0.0a1.tar.gz tmp/jupyter_collaboration-3.0.0a2.tar.gz --markdown 20240508/j/jupyter-collaboration/3.0.0a1-3.0.0a2/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleworkspace-1.2.192.tar.gz tmp/simpleworkspace-1.2.194.tar.gz --markdown 20240508/s/simpleworkspace/1.2.192-1.2.194/README.md --exclude *.pyd
+[2024-05-08 12:58:50] INFO root fetch - processPackages [treat-sim]: executing diffoscope
+[2024-05-08 12:58:50] INFO root fetch - processPackages [treat-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treat_sim-1.1.1.tar.gz tmp/treat_sim-1.2.0.tar.gz --markdown 20240508/t/treat-sim/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-08 12:58:51] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.4.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.0.5.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-08 12:58:51] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.5.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [pygenuz]: Remove: archive file [/home/abi/fetcher/tmp/pygenuz-0.2.6.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [pygenuz]: success
+[2024-05-08 12:58:51] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-3.0.0a1.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-3.0.0a2.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
+[2024-05-08 12:58:51] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-1.0.0a1.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-1.0.0a2.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [jupyter-server-ydoc]: success
+[2024-05-08 12:58:51] INFO root fetch - processPackages [treat-sim]: Remove: archive file [/home/abi/fetcher/tmp/treat_sim-1.1.1.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [treat-sim]: Remove: archive file [/home/abi/fetcher/tmp/treat_sim-1.2.0.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [treat-sim]: success
+[2024-05-08 12:58:51] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.192.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/simpleworkspace-1.2.194.tar.gz]
+[2024-05-08 12:58:51] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2024-05-08 12:58:52] INFO root fetch - processPackages [jupyter-docprovider]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_docprovider-1.0.0a1.tar.gz]
+[2024-05-08 12:58:52] INFO root fetch - processPackages [jupyter-docprovider]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_docprovider-1.0.0a2.tar.gz]
+[2024-05-08 12:58:52] INFO root fetch - main [MainThread]: End processing [jupyter-docprovider]: success
+[2024-05-08 12:58:52] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a1.tar.gz]
+[2024-05-08 12:58:52] INFO root fetch - processPackages [jupyter-collaboration-ui]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration_ui-1.0.0a2.tar.gz]
+[2024-05-08 12:58:52] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration-ui]: success
+[2024-05-08 12:58:52] INFO root fetch - main [MainThread]: Store serial: [23112303]
