@@ -16467,3 +16467,63 @@
 [2024-05-08 11:07:54] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
 [2024-05-08 11:07:54] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2024-05-08 11:07:54] INFO root fetch - main [MainThread]: Store serial: [23111078]
+[2024-05-08 11:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111078]
+[2024-05-08 11:10:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: increff-runner
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeMeST
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-components-preprocessor
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proboscis-async-events
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lljz-tools
+[2024-05-08 11:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finnish-name-generator
+[2024-05-08 11:10:04] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 11:10:04] INFO root fetch - processPackages [increff-runner]: New version: [4.0] Old Version: [3.2.2]
+[2024-05-08 11:10:04] INFO root fetch - processPackages [proboscis-async-events]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-08 11:10:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/ac/9d/941fa4ecb6d9364b3aec8af53ce039a905358a07a21805cc367ead82d48e/increff_runner-3.2.2-py3-none-any.whl
+[2024-05-08 11:10:04] INFO root fetch - processPackages [django-components-preprocessor]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-08 11:10:04] INFO root fetch - processPackages [MeMeST]: New version: [2024.5.591143] Old Version: [2024.5.419269]
+[2024-05-08 11:10:04] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-08 11:10:04] WARNING root fetch - processPackages [finnish-name-generator]: Skipping, unable to determine old version
+[2024-05-08 11:10:04] INFO root fetch - main [MainThread]: End processing [finnish-name-generator] error
+[2024-05-08 11:10:04] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/f6/96/afd4b4deff155fc52f59ba225484446258281d521bb3a6379c27b7f6b299/proboscis_async_events-0.1.6.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [django-components-preprocessor]: Downloading https://files.pythonhosted.org/packages/03/39/800a8ba3a2d494254d785b1b68d412bece6309bdf0de64c4f1d6742abe21/django_components_preprocessor-0.1.0.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/df/28/62f2e9d0c7aa801824ad1275f0cf5829711cfe5d7f56f3c8a5c4d3b5361a/increff_runner-4.0-py3-none-any.whl
+[2024-05-08 11:10:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/60/fe/22c965787bc259a3b9780ada6d60ca13c42131bcb76056852a812a2c4da9/MeMeST-2024.5.419269-py3-none-any.whl
+[2024-05-08 11:10:04] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-08 11:10:04] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.2.2-py3-none-any.whl.zip tmp/increff_runner-4.0-py3-none-any.whl.zip --markdown 20240508/i/increff-runner/3.2.2-4.0/README.md --exclude *.pyd
+[2024-05-08 11:10:04] INFO root fetch - processPackages [proboscis-async-events]: Downloading https://files.pythonhosted.org/packages/69/b0/a8f16eb83d839772edb55f6a11b7edeff6260a051f86fc80a08442391b0a/proboscis_async_events-0.1.7.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-08 11:10:04] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240508/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 11:10:04] INFO root fetch - processPackages [proboscis-async-events]: executing diffoscope
+[2024-05-08 11:10:04] INFO root fetch - processPackages [proboscis-async-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proboscis_async_events-0.1.6.tar.gz tmp/proboscis_async_events-0.1.7.tar.gz --markdown 20240508/p/proboscis-async-events/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-08 11:10:04] INFO root fetch - processPackages [django-components-preprocessor]: Downloading https://files.pythonhosted.org/packages/ff/7a/608a5309eba2b57c069f97c508901922ae83371b6d7f8d843c45ae2b66af/django_components_preprocessor-0.2.0.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/b8/59/8f8f4bd87b7df3e548101620369fc4663396dbb86960b34266e949bf521f/MeMeST-2024.5.591143-py3-none-any.whl
+[2024-05-08 11:10:04] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-08 11:10:04] INFO root fetch - processPackages [django-components-preprocessor]: executing diffoscope
+[2024-05-08 11:10:04] INFO root fetch - processPackages [django-components-preprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_components_preprocessor-0.1.0.tar.gz tmp/django_components_preprocessor-0.2.0.tar.gz --markdown 20240508/d/django-components-preprocessor/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-08 11:10:05] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-05-08 11:10:05] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.5.419269-py3-none-any.whl.zip tmp/MeMeST-2024.5.591143-py3-none-any.whl.zip --markdown 20240508/M/MeMeST/2024.5.419269-2024.5.591143/README.md --exclude *.pyd
+[2024-05-08 11:10:05] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-08 11:10:05] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240508/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-08 11:10:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-08 11:10:05] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.6.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [proboscis-async-events]: Remove: archive file [/home/abi/fetcher/tmp/proboscis_async_events-0.1.7.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [proboscis-async-events]: success
+[2024-05-08 11:10:05] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.2.2-py3-none-any.whl.zip]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.0-py3-none-any.whl.zip]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-08 11:10:05] INFO root fetch - processPackages [django-components-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/django_components_preprocessor-0.1.0.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [django-components-preprocessor]: Remove: archive file [/home/abi/fetcher/tmp/django_components_preprocessor-0.2.0.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [django-components-preprocessor]: success
+[2024-05-08 11:10:05] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.5.419269-py3-none-any.whl.zip]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.5.591143-py3-none-any.whl.zip]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-05-08 11:10:05] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-08 11:10:05] INFO root fetch - main [MainThread]: Store serial: [23111105]
