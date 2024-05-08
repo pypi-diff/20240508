@@ -12523,3 +12523,41 @@
 [2024-05-08 08:52:34] INFO root fetch - processPackages [warmth]: Remove: archive file [/home/abi/fetcher/tmp/warmth-0.0.3.tar.gz]
 [2024-05-08 08:52:34] INFO root fetch - main [MainThread]: End processing [warmth]: success
 [2024-05-08 08:52:34] INFO root fetch - main [MainThread]: Store serial: [23109258]
+[2024-05-08 08:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23109258]
+[2024-05-08 08:54:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotion-lambda
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corkagez
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bagbag
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duxcocpp
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngsolve
+[2024-05-08 08:54:42] INFO root fetch - processPackages [duxcocpp]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-05-08 08:54:42] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-05-08 08:54:42] WARNING root fetch - processPackages [corkagez]: Skipping, unable to determine old version
+[2024-05-08 08:54:42] INFO root fetch - main [MainThread]: End processing [corkagez] error
+[2024-05-08 08:54:42] INFO root fetch - processPackages [bagbag]: New version: [0.66.9] Old Version: [0.66.8]
+[2024-05-08 08:54:42] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403] Old Version: [6.2.2402.post57.dev0]
+[2024-05-08 08:54:42] INFO root fetch - processPackages [duxcocpp]: Downloading https://files.pythonhosted.org/packages/88/3c/5383d13260175064be1d8b33ef62dbc521d8e9b8cbb056ac63313fcdab96/duxcocpp-0.0.9.tar.gz
+[2024-05-08 08:54:42] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-05-08 08:54:43] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/0e/fa/409ace3b7fa82c9f017a244fbc09e43e62f71a9e83c54a7946320de1be12/bagbag-0.66.8.tar.gz
+[2024-05-08 08:54:43] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/3e/dd/8f28f603c96e59c9db4c20980ce2ce7e31e128e543e1588b4f97628a4918/ngsolve-6.2.2402.post57.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 08:54:43] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-05-08 08:54:43] INFO root fetch - processPackages [duxcocpp]: Downloading https://files.pythonhosted.org/packages/07/41/33487e9c80658c8ab7c133c37662bccfa895719a019342bbe69b206adfa1/duxcocpp-0.1.1.tar.gz
+[2024-05-08 08:54:43] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 12679793>=10485760
+[2024-05-08 08:54:43] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-08 08:54:43] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-05-08 08:54:43] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240508/r/remotion-lambda/4.0.98-4.1.0a12/README.md --exclude *.pyd
+[2024-05-08 08:54:43] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/30/88/4174562d809cf055fbb96d6fff38c6df8b57994d197c2860eb3ef08fc813/bagbag-0.66.9.tar.gz
+[2024-05-08 08:54:43] INFO root fetch - processPackages [duxcocpp]: executing diffoscope
+[2024-05-08 08:54:43] INFO root fetch - processPackages [duxcocpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duxcocpp-0.0.9.tar.gz tmp/duxcocpp-0.1.1.tar.gz --markdown 20240508/d/duxcocpp/0.0.9-0.1.1/README.md --exclude *.pyd
+[2024-05-08 08:54:43] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-08 08:54:43] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.66.8.tar.gz tmp/bagbag-0.66.9.tar.gz --markdown 20240508/b/bagbag/0.66.8-0.66.9/README.md --exclude *.pyd
+[2024-05-08 08:54:44] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-05-08 08:54:44] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-05-08 08:54:44] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-05-08 08:54:44] INFO root fetch - processPackages [duxcocpp]: Remove: archive file [/home/abi/fetcher/tmp/duxcocpp-0.0.9.tar.gz]
+[2024-05-08 08:54:44] INFO root fetch - processPackages [duxcocpp]: Remove: archive file [/home/abi/fetcher/tmp/duxcocpp-0.1.1.tar.gz]
+[2024-05-08 08:54:44] INFO root fetch - main [MainThread]: End processing [duxcocpp]: success
+[2024-05-08 08:54:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.8.tar.gz]
+[2024-05-08 08:54:45] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
+[2024-05-08 08:54:45] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-08 08:54:45] INFO root fetch - main [MainThread]: Store serial: [23109273]
