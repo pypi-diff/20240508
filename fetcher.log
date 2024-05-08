@@ -13863,3 +13863,39 @@
 [2024-05-08 09:49:23] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-05-08 09:49:23] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-05-08 09:49:23] INFO root fetch - main [MainThread]: Store serial: [23110019]
+[2024-05-08 09:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110019]
+[2024-05-08 09:51:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-sscma
+[2024-05-08 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calmativez
+[2024-05-08 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subdivision-hole-filler
+[2024-05-08 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miner-ai-beta
+[2024-05-08 09:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tool-mapi
+[2024-05-08 09:51:32] INFO root fetch - processPackages [subdivision-hole-filler]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-08 09:51:32] INFO root fetch - processPackages [python-sscma]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-08 09:51:32] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-08 09:51:32] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/6a/85/68aa96d497f57b824ed56b0c27b8c5e9ac94a9b9eeadf3637af978145969/subdivision_hole_filler-0.0.1.tar.gz
+[2024-05-08 09:51:32] WARNING root fetch - processPackages [tool-mapi]: Skipping, unable to determine old version
+[2024-05-08 09:51:32] INFO root fetch - main [MainThread]: End processing [tool-mapi] error
+[2024-05-08 09:51:32] WARNING root fetch - processPackages [calmativez]: Skipping, unable to determine old version
+[2024-05-08 09:51:32] INFO root fetch - main [MainThread]: End processing [calmativez] error
+[2024-05-08 09:51:32] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/88/e5/389bab6bf131b0797d55e1fb1cfc9db0938f089c4a2f3f2952e8276734f9/python-sscma-0.5.3.tar.gz
+[2024-05-08 09:51:32] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-08 09:51:32] INFO root fetch - processPackages [subdivision-hole-filler]: Downloading https://files.pythonhosted.org/packages/9f/7d/937696340d0d191bde57085cdcb02b970250607089dbb6058a4b0f7a8290/subdivision_hole_filler-1.0.0.tar.gz
+[2024-05-08 09:51:32] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/aa/f0/551ef9215de4e7e4a3e190af0c57d088131c87e2ce27f3bae4d5d690fdf2/python-sscma-0.5.4.tar.gz
+[2024-05-08 09:51:32] INFO root fetch - processPackages [subdivision-hole-filler]: executing diffoscope
+[2024-05-08 09:51:32] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-08 09:51:32] INFO root fetch - processPackages [subdivision-hole-filler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subdivision_hole_filler-0.0.1.tar.gz tmp/subdivision_hole_filler-1.0.0.tar.gz --markdown 20240508/s/subdivision-hole-filler/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-08 09:51:33] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-08 09:51:33] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240508/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-08 09:51:33] INFO root fetch - processPackages [python-sscma]: executing diffoscope
+[2024-05-08 09:51:33] INFO root fetch - processPackages [python-sscma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscma-0.5.3.tar.gz tmp/python-sscma-0.5.4.tar.gz --markdown 20240508/p/python-sscma/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-08 09:51:33] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-0.0.1.tar.gz]
+[2024-05-08 09:51:33] INFO root fetch - processPackages [subdivision-hole-filler]: Remove: archive file [/home/abi/fetcher/tmp/subdivision_hole_filler-1.0.0.tar.gz]
+[2024-05-08 09:51:33] INFO root fetch - main [MainThread]: End processing [subdivision-hole-filler]: success
+[2024-05-08 09:51:33] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.3.tar.gz]
+[2024-05-08 09:51:33] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.4.tar.gz]
+[2024-05-08 09:51:33] INFO root fetch - main [MainThread]: End processing [python-sscma]: success
+[2024-05-08 09:51:34] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-08 09:51:34] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-08 09:51:34] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-08 09:51:34] INFO root fetch - main [MainThread]: Store serial: [23110043]
