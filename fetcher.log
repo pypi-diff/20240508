@@ -8442,3 +8442,35 @@
 [2024-05-08 04:28:43] INFO root fetch - processPackages [charzr-lib]: Remove: archive file [/home/abi/fetcher/tmp/charzr_lib-1.0.2.tar.gz]
 [2024-05-08 04:28:43] INFO root fetch - main [MainThread]: End processing [charzr-lib]: success
 [2024-05-08 04:28:43] INFO root fetch - main [MainThread]: Store serial: [23107582]
+[2024-05-08 04:30:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107582]
+[2024-05-08 04:30:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-08 04:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23107582]
+[2024-05-08 04:32:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 04:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-twc
+[2024-05-08 04:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcquant-sdk
+[2024-05-08 04:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azcp-wrapper
+[2024-05-08 04:32:57] INFO root fetch - processPackages [azcp-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 04:32:57] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 04:32:57] INFO root fetch - processPackages [azcp-wrapper]: Downloading https://files.pythonhosted.org/packages/a8/66/3a5b10a5961028cb7b46c5a39ae032a23779961cafb44dda8fa66b1d7c1b/azcp_wrapper-0.0.2.tar.gz
+[2024-05-08 04:32:57] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-05-08 04:32:57] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-08 04:32:57] INFO root fetch - processPackages [azcp-wrapper]: Downloading https://files.pythonhosted.org/packages/bc/75/f96849edb4872bb3eb5b82323adb18a810bd80c146334556604511691b21/azcp_wrapper-0.0.3.tar.gz
+[2024-05-08 04:32:57] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-05-08 04:32:57] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2024-05-08 04:32:57] INFO root fetch - processPackages [azcp-wrapper]: executing diffoscope
+[2024-05-08 04:32:57] INFO root fetch - processPackages [azcp-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azcp_wrapper-0.0.2.tar.gz tmp/azcp_wrapper-0.0.3.tar.gz --markdown 20240508/a/azcp-wrapper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 04:32:57] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-05-08 04:32:57] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240508/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 04:32:58] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2024-05-08 04:32:58] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2024-05-08 04:32:58] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20240508/a/antchain-twc/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-08 04:32:58] INFO root fetch - processPackages [azcp-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/azcp_wrapper-0.0.2.tar.gz]
+[2024-05-08 04:32:58] INFO root fetch - processPackages [azcp-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/azcp_wrapper-0.0.3.tar.gz]
+[2024-05-08 04:32:58] INFO root fetch - main [MainThread]: End processing [azcp-wrapper]: success
+[2024-05-08 04:32:58] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-05-08 04:32:58] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-05-08 04:32:58] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-05-08 04:32:59] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2024-05-08 04:32:59] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2024-05-08 04:32:59] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2024-05-08 04:32:59] INFO root fetch - main [MainThread]: Store serial: [23107591]
