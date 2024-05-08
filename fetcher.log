@@ -20178,3 +20178,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-08 13:22:59] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-08 13:22:59] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-08 13:22:59] INFO root fetch - main [MainThread]: Store serial: [23112574]
+[2024-05-08 13:25:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23112574]
+[2024-05-08 13:25:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-21
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tooniez-timetree-sdk
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netgen-mesher
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funasr
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-playwright-full
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryspr
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apideck
+[2024-05-08 13:25:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-rest-api
+[2024-05-08 13:25:08] INFO root fetch - processPackages [hatch-rest-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [scrapy-playwright-full]: New version: [0.0.3404] Old Version: [0.0.3403]
+[2024-05-08 13:25:08] WARNING root fetch - processPackages [tooniez-timetree-sdk]: Skipping, unable to determine old version
+[2024-05-08 13:25:08] INFO root fetch - main [MainThread]: End processing [tooniez-timetree-sdk] error
+[2024-05-08 13:25:08] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/53/e1/22f10781461d3819d6151025bff76a7f8a8d1e7d4d05e05819b8c7d16f69/hatch_rest_api-1.8.0.tar.gz
+[2024-05-08 13:25:08] INFO root fetch - processPackages [cryspr]: New version: [0.0.2] Old Version: [0.0.1.0]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240508] Old Version: [2.5.0b20240507]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [apideck]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post40.dev0] Old Version: [6.2.2403.post39.dev0]
+[2024-05-08 13:25:08] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/b4/45/6eb2d7a200ab9d2bd70f7f72533abc0cb63c00523b4d783ffd9a60a70abf/scrapy-playwright-full-0.0.3403.tar.gz
+[2024-05-08 13:25:08] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/a2/ac/81867f887988f88f7ee92a7e6e279645ccbc26b74eceafa4bd30f8b55630/bigdl_core_xe_21-2.5.0b20240507-cp39-cp39-win_amd64.whl
+[2024-05-08 13:25:08] INFO root fetch - processPackages [cryspr]: Downloading https://files.pythonhosted.org/packages/35/51/85cd790397e2d7962fcd3effd3c66cc09d07a8c1a3cbdba56e301909ccb4/cryspr-0.0.1.0.tar.gz
+[2024-05-08 13:25:08] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-05-08 13:25:08] INFO root fetch - processPackages [hatch-rest-api]: Downloading https://files.pythonhosted.org/packages/77/ab/7fffc2e61b25b4af9a272b49c1a99de6cb59dbb098dc0befa9e22e17e0f7/hatch_rest_api-1.9.0.tar.gz
+[2024-05-08 13:25:08] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 28998680>=10485760
+[2024-05-08 13:25:08] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-08 13:25:08] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/2c/f7/cef58fa4d29819f053c39f3aa0a9ac07b90427b181d1710b158023195cc4/apideck-1.2.0.tar.gz
+[2024-05-08 13:25:08] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/ee/b6/5b9e9ee747859e2387ad014c71a25f51b4403dd8c3d97692d6127a361c15/netgen_mesher-6.2.2403.post39.dev0-cp39-cp39-win_amd64.whl
+[2024-05-08 13:25:09] INFO root fetch - processPackages [hatch-rest-api]: executing diffoscope
+[2024-05-08 13:25:09] INFO root fetch - processPackages [hatch-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_rest_api-1.8.0.tar.gz tmp/hatch_rest_api-1.9.0.tar.gz --markdown 20240508/h/hatch-rest-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-08 13:25:09] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20428011>=10485760
+[2024-05-08 13:25:09] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-08 13:25:09] INFO root fetch - processPackages [scrapy-playwright-full]: Downloading https://files.pythonhosted.org/packages/27/7e/1b986488170129a3dd6ce66e8d760eeb5e555966705177e05c952c70231d/scrapy_playwright_full-0.0.3404.tar.gz
+[2024-05-08 13:25:09] INFO root fetch - processPackages [cryspr]: Downloading https://files.pythonhosted.org/packages/6c/76/2848085158946e2050dcfb828c0500ee302e571ff65f72ec84a2fc5e9d79/cryspr-0.0.2.tar.gz
+[2024-05-08 13:25:09] INFO root fetch - processPackages [cryspr]: executing diffoscope
+[2024-05-08 13:25:09] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-05-08 13:25:09] INFO root fetch - processPackages [cryspr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryspr-0.0.1.0.tar.gz tmp/cryspr-0.0.2.tar.gz --markdown 20240508/c/cryspr/0.0.1.0-0.0.2/README.md --exclude *.pyd
+[2024-05-08 13:25:09] INFO root fetch - processPackages [scrapy-playwright-full]: executing diffoscope
+[2024-05-08 13:25:09] INFO root fetch - processPackages [scrapy-playwright-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-playwright-full-0.0.3403.tar.gz tmp/scrapy_playwright_full-0.0.3404.tar.gz --markdown 20240508/s/scrapy-playwright-full/0.0.3403-0.0.3404/README.md --exclude *.pyd
+[2024-05-08 13:25:09] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/61/d3/69bed97e33a5bbdbe1fa46207f78f5967133eeac76a54cd501d835be679c/apideck-1.2.1.tar.gz
+[2024-05-08 13:25:09] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-05-08 13:25:09] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240508/f/funasr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-08 13:25:09] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2024-05-08 13:25:09] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-1.2.0.tar.gz tmp/apideck-1.2.1.tar.gz --markdown 20240508/a/apideck/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-08 13:25:09] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.8.0.tar.gz]
+[2024-05-08 13:25:09] INFO root fetch - processPackages [hatch-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/hatch_rest_api-1.9.0.tar.gz]
+[2024-05-08 13:25:09] INFO root fetch - main [MainThread]: End processing [hatch-rest-api]: success
+[2024-05-08 13:25:10] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-playwright-full-0.0.3403.tar.gz]
+[2024-05-08 13:25:10] INFO root fetch - processPackages [scrapy-playwright-full]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_playwright_full-0.0.3404.tar.gz]
+[2024-05-08 13:25:10] INFO root fetch - main [MainThread]: End processing [scrapy-playwright-full]: success
+[2024-05-08 13:25:10] INFO root fetch - processPackages [cryspr]: Remove: archive file [/home/abi/fetcher/tmp/cryspr-0.0.1.0.tar.gz]
+[2024-05-08 13:25:10] INFO root fetch - processPackages [cryspr]: Remove: archive file [/home/abi/fetcher/tmp/cryspr-0.0.2.tar.gz]
+[2024-05-08 13:25:10] INFO root fetch - main [MainThread]: End processing [cryspr]: success
+[2024-05-08 13:25:11] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-05-08 13:25:11] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-05-08 13:25:11] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-05-08 13:25:24] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.0.tar.gz]
+[2024-05-08 13:25:24] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.1.tar.gz]
+[2024-05-08 13:25:24] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2024-05-08 13:25:24] INFO root fetch - main [MainThread]: Store serial: [23112600]
