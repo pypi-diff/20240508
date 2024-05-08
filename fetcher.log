@@ -2739,3 +2739,12 @@
 [2024-05-08 02:29:02] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240507.tar.gz]
 [2024-05-08 02:29:02] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-05-08 02:29:02] INFO root fetch - main [MainThread]: Store serial: [23105395]
+[2024-05-08 02:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105395]
+[2024-05-08 02:31:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 02:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annonition
+[2024-05-08 02:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annonition
+[2024-05-08 02:31:11] ERROR root fetch - processPackages [annonition]: Unable to get metadata: No such project 'annonition'
+[2024-05-08 02:31:11] INFO root fetch - main [MainThread]: End processing [annonition] error
+[2024-05-08 02:31:11] ERROR root fetch - processPackages [annonition]: Unable to get metadata: No such project 'annonition'
+[2024-05-08 02:31:11] INFO root fetch - main [MainThread]: End processing [annonition] error
+[2024-05-08 02:31:11] INFO root fetch - main [MainThread]: Store serial: [23105404]
