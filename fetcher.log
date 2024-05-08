@@ -10437,3 +10437,24 @@
 [2024-05-08 06:20:26] INFO root fetch - processPackages [kivera-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kivera-sdk-1.9.0.tar.gz]
 [2024-05-08 06:20:26] INFO root fetch - main [MainThread]: End processing [kivera-sdk]: success
 [2024-05-08 06:20:26] INFO root fetch - main [MainThread]: Store serial: [23108227]
+[2024-05-08 06:22:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108227]
+[2024-05-08 06:22:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-08 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pqsdk
+[2024-05-08 06:22:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyff-schema
+[2024-05-08 06:22:35] INFO root fetch - processPackages [pqsdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-08 06:22:35] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/6d/f8/b95774c8b60df2b54a0e35390895e945e26417b7588227da6bf53a48e65c/pqsdk-0.0.7.tar.gz
+[2024-05-08 06:22:35] INFO root fetch - processPackages [dyff-schema]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-08 06:22:35] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/0c/57/ee2521f093eea80faa71bd072c83a695f651ad250f7053b1041a9b252e93/dyff_schema-0.4.0.tar.gz
+[2024-05-08 06:22:36] INFO root fetch - processPackages [pqsdk]: Downloading https://files.pythonhosted.org/packages/7d/ef/e1606d8c88536e329ff51d20c43d8c3a8fbf1f139463353e46ce9c5714b7/pqsdk-0.0.8.tar.gz
+[2024-05-08 06:22:37] INFO root fetch - processPackages [pqsdk]: executing diffoscope
+[2024-05-08 06:22:37] INFO root fetch - processPackages [pqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqsdk-0.0.7.tar.gz tmp/pqsdk-0.0.8.tar.gz --markdown 20240508/p/pqsdk/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/0c/09/4e47b08cdb91d2b79bcb6a32cde927ee5aff58b3614fdaa216a0ccca6dcc/dyff_schema-0.5.0.tar.gz
+[2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_schema-0.4.0.tar.gz tmp/dyff_schema-0.5.0.tar.gz --markdown 20240508/d/dyff-schema/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-08 06:22:37] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.7.tar.gz]
+[2024-05-08 06:22:37] INFO root fetch - processPackages [pqsdk]: Remove: archive file [/home/abi/fetcher/tmp/pqsdk-0.0.8.tar.gz]
+[2024-05-08 06:22:37] INFO root fetch - main [MainThread]: End processing [pqsdk]: success
+[2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.4.0.tar.gz]
+[2024-05-08 06:22:37] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.5.0.tar.gz]
+[2024-05-08 06:22:37] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-05-08 06:22:37] INFO root fetch - main [MainThread]: Store serial: [23108232]
