@@ -18435,3 +18435,153 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 12:16:38] INFO root fetch - processPackages [uk-bin-collection]: Remove: archive file [/home/abi/fetcher/tmp/uk_bin_collection-0.9.0.tar.gz]
 [2024-05-08 12:16:38] INFO root fetch - main [MainThread]: End processing [uk-bin-collection]: success
 [2024-05-08 12:16:38] INFO root fetch - main [MainThread]: Store serial: [23111853]
+[2024-05-08 12:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111853]
+[2024-05-08 12:18:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: treasury-gov-pandas
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-standardized-response
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolla-ansible
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Garfield
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langevals-core
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowddl
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langevals-aws
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langevals-azure
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langevals-custom
+[2024-05-08 12:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langevals-example
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-aws]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-core]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [drf-standardized-response]: New version: [1] Old Version: [0.2]
+[2024-05-08 12:18:47] WARNING root fetch - processPackages [Garfield]: Skipping, unable to determine old version
+[2024-05-08 12:18:47] INFO root fetch - processPackages [Garfield]: Start processing: langevals-google-cloud
+[2024-05-08 12:18:47] INFO root fetch - main [MainThread]: End processing [Garfield] error
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-azure]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-custom]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-google-cloud]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-aws]: Downloading https://files.pythonhosted.org/packages/bd/2e/80300c16dbd53f2afba36017fbcc897aad3b878d203aee28293e0b7ad793/langevals_aws-0.1.1.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-example]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [treasury-gov-pandas]: New version: [0.0.4a0] Old Version: [0.0.4]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/da/00/b3bf27eeed7c0563e877e5af2e46f2b6b3b60609056719279cf81428cbdc/drf_standardized_response-0.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [kolla-ansible]: New version: [9.3.2] Old Version: [9.3.1]
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-custom]: Downloading https://files.pythonhosted.org/packages/6d/f6/98dd43a78f621bca95fa2ddd268ec09b293fded73d31664b1681aa5b3a1d/langevals_custom-0.1.1.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-azure]: Downloading https://files.pythonhosted.org/packages/6b/07/d8f7c0f9d5614a747cb4029c3903a072de07a3d2a3f0c6059521b4c5cf6f/langevals_azure-0.1.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-google-cloud]: Downloading https://files.pythonhosted.org/packages/32/31/e6aea0c4a8738fa02d65e2ea812ec7db888ddc7389dc3bc2e3fde7b1b941/langevals_google_cloud-0.1.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-example]: Downloading https://files.pythonhosted.org/packages/8f/82/7be95e907d8cb138b39349bfd1797e336a3180c53207768339e754d89c65/langevals_example-0.1.3.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-core]: Downloading https://files.pythonhosted.org/packages/0d/10/cd24ab8359a1031b5faadf8b864a7f03a1c623fc620986c4c3e24b81de85/langevals_core-0.1.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/5d/ea/6e457b3595af2932d1394839e4a8c4131b1d13501a547a596ccf01ccfbfa/treasury_gov_pandas-0.0.4.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [kolla-ansible]: Downloading https://files.pythonhosted.org/packages/74/0b/bfca147a775d60e4a0e3f2f0acfc31b86b049a4d58eb9c9fc004411109a2/kolla-ansible-9.3.1.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [drf-standardized-response]: Downloading https://files.pythonhosted.org/packages/34/16/eaabdece2ae4e03c2a9728111dd3d9bd1251df5e18e8345c0e8d55effffb/drf_standardized_response-1.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-custom]: Downloading https://files.pythonhosted.org/packages/af/1a/30408002559aece0842b88fcd0e2b8a26c9f649ecf62c2b9a3fedf8ceb55/langevals_custom-0.1.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-aws]: Downloading https://files.pythonhosted.org/packages/3a/3c/1f25f0e0bfbbc9150b925de1c166e75dedf90e0f190f5b4d27b45fe5eec0/langevals_aws-0.1.2.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-core]: Downloading https://files.pythonhosted.org/packages/52/11/6c192c30f835913186d00b4689afbe8d0c4b1fa9cf3d79375920d9cba3a1/langevals_core-0.1.3.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-google-cloud]: Downloading https://files.pythonhosted.org/packages/80/32/a8aa4ec30adaef089f352304bce5e34675da3acd7a2d943483690a3c0605/langevals_google_cloud-0.1.3.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-azure]: Downloading https://files.pythonhosted.org/packages/c6/7d/14400a434e517feb642be3b88a6708bbebc185305a13b22839f374033438/langevals_azure-0.1.3.tar.gz
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-custom]: executing diffoscope
+[2024-05-08 12:18:47] INFO root fetch - processPackages [langevals-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_custom-0.1.1.tar.gz tmp/langevals_custom-0.1.2.tar.gz --markdown 20240508/l/langevals-custom/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:18:47] INFO root fetch - processPackages [drf-standardized-response]: executing diffoscope
+[2024-05-08 12:18:47] INFO root fetch - processPackages [drf-standardized-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_standardized_response-0.2.tar.gz tmp/drf_standardized_response-1.tar.gz --markdown 20240508/d/drf-standardized-response/0.2-1/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-example]: Downloading https://files.pythonhosted.org/packages/29/48/90287901d7c508759bbf2a232f60f71c5b7b84d09bd6d9c05084e7b47c17/langevals_example-0.1.4.tar.gz
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-core]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_core-0.1.2.tar.gz tmp/langevals_core-0.1.3.tar.gz --markdown 20240508/l/langevals-core/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-azure]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_azure-0.1.2.tar.gz tmp/langevals_azure-0.1.3.tar.gz --markdown 20240508/l/langevals-azure/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [treasury-gov-pandas]: Downloading https://files.pythonhosted.org/packages/23/54/95175fd694430584cb6b538cad5d1a5af6c80ae69865e1cc79345b5ecef7/treasury_gov_pandas-0.0.4a0.tar.gz
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-aws]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_aws-0.1.1.tar.gz tmp/langevals_aws-0.1.2.tar.gz --markdown 20240508/l/langevals-aws/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-google-cloud]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-google-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_google_cloud-0.1.2.tar.gz tmp/langevals_google_cloud-0.1.3.tar.gz --markdown 20240508/l/langevals-google-cloud/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-example]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [langevals-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_example-0.1.3.tar.gz tmp/langevals_example-0.1.4.tar.gz --markdown 20240508/l/langevals-example/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [treasury-gov-pandas]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [treasury-gov-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treasury_gov_pandas-0.0.4.tar.gz tmp/treasury_gov_pandas-0.0.4a0.tar.gz --markdown 20240508/t/treasury-gov-pandas/0.0.4-0.0.4a0/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-05-08 12:18:48] INFO root fetch - processPackages [kolla-ansible]: Downloading https://files.pythonhosted.org/packages/42/40/b1d9731255943574e8388c077aab6f04e206dde9dad17c26dfb2001df162/kolla-ansible-9.3.2.tar.gz
+[2024-05-08 12:18:48] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240508/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-08 12:18:48] INFO root fetch - processPackages [kolla-ansible]: executing diffoscope
+[2024-05-08 12:18:48] INFO root fetch - processPackages [kolla-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolla-ansible-9.3.1.tar.gz tmp/kolla-ansible-9.3.2.tar.gz --markdown 20240508/k/kolla-ansible/9.3.1-9.3.2/README.md --exclude *.pyd
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-custom]: Remove: archive file [/home/abi/fetcher/tmp/langevals_custom-0.1.1.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-custom]: Remove: archive file [/home/abi/fetcher/tmp/langevals_custom-0.1.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-custom]: Start processing: langevals-huggingface
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-custom]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-huggingface]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-core]: Remove: archive file [/home/abi/fetcher/tmp/langevals_core-0.1.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-core]: Remove: archive file [/home/abi/fetcher/tmp/langevals_core-0.1.3.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-core]: Start processing: langevals-langevals
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-core]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-azure]: Remove: archive file [/home/abi/fetcher/tmp/langevals_azure-0.1.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-0.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-azure]: Remove: archive file [/home/abi/fetcher/tmp/langevals_azure-0.1.3.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [drf-standardized-response]: Remove: archive file [/home/abi/fetcher/tmp/drf_standardized_response-1.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-azure]: Start processing: langevals-lingua
+[2024-05-08 12:18:49] INFO root fetch - processPackages [drf-standardized-response]: Start processing: langevals-openai
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-azure]: success
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [drf-standardized-response]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-aws]: Remove: archive file [/home/abi/fetcher/tmp/langevals_aws-0.1.1.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-aws]: Remove: archive file [/home/abi/fetcher/tmp/langevals_aws-0.1.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-aws]: Start processing: langevals-ragas
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-aws]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-langevals]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-openai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-lingua]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-huggingface]: Downloading https://files.pythonhosted.org/packages/b4/31/849269cc9210c0ae17d72cf6e1e3eaa9c7db06dc2346b97fb1c2f6d9f7f7/langevals_huggingface-0.1.1.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-google-cloud]: Remove: archive file [/home/abi/fetcher/tmp/langevals_google_cloud-0.1.2.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-google-cloud]: Remove: archive file [/home/abi/fetcher/tmp/langevals_google_cloud-0.1.3.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-google-cloud]: Start processing: langevals
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-google-cloud]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-ragas]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-example]: Remove: archive file [/home/abi/fetcher/tmp/langevals_example-0.1.3.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-example]: Remove: archive file [/home/abi/fetcher/tmp/langevals_example-0.1.4.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [langevals-example]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-openai]: Downloading https://files.pythonhosted.org/packages/f9/87/f21424b4ea6e5408f696b1b77ce54b6679de536f8474e7ec7b82a73f20d5/langevals_openai-0.1.2.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-langevals]: Downloading https://files.pythonhosted.org/packages/d0/74/0fcde36a19018c31062f048d8beb1b0ed10610945be2ee620b83e92857f2/langevals_langevals-0.1.1.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-lingua]: Downloading https://files.pythonhosted.org/packages/2a/c7/6f8a97bfd16c9e4522da64f6c4f56b727900d78bed1b6f771faeeb06bd1a/langevals_lingua-0.1.1.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals]: Downloading https://files.pythonhosted.org/packages/2d/0e/49c8304b144cf96c0faf910f53d9fbbea298b3f3a3479dc0b6d76fc005be/langevals-0.1.3.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.4.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - processPackages [treasury-gov-pandas]: Remove: archive file [/home/abi/fetcher/tmp/treasury_gov_pandas-0.0.4a0.tar.gz]
+[2024-05-08 12:18:49] INFO root fetch - main [MainThread]: End processing [treasury-gov-pandas]: success
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-huggingface]: Downloading https://files.pythonhosted.org/packages/17/0f/673359cf948625f191382732b75bba87aaef7a664e5db57733b782387d19/langevals_huggingface-0.1.2.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-ragas]: Downloading https://files.pythonhosted.org/packages/5a/05/8a342f8c6e9a4e1a4268cb071b9930dbd29f0c3e3e93a6aedc69f9de5e22/langevals_ragas-0.1.2.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-openai]: Downloading https://files.pythonhosted.org/packages/bd/54/aa74302b2fe425be8f3e84bc9a5b7896c193088f5324f5170ed4714e501d/langevals_openai-0.1.3.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-langevals]: Downloading https://files.pythonhosted.org/packages/1b/a8/ad641f3a38fdca45c4333eb99c5379d98eb97abf8441959d715f242f15c0/langevals_langevals-0.1.2.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-huggingface]: executing diffoscope
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_huggingface-0.1.1.tar.gz tmp/langevals_huggingface-0.1.2.tar.gz --markdown 20240508/l/langevals-huggingface/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals-lingua]: Downloading https://files.pythonhosted.org/packages/a8/a0/5a4cab01a260fce3b3f99f6f837914ac54076b1e6af2847c2d0c6b89dd10/langevals_lingua-0.1.2.tar.gz
+[2024-05-08 12:18:49] INFO root fetch - processPackages [langevals]: Downloading https://files.pythonhosted.org/packages/f1/18/66d8bc4b15d297961f9cf59a59070055a5626d72853fcd2225c547481ce8/langevals-0.1.4.tar.gz
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-openai]: executing diffoscope
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_openai-0.1.2.tar.gz tmp/langevals_openai-0.1.3.tar.gz --markdown 20240508/l/langevals-openai/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-langevals]: executing diffoscope
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-langevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_langevals-0.1.1.tar.gz tmp/langevals_langevals-0.1.2.tar.gz --markdown 20240508/l/langevals-langevals/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-ragas]: Downloading https://files.pythonhosted.org/packages/3a/85/0c9e901a1bed8b6cee83e7da91cbf7ae0d723beb098a3081e5236bc6d554/langevals_ragas-0.1.3.tar.gz
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-lingua]: executing diffoscope
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-lingua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_lingua-0.1.1.tar.gz tmp/langevals_lingua-0.1.2.tar.gz --markdown 20240508/l/langevals-lingua/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals]: executing diffoscope
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals-0.1.3.tar.gz tmp/langevals-0.1.4.tar.gz --markdown 20240508/l/langevals/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-ragas]: executing diffoscope
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langevals_ragas-0.1.2.tar.gz tmp/langevals_ragas-0.1.3.tar.gz --markdown 20240508/l/langevals-ragas/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-08 12:18:50] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-openai]: Remove: archive file [/home/abi/fetcher/tmp/langevals_openai-0.1.2.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-openai]: Remove: archive file [/home/abi/fetcher/tmp/langevals_openai-0.1.3.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - main [MainThread]: End processing [langevals-openai]: success
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/langevals_huggingface-0.1.1.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/langevals_huggingface-0.1.2.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - main [MainThread]: End processing [langevals-huggingface]: success
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-langevals]: Remove: archive file [/home/abi/fetcher/tmp/langevals_langevals-0.1.1.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - processPackages [langevals-langevals]: Remove: archive file [/home/abi/fetcher/tmp/langevals_langevals-0.1.2.tar.gz]
+[2024-05-08 12:18:50] INFO root fetch - main [MainThread]: End processing [langevals-langevals]: success
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals-ragas]: Remove: archive file [/home/abi/fetcher/tmp/langevals_ragas-0.1.2.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals-ragas]: Remove: archive file [/home/abi/fetcher/tmp/langevals_ragas-0.1.3.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - main [MainThread]: End processing [langevals-ragas]: success
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals]: Remove: archive file [/home/abi/fetcher/tmp/langevals-0.1.3.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals]: Remove: archive file [/home/abi/fetcher/tmp/langevals-0.1.4.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - main [MainThread]: End processing [langevals]: success
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals-lingua]: Remove: archive file [/home/abi/fetcher/tmp/langevals_lingua-0.1.1.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - processPackages [langevals-lingua]: Remove: archive file [/home/abi/fetcher/tmp/langevals_lingua-0.1.2.tar.gz]
+[2024-05-08 12:18:51] INFO root fetch - main [MainThread]: End processing [langevals-lingua]: success
+[2024-05-08 12:18:56] INFO root fetch - processPackages [kolla-ansible]: Remove: archive file [/home/abi/fetcher/tmp/kolla-ansible-9.3.1.tar.gz]
+[2024-05-08 12:18:56] INFO root fetch - processPackages [kolla-ansible]: Remove: archive file [/home/abi/fetcher/tmp/kolla-ansible-9.3.2.tar.gz]
+[2024-05-08 12:18:56] INFO root fetch - main [MainThread]: End processing [kolla-ansible]: success
+[2024-05-08 12:18:56] INFO root fetch - main [MainThread]: Store serial: [23111901]
