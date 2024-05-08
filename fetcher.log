@@ -17811,3 +17811,64 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2024-05-08 11:49:50] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.2.tar.gz]
 [2024-05-08 11:49:50] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
 [2024-05-08 11:49:50] INFO root fetch - main [MainThread]: Store serial: [23111580]
+[2024-05-08 11:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23111580]
+[2024-05-08 11:51:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sarcharts
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataset-tools
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-binance
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onestop-opensign
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Spider-ToolsBox
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-harlequin
+[2024-05-08 11:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencf
+[2024-05-08 11:52:00] INFO root fetch - processPackages [onestop-opensign]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [Spider-ToolsBox]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [sarcharts]: New version: [0.1.0] Old Version: [0.0.1.dev83]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [trio-binance]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [opencf]: New version: [0.3.1a0] Old Version: [0.3.1]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [django-harlequin]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.82]
+[2024-05-08 11:52:00] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/fb/4f/c06cba44aaa80dd1b6878e8c934962881a0c746db1a0ff2d2ce4eb22ac71/Spider_ToolsBox-0.0.2.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/23/4f/f72e6e1319af47803b32c4470b62d37ee5869dd4ebf4b812737ebb293d31/sarcharts-0.0.1.dev83.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/5b/c3/7240d7988988306e06887ce072b3d351ef59d4c539b3faf1c54c2967241b/trio_binance-0.3.3.tar.gz
+[2024-05-08 11:52:00] ERROR root fetch - processPackages [onestop-opensign]: Unable to fetch info: No such project/version 'onestop-opensign' 0.1.1
+[2024-05-08 11:52:00] INFO root fetch - main [MainThread]: End processing [onestop-opensign] error
+[2024-05-08 11:52:00] INFO root fetch - processPackages [opencf]: Downloading https://files.pythonhosted.org/packages/6f/f2/f961441904a4e37b163629449bdc07af629feb0e566da9d4bfca0bb84876/opencf-0.3.1.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/53/7c/1cc805a788606119c17d02adc9f057c39f6a362575716998484a4dfde1a2/dataset_tools-0.0.82.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [django-harlequin]: Downloading https://files.pythonhosted.org/packages/07/4e/b89bae9102ca94ba1475b6a144b3c72120cb99dfdc0c153248e641f7cf6a/django_harlequin-1.1.0.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [trio-binance]: Downloading https://files.pythonhosted.org/packages/4e/04/7d95d1a8fcc8f5bd039255d4b39a2daa96502b5f180cc276632d1f3253b7/trio_binance-0.3.4.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [sarcharts]: Downloading https://files.pythonhosted.org/packages/73/48/e5bc015d94b61eab71c5050ea393547348578b8f7f2c4016e858faaf0eba/sarcharts-0.1.0.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [Spider-ToolsBox]: Downloading https://files.pythonhosted.org/packages/6f/ad/9ebfe6adeeee224284eda1ec64ce038a6046fd5e6f5344ad14e2c4815b80/Spider_ToolsBox-0.0.3.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [trio-binance]: executing diffoscope
+[2024-05-08 11:52:00] INFO root fetch - processPackages [trio-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_binance-0.3.3.tar.gz tmp/trio_binance-0.3.4.tar.gz --markdown 20240508/t/trio-binance/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-08 11:52:00] INFO root fetch - processPackages [Spider-ToolsBox]: executing diffoscope
+[2024-05-08 11:52:00] INFO root fetch - processPackages [Spider-ToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spider_ToolsBox-0.0.2.tar.gz tmp/Spider_ToolsBox-0.0.3.tar.gz --markdown 20240508/S/Spider-ToolsBox/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-08 11:52:00] INFO root fetch - processPackages [sarcharts]: executing diffoscope
+[2024-05-08 11:52:00] INFO root fetch - processPackages [sarcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcharts-0.0.1.dev83.tar.gz tmp/sarcharts-0.1.0.tar.gz --markdown 20240508/s/sarcharts/0.0.1.dev83-0.1.0/README.md --exclude *.pyd
+[2024-05-08 11:52:00] INFO root fetch - processPackages [django-harlequin]: Downloading https://files.pythonhosted.org/packages/09/19/de7c09240e3a8c48f86f058cc5c8821725f6a3adf10c9ce0c333d345dc38/django_harlequin-1.1.1.tar.gz
+[2024-05-08 11:52:00] INFO root fetch - processPackages [opencf]: Downloading https://files.pythonhosted.org/packages/28/e3/3de13d07015f10ebf8c6fd3dfa010a8c30d5a9d196006690d09ef61b70b7/opencf-0.3.1a0.tar.gz
+[2024-05-08 11:52:01] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-05-08 11:52:01] INFO root fetch - processPackages [django-harlequin]: executing diffoscope
+[2024-05-08 11:52:01] INFO root fetch - processPackages [django-harlequin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_harlequin-1.1.0.tar.gz tmp/django_harlequin-1.1.1.tar.gz --markdown 20240508/d/django-harlequin/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 11:52:01] INFO root fetch - processPackages [opencf]: executing diffoscope
+[2024-05-08 11:52:01] INFO root fetch - processPackages [opencf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencf-0.3.1.tar.gz tmp/opencf-0.3.1a0.tar.gz --markdown 20240508/o/opencf/0.3.1-0.3.1a0/README.md --exclude *.pyd
+[2024-05-08 11:52:01] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-05-08 11:52:01] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_tools-0.0.82.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240508/d/dataset-tools/0.0.82-0.0.9/README.md --exclude *.pyd
+[2024-05-08 11:52:01] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.3.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - processPackages [trio-binance]: Remove: archive file [/home/abi/fetcher/tmp/trio_binance-0.3.4.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - main [MainThread]: End processing [trio-binance]: success
+[2024-05-08 11:52:01] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.2.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - processPackages [Spider-ToolsBox]: Remove: archive file [/home/abi/fetcher/tmp/Spider_ToolsBox-0.0.3.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - main [MainThread]: End processing [Spider-ToolsBox]: success
+[2024-05-08 11:52:01] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.0.1.dev83.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - processPackages [sarcharts]: Remove: archive file [/home/abi/fetcher/tmp/sarcharts-0.1.0.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - main [MainThread]: End processing [sarcharts]: success
+[2024-05-08 11:52:01] INFO root fetch - processPackages [opencf]: Remove: archive file [/home/abi/fetcher/tmp/opencf-0.3.1.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - processPackages [opencf]: Remove: archive file [/home/abi/fetcher/tmp/opencf-0.3.1a0.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - main [MainThread]: End processing [opencf]: success
+[2024-05-08 11:52:01] INFO root fetch - processPackages [django-harlequin]: Remove: archive file [/home/abi/fetcher/tmp/django_harlequin-1.1.0.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - processPackages [django-harlequin]: Remove: archive file [/home/abi/fetcher/tmp/django_harlequin-1.1.1.tar.gz]
+[2024-05-08 11:52:01] INFO root fetch - main [MainThread]: End processing [django-harlequin]: success
+[2024-05-08 11:52:02] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset_tools-0.0.82.tar.gz]
+[2024-05-08 11:52:02] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-05-08 11:52:02] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-05-08 11:52:02] INFO root fetch - main [MainThread]: Store serial: [23111600]
