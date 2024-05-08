@@ -13940,3 +13940,45 @@
 [2024-05-08 09:53:44] INFO root fetch - processPackages [SleepHarmonizer]: Remove: archive file [/home/abi/fetcher/tmp/SleepHarmonizer-0.2.1.tar.gz]
 [2024-05-08 09:53:44] INFO root fetch - main [MainThread]: End processing [SleepHarmonizer]: success
 [2024-05-08 09:53:44] INFO root fetch - main [MainThread]: Store serial: [23110064]
+[2024-05-08 09:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23110064]
+[2024-05-08 09:55:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-08 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bakapi-v2
+[2024-05-08 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidb-vector
+[2024-05-08 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fortls
+[2024-05-08 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kibo-unibs-fp-lib
+[2024-05-08 09:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splinebox
+[2024-05-08 09:55:53] WARNING root fetch - processPackages [bakapi-v2]: Skipping, unable to determine old version
+[2024-05-08 09:55:53] INFO root fetch - main [MainThread]: End processing [bakapi-v2] error
+[2024-05-08 09:55:53] INFO root fetch - processPackages [tidb-vector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-08 09:55:53] INFO root fetch - processPackages [kibo-unibs-fp-lib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-08 09:55:53] INFO root fetch - processPackages [splinebox]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2024-05-08 09:55:53] INFO root fetch - processPackages [fortls]: New version: [3.0.0rc5] Old Version: [3.0.0rc4]
+[2024-05-08 09:55:53] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Downloading https://files.pythonhosted.org/packages/57/77/69ef88df2a69bcc107d1cd3752770569a03d18644c3b3368befa107de97d/kibo_unibs_fp_lib-1.1.0.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [tidb-vector]: Downloading https://files.pythonhosted.org/packages/d7/b1/313bb4736046c004492d01464c8209be5a3f5215d955e06aa4f825b81ff6/tidb_vector-0.0.8.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [fortls]: Downloading https://files.pythonhosted.org/packages/f1/44/d5a2a2ad24df455ea545f4cbdaf1b7422d49c9da994ea99a627b48dfacb8/fortls-3.0.0rc4.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [splinebox]: Downloading https://files.pythonhosted.org/packages/71/bb/586d302a9dc567de3c2c3ba8e54e363015e4f863b4608b4d44e7dc859937/splinebox-0.0.1a0.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Downloading https://files.pythonhosted.org/packages/12/ba/249f856e7d6bd9d67560636c5b44224a68bddb69430833287b2aea4333e8/kibo_unibs_fp_lib-1.1.1.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [tidb-vector]: Downloading https://files.pythonhosted.org/packages/1a/98/ab324fdfbbf064186ca621e21aa3871ddf886ecb78358a9864509241e802/tidb_vector-0.0.9.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [splinebox]: Downloading https://files.pythonhosted.org/packages/9b/32/ab21eec49ff34972b0ebc01a66e1450eb2b7290a3d360cb5985115e4ffd6/splinebox-0.0.2a0.tar.gz
+[2024-05-08 09:55:53] INFO root fetch - processPackages [kibo-unibs-fp-lib]: executing diffoscope
+[2024-05-08 09:55:53] INFO root fetch - processPackages [kibo-unibs-fp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kibo_unibs_fp_lib-1.1.0.tar.gz tmp/kibo_unibs_fp_lib-1.1.1.tar.gz --markdown 20240508/k/kibo-unibs-fp-lib/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-08 09:55:53] INFO root fetch - processPackages [tidb-vector]: executing diffoscope
+[2024-05-08 09:55:53] INFO root fetch - processPackages [tidb-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidb_vector-0.0.8.tar.gz tmp/tidb_vector-0.0.9.tar.gz --markdown 20240508/t/tidb-vector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-08 09:55:53] INFO root fetch - processPackages [splinebox]: executing diffoscope
+[2024-05-08 09:55:53] INFO root fetch - processPackages [splinebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splinebox-0.0.1a0.tar.gz tmp/splinebox-0.0.2a0.tar.gz --markdown 20240508/s/splinebox/0.0.1a0-0.0.2a0/README.md --exclude *.pyd
+[2024-05-08 09:55:54] INFO root fetch - processPackages [fortls]: Downloading https://files.pythonhosted.org/packages/39/7b/fd300b91b544746c0bd3cca386d26a4adda43f806f49b11002a10ebe546b/fortls-3.0.0rc5.tar.gz
+[2024-05-08 09:55:54] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Remove: archive file [/home/abi/fetcher/tmp/kibo_unibs_fp_lib-1.1.0.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - processPackages [kibo-unibs-fp-lib]: Remove: archive file [/home/abi/fetcher/tmp/kibo_unibs_fp_lib-1.1.1.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - main [MainThread]: End processing [kibo-unibs-fp-lib]: success
+[2024-05-08 09:55:54] INFO root fetch - processPackages [fortls]: executing diffoscope
+[2024-05-08 09:55:54] INFO root fetch - processPackages [fortls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortls-3.0.0rc4.tar.gz tmp/fortls-3.0.0rc5.tar.gz --markdown 20240508/f/fortls/3.0.0rc4-3.0.0rc5/README.md --exclude *.pyd
+[2024-05-08 09:55:54] INFO root fetch - processPackages [tidb-vector]: Remove: archive file [/home/abi/fetcher/tmp/tidb_vector-0.0.8.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - processPackages [tidb-vector]: Remove: archive file [/home/abi/fetcher/tmp/tidb_vector-0.0.9.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - main [MainThread]: End processing [tidb-vector]: success
+[2024-05-08 09:55:54] INFO root fetch - processPackages [splinebox]: Remove: archive file [/home/abi/fetcher/tmp/splinebox-0.0.1a0.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - processPackages [splinebox]: Remove: archive file [/home/abi/fetcher/tmp/splinebox-0.0.2a0.tar.gz]
+[2024-05-08 09:55:54] INFO root fetch - main [MainThread]: End processing [splinebox]: success
+[2024-05-08 09:55:56] INFO root fetch - processPackages [fortls]: Remove: archive file [/home/abi/fetcher/tmp/fortls-3.0.0rc4.tar.gz]
+[2024-05-08 09:55:56] INFO root fetch - processPackages [fortls]: Remove: archive file [/home/abi/fetcher/tmp/fortls-3.0.0rc5.tar.gz]
+[2024-05-08 09:55:56] INFO root fetch - main [MainThread]: End processing [fortls]: success
+[2024-05-08 09:55:56] INFO root fetch - main [MainThread]: Store serial: [23110084]
