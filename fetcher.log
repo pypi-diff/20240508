@@ -2620,3 +2620,68 @@
 [2024-05-08 02:22:49] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.0-py3-none-any.whl.zip]
 [2024-05-08 02:22:49] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
 [2024-05-08 02:22:49] INFO root fetch - main [MainThread]: Store serial: [23105332]
+[2024-05-08 02:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23105332]
+[2024-05-08 02:24:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-ecs-service-extensions
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEURON-nightly
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Stricture
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Simplex
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NMODL-nightly
+[2024-05-08 02:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-aurora-globaldatabase
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-08 02:24:58] WARNING root fetch - processPackages [Stricture]: Skipping, unable to determine old version
+[2024-05-08 02:24:58] INFO root fetch - main [MainThread]: End processing [Stricture] error
+[2024-05-08 02:24:58] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev239] Old Version: [9.0a1.dev238]
+[2024-05-08 02:24:58] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.7.5rc1] Old Version: [6.7.5]
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-08 02:24:58] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-08 02:24:59] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-05-08 02:24:59] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/26/f7/aeac41db7248f333bdb88071768822831686048b15c378709b26bc1b5374/Geode_Simplex-6.7.5-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-08 02:24:59] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/b6/33/266488fd02be32217d5c00d60a1465569a0e5fe3842071f12538d6b06662/NEURON_nightly-9.0a1.dev238-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240508/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-08 02:24:59] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 26082069>=10485760
+[2024-05-08 02:24:59] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240508/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-08 02:24:59] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240508/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-08 02:24:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-08 02:25:00] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-08 02:25:00] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-08 02:25:00] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-08 02:25:00] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240508/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-08 02:25:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240508/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-08 02:25:00] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/4e/14/6f1a2a22684d6e4f57951ba3306e03d6a551cb360d0c5ceb8a86cca9fcca/Geode_Simplex-6.7.5rc1-cp39-cp39-win_amd64.whl
+[2024-05-08 02:25:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-08 02:25:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-08 02:25:01] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-08 02:25:02] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-08 02:25:02] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.7.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Simplex-6.7.5rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240508/G/Geode-Simplex/6.7.5-6.7.5rc1/README.md --exclude *.pyd
+[2024-05-08 02:25:03] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-08 02:25:03] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.7.5rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-08 02:25:03] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-08 02:26:52] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 02:26:52] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-08 02:26:52] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-08 02:26:52] INFO root fetch - main [MainThread]: Store serial: [23105368]
