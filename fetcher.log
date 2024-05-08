@@ -11247,3 +11247,27 @@
 [2024-05-08 07:33:06] INFO root fetch - processPackages [flict]: Remove: archive file [/home/abi/fetcher/tmp/flict-1.2.9.tar.gz]
 [2024-05-08 07:33:06] INFO root fetch - main [MainThread]: End processing [flict]: success
 [2024-05-08 07:33:06] INFO root fetch - main [MainThread]: Store serial: [23108560]
+[2024-05-08 07:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23108560]
+[2024-05-08 07:35:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-08 07:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-ironicclient
+[2024-05-08 07:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-product-attribute
+[2024-05-08 07:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NetHyTech-MCV
+[2024-05-08 07:35:14] WARNING root fetch - processPackages [NetHyTech-MCV]: Skipping, unable to determine old version
+[2024-05-08 07:35:14] INFO root fetch - main [MainThread]: End processing [NetHyTech-MCV] error
+[2024-05-08 07:35:14] INFO root fetch - processPackages [python-ironicclient]: New version: [5.6.0] Old Version: [5.5.0]
+[2024-05-08 07:35:14] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20240507.0] Old Version: [16.0.20240415.0]
+[2024-05-08 07:35:14] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/5e/73/2d6bfd0313f89dee3aa3cbba592d8b4d2f248dba3759f90e741d9210821f/python-ironicclient-5.5.0.tar.gz
+[2024-05-08 07:35:14] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/94/c2/e184e9ad4b7343fa385a81d96e75fd3fcef961369f9a90b82bb3bf2c73c2/odoo_addons_oca_product_attribute-16.0.20240415.0-py3-none-any.whl
+[2024-05-08 07:35:15] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/22/4b/ef8344a139483e0ea40bc20e1c9a62f0f08b5d0880ac8c8a4cf7ba72eac6/odoo_addons_oca_product_attribute-16.0.20240507.0-py3-none-any.whl
+[2024-05-08 07:35:15] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2024-05-08 07:35:15] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20240415.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20240507.0-py3-none-any.whl.zip --markdown 20240508/o/odoo-addons-oca-product-attribute/16.0.20240415.0-16.0.20240507.0/README.md --exclude *.pyd
+[2024-05-08 07:35:15] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/59/a2/2da8f4b6e897bbe8c13fcd011685d53f1e1ba58462ddd8996744c550b966/python-ironicclient-5.6.0.tar.gz
+[2024-05-08 07:35:15] INFO root fetch - processPackages [python-ironicclient]: executing diffoscope
+[2024-05-08 07:35:15] INFO root fetch - processPackages [python-ironicclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240508:/home/abi/fetcher/20240508:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ironicclient-5.5.0.tar.gz tmp/python-ironicclient-5.6.0.tar.gz --markdown 20240508/p/python-ironicclient/5.5.0-5.6.0/README.md --exclude *.pyd
+[2024-05-08 07:35:15] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-08 07:35:15] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240507.0-py3-none-any.whl.zip]
+[2024-05-08 07:35:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2024-05-08 07:35:16] INFO root fetch - processPackages [python-ironicclient]: Remove: archive file [/home/abi/fetcher/tmp/python-ironicclient-5.5.0.tar.gz]
+[2024-05-08 07:35:16] INFO root fetch - processPackages [python-ironicclient]: Remove: archive file [/home/abi/fetcher/tmp/python-ironicclient-5.6.0.tar.gz]
+[2024-05-08 07:35:16] INFO root fetch - main [MainThread]: End processing [python-ironicclient]: success
+[2024-05-08 07:35:16] INFO root fetch - main [MainThread]: Store serial: [23108572]
